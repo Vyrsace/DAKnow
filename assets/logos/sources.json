@@ -3,19 +3,15 @@
     {
       "title": "DarkAges",
       "asset": "assets/logos/darkages.png",
-      "source_page": "https://www.kru.com/index.html",
-      "asset_url": "https://www.kru.com/image/post/home-2.png",
-      "width": 220,
-      "height": 170,
-      "sha256": "9d7df07b934b1a9554cc0be6fb70dcfc708d17b13f13cff3828afca5c51b7433",
-      "description": "Official publisher page links Dark Ages at darkages.com and uses this intact promotional tile. Visually inspected complete game wordmark and artwork. No cropping, recoloring, or generation.",
+      "width": 747,
+      "height": 421,
+      "sha256": "68dc3485b3b240ad421d605fcd348315d81f5b601be6e8c7e02ce65c20e20228",
+      "description": "Original Nexon promotional artwork supplied by the catalog owner. The browser crops left-side background for display; the source PNG is unchanged.",
       "unchanged": true
     },
     {
       "title": "Legends of Darkness / 어둠의 전설",
       "asset": "assets/logos/legends-of-darkness.png",
-      "source_page": "https://lod.nexon.com/home/index",
-      "asset_url": "https://lwi.nexon.com/lod/renewal/brand/sub/modal_logo.png",
       "width": 252,
       "height": 64,
       "sha256": "67b8007711cf5148e75aef6d2a1374b59c77151e8c974bd798e9b1e6c5e4f4be",
@@ -25,8 +21,6 @@
     {
       "title": "Yami / 闇の伝説",
       "asset": "assets/logos/yami.png",
-      "source_page": "https://web.archive.org/web/20041207152352/http://gamewww.nexon.co.jp/yami/index2.html",
-      "asset_url": "https://web.archive.org/web/20041012030010id_/http://gamewww.nexon.co.jp/yami/top.swf",
       "width": 620,
       "height": 75,
       "sha256": "4c74b0e4df696bc2116ced9ddaee4632d10b15f3a7636970ed0f20309192e3cc",
@@ -36,8 +30,6 @@
     {
       "title": "Legends of Orphelias",
       "asset": "assets/logos/legends-malaysia.jpg",
-      "source_page": "https://web.archive.org/web/20011027005937id_/http://legends.time.net.my/about.cfm",
-      "asset_url": "https://web.archive.org/web/20020818161559id_/http://legends.time.net.my/images/legend_logo.jpg",
       "width": 200,
       "height": 135,
       "sha256": "b03faac589a2a36250815ab59c3eec5f87e5809357132354e3baf281a5b66644",
@@ -47,8 +39,6 @@
     {
       "title": "Legends of Temuair",
       "asset": "assets/logos/legends-malaysia.jpg",
-      "source_page": "https://web.archive.org/web/20020601094908id_/http://legends.time.net.my/about.cfm",
-      "asset_url": "https://web.archive.org/web/20020818161559id_/http://legends.time.net.my/images/legend_logo.jpg",
       "width": 200,
       "height": 135,
       "sha256": "b03faac589a2a36250815ab59c3eec5f87e5809357132354e3baf281a5b66644",
