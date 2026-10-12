@@ -44,6 +44,36 @@
       "sha256": "b03faac589a2a36250815ab59c3eec5f87e5809357132354e3baf281a5b66644",
       "description": "Use this intact authentic shared LEGENDS logo image unchanged in both Malaysian title cards. It is the same byte-identical original publisher asset in both eras, rather than a fabricated individual title wordmark.",
       "unchanged": true
+    },
+    {
+      "title": "Asgard",
+      "asset": "assets/logos/asgard.png",
+      "width": 174,
+      "height": 52,
+      "sha256": "f824e52bcac55c53de5b43ed03dd7d6ad4da8b1319a7de808ca6259003147b7b",
+      "source_url": "https://lwi.nexon.com/asgard/home/common/logo_JKS3GN4TOHJGSDJF.png",
+      "description": "Original publisher asset copied unchanged.",
+      "unchanged": true
+    },
+    {
+      "title": "DarkAges (SGDA)",
+      "asset": "assets/logos/darkages-singapore.gif",
+      "width": 360,
+      "height": 152,
+      "sha256": "ba2403a721a6e46dd07d2930addaae0f81288cbed196d5a5ab1491cd2790681c",
+      "source_url": "https://web.archive.org/web/20021227115238id_/http://darkages.nexonasia.com/images/newtop/DAhead1.gif",
+      "description": "Original publisher asset copied unchanged.",
+      "unchanged": true
+    },
+    {
+      "title": "真世界",
+      "asset": "assets/logos/zhenshijie-wallpaper.jpg",
+      "width": 1024,
+      "height": 769,
+      "sha256": "58b129f53dbc1f11296b317473fa01849ae884d049f42d9a389c5b0dc1643e14",
+      "source_url": "https://web.archive.org/web/20011005234949id_/http://www.apexon-online.com.tw:80/da/images/wallpaper/dalogo1024.JPG",
+      "description": "Original publisher asset copied unchanged. Wordmark displayed using a CSS viewport crop; original wallpaper is intact.",
+      "unchanged": true
     }
   ]
 }
