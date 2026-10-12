@@ -23,6 +23,8 @@ These rules carry the user's standing request to review, verify, and troubleshoo
 - Research Notes use title-based groups, with General first. Sources remain one consolidated list in numeric Ref order. Preserve reference IDs and working cross-links. Both sections remain collapsed by default unless requested otherwise.
 - Title cards follow the shared metadata and paragraph layout. Keep company and country text left aligned, history before gameplay, native names on their own line, and date ranges without a "Released:" prefix. Maintain a usable desktop and mobile presentation.
 
+The catalog uses shared typography, spacing and download sizing tokens. A dedicated styling skill is pending the user’s next review and agreement on the visual direction.
+
 ## Change and review workflow
 
 1. Start from the latest published and accepted baseline. Check repository state and current deployment before applying a builder or script. Never rerun a stale builder that could revert accepted changes. Preserve unrelated content and work already in progress.
