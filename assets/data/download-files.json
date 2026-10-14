@@ -6,7 +6,7 @@
       "filename": "DARKAGES.EXE",
       "bytes": 14221202,
       "sha256": "a8c32856c2540511be5346cafad48f88394b640f54bb2025ca8a121a58681b70",
-      "classification": "Self-extracting InstallShield installer.",
+      "classification": "Self-extracting InstallShield Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:1 (verified-existing); Downloads/download-plan.json#/0; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -28,7 +28,7 @@
       "filename": "DarkAges_Key.exe",
       "bytes": 24786606,
       "sha256": "4bfae760982162755ef01675ef5f6bee95c156923f57b077fa8820f6cf48d966",
-      "classification": "Self-extracting InstallShield installer.",
+      "classification": "Self-extracting InstallShield Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:4 (verified-existing); Downloads/download-plan.json#/3; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -50,7 +50,7 @@
       "filename": "DarkAges_Key.exe",
       "bytes": 24786606,
       "sha256": "4bfae760982162755ef01675ef5f6bee95c156923f57b077fa8820f6cf48d966",
-      "classification": "Self-extracting InstallShield installer.",
+      "classification": "Self-extracting InstallShield Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:4 (verified-existing); Downloads/download-plan.json#/3; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -72,7 +72,7 @@
       "filename": "darkages.exe",
       "bytes": 25357414,
       "sha256": "79d900b2cf4ed86d61667f883dc659bea1452267ab3530d3f4db8ea95f2f039e",
-      "classification": "Self-extracting InstallShield installer.",
+      "classification": "Self-extracting InstallShield Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:7 (verified-existing); Downloads/download-plan.json#/6; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -94,7 +94,7 @@
       "filename": "DarkAges_Key_split.exe",
       "bytes": 5427200,
       "sha256": "d0f46b9c6508e026c71da12dd1b9b536807337e1d80dc22ca74ecdd920cd8a87",
-      "classification": "Wise installer, part 1; companion volumes missing (self-extracting EXE).",
+      "classification": "Wise Installer, part 1; companion volumes missing (self-extracting EXE)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:8 (verified-existing); Downloads/download-plan.json#/7; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -116,7 +116,7 @@
       "filename": "SG_CD.bin",
       "bytes": 422953104,
       "sha256": "2d9c13ac188813ac3d677c50d618f304036d14dcb53768c52776e6e50d061a87",
-      "classification": "CD image containing a self-extracting Wise installer (daSetup.exe).",
+      "classification": "CD image (BIN/CUE) containing a self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:9 (verified-existing); Downloads/download-plan.json#/8; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -138,7 +138,7 @@
       "filename": "DarkAges_Key.exe",
       "bytes": 21176562,
       "sha256": "888b03f253c368b09086bd64cfbbd66eb0371062f44bafeedd8e2e4fb0aff59a",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:10 (verified-existing); Downloads/download-plan.json#/9; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -160,7 +160,7 @@
       "filename": "DarkAges_key.exe",
       "bytes": 21910290,
       "sha256": "4c027c989c17e6dc879c214ad56284754eddb781f1cb945c670111bb4c9f605b",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:11 (verified-existing); Downloads/download-plan.json#/10; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -182,7 +182,7 @@
       "filename": "DarkAges-3.61.exe",
       "bytes": 21910290,
       "sha256": "4c027c989c17e6dc879c214ad56284754eddb781f1cb945c670111bb4c9f605b",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:11 (verified-existing); Downloads/download-plan.json#/10; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -204,7 +204,7 @@
       "filename": "DarkAges-3.61.exe",
       "bytes": 21910290,
       "sha256": "4c027c989c17e6dc879c214ad56284754eddb781f1cb945c670111bb4c9f605b",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:11 (verified-existing); Downloads/download-plan.json#/10; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -226,7 +226,7 @@
       "filename": "DarkAges_Key_3.71.exe",
       "bytes": 21910290,
       "sha256": "4c027c989c17e6dc879c214ad56284754eddb781f1cb945c670111bb4c9f605b",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:11 (verified-existing); Downloads/download-plan.json#/10; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -248,7 +248,7 @@
       "filename": "DarkAges_Key_5.21.exe",
       "bytes": 21910290,
       "sha256": "4c027c989c17e6dc879c214ad56284754eddb781f1cb945c670111bb4c9f605b",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:11 (verified-existing); Downloads/download-plan.json#/10; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -270,7 +270,7 @@
       "filename": "DarkAges_Key_split.exe",
       "bytes": 5529600,
       "sha256": "b86f702da2c562ae11ec8c239cc0a4b1e8ad894f02bbc1566ffb312076c1664c",
-      "classification": "Wise installer, part 1 of 4 (self-extracting EXE).",
+      "classification": "Wise Installer, part 1 of 4 (self-extracting EXE)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:12 (verified-existing); Downloads/download-plan.json#/11; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -292,7 +292,7 @@
       "filename": "DarkAges_Key_split.W02",
       "bytes": 5529600,
       "sha256": "15b929784c5c60487bb7679acbea0dfce7150f226aad17db72c2f3a55188cf26",
-      "classification": "Wise installer, part 2 of 4 (installer data volume).",
+      "classification": "Wise Installer, part 2 of 4 (Installer data volume)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:13 (verified-existing); Downloads/download-plan.json#/12; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -314,7 +314,7 @@
       "filename": "DarkAges_Key_split.W03",
       "bytes": 5529600,
       "sha256": "4d21621360a002ff16ed69740b08a880c16cb6a887b5eef4a6e9e99dc15abbf9",
-      "classification": "Wise installer, part 3 of 4 (installer data volume).",
+      "classification": "Wise Installer, part 3 of 4 (Installer data volume)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:14 (verified-existing); Downloads/download-plan.json#/13; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -336,7 +336,7 @@
       "filename": "DarkAges_key_split.w04",
       "bytes": 5321491,
       "sha256": "1fc67f32e1afcdb10b165e7261aabd0e6c27fb084416d6abb2b6c4c995687664",
-      "classification": "Wise installer, part 4 of 4 (installer data volume).",
+      "classification": "Wise Installer, part 4 of 4 (Installer data volume)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:15 (verified-existing); Downloads/download-plan.json#/14; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -358,7 +358,7 @@
       "filename": "DarkAges-4.52.zip",
       "bytes": 35948781,
       "sha256": "2d1266c492af2cc45635658b7ed24625faad79be186a17a49e998aad8b80ff1a",
-      "classification": "ZIP archive containing the complete three-part Wise installer.",
+      "classification": "ZIP archive containing the complete three-part Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:46 (verified-existing); Downloads/download-plan.json#/45; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -380,7 +380,7 @@
       "filename": "DarkAges-4.52.zip",
       "bytes": 35948781,
       "sha256": "2d1266c492af2cc45635658b7ed24625faad79be186a17a49e998aad8b80ff1a",
-      "classification": "ZIP archive containing the complete three-part Wise installer.",
+      "classification": "ZIP archive containing the complete three-part Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:46 (verified-existing); Downloads/download-plan.json#/45; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -402,7 +402,7 @@
       "filename": "darkages_key.exe",
       "bytes": 14336000,
       "sha256": "e2dfe527eb20b3761e7ae3bcf6af2b7d20b95b24c12789f859f8477015a5db88",
-      "classification": "Wise installer, part 1 of 3 (self-extracting EXE).",
+      "classification": "Wise Installer, part 1 of 3 (self-extracting EXE)",
       "size_verification": "Fresh local size and SHA-256 check of exact original ZIP member Downloads/US - DarkAges/4.51/Client/Original/DarkAges-4.52.zip!darkages_key.exe; Downloads/deduplication.json#/decisions/1; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:47 (mirror-verified-not-retained); Downloads/download-plan.json#/46; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -429,7 +429,7 @@
       "filename": "darkages_key.w02",
       "bytes": 14336000,
       "sha256": "9ccf41656a0611b773e2404a73b698cd51b67dd1ccba667a55da64e283141a53",
-      "classification": "Wise installer, part 2 of 3 (installer data volume).",
+      "classification": "Wise Installer, part 2 of 3 (Installer data volume)",
       "size_verification": "Fresh local size and SHA-256 check of exact original ZIP member Downloads/US - DarkAges/4.51/Client/Original/DarkAges-4.52.zip!darkages_key.w02; Downloads/deduplication.json#/decisions/2; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:49 (mirror-verified-not-retained); Downloads/download-plan.json#/48; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -456,7 +456,7 @@
       "filename": "darkages_key.w03",
       "bytes": 7589018,
       "sha256": "f233950003bd366f695fd4968e2120e6f499d18b30667bb7c977140d2e123af0",
-      "classification": "Wise installer, part 3 of 3 (installer data volume).",
+      "classification": "Wise Installer, part 3 of 3 (Installer data volume)",
       "size_verification": "Fresh local size and SHA-256 check of exact original ZIP member Downloads/US - DarkAges/4.51/Client/Original/DarkAges-4.52.zip!darkages_key.w03; Downloads/deduplication.json#/decisions/0; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:48 (mirror-verified-not-retained); Downloads/download-plan.json#/47; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -483,7 +483,7 @@
       "filename": "DarkAges-5.21.zip",
       "bytes": 48286739,
       "sha256": "3b4b5495194ddd10fdd9e34d5504cca48766a8b3a959850f71a40eb18f69b902",
-      "classification": "ZIP archive containing the complete three-part Wise installer.",
+      "classification": "ZIP archive containing the complete three-part Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:52 (verified-existing); Downloads/download-plan.json#/51; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -505,7 +505,7 @@
       "filename": "darkages_key.exe",
       "bytes": 61139651,
       "sha256": "3ee0f20813bd4842c555fa3ebc1f7bdbc2d9d9c88092dcc7a3ba4709ba7aa771",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:56 (verified-existing); Downloads/download-plan.json#/55; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -527,7 +527,7 @@
       "filename": "darkages_key.exe",
       "bytes": 61139651,
       "sha256": "3ee0f20813bd4842c555fa3ebc1f7bdbc2d9d9c88092dcc7a3ba4709ba7aa771",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:56 (verified-existing); Downloads/download-plan.json#/55; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -549,7 +549,7 @@
       "filename": "darkages_key.exe",
       "bytes": 61139651,
       "sha256": "3ee0f20813bd4842c555fa3ebc1f7bdbc2d9d9c88092dcc7a3ba4709ba7aa771",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:56 (verified-existing); Downloads/download-plan.json#/55; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -571,7 +571,7 @@
       "filename": "darkages_key.exe",
       "bytes": 61139651,
       "sha256": "3ee0f20813bd4842c555fa3ebc1f7bdbc2d9d9c88092dcc7a3ba4709ba7aa771",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:56 (verified-existing); Downloads/download-plan.json#/55; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -593,7 +593,7 @@
       "filename": "DarkAges-5.51.exe",
       "bytes": 61139651,
       "sha256": "3ee0f20813bd4842c555fa3ebc1f7bdbc2d9d9c88092dcc7a3ba4709ba7aa771",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:56 (verified-existing); Downloads/download-plan.json#/55; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -615,7 +615,7 @@
       "filename": "DarkAges_Key_5.51.exe",
       "bytes": 61139651,
       "sha256": "3ee0f20813bd4842c555fa3ebc1f7bdbc2d9d9c88092dcc7a3ba4709ba7aa771",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:56 (verified-existing); Downloads/download-plan.json#/55; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -637,7 +637,7 @@
       "filename": "DA705_multi.exe",
       "bytes": 15360000,
       "sha256": "7e8184dbeb1d581a571193b349473c5de20a9b145bf543097b0823c566d07c2e",
-      "classification": "Wise installer, part 1 of 10 (self-extracting EXE).",
+      "classification": "Wise Installer, part 1 of 10 (self-extracting EXE)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:57 (downloaded-verified); Downloads/download-plan.json#/56; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -659,7 +659,7 @@
       "filename": "DA705_multi.W02",
       "bytes": 15360000,
       "sha256": "ddebcba797f615b6d85c18f390e86e4100571df7d0370853b29ac7356bf6c1e5",
-      "classification": "Wise installer, part 2 of 10 (installer data volume).",
+      "classification": "Wise Installer, part 2 of 10 (Installer data volume)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:58 (verified-existing); Downloads/download-plan.json#/57; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -681,7 +681,7 @@
       "filename": "DA705_multi.W03",
       "bytes": 15360000,
       "sha256": "da86a5489b1b502280c65c7f58478029e98559699287708a0ea3896b41ace960",
-      "classification": "Wise installer, part 3 of 10 (installer data volume).",
+      "classification": "Wise Installer, part 3 of 10 (Installer data volume)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:59 (downloaded-verified); Downloads/download-plan.json#/58; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -703,7 +703,7 @@
       "filename": "DA705_multi.W04",
       "bytes": 15360000,
       "sha256": "ca3fa5639d47d0f3a38557aeef645a36a82600a5407e94b8365254573b6841e3",
-      "classification": "Wise installer, part 4 of 10 (installer data volume).",
+      "classification": "Wise Installer, part 4 of 10 (Installer data volume)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:60 (downloaded-verified); Downloads/download-plan.json#/59; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -725,7 +725,7 @@
       "filename": "DA705_multi.W05",
       "bytes": 15360000,
       "sha256": "9f2cd2cbaa7fb1328301fd4166062b7fc75b5b43271e44050c682ad51f1cdaed",
-      "classification": "Wise installer, part 5 of 10 (installer data volume).",
+      "classification": "Wise Installer, part 5 of 10 (Installer data volume)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:61 (downloaded-verified); Downloads/download-plan.json#/60; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -747,7 +747,7 @@
       "filename": "DA705_multi.W06",
       "bytes": 15360000,
       "sha256": "17bff84af71c92fccf345fbc93ba05b1d43a2f4d9fcca6c1fa5969483f38c638",
-      "classification": "Wise installer, part 6 of 10 (installer data volume).",
+      "classification": "Wise Installer, part 6 of 10 (Installer data volume)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:62 (downloaded-verified); Downloads/download-plan.json#/61; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -769,7 +769,7 @@
       "filename": "DA705_multi.W07",
       "bytes": 15360000,
       "sha256": "216062b5351659bd6baf43576a66d6b74a457844a03c8af594e2b1bdff98fb1e",
-      "classification": "Wise installer, part 7 of 10 (installer data volume).",
+      "classification": "Wise Installer, part 7 of 10 (Installer data volume)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:63 (downloaded-verified); Downloads/download-plan.json#/62; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -791,7 +791,7 @@
       "filename": "DA705_multi.W08",
       "bytes": 15360000,
       "sha256": "73ef933b7e560ed15b9a80b388db63a65bfd77d2d94fa77ac3f18aa20469a249",
-      "classification": "Wise installer, part 8 of 10 (installer data volume).",
+      "classification": "Wise Installer, part 8 of 10 (Installer data volume)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:64 (downloaded-verified); Downloads/download-plan.json#/63; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -813,7 +813,7 @@
       "filename": "DA705_multi.W09",
       "bytes": 15360000,
       "sha256": "dbce8f66d8223f07b950aa27937dabb31b0fdfac16ac8af100aae99191b14153",
-      "classification": "Wise installer, part 9 of 10 (installer data volume).",
+      "classification": "Wise Installer, part 9 of 10 (Installer data volume)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:65 (verified-existing); Downloads/download-plan.json#/64; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -835,7 +835,7 @@
       "filename": "DA705_multi.W10",
       "bytes": 14034395,
       "sha256": "47cbf31002a048729002e446f6d344efe5d4dcbf16be01e8f8cc6a8874593311",
-      "classification": "Wise installer, part 10 of 10 (installer data volume).",
+      "classification": "Wise Installer, part 10 of 10 (Installer data volume)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:66 (verified-existing); Downloads/download-plan.json#/65; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -857,7 +857,7 @@
       "filename": "DA704to705.exe",
       "bytes": 16892910,
       "sha256": "973f04f5c725e3c53c2671cb4a7f30bd1e01c79613a3f1c7be101edc4b2cc79b",
-      "classification": "Self-extracting patch installer (Wise); installs replacement executable and game-data files.",
+      "classification": "Self-extracting patch Installer (Wise); installs replacement executable and game-data files",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:67 (downloaded-verified); Downloads/download-plan.json#/66; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -879,7 +879,7 @@
       "filename": "DarkAges712single.exe",
       "bytes": 159882280,
       "sha256": "e0e853b6271b404d7377ca50e2640b1673b89bbc51587b8bb757466c8105e573",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:68 (verified-existing); Downloads/download-plan.json#/67; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -901,7 +901,7 @@
       "filename": "DarkAges718single.exe",
       "bytes": 170354251,
       "sha256": "1e34b83a81e5f844aa62de496a689706590334e3f3d01d8e1330b1907cbadaf7",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:69 (verified-existing); Downloads/download-plan.json#/68; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -923,7 +923,7 @@
       "filename": "DarkAges729single.exe",
       "bytes": 199739213,
       "sha256": "66f50d620ca54c6d4c2cb69334a73cda2085404c9a3f1cf55727019f9923e91d",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:70 (verified-existing); Downloads/download-plan.json#/69; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -945,7 +945,7 @@
       "filename": "DarkAges730single.exe",
       "bytes": 206839406,
       "sha256": "a74a8a8daf0f0dcb3f015db1ec81cb7188b4837541e672e4c689e2669f925397",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:71 (verified-existing); Downloads/download-plan.json#/70; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -967,7 +967,7 @@
       "filename": "DarkAges735single.exe",
       "bytes": 207830277,
       "sha256": "bfb764399c5553261a327d5effec270fe7b723d96c615f3b030e0d7ed4c03e0f",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:72 (verified-existing); Downloads/download-plan.json#/71; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -989,7 +989,7 @@
       "filename": "DarkAges739single.exe",
       "bytes": 208578983,
       "sha256": "1a79124e9a11160c16a75b76ad9ed7620300cfc882ec46af8ab6057e415a351d",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:73 (verified-existing); Downloads/download-plan.json#/72; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1011,7 +1011,7 @@
       "filename": "DarkAges738-739patch.exe",
       "bytes": 891054,
       "sha256": "3d3a2ff98972a64788597a75589d971ec012e112a6b50809434ccb1d40edf36c",
-      "classification": "Self-extracting binary-patch installer (Wise).",
+      "classification": "Self-extracting binary-patch Installer (Wise)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:74 (verified-existing); Downloads/download-plan.json#/73; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1033,7 +1033,7 @@
       "filename": "DarkAges740single.exe",
       "bytes": 208578384,
       "sha256": "8b9c0d93ed38355e3b48fe94d5c100ee705652c961a2a8ad929f5cb4883a9bf3",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:75 (verified-existing); Downloads/download-plan.json#/74; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1055,7 +1055,7 @@
       "filename": "DarkAges739-740patch.exe",
       "bytes": 590955,
       "sha256": "5002620c01f26907510ca5918cc145cb1e9a943f442974e1d6ae68b34bf4caa4",
-      "classification": "Self-extracting binary-patch installer (Wise).",
+      "classification": "Self-extracting binary-patch Installer (Wise)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:76 (verified-existing); Downloads/download-plan.json#/75; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1077,7 +1077,7 @@
       "filename": "DarkAges741single.exe",
       "bytes": 208513633,
       "sha256": "dbbd937d4dd1eed310b7b1de4c5c3d98e829ed77e5493b0857063528a47e1093",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:77 (verified-existing); Downloads/download-plan.json#/76; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1099,7 +1099,7 @@
       "filename": "DarkAges741single.exe",
       "bytes": 208513633,
       "sha256": "dbbd937d4dd1eed310b7b1de4c5c3d98e829ed77e5493b0857063528a47e1093",
-      "classification": "Self-extracting Wise installer.",
+      "classification": "Self-extracting Wise Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:77 (verified-existing); Downloads/download-plan.json#/76; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1121,7 +1121,7 @@
       "filename": "DarkAges740-741patch.exe",
       "bytes": 1238302,
       "sha256": "7513468f457ab489d718787ec8213c109da84aaa3d8cf7e98ba128addbc4ee42",
-      "classification": "Self-extracting binary-patch installer (Wise).",
+      "classification": "Self-extracting binary-patch Installer (Wise)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:78 (verified-existing); Downloads/download-plan.json#/77; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1143,7 +1143,7 @@
       "filename": "hitel 2000.iso",
       "bytes": 523460608,
       "sha256": "4bb348c7a19175237bd5e115e370017ce9647b515a87f62b86ef822ee2ad2252",
-      "classification": "ISO CD image containing a self-extracting InstallShield installer (LodR.exe).",
+      "classification": "CD image (ISO) containing a self-extracting InstallShield Installer (LodR.exe)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:2 (verified-existing); Downloads/download-plan.json#/1; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1165,7 +1165,7 @@
       "filename": "Nice_인터넷_3.71.img",
       "bytes": 779008272,
       "sha256": "f0b810406ad51930136b82064f79ba483e11083e2577320b418f56c7e6b38b79",
-      "classification": "CD image containing a self-extracting InstallShield installer (Lod.exe).",
+      "classification": "CD image (CCD/IMG/SUB) containing a self-extracting InstallShield Installer (Lod.exe)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:3 (verified-existing); Downloads/download-plan.json#/2; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1187,7 +1187,7 @@
       "filename": "lodr.exe",
       "bytes": 70077895,
       "sha256": "2be6b5625a345e9067d0aeb5743bab878bca121e02082dd1936977cdf6c7d2b2",
-      "classification": "Self-extracting InstallShield installer (PackageForTheWeb/CAB wrapper).",
+      "classification": "Self-extracting InstallShield Installer (PackageForTheWeb/CAB wrapper)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:50 (verified-existing); Downloads/download-plan.json#/49; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1217,7 +1217,7 @@
       "filename": "lodr.exe",
       "bytes": 77214792,
       "sha256": "d4ad67de96e25bf73c4c8221a4b2b282bcd43c0f5978bb4d859af0a0c7f5b5d6",
-      "classification": "Self-extracting InstallShield installer (PackageForTheWeb/CAB wrapper).",
+      "classification": "Self-extracting InstallShield Installer (PackageForTheWeb/CAB wrapper)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:51 (verified-existing); Downloads/download-plan.json#/50; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1247,7 +1247,7 @@
       "filename": "lodr.exe",
       "bytes": 84379438,
       "sha256": "bfd70e6fb51f59498e894b9da8fb0c5603cf833e6cdfdab7d0ec4aaf2b70f06b",
-      "classification": "Self-extracting InstallShield installer (PackageForTheWeb/CAB wrapper).",
+      "classification": "Self-extracting InstallShield Installer (PackageForTheWeb/CAB wrapper)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:55 (verified-existing); Downloads/download-plan.json#/54; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1277,7 +1277,7 @@
       "filename": "lodr.exe",
       "bytes": 258057658,
       "sha256": "4959c3ff5bcc8b1a7be73ce54418b3e34be53ec91c092d642af704e14df20b6e",
-      "classification": "Self-extracting Nexon NGM installer with an embedded ZIP client payload.",
+      "classification": "Self-extracting Nexon NGM Installer with an embedded ZIP client payload",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:79 (downloaded-verified); Downloads/download-plan.json#/78; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1299,7 +1299,7 @@
       "filename": "lodr.exe",
       "bytes": 257368445,
       "sha256": "ab49fd3919bcbb5f03adf39cae320f91ca5858c9968431e95cee272f8171232e",
-      "classification": "Self-extracting Nexon NGM installer with an embedded ZIP client payload.",
+      "classification": "Self-extracting Nexon NGM Installer with an embedded ZIP client payload",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:80 (downloaded-verified); Downloads/download-plan.json#/79; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1321,7 +1321,7 @@
       "filename": "Lodtest.exe",
       "bytes": 257368023,
       "sha256": "5b139ec682e8f94c03d194496d5c3fa4accaa784b9e50c5ecfc027927f40c57f",
-      "classification": "Self-extracting Nexon NGM installer with an embedded ZIP client payload.",
+      "classification": "Self-extracting Nexon NGM Installer with an embedded ZIP client payload",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:81 (downloaded-verified); Downloads/download-plan.json#/80; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1343,7 +1343,7 @@
       "filename": "DarkAges351.exe",
       "bytes": 21010944,
       "sha256": "83c77bf90d0194917bb2e99a46da55e44278d871c46dfec94365c8cc6c7ad1ac",
-      "classification": "Self-extracting ZIP containing an InstallShield installer (WinZip Self-Extractor).",
+      "classification": "Self-extracting ZIP containing an InstallShield Installer (WinZip Self-Extractor)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:5 (verified-existing); Downloads/download-plan.json#/4; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1369,7 +1369,7 @@
       "filename": "DarkAges351.exe",
       "bytes": 21450240,
       "sha256": "17fd6be679d3eedd8f2ff0e080520c46448a1234334208c871abfade35469899",
-      "classification": "Self-extracting ZIP containing an InstallShield installer (WinZip Self-Extractor).",
+      "classification": "Self-extracting ZIP containing an InstallShield Installer (WinZip Self-Extractor)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:6 (verified-existing); Downloads/download-plan.json#/5; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1395,7 +1395,7 @@
       "filename": "darkages.exe",
       "bytes": 938065,
       "sha256": "4bf56fd735e04bb45c45ae7dc3f30a74493f27fc0c7ff4ad41d42dc2ff3c8971",
-      "classification": "Standalone game executable (replacement client EXE).",
+      "classification": "Standalone game executable (replacement client EXE)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:44 (verified-existing); Downloads/download-plan.json#/43; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1414,7 +1414,7 @@
       "filename": "dapatch.exe",
       "bytes": 1528992,
       "sha256": "4683dd947cf31c20283254b23084cff52e2722656d1c95be70e76a7e88222d79",
-      "classification": "Self-extracting ZIP patch installer (InstallAnywhere); replaces the game executable.",
+      "classification": "Self-extracting ZIP patch Installer (InstallAnywhere); replaces the game executable",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:45 (downloaded-verified); Downloads/download-plan.json#/44; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1437,7 +1437,7 @@
       "filename": "legends-of-orphelias.zip",
       "bytes": 48188247,
       "sha256": "c515775922af78cdc7fc25ec593cc6d8aa66a9a03e64ad5adcbea119946a4c83",
-      "classification": "ZIP archive of installed client files.",
+      "classification": "ZIP archive of installed client files",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:16 (verified-existing); Downloads/download-plan.json#/15; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1456,7 +1456,7 @@
       "filename": "legends-of-orphelias.zip",
       "bytes": 48188247,
       "sha256": "c515775922af78cdc7fc25ec593cc6d8aa66a9a03e64ad5adcbea119946a4c83",
-      "classification": "ZIP archive of installed client files.",
+      "classification": "ZIP archive of installed client files",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:16 (verified-existing); Downloads/download-plan.json#/15; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1475,7 +1475,7 @@
       "filename": "legends_full_20011011.exe",
       "bytes": 59773579,
       "sha256": "584e3980bee6d850b2b41747034833f13dfbed1a977c5de15484948f13fa7f57",
-      "classification": "Self-extracting ACE archive containing an InstallShield installer.",
+      "classification": "Self-extracting ACE archive containing an InstallShield Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:17 (verified-existing); Downloads/download-plan.json#/16; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1501,7 +1501,7 @@
       "filename": "legends_full_20011011.exe",
       "bytes": 59773579,
       "sha256": "584e3980bee6d850b2b41747034833f13dfbed1a977c5de15484948f13fa7f57",
-      "classification": "Self-extracting ACE archive containing an InstallShield installer.",
+      "classification": "Self-extracting ACE archive containing an InstallShield Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:17 (verified-existing); Downloads/download-plan.json#/16; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1527,7 +1527,7 @@
       "filename": "Legends-of-temuair.7z",
       "bytes": 59853373,
       "sha256": "07d551cf2cc23217dcd55e9863114fca5f398eeb0337cc92d0d271ade935a12b",
-      "classification": "7z archive of extracted InstallShield setup files.",
+      "classification": "7z archive of extracted InstallShield setup files",
       "size_verification": "Recorded verification of this exact original wrapper/volume before omission (2026-10-12T16:51:43.629907+00:00); Downloads/package-equivalences.json#/comparisons/0/packages/2/sources/0 records its own bytes/SHA-256; Downloads/deduplication.json#/decisions/16; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:30 (mirror-verified-not-retained); Downloads/download-plan.json#/29; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1558,7 +1558,7 @@
       "filename": "legends.exe",
       "bytes": 5120000,
       "sha256": "f56199c291387601dddbc23e4e05fb7f3f4e7b7889ed2c08387932fcdd22674f",
-      "classification": "ACE archive, part 1 of 12 (self-extracting EXE containing InstallShield setup files).",
+      "classification": "ACE archive, part 1 of 12 (self-extracting EXE containing InstallShield setup files)",
       "size_verification": "Recorded verification of this exact original wrapper/volume before omission (2026-10-12T16:51:43.629907+00:00); Downloads/package-equivalences.json#/comparisons/0/packages/1/sources/0 records its own bytes/SHA-256; Downloads/deduplication.json#/decisions/4; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:18 (mirror-verified-not-retained); Downloads/download-plan.json#/17; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1589,7 +1589,7 @@
       "filename": "legends.c00",
       "bytes": 5120000,
       "sha256": "4766f8994166c7a3366c9e88f54179ad36b46d5b498c50fa6a1039e6ab3f8259",
-      "classification": "ACE archive, part 2 of 12 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 2 of 12 (InstallShield setup distribution)",
       "size_verification": "Recorded verification of this exact original wrapper/volume before omission (2026-10-12T16:51:43.629907+00:00); Downloads/package-equivalences.json#/comparisons/0/packages/1/sources/1 records its own bytes/SHA-256; Downloads/deduplication.json#/decisions/5; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:19 (mirror-verified-not-retained); Downloads/download-plan.json#/18; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1620,7 +1620,7 @@
       "filename": "legends.c01",
       "bytes": 5120000,
       "sha256": "c0f24240be44e2bb9789e56035d974b4c400095c7b30da7e04cb44df84e1560f",
-      "classification": "ACE archive, part 3 of 12 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 3 of 12 (InstallShield setup distribution)",
       "size_verification": "Recorded verification of this exact original wrapper/volume before omission (2026-10-12T16:51:43.629907+00:00); Downloads/package-equivalences.json#/comparisons/0/packages/1/sources/2 records its own bytes/SHA-256; Downloads/deduplication.json#/decisions/6; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:20 (mirror-verified-not-retained); Downloads/download-plan.json#/19; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1651,7 +1651,7 @@
       "filename": "legends.c02",
       "bytes": 5120000,
       "sha256": "82fd9c8cda907add1581283fcaed8c4e680dc947b6a49de1fa8f23933afb5e76",
-      "classification": "ACE archive, part 4 of 12 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 4 of 12 (InstallShield setup distribution)",
       "size_verification": "Recorded verification of this exact original wrapper/volume before omission (2026-10-12T16:51:43.629907+00:00); Downloads/package-equivalences.json#/comparisons/0/packages/1/sources/3 records its own bytes/SHA-256; Downloads/deduplication.json#/decisions/7; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:21 (mirror-verified-not-retained); Downloads/download-plan.json#/20; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1682,7 +1682,7 @@
       "filename": "legends.c03",
       "bytes": 5120000,
       "sha256": "2e5a1a93bac583b116e4c2ff911162b639c416552429a8be822e1a8eeaafcd98",
-      "classification": "ACE archive, part 5 of 12 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 5 of 12 (InstallShield setup distribution)",
       "size_verification": "Recorded verification of this exact original wrapper/volume before omission (2026-10-12T16:51:43.629907+00:00); Downloads/package-equivalences.json#/comparisons/0/packages/1/sources/4 records its own bytes/SHA-256; Downloads/deduplication.json#/decisions/8; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:22 (mirror-verified-not-retained); Downloads/download-plan.json#/21; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1713,7 +1713,7 @@
       "filename": "legends.c04",
       "bytes": 5120000,
       "sha256": "ab7c5603504af6e573d04684a12631511d6dce4cc6716b01b399e7175c5d54d8",
-      "classification": "ACE archive, part 6 of 12 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 6 of 12 (InstallShield setup distribution)",
       "size_verification": "Recorded verification of this exact original wrapper/volume before omission (2026-10-12T16:51:43.629907+00:00); Downloads/package-equivalences.json#/comparisons/0/packages/1/sources/5 records its own bytes/SHA-256; Downloads/deduplication.json#/decisions/9; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:23 (mirror-verified-not-retained); Downloads/download-plan.json#/22; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1744,7 +1744,7 @@
       "filename": "legends.c05",
       "bytes": 5120000,
       "sha256": "fb942d2dfc40f70b1949dbc9550c206e6f3e0a86d325debb1fc8a502f70c8972",
-      "classification": "ACE archive, part 7 of 12 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 7 of 12 (InstallShield setup distribution)",
       "size_verification": "Recorded verification of this exact original wrapper/volume before omission (2026-10-12T16:51:43.629907+00:00); Downloads/package-equivalences.json#/comparisons/0/packages/1/sources/6 records its own bytes/SHA-256; Downloads/deduplication.json#/decisions/10; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:24 (mirror-verified-not-retained); Downloads/download-plan.json#/23; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1775,7 +1775,7 @@
       "filename": "legends.c06",
       "bytes": 5120000,
       "sha256": "08358d7168f9164d1dd28a91c514e78b3d3878b0dae1b1b3ff9e7faf6a10e6a4",
-      "classification": "ACE archive, part 8 of 12 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 8 of 12 (InstallShield setup distribution)",
       "size_verification": "Recorded verification of this exact original wrapper/volume before omission (2026-10-12T16:51:43.629907+00:00); Downloads/package-equivalences.json#/comparisons/0/packages/1/sources/7 records its own bytes/SHA-256; Downloads/deduplication.json#/decisions/11; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:25 (mirror-verified-not-retained); Downloads/download-plan.json#/24; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1806,7 +1806,7 @@
       "filename": "legends.c07",
       "bytes": 5120000,
       "sha256": "1148e7175ec6abd155bfff50448218290e6cba98158eced97e083871acb9f659",
-      "classification": "ACE archive, part 9 of 12 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 9 of 12 (InstallShield setup distribution)",
       "size_verification": "Recorded verification of this exact original wrapper/volume before omission (2026-10-12T16:51:43.629907+00:00); Downloads/package-equivalences.json#/comparisons/0/packages/1/sources/8 records its own bytes/SHA-256; Downloads/deduplication.json#/decisions/12; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:26 (mirror-verified-not-retained); Downloads/download-plan.json#/25; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1837,7 +1837,7 @@
       "filename": "legends.c08",
       "bytes": 5120000,
       "sha256": "456242b09f8bfd64e31452c6f54fab37657abf5864a8a5809b34206ae7ac5411",
-      "classification": "ACE archive, part 10 of 12 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 10 of 12 (InstallShield setup distribution)",
       "size_verification": "Recorded verification of this exact original wrapper/volume before omission (2026-10-12T16:51:43.629907+00:00); Downloads/package-equivalences.json#/comparisons/0/packages/1/sources/9 records its own bytes/SHA-256; Downloads/deduplication.json#/decisions/13; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:27 (mirror-verified-not-retained); Downloads/download-plan.json#/26; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1868,7 +1868,7 @@
       "filename": "legends.c09",
       "bytes": 5120000,
       "sha256": "3eeaf3511cf0fc6519c044b2e5a39b6628a28494437ed4d9af3bea574e8e328d",
-      "classification": "ACE archive, part 11 of 12 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 11 of 12 (InstallShield setup distribution)",
       "size_verification": "Recorded verification of this exact original wrapper/volume before omission (2026-10-12T16:51:43.629907+00:00); Downloads/package-equivalences.json#/comparisons/0/packages/1/sources/10 records its own bytes/SHA-256; Downloads/deduplication.json#/decisions/14; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:28 (mirror-verified-not-retained); Downloads/download-plan.json#/27; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1899,7 +1899,7 @@
       "filename": "legends.c10",
       "bytes": 3454734,
       "sha256": "69005316de877938d384ee1ecbebc4d6b6b27d3fadb8adfc26372b7ac9de36ed",
-      "classification": "ACE archive, part 12 of 12 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 12 of 12 (InstallShield setup distribution)",
       "size_verification": "Recorded verification of this exact original wrapper/volume before omission (2026-10-12T16:51:43.629907+00:00); Downloads/package-equivalences.json#/comparisons/0/packages/1/sources/11 records its own bytes/SHA-256; Downloads/deduplication.json#/decisions/15; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:29 (mirror-verified-not-retained); Downloads/download-plan.json#/28; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1930,7 +1930,7 @@
       "filename": "legends421_part.exe",
       "bytes": 4194304,
       "sha256": "7bd30115311418fb2a1bcf217e0170a6f47654014658152e7fd13fddca1d0b3e",
-      "classification": "ACE archive, part 1 of 13 (self-extracting EXE containing InstallShield setup files).",
+      "classification": "ACE archive, part 1 of 13 (self-extracting EXE containing InstallShield setup files)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:31 (verified-existing); Downloads/download-plan.json#/30; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1952,7 +1952,7 @@
       "filename": "legends421_part.c00",
       "bytes": 4194304,
       "sha256": "00239132178a6357e1ab1acac88d96ee8e1e2f49d8a76f265cceb6ef67c5c21b",
-      "classification": "ACE archive, part 2 of 13 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 2 of 13 (InstallShield setup distribution)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:32 (verified-existing); Downloads/download-plan.json#/31; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1974,7 +1974,7 @@
       "filename": "legends421_part.c01",
       "bytes": 4194304,
       "sha256": "4bb2d295574b6ae2265426d54219b185add3ff82d80b13b83434b5f79b8bfe90",
-      "classification": "ACE archive, part 3 of 13 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 3 of 13 (InstallShield setup distribution)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:33 (verified-existing); Downloads/download-plan.json#/32; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -1996,7 +1996,7 @@
       "filename": "legends421_part.c02",
       "bytes": 4194304,
       "sha256": "582c1ebb427490bfcd49850fd6bc010d46327f6e159aba9e329b0ca8af37c738",
-      "classification": "ACE archive, part 4 of 13 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 4 of 13 (InstallShield setup distribution)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:34 (verified-existing); Downloads/download-plan.json#/33; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -2018,7 +2018,7 @@
       "filename": "legends421_part.c03",
       "bytes": 4194304,
       "sha256": "6f1184757f7cd89ee25dddfa31c0a67e2c4743383093880e46016937885a6621",
-      "classification": "ACE archive, part 5 of 13 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 5 of 13 (InstallShield setup distribution)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:35 (verified-existing); Downloads/download-plan.json#/34; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -2040,7 +2040,7 @@
       "filename": "legends421_part.c04",
       "bytes": 4194304,
       "sha256": "98d5aa6180dd59e67185b198a1918b93fa5c42f3bc5a7340b0be8e62681ddd76",
-      "classification": "ACE archive, part 6 of 13 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 6 of 13 (InstallShield setup distribution)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:36 (verified-existing); Downloads/download-plan.json#/35; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -2062,7 +2062,7 @@
       "filename": "legends421_part.c05",
       "bytes": 4194304,
       "sha256": "d186866a7b2a78f13f97bd555380035e35282102738faed1c943c60db9192f1a",
-      "classification": "ACE archive, part 7 of 13 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 7 of 13 (InstallShield setup distribution)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:37 (verified-existing); Downloads/download-plan.json#/36; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -2084,7 +2084,7 @@
       "filename": "legends421_part.c06",
       "bytes": 4194304,
       "sha256": "949fb12a2be7a57f2f22d72c7932b7473bcf4d5ee0223344bc906a3d26a6b94e",
-      "classification": "ACE archive, part 8 of 13 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 8 of 13 (InstallShield setup distribution)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:38 (verified-existing); Downloads/download-plan.json#/37; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -2106,7 +2106,7 @@
       "filename": "legends421_part.c07",
       "bytes": 4194304,
       "sha256": "ad624bcf91d8a0272fdc6e0470333eab37ed9f61f23728d42965ea91b7648c81",
-      "classification": "ACE archive, part 9 of 13 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 9 of 13 (InstallShield setup distribution)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:39 (verified-existing); Downloads/download-plan.json#/38; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -2128,7 +2128,7 @@
       "filename": "legends421_part.c08",
       "bytes": 4194304,
       "sha256": "51cf0c5e6d736fdca2c4d66f0af1a0456865273c972eac0a165302819a539897",
-      "classification": "ACE archive, part 10 of 13 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 10 of 13 (InstallShield setup distribution)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:40 (verified-existing); Downloads/download-plan.json#/39; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -2150,7 +2150,7 @@
       "filename": "legends421_part.c09",
       "bytes": 4194304,
       "sha256": "dae85b2cad3119b3087a73b57c83422732fd830ca1800ca75242bd1632e91653",
-      "classification": "ACE archive, part 11 of 13 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 11 of 13 (InstallShield setup distribution)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:41 (verified-existing); Downloads/download-plan.json#/40; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -2172,7 +2172,7 @@
       "filename": "legends421_part.c10",
       "bytes": 4194304,
       "sha256": "4c65fe43a2cef5178b3c00bb5b11095641fe2dc73e392f034dcfcbb4787c5c0c",
-      "classification": "ACE archive, part 12 of 13 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 12 of 13 (InstallShield setup distribution)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:42 (downloaded-verified); Downloads/download-plan.json#/41; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -2194,7 +2194,7 @@
       "filename": "legends421_part.c11",
       "bytes": 1635030,
       "sha256": "bf294a408879ad0ee6bc05bb303cc6148460ef7ce0ba079461188fbe87e90074",
-      "classification": "ACE archive, part 13 of 13 (InstallShield setup distribution).",
+      "classification": "ACE archive, part 13 of 13 (InstallShield setup distribution)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:43 (downloaded-verified); Downloads/download-plan.json#/42; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -2216,7 +2216,7 @@
       "filename": "Yami522c_62.exe",
       "bytes": 79121985,
       "sha256": "57f2aa030afe263cf06173b3b1e3bc34abcab305d151f1522252f3ae838eedfe",
-      "classification": "Self-extracting InstallShield installer.",
+      "classification": "Self-extracting InstallShield Installer",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:53 (verified-existing); Downloads/download-plan.json#/52; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -2238,7 +2238,7 @@
       "filename": "Yami522c_62.7z",
       "bytes": 78313193,
       "sha256": "3866805535853cfa10de49367a8fcd2b6b07e0fb90cd42f8f43691f66ddcb3bb",
-      "classification": "7z archive containing the original InstallShield installer (Yami522c_62.exe).",
+      "classification": "7z archive containing the original InstallShield Installer (Yami522c_62.exe)",
       "size_verification": "Recorded verification of this exact original 7z wrapper before omission (2026-10-12T16:51:43.629907+00:00); wrapper bytes/SHA-256 differ from the retained enclosed installer and are not inferred from it; Downloads/deduplication.json#/decisions/3; canonical original freshly size/SHA-256 checked; Downloads/download-manifest.jsonl:54 (mirror-verified-not-retained); Downloads/download-plan.json#/53; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
@@ -2267,9 +2267,9 @@
       "regionId": "us",
       "subject": "Mirror filenames and actual client versions",
       "notes": [
-        "The 3.73 single-file installer is also mirrored as DarkAges-3.61.exe, DarkAges_Key_3.71.exe and DarkAges_Key_5.21.exe. Those copies are byte-identical; their names do not establish changed 3.61, 3.71 or 5.21 clients.",
-        "The recovered genuine 5.21 ZIP contains its own three-part Wise installer and differs from the mislabeled 5.21 mirror of 3.73.",
-        "DarkAges-4.52.zip contains the complete original 4.51 multipart installer. Each ZIP member matches the corresponding official /451/multiple/ volume; the filename does not establish a changed U.S. 4.52 build."
+        "The 3.73 single-file Installer is also mirrored as DarkAges-3.61.exe, DarkAges_Key_3.71.exe and DarkAges_Key_5.21.exe. Those copies are byte-identical; their names do not establish changed 3.61, 3.71 or 5.21 clients",
+        "The recovered genuine 5.21 ZIP contains its own three-part Wise Installer and differs from the mislabeled 5.21 mirror of 3.73",
+        "DarkAges-4.52.zip contains the complete original 4.51 multipart Installer. Each ZIP member matches the corresponding official /451/multiple/ volume; the filename does not establish a changed U.S. 4.52 build"
       ],
       "appliesToRowKeys": [
         "4c027c989c17e6dc879c214ad56284754eddb781f1cb945c670111bb4c9f605b",
@@ -2320,7 +2320,7 @@
       "regionId": "us",
       "subject": "3.73 single-file and multipart packaging",
       "notes": [
-        "The standalone and four-part 3.73 installers have identical installed-client manifests, despite different executable wrappers and installer support/script data. They are alternative delivery packages, not byte-identical copies of the same wrapper."
+        "The standalone and four-part 3.73 Installers have identical installed-client manifests, despite different executable wrappers and Installer support/script data. They are alternative delivery packages, not byte-identical copies of the same wrapper"
       ],
       "appliesToRowKeys": [
         "4c027c989c17e6dc879c214ad56284754eddb781f1cb945c670111bb4c9f605b",
@@ -2355,7 +2355,7 @@
       "regionId": "kr",
       "subject": "3.11 disc installer variants",
       "notes": [
-        "The Hitel and Nice discs contain different original installer wrappers (LodR.exe and Lod.exe), but all 1,204 installed payload files match exactly, including Legend.exe."
+        "The Hitel and Nice discs contain different original Installer wrappers (LodR.exe and Lod.exe), but all 1,204 installed payload files match exactly, including Legend.exe"
       ],
       "appliesToRowKeys": [
         "4bb348c7a19175237bd5e115e370017ce9647b515a87f62b86ef822ee2ad2252",
@@ -2380,7 +2380,7 @@
       "regionId": "sg",
       "subject": "3.51 help-file variants",
       "notes": [
-        "The two Singapore 3.51 packages contain the same game executable and differ only in DarkAges.dat, whose changed member is crehlp.txt. One package has Singapore-customized help; the other has U.S.-matching help and a DarkAges.dat byte-identical to U.S. 3.51."
+        "The two Singapore 3.51 packages contain the same game executable and differ only in DarkAges.dat, whose changed member is crehlp.txt. One package has Singapore-customized help; the other has U.S.-matching help and a DarkAges.dat byte-identical to U.S. 3.51"
       ],
       "appliesToRowKeys": [
         "83c77bf90d0194917bb2e99a46da55e44278d871c46dfec94365c8cc6c7ad1ac",
@@ -2401,7 +2401,7 @@
       "regionId": "sg",
       "subject": "4.21 executable and packaged patch",
       "notes": [
-        "The standalone darkages.exe and the replacement executable inside dapatch.exe are byte-identical. This is an executable-only update; a required starting version, including a route from 3.51, remains unverified."
+        "The standalone darkages.exe and the replacement executable inside dapatch.exe are byte-identical. This is an executable-only update; a required starting version, including a route from 3.51, remains unverified"
       ],
       "appliesToRowKeys": [
         "4bf56fd735e04bb45c45ae7dc3f30a74493f27fc0c7ff4ad41d42dc2ff3c8971",
@@ -2424,7 +2424,7 @@
       "regionId": "my-temuair",
       "subject": "4.20 equivalent installer distributions",
       "notes": [
-        "The full self-extracting ACE EXE, 12-part ACE distribution and 7z setup-file repack yield the same 15 InstallShield setup files and 267 installed runtime files. The 7z repack is not the byte-identical original self-extracting EXE."
+        "The full self-extracting ACE EXE, 12-part ACE distribution and 7z setup-file repack yield the same 15 InstallShield setup files and 267 installed runtime files. The 7z repack is not the byte-identical original self-extracting EXE"
       ],
       "appliesToRowKeys": [
         "584e3980bee6d850b2b41747034833f13dfbed1a977c5de15484948f13fa7f57",
@@ -2474,7 +2474,7 @@
       "regionId": "my-orphelias",
       "subject": "4.20 attribution and Temuair comparison",
       "notes": [
-        "The Orphelias-labeled archive matches Temuair 4.20 in the main executable, game data and maps, and its documentation names Temuair. The archive adds Legend.cfg and Legends.prf and omits music/5.mus through music/9.mus. Its independently distinct Orphelias identity remains unconfirmed."
+        "The Orphelias-labeled archive matches Temuair 4.20 in the main executable, game data and maps, and its documentation names Temuair. The archive adds Legend.cfg and Legends.prf and omits music/5.mus through music/9.mus. Its independently distinct Orphelias identity remains unconfirmed"
       ],
       "appliesToRowKeys": [
         "c515775922af78cdc7fc25ec593cc6d8aa66a9a03e64ad5adcbea119946a4c83"
@@ -2497,8 +2497,8 @@
       "regionId": "jp",
       "subject": "5.22 distribution names",
       "notes": [
-        "Yami522c_62.exe and the installer enclosed in Yami522c_62.7z are byte-identical. The c_62 suffix identifies a distribution variant rather than a separate 5.22c game release.",
-        "The separately advertised Yami522_67.exe variant remains unrecovered; it must not be assumed byte-identical to the preserved c_62 package."
+        "Yami522c_62.exe and the Installer enclosed in Yami522c_62.7z are byte-identical. The c_62 suffix identifies a distribution variant rather than a separate 5.22c game release",
+        "The separately advertised Yami522_67.exe variant remains unrecovered; it must not be assumed byte-identical to the preserved c_62 package"
       ],
       "appliesToRowKeys": [
         "57f2aa030afe263cf06173b3b1e3bc34abcab305d151f1522252f3ae838eedfe",

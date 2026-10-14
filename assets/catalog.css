@@ -83,6 +83,7 @@ table.version-table th, table.version-table td,
   font-style: inherit;
 }
 #master-catalog .note-list:has(> li:only-child) { padding-left: 0; list-style: none; }
+#downloads td.notes-cell :is(ul, ol) { padding-left: 0; list-style: none; }
 table th.notes-cell, table td.notes-cell { border-left: 1px solid var(--line); vertical-align: top; }
 table .notes-cell a[href^="#source-"],
 table .notes-cell a[href^="#source-"]:hover,
