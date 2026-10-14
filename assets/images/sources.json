@@ -85,6 +85,132 @@
     {
       "title": "Legends of Darkness — South Korea",
       "image_number": 2,
+      "asset": "assets/images/legends-of-darkness-kr-screenshot-waikiki-beach-2024.png",
+      "source_url": "https://file.nexon.com/NxFile/download/FileDownloader.aspx?oidFile=4620789979000410262",
+      "page_url": "https://lod.nexon.com/Community/screenshot/137625?Category2=2",
+      "captured_at": "2026-10-14T05:03:20.416268+00:00",
+      "width": 1301,
+      "height": 733,
+      "sha256": "e58d6b50d3dc25db54128bb3d3664f131c6bf5522924022f3486b19ad238623d",
+      "original_sha256": "e58d6b50d3dc25db54128bb3d3664f131c6bf5522924022f3486b19ad238623d",
+      "conversion": "None; original PNG copied byte-for-byte without resizing, cropping or re-encoding.",
+      "verification": "Original and published PNG decode to identical RGBA pixels and dimensions. Visually inspected: real gameplay with native client UI/nameplates only; no added tutorial markings, labels, arrows, drawings or watermark.",
+      "alt": "Players swim beside palm trees and surfboards at the Waikiki summer event beach in Legends of Darkness.",
+      "label": "Waikiki summer event",
+      "original_path": ".cache/catalog-redesign/kr-modern-gallery/community/137625-1.png",
+      "original_format": "PNG",
+      "original_bytes": 1458752,
+      "bytes": 1458752,
+      "source_page_capture": ".cache/catalog-redesign/kr-modern-gallery/community/post-137625.html",
+      "source_page_sha256": "58bf66ecf37045030f4a6868e8f3a0b892462bbcb749ec0a0fef33f52d1e31fd",
+      "source_page_captured_at": "2026-10-14T05:03:04.508885+00:00",
+      "source_post_title": "[와이키키바캉스] 이 해변을 점령하러 왔다!",
+      "source_post_date": "2024.08.22. 10:52",
+      "source_post_timezone": "Not stated; the publisher page date is retained as displayed.",
+      "source_author": "펜아",
+      "provenance": "Player-uploaded image embedded in a public post on the official lod.nexon.com screenshot board; player-authored evidence, not an official developer capture.",
+      "notes": [
+        "Player-submitted summer-event screenshot with the original game interface; no added annotations."
+      ]
+    },
+    {
+      "title": "Legends of Darkness — South Korea",
+      "image_number": 3,
+      "asset": "assets/images/legends-of-darkness-kr-screenshot-queen-ant-2026.png",
+      "source_url": "https://storage.nexon.com/dsk01/07/NX_FILE/Board/196608/05/1/000/00/00/5125191719926628494.png",
+      "page_url": "https://lod.nexon.com/Community/screenshot/147872?Category2=2",
+      "captured_at": "2026-10-14T05:02:15.543600+00:00",
+      "width": 720,
+      "height": 498,
+      "sha256": "57223c72ec6604916c7d121e8aa155ef59879dae6751264ceefc9e094d514fdf",
+      "original_sha256": "57223c72ec6604916c7d121e8aa155ef59879dae6751264ceefc9e094d514fdf",
+      "conversion": "None; original PNG copied byte-for-byte without resizing, cropping or re-encoding.",
+      "verification": "Original and published PNG decode to identical RGBA pixels and dimensions. Visually inspected: real gameplay with native client UI/nameplates only; no added tutorial markings, labels, arrows, drawings or watermark.",
+      "alt": "Party characters face large ant monsters and larvae in a dark cavern in Legends of Darkness.",
+      "label": "Queen Ant encounter",
+      "original_path": ".cache/catalog-redesign/kr-modern-gallery/community/147872-2.png",
+      "original_format": "PNG",
+      "original_bytes": 712183,
+      "bytes": 712183,
+      "source_page_capture": ".cache/catalog-redesign/kr-modern-gallery/community/post-147872.html",
+      "source_page_sha256": "f5e8305bd19bde8c7253a93ddcb907557fda85b238e21347bddcfacb7eab6c9e",
+      "source_page_captured_at": "2026-10-14T05:02:13.021722+00:00",
+      "source_post_title": "여왕개미 잡는 직전과 순직",
+      "source_post_date": "2026.08.28. 02:41",
+      "source_post_timezone": "Not stated; the publisher page date is retained as displayed.",
+      "source_author": "생츄",
+      "provenance": "Player-uploaded image embedded in a public post on the official lod.nexon.com screenshot board; player-authored evidence, not an official developer capture.",
+      "notes": [
+        "Player-submitted Queen Ant encounter. The uploader supplied a gameplay-area crop; the complete uploaded image is preserved."
+      ]
+    },
+    {
+      "title": "Legends of Darkness — South Korea",
+      "image_number": 4,
+      "asset": "assets/images/legends-of-darkness-kr-screenshot-doom-love-winter-2025.png",
+      "source_url": "https://storage.nexon.com/dsk00/02/NX_FILE/Board/196608/05/2/000/00/70/4764905167076266556.png",
+      "page_url": "https://lod.nexon.com/community/screenshot/142126",
+      "captured_at": "2026-10-14T05:03:03.143019+00:00",
+      "width": 1280,
+      "height": 720,
+      "sha256": "44673d1e01afd536ffc8eeb9f939722fdfdcb302ad934b3d4e3384a6032aad4c",
+      "original_sha256": "44673d1e01afd536ffc8eeb9f939722fdfdcb302ad934b3d4e3384a6032aad4c",
+      "conversion": "None; original PNG copied byte-for-byte without resizing, cropping or re-encoding.",
+      "verification": "Original and published PNG decode to identical RGBA pixels and dimensions. Visually inspected: real gameplay with native client UI/nameplates only; no added tutorial markings, labels, arrows, drawings or watermark.",
+      "alt": "Characters gather around a glowing heart event monument among snowy Mileth market stalls in Legends of Darkness.",
+      "label": "Doom Love winter event",
+      "original_path": ".cache/catalog-redesign/kr-modern-gallery/official-board/142126-1.png",
+      "original_format": "PNG",
+      "original_bytes": 1565266,
+      "bytes": 1565266,
+      "source_page_capture": ".cache/catalog-redesign/kr-modern-gallery/official-board/142126.html",
+      "source_page_sha256": "035d47ca01c541bf8116348ecc1e6d5e07bccf22c5cbd824683c473d35ea437f",
+      "source_page_captured_at": "2026-10-14T05:02:43.955359+00:00",
+      "source_post_title": "[둠사랑] 난 루나야 알러브루나 어둠사랑해",
+      "source_post_date": "2025.12.18. 03:06",
+      "source_post_timezone": "Not stated; the publisher page date is retained as displayed.",
+      "source_author": "루나",
+      "provenance": "Player-uploaded image embedded in a public post on the official lod.nexon.com screenshot board; player-authored evidence, not an official developer capture.",
+      "notes": [
+        "Player-submitted Doom Love event screenshot dated 2025-12-18, preserving the original game interface and winter setting."
+      ]
+    },
+    {
+      "title": "Legends of Darkness — South Korea",
+      "image_number": 5,
+      "asset": "assets/images/legends-of-darkness-kr-screenshot-waikiki-swimming-2024.png",
+      "source_url": "https://file.nexon.com/NxFile/download/FileDownloader.aspx?oidFile=5341310733344833751",
+      "page_url": "https://lod.nexon.com/Community/screenshot/137622?Category2=2",
+      "captured_at": "2026-10-14T05:03:30.998502+00:00",
+      "width": 1523,
+      "height": 761,
+      "sha256": "f5d7ff52863d2bf66e417806b83c73088005c44b5c345f35266f43e67b29ceb7",
+      "original_sha256": "2ff024f4c3573180640fe317c0ba588a586b1c77d15192e0e0a7d190aa6f5f90",
+      "conversion": "Pillow JPEG-to-PNG conversion preserving the decoded source pixels; no resizing, cropping, annotation or quantization.",
+      "verification": "Original and published PNG decode to identical RGBA pixels and dimensions. Visually inspected: real gameplay with native client UI/nameplates only; no added tutorial markings, labels, arrows, drawings or watermark.",
+      "alt": "Players swim through floating coins between small islands during Waikiki summer-event activities in Legends of Darkness.",
+      "label": "Waikiki swimming event",
+      "original_path": ".cache/catalog-redesign/kr-modern-gallery/community/137622-6.png",
+      "original_format": "JPEG",
+      "original_bytes": 476090,
+      "bytes": 1889287,
+      "source_page_capture": ".cache/catalog-redesign/kr-modern-gallery/community/post-137622.html",
+      "source_page_sha256": "2d71c271a3d816c7057c35846ea429f4414c0b9d477b13205693618af70b6fb2",
+      "source_page_captured_at": "2026-10-14T05:03:06.129541+00:00",
+      "source_post_title": "[와이키키바캉스] 좋은길드 좋은사람들과 좋은자리 여름바캉스!!!",
+      "source_post_date": "2024.08.22. 01:07",
+      "source_post_timezone": "Not stated; the publisher page date is retained as displayed.",
+      "source_author": "뱀뀨",
+      "provenance": "Player-uploaded image embedded in a public post on the official lod.nexon.com screenshot board; player-authored evidence, not an official developer capture.",
+      "notes": [
+        "The author describes summer-event guild activities and swimming competitions. Native gameplay UI and nameplates are retained."
+      ]
+    }
+  ],
+  "retired_images": [
+    {
+      "title": "Legends of Darkness — South Korea",
+      "image_number": 2,
       "asset": "assets/images/legends-of-darkness-kr-screenshot-resurrection-garden.png",
       "source_url": "https://storage.nexon.com/dsk03/13/NX_FILE/Board/65536/05/1/000/00/00/5557538168917459075.png",
       "page_url": "https://lod.nexon.com/info/guide/82290",
@@ -105,7 +231,9 @@
       "provenance": "Image URL embedded in the captured official lod.nexon.com page.",
       "notes": [
         "Official guide screenshot; guide content states it was prepared as of 2025-02-20."
-      ]
+      ],
+      "retired_at": "2026-10-14T05:06:57.009395+00:00",
+      "retirement_reason": "Replaced at the user request with unannotated recent player gameplay and event screenshots. Retained only as provenance; not displayed in the carousel."
     },
     {
       "title": "Legends of Darkness — South Korea",
@@ -130,7 +258,9 @@
       "provenance": "Image URL embedded in the captured official lod.nexon.com page.",
       "notes": [
         "Official guide screenshot; guide content states it was prepared as of 2025-02-20."
-      ]
+      ],
+      "retired_at": "2026-10-14T05:06:57.009395+00:00",
+      "retirement_reason": "Replaced at the user request with unannotated recent player gameplay and event screenshots. Retained only as provenance; not displayed in the carousel."
     },
     {
       "title": "Legends of Darkness — South Korea",
@@ -155,7 +285,9 @@
       "provenance": "Image URL embedded in the captured official lod.nexon.com page.",
       "notes": [
         "Official annotated guide screenshot; guide content states it was prepared as of 2025-02-20."
-      ]
+      ],
+      "retired_at": "2026-10-14T05:06:57.009395+00:00",
+      "retirement_reason": "Replaced at the user request with unannotated recent player gameplay and event screenshots. Retained only as provenance; not displayed in the carousel."
     },
     {
       "title": "Legends of Darkness — South Korea",
@@ -180,7 +312,9 @@
       "provenance": "Image URL embedded in the captured official lod.nexon.com page.",
       "notes": [
         "Official developer story number 61, published 2026-08-07. The source describes the featured content as nearing completion; this is a development preview, not evidence of current availability."
-      ]
+      ],
+      "retired_at": "2026-10-14T05:06:57.009395+00:00",
+      "retirement_reason": "Replaced at the user request with unannotated recent player gameplay and event screenshots. Retained only as provenance; not displayed in the carousel."
     }
   ]
 }
