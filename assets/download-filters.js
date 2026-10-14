@@ -258,7 +258,7 @@
     });
   });
 
-  function revealHashTarget() {
+  function revealHashTarget(shouldScroll = true) {
     let id;
     try { id = decodeURIComponent(location.hash.slice(1)); }
     catch (_) { return; }
@@ -269,7 +269,7 @@
     if ((row && row.hidden) || (group && group.hidden)) {
       resetFilters();
       section.querySelector(':scope > details.collapsible-card').open = true;
-      requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+      if (shouldScroll) requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
     }
   }
   window.addEventListener('pageshow', refresh);
@@ -279,5 +279,5 @@
     if (!event.defaultPrevented && anchor && anchor.hash === location.hash) revealHashTarget();
   });
   refresh();
-  revealHashTarget();
+  revealHashTarget(false);
 })();

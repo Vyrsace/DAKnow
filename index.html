@@ -705,7 +705,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     });
   });
 
-  function revealHashTarget() {
+  function revealHashTarget(shouldScroll = true) {
     let id;
     try { id = decodeURIComponent(location.hash.slice(1)); }
     catch (_) { return; }
@@ -724,7 +724,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     }
     const row = target.closest('.master-row');
     if (row && row.hidden) resetFilters();
-    requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+    if (shouldScroll) requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
   }
 
   window.addEventListener('pageshow', refresh);
@@ -735,7 +735,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     if (anchor && anchor.hash === location.hash) revealHashTarget();
   });
   refresh();
-  revealHashTarget();
+  revealHashTarget(false);
 })();
 </script><script>(() => {
   'use strict';
@@ -803,5 +803,5 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   }).observe(strip);
   edges();
   renderPosition();
-})();</script><script defer="True" src="assets/catalog.js?v=5e809df5ddc4"></script><script defer="" src="assets/research-filters.js?v=810332f2659c"></script><script defer="" src="assets/download-filters.js?v=8d499fdb8b00"></script><script defer="" src="assets/back-to-top.js?v=02e144bc76d7"></script><script defer="" src="assets/section-navigation.js?v=22385c407113"></script><script defer="" src="assets/title-gallery.js?v=fc067a990421"></script>
+})();</script><script defer="True" src="assets/catalog.js?v=5e809df5ddc4"></script><script defer="" src="assets/research-filters.js?v=810332f2659c"></script><script defer="" src="assets/download-filters.js?v=8491bf61fb74"></script><script defer="" src="assets/back-to-top.js?v=02e144bc76d7"></script><script defer="" src="assets/section-navigation.js?v=22385c407113"></script><script defer="" src="assets/title-gallery.js?v=fc067a990421"></script>
 <script defer="" src="assets/title-lightbox.js?v=2de8de174f2d"></script></body></html>

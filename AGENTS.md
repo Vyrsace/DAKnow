@@ -36,6 +36,8 @@ These rules carry the user's standing request to review, verify, and troubleshoo
 
 ## Preserve the accepted presentation
 
+- Leave refresh scroll restoration to the browser. Startup may reveal the current fragment target, but must not replay its programmatic scroll. Keep fragment scrolling for actual navigation and repeated link activation; do not add saved scroll offsets or a custom restoration system.
+
 - Keep a global footer after main and below Sources, outside the Table of Contents. Its content is a verification-card matching the other cards' paper background, visible outline, 8px corners and responsive padding. Footer paragraphs use the shared 13px card body text and normal ink color, with 8px between paragraphs; do not restore a separate muted 12px footer style. Keep the established page width and responsive side padding, with a 10px total gap from the Sources card. Include the exact credit "Vyrsace · Knowledge Base". Place the existing bottom "Back to top" link at the end inside the footer card with a 12px top margin. Include the independent fan-catalog and educational/research purpose, an as-is accuracy/completeness disclaimer, respective-owner copyright/trademark attribution, "All rights reserved.", and a non-affiliation notice linking KRU Interactive to https://www.kru.com/, NEXON America Inc. to https://www.nexon.com/main/en, and NEXON Korea Corporation to https://company.nexon.com/. Do not imply shared ownership of every item or official endorsement.
 
 - The page h1 has two lines: "DarkAges" first and "International Version Catalog" second, with the subtitle at 60% of the main h1 size (0.6em), using the existing introduction text color, #526780. Retain the established font for text outside tables.
