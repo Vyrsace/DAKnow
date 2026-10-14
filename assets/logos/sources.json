@@ -74,6 +74,37 @@
       "source_url": "https://web.archive.org/web/20011005234949id_/http://www.apexon-online.com.tw:80/da/images/wallpaper/dalogo1024.JPG",
       "description": "Original publisher asset copied unchanged. Wordmark displayed using a CSS viewport crop; original wallpaper is intact.",
       "unchanged": true
+    },
+    {
+      "title": "Elancia — South Korea",
+      "title_id": "elancia-kr",
+      "country": "South Korea",
+      "image_number": 1,
+      "asset": "assets/logos/elancia.png",
+      "proposal_path": ".cache/catalog-redesign/lineage-expansion/assets/logos/elancia.png",
+      "original_path": "data/version-research/2026-10-14/elancia/assets/elancia-logo-original.png",
+      "selected_source_path": "data/version-research/2026-10-14/elancia/assets/elancia-logo-original.png",
+      "source_url": "https://lwi.nexon.com/elancia/home/logo.png",
+      "page_url": "https://elancia.nexon.com/",
+      "final_original_url": "https://lwi.nexon.com/elancia/home/logo.png",
+      "source_author": "NEXON Korea",
+      "source_post_date": "unknown",
+      "source_post_timezone": "Not stated; source date/time retained as displayed",
+      "captured_at": "2026-10-14T06:31:39.176989+00:00",
+      "evidence_kind": "official-logo",
+      "width": 276,
+      "height": 130,
+      "bytes": 24620,
+      "sha256": "7f8562162e584ddad9ce3d10241653350e65b00c75035842d4ad0d4d1e99bebd",
+      "original_bytes": 24620,
+      "original_sha256": "7f8562162e584ddad9ce3d10241653350e65b00c75035842d4ad0d4d1e99bebd",
+      "conversion": "None; original PNG copied byte-for-byte without resizing, cropping or re-encoding",
+      "verification": "Independently rehashed selected and original bytes; dimensions and decoded RGBA pixels match; image inspected",
+      "caption": "Elancia Korean title logo",
+      "label": "Elancia Korean title logo",
+      "alt": "Elancia — original NEXON Korea publisher logo",
+      "credit": "NEXON Korea",
+      "provenance": "Original publisher logo referenced by official site CSS"
     }
   ]
 }

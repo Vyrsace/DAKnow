@@ -2259,6 +2259,58 @@
           "path": ".cache/installshield-pilot/jp522-final2/report.json"
         }
       ]
+    },
+    {
+      "url": "https://elancia.dn.nexoncdn.co.kr/elanr.exe",
+      "filename": "elanr.exe",
+      "bytes": 14118704,
+      "sha256": "8cb96d9c427d86f5fd7c825c6bea23c47da5550d773d04078ac94189cc29ce4f",
+      "classification": "Nexon Game Manager Bootstrapper (downloads the client separately)",
+      "size_verification": "Original bytes freshly checked against Downloads/elancia-preservation.json; no installer executed",
+      "type_evidence": [
+        {
+          "path": "Downloads/elancia-preservation.json"
+        }
+      ]
+    },
+    {
+      "url": "https://elancia.dn.nexoncdn.co.kr/InstallData/Elancia.z00",
+      "filename": "Elancia.z00",
+      "bytes": 176577999,
+      "sha256": "6485a4cbfc4f8866e0aa166bf827ac05e276aa0996a9a093455026ea920246d1",
+      "classification": "ZIP archive (NGM game payload)",
+      "size_verification": "Original bytes freshly checked against Downloads/elancia-preservation.json; no installer executed",
+      "type_evidence": [
+        {
+          "path": "Downloads/elancia-preservation.json"
+        }
+      ]
+    },
+    {
+      "url": "https://elancia.dn.nexoncdn.co.kr/elantest.exe",
+      "filename": "elantest.exe",
+      "bytes": 14119216,
+      "sha256": "e3ca487eff9bb3f5400c1982497e94015972a9e6506d9c7e65ab5096cd9c28cf",
+      "classification": "Nexon Game Manager Bootstrapper (downloads the test client separately)",
+      "size_verification": "Original bytes freshly checked against Downloads/elancia-preservation.json; no installer executed",
+      "type_evidence": [
+        {
+          "path": "Downloads/elancia-preservation.json"
+        }
+      ]
+    },
+    {
+      "url": "https://elancia.dn.nexoncdn.co.kr/xx/InstallData/ElanciaTest.z00",
+      "filename": "ElanciaTest.z00",
+      "bytes": 176680470,
+      "sha256": "4b092dfbdc50691ffa802b21c7c7d0c337c357531256a07ba057a34aed595035",
+      "classification": "ZIP archive (NGM test game payload)",
+      "size_verification": "Original bytes freshly checked against Downloads/elancia-preservation.json; no installer executed",
+      "type_evidence": [
+        {
+          "path": "Downloads/elancia-preservation.json"
+        }
+      ]
     }
   ],
   "generalNotes": [

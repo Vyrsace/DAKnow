@@ -12,7 +12,7 @@
   const originalOrder = new Map(originalRows.map((row, index) => [row, index]));
   const buttons = [...table.querySelectorAll('.sort-button')];
   const collator = new Intl.Collator('en', { numeric: true, sensitivity: 'base' });
-  const labels = { version: 'Version', region: 'Region', title: 'Title', date: 'Release Date' };
+  const labels = { version: 'Version', region: 'Region', title: 'Title', date: 'Date' };
   let levels = [];
 
   function value(row, key) {
@@ -20,12 +20,12 @@
     if (key === 'region') return row.dataset.region || '';
     if (key === 'title') return row.dataset.title || '';
     const version = row.querySelector('td.version').textContent.trim();
-    const match = /^(?:v\.?)?(\d+)(?:\.(\d+))?([a-z]*)$/i.exec(version);
+    const match = /^(?:v\.?)?(\d+)(?:\.(\d+))?(?:\.(\d+))?(?:\.(\d+))?([a-z]*)$/i.exec(version);
     if (!match) return '';
     // Compare the catalog's equivalent spellings together: 3.6 / 3.60,
     // and 7.32 / 7.320. Keep the publisher's displayed label unchanged.
-    const [, major, revision = '0', suffix] = match;
-    return { number: `${major}.${revision.padEnd(3, '0')}`, suffix };
+    const [, major, revision = '0', build = '0', patch = '0', suffix] = match;
+    return { number: `${major}.${revision.padEnd(3, '0')}`, build: Number(build), patch: Number(patch), suffix };
   }
 
   function compare(a, b) {
@@ -38,7 +38,7 @@
       if (!left && !right) continue;
       // Letter revisions follow the equivalent numeric release (5.22, 5.22a, 5.22b).
       const difference = level.key === 'version'
-        ? collator.compare(left.number, right.number) || collator.compare(left.suffix, right.suffix)
+        ? collator.compare(left.number, right.number) || left.build - right.build || left.patch - right.patch || collator.compare(left.suffix, right.suffix)
         : collator.compare(left, right);
       if (difference) return difference * (level.direction === 'asc' ? 1 : -1);
     }

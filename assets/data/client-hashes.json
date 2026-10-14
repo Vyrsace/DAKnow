@@ -1,16 +1,19 @@
 {
   "schemaVersion": 1,
-  "verifiedAt": "2026-10-14T01:17:58+00:00",
+  "verifiedAt": "2026-10-14T06:53:46+00:00",
   "algorithm": "SHA-256",
   "scope": "Main game executable only, for versions with preserved client or replacement-executable downloads.",
   "verification": {
-    "method": "Read every preserved main executable and recalculate SHA-256 and byte length; compare with Downloads/files.jsonl. No preserved binary was executed.",
-    "verifiedPaths": 34,
-    "uniqueRows": 32,
+    "method": "Read every preserved main executable and recalculate SHA-256 and byte length; compare with Downloads/files.jsonl and the supplemental preservation manifest. No preserved binary was executed.",
+    "verifiedPaths": 36,
+    "uniqueRows": 34,
     "fileManifest": "Downloads/files.jsonl",
     "extractionManifest": "Downloads/extraction-manifest.jsonl",
     "downloadPlan": "Downloads/download-plan.json",
-    "builder": "scripts/build_version_catalog_hashes.py"
+    "builder": "scripts/build_version_catalog_hashes.py",
+    "supplementalManifests": [
+      "Downloads/elancia-preservation.json"
+    ]
   },
   "groups": [
     {
@@ -654,6 +657,71 @@
       ]
     },
     {
+      "id": "kr-elancia",
+      "title": "Elancia — South Korea",
+      "region": "South Korea",
+      "entries": [
+        {
+          "filename": "Elancia.exe",
+          "version": "6.0.0.0",
+          "bytes": 4228912,
+          "sha256": "ea02d8440d6e609efe1738755bf97ae86853e9a90fcb4679b89870aa637418b6",
+          "region": "South Korea",
+          "notes": [
+            "Test installation payload; Version reports the embedded PE executable file version.",
+            "Observed from the official NGM configuration on 14 October 2026 UTC; no live login or post-installation update was performed."
+          ],
+          "paths": [
+            "Downloads/KR - Elancia/6.0.0.0/Client/Extracted-Main/Elancia.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/KR - Elancia/6.0.0.0/Client/Original/ElanciaTest.z00"
+          ],
+          "sourceUrls": [
+            "https://ngmapi.nexon.com/game-info/127028",
+            "https://elancia.dn.nexoncdn.co.kr/xx/InstallData/ElanciaTest.nfo",
+            "https://elancia.dn.nexoncdn.co.kr/xx/InstallData/ElanciaTest.z00"
+          ],
+          "entryIds": [
+            "entry-elancia-package-test-6-0-0-0"
+          ],
+          "versionKind": "pe-file-version",
+          "channel": "test",
+          "rawPEFileVersion": "6.0.0.0",
+          "rawPEProductVersion": "6.0.0.0"
+        },
+        {
+          "filename": "Elancia.exe",
+          "version": "6.0.3.0",
+          "bytes": 3675440,
+          "sha256": "67db6a9e3d9f770f734c757e5d3fde4e5ac81bd9d84c10e64f623a7bf3a0dde6",
+          "region": "South Korea",
+          "notes": [
+            "Production installation payload; Version reports the embedded PE executable file version.",
+            "Observed from the official NGM configuration on 14 October 2026 UTC; no live login or post-installation update was performed."
+          ],
+          "paths": [
+            "Downloads/KR - Elancia/6.0.3.0/Client/Extracted-Main/Elancia.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/KR - Elancia/6.0.3.0/Client/Original/Elancia.z00"
+          ],
+          "sourceUrls": [
+            "https://ngmapi.nexon.com/game-info/74276",
+            "https://elancia.dn.nexoncdn.co.kr/InstallData/Elancia.nfo",
+            "https://elancia.dn.nexoncdn.co.kr/InstallData/Elancia.z00"
+          ],
+          "entryIds": [
+            "entry-elancia-package-retail-6-0-3-0"
+          ],
+          "versionKind": "pe-file-version",
+          "channel": "retail",
+          "rawPEFileVersion": "6.0.3.0",
+          "rawPEProductVersion": "6.0.3.0"
+        }
+      ]
+    },
+    {
       "id": "sg",
       "title": "DarkAges — Singapore",
       "region": "Singapore",
@@ -854,6 +922,7 @@
     "Only preserved main game executables are listed; installers, launchers, patchers, helpers, and archive containers are excluded.",
     "Recent US patch downloads contain binary deltas, so their target executable hashes come from the corresponding full clients; no deltas were applied.",
     "Unnumbered Korean launcher entries provide no preserved main client executable and have no hash row.",
-    "Version associations come from the preserved download and extraction records; package identity does not establish an independent release date or current service availability."
+    "Version associations come from the preserved download and extraction records; package identity does not establish an independent release date or current service availability.",
+    "Elancia four-component values are embedded PE executable file versions, not inferred publisher patch labels or post-auto-update live builds."
   ]
 }

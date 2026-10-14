@@ -1,0 +1,1855 @@
+{
+  "checked": "2026-10-14",
+  "milestones": {
+    "checked": "2026-10-14T06:30:09.537572+00:00",
+    "baseline_site_commit": "4e2c05d58b17e4061b647ee2261531a2e08a9490",
+    "baseline_master_count": 343,
+    "exact_user_wiki_inspected": false,
+    "exact_user_wiki_status": "Unable to inspect exact page; browser safety-policy rejection reported by root; no further attempts after notice. Earlier raw HTTP failures and independently accessible mirror captures are retained as provenance but not treated as inspection of the exact page.",
+    "rows": [
+      {
+        "id": "milestone-kr-announced-pccomm-1997-10-18",
+        "date": "1997-10-18",
+        "country": "South Korea",
+        "game_title": "Legends of Darkness / 어둠의 전설",
+        "channel": "unspecified",
+        "version": null,
+        "event": "Contemporary report of announced PC-communication service",
+        "evidence_status": "announced service date in contemporary report; actual opening not independently established",
+        "date_tooltip": "Nexon’s October 17 presentation reportedly announced PC-communication service for October 18, 1997; the contemporary article calls it commercial service, while later sources distinguish a January 1998 formal opening. No client number is known.",
+        "source_urls": [
+          "https://www.mk.co.kr/news/economy/1796425"
+        ],
+        "source_files": [
+          "sources/version-research/2026-10-14/lod-milestones/mk-1997-web-reading.md"
+        ],
+        "recommendation": "Eligible as an explicitly qualified announced-date milestone, not a confirmed open-beta row or numbered release",
+        "limitations": [
+          "Article publication date and announced date are both October 18; this is not a Wayback-date inference.",
+          "Article calls the planned service commercial, conflicting with later formal-opening chronology; do not relabel it open beta without stronger evidence.",
+          "Korean service context is supported; the earlier English Kingdom of the Winds announcement must not be reassigned to U.S. Dark Ages."
+        ],
+        "visible_cells": {
+          "Version": "-",
+          "Region": "-",
+          "Title": "-",
+          "Date": "1997-10-18",
+          "Notes": "-"
+        },
+        "release_notes": []
+      },
+      {
+        "id": "milestone-kr-formal-service-1998-01-03",
+        "date": "1998-01-03",
+        "country": "South Korea",
+        "game_title": "Legends of Darkness / 어둠의 전설",
+        "channel": "retail",
+        "version": null,
+        "event": "Formal Korean service opening",
+        "evidence_status": "explicit retrospective publisher statement",
+        "date_tooltip": "NEXON Korea’s official 10,000-day notice explicitly dates formal Legend of Darkness service opening to January 3, 1998. It does not identify the client version.",
+        "source_urls": [
+          "https://lod.nexon.com/News/event/82201?Category=2"
+        ],
+        "source_files": [
+          "sources/version-research/2026-10-14/lod-milestones/official-10000-days.html",
+          "sources/version-research/2026-10-14/lod-milestones/official-10000-days.md"
+        ],
+        "recommendation": "Add as confirmed service milestone with unknown client version",
+        "limitations": [
+          "Retrospective 2025 publisher statement; not a recovered 1998 installer.",
+          "The publisher says formal service, not a numeric client release."
+        ],
+        "visible_cells": {
+          "Version": "-",
+          "Region": "-",
+          "Title": "-",
+          "Date": "1998-01-03",
+          "Notes": "-"
+        },
+        "release_notes": []
+      },
+      {
+        "id": "milestone-us-reported-launch-1999-08-02",
+        "date": "1999-08-02",
+        "country": "United States",
+        "game_title": "DarkAges",
+        "channel": "retail",
+        "version": null,
+        "event": "Reported U.S. Dark Ages release date",
+        "evidence_status": "editorial/community database date; original publisher launch-day notice not recovered",
+        "date_tooltip": "RPGFan explicitly lists August 2, 1999 for the U.S. Dark Ages edition; MobyGames also lists this date. No original publisher launch announcement or client number has been established.",
+        "source_urls": [
+          "https://www.rpgfan.com/game/dark-ages-medenia/",
+          "https://www.mobygames.com/game/14900/dark-ages-online-roleplaying/"
+        ],
+        "source_files": [
+          "sources/version-research/2026-10-14/lod-milestones/rpgfan-us-date.html",
+          "sources/version-research/2026-10-14/lod-milestones/mobygames-web-reading.md"
+        ],
+        "recommendation": "Use only an evidence-labeled reported-date placeholder if the catalog admits such milestones; omit from a publisher-confirmed-only date set",
+        "limitations": [
+          "This is U.S. Dark Ages evidence, not a second Korean launch.",
+          "RPGFan labels the overall entry Dark Ages Medenia, so do not confuse the 1999 base-game date with the 2003 expansion.",
+          "MobyGames entry initially added by David Kennerly but current field has later contributors; this is not independently verified director authorship of that field.",
+          "GameMeca repeats August 2, 1999 in Korean-title database metadata while its NDC report discusses January 1998 commercialization; this mixed-region/conflicting field is not independent Korean launch evidence.",
+          "Mirrored official Candle News16 is dated August 2, 1999 but only reports connectivity; it does not announce launch."
+        ],
+        "visible_cells": {
+          "Version": "-",
+          "Region": "-",
+          "Title": "-",
+          "Date": "1999-08-02",
+          "Notes": "-"
+        },
+        "release_notes": []
+      }
+    ],
+    "numbered_additions": []
+  },
+  "elancia_records": [
+    {
+      "version": "5.02",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2007-06-07",
+      "date_scope": "announced-patch-date",
+      "published_date": "2007-06-07",
+      "release_notes": [
+        "Changes the launcher and title-screen rating display, revises path-finding messages and updates mercenary status windows."
+      ],
+      "research_notes": [
+        "Date follows the body’s officially announced patch schedule, not the displayed publication day.",
+        "Notice does not explicitly identify production or test channel."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/889192451/8075",
+          "패치 일랜시아 v5.02 패치 및 캐시아이템 추가 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/notice-8075.html"
+    },
+    {
+      "version": "5.06",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2007-07-05",
+      "date_scope": "announced-patch-date",
+      "published_date": "2007-07-05",
+      "release_notes": [
+        "Updates guild wars, sparring arenas and guild-house occupation; stops HP falling when MP rises; fixes prayer alignment changes and equipment display/removal."
+      ],
+      "research_notes": [
+        "Date follows the body’s officially announced patch schedule, not the displayed publication day.",
+        "Notice does not explicitly identify production or test channel."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/889192451/8333",
+          "패치 일랜시아 v5.06 패치 및 캐시아이템 추가 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/notice-8333.html"
+    },
+    {
+      "version": "5.09",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2007-07-26",
+      "date_scope": "announced-patch-date",
+      "published_date": "2007-07-26",
+      "release_notes": [
+        "Adds latest-version checking to the launcher and a recovery function; fixes crashes while using private rooms."
+      ],
+      "research_notes": [
+        "Date follows the body’s officially announced patch schedule, not the displayed publication day.",
+        "Notice does not explicitly identify production or test channel."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/889192451/8501",
+          "패치 일랜시아 v5.09 패치 및 캐시아이템 추가 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/notice-8501.html"
+    },
+    {
+      "version": "5.10",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2007-07-30",
+      "date_scope": "announced-patch-date",
+      "published_date": "2007-07-30",
+      "release_notes": [
+        "Fixes finishing-move anomalies and damage increasing when particular keys are pressed."
+      ],
+      "research_notes": [
+        "Date follows the body’s officially announced patch schedule, not the displayed publication day.",
+        "Notice does not explicitly identify production or test channel."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/889192451/8544",
+          "패치 일랜시아 v5.10 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/notice-8544.html"
+    },
+    {
+      "version": "5.12",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2007-08-13",
+      "date_scope": "announced-patch-date",
+      "published_date": "2007-08-10",
+      "release_notes": [
+        "Disables PARTY MOVE/MOVE controls; opens northern 포프레스네 with new monsters, items and NPCs; applies the Ice Golem transformation event."
+      ],
+      "research_notes": [
+        "Date follows the body’s officially announced patch schedule, not the displayed publication day.",
+        "Notice does not explicitly identify production or test channel."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/889192451/8663",
+          "패치 일랜시아 v5.12 패치 및 이벤트 적용 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/notice-8663.html"
+    },
+    {
+      "version": "5.16",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2007-09-20",
+      "date_scope": "official-update-date",
+      "published_date": "2007-09-20",
+      "release_notes": [
+        "Replaces the title screen; fixes Fairy Armor rendering and restores the Dryad equipment set’s 20% attribute bonus."
+      ],
+      "research_notes": [
+        "Notice does not explicitly identify production or test channel.",
+        "Body supplies update month and day; the year follows the official displayed publication date rather than being printed in the body."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/10",
+          "9월 20일 업데이트 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/8988",
+          "점검 일랜시아 v5.16 패치 및 이벤트 적용 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-10.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-8988.html"
+      ]
+    },
+    {
+      "version": "5.18",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2007-10-25",
+      "date_scope": "official-update-date",
+      "published_date": "2007-10-29",
+      "release_notes": [
+        "Changes Dark Priest and Dark Sister targeting in the Cernica temple basement; fixes hat rendering, guild-message crashes and northern Popresne monster attacks."
+      ],
+      "research_notes": [
+        "Notice does not explicitly identify production or test channel.",
+        "Body supplies update month and day; the year follows the official displayed publication date rather than being printed in the body.",
+        "Official displayed publication date is 2007-10-29; body explicitly gives the patch/update date 2007-10-25."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/11",
+          "10월 25일 업데이트 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/69819",
+          "패치 일랜시아 v5.18 패치 및 캐시아이템 업데이트 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-11.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-69819.html"
+      ]
+    },
+    {
+      "version": "5.20",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2007-11-14",
+      "date_scope": "announced-patch-date",
+      "published_date": "2007-11-14",
+      "release_notes": [
+        "Applies the college entrance examination event (수능 ‘감’ 잡기)."
+      ],
+      "research_notes": [
+        "Date follows the body’s officially announced patch schedule, not the displayed publication day.",
+        "Notice does not explicitly identify production or test channel."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/889192451/69965",
+          "점검 일랜시아 v5.20 패치 및 이벤트 적용 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/notice-69965.html"
+    },
+    {
+      "version": "5.26",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2008-01-17",
+      "date_scope": "official-update-date",
+      "published_date": "2008-01-17",
+      "release_notes": [
+        "Adds two pets (클로버 and 레디벅), eleven pet level-up reward items, related items and the Classic RPG title logo; fixes repair costs exceeding the carried-money limit."
+      ],
+      "research_notes": [
+        "Notice does not explicitly identify production or test channel."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/12",
+          "2008년 1월 17일 업데이트 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/70539",
+          "패치 일랜시아 v5.26 패치 및 캐시아이템 업데이트 안내 (연장)"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-12.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-70539.html"
+      ]
+    },
+    {
+      "version": "5.27",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2008-01-18",
+      "date_scope": "official-update-date",
+      "published_date": "2008-01-18",
+      "release_notes": [
+        "Fixes pet experience after Iron Claw kills, disappearing minimized pet status windows and the pet mouseover name display."
+      ],
+      "research_notes": [
+        "Notice does not explicitly identify production or test channel.",
+        "The same official post separately describes version 5.27 and version 5.28 updates on 18 January 2008."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/13",
+          "2008년 1월 18일 업데이트 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/70565",
+          "패치 일랜시아 v5.27 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-13.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-70565.html"
+      ]
+    },
+    {
+      "version": "5.28",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2008-01-18",
+      "date_scope": "official-update-date",
+      "published_date": "2008-01-18",
+      "release_notes": [
+        "Fixes NPCs disappearing when the screen is refreshed."
+      ],
+      "research_notes": [
+        "Notice does not explicitly identify production or test channel.",
+        "The same official post separately describes version 5.27 and version 5.28 updates on 18 January 2008."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/13",
+          "2008년 1월 18일 업데이트 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/70569",
+          "패치 일랜시아 v5.28 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-13.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-70569.html"
+      ]
+    },
+    {
+      "version": "5.30",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2008-04-10",
+      "date_scope": "official-update-date",
+      "published_date": "2008-04-10",
+      "release_notes": [
+        "Adds poison for daggers and dual daggers, poison herbs and an alchemy recipe; fixes pets speaking NPC dialogue when names match."
+      ],
+      "research_notes": [
+        "Notice does not explicitly identify production or test channel."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/14",
+          "2008년 4월 10일 업데이트 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/71396",
+          "패치 일랜시아 v5.30 패치 및 캐시아이템 업데이트 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-14.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-71396.html"
+      ]
+    },
+    {
+      "version": "5.31",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2008-04-24",
+      "date_scope": "official-update-date",
+      "published_date": "2008-04-24",
+      "release_notes": [
+        "Raises character limits to ten per server and sixty overall per Nexon ID; reduces dagger-poison potency and increases its activation chance."
+      ],
+      "research_notes": [
+        "Notice does not explicitly identify production or test channel."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/15",
+          "2008년 4월 24일 업데이트 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/71585",
+          "점검 일랜시아 v5.31패치 및 캐시아이템 추가 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-15.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-71585.html"
+      ]
+    },
+    {
+      "version": "5.35",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2008-05-29",
+      "date_scope": "official-update-date",
+      "published_date": "2008-05-29",
+      "release_notes": [
+        "Fixes a character-creation freeze on right-click and changes Nexon ID verification during character creation."
+      ],
+      "research_notes": [
+        "Notice does not explicitly identify production or test channel."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/16",
+          "2008년 5월 29일 업데이트 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/71881",
+          "업데이트 일랜시아 v5.35 패치 및 캐시아이템 추가 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-16.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-71881.html"
+      ]
+    },
+    {
+      "version": "5.37",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2008-07-17",
+      "date_scope": "official-update-date",
+      "published_date": "2008-07-17",
+      "release_notes": [
+        "Adds group sparring through Alpha Lorencia Square and the archer guild; fixes disconnection when opening the bank."
+      ],
+      "research_notes": [
+        "Notice does not explicitly identify production or test channel."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/17",
+          "2008년 7월 17일 업데이트 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/72380",
+          "업데이트 일랜시아 v5.37 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-17.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-72380.html"
+      ]
+    },
+    {
+      "version": "5.39",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2008-08-14",
+      "date_scope": "announced-patch-date",
+      "published_date": "2008-08-14",
+      "release_notes": [
+        "Adds the cash items 쿵푸걸슈트 and 만두머리 (male/female)."
+      ],
+      "research_notes": [
+        "Date follows the body’s officially announced patch schedule, not the displayed publication day.",
+        "Notice does not explicitly identify production or test channel."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/889192451/72737",
+          "업데이트 일랜시아 v5.39 패치 및 캐시아이템 추가 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/notice-72737.html"
+    },
+    {
+      "version": "5.40",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": "2009-02-16",
+      "date_scope": "announced-patch-date",
+      "published_date": "2009-02-16",
+      "release_notes": [
+        "Test Server"
+      ],
+      "research_notes": [
+        "Date follows the body’s officially announced patch schedule, not the displayed publication day."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/889192451/74478",
+          "패치 [공지] v5.40 테스트 서버 패치 안내(수정)"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/notice-74478.html"
+    },
+    {
+      "version": "5.41",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "unspecified",
+      "release_date": "2009-02-16",
+      "date_scope": "announced-patch-date",
+      "published_date": "2009-02-16",
+      "release_notes": [],
+      "research_notes": [
+        "Date follows the body’s officially announced patch schedule, not the displayed publication day.",
+        "Notice does not explicitly identify production or test channel."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/889192451/74483",
+          "패치 [공지] v5.41 서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/notice-74483.html"
+    },
+    {
+      "version": "5.42",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": "2009-06-09",
+      "date_scope": "official-completed-patch-date",
+      "published_date": "2009-06-09",
+      "release_notes": [
+        "Test Server"
+      ],
+      "research_notes": [
+        "Date follows the body’s officially announced patch schedule, not the displayed publication day.",
+        "Official title is marked completed; this does not independently identify the exact deployment instant."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/889192451/75475",
+          "패치 v5.42 테스트 서버 패치 안내(완료)"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/notice-75475.html"
+    },
+    {
+      "version": "5.43",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "retail",
+      "release_date": "2009-06-10",
+      "date_scope": "announced-patch-date",
+      "published_date": "2009-06-10",
+      "release_notes": [],
+      "research_notes": [
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/19",
+          "일랜시아 v5.43 상용 서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-19.html"
+    },
+    {
+      "version": "5.44",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": "2009-06-11",
+      "date_scope": "announced-patch-date",
+      "published_date": "2009-06-11",
+      "release_notes": [
+        "Test Server",
+        "Fixes Windows 98 connection errors."
+      ],
+      "research_notes": [
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/20",
+          "일랜시아 v5.44 테스트 서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-20.html"
+    },
+    {
+      "version": "5.45",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "retail",
+      "release_date": "2009-06-11",
+      "date_scope": "announced-patch-date",
+      "published_date": "2009-06-11",
+      "release_notes": [
+        "Improves Windows 98 connection-error handling."
+      ],
+      "research_notes": [
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/21",
+          "일랜시아 v5.45 상용 서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-21.html"
+    },
+    {
+      "version": "5.46",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": "2009-11-18",
+      "date_scope": "announced-patch-date",
+      "published_date": "2009-11-18",
+      "release_notes": [
+        "Test Server"
+      ],
+      "research_notes": [
+        "Date follows the body’s officially announced patch schedule, not the displayed publication day."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/889192451/77075",
+          "패치 11/18(수) v5.46 테스트 서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/notice-77075.html"
+    },
+    {
+      "version": "5.47",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "retail",
+      "release_date": "2009-11-20",
+      "date_scope": "announced-patch-date",
+      "published_date": "2009-11-18",
+      "release_notes": [],
+      "research_notes": [
+        "Date follows the body’s officially announced patch schedule, not the displayed publication day."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/889192451/77076",
+          "패치 11/20(금) v5.47 상용서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/notice-77076.html"
+    },
+    {
+      "version": "5.48",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": "2010-05-19",
+      "date_scope": "announced-patch-date",
+      "published_date": "2010-05-19",
+      "release_notes": [
+        "Test Server"
+      ],
+      "research_notes": [
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/22",
+          "일랜시아 Ver 5.48 테스트서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-22.html"
+    },
+    {
+      "version": "5.49",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "retail",
+      "release_date": "2010-05-26",
+      "date_scope": "announced-patch-date",
+      "published_date": "2010-05-24",
+      "release_notes": [],
+      "research_notes": [
+        "Official displayed publication date is 2010-05-24; body explicitly gives the patch/update date 2010-05-26.",
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/23",
+          "일랜시아 Ver 5.49 상용서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-23.html"
+    },
+    {
+      "version": "5.52",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": "2010-10-06",
+      "date_scope": "announced-patch-date",
+      "published_date": "2010-10-06",
+      "release_notes": [
+        "Test Server"
+      ],
+      "research_notes": [
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/24",
+          "일랜시아 Ver 5.52 테스트서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-24.html"
+    },
+    {
+      "version": "5.53",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "retail",
+      "release_date": "2010-10-07",
+      "date_scope": "announced-patch-date",
+      "published_date": "2010-10-06",
+      "release_notes": [],
+      "research_notes": [
+        "Official displayed publication date is 2010-10-06; body explicitly gives the patch/update date 2010-10-07.",
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/25",
+          "일랜시아 Ver 5.53 상용서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-25.html"
+    },
+    {
+      "version": "5.54",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": null,
+      "date_scope": "announced-patch-date",
+      "published_date": "2010-11-11",
+      "release_notes": [
+        "Test Server"
+      ],
+      "research_notes": [
+        "Conflicting dates in one official post: introductory sentence announces 17 November 2010; the work-date field says 11 November 2010. Release date remains unresolved.",
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/26",
+          "일랜시아 Ver 5.54 테스트서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-26.html"
+    },
+    {
+      "version": "5.55",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": "2010-11-18",
+      "date_scope": "announced-patch-date",
+      "published_date": "2010-11-18",
+      "release_notes": [
+        "Test Server"
+      ],
+      "research_notes": [
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/27",
+          "일랜시아 Ver 5.55 테스트서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-27.html"
+    },
+    {
+      "version": "5.56",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": "2010-11-23",
+      "date_scope": "announced-patch-date",
+      "published_date": "2010-11-22",
+      "release_notes": [
+        "Test Server"
+      ],
+      "research_notes": [
+        "Official displayed publication date is 2010-11-22; body explicitly gives the patch/update date 2010-11-23.",
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/28",
+          "일랜시아 Ver 5.56 테스트서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-28.html"
+    },
+    {
+      "version": "5.57",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "retail",
+      "release_date": "2010-11-25",
+      "date_scope": "announced-patch-date",
+      "published_date": "2010-11-25",
+      "release_notes": [
+        "Adds withdrawal/refund requests for eligible cash items within seven days of purchase."
+      ],
+      "research_notes": [
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/29",
+          "일랜시아 Ver 5.57 상용서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-29.html"
+    },
+    {
+      "version": "5.58",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "retail",
+      "release_date": "2011-02-28",
+      "date_scope": "announced-patch-date",
+      "published_date": "2011-02-25",
+      "release_notes": [],
+      "research_notes": [
+        "Official displayed publication date is 2011-02-25; body explicitly gives the patch/update date 2011-02-28.",
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/30",
+          "일랜시아 Ver 5.58 상용서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-30.html"
+    },
+    {
+      "version": "5.59",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": "2011-02-28",
+      "date_scope": "announced-patch-date",
+      "published_date": "2011-02-28",
+      "release_notes": [
+        "Test Server"
+      ],
+      "research_notes": [
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/31",
+          "일랜시아 Ver 5.59 테스트서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-31.html"
+    },
+    {
+      "version": "5.60",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": "2011-04-25",
+      "date_scope": "announced-patch-date",
+      "published_date": "2011-04-25",
+      "release_notes": [
+        "Test Server"
+      ],
+      "research_notes": [
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/32",
+          "일랜시아 Ver 5.60 테스트서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-32.html"
+    },
+    {
+      "version": "5.61",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "retail",
+      "release_date": "2011-04-27",
+      "date_scope": "announced-patch-date",
+      "published_date": "2011-04-27",
+      "release_notes": [],
+      "research_notes": [
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/33",
+          "일랜시아 Ver 5.61 상용서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-33.html"
+    },
+    {
+      "version": "5.62",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": "2011-08-26",
+      "date_scope": "announced-patch-date",
+      "published_date": "2011-08-26",
+      "release_notes": [
+        "Test Server"
+      ],
+      "research_notes": [
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/34",
+          "일랜시아 Ver 5.62 테스트서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-34.html"
+    },
+    {
+      "version": "5.63",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "retail",
+      "release_date": "2011-09-01",
+      "date_scope": "announced-patch-date",
+      "published_date": "2011-09-30",
+      "release_notes": [],
+      "research_notes": [
+        "Body dates the production patch to 1 September 2011; the displayed post date is 30 September. Date uses the explicitly stated patch day, not the publication day.",
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used.",
+        "Official Notice-board post 83860 was published on 1 September 2011 and independently repeats the 1 September patch schedule."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/35",
+          "일랜시아 Ver 5.63 상용서버 패치 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/83860",
+          "패치 9/1(목) Ver 5.63 상용서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-35.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-83860.html"
+      ]
+    },
+    {
+      "version": "5.65",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "retail",
+      "release_date": "2012-03-08",
+      "date_scope": "announced-patch-date",
+      "published_date": "2012-03-07",
+      "release_notes": [
+        "Changes the login method."
+      ],
+      "research_notes": [
+        "Official displayed publication date is 2012-03-07; body explicitly gives the patch/update date 2012-03-08.",
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used.",
+        "Corresponding official Notice-board post is marked completed."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/36",
+          "일랜시아 Ver 5.65 상용서버 패치 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/86938",
+          "패치 3/8(목) Ver 5.65 상용서버 패치 안내 (완료)"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-36.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-86938.html"
+      ]
+    },
+    {
+      "version": "5.66",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": "2012-03-07",
+      "date_scope": "announced-patch-date",
+      "published_date": "2012-03-07",
+      "release_notes": [
+        "Test Server"
+      ],
+      "research_notes": [
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used.",
+        "Corresponding official Notice-board post is marked completed."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/37",
+          "일랜시아 Ver 5.66 테스트서버 패치 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/86948",
+          "패치 3/7(수) Ver 5.66 테스트서버 패치 안내 (완료)"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-37.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-86948.html"
+      ]
+    },
+    {
+      "version": "5.67",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "retail",
+      "release_date": "2012-03-08",
+      "date_scope": "announced-patch-date",
+      "published_date": "2012-03-08",
+      "release_notes": [
+        "Fixes connection errors."
+      ],
+      "research_notes": [
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used.",
+        "Corresponding official Notice-board post is marked completed."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/38",
+          "일랜시아 Ver 5.67 상용서버 패치 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/87000",
+          "점검 3/8(목) Ver 5.67 상용서버 패치 안내 (완료)"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-38.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-87000.html"
+      ]
+    },
+    {
+      "version": "5.68",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": "2012-03-14",
+      "date_scope": "announced-patch-date",
+      "published_date": "2012-03-13",
+      "release_notes": [
+        "Test Server"
+      ],
+      "research_notes": [
+        "Official displayed publication date is 2012-03-13; body explicitly gives the patch/update date 2012-03-14.",
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used.",
+        "Corresponding official Notice-board post is marked completed."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/39",
+          "일랜시아 Ver 5.68 테스트서버 패치 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/87028",
+          "패치 3/14 (수) Ver 5.68 테스트서버 패치 안내 (완료)"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-39.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-87028.html"
+      ]
+    },
+    {
+      "version": "5.69",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "retail",
+      "release_date": "2012-03-15",
+      "date_scope": "announced-patch-date",
+      "published_date": "2012-03-14",
+      "release_notes": [],
+      "research_notes": [
+        "Official displayed publication date is 2012-03-14; body explicitly gives the patch/update date 2012-03-15.",
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/40",
+          "일랜시아  Ver 5.69 상용서버 패치 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/87038",
+          "점검 3/15 (목) 상용서버 Ver5.69 패치"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-40.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-87038.html"
+      ]
+    },
+    {
+      "version": "5.70",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": "2012-04-18",
+      "date_scope": "announced-patch-date",
+      "published_date": "2012-04-18",
+      "release_notes": [
+        "Test Server"
+      ],
+      "research_notes": [
+        "Date follows the body’s officially announced patch schedule, not the displayed publication day."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/889192451/87630",
+          "공지 4/18 (수) Ver 5.70 테스트서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/notice-87630.html"
+    },
+    {
+      "version": "5.71",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "retail",
+      "release_date": "2012-04-26",
+      "date_scope": "official-completed-patch-date",
+      "published_date": "2012-04-25",
+      "release_notes": [],
+      "research_notes": [
+        "Date follows the body’s officially announced patch schedule, not the displayed publication day.",
+        "The patch date is consistently 26 April 2012, but the introduction says 9 a.m. and the work-time field says 10–11 a.m. Timing remains inconsistent.",
+        "Official title is marked completed; this does not independently identify the exact deployment instant."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/889192451/87732",
+          "패치 4/26 (목) 상용서버 Ver5.71 패치 (완료)"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/notice-87732.html"
+    },
+    {
+      "version": "5.72",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": "2012-06-20",
+      "date_scope": "announced-patch-date",
+      "published_date": "2012-06-19",
+      "release_notes": [
+        "Test Server"
+      ],
+      "research_notes": [
+        "Date follows the body’s officially announced patch schedule, not the displayed publication day."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/889192451/88499",
+          "패치 6/20 (수) Ver 5.72 테스트서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/notice-88499.html"
+    },
+    {
+      "version": "5.73",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "retail",
+      "release_date": "2012-06-28",
+      "date_scope": "announced-patch-date",
+      "published_date": "2012-06-27",
+      "release_notes": [
+        "Adds an excessive-play warning message."
+      ],
+      "research_notes": [
+        "Date follows the body’s officially announced patch schedule, not the displayed publication day."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/889192451/88630",
+          "패치 6/28 (목) 상용서버 Ver5.73 패치"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/notice-88630.html"
+    },
+    {
+      "version": "5.74",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "test",
+      "release_date": "2014-03-25",
+      "date_scope": "announced-patch-date",
+      "published_date": "2014-03-25",
+      "release_notes": [
+        "Test Server"
+      ],
+      "research_notes": [
+        "The same numeric date, 25 March 2014, appears twice; a work-date weekday is printed as Wednesday although the introductory sentence says Tuesday. Tuesday is calendar-correct.",
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used.",
+        "Corresponding official Notice-board post is marked completed."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/41",
+          "일랜시아 Ver 5.74 테스트서버 패치 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/100728",
+          "공지 (완료)03/25(화) 일랜시아 Ver 5.74 테스트서버 패치 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-41.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-100728.html"
+      ]
+    },
+    {
+      "version": "5.80",
+      "country": "South Korea",
+      "title": "Elancia / 일랜시아",
+      "region_id": "elancia-kr",
+      "channel": "retail",
+      "release_date": "2014-03-27",
+      "date_scope": "announced-patch-date",
+      "published_date": "2014-03-25",
+      "release_notes": [
+        "Adds 엘의알터스톤 to the shop."
+      ],
+      "research_notes": [
+        "Official displayed publication date is 2014-03-25; body explicitly gives the patch/update date 2014-03-27.",
+        "Date is the officially announced patch schedule unless separately corroborated by a completion notice; no installer execution or live login was used.",
+        "Corresponding official Notice-board post is marked completed."
+      ],
+      "sources": [
+        [
+          "https://elancia.nexon.com/board/520093700/42",
+          "일랜시아 Ver 5.80 상용서버 패치 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/100736",
+          "공지 (완료)03/27(목) 일랜시아 Ver 5.80 상용서버 패치 안내"
+        ],
+        [
+          "https://elancia.nexon.com/board/889192451/100786",
+          "공지 일랜시아 Ver 5.80 상용서버 패치 후 접속 불가 현상 해결 안내"
+        ]
+      ],
+      "capture": "sources/version-research/2026-10-14/elancia/update-42.html",
+      "supporting_captures": [
+        "sources/version-research/2026-10-14/elancia/notice-100736.html",
+        "sources/version-research/2026-10-14/elancia/notice-100786.html"
+      ]
+    }
+  ],
+  "integration": {
+    "baseline_commit": "4e2c05d58b17e4061b647ee2261531a2e08a9490",
+    "added": [
+      {
+        "id": "milestone-kr-announced-pccomm-1997-10-18",
+        "kind": "milestone",
+        "date": "1997-10-18",
+        "source_files": [
+          "sources/version-research/2026-10-14/lod-milestones/mk-1997-web-reading.md"
+        ]
+      },
+      {
+        "id": "milestone-kr-formal-service-1998-01-03",
+        "kind": "milestone",
+        "date": "1998-01-03",
+        "source_files": [
+          "sources/version-research/2026-10-14/lod-milestones/official-10000-days.html",
+          "sources/version-research/2026-10-14/lod-milestones/official-10000-days.md"
+        ]
+      },
+      {
+        "id": "milestone-us-reported-launch-1999-08-02",
+        "kind": "milestone",
+        "date": "1999-08-02",
+        "source_files": [
+          "sources/version-research/2026-10-14/lod-milestones/rpgfan-us-date.html",
+          "sources/version-research/2026-10-14/lod-milestones/mobygames-web-reading.md"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-02",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/notice-8075.html"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-06",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/notice-8333.html"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-09",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/notice-8501.html"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-10",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/notice-8544.html"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-12",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/notice-8663.html"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-16",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-10.html"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-18",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-11.html"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-20",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/notice-69965.html"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-26",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-12.html"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-27",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-13.html"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-28",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-13.html"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-30",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-14.html"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-31",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-15.html"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-35",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-16.html"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-37",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-17.html"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-39",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/notice-72737.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-40",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/notice-74478.html"
+        ]
+      },
+      {
+        "id": "version-elancia-unspecified-5-41",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/notice-74483.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-42",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/notice-75475.html"
+        ]
+      },
+      {
+        "id": "version-elancia-retail-5-43",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-19.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-44",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-20.html"
+        ]
+      },
+      {
+        "id": "version-elancia-retail-5-45",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-21.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-46",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/notice-77075.html"
+        ]
+      },
+      {
+        "id": "version-elancia-retail-5-47",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/notice-77076.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-48",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-22.html"
+        ]
+      },
+      {
+        "id": "version-elancia-retail-5-49",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-23.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-52",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-24.html"
+        ]
+      },
+      {
+        "id": "version-elancia-retail-5-53",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-25.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-54",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-26.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-55",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-27.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-56",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-28.html"
+        ]
+      },
+      {
+        "id": "version-elancia-retail-5-57",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-29.html"
+        ]
+      },
+      {
+        "id": "version-elancia-retail-5-58",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-30.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-59",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-31.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-60",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-32.html"
+        ]
+      },
+      {
+        "id": "version-elancia-retail-5-61",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-33.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-62",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-34.html"
+        ]
+      },
+      {
+        "id": "version-elancia-retail-5-63",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-35.html"
+        ]
+      },
+      {
+        "id": "version-elancia-retail-5-65",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-36.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-66",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-37.html"
+        ]
+      },
+      {
+        "id": "version-elancia-retail-5-67",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-38.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-68",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-39.html"
+        ]
+      },
+      {
+        "id": "version-elancia-retail-5-69",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-40.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-70",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/notice-87630.html"
+        ]
+      },
+      {
+        "id": "version-elancia-retail-5-71",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/notice-87732.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-72",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/notice-88499.html"
+        ]
+      },
+      {
+        "id": "version-elancia-retail-5-73",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/notice-88630.html"
+        ]
+      },
+      {
+        "id": "version-elancia-test-5-74",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-41.html"
+        ]
+      },
+      {
+        "id": "version-elancia-retail-5-80",
+        "kind": "version",
+        "source_files": [
+          "sources/version-research/2026-10-14/elancia/update-42.html"
+        ]
+      }
+    ],
+    "source_map": {
+      "https://www.mk.co.kr/news/economy/1796425": "source-506",
+      "https://lod.nexon.com/News/event/82201?Category=2": "source-507",
+      "https://www.rpgfan.com/game/dark-ages-medenia/": "source-508",
+      "https://www.mobygames.com/game/14900/dark-ages-online-roleplaying/": "source-509",
+      "https://elancia.nexon.com/board/889192451/8075": "source-510",
+      "https://elancia.nexon.com/board/889192451/8333": "source-511",
+      "https://elancia.nexon.com/board/889192451/8501": "source-512",
+      "https://elancia.nexon.com/board/889192451/8544": "source-513",
+      "https://elancia.nexon.com/board/889192451/8663": "source-514",
+      "https://elancia.nexon.com/board/520093700/10": "source-515",
+      "https://elancia.nexon.com/board/889192451/8988": "source-516",
+      "https://elancia.nexon.com/board/520093700/11": "source-517",
+      "https://elancia.nexon.com/board/889192451/69819": "source-518",
+      "https://elancia.nexon.com/board/889192451/69965": "source-519",
+      "https://elancia.nexon.com/board/520093700/12": "source-520",
+      "https://elancia.nexon.com/board/889192451/70539": "source-521",
+      "https://elancia.nexon.com/board/520093700/13": "source-522",
+      "https://elancia.nexon.com/board/889192451/70565": "source-523",
+      "https://elancia.nexon.com/board/889192451/70569": "source-524",
+      "https://elancia.nexon.com/board/520093700/14": "source-525",
+      "https://elancia.nexon.com/board/889192451/71396": "source-526",
+      "https://elancia.nexon.com/board/520093700/15": "source-527",
+      "https://elancia.nexon.com/board/889192451/71585": "source-528",
+      "https://elancia.nexon.com/board/520093700/16": "source-529",
+      "https://elancia.nexon.com/board/889192451/71881": "source-530",
+      "https://elancia.nexon.com/board/520093700/17": "source-531",
+      "https://elancia.nexon.com/board/889192451/72380": "source-532",
+      "https://elancia.nexon.com/board/889192451/72737": "source-533",
+      "https://elancia.nexon.com/board/889192451/74478": "source-534",
+      "https://elancia.nexon.com/board/889192451/74483": "source-535",
+      "https://elancia.nexon.com/board/889192451/75475": "source-536",
+      "https://elancia.nexon.com/board/520093700/19": "source-537",
+      "https://elancia.nexon.com/board/520093700/20": "source-538",
+      "https://elancia.nexon.com/board/520093700/21": "source-539",
+      "https://elancia.nexon.com/board/889192451/77075": "source-540",
+      "https://elancia.nexon.com/board/889192451/77076": "source-541",
+      "https://elancia.nexon.com/board/520093700/22": "source-542",
+      "https://elancia.nexon.com/board/520093700/23": "source-543",
+      "https://elancia.nexon.com/board/520093700/24": "source-544",
+      "https://elancia.nexon.com/board/520093700/25": "source-545",
+      "https://elancia.nexon.com/board/520093700/26": "source-546",
+      "https://elancia.nexon.com/board/520093700/27": "source-547",
+      "https://elancia.nexon.com/board/520093700/28": "source-548",
+      "https://elancia.nexon.com/board/520093700/29": "source-549",
+      "https://elancia.nexon.com/board/520093700/30": "source-550",
+      "https://elancia.nexon.com/board/520093700/31": "source-551",
+      "https://elancia.nexon.com/board/520093700/32": "source-552",
+      "https://elancia.nexon.com/board/520093700/33": "source-553",
+      "https://elancia.nexon.com/board/520093700/34": "source-554",
+      "https://elancia.nexon.com/board/520093700/35": "source-555",
+      "https://elancia.nexon.com/board/889192451/83860": "source-556",
+      "https://elancia.nexon.com/board/520093700/36": "source-557",
+      "https://elancia.nexon.com/board/889192451/86938": "source-558",
+      "https://elancia.nexon.com/board/520093700/37": "source-559",
+      "https://elancia.nexon.com/board/889192451/86948": "source-560",
+      "https://elancia.nexon.com/board/520093700/38": "source-561",
+      "https://elancia.nexon.com/board/889192451/87000": "source-562",
+      "https://elancia.nexon.com/board/520093700/39": "source-563",
+      "https://elancia.nexon.com/board/889192451/87028": "source-564",
+      "https://elancia.nexon.com/board/520093700/40": "source-565",
+      "https://elancia.nexon.com/board/889192451/87038": "source-566",
+      "https://elancia.nexon.com/board/889192451/87630": "source-567",
+      "https://elancia.nexon.com/board/889192451/87732": "source-568",
+      "https://elancia.nexon.com/board/889192451/88499": "source-569",
+      "https://elancia.nexon.com/board/889192451/88630": "source-570",
+      "https://elancia.nexon.com/board/520093700/41": "source-571",
+      "https://elancia.nexon.com/board/889192451/100728": "source-572",
+      "https://elancia.nexon.com/board/520093700/42": "source-573",
+      "https://elancia.nexon.com/board/889192451/100736": "source-574",
+      "https://elancia.nexon.com/board/889192451/100786": "source-575",
+      "https://ndcreplay.nexon.com/NDC2016/sessions/NDC2016_0058.html": "source-576",
+      "https://ndc.vod.nexoncdn.co.kr/NDC2016/slides/NDC2016_0058/data/slide8.jpg": "source-577",
+      "https://asgard.nexon.com/News/Story/83": "source-578"
+    },
+    "master_count": 397,
+    "source_count": 593,
+    "packaged_clients": [
+      {
+        "version": "6.0.3.0",
+        "channel": "retail",
+        "version_kind": "pe-file-version"
+      },
+      {
+        "version": "6.0.0.0",
+        "channel": "test",
+        "version_kind": "pe-file-version"
+      }
+    ],
+    "title_card": "Elancia — South Korea",
+    "new_downloads": 4
+  },
+  "packaged_client_versions": [
+    {
+      "version": "6.0.3.0",
+      "channel": "retail",
+      "version_kind": "pe-file-version"
+    },
+    {
+      "version": "6.0.0.0",
+      "channel": "test",
+      "version_kind": "pe-file-version"
+    }
+  ]
+}
