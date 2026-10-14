@@ -21,11 +21,14 @@ These rules carry the user's standing request to review, verify, and troubleshoo
 
 ## Preserve the accepted presentation
 
+- The page h1 has two lines: "DarkAges" first and "International Version Catalog" second, with the second line slightly smaller. Retain the established font for text outside tables.
 - Keep the established compact visual language: restrained spacing, consistent file labels and download links, square note bullets, and no extra panels. Version List, Downloads and Hashes use matching collapsible cards, all closed by default. Version List omits Downloads; Filters has its own heading. Keep gaps between sections tight and make outer card borders clearly visible. Do not add dividers between sections or a divider after the header introduction; keep the requested Notes column borders.
 - Table of Contents is a static vertical guide outline with tight line spacing, slight indentation and no counters, numbering or underlines. Contents links reveal collapsed destination cards, including repeated clicks on the same fragment. Version List sorting accumulates columns in click order (primary, then secondary), cycles ascending/descending/off, keeps undocumented values last and has a separate Reset sorting control. Reset filters preserves sorting.
 - Research Notes use title-based groups, with General first. Sources remain one consolidated list in numeric Ref order. Preserve reference IDs and working cross-links. Both sections remain collapsed by default unless requested otherwise.
 - Title cards follow the shared metadata and paragraph layout with tight gaps between cards. Keep company and country text left aligned, history before gameplay, native names on their own line, and date ranges without a "Released:" prefix. The visible title-range indicator uses "# - #" without a total count. Maintain a usable desktop and mobile presentation.
 - Share column sizing across the main Version List, Downloads and Hashes tables: Version has the same fixed width everywhere; Notes has the same fixed width at the right, with its left edge aligned across these tables. The column immediately before Notes absorbs the remaining width. Give other columns fixed widths sufficient to keep each item and header unwrapped. Verification, Research Notes and Sources are excluded from this shared sizing rule. Preserve left alignment, top-aligned Notes, exact data and all working links.
+- File Verification Methodology and Research Methodology paragraphs fill the available card width and wrap responsively. Do not limit these paragraphs with a character-based maximum width.
+- Every table uses a Consolas-first monospace font for all its text, including headers, buttons, badges, links, nested spans and code. This includes Verification, Research Notes and Sources tables even though their column sizing remains independent. Keep text outside tables in its existing font.
 
 The user's current table and spacing requirements supersede earlier display defaults:
 
@@ -43,7 +46,7 @@ The user's current table and spacing requirements supersede earlier display defa
 
 The catalog uses shared typography, spacing and download sizing tokens. A dedicated styling skill is pending the user’s next review and agreement on the visual direction.
 
-The main tables currently share a 96px Version column, a 360px Notes column and a 1220px minimum table width. At narrower viewports, scroll the table within its card. Release Date, download Size and Hash absorb extra width; keep the remaining column widths fixed and check the longest displayed values before changing these tokens.
+The main tables currently share a 96px Version column, a 360px Notes column and a 1240px minimum table width. At narrower viewports, scroll the table within its card. Release Date, download Size and Hash absorb extra width; keep the remaining column widths fixed and check the longest displayed values before changing these tokens. Preserve the 96px Version and 360px Notes widths where their contents fit; make only the minimal fixed-column or minimum-table-width adjustments needed for wider monospaced text.
 
 ## Change and review workflow
 

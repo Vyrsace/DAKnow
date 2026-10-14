@@ -1,5 +1,10 @@
 /* Guide navigation and the separate release, download and executable catalogs. */
-:root { --card-border: #9eafc5; --catalog-version-width: 96px; --catalog-notes-width: 360px; --catalog-table-min-width: 1220px; }
+:root { --card-border: #9eafc5; --catalog-version-width: 96px; --catalog-notes-width: 360px; --catalog-table-min-width: 1240px; --table-font: Consolas, "Liberation Mono", "Courier New", "Catalog CJK", monospace; }
+.catalog-name, .catalog-subtitle { display: block; }
+.catalog-subtitle { margin-top: 4px; font-size: .8em; font-weight: 600; line-height: 1.25; letter-spacing: -.02em; }
+.methodology { max-width: none; }
+/* Include every nested label, control, badge and code fragment in table typography. */
+table, table * { font-family: var(--table-font) !important; }
 header { padding-bottom: 0; border-bottom: 0; }
 main > section { padding: 10px 0; border-bottom: 0; }
 main > footer { padding-top: 10px; }
