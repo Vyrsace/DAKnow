@@ -1,5 +1,5 @@
 /* Guide navigation and the separate release, download and executable catalogs. */
-:root { --card-border: #9eafc5; --catalog-version-width: 96px; --catalog-notes-width: 900px; --catalog-table-min-width: 1780px; --table-font: Consolas, "Liberation Mono", "Courier New", "Catalog CJK", monospace; }
+:root { --card-border: #9eafc5; --catalog-version-width: 96px; --catalog-notes-width: 900px; --catalog-table-min-width: 1980px; --table-font: Consolas, "Liberation Mono", "Courier New", "Catalog CJK", monospace; }
 .catalog-name, .catalog-subtitle { display: block; }
 .catalog-subtitle { margin-top: 4px; color: #526780; font-size: .6em; font-weight: 600; line-height: 1.25; letter-spacing: -.02em; }
 .methodology { max-width: none; }
@@ -53,11 +53,10 @@ th[aria-sort]:not([aria-sort="none"]) .sort-indicator { color: var(--accent); fo
 #master-catalog th:first-child, #master-catalog td.version,
 table.version-table th, table.version-table td,
 .version-table .research-reference-cell { text-align: left; }
-#master-catalog td.notes-cell, .hashes-table td.notes-cell { vertical-align: top; }
 #master-catalog .note-list, .hashes-table .note-list, .downloads-table .download-notes .notes { margin: 0; padding-left: 14px; }
 #master-catalog .note-list li, .hashes-table .note-list li, .downloads-table .download-notes li { margin: 0; }
 #master-catalog .note-list li + li, .hashes-table .note-list li + li, .downloads-table .download-notes li + li { margin-top: 3px; }
-table th.notes-cell, table td.notes-cell { border-left: 1px solid var(--line); }
+table th.notes-cell, table td.notes-cell { border-left: 1px solid var(--line); vertical-align: top; }
 table .notes-cell a[href^="#source-"],
 table .notes-cell a[href^="#source-"]:hover,
 table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
@@ -69,7 +68,7 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 .downloads-table { font-size: 12px; }
 .downloads-table col:nth-child(1) { width: var(--catalog-version-width); }
 .downloads-table col:nth-child(2) { width: 192px; }
-.downloads-table col:nth-child(3) { width: 380px; }
+.downloads-table col:nth-child(3) { width: 580px; }
 .downloads-table col:nth-child(4) { width: auto; }
 .downloads-table col:nth-child(5) { width: var(--catalog-notes-width); }
 .downloads-table tbody tr:nth-child(even), .hashes-table tbody tr:nth-child(even) { background: #f8fafd; }
@@ -84,10 +83,16 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 .download-source a { text-decoration: none; }
 .download-source a:hover { text-decoration: underline; }
 .download-source-label { margin-left: 6px; }
+.download-file-line { display: flex; align-items: baseline; gap: 6px; width: max-content; white-space: nowrap; }
+.download-file-line .download-line-name { font-size: 11px; font-weight: 700; }
+.download-file-line .download-line-source { margin: 0; color: var(--muted); font-size: 11px; }
+.download-file-line .download-badge { flex: none; }
 .download-badge { display: inline-block; padding: 3px 7px; border: 1px solid transparent; border-radius: 4px; font-size: 11px; font-weight: 700; line-height: 1.45; white-space: nowrap; }
 .download-badge--client { background: #e5eefb; color: #355f99; border-color: #cbdcf4; }
 .download-badge--patch { background: #edeafd; color: #5753a4; border-color: #ded8f3; }
 .download-badge--archive { padding: 1px 5px; background: #f0f3f7; color: #5b6c83; border-color: #dbe2ea; font-size: 10px; text-decoration: none; }
+.download-badge--download { padding: 1px 5px; background: #e5eefb; color: #355f99; border-color: #cbdcf4; font-size: 10px; text-decoration: none; }
+.download-file-line .download-badge--download:hover { background: #dfeafb; border-color: #abc4e6; text-decoration: none; }
 a.download-badge--client, a.download-badge--patch { text-decoration: none; }
 a.download-badge--client:hover, a.download-badge--patch:hover { filter: brightness(.96); }
 .patch-route { display: inline-block; margin: 0 0 0 6px; padding: 2px 5px; border: 1px solid #ded8f3; border-radius: 4px; background: #f8f6ff; color: #675e94; font-size: 10px; white-space: nowrap; }
