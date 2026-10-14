@@ -46,16 +46,6 @@
       "unchanged": true
     },
     {
-      "title": "Asgard",
-      "asset": "assets/logos/asgard.png",
-      "width": 174,
-      "height": 52,
-      "sha256": "f824e52bcac55c53de5b43ed03dd7d6ad4da8b1319a7de808ca6259003147b7b",
-      "source_url": "https://lwi.nexon.com/asgard/home/common/logo_JKS3GN4TOHJGSDJF.png",
-      "description": "Original publisher asset copied unchanged.",
-      "unchanged": true
-    },
-    {
       "title": "DarkAges (SGDA)",
       "asset": "assets/logos/darkages-singapore.gif",
       "width": 360,
@@ -105,6 +95,42 @@
       "alt": "Elancia — original NEXON Korea publisher logo",
       "credit": "NEXON Korea",
       "provenance": "Original publisher logo referenced by official site CSS"
+    },
+    {
+      "title": "Asgard",
+      "asset": "assets/logos/asgard-namu-remastered.png",
+      "width": 1961,
+      "height": 802,
+      "sha256": "52b1af853e9017cc306482addaa661fc7e8d1ea819792d16a88f073c0e8313ec",
+      "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0RGbHVU198I_Ay55MU4gqdKmqTZVhouolp9susjbV39YwLk-Znsoc92zBeD3UM2mBRuPeUtDi6z8nhJhe03_HxEBLRnH-ef8JceIpqd_ObWcbn8UZME_TnDMFWQ6D4wPTUUpPlOX_5H1P9cpCI8IF9Q.webp",
+      "original_path": "data/version-research/2026-10-14/namu-catalog-assets/asgard-namu-original.webp",
+      "original_sha256": "bb3691be98f7e9170db48029957486531af6fb4fb742372c254ebf7ea68e1b73",
+      "original_png_asset": "assets/logos/asgard-namu-original.png",
+      "original_png_sha256": "3bd27dac76128580fcbc9b3b6760528b71ecbb6224e2dd085679edd73250e4ef",
+      "original_width": 440,
+      "original_height": 180,
+      "previous_logo_asset": "assets/logos/asgard.png",
+      "unchanged": false,
+      "description": "Owner-requested higher-resolution transparent restoration of the selected Asgard wordmark. AI-edited derivative, not original publisher bytes. Source WebP/PNG and previous publisher logo retained unchanged.",
+      "remaster": {
+        "tool": "built-in image_gen",
+        "prompt_path": "data/version-research/2026-10-14/namu-catalog-assets/remaster-prompt.txt",
+        "validation": "Original text, calligraphic letter forms, swashes, gold/orange palette, proportions and alpha visually compared. Generated output is a restoration candidate rather than a claim of pixel identity."
+      }
+    }
+  ],
+  "retired_logos": [
+    {
+      "title": "Asgard",
+      "asset": "assets/logos/asgard.png",
+      "width": 174,
+      "height": 52,
+      "sha256": "f824e52bcac55c53de5b43ed03dd7d6ad4da8b1319a7de808ca6259003147b7b",
+      "source_url": "https://lwi.nexon.com/asgard/home/common/logo_JKS3GN4TOHJGSDJF.png",
+      "description": "Original publisher asset copied unchanged.",
+      "unchanged": true,
+      "retired_at": "2026-10-14",
+      "retirement_reason": "Owner requested a trial replacement with the remastered selected logo; keep unchanged for restoration."
     }
   ]
 }

@@ -78,7 +78,7 @@ th[aria-sort]:not([aria-sort="none"]) { background: #dfeaf9; }
 th[aria-sort]:not([aria-sort="none"]) .sort-indicator { color: var(--accent); font-weight: 700; }
 #master-catalog, .downloads-table, .hashes-table { width: 100%; min-width: var(--catalog-table-min-width); table-layout: fixed; }
 #master-catalog col.version { width: var(--catalog-version-width); }
-#master-catalog col.country { width: 120px; }
+#master-catalog col.country { width: 144px; }
 #master-catalog col.game-title { width: 252px; }
 #master-catalog col.date { width: auto; }
 #master-catalog col.notes { width: var(--catalog-notes-width); }
