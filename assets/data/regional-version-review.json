@@ -1,0 +1,580 @@
+{
+  "review_date": "2026-10-13 America/Edmonton / 2026-10-14 UTC",
+  "scope": "Bounded publisher and community archive review; incomplete historical coverage",
+  "japan": [
+    {
+      "region": "Japan",
+      "title": "Yami / 闇の伝説",
+      "version": "4.11",
+      "release_date": null,
+      "source_url": "https://web.archive.org/web/20040210002941id_/http://gamewww.nexon.co.jp/yami/news/noticeold/notice34.html",
+      "original_source_url": "http://gamewww.nexon.co.jp/yami/news/noticeold/notice34.html",
+      "date_qualification": "Named installed predecessor of 4.30; no first-release day or version-specific changes established",
+      "changes": [],
+      "channel": "live"
+    },
+    {
+      "region": "Japan",
+      "title": "Yami / 闇の伝説",
+      "version": "4.30",
+      "release_date": "2001-08-07",
+      "source_url": "https://web.archive.org/web/20040210002941id_/http://gamewww.nexon.co.jp/yami/news/noticeold/notice34.html",
+      "original_source_url": "http://gamewww.nexon.co.jp/yami/news/noticeold/notice34.html",
+      "date_qualification": "maintenance completed / update observed by publisher",
+      "changes": [
+        "Added the town map opened with the T button",
+        "Changed internal program processing in preparation for new features"
+      ],
+      "channel": "live"
+    },
+    {
+      "region": "Japan",
+      "title": "Yami / 闇の伝説",
+      "version": "4.51",
+      "release_date": null,
+      "source_url": "https://web.archive.org/web/20020603064421id_/http://www.nexon.co.jp:80/yami/news/notice76.html",
+      "original_source_url": "http://www.nexon.co.jp:80/yami/news/notice76.html",
+      "date_qualification": "Named current version in 4.52 schedule; first-release day and own changelog unverified",
+      "changes": [],
+      "channel": "live"
+    },
+    {
+      "region": "Japan",
+      "title": "Yami / 闇の伝説",
+      "version": "4.52",
+      "release_date": "2002-03-19",
+      "source_url": "https://web.archive.org/web/20020603063831id_/http://www.nexon.co.jp:80/yami/news/notice77.html",
+      "original_source_url": "http://www.nexon.co.jp:80/yami/news/notice77.html",
+      "date_qualification": "maintenance completed / version introduced",
+      "changes": [
+        "Fixed incorrect display of the trial-ending message at level 10",
+        "Improved stability and compatibility"
+      ],
+      "channel": "live"
+    },
+    {
+      "region": "Japan",
+      "title": "Yami / 闇の伝説",
+      "version": "5.20",
+      "release_date": "2003-02-20",
+      "source_url": "https://web.archive.org/web/20031230035052id_/http://gamewww.nexon.co.jp/yami/news/notice123.html",
+      "original_source_url": "http://gamewww.nexon.co.jp/yami/news/notice123.html",
+      "date_qualification": "scheduled introduction; existing contemporary press corroboration retained",
+      "changes": [
+        "Renewed graphics and revised maps/names",
+        "Added ascension, Novice Town and Tour The Mansion",
+        "Added character-status display and family registration",
+        "Improved client stability"
+      ],
+      "channel": "live"
+    },
+    {
+      "region": "Japan",
+      "title": "Yami / 闇の伝説",
+      "version": "5.21",
+      "release_date": "2003-03-27",
+      "source_url": "https://web.archive.org/web/20030406070708id_/http://www.nexon.co.jp/yami/news/notice927.html",
+      "original_source_url": "http://www.nexon.co.jp/yami/news/notice927.html",
+      "date_qualification": "same-day patch/full-package availability corroborates preceding schedule",
+      "changes": [
+        "Added an email-address field to character creation"
+      ],
+      "channel": "live"
+    },
+    {
+      "region": "Japan",
+      "title": "Yami / 闇の伝説",
+      "version": "5.22",
+      "release_date": "2003-04-23",
+      "source_url": "https://web.archive.org/web/20031230012109id_/http://gamewww.nexon.co.jp/yami/news/notice128.html",
+      "original_source_url": "http://gamewww.nexon.co.jp/yami/news/notice128.html",
+      "date_qualification": "explicit publisher schedule, not independently observed first binary release",
+      "changes": [
+        "Changed bank behavior",
+        "Improved client stability"
+      ],
+      "channel": "live"
+    },
+    {
+      "region": "Japan",
+      "title": "Yami / 闇の伝説",
+      "version": "5.22b",
+      "release_date": "2003-12-16",
+      "source_url": "https://web.archive.org/web/20040209235238id_/http://gamewww.nexon.co.jp:80/yami/news/noticeold/notice156.html",
+      "original_source_url": "http://gamewww.nexon.co.jp:80/yami/news/noticeold/notice156.html",
+      "date_qualification": "same-day publisher says update performed",
+      "changes": [
+        "Updated the client for game-server migration",
+        "Final Release"
+      ],
+      "channel": "live"
+    }
+  ],
+  "singapore": {
+    "new_rows": [
+      {
+        "country": "Singapore",
+        "region_id": "singapore",
+        "game_title": "DarkAges",
+        "version": "2.27",
+        "type": "Client",
+        "status": "Beta",
+        "release_date": null,
+        "date_note": "The publisher documents this as the version replaced by 3.51 on 11 September 2000; its first release day is unverified.",
+        "release_notes": [
+          "Beta"
+        ],
+        "sources": [
+          [
+            "https://web.archive.org/web/20020826070815id_/http://darkages.nexonasia.com:80/archive/archive_9_2000.htm",
+            "NexonAsia: September 2000 2.27-to-3.51 upgrade notices"
+          ]
+        ]
+      }
+    ],
+    "updates": [
+      {
+        "id": "entry-111",
+        "version": "3.51",
+        "old_release_date": null,
+        "new_release_date": "2000-09-11",
+        "date_note": "The publisher announced 11 September as the upgrade day from 2.27; its 15 September notice confirms 3.51 was live. This is a service deployment date, not the later packages preservation date.",
+        "release_notes": [
+          "Replaces 2.27; migration compatibility issues caused an item wipe"
+        ],
+        "source_url": "https://web.archive.org/web/20020826070815id_/http://darkages.nexonasia.com:80/archive/archive_9_2000.htm"
+      },
+      {
+        "id": "entry-114",
+        "version": "4.21",
+        "old_release_date": "2002-10-08",
+        "new_release_date": null,
+        "full_installer_available_date": "2002-10-08",
+        "date_note": "First retail release unknown; February testing, May patch and October full-installer evidence remain distinct"
+      }
+    ],
+    "do_not_change": [
+      {
+        "id": "entry-119",
+        "version": "4.20",
+        "reason": "February 2002 shorthand 4.2 is ambiguous alongside the explicit 4.21 Test heading; not a safe 4.20 deployment day."
+      }
+    ]
+  },
+  "asgard": {
+    "title": "Asgard",
+    "territory": "South Korea",
+    "coverage": "Official Notice index pages 1–10: 150 listing records, publication dates 2026-05-29 through 2026-10-13; 18 explicitly numbered client-patch articles were captured in full, yielding 19 build labels",
+    "coverage_qualification": "Bounded review, not a complete client history. No test-server counterpart, skipped build, current build or final build is inferred. Numeric labels are retained exactly (v.4078 and v.4075 differ in publisher punctuation from v4068 etc.).",
+    "capture_method": "Browser-rendered DOM and full article text after direct HTTP Cloudflare 403; no installer was run",
+    "capture_date_utc": "2026-10-14",
+    "capture_date_user_timezone": "2026-10-13 America/Edmonton",
+    "versions": [
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v.4078",
+        "version_numeric": "4078",
+        "patch_date": "2026-10-02",
+        "patch_time": "15:32",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Fixed Requiem effects being hidden behind monsters"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/150250",
+        "source_title": "[업데이트] 10/2(금) 정식 서버 클라이언트 패치 안내 (15:32)",
+        "source_published": "2026.10.02",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": null,
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v.4075",
+        "version_numeric": "4075",
+        "patch_date": "2026-09-17",
+        "patch_time": "16:36",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Fixed incorrect boss-monster effects"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/150181?PageNo=2",
+        "source_title": "[업데이트] 9/17(목) 정식 서버 클라이언트 패치 안내 (16:36)",
+        "source_published": "2026.09.17",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": null,
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v4068",
+        "version_numeric": "4068",
+        "patch_date": "2026-09-11",
+        "patch_time": "15:22",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Fixed intermittent client crashes",
+          "Fixed incorrect quick-slot and expanded-inventory colors"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/150133?PageNo=3",
+        "source_title": "[업데이트] 9/11(금) 정식 서버 클라이언트 패치 안내 (15:22)",
+        "source_published": "2026.09.11",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": null,
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v4061",
+        "version_numeric": "4061",
+        "patch_date": "2026-08-25",
+        "patch_time": "14:35",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Improved GPU memory use"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/149776?PageNo=3",
+        "source_title": "[업데이트] 8/25(화) 정식 서버 클라이언트 패치 안내 (14:35)",
+        "source_published": "2026.08.25",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": null,
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v4060",
+        "version_numeric": "4060",
+        "patch_date": "2026-08-24",
+        "patch_time": "15:04",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Improved client responsiveness under specific conditions"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/149772?PageNo=4",
+        "source_title": "[업데이트] 8/24(월) 정식 서버 클라이언트 패치 안내 (15:04)",
+        "source_published": "2026.08.24",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": null,
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v4058",
+        "version_numeric": "4058",
+        "patch_date": "2026-08-21",
+        "patch_time": "16:10",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Reduced client lag; separate server-lag improvements remained in preparation"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/149764?PageNo=4",
+        "source_title": "[업데이트] 8/21(금) 정식 서버 클라이언트 패치 안내 (16:10)",
+        "source_published": "2026.08.21",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": null,
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v4050",
+        "version_numeric": "4050",
+        "patch_date": "2026-08-13",
+        "patch_time": "16:41",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Client stabilization"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/149697?PageNo=5",
+        "source_title": "(추가)[업데이트] 8/13(목) 정식 서버 클라이언트 패치 안내 (14:00,16:41)",
+        "source_published": "2026.08.13",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": "Only the 16:41 client-stabilization patch is attributed to v4050",
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v4048",
+        "version_numeric": "4048",
+        "patch_date": "2026-08-13",
+        "patch_time": "14:00",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Fixed client lag while loading maps during character movement"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/149697?PageNo=5",
+        "source_title": "(추가)[업데이트] 8/13(목) 정식 서버 클라이언트 패치 안내 (14:00,16:41)",
+        "source_published": "2026.08.13",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": "Only the 14:00 map-loading fix is attributed to v4048",
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v4040",
+        "version_numeric": "4040",
+        "patch_date": "2026-08-04",
+        "patch_time": "14:04",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Client stabilization"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/149637?PageNo=6",
+        "source_title": "[업데이트] 8/4(화) 정식 서버 클라이언트 패치 안내 (14:04)",
+        "source_published": "2026.08.04",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": null,
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v4039",
+        "version_numeric": "4039",
+        "patch_date": "2026-07-30",
+        "patch_time": "15:37",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Optimized graphics-card memory use to fix client lag in some situations"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/149624?PageNo=6",
+        "source_title": "[업데이트] 7/30(목) 정식 서버 클라이언트 패치 안내 (15:37)",
+        "source_published": "2026.07.30",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": null,
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v4034",
+        "version_numeric": "4034",
+        "patch_date": "2026-07-27",
+        "patch_time": "17:31",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Fixed client crashes under specific conditions"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/149599?PageNo=6",
+        "source_title": "[업데이트] 7/27(월) 정식 서버 클라이언트 패치 안내 (17:31)",
+        "source_published": "2026.07.27",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": null,
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v4033",
+        "version_numeric": "4033",
+        "patch_date": "2026-07-27",
+        "patch_time": "16:19",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Improved intermittent client crashes",
+          "Fixed character afterimages when using the Dash scroll"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/149596?PageNo=6",
+        "source_title": "[업데이트] 7/27(월) 정식 서버 클라이언트 패치 안내 (16:19)",
+        "source_published": "2026.07.27",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": null,
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v4032",
+        "version_numeric": "4032",
+        "patch_date": "2026-07-27",
+        "patch_time": "14:34",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Optimized graphics-card memory use to reduce client lag",
+          "Improved data collection for client stabilization"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/149594?PageNo=6",
+        "source_title": "[업데이트] 7/27(월) 정식 서버 클라이언트 패치 안내 (14:34)",
+        "source_published": "2026.07.27",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": null,
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v4031",
+        "version_numeric": "4031",
+        "patch_date": "2026-07-24",
+        "patch_time": "17:08",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Improved data collection for client stabilization"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/149587?PageNo=6",
+        "source_title": "[업데이트] 7/24(금) 정식 서버 클라이언트 패치 안내 (17:08)",
+        "source_published": "2026.07.24",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": null,
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v4030",
+        "version_numeric": "4030",
+        "patch_date": "2026-07-24",
+        "patch_time": "13:54",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Reduced lag on some PCs following the July 23 graphics-card 3D update"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/149583?PageNo=6",
+        "source_title": "[업데이트] 7/24(금) 정식 서버 클라이언트 패치 안내 (13:54)",
+        "source_published": "2026.07.24",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": null,
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v4029",
+        "version_numeric": "4029",
+        "patch_date": "2026-07-23",
+        "patch_time": "14:38",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Client stabilization"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/149572?PageNo=6",
+        "source_title": "[업데이트] 7/23(목) 정식 서버 클라이언트 패치 안내 (14:38)",
+        "source_published": "2026.07.23",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": null,
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v4022",
+        "version_numeric": "4022",
+        "patch_date": "2026-07-09",
+        "patch_time": "16:13",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Fixed abnormal button combinations when switching weapons at Extreme enhancement stage 9 (Nona) or higher"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/149493?PageNo=7",
+        "source_title": "[업데이트] 7/9(목) 정식 서버 클라이언트 패치 안내 (16:13)",
+        "source_published": "2026.07.09",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": null,
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v4020",
+        "version_numeric": "4020",
+        "patch_date": "2026-07-02",
+        "patch_time": "16:24",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Fixed Glod-gain and item-drop-rate values being swapped in the Hokma boost-effects UI"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/149439?PageNo=8",
+        "source_title": "[업데이트] 7/2(목) 정식 서버 클라이언트 패치 안내 (16:24)",
+        "source_published": "2026.07.02",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": null,
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      },
+      {
+        "title": "Asgard",
+        "region": "South Korea",
+        "channel": "Live server",
+        "version": "v3980",
+        "version_numeric": "3980",
+        "patch_date": "2026-05-29",
+        "patch_time": "15:48",
+        "time_zone_qualification": "Publisher-local time; the notice does not spell out a time-zone abbreviation",
+        "date_kind": "publisher-stated client patch date; not a verified original first-release date",
+        "notes": [
+          "Fixed megaphone/system-message font settings not applying in the basic chat UI",
+          "Fixed targets below the transparent chat UI being untargetable",
+          "Fixed client crashes during map transitions",
+          "Fixed client startup failures under specific conditions"
+        ],
+        "source_url": "https://asgard.nexon.com/News/Notice/149211?PageNo=10",
+        "source_title": "(추가) 5/29(금) 수정된 현상 안내 (클라이언트 패치)",
+        "source_published": "2026.05.29",
+        "evidence_kind": "official-publisher-client-patch-notice",
+        "scope_qualification": "Only the second, client-patch section at 15:48 is attributed to v3980; first-stage server-side fixes at 14:50 are excluded",
+        "current_release_confirmed": false,
+        "final_release_confirmed": false
+      }
+    ]
+  }
+}

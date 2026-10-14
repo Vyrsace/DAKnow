@@ -20,11 +20,12 @@
     if (key === 'region') return row.dataset.region || '';
     if (key === 'title') return row.dataset.title || '';
     const version = row.querySelector('td.version').textContent.trim();
-    if (!/^\d/.test(version)) return '';
+    const match = /^(?:v\.?)?(\d+)(?:\.(\d+))?([a-z]*)$/i.exec(version);
+    if (!match) return '';
     // Compare the catalog's equivalent spellings together: 3.6 / 3.60,
     // and 7.32 / 7.320. Keep the publisher's displayed label unchanged.
-    const [major, revision = '0'] = version.split('.');
-    return `${major}.${revision.padEnd(3, '0')}`;
+    const [, major, revision = '0', suffix] = match;
+    return { number: `${major}.${revision.padEnd(3, '0')}`, suffix };
   }
 
   function compare(a, b) {
@@ -34,7 +35,11 @@
       // Undocumented dates and unnumbered versions stay at the end in either direction.
       if (!left && right) return 1;
       if (left && !right) return -1;
-      const difference = collator.compare(left, right);
+      if (!left && !right) continue;
+      // Letter revisions follow the equivalent numeric release (5.22, 5.22a, 5.22b).
+      const difference = level.key === 'version'
+        ? collator.compare(left.number, right.number) || collator.compare(left.suffix, right.suffix)
+        : collator.compare(left, right);
       if (difference) return difference * (level.direction === 'asc' ? 1 : -1);
     }
     return originalOrder.get(a) - originalOrder.get(b);
