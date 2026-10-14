@@ -5,12 +5,13 @@
 .methodology { max-width: none; }
 /* Include every nested label, control, badge and code fragment in table typography. */
 table, table * { font-family: var(--table-font) !important; }
+main { --visible-titles: 5; --title-card-gap: 8px; }
 header { padding-bottom: 0; border-bottom: 0; }
 main > section { padding: 10px 0; border-bottom: 0; }
 main > footer { padding-top: 10px; }
 main > section:is(#catalog, #downloads, #hashes, #verification, #research) { padding-block: 5px; }
 main > footer#sources { padding-top: 5px; }
-.contents { --contents-edge-padding: 12px; width: 400px; max-width: 100%; margin-top: 18px; }
+.contents { --contents-edge-padding: 12px; width: calc((100% - (var(--visible-titles) - 1) * var(--title-card-gap)) / var(--visible-titles)); max-width: 100%; margin-top: 18px; }
 .contents, .verification-card, .game-card { border-color: var(--card-border); }
 .contents h2 { padding: var(--contents-edge-padding) 20px 4px; border-bottom: 0; }
 .collapsible-card[open] > .card-summary { border-bottom-color: var(--card-border); }
@@ -41,7 +42,7 @@ main > footer#sources { padding-top: 5px; }
 .sort-indicator { color: var(--muted); font-size: 10px; font-weight: 500; white-space: nowrap; }
 th[aria-sort]:not([aria-sort="none"]) { background: #dfeaf9; }
 th[aria-sort]:not([aria-sort="none"]) .sort-indicator { color: var(--accent); font-weight: 700; }
-#master-catalog, .downloads-table, .hashes-table { width: 100%; min-width: var(--catalog-table-min-width); table-layout: fixed; }
+#master-catalog, .downloads-table, .hashes-table { width: 100%; min-width: var(--catalog-table-min-width); table-layout: fixed; line-height: 1.6; }
 #master-catalog col.version { width: var(--catalog-version-width); }
 #master-catalog col.country { width: 120px; }
 #master-catalog col.game-title { width: 252px; }
@@ -49,25 +50,23 @@ th[aria-sort]:not([aria-sort="none"]) .sort-indicator { color: var(--accent); fo
 #master-catalog col.notes { width: var(--catalog-notes-width); }
 #master-catalog td:not(.notes-cell) { white-space: nowrap; overflow-wrap: normal; }
 #master-catalog .sort-button[data-sort="version"] { justify-content: flex-start; }
-#master-catalog th, #master-catalog td { padding: 5px 8px; }
 #master-catalog th:first-child, #master-catalog td.version,
 table.version-table th, table.version-table td,
 .version-table .research-reference-cell { text-align: left; }
 #master-catalog td.notes-cell, .hashes-table td.notes-cell { vertical-align: top; }
-#master-catalog .note-list, .hashes-table .note-list { margin: 0; padding-left: 14px; }
-#master-catalog .note-list li, .hashes-table .note-list li { margin: 0; }
-#master-catalog .note-list li + li, .hashes-table .note-list li + li { margin-top: 3px; }
+#master-catalog .note-list, .hashes-table .note-list, .downloads-table .download-notes .notes { margin: 0; padding-left: 14px; }
+#master-catalog .note-list li, .hashes-table .note-list li, .downloads-table .download-notes li { margin: 0; }
+#master-catalog .note-list li + li, .hashes-table .note-list li + li, .downloads-table .download-notes li + li { margin-top: 3px; }
 table th.notes-cell, table td.notes-cell { border-left: 1px solid var(--line); }
 table .notes-cell a[href^="#source-"],
 table .notes-cell a[href^="#source-"]:hover,
 table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
-#title-carousel { --title-card-gap: 8px; column-gap: var(--title-card-gap); grid-auto-columns: calc((100% - (var(--visible-titles) - 1) * var(--title-card-gap)) / var(--visible-titles)); }
+#title-carousel { --visible-titles: inherit; --title-card-gap: inherit; column-gap: var(--title-card-gap); grid-auto-columns: calc((100% - (var(--visible-titles) - 1) * var(--title-card-gap)) / var(--visible-titles)); }
 .game-grid { gap: 8px; }
 #catalog .counter { margin-bottom: 8px; }
 .download-region + .download-region, .hash-region + .hash-region { margin-top: 26px; }
 .download-region h3, .hash-region h3 { font-size: 15px; margin: 0 0 10px; }
 .downloads-table { font-size: 12px; }
-.downloads-table th, .downloads-table td, .hashes-table th, .hashes-table td { padding: 10px; }
 .downloads-table col:nth-child(1) { width: var(--catalog-version-width); }
 .downloads-table col:nth-child(2) { width: 192px; }
 .downloads-table col:nth-child(3) { width: 380px; }
@@ -79,8 +78,9 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 .download-name code { font-size: 11px; font-weight: 600; }
 .download-version, .download-type, .download-name, .download-source { white-space: nowrap; overflow-wrap: normal; }
 .download-alias-label { color: var(--muted); font-size: 10px; }
-.download-mirrors { margin-top: 7px; }
-.download-source { display: block; margin-top: 5px; color: var(--muted); font-size: 11px; }
+.download-mirrors { margin-top: 3px; }
+.download-source { display: block; margin-top: 3px; color: var(--muted); font-size: 11px; }
+.download-mirrors > .download-source:first-child { margin-top: 0; }
 .download-source a { text-decoration: none; }
 .download-source a:hover { text-decoration: underline; }
 .download-source-label { margin-left: 6px; }
@@ -93,7 +93,6 @@ a.download-badge--client:hover, a.download-badge--patch:hover { filter: brightne
 .patch-route { display: inline-block; margin: 0 0 0 6px; padding: 2px 5px; border: 1px solid #ded8f3; border-radius: 4px; background: #f8f6ff; color: #675e94; font-size: 10px; white-space: nowrap; }
 .download-notes { font-size: 11px; }
 .download-notes .notes { margin: 0; padding-left: 14px; list-style-type: square; font-size: 11px; }
-.download-notes li + li { margin-top: 5px; }
 .download-notes li::marker { font-size: 9px; color: var(--muted); }
 .download-channel { display: inline; margin-left: 6px; color: var(--muted); font-size: 10px; }
 .download-bytes { display: inline; color: inherit; font-size: inherit; }
@@ -104,7 +103,7 @@ a.download-badge--client:hover, a.download-badge--patch:hover { filter: brightne
 .hashes-table col:nth-child(3) { width: 205px; }
 .hashes-table col:nth-child(4) { width: auto; }
 .hashes-table col:nth-child(5) { width: var(--catalog-notes-width); }
-.catalog-table th, .catalog-table td { padding-left: 8px; padding-right: 8px; }
+.catalog-table th, .catalog-table td { padding: 5px 8px; }
 .hash-version { font-weight: 650; font-variant-numeric: tabular-nums; }
 .hash-version a { text-decoration: none; }
 .hash-version a:hover { text-decoration: underline; }
@@ -117,6 +116,10 @@ a.download-badge--client:hover, a.download-badge--patch:hover { filter: brightne
 .hashes-table .note-list a:hover { text-decoration: underline; }
 .skip-link { position: absolute; top: 8px; left: 8px; transform: translateY(-200%); padding: 8px 12px; background: var(--paper); border: 1px solid var(--line); z-index: 30; }
 .skip-link:focus { transform: none; }
+@media (max-width: 1650px) { main { --visible-titles: 4; } }
+@media (max-width: 1300px) { main { --visible-titles: 3; } }
+@media (max-width: 1000px) { main { --visible-titles: 2; } }
+@media (max-width: 620px) { main { --visible-titles: 1; } }
 @media (max-width: 700px) {
   .research-table { display: table; }
   .research-table tbody { display: table-row-group; }
