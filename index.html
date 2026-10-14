@@ -478,7 +478,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     catch (_) { /* A malformed record never creates an invented filter value. */ }
     return [row, entries.map(entry => ({
       ...entry,
-      search: String(entry.search || '').toLocaleLowerCase()
+      search: [entry.search || '', row.querySelector('td.notes').textContent].join(' ').toLocaleLowerCase()
     }))];
   }));
   const entries = [...entriesByRow.values()].flat();
