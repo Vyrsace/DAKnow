@@ -29,13 +29,20 @@
   }
 
   function compare(a, b) {
-    for (const level of levels) {
+    // With no header sorts selected, mix numbered Elancia releases into the
+    // regional version sequence while keeping Asgard's numbering separate.
+    const activeLevels = levels.length ? levels : [{ key: 'version', direction: 'asc' }];
+    for (const level of activeLevels) {
       const left = value(a, level.key);
       const right = value(b, level.key);
       // Undocumented dates and unnumbered versions stay at the end in either direction.
       if (!left && right) return 1;
       if (left && !right) return -1;
       if (!left && !right) continue;
+      if (!levels.length) {
+        const asgardGroup = Number(/^Asgard\b/.test(a.dataset.title || '')) - Number(/^Asgard\b/.test(b.dataset.title || ''));
+        if (asgardGroup) return asgardGroup;
+      }
       // Letter revisions follow the equivalent numeric release (5.22, 5.22a, 5.22b).
       const difference = level.key === 'version'
         ? collator.compare(left.number, right.number) || left.build - right.build || left.patch - right.patch || collator.compare(left.suffix, right.suffix)
