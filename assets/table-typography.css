@@ -1,0 +1,20 @@
+/* One type scale for every catalog table, at every screen width.
+   Component styles may vary layout, color and semantic emphasis, but text
+   sizes and font families inherit here instead of section-specific overrides. */
+:root {
+  --table-text-size: 12px;
+  --table-font: Consolas, "Liberation Mono", "Courier New", "Catalog CJK", monospace;
+  --table-line-height: 1.6;
+}
+table {
+  font-family: var(--table-font);
+  font-size: var(--table-text-size);
+  line-height: var(--table-line-height);
+}
+table :where(*) {
+  font-family: inherit;
+  font-size: inherit;
+}
+@media print {
+  :root { --table-text-size: 9px; }
+}
