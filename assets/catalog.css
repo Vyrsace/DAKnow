@@ -143,6 +143,7 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 .download-file-line, .download-detail-line { min-height: var(--download-line-height); line-height: var(--download-line-height); }
 .download-primary + .download-mirrors { margin-top: calc(var(--download-line-height) + 3px); }
 .download-mirrors > .download-detail-line + .download-detail-line { margin-top: 3px; }
+.download-primary-group > :is(.download-file-line, .download-detail-line) + :is(.download-file-line, .download-detail-line) { margin-top: 3px; }
 .download-note-line .notes { line-height: var(--download-line-height); }
 .download-file-notes { margin-top: 8px !important; }
 .download-badge { display: inline-block; padding: 1px 7px; border: 1px solid transparent; border-radius: 4px; font-size: 10px; font-weight: 700; line-height: 1.45; white-space: nowrap; }
