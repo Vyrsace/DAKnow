@@ -8,6 +8,12 @@
     pending = false;
     section.querySelectorAll('.download-catalog-row').forEach(row => {
       if (!row.getClientRects().length) return;
+      // Include the shared multipart note in the final file slot so every
+      // column has the same content height when its cell is middle aligned.
+      const notes = row.querySelector('.download-notes');
+      const footer = notes && notes.querySelector(':scope > .download-group-notes');
+      const lastNote = notes && notes.querySelector('.download-mirrors > .download-note-line:last-child');
+      if (footer && lastNote) lastNote.append(footer);
       const groups = new Map();
       row.querySelectorAll('[data-download-line]').forEach(line => {
         line.style.minHeight = '';
