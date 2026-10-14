@@ -1,0 +1,77 @@
+/* Shared catalog footer and information pages. Load after the page styles. */
+.site-footer .footer-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-areas: "brand policies" "purpose affiliation" "rights back";
+  align-items: start;
+  gap: 12px 32px;
+  line-height: 1.45;
+}
+.footer-grid > * { min-width: 0; }
+.footer-brand { grid-area: brand; font-weight: 700; }
+.footer-policies { grid-area: policies; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 5px 20px; font-size: 13px; font-weight: 650; }
+.footer-purpose { grid-area: purpose; }
+.footer-affiliation { grid-area: affiliation; }
+.footer-rights { grid-area: rights; align-self: end; }
+.footer-grid .footer-back { grid-area: back; justify-self: end; align-self: end; margin: 0; font-size: 13px; font-weight: 650; }
+.site-footer .footer-grid p { margin: 0; }
+.site-footer .footer-grid p + p { margin-top: 5px; }
+.footer-policies a, .footer-back { text-decoration: none; }
+.footer-policies a:hover, .footer-back:hover { text-decoration: underline; }
+.footer-affiliation a { white-space: normal; }
+
+.policy-main { padding-bottom: 10px; }
+.policy-header { margin-bottom: 18px; }
+.policy-header .intro { margin-bottom: 0; }
+.policy-nav { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 22px; margin: 16px 0 0; font-size: 13px; }
+.policy-nav a { font-weight: 650; text-decoration: none; }
+.policy-nav a:hover { text-decoration: underline; }
+.policy-nav a[aria-current="page"] { color: var(--ink); }
+.policy-card { padding: 0; overflow: hidden; }
+.policy-card-heading { padding: 20px; border-bottom: 1px solid var(--card-border); }
+.policy-card-heading h2 { margin: 0 0 6px; font-size: 20px; color: #243f64; }
+.policy-card-heading p { margin: 0; line-height: 1.5; }
+.policy-layout { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 28px; padding: 20px; }
+.policy-contents { align-self: start; position: sticky; top: 24px; }
+.policy-contents h3 { margin: 0 0 8px; font-size: 15px; color: #243f64; }
+.policy-contents ol { margin: 0; padding: 0; list-style: none; }
+.policy-contents li { margin: 4px 0; line-height: 1.45; }
+.policy-contents a { text-decoration: none; }
+.policy-contents a:hover { text-decoration: underline; }
+.policy-body { min-width: 0; }
+.policy-body section { padding: 0; border: 0; scroll-margin-top: 24px; }
+.policy-body section + section { margin-top: 22px; }
+.policy-body h3 { margin: 0 0 7px; font-size: 16px; color: #243f64; }
+.policy-body p { margin: 0; line-height: 1.6; }
+.policy-body p + p, .policy-body p + ul, .policy-body ul + p { margin-top: 8px; }
+.policy-body ul { margin: 0; padding-left: 18px; list-style-type: square; }
+.policy-body li { margin: 4px 0; line-height: 1.6; }
+.policy-body a { overflow-wrap: anywhere; }
+.policy-body code { font-size: inherit; overflow-wrap: anywhere; }
+.policy-return { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 20px; margin-top: 24px; font-size: 13px; font-weight: 650; }
+.policy-return a { text-decoration: none; }
+.policy-return a:hover { text-decoration: underline; }
+@media (max-width: 850px) {
+  .site-footer .footer-grid { gap: 12px 22px; }
+  .policy-layout { grid-template-columns: 180px minmax(0, 1fr); gap: 22px; }
+}
+@media (max-width: 620px) {
+  .site-footer .footer-grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: "brand" "policies" "purpose" "affiliation" "rights" "back"; gap: 10px; }
+  .footer-policies { justify-content: flex-start; gap: 5px 16px; }
+  .footer-grid .footer-back { justify-self: start; margin-top: 2px; }
+  .policy-layout { grid-template-columns: minmax(0, 1fr); gap: 22px; }
+  .policy-contents { position: static; }
+  .policy-contents ol { columns: 2; column-gap: 18px; }
+  .policy-contents li { break-inside: avoid; margin: 0 0 6px; }
+}
+@media (max-width: 550px) {
+  .policy-card-heading, .policy-layout { padding: 17px; }
+}
+@media print {
+  .site-footer { padding: 10px 0 0; }
+  .site-footer .footer-grid { gap: 8px 20px; }
+  .policy-main { padding: 0; }
+  .policy-layout { grid-template-columns: minmax(0, 1fr); padding: 16px; }
+  .policy-contents, .policy-nav, .policy-return, .footer-grid .footer-back { display: none; }
+  .policy-body section { break-inside: avoid; }
+}

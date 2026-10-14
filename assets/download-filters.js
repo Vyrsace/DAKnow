@@ -169,6 +169,7 @@
       });
     });
     activeFilters.replaceChildren(fragment);
+    activeFilters.hidden = activeFilters.childElementCount === 0;
     if (replacement) replacement.focus({ preventScroll: true });
   }
 

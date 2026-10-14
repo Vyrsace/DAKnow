@@ -100,6 +100,8 @@ tr[hidden] { display: none !important; }
 .verification-card :is(p, li):not(table *) { font-size: 13px; }
 .verification-card ul { padding-left: 20px; }
 .verification-card li { margin: 9px 0; }
+.titles-card { padding: var(--title-section-padding, 20px); }
+.titles-card .titles-heading h2 { color: #243f64; font-size: 18px; line-height: 1.35; font-weight: 650; }
 .collapsible-card { padding: 0; }
 .card-summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 20px; cursor: pointer; list-style: none; font-size: 18px; line-height: 1.35; font-weight: 650; color: #243f64; }
 .card-summary::-webkit-details-marker { display: none; }
@@ -172,6 +174,7 @@ footer { padding-top: 30px; }
 
 .controls { margin-bottom: 0; }
 .active-filters { display: flex; align-items: center; gap: 8px; height: 56px; padding: 9px 3px; margin: 0 -3px 8px; overflow-x: auto; overflow-y: hidden; white-space: nowrap; scrollbar-width: thin; scrollbar-color: #b5c6df transparent; }
+.active-filters[hidden], .active-filters:empty { display: none; }
 .filter-chip { display: inline-flex; flex: 0 0 auto; align-items: center; gap: 6px; min-height: 30px; padding: 4px 9px; border: 1px solid #d3e0f3; border-radius: 5px; background: #e5eefb; color: #355f99; font: inherit; font-size: 12px; line-height: 20px; cursor: pointer; }
 .filter-chip:hover { background: #dbe8fa; border-color: #b9cce6; }
 .filter-chip-category { font-weight: 650; }
@@ -233,8 +236,6 @@ footer { padding-top: 30px; }
 #title-carousel:focus-visible { outline:3px solid var(--focus); outline-offset:4px; border-radius:8px; }
 .title-website a { font-size:12px; font-weight:400; text-decoration:none; overflow-wrap:anywhere; }
 .title-website a:hover,.title-website a:focus-visible { text-decoration:underline; }
-.game-logo--zhenshijie .logo-crop { width:230px; height:108px; position:relative; overflow:hidden; }
-.game-logo--zhenshijie .logo-crop img { position:absolute; top:-98px; left:-365px; width:1024px; height:768px; max-width:none; max-height:none; }
 
 col.version { width:92px; }
 .version.current-distribution { white-space:nowrap; }

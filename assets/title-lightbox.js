@@ -64,6 +64,65 @@
   let sourceGallery = null;
   let slides = [];
   let controller = null;
+  let gesture = null;
+  let snapTimer = null;
+
+  function clearSnap() {
+    window.clearTimeout(snapTimer);
+    snapTimer = null;
+    viewer.classList.remove('is-swipe-settling');
+  }
+
+  function finishGesture(event, canceled = false) {
+    if (!gesture || (event && event.pointerId !== gesture.pointerId)) return;
+    const ended = gesture;
+    gesture = null;
+    viewer.classList.remove('is-dragging');
+    if (viewport.hasPointerCapture(ended.pointerId)) viewport.releasePointerCapture(ended.pointerId);
+    if (!controller) return;
+    const distance = (event?.clientX ?? ended.lastX) - ended.startX;
+    const vertical = (event?.clientY ?? ended.lastY) - ended.startY;
+    const threshold = Math.max(36, Math.min(96, viewport.clientWidth * 0.15));
+    if (!canceled && ended.horizontal && Math.abs(distance) >= threshold && Math.abs(distance) > Math.abs(vertical)) {
+      // The carousel starts its existing transition at the dragged position.
+      controller.step(distance < 0 ? 1 : -1);
+    } else {
+      viewer.classList.add('is-swipe-settling');
+      controller.select(Number(viewer.dataset.galleryIndex) || 0);
+      snapTimer = window.setTimeout(clearSnap, 220);
+    }
+  }
+
+  viewport.addEventListener('pointerdown', event => {
+    if (!dialog.open || slides.length < 2 || !event.isPrimary || event.button !== 0 || gesture) return;
+    clearSnap();
+    // Cancel any in-flight button transition before following the pointer.
+    controller?.select(Number(viewer.dataset.galleryIndex) || 0);
+    gesture = { pointerId: event.pointerId, startX: event.clientX, startY: event.clientY,
+      lastX: event.clientX, lastY: event.clientY, horizontal: false };
+    viewport.setPointerCapture(event.pointerId);
+  });
+  viewport.addEventListener('pointermove', event => {
+    if (!gesture || event.pointerId !== gesture.pointerId) return;
+    gesture.lastX = event.clientX;
+    gesture.lastY = event.clientY;
+    const distance = event.clientX - gesture.startX;
+    const vertical = event.clientY - gesture.startY;
+    if (!gesture.horizontal) {
+      if (Math.abs(distance) < 8 || Math.abs(distance) <= Math.abs(vertical)) return;
+      gesture.horizontal = true;
+      viewer.classList.add('is-dragging');
+    }
+    event.preventDefault();
+    // Limit a gesture to one adjacent image, including the boundary clones.
+    const offset = Math.max(-viewport.clientWidth, Math.min(viewport.clientWidth, distance));
+    const position = (Number(viewer.dataset.galleryIndex) || 0) + 1;
+    track.style.transform = `translateX(calc(${-position * 100}% + ${offset}px))`;
+  });
+  viewport.addEventListener('pointerup', event => finishGesture(event));
+  viewport.addEventListener('pointercancel', event => finishGesture(event, true));
+  viewport.addEventListener('lostpointercapture', event => finishGesture(event, true));
+  viewport.addEventListener('dragstart', event => event.preventDefault());
 
   function updateCaption() {
     const slide = slides[Number(viewer.dataset.galleryIndex) || 0];
@@ -80,6 +139,7 @@
     slides = [...gallery.querySelector('.title-gallery-track').children]
       .filter(slide => slide.classList.contains('title-gallery-slide') && !slide.dataset.galleryClone);
     if (!slides.length) return;
+    clearSnap();
     controller?.destroy();
     const copies = slides.map(slide => {
       const copy = slide.cloneNode(true);
@@ -96,6 +156,7 @@
         image.removeAttribute('style');
         image.loading = 'eager';
         image.decoding = 'async';
+        image.draggable = false;
         copy.replaceChildren(image);
       }
       return copy;
@@ -105,10 +166,23 @@
     sourceGallery = gallery;
     const galleryTitle = gallery.dataset.galleryTitle || 'Title image';
     title.textContent = galleryTitle;
-    viewer.dataset.galleryTitle = galleryTitle;
+    const heading = gallery.closest('.game-card')?.querySelector('h3');
+    const native = heading?.querySelector('.title-native');
+    title.removeAttribute('lang');
+    let accessibleTitle = galleryTitle;
+    if (native && native.textContent.trim() && !galleryTitle.includes(native.textContent.trim())) {
+      const nativeTitle = document.createElement('span');
+      nativeTitle.className = 'image-lightbox-native';
+      nativeTitle.textContent = native.textContent;
+      if (native.lang) nativeTitle.lang = native.lang;
+      title.append(document.createTextNode(' '), nativeTitle);
+      accessibleTitle += ` / ${native.textContent.trim()}`;
+    } else if (heading?.lang) title.lang = heading.lang;
+    viewer.dataset.galleryTitle = accessibleTitle;
+    viewer.dataset.swipe = String(slides.length > 1);
     status.textContent = '';
-    previous.setAttribute('aria-label', `Previous ${galleryTitle} image`);
-    next.setAttribute('aria-label', `Next ${galleryTitle} image`);
+    previous.setAttribute('aria-label', `Previous ${accessibleTitle} image`);
+    next.setAttribute('aria-label', `Next ${accessibleTitle} image`);
     previous.disabled = next.disabled = slides.length < 2;
     controller = window.DAKnowTitleGallery.create(viewer, Number(gallery.dataset.galleryIndex) || 0);
     document.documentElement.classList.add('image-lightbox-open');
@@ -145,6 +219,8 @@
         event.clientY < bounds.top || event.clientY > bounds.bottom) dialog.close();
   });
   dialog.addEventListener('close', () => {
+    finishGesture(null, true);
+    clearSnap();
     window.DAKnowTitleGallery.get(sourceGallery)?.select(Number(viewer.dataset.galleryIndex) || 0);
     controller?.destroy();
     controller = null;

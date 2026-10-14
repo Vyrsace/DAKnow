@@ -3,11 +3,11 @@
 .catalog-name, .catalog-subtitle { display: block; }
 .catalog-subtitle { margin-top: 4px; color: #526780; font-size: .6em; font-weight: 600; line-height: 1.25; letter-spacing: -.02em; }
 .methodology { max-width: none; }
-main { --visible-titles: 5; --title-card-gap: 8px; --title-carousel-inset: 1px; }
+main { --visible-titles: 5; --title-card-gap: 8px; --title-carousel-inset: 1px; --title-section-padding: 20px; }
 header { padding-bottom: 0; border-bottom: 0; }
 main > section { padding: 10px 0; border-bottom: 0; }
 main > footer { padding-top: 10px; }
-main > section:is(#catalog, #downloads, #hashes, #verification, #research) { padding-block: 5px; }
+main > section:is(#games, #catalog, #downloads, #hashes, #verification, #research) { padding-block: 5px; }
 main > footer#sources { padding-top: 5px; }
 .site-footer { width: 100%; max-width: 2240px; margin: 0 auto; padding: 0 28px 16px; }
 .site-footer p { margin: 0; }
@@ -15,7 +15,7 @@ main > footer#sources { padding-top: 5px; }
 .site-footer .back { margin-top: 12px; }
 @media (max-width: 1100px) { .site-footer { padding-inline: 20px; } }
 @media (max-width: 850px) { .site-footer { padding-inline: 16px; } }
-.contents { --contents-edge-padding: 12px; width: calc((100% - 2 * var(--title-carousel-inset) - (var(--visible-titles) - 1) * var(--title-card-gap)) / var(--visible-titles)); max-width: 100%; margin-top: 18px; }
+.contents { --contents-edge-padding: 12px; width: calc((100% - 2px - 2 * var(--title-section-padding) - 2 * var(--title-carousel-inset) - (var(--visible-titles) - 1) * var(--title-card-gap)) / var(--visible-titles)); max-width: 100%; margin-top: 18px; }
 .contents, .verification-card, .game-card { border-color: var(--card-border); }
 .contents h2 { padding: var(--contents-edge-padding) 20px 4px; border-bottom: 0; }
 .collapsible-card[open] > .card-summary { border-bottom-color: var(--card-border); }
@@ -41,8 +41,8 @@ main > footer#sources { padding-top: 5px; }
 .table-return-links { display: flex; flex: 0 0 auto; justify-content: flex-end; gap: 14px; margin-left: auto; font-size: 12px; font-weight: 400; white-space: nowrap; }
 .region-nav { margin-bottom: 18px; }
 .region-nav a[aria-current="true"] { font-weight: 700; }
-#catalog .region-nav a { font-weight: 700; text-decoration: none; }
-#catalog .region-nav a:hover, #catalog .region-nav a:focus-visible { text-decoration: none; }
+.region-nav a { font-weight: 700; text-decoration: none; }
+.region-nav a:hover, .region-nav a:focus-visible { text-decoration: none; }
 .download-general-notes { margin-top: 26px; }
 .download-general-region:not([hidden]) ~ .download-general-region:not([hidden]) { margin-top: 18px; }
 .download-general-region h4 { font-size: 14px; }
@@ -67,7 +67,7 @@ main > footer#sources { padding-top: 5px; }
 .contents-list ul li + li { margin-top: 0; }
 .contents-list ul a { display: inline-block; padding: 1px 0; color: #546b88; font-size: 12px; }
 .section-heading { margin: 0 0 16px; color: #243f64; font-size: 18px; font-weight: 650; line-height: 1.35; }
-.section-intro { margin: 0 0 18px; color: var(--muted); font-size: 12px; max-width: 110ch; }
+.section-intro { margin: 0 0 18px; color: var(--muted); font-size: 12px; max-width: none; }
 .catalog-filters > h3 { font-size: 14px; margin: 0 0 10px; }
 .catalog-filters .controls { margin-top: 0; }
 #research :is(.evidence-region, tbody, tr)[hidden] { display: none !important; }
@@ -188,6 +188,7 @@ table td.dash-placeholder, table th.dash-placeholder, .download-size .dash-place
 @media (max-width: 1300px) { main { --visible-titles: 3; } }
 @media (max-width: 1000px) { main { --visible-titles: 2; } }
 @media (max-width: 620px) { main { --visible-titles: 1; } }
+@media (max-width: 550px) { main { --title-section-padding: 17px; } }
 
 @media (max-width: 550px) {
   .contents h2 { padding: var(--contents-edge-padding) 17px 4px; }
