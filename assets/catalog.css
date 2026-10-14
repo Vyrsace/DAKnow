@@ -8,12 +8,16 @@ table, table * { font-family: var(--table-font) !important; }
 header { padding-bottom: 0; border-bottom: 0; }
 main > section { padding: 10px 0; border-bottom: 0; }
 main > footer { padding-top: 10px; }
-.contents { margin-top: 18px; }
+.contents { width: 400px; max-width: 100%; margin-top: 18px; }
 .contents, .verification-card, .game-card { border-color: var(--card-border); }
+.contents h2 { padding: 20px 20px 4px; border-bottom: 0; }
+.collapsible-card[open] > .card-summary { border-bottom-color: var(--card-border); }
+.card-subsection + .card-subsection { border-top-color: var(--card-border); }
+.evidence-table, .evidence-table th, .evidence-table td { border: 1px solid var(--line); }
 .contents-list {
   display: block;
   margin: 0;
-  padding: 8px 28px 12px;
+  padding: 0 28px 12px;
   list-style: none;
 }
 .contents-list > li { margin: 0; padding: 0; }
@@ -27,11 +31,6 @@ main > footer { padding-top: 10px; }
 .section-intro { margin: 0 0 18px; color: var(--muted); font-size: 12px; max-width: 110ch; }
 .catalog-filters > h3 { font-size: 14px; margin: 0 0 10px; }
 .catalog-filters .controls { margin-top: 0; }
-.sort-toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 16px; margin: 15px 0 10px; font-size: 12px; }
-.sort-status { margin: 0; color: #425d80; }
-.sort-help { margin: 0 0 12px; color: var(--muted); font-size: 11px; }
-.reset-sort { padding: 4px 8px; border: 1px solid #c9d5e5; border-radius: 4px; background: var(--paper); color: var(--accent); font: inherit; cursor: pointer; }
-.reset-sort:disabled { color: var(--muted); opacity: .6; cursor: default; }
 .sort-button { display: flex; align-items: center; gap: 7px; width: 100%; padding: 0; border: 0; background: transparent; color: inherit; font: inherit; text-align: inherit; cursor: pointer; }
 .sort-button:hover { color: var(--accent); }
 .sort-indicator { color: var(--muted); font-size: 10px; font-weight: 500; white-space: nowrap; }
@@ -111,12 +110,12 @@ a.download-badge--client:hover, a.download-badge--patch:hover { filter: brightne
 .skip-link { position: absolute; top: 8px; left: 8px; transform: translateY(-200%); padding: 8px 12px; background: var(--paper); border: 1px solid var(--line); z-index: 30; }
 .skip-link:focus { transform: none; }
 @media (max-width: 550px) {
-  .contents-list { padding: 8px 25px 12px; }
-  .sort-toolbar { align-items: flex-start; }
+  .contents h2 { padding: 17px 17px 4px; }
+  .contents-list { padding: 0 25px 12px; }
   .section-intro { line-height: 1.65; }
 }
 @media print {
-  .catalog-filters, .sort-toolbar, .sort-help { display: none; }
+  .catalog-filters { display: none; }
   #master-catalog, .downloads-table, .hashes-table { min-width: 0; }
   #title-carousel { grid-auto-columns: auto; }
 }

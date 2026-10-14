@@ -11,8 +11,6 @@
   const originalRows = [...body.querySelectorAll('.master-row')];
   const originalOrder = new Map(originalRows.map((row, index) => [row, index]));
   const buttons = [...table.querySelectorAll('.sort-button')];
-  const status = document.getElementById('sort-status');
-  const reset = document.getElementById('reset-sort');
   const collator = new Intl.Collator('en', { numeric: true, sensitivity: 'base' });
   const labels = { version: 'Version', region: 'Region', title: 'Title', date: 'Release Date' };
   let levels = [];
@@ -51,10 +49,6 @@
       const next = !level ? 'add ascending sort' : level.direction === 'asc' ? 'sort descending' : 'remove sort';
       button.setAttribute('aria-label', `${labels[button.dataset.sort]}${level ? `, priority ${index + 1}, ${level.direction === 'asc' ? 'ascending' : 'descending'}` : ''}; ${next}`);
     });
-    status.textContent = levels.length
-      ? `Sort: ${levels.map((level, index) => `${index + 1}. ${labels[level.key]} ${level.direction === 'asc' ? '↑' : '↓'}`).join(' → ')}`
-      : 'Sort: original catalog order';
-    reset.disabled = levels.length === 0;
   }
 
   buttons.forEach(button => button.addEventListener('click', () => {
@@ -65,6 +59,5 @@
     else levels = levels.filter(item => item.key !== key);
     render();
   }));
-  reset.addEventListener('click', () => { levels = []; render(); });
   render();
 })();
