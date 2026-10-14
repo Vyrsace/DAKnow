@@ -16,15 +16,29 @@ These rules carry the user's standing request to review, verify, and troubleshoo
 - Hash the original installer or relevant game payload when establishing identity. Do not present a container hash as the enclosed installer's hash, or assume different package names mean different clients. Record the algorithm and the exact object hashed.
 - Consolidate identical files only on verified exact-hash identity. Containers with different hashes may be mirrors of the same enclosed installer only after its identity is verified. Retain meaningful differences between variants and keep multipart sets together.
 - Preserve verified URLs, filenames, hashes, source references, findings, and version associations unless the requested change or new evidence justifies correcting them. Version List Notes contain documented changes from previous regional versions and significant release events only. Package properties, prerequisites and conversion routes belong in Downloads; supporting research and citations remain in Research Notes and Sources.
-- Downloads has Version, Type, Filename, Size and Notes columns. Client includes an installer, packaged client or standalone game executable; Patch modifies existing files. The loose Singapore 4.21 game executable is Client, while its patch installer is Patch. Hosted links carry Client/Patch badges, patch routes use a secondary badge, and external mirrors carry Archive badges. Until hosting is configured, hosted links resolve to the explicit pending notice. Preserve all mirror aliases and complete multipart order.
-- Hashes lists the main executable only for versions with preserved downloads, grouped by region with United States first and South Korea second. Korean game clients use Legend.exe; lodr.exe is an installer. Use exact filename case, decimal MB with exact bytes in brackets, SHA-256 and bulleted file notes. The supporting assets/data/client-hashes.json retains executable provenance; scripts/build_version_catalog_hashes.py in the parent project rehashes preserved bytes and supports --verify.
+- Downloads has Version, Type, Filename, Size and Notes columns. Client includes an installer, packaged client or standalone game executable; Patch modifies existing files. The loose Singapore 4.21 game executable is Client, while its patch installer is Patch. Hosted links carry Client/Patch badges, patch routes use a secondary badge, and external mirrors carry Archive badges. Until hosting is configured, keep hosted links as inert dummy targets with href="#downloads" and data-hosted-placeholder="true"; do not invent hosting URLs or add visible or ARIA hosting-status remarks. Preserve all mirror aliases and complete multipart order.
+- Hashes has Version, Filename, Size, Hash and Notes columns and lists the main executable only for versions with preserved downloads, grouped by region with United States first and South Korea second. Korean game clients use Legend.exe; lodr.exe is an installer. Put each client version in the first column instead of repeating it in Notes. Use exact filename case, decimal MB with exact bytes in square brackets on one line, SHA-256 and bulleted file notes. The supporting assets/data/client-hashes.json retains executable provenance; scripts/build_version_catalog_hashes.py in the parent project rehashes preserved bytes and supports --verify.
 
 ## Preserve the accepted presentation
 
-- Keep the established compact visual language: restrained spacing, consistent file labels and download links, square note bullets, and no unnecessary dividers or extra panels. Downloads and Hashes remain visible in matching section cards. Version List has a matching collapsible card, closed by default. Its table omits Downloads; Filters has its own heading.
+- Keep the established compact visual language: restrained spacing, consistent file labels and download links, square note bullets, and no unnecessary dividers or extra panels. Downloads and Version List use matching collapsible cards, both closed by default. Hashes remains visible in a matching section card. Version List omits Downloads; Filters has its own heading.
 - Table of Contents is a static vertical guide outline, with numbered primary links, indented subsections and no underlines. Contents links reveal collapsed destination cards, including repeated clicks on the same fragment. Version List sorting accumulates columns in click order (primary, then secondary), cycles ascending/descending/off, keeps undocumented values last and has a separate Reset sorting control. Reset filters preserves sorting.
 - Research Notes use title-based groups, with General first. Sources remain one consolidated list in numeric Ref order. Preserve reference IDs and working cross-links. Both sections remain collapsed by default unless requested otherwise.
 - Title cards follow the shared metadata and paragraph layout. Keep company and country text left aligned, history before gameplay, native names on their own line, and date ranges without a "Released:" prefix. Maintain a usable desktop and mobile presentation.
+
+The user's current table and spacing requirements supersede earlier display defaults:
+
+1. Top align Notes cells in Version List.
+2. Top align Notes cells in Hashes.
+3. Decrease padding in every Version List row, keeping the contents tight with a small gap so they do not touch.
+4. Decrease spacing between title cards.
+5. Make Downloads collapsible and closed by default; Contents navigation still expands it before scrolling.
+6. Remove the "Hosting pending" remark everywhere, including visible labels, helper text and ARIA remarks. Keep the hosted dummy links without inventing real download URLs.
+7. Keep each Hashes size on one line, for example 0.70 MB [704,512 bytes].
+8. Place Version first in Hashes and move the version value from Notes into that column.
+9. Left align all cells in tables that contain a Version column.
+10. Display ? in place of Unnumbered, including qualified Unnumbered labels. Preserve raw unknown-version labels in catalog records and provenance where needed.
+11. Add a left border to every Notes column cell, including the header. Apply the same Notes treatment to Research Notes' Evidence and notes columns.
 
 The catalog uses shared typography, spacing and download sizing tokens. A dedicated styling skill is pending the user’s next review and agreement on the visual direction.
 

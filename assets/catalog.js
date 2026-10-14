@@ -1,4 +1,11 @@
 (() => {
+  document.querySelectorAll('a[data-hosted-placeholder="true"]').forEach(link => {
+    link.addEventListener('click', event => {
+      if (link.getAttribute('href') !== '#downloads') return;
+      event.preventDefault();
+      event.stopPropagation();
+    });
+  });
   const table = document.getElementById('master-catalog');
   const body = table.tBodies[0];
   const originalRows = [...body.querySelectorAll('.master-row')];

@@ -32,7 +32,18 @@ th[aria-sort]:not([aria-sort="none"]) .sort-indicator { color: var(--accent); fo
 #master-catalog col.game-title { width: 240px; }
 #master-catalog col.date { width: 170px; }
 #master-catalog col.notes { width: auto; }
-#master-catalog .sort-button[data-sort="version"] { justify-content: center; }
+#master-catalog .sort-button[data-sort="version"] { justify-content: flex-start; }
+#master-catalog th, #master-catalog td { padding: 5px 8px; }
+#master-catalog th:first-child, #master-catalog td.version,
+table.version-table th, table.version-table td,
+.version-table .research-reference-cell { text-align: left; }
+#master-catalog td.notes-cell, .hashes-table td.notes-cell { vertical-align: top; }
+#master-catalog .note-list, .hashes-table .note-list { margin: 0; padding-left: 14px; }
+#master-catalog .note-list li, .hashes-table .note-list li { margin: 0; }
+#master-catalog .note-list li + li, .hashes-table .note-list li + li { margin-top: 3px; }
+table th.notes-cell, table td.notes-cell { border-left: 1px solid var(--line); }
+#title-carousel { --title-card-gap: 8px; column-gap: var(--title-card-gap); grid-auto-columns: calc((100% - (var(--visible-titles) - 1) * var(--title-card-gap)) / var(--visible-titles)); }
+.game-grid { gap: 8px; }
 #catalog .counter { margin-bottom: 8px; }
 .download-region + .download-region, .hash-region + .hash-region { margin-top: 26px; }
 .download-region h3, .hash-region h3 { font-size: 15px; margin: 0 0 10px; }
@@ -60,25 +71,25 @@ th[aria-sort]:not([aria-sort="none"]) .sort-indicator { color: var(--accent); fo
 a.download-badge--client, a.download-badge--patch { text-decoration: none; }
 a.download-badge--client:hover, a.download-badge--patch:hover { filter: brightness(.96); }
 .patch-route { display: inline-block; margin-top: 5px; padding: 2px 5px; border: 1px solid #ded8f3; border-radius: 4px; background: #f8f6ff; color: #675e94; font-size: 10px; white-space: nowrap; }
-.hosted-status { display: block; margin-top: 4px; font-size: 10px; color: var(--muted); }
 .download-notes { font-size: 11px; }
 .download-notes .notes { margin: 0; padding-left: 14px; list-style-type: square; font-size: 11px; }
 .download-notes li + li { margin-top: 5px; }
 .download-notes li::marker { font-size: 9px; color: var(--muted); }
 .download-bytes, .download-channel { display: block; color: var(--muted); font-size: 10px; }
 .download-size { font-variant-numeric: tabular-nums; }
-.download-pending { color: var(--muted); font-size: 12px; margin-bottom: 22px; }
-#download-pending { scroll-margin-top: 24px; }
-#download-pending:target { background: var(--soft); outline: 2px solid #b9cce6; outline-offset: 4px; border-radius: 2px; }
-.hashes-table { min-width: 780px; font-size: 12px; }
-.hashes-table col:nth-child(1) { width: 14%; }
-.hashes-table col:nth-child(2) { width: 16%; }
-.hashes-table col:nth-child(3) { width: 43%; }
-.hashes-table col:nth-child(4) { width: 27%; }
+.hashes-table { min-width: 1000px; font-size: 12px; }
+.hashes-table col:nth-child(1) { width: 8%; }
+.hashes-table col:nth-child(2) { width: 13%; }
+.hashes-table col:nth-child(3) { width: 21%; }
+.hashes-table col:nth-child(4) { width: 36%; }
+.hashes-table col:nth-child(5) { width: 22%; }
+.hash-version { font-weight: 650; font-variant-numeric: tabular-nums; }
+.hash-version a { text-decoration: none; }
+.hash-version a:hover { text-decoration: underline; }
 .executable-name { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 12px; }
 .executable-hash { font: 11px/1.6 ui-monospace, SFMono-Regular, Consolas, monospace; overflow-wrap: anywhere; word-break: break-all; user-select: all; }
-.file-size { font-variant-numeric: tabular-nums; }
-.file-bytes { display: block; color: var(--muted); font-size: 11px; }
+.file-size { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.file-bytes { display: inline; color: inherit; font-size: inherit; }
 .hashes-table .note-list { font-size: 11px; }
 .hashes-table .note-list a { text-decoration: none; }
 .hashes-table .note-list a:hover { text-decoration: underline; }
@@ -92,6 +103,7 @@ a.download-badge--client:hover, a.download-badge--patch:hover { filter: brightne
   .section-intro { line-height: 1.65; }
 }
 @media print {
-  .catalog-filters, .sort-toolbar, .sort-help, .hosted-status { display: none; }
+  .catalog-filters, .sort-toolbar, .sort-help { display: none; }
   #master-catalog, .downloads-table, .hashes-table { min-width: 0; }
+  #title-carousel { grid-auto-columns: auto; }
 }
