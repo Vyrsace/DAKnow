@@ -63,7 +63,8 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 #title-carousel { --visible-titles: inherit; --title-card-gap: inherit; column-gap: var(--title-card-gap); grid-auto-columns: calc((100% - (var(--visible-titles) - 1) * var(--title-card-gap)) / var(--visible-titles)); }
 .game-grid { gap: 8px; }
 #catalog .counter { margin-bottom: 8px; }
-.download-region + .download-region, .hash-region + .hash-region { margin-top: 26px; }
+#downloads .download-region[hidden] { display: none !important; }
+#downloads .download-region:not([hidden]) ~ .download-region:not([hidden]), .hash-region + .hash-region { margin-top: 26px; }
 .download-region h3, .hash-region h3 { font-size: 15px; margin: 0 0 10px; }
 .downloads-table { font-size: 12px; }
 .downloads-table col:nth-child(1) { width: var(--catalog-version-width); }
