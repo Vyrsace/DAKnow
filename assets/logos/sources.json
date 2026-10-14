@@ -15,19 +15,19 @@
       "width": 2172,
       "height": 724,
       "sha256": "e5326c4c966b2e4848576f2826b6372fab54a11ae2e24a869f1faed4d6123a02",
-      "description": "Owner-requested high-resolution transparent restoration candidate of the authentic logo; AI-edited derivative, not original publisher bytes. Original retained unchanged pending approval.",
+      "description": "Owner-requested high-resolution transparent restoration of the authentic logo; AI-edited derivative, not original publisher bytes. Original website backup removed after owner approval; source identity and Git history retained.",
       "unchanged": false,
       "bytes": 664447,
-      "original_asset": "assets/logos/legends-of-darkness.png",
       "original_sha256": "67b8007711cf5148e75aef6d2a1374b59c77151e8c974bd798e9b1e6c5e4f4be",
       "evidence_kind": "owner-requested-logo-restoration",
       "conversion": "Built-in image_gen faithful restoration; background extracted for Malaysian and Singapore logos.",
-      "verification": "Source and output visually compared; original bytes verified unchanged. Restoration is not pixel-identical source evidence.",
+      "verification": "Source and output visually compared; original hash verified before owner-authorized deletion. Restoration is not pixel-identical source evidence.",
       "remaster": {
         "tool": "built-in image_gen",
         "prompt_path": "data/version-research/2026-10-14/logo-remasters/prompts.json",
-        "approval": "pending"
-      }
+        "approval": "accepted 2026-10-14; backup deletion authorized"
+      },
+      "removed_original_asset": "assets/logos/legends-of-darkness.png"
     },
     {
       "title": "Yami / 闇の伝説",
@@ -44,19 +44,19 @@
       "width": 1942,
       "height": 809,
       "sha256": "868ae16479d601bf970bfb57dc4f66c8be65b0ef7342fdc13c7fec9b0643fc18",
-      "description": "Owner-requested high-resolution transparent restoration candidate of the authentic logo; AI-edited derivative, not original publisher bytes. Original retained unchanged pending approval.",
+      "description": "Owner-requested high-resolution transparent restoration of the authentic logo; AI-edited derivative, not original publisher bytes. Original website backup removed after owner approval; source identity and Git history retained.",
       "unchanged": false,
       "bytes": 1259686,
-      "original_asset": "assets/logos/legends-malaysia.jpg",
       "original_sha256": "b03faac589a2a36250815ab59c3eec5f87e5809357132354e3baf281a5b66644",
       "evidence_kind": "owner-requested-logo-restoration",
       "conversion": "Built-in image_gen faithful restoration; background extracted for Malaysian and Singapore logos.",
-      "verification": "Source and output visually compared; original bytes verified unchanged. Restoration is not pixel-identical source evidence.",
+      "verification": "Source and output visually compared; original hash verified before owner-authorized deletion. Restoration is not pixel-identical source evidence.",
       "remaster": {
         "tool": "built-in image_gen",
         "prompt_path": "data/version-research/2026-10-14/logo-remasters/prompts.json",
-        "approval": "pending"
-      }
+        "approval": "accepted 2026-10-14; backup deletion authorized"
+      },
+      "removed_original_asset": "assets/logos/legends-malaysia.jpg"
     },
     {
       "title": "Legends of Temuair",
@@ -64,19 +64,19 @@
       "width": 1942,
       "height": 809,
       "sha256": "868ae16479d601bf970bfb57dc4f66c8be65b0ef7342fdc13c7fec9b0643fc18",
-      "description": "Owner-requested high-resolution transparent restoration candidate of the authentic logo; AI-edited derivative, not original publisher bytes. Original retained unchanged pending approval.",
+      "description": "Owner-requested high-resolution transparent restoration of the authentic logo; AI-edited derivative, not original publisher bytes. Original website backup removed after owner approval; source identity and Git history retained.",
       "unchanged": false,
       "bytes": 1259686,
-      "original_asset": "assets/logos/legends-malaysia.jpg",
       "original_sha256": "b03faac589a2a36250815ab59c3eec5f87e5809357132354e3baf281a5b66644",
       "evidence_kind": "owner-requested-logo-restoration",
       "conversion": "Built-in image_gen faithful restoration; background extracted for Malaysian and Singapore logos.",
-      "verification": "Source and output visually compared; original bytes verified unchanged. Restoration is not pixel-identical source evidence.",
+      "verification": "Source and output visually compared; original hash verified before owner-authorized deletion. Restoration is not pixel-identical source evidence.",
       "remaster": {
         "tool": "built-in image_gen",
         "prompt_path": "data/version-research/2026-10-14/logo-remasters/prompts.json",
-        "approval": "pending"
-      }
+        "approval": "accepted 2026-10-14; backup deletion authorized"
+      },
+      "removed_original_asset": "assets/logos/legends-malaysia.jpg"
     },
     {
       "title": "DarkAges (SGDA)",
@@ -85,18 +85,38 @@
       "height": 815,
       "sha256": "d3ea1d2f7f8dce84e2c92038658f822e28c1b050f7c397e29ce3fdcdc53b14e3",
       "source_url": "https://web.archive.org/web/20021227115238id_/http://darkages.nexonasia.com/images/newtop/DAhead1.gif",
-      "description": "Owner-requested high-resolution transparent restoration candidate of the authentic logo; AI-edited derivative, not original publisher bytes. Original retained unchanged pending approval.",
+      "description": "Owner-requested high-resolution transparent restoration of the authentic logo; AI-edited derivative, not original publisher bytes. Original website backup removed after owner approval; source identity and Git history retained.",
       "unchanged": false,
       "bytes": 816694,
-      "original_asset": "assets/logos/darkages-singapore.gif",
       "original_sha256": "ba2403a721a6e46dd07d2930addaae0f81288cbed196d5a5ab1491cd2790681c",
       "evidence_kind": "owner-requested-logo-restoration",
       "conversion": "Built-in image_gen faithful restoration; background extracted for Malaysian and Singapore logos.",
-      "verification": "Source and output visually compared; original bytes verified unchanged. Restoration is not pixel-identical source evidence.",
+      "verification": "Source and output visually compared; original hash verified before owner-authorized deletion. Restoration is not pixel-identical source evidence.",
       "remaster": {
         "tool": "built-in image_gen",
         "prompt_path": "data/version-research/2026-10-14/logo-remasters/prompts.json",
-        "approval": "pending"
+        "approval": "accepted 2026-10-14; backup deletion authorized"
+      },
+      "removed_original_asset": "assets/logos/darkages-singapore.gif"
+    },
+    {
+      "title": "真世界 / Zhēn Shìjiè",
+      "asset": "assets/logos/zhenshijie-remastered.png",
+      "image_number": 1,
+      "gallery_id": "zhenshijie-tw-gallery",
+      "width": 2076,
+      "height": 757,
+      "bytes": 1261411,
+      "sha256": "3782d06d852d12ecf78cabe75f22cb0c03339df73cd665e394bec270d3204e6b",
+      "source_url": "https://web.archive.org/web/20011005234949id_/http://www.apexon-online.com.tw:80/da/images/wallpaper/dalogo1024.JPG",
+      "original_asset": "assets/logos/zhenshijie-wallpaper.jpg",
+      "original_sha256": "58b129f53dbc1f11296b317473fa01849ae884d049f42d9a389c5b0dc1643e14",
+      "unchanged": false,
+      "description": "Owner-requested high-resolution transparent restoration of the Chinese 真世界 and English Dark Ages wordmark isolated from the authentic wallpaper. Illustrated people, background and grid removed. AI-edited derivative, not original publisher bytes; complete original remains image two.",
+      "remaster": {
+        "tool": "built-in image_gen",
+        "prompt_path": "data/version-research/2026-10-14/taiwan-logo-remaster/prompt.json",
+        "validation": "Chinese title, English subtitle, relative offset, brush contours and palette visually reviewed; alpha verified. Restoration is not pixel-identical source evidence."
       }
     },
     {
@@ -106,8 +126,10 @@
       "height": 769,
       "sha256": "58b129f53dbc1f11296b317473fa01849ae884d049f42d9a389c5b0dc1643e14",
       "source_url": "https://web.archive.org/web/20011005234949id_/http://www.apexon-online.com.tw:80/da/images/wallpaper/dalogo1024.JPG",
-      "description": "Original publisher wallpaper copied unchanged and displayed in full without cropping as the first Taiwanese gallery image.",
-      "unchanged": true
+      "description": "Original publisher wallpaper retained byte-for-byte and displayed complete as the second Taiwan gallery image, after the isolated remastered wordmark.",
+      "unchanged": true,
+      "image_number": 2,
+      "gallery_id": "zhenshijie-tw-gallery"
     },
     {
       "title": "Elancia — South Korea",
@@ -133,20 +155,20 @@
       "original_bytes": 24620,
       "original_sha256": "7f8562162e584ddad9ce3d10241653350e65b00c75035842d4ad0d4d1e99bebd",
       "conversion": "Built-in image_gen faithful restoration; background extracted for Malaysian and Singapore logos.",
-      "verification": "Source and output visually compared; original bytes verified unchanged. Restoration is not pixel-identical source evidence.",
+      "verification": "Source and output visually compared; original hash verified before owner-authorized deletion. Restoration is not pixel-identical source evidence.",
       "caption": "Remastered Elancia Korean title logo",
       "label": "Remastered Elancia Korean title logo",
       "alt": "Elancia — remastered logo",
       "credit": "NEXON Korea",
       "provenance": "Original publisher logo referenced by official site CSS",
       "unchanged": false,
-      "original_asset": "assets/logos/elancia.png",
-      "description": "Owner-requested high-resolution transparent restoration candidate of the authentic logo; AI-edited derivative, not original publisher bytes. Original retained unchanged pending approval.",
+      "description": "Owner-requested high-resolution transparent restoration of the authentic logo; AI-edited derivative, not original publisher bytes. Original website backup removed after owner approval; source identity and Git history retained.",
       "remaster": {
         "tool": "built-in image_gen",
         "prompt_path": "data/version-research/2026-10-14/logo-remasters/prompts.json",
-        "approval": "pending"
-      }
+        "approval": "accepted 2026-10-14; backup deletion authorized"
+      },
+      "removed_original_asset": "assets/logos/elancia.png"
     },
     {
       "title": "Asgard",
@@ -189,22 +211,22 @@
     },
     {
       "title": "Legends of Darkness / 어둠의 전설",
-      "asset": "assets/logos/legends-of-darkness.png",
       "width": 252,
       "height": 64,
       "sha256": "67b8007711cf5148e75aef6d2a1374b59c77151e8c974bd798e9b1e6c5e4f4be",
       "description": "Exact unmodified transparent PNG referenced by official Nexon page linked CSS: https://lwres.nexon.com/css/lod/renewal/brand/common.css, rule .modal .modal-wrap .modal-content::before. Visually inspected: Korean title with LEGEND OF DARKNESS subtitle and circular emblem.",
       "unchanged": true,
       "retired_at": "2026-10-14",
-      "retirement_reason": "Original retained unchanged pending owner approval of remaster.",
-      "approval": "pending"
+      "retirement_reason": "Owner approved the remaster and requested removal of the original website backup. Original identity/provenance and Git history remain.",
+      "approval": "accepted replacement; backup deletion authorized",
+      "removed_asset": "assets/logos/legends-of-darkness.png",
+      "removed_at": "2026-10-14"
     },
     {
       "title": "Elancia — South Korea",
       "title_id": "elancia-kr",
       "country": "South Korea",
       "image_number": 1,
-      "asset": "assets/logos/elancia.png",
       "proposal_path": ".cache/catalog-redesign/lineage-expansion/assets/logos/elancia.png",
       "original_path": "data/version-research/2026-10-14/elancia/assets/elancia-logo-original.png",
       "selected_source_path": "data/version-research/2026-10-14/elancia/assets/elancia-logo-original.png",
@@ -230,36 +252,39 @@
       "credit": "NEXON Korea",
       "provenance": "Original publisher logo referenced by official site CSS",
       "retired_at": "2026-10-14",
-      "retirement_reason": "Original retained unchanged pending owner approval of remaster.",
-      "approval": "pending"
+      "retirement_reason": "Owner approved the remaster and requested removal of the original website backup. Original identity/provenance and Git history remain.",
+      "approval": "accepted replacement; backup deletion authorized",
+      "removed_asset": "assets/logos/elancia.png",
+      "removed_at": "2026-10-14"
     },
     {
       "title": "Legends of Orphelias",
-      "asset": "assets/logos/legends-malaysia.jpg",
       "width": 200,
       "height": 135,
       "sha256": "b03faac589a2a36250815ab59c3eec5f87e5809357132354e3baf281a5b66644",
       "description": "Use this intact authentic shared LEGENDS logo image unchanged in both Malaysian title cards. It is the same byte-identical original publisher asset in both eras, rather than a fabricated individual title wordmark.",
       "unchanged": true,
       "retired_at": "2026-10-14",
-      "retirement_reason": "Original retained unchanged pending owner approval of remaster.",
-      "approval": "pending"
+      "retirement_reason": "Owner approved the remaster and requested removal of the original website backup. Original identity/provenance and Git history remain.",
+      "approval": "accepted replacement; backup deletion authorized",
+      "removed_asset": "assets/logos/legends-malaysia.jpg",
+      "removed_at": "2026-10-14"
     },
     {
       "title": "Legends of Temuair",
-      "asset": "assets/logos/legends-malaysia.jpg",
       "width": 200,
       "height": 135,
       "sha256": "b03faac589a2a36250815ab59c3eec5f87e5809357132354e3baf281a5b66644",
       "description": "Use this intact authentic shared LEGENDS logo image unchanged in both Malaysian title cards. It is the same byte-identical original publisher asset in both eras, rather than a fabricated individual title wordmark.",
       "unchanged": true,
       "retired_at": "2026-10-14",
-      "retirement_reason": "Original retained unchanged pending owner approval of remaster.",
-      "approval": "pending"
+      "retirement_reason": "Owner approved the remaster and requested removal of the original website backup. Original identity/provenance and Git history remain.",
+      "approval": "accepted replacement; backup deletion authorized",
+      "removed_asset": "assets/logos/legends-malaysia.jpg",
+      "removed_at": "2026-10-14"
     },
     {
       "title": "DarkAges (SGDA)",
-      "asset": "assets/logos/darkages-singapore.gif",
       "width": 360,
       "height": 152,
       "sha256": "ba2403a721a6e46dd07d2930addaae0f81288cbed196d5a5ab1491cd2790681c",
@@ -267,8 +292,10 @@
       "description": "Original publisher asset copied unchanged.",
       "unchanged": true,
       "retired_at": "2026-10-14",
-      "retirement_reason": "Original retained unchanged pending owner approval of remaster.",
-      "approval": "pending"
+      "retirement_reason": "Owner approved the remaster and requested removal of the original website backup. Original identity/provenance and Git history remain.",
+      "approval": "accepted replacement; backup deletion authorized",
+      "removed_asset": "assets/logos/darkages-singapore.gif",
+      "removed_at": "2026-10-14"
     }
   ]
 }
