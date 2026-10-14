@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "title": "DarkAges — United States",
+      "image_number": 2,
+      "asset": "assets/images/darkages-us-screenshot-21.png",
+      "source_url": "https://www.darkages.com/screenshots/images/s_b_21.gif",
+      "captured_at": "2026-10-14T03:51:50.308489+00:00",
+      "width": 616,
+      "height": 308,
+      "sha256": "161cac5f3853f7119b19970b349375a10f51516e649565035a3310d8942f963f",
+      "original_sha256": "6ad3376da0384e4c62b99b06ada607d8d409ee8a63315f5ae7b700b4922d59eb",
+      "conversion": "Pillow GIF-to-PNG conversion preserving indexed palette and transparency; no resizing, cropping or quantization.",
+      "verification": "Source GIF and final PNG decode to identical RGBA pixel bytes."
+    }
+  ]
+}
