@@ -1,0 +1,859 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-14T01:17:58+00:00",
+  "algorithm": "SHA-256",
+  "scope": "Main game executable only, for versions with preserved client or replacement-executable downloads.",
+  "verification": {
+    "method": "Read every preserved main executable and recalculate SHA-256 and byte length; compare with Downloads/files.jsonl. No preserved binary was executed.",
+    "verifiedPaths": 34,
+    "uniqueRows": 32,
+    "fileManifest": "Downloads/files.jsonl",
+    "extractionManifest": "Downloads/extraction-manifest.jsonl",
+    "downloadPlan": "Downloads/download-plan.json",
+    "builder": "scripts/build_version_catalog_hashes.py"
+  },
+  "groups": [
+    {
+      "id": "us",
+      "title": "DarkAges — United States",
+      "region": "United States",
+      "entries": [
+        {
+          "filename": "DarkAges.exe",
+          "version": "2.15",
+          "bytes": 704512,
+          "sha256": "072e2b449f4b611df9aa1ab30b9ca1a99820d2e9a8b05adf6417c91f603963e7",
+          "region": "United States",
+          "notes": [
+            "Version 2.15."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/2.15/Client/Extracted-Main/DarkAges.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/2.15/Client/Original/DARKAGES.EXE"
+          ],
+          "sourceUrls": [
+            "https://discmaster.textfiles.com/file/42800/SharePlay%2004-1999%20%28DE%29%20%281999%29%20%28Publish%20Verlag%20GmbH%29/SharePlay_04-99.iso/SHARE/SPIELE/DARKAGES/DARKAGES.EXE"
+          ],
+          "entryIds": [
+            "entry-1"
+          ]
+        },
+        {
+          "filename": "DarkAges.exe",
+          "version": "3.50",
+          "bytes": 880640,
+          "sha256": "e2f5ab4fc7740b9266345e12bedbf98132a546761f339894214e1cd72228587d",
+          "region": "United States",
+          "notes": [
+            "Version 3.50."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/3.50/Client/Extracted-Main/DarkAges.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/3.50/Client/Original/DarkAges_Key.exe"
+          ],
+          "sourceUrls": [
+            "https://raw.githubusercontent.com/SK0RPSE/DarkAges-version-3.50-2000/main/DarkAges_Key.exe",
+            "https://discmaster.textfiles.com/file/37840/PC%20Master%20%CE%A4%CE%B5%CF%8D%CF%87%CE%BF%CF%82%20124%20-%2015%20%CE%99%CE%BF%CF%85%CE%BD%CE%AF%CE%BF%CF%85%202000/PC%20Master%20%CE%A4%CE%B5%CF%8D%CF%87%CE%BF%CF%82%20124%20-%2015%20%CE%99%CE%BF%CF%85%CE%BD%CE%AF%CE%BF%CF%85%202000%20-%20CD%201.bin/darkages/DarkAges_Key.exe"
+          ],
+          "entryIds": [
+            "entry-7"
+          ]
+        },
+        {
+          "filename": "DarkAges.exe",
+          "version": "3.51",
+          "bytes": 880640,
+          "sha256": "d125a5da1c14d302e9a148e8aa3b77eb355b3024ea1852f3c38484197f65c875",
+          "region": "United States",
+          "notes": [
+            "Version 3.51."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/3.51/Client/Extracted-Main/DarkAges.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/3.51/Client/Original/darkages.exe"
+          ],
+          "sourceUrls": [
+            "https://discmaster.textfiles.com/file/42817/SharePlay%2006-2000%20%28DE%29%20%282000%29%20%28Publish%20Verlag%20GmbH%29/SharePlay_06-2000.iso/share/rollensp/darkages/darkages.exe"
+          ],
+          "entryIds": [
+            "entry-8"
+          ]
+        },
+        {
+          "filename": "Darkages.exe",
+          "version": "3.70",
+          "bytes": 905216,
+          "sha256": "61abfd9224a502ce51b1073e44338e416c896dd171aa83a9bc6afb830a4f2130",
+          "region": "United States",
+          "notes": [
+            "Version 3.70.",
+            "Executable recovered from the first installer volume; the preserved distribution is incomplete."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/3.70/Client/Extracted-Main/Darkages.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/3.70/Client/Original/DarkAges_Key_split.exe"
+          ],
+          "sourceUrls": [
+            "https://web.archive.org/web/20010905020425id_/http://www1.darkages.com:80/download/DarkAges_Key_split.exe"
+          ],
+          "entryIds": [
+            "entry-9"
+          ]
+        },
+        {
+          "filename": "Darkages.exe",
+          "version": "3.71",
+          "bytes": 938051,
+          "sha256": "a3d6e09b5659d2b60c63de26d74295f4f9bef8a9083d9720151de2d028531782",
+          "region": "United States",
+          "notes": [
+            "Version 3.71."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/3.71/Client/Extracted-Main/Darkages.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/3.71/Client/Original/SG_CD.bin"
+          ],
+          "sourceUrls": [
+            "https://archive.org/download/sg-cd/SG_CD.bin"
+          ],
+          "entryIds": [
+            "entry-10"
+          ]
+        },
+        {
+          "filename": "DarkAges.exe",
+          "version": "3.72",
+          "bytes": 1146952,
+          "sha256": "5411b73b12c6e32efa4737bc13312f195d60ff5f00401c96c728cdc6dec07dd4",
+          "region": "United States",
+          "notes": [
+            "Version 3.72."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/3.72/Client/Extracted-Main/DarkAges.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/3.72/Client/Original/DarkAges_Key.exe"
+          ],
+          "sourceUrls": [
+            "https://discmaster.textfiles.com/file/24071/2002-01_-_Disc_7.11.iso/Software/Demos/DarkAges/DarkAges_Key.exe"
+          ],
+          "entryIds": [
+            "entry-11"
+          ]
+        },
+        {
+          "filename": "DarkAges.exe",
+          "version": "3.73",
+          "bytes": 1146955,
+          "sha256": "656e80de5d25115534ef85198caf95f128d72a61e7b067216793f43004008936",
+          "region": "United States",
+          "notes": [
+            "Version 3.73."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/3.73/Client/Extracted-Main/DarkAges.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/3.73/Client/Original/DarkAges-3.61.exe",
+            "Downloads/US - DarkAges/3.73/Client/Original/DarkAges_Key_split.exe",
+            "Downloads/US - DarkAges/3.73/Client/Original/DarkAges_Key_split.W02",
+            "Downloads/US - DarkAges/3.73/Client/Original/DarkAges_Key_split.W03",
+            "Downloads/US - DarkAges/3.73/Client/Original/DarkAges_key_split.w04"
+          ],
+          "sourceUrls": [
+            "https://novus-imperia.com/vault/DarkAges-3.61.exe",
+            "https://web.archive.org/web/20020225052326id_/http://file.nexon.net/client/DarkAges/Single/DarkAges_key.exe",
+            "https://drive.usercontent.google.com/download?id=1M1O7KqNw9MYaOSS1SHKIkr02BWzOEFCi&export=download&confirm=t",
+            "https://drive.usercontent.google.com/download?id=1E2DOHRSZrT2wjRS5sRGklh4JqtNUbkaQ&export=download&confirm=t",
+            "https://drive.usercontent.google.com/download?id=1VkgbVJK-ajC7Qd2csIjOgjeh9-GlenGo&export=download&confirm=t",
+            "https://web.archive.org/web/20011221231452id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.exe",
+            "https://web.archive.org/web/20011221224710id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.W02",
+            "https://web.archive.org/web/20011221230221id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.W03",
+            "https://web.archive.org/web/20020108031942id_/http://file.nexon.net:80/client/Darkages/multiple/DarkAges_key_split.w04"
+          ],
+          "entryIds": [
+            "entry-12"
+          ]
+        },
+        {
+          "filename": "Darkages.exe",
+          "version": "4.51",
+          "bytes": 1126476,
+          "sha256": "36093dc1572521ea8c4c5f25548068c971a3d41c7722ef9fe0c05c94e24d6979",
+          "region": "United States",
+          "notes": [
+            "Version 4.51."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/4.51/Client/Extracted-Main/Darkages.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/4.51/Client/Original/DarkAges-4.52.zip"
+          ],
+          "sourceUrls": [
+            "https://novus-imperia.com/vault/DarkAges-4.52.zip",
+            "https://drive.usercontent.google.com/download?id=1sjZ0jq7CaqrMtOg_aaQlRz36CKAIWKlM&export=download&confirm=t"
+          ],
+          "entryIds": [
+            "entry-13"
+          ]
+        },
+        {
+          "filename": "Darkages.exe",
+          "version": "5.21",
+          "bytes": 1802303,
+          "sha256": "f3340478784bcba5b2da4cca299ff82dc65f030303ac7cd90ec1931f9512bca2",
+          "region": "United States",
+          "notes": [
+            "Version 5.21."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/5.21/Client/Extracted-Main/Darkages.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/5.21/Client/Original/DarkAges-5.21.zip"
+          ],
+          "sourceUrls": [
+            "https://novus-imperia.com/vault/DarkAges-5.21.zip"
+          ],
+          "entryIds": [
+            "entry-15"
+          ]
+        },
+        {
+          "filename": "Darkages.exe",
+          "version": "5.51",
+          "bytes": 2551871,
+          "sha256": "445eae3de5585bb7a6fc56915dd77ef71d519963521476e14b519d1becfcf7ee",
+          "region": "United States",
+          "notes": [
+            "Version 5.51."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/5.51/Client/Extracted-Main/Darkages.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/5.51/Client/Original/DarkAges-5.51.exe"
+          ],
+          "sourceUrls": [
+            "https://novus-imperia.com/vault/DarkAges-5.51.exe",
+            "https://web.archive.org/web/20040220093130id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe",
+            "https://web.archive.org/web/20040220093419id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe",
+            "https://web.archive.org/web/20040726212640id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe",
+            "https://drive.usercontent.google.com/download?id=1beW1OaUr6oVHxY0wv4hmS9E0fh2E_5hv&export=download&confirm=t",
+            "https://web.archive.org/web/20051020132146id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe"
+          ],
+          "entryIds": [
+            "entry-16"
+          ]
+        },
+        {
+          "filename": "Darkages.exe",
+          "version": "7.05",
+          "bytes": 3104768,
+          "sha256": "bf54a4d1f6d7efef10066c8b9d3c75835c3052e37d933505e7b58a2d1ad6504f",
+          "region": "United States",
+          "notes": [
+            "Version 7.05.",
+            "The full client and 7.04 → 7.05 patch contain this byte-identical executable."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/7.05/Client/Extracted-Main/Darkages.exe",
+            "Downloads/US - DarkAges/7.05/Patch/Extracted-Main/Darkages.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/7.05/Client/Original/DA705_multi.exe",
+            "Downloads/US - DarkAges/7.05/Client/Original/DA705_multi.W02",
+            "Downloads/US - DarkAges/7.05/Client/Original/DA705_multi.W03",
+            "Downloads/US - DarkAges/7.05/Client/Original/DA705_multi.W04",
+            "Downloads/US - DarkAges/7.05/Client/Original/DA705_multi.W05",
+            "Downloads/US - DarkAges/7.05/Client/Original/DA705_multi.W06",
+            "Downloads/US - DarkAges/7.05/Client/Original/DA705_multi.W07",
+            "Downloads/US - DarkAges/7.05/Client/Original/DA705_multi.W08",
+            "Downloads/US - DarkAges/7.05/Client/Original/DA705_multi.W09",
+            "Downloads/US - DarkAges/7.05/Client/Original/DA705_multi.W10",
+            "Downloads/US - DarkAges/7.05/Patch/Original/DA704to705.exe"
+          ],
+          "sourceUrls": [
+            "https://web.archive.org/web/20060823135708id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.exe",
+            "https://web.archive.org/web/20060823135651id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W02",
+            "https://web.archive.org/web/20060823135819id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W03",
+            "https://web.archive.org/web/20060823135831id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W04",
+            "https://web.archive.org/web/20060823135743id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W05",
+            "https://web.archive.org/web/20060823135806id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W06",
+            "https://web.archive.org/web/20060823135844id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W07",
+            "https://web.archive.org/web/20060823135855id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W08",
+            "https://web.archive.org/web/20060823135908id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W09",
+            "https://web.archive.org/web/20060823135922id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W10",
+            "https://web.archive.org/web/20060823135725id_/http://files.kru.com:80/DarkAges/Client/Single/DA704to705.exe"
+          ],
+          "entryIds": [
+            "entry-20",
+            "entry-64"
+          ]
+        },
+        {
+          "filename": "Darkages.exe",
+          "version": "7.12",
+          "bytes": 3256320,
+          "sha256": "3bfe4c156e488d3cf02d51665a8314e74c5ed890e6d536f358f85854d3143892",
+          "region": "United States",
+          "notes": [
+            "Version 7.12."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/7.12/Client/Extracted-Main/Darkages.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/7.12/Client/Original/DarkAges712single.exe"
+          ],
+          "sourceUrls": [
+            "https://drive.usercontent.google.com/download?id=1FkjK-MbVErgvEfQYNsY_s-IVckHOHWT8&export=download&confirm=t"
+          ],
+          "entryIds": [
+            "entry-23"
+          ]
+        },
+        {
+          "filename": "Darkages.exe",
+          "version": "7.18",
+          "bytes": 3268608,
+          "sha256": "0cd67d972ec2d674829795cb725fa8a7f3efbba74784aa87e2a5074984b2f092",
+          "region": "United States",
+          "notes": [
+            "Version 7.18."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/7.18/Client/Extracted-Main/Darkages.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/7.18/Client/Original/DarkAges718single.exe"
+          ],
+          "sourceUrls": [
+            "https://drive.usercontent.google.com/download?id=1KdkTnGAU42KAMTrmUawp79pURZiwetoR&export=download&confirm=t"
+          ],
+          "entryIds": [
+            "entry-29"
+          ]
+        },
+        {
+          "filename": "Darkages.exe",
+          "version": "7.29",
+          "bytes": 3264512,
+          "sha256": "ee8fad7300ec5d4e2f60ccc6c4ec57cbc6d13d80a276a648bde027357b9ba1b6",
+          "region": "United States",
+          "notes": [
+            "Version 7.29."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/7.29/Client/Extracted-Main/Darkages.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/7.29/Client/Original/DarkAges729single.exe"
+          ],
+          "sourceUrls": [
+            "https://drive.usercontent.google.com/download?id=1xFLKueXrAVa4cBoprhHjms4f_R8HdtKM&export=download&confirm=t"
+          ],
+          "entryIds": [
+            "entry-40"
+          ]
+        },
+        {
+          "filename": "Darkages.exe",
+          "version": "7.30",
+          "bytes": 3264512,
+          "sha256": "971c27bd2ff1c04dfcc3fabe453291a2973eb6bb5b99d91b69f6ffe409969410",
+          "region": "United States",
+          "notes": [
+            "Version 7.30."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/7.30/Client/Extracted-Main/Darkages.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/7.30/Client/Original/DarkAges730single.exe"
+          ],
+          "sourceUrls": [
+            "https://drive.usercontent.google.com/download?id=17kJDgPawjOpZrLsGkJUZ88FAfIvmzPFO&export=download&confirm=t"
+          ],
+          "entryIds": [
+            "entry-41"
+          ]
+        },
+        {
+          "filename": "Darkages.exe",
+          "version": "7.35",
+          "bytes": 3272704,
+          "sha256": "3fe99740d06ad4662b5fc4fc13ecf93d5455c485c227229606eeb41924f11dc6",
+          "region": "United States",
+          "notes": [
+            "Version 7.35."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/7.35/Client/Extracted-Main/Darkages.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/7.35/Client/Original/DarkAges735single.exe"
+          ],
+          "sourceUrls": [
+            "https://drive.usercontent.google.com/download?id=1l_IdZBmsmxg1erZ8LM38POLCltPfriHg&export=download&confirm=t"
+          ],
+          "entryIds": [
+            "entry-46"
+          ]
+        },
+        {
+          "filename": "Darkages.exe",
+          "version": "7.39",
+          "bytes": 3268608,
+          "sha256": "ac3d210b2f7596d1622f2c7809ea2a89fc76c6a6833cbaabc7e3009b05ab4fce",
+          "region": "United States",
+          "notes": [
+            "Version 7.39."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/7.39/Client/Extracted-Main/Darkages.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/7.39/Client/Original/DarkAges739single.exe"
+          ],
+          "sourceUrls": [
+            "https://drive.usercontent.google.com/download?id=1GaKKx-TXX0EvyvyWMwcKCF08J2xz0Z3f&export=download&confirm=t"
+          ],
+          "entryIds": [
+            "entry-50"
+          ]
+        },
+        {
+          "filename": "Darkages.exe",
+          "version": "7.40",
+          "bytes": 3268608,
+          "sha256": "fe584d1bc5ea04a274a8fb58a8698682db3a21da24f68e88f6a70ab03d65d751",
+          "region": "United States",
+          "notes": [
+            "Version 7.40."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/7.40/Client/Extracted-Main/Darkages.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/7.40/Client/Original/DarkAges740single.exe"
+          ],
+          "sourceUrls": [
+            "https://drive.usercontent.google.com/download?id=1unZI3Trq_o9kOf_wNKM_s7CCY3bA-js0&export=download&confirm=t"
+          ],
+          "entryIds": [
+            "entry-51"
+          ]
+        },
+        {
+          "filename": "Darkages.exe",
+          "version": "7.41",
+          "bytes": 3112960,
+          "sha256": "054a5d6adc56099c6bfd9d2a58675aff62dc788b63209a3d906492f5b89e96c6",
+          "region": "United States",
+          "notes": [
+            "Version 7.41."
+          ],
+          "paths": [
+            "Downloads/US - DarkAges/7.41/Client/Extracted-Main/Darkages.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/US - DarkAges/7.41/Client/Original/DarkAges741single.exe"
+          ],
+          "sourceUrls": [
+            "https://s3.amazonaws.com/kru-downloads/da/DarkAges741single.exe",
+            "https://drive.usercontent.google.com/download?id=1ZGgK1KGXmAMHsgsZKIr-ZLfSAPRAjWqp&export=download&confirm=t"
+          ],
+          "entryIds": [
+            "entry-52"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kr",
+      "title": "Legends of Darkness — South Korea",
+      "region": "South Korea",
+      "entries": [
+        {
+          "filename": "Legend.exe",
+          "version": "3.11",
+          "bytes": 876544,
+          "sha256": "d735848060d3d98f5f532b34277160e68142f4246630a295c5aa1296ecf4f709",
+          "region": "South Korea",
+          "notes": [
+            "Version 3.11.",
+            "Production channel.",
+            "Both preserved disc installer wrappers contain this byte-identical executable."
+          ],
+          "paths": [
+            "Downloads/KR - Legends of Darkness/3.11/Client/Extracted-Main/Legend.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/KR - Legends of Darkness/3.11/Client/Original/hitel 2000.iso",
+            "Downloads/KR - Legends of Darkness/3.11/Client/Original/Nice_인터넷_3.71.img"
+          ],
+          "sourceUrls": [
+            "https://archive.org/download/hitel-2000/hitel%202000.iso",
+            "https://archive.org/download/nice_internet_3.71/Nice_%EC%9D%B8%ED%84%B0%EB%84%B7_3.71.img"
+          ],
+          "entryIds": [
+            "entry-100"
+          ]
+        },
+        {
+          "filename": "Legend.exe",
+          "version": "5.01",
+          "bytes": 1388607,
+          "sha256": "9ce31fea4adeeed566d0a1db1a139b6a40a7c5b3f1e924c5dab574b3a434bd84",
+          "region": "South Korea",
+          "notes": [
+            "Version 5.01.",
+            "Production channel."
+          ],
+          "paths": [
+            "Downloads/KR - Legends of Darkness/5.01/Client/Extracted-Main/Legend.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/KR - Legends of Darkness/5.01/Client/Original/lodr.exe"
+          ],
+          "sourceUrls": [
+            "https://discmaster.textfiles.com/file/28506/Net_2002_06.iso/Client/lodr.exe"
+          ],
+          "entryIds": [
+            "entry-101"
+          ]
+        },
+        {
+          "filename": "Legend.exe",
+          "version": "5.20",
+          "bytes": 1773631,
+          "sha256": "b8a21ea110e0beedd82ca9ec9682535c24747ddc19a64f044219fc6fcff91b6b",
+          "region": "South Korea",
+          "notes": [
+            "Version 5.20.",
+            "Production channel."
+          ],
+          "paths": [
+            "Downloads/KR - Legends of Darkness/5.20/Client/Extracted-Main/Legend.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/KR - Legends of Darkness/5.20/Client/Original/lodr.exe"
+          ],
+          "sourceUrls": [
+            "https://discmaster.textfiles.com/file/28508/Net_2002_12.iso/online/lodr.exe"
+          ],
+          "entryIds": [
+            "entry-102"
+          ]
+        },
+        {
+          "filename": "Legend.exe",
+          "version": "5.30",
+          "bytes": 1859647,
+          "sha256": "a1a5a4d659848da1c2554f0c2afb32746a3b1310e090b0d6e51dc94c11e1913a",
+          "region": "South Korea",
+          "notes": [
+            "Version 5.30.",
+            "Production channel."
+          ],
+          "paths": [
+            "Downloads/KR - Legends of Darkness/5.30/Client/Extracted-Main/Legend.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/KR - Legends of Darkness/5.30/Client/Original/lodr.exe"
+          ],
+          "sourceUrls": [
+            "https://discmaster.textfiles.com/file/28510/Net_2003_02_cd2.iso/online/lodr.exe"
+          ],
+          "entryIds": [
+            "entry-103"
+          ]
+        },
+        {
+          "filename": "Legend.exe",
+          "version": "8.540",
+          "bytes": 3806288,
+          "sha256": "d765d3b49dd7767ae8d79eca9f8a1db9a5586cdc48520826090a736aedc2767f",
+          "region": "South Korea",
+          "notes": [
+            "Version 8.540.",
+            "Production channel."
+          ],
+          "paths": [
+            "Downloads/KR - Legends of Darkness/8.540/Client/Extracted-Main/Legend.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/KR - Legends of Darkness/8.540/Client/Original/lodr.exe"
+          ],
+          "sourceUrls": [
+            "https://web.archive.org/web/20170407025514id_/http://lod.dn.nexoncdn.co.kr/lodr.exe"
+          ],
+          "entryIds": [
+            "entry-104"
+          ]
+        },
+        {
+          "filename": "Legend.exe",
+          "version": "9.100",
+          "bytes": 3991624,
+          "sha256": "bd052dad4bf88c8a7fab716ea2df510164148e66f06efca5a055c692760de67b",
+          "region": "South Korea",
+          "notes": [
+            "Version 9.100.",
+            "Production channel."
+          ],
+          "paths": [
+            "Downloads/KR - Legends of Darkness/9.100/Client/Extracted-Main/Legend.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/KR - Legends of Darkness/9.100/Client/Original/lodr.exe"
+          ],
+          "sourceUrls": [
+            "https://web.archive.org/web/20210724200127id_/http://lod.dn.nexoncdn.co.kr/lodr.exe"
+          ],
+          "entryIds": [
+            "entry-105"
+          ]
+        },
+        {
+          "filename": "Legend.exe",
+          "version": "9.570",
+          "bytes": 3991112,
+          "sha256": "1b0a51313d46b6c0f9deb8054512340b1b2b826d3a739d84f1b5f8dad978bf9d",
+          "region": "South Korea",
+          "notes": [
+            "Version 9.570.",
+            "Hades test channel."
+          ],
+          "paths": [
+            "Downloads/KR - Legends of Darkness/9.570/Client/Extracted-Main/Legend.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/KR - Legends of Darkness/9.570/Client/Original/Lodtest.exe"
+          ],
+          "sourceUrls": [
+            "https://web.archive.org/web/20210724200046id_/http://lod.dn.nexoncdn.co.kr/Lodtest.exe"
+          ],
+          "entryIds": [
+            "entry-106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sg",
+      "title": "DarkAges — Singapore",
+      "region": "Singapore",
+      "entries": [
+        {
+          "filename": "DarkAges.exe",
+          "version": "3.51",
+          "bytes": 880640,
+          "sha256": "1aa98172982c7f488c4e3c73101f7af1e258c85d565b0ddc4ec7bf21355b0cfb",
+          "region": "Singapore",
+          "notes": [
+            "Version 3.51.",
+            "Both preserved 3.51 packages contain this byte-identical executable; their game data files differ."
+          ],
+          "paths": [
+            "Downloads/SG - DarkAges/3.51/Client/Extracted-Main/17fd6be679d3/DarkAges.exe",
+            "Downloads/SG - DarkAges/3.51/Client/Extracted-Main/83c77bf90d01/DarkAges.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/SG - DarkAges/3.51/Client/Original/17fd6be679d3/DarkAges351.exe",
+            "Downloads/SG - DarkAges/3.51/Client/Original/DarkAges351.exe"
+          ],
+          "sourceUrls": [
+            "https://web.archive.org/web/20020222224012id_/http://download.nexonasia.com:80/DarkAges/DarkAges351.exe",
+            "https://web.archive.org/web/20011229223229id_/http://download.nexonasia.com:80/DarkAges/DarkAges351.exe"
+          ],
+          "entryIds": [
+            "entry-111"
+          ]
+        },
+        {
+          "filename": "DarkAges.exe",
+          "version": "4.21",
+          "bytes": 938065,
+          "sha256": "4bf56fd735e04bb45c45ae7dc3f30a74493f27fc0c7ff4ad41d42dc2ff3c8971",
+          "region": "Singapore",
+          "notes": [
+            "Version 4.21.",
+            "Replacement executable from the patch; byte-identical to the standalone executable download.",
+            "The required starting version is unverified; this executable is not a complete client package."
+          ],
+          "paths": [
+            "Downloads/SG - DarkAges/4.21/Patch/Extracted-Main/DarkAges.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/SG - DarkAges/4.21/Patch/Original/dapatch.exe",
+            "Downloads/SG - DarkAges/4.21/Patch/Original/darkages.exe"
+          ],
+          "sourceUrls": [
+            "https://web.archive.org/web/20020605035108id_/http://darkages.nexonasia.com:80/downloads/dapatch.exe",
+            "https://web.archive.org/web/20020605035323id_/http://darkages.nexonasia.com:80/downloads/darkages.exe"
+          ],
+          "entryIds": [
+            "entry-113"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "my-temuair",
+      "title": "Legends of Temuair — Malaysia",
+      "region": "Malaysia — Temuair",
+      "entries": [
+        {
+          "filename": "Legends.exe",
+          "version": "4.20",
+          "bytes": 938069,
+          "sha256": "fb5427ede7878e7422d34148ac7a92faef32214501c81491c5e94020886d819e",
+          "region": "Malaysia — Temuair",
+          "notes": [
+            "Version 4.20.",
+            "Byte-identical to the preserved Orphelias 4.20 executable."
+          ],
+          "paths": [
+            "Downloads/MY - Legends of Temuair/4.20/Client/Extracted-Main/Legends.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/MY - Legends of Temuair/4.20/Client/Original/legends_full_20011011.exe"
+          ],
+          "sourceUrls": [
+            "https://novus-imperia.com/vault/legends_full_20011011.exe",
+            "https://web.archive.org/web/20040515172001id_/http://www.time.net.my/download/legends_full_20011011.exe"
+          ],
+          "entryIds": [
+            "entry-116"
+          ]
+        },
+        {
+          "filename": "Legends.exe",
+          "version": "4.21",
+          "bytes": 938063,
+          "sha256": "7907f132eee1cf5797138dada773d3b5a1a69de703e7edce198211dc950b7e45",
+          "region": "Malaysia — Temuair",
+          "notes": [
+            "Version 4.21."
+          ],
+          "paths": [
+            "Downloads/MY - Legends of Temuair/4.21/Client/Extracted-Main/Legends.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/MY - Legends of Temuair/4.21/Client/Original/legends421_part.c00",
+            "Downloads/MY - Legends of Temuair/4.21/Client/Original/legends421_part.c01",
+            "Downloads/MY - Legends of Temuair/4.21/Client/Original/legends421_part.c02",
+            "Downloads/MY - Legends of Temuair/4.21/Client/Original/legends421_part.c03",
+            "Downloads/MY - Legends of Temuair/4.21/Client/Original/legends421_part.c04",
+            "Downloads/MY - Legends of Temuair/4.21/Client/Original/legends421_part.c05",
+            "Downloads/MY - Legends of Temuair/4.21/Client/Original/legends421_part.c06",
+            "Downloads/MY - Legends of Temuair/4.21/Client/Original/legends421_part.c07",
+            "Downloads/MY - Legends of Temuair/4.21/Client/Original/legends421_part.c08",
+            "Downloads/MY - Legends of Temuair/4.21/Client/Original/legends421_part.c09",
+            "Downloads/MY - Legends of Temuair/4.21/Client/Original/legends421_part.c10",
+            "Downloads/MY - Legends of Temuair/4.21/Client/Original/legends421_part.c11",
+            "Downloads/MY - Legends of Temuair/4.21/Client/Original/legends421_part.exe"
+          ],
+          "sourceUrls": [
+            "https://web.archive.org/web/20020601131132id_/http://legends.time.net.my:80/download/legends421_part.c00",
+            "https://web.archive.org/web/20020601135852id_/http://legends.time.net.my:80/download/legends421_part.c01",
+            "https://web.archive.org/web/20020601140354id_/http://legends.time.net.my:80/download/legends421_part.c02",
+            "https://web.archive.org/web/20020601135830id_/http://legends.time.net.my:80/download/legends421_part.c03",
+            "https://web.archive.org/web/20020601140046id_/http://legends.time.net.my:80/download/legends421_part.c04",
+            "https://web.archive.org/web/20020410194834id_/http://legends.time.net.my:80/download/legends421_part.c05",
+            "https://web.archive.org/web/20020804210250id_/http://legends.time.net.my:80/download/legends421_part.c06",
+            "https://web.archive.org/web/20020410195807id_/http://legends.time.net.my:80/download/legends421_part.c07",
+            "https://web.archive.org/web/20020601141535id_/http://legends.time.net.my:80/download/legends421_part.c08",
+            "https://web.archive.org/web/20020601140623id_/http://legends.time.net.my:80/download/legends421_part.c09",
+            "https://web.archive.org/web/20020601141113id_/http://legends.time.net.my:80/download/legends421_part.c10",
+            "https://web.archive.org/web/20020410201601id_/http://legends.time.net.my:80/download/legends421_part.c11",
+            "https://web.archive.org/web/20020804211828id_/http://legends.time.net.my:80/download/legends421_part.exe"
+          ],
+          "entryIds": [
+            "entry-117"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "my-orphelias",
+      "title": "Legends of Orphelias — Malaysia",
+      "region": "Malaysia — Orphelias",
+      "entries": [
+        {
+          "filename": "Legends.exe",
+          "version": "4.20",
+          "bytes": 938069,
+          "sha256": "fb5427ede7878e7422d34148ac7a92faef32214501c81491c5e94020886d819e",
+          "region": "Malaysia — Orphelias",
+          "notes": [
+            "Version 4.20.",
+            "Byte-identical to the preserved Temuair 4.20 executable."
+          ],
+          "paths": [
+            "Downloads/MY - Legends of Orphelias/4.20/Client/Extracted-Main/Legends.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/MY - Legends of Orphelias/4.20/Client/Original/legends-of-orphelias.zip"
+          ],
+          "sourceUrls": [
+            "https://novus-imperia.com/vault/legends-of-orphelias.zip",
+            "https://drive.usercontent.google.com/download?id=1pIitS1WK6zZTO8TiWdABusPWWhMuyiHt&export=download&confirm=t"
+          ],
+          "entryIds": [
+            "entry-118"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jp",
+      "title": "Yami — Japan",
+      "region": "Japan",
+      "entries": [
+        {
+          "filename": "Legend.exe",
+          "version": "5.22",
+          "bytes": 2170943,
+          "sha256": "97a31b0b78eb08cf8ba99ed9b0052070ad2a1d91bb832d580a1c3a17b3375cfc",
+          "region": "Japan",
+          "notes": [
+            "Version 5.22."
+          ],
+          "paths": [
+            "Downloads/JP - Yami/5.22/Client/Extracted-Main/Legend.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/JP - Yami/5.22/Client/Original/Yami522c_62.exe"
+          ],
+          "sourceUrls": [
+            "https://novus-imperia.com/vault/Yami522c_62.exe"
+          ],
+          "entryIds": [
+            "entry-109"
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Only preserved main game executables are listed; installers, launchers, patchers, helpers, and archive containers are excluded.",
+    "Recent US patch downloads contain binary deltas, so their target executable hashes come from the corresponding full clients; no deltas were applied.",
+    "Unnumbered Korean launcher entries provide no preserved main client executable and have no hash row.",
+    "Version associations come from the preserved download and extraction records; package identity does not establish an independent release date or current service availability."
+  ]
+}
