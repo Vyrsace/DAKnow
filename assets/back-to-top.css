@@ -1,0 +1,32 @@
+@media screen {
+  main { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
+}
+
+#back-to-top {
+  position: fixed;
+  right: calc(12px + env(safe-area-inset-right, 0px));
+  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  z-index: 10;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid var(--card-border, #9eafc5);
+  border-radius: 6px;
+  background: var(--paper, #fff);
+  color: var(--accent, #275caa);
+  font: 24px/1 system-ui, sans-serif;
+  cursor: pointer;
+}
+
+#back-to-top[hidden] { display: none !important; }
+#back-to-top:hover { background: var(--soft, #eef3fa); }
+#back-to-top:focus-visible {
+  outline: 3px solid var(--focus, #779ed3);
+  outline-offset: 3px;
+}
+
+@media print {
+  #back-to-top { display: none !important; }
+}
