@@ -1,5 +1,5 @@
 @media screen {
-  main { padding-bottom: 12px; }
+  main { padding-bottom: 10px; }
   .site-footer { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
 }
 
