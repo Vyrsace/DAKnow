@@ -8,16 +8,16 @@ table, table * { font-family: var(--table-font) !important; }
 header { padding-bottom: 0; border-bottom: 0; }
 main > section { padding: 10px 0; border-bottom: 0; }
 main > footer { padding-top: 10px; }
-.contents { width: 400px; max-width: 100%; margin-top: 18px; }
+.contents { --contents-edge-padding: 12px; width: 400px; max-width: 100%; margin-top: 18px; }
 .contents, .verification-card, .game-card { border-color: var(--card-border); }
-.contents h2 { padding: 20px 20px 4px; border-bottom: 0; }
+.contents h2 { padding: var(--contents-edge-padding) 20px 4px; border-bottom: 0; }
 .collapsible-card[open] > .card-summary { border-bottom-color: var(--card-border); }
 .card-subsection + .card-subsection { border-top-color: var(--card-border); }
 .evidence-table, .evidence-table th, .evidence-table td { border: 1px solid var(--line); }
 .contents-list {
   display: block;
   margin: 0;
-  padding: 0 28px 12px;
+  padding: 0 28px var(--contents-edge-padding);
   list-style: none;
 }
 .contents-list > li { margin: 0; padding: 0; }
@@ -111,8 +111,8 @@ a.download-badge--client:hover, a.download-badge--patch:hover { filter: brightne
 .skip-link { position: absolute; top: 8px; left: 8px; transform: translateY(-200%); padding: 8px 12px; background: var(--paper); border: 1px solid var(--line); z-index: 30; }
 .skip-link:focus { transform: none; }
 @media (max-width: 550px) {
-  .contents h2 { padding: 17px 17px 4px; }
-  .contents-list { padding: 0 25px 12px; }
+  .contents h2 { padding: var(--contents-edge-padding) 17px 4px; }
+  .contents-list { padding: 0 25px var(--contents-edge-padding); }
   .section-intro { line-height: 1.65; }
 }
 @media print {
