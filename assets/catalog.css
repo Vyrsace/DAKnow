@@ -5,7 +5,7 @@
 .methodology { max-width: none; }
 /* Include every nested label, control, badge and code fragment in table typography. */
 table, table * { font-family: var(--table-font) !important; }
-main { --visible-titles: 5; --title-card-gap: 8px; }
+main { --visible-titles: 5; --title-card-gap: 8px; --title-carousel-inset: 1px; }
 header { padding-bottom: 0; border-bottom: 0; }
 main > section { padding: 10px 0; border-bottom: 0; }
 main > footer { padding-top: 10px; }
@@ -17,7 +17,7 @@ main > footer#sources { padding-top: 5px; }
 .site-footer .back { margin-top: 12px; }
 @media (max-width: 1100px) { .site-footer { padding-inline: 20px; } }
 @media (max-width: 850px) { .site-footer { padding-inline: 16px; } }
-.contents { --contents-edge-padding: 12px; width: calc((100% - (var(--visible-titles) - 1) * var(--title-card-gap)) / var(--visible-titles)); max-width: 100%; margin-top: 18px; }
+.contents { --contents-edge-padding: 12px; width: calc((100% - 2 * var(--title-carousel-inset) - (var(--visible-titles) - 1) * var(--title-card-gap)) / var(--visible-titles)); max-width: 100%; margin-top: 18px; }
 .contents, .verification-card, .game-card { border-color: var(--card-border); }
 .contents h2 { padding: var(--contents-edge-padding) 20px 4px; border-bottom: 0; }
 .collapsible-card[open] > .card-summary { border-bottom-color: var(--card-border); }
@@ -106,7 +106,7 @@ table th.notes-cell, table td.notes-cell { border-left: 1px solid var(--line); v
 table .notes-cell a[href^="#source-"],
 table .notes-cell a[href^="#source-"]:hover,
 table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
-#title-carousel { --visible-titles: inherit; --title-card-gap: inherit; column-gap: var(--title-card-gap); grid-auto-columns: calc((100% - (var(--visible-titles) - 1) * var(--title-card-gap)) / var(--visible-titles)); }
+#title-carousel { --visible-titles: inherit; --title-card-gap: inherit; column-gap: var(--title-card-gap); grid-auto-columns: calc((100% - (var(--visible-titles) - 1) * var(--title-card-gap)) / var(--visible-titles)); padding-inline: var(--title-carousel-inset); scroll-padding-inline: var(--title-carousel-inset); }
 .game-grid { gap: 8px; }
 #catalog .counter { margin-bottom: 8px; }
 #downloads :is(.download-region, .download-general-region, .download-general-notes)[hidden] { display: none !important; }

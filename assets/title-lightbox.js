@@ -1,8 +1,7 @@
 (() => {
   'use strict';
-
   const galleries = [...document.querySelectorAll('[data-title-gallery]')];
-  if (!galleries.length || !window.HTMLDialogElement) return;
+  if (!galleries.length || !window.HTMLDialogElement || !window.DAKnowTitleGallery) return;
 
   const dialog = document.createElement('dialog');
   dialog.className = 'image-lightbox';
@@ -21,12 +20,33 @@
   header.append(title, close);
 
   const figure = document.createElement('figure');
-  const imageWrap = document.createElement('div');
-  imageWrap.className = 'image-lightbox-image-wrap';
-  const image = document.createElement('img');
-  image.decoding = 'async';
-  imageWrap.append(image);
+  const viewer = document.createElement('div');
+  viewer.className = 'title-gallery image-lightbox-gallery';
+  viewer.dataset.titleGallery = '';
+  const viewport = document.createElement('div');
+  viewport.className = 'title-gallery-window';
+  const track = document.createElement('div');
+  track.className = 'title-gallery-track';
+  viewport.append(track);
+  const previous = document.createElement('button');
+  const next = document.createElement('button');
+  [[previous, 'previous', '‹'], [next, 'next', '›']].forEach(([button, direction, label]) => {
+    button.type = 'button';
+    button.className = 'title-gallery-arrow';
+    button.dataset.galleryDirection = direction;
+    button.textContent = label;
+  });
+  const count = document.createElement('span');
+  count.className = 'title-gallery-count';
+  const status = document.createElement('span');
+  status.className = 'title-gallery-status sr-only';
+  status.setAttribute('role', 'status');
+  status.setAttribute('aria-live', 'polite');
+  status.setAttribute('aria-atomic', 'true');
+  viewer.append(viewport, previous, next, count, status);
+
   const caption = document.createElement('figcaption');
+  caption.tabIndex = 0;
   const description = document.createElement('span');
   description.id = 'image-lightbox-caption';
   const credit = document.createElement('span');
@@ -36,26 +56,61 @@
   source.rel = 'noopener noreferrer';
   credit.append('Source: ', source);
   caption.append(description, credit);
-  figure.append(imageWrap, caption);
+  figure.append(viewer, caption);
   dialog.append(header, figure);
   document.body.append(dialog);
 
   let opener = null;
+  let sourceGallery = null;
+  let slides = [];
+  let controller = null;
 
-  function openImage(gallery, button) {
-    const slides = [...gallery.querySelector('.title-gallery-track').children]
-      .filter(slide => slide.classList.contains('title-gallery-slide') && !slide.dataset.galleryClone);
-    const slide = slides[Number(gallery.dataset.galleryIndex) || 0];
+  function updateCaption() {
+    const slide = slides[Number(viewer.dataset.galleryIndex) || 0];
     const original = slide && slide.querySelector('img');
     if (!original) return;
-
-    opener = button;
-    image.src = original.currentSrc || original.src;
-    image.alt = original.alt;
-    title.textContent = gallery.dataset.galleryTitle || 'Title image';
     description.textContent = slide.dataset.imageCaption || slide.dataset.galleryLabel || original.alt;
     source.textContent = slide.dataset.imageCredit || 'Original image';
     source.href = slide.dataset.imageSource || original.src;
+    caption.scrollTop = 0;
+  }
+  viewer.addEventListener('title-gallery-change', updateCaption);
+
+  function openImage(gallery, button) {
+    slides = [...gallery.querySelector('.title-gallery-track').children]
+      .filter(slide => slide.classList.contains('title-gallery-slide') && !slide.dataset.galleryClone);
+    if (!slides.length) return;
+    controller?.destroy();
+    const copies = slides.map(slide => {
+      const copy = slide.cloneNode(true);
+      [copy, ...copy.querySelectorAll('*')].forEach(element => {
+        element.removeAttribute('id');
+        element.removeAttribute('aria-labelledby');
+        element.removeAttribute('aria-describedby');
+      });
+      // Show complete original pixels even when a card uses a wallpaper logo crop.
+      const original = slide.querySelector('img');
+      if (original) {
+        const image = original.cloneNode(true);
+        image.removeAttribute('id');
+        image.removeAttribute('style');
+        image.loading = 'eager';
+        image.decoding = 'async';
+        copy.replaceChildren(image);
+      }
+      return copy;
+    });
+    track.replaceChildren(...copies);
+    opener = button;
+    sourceGallery = gallery;
+    const galleryTitle = gallery.dataset.galleryTitle || 'Title image';
+    title.textContent = galleryTitle;
+    viewer.dataset.galleryTitle = galleryTitle;
+    status.textContent = '';
+    previous.setAttribute('aria-label', `Previous ${galleryTitle} image`);
+    next.setAttribute('aria-label', `Next ${galleryTitle} image`);
+    previous.disabled = next.disabled = slides.length < 2;
+    controller = window.DAKnowTitleGallery.create(viewer, Number(gallery.dataset.galleryIndex) || 0);
     document.documentElement.classList.add('image-lightbox-open');
     dialog.showModal();
     close.focus({ preventScroll: true });
@@ -63,13 +118,24 @@
 
   close.addEventListener('click', () => dialog.close());
   dialog.addEventListener('keydown', event => {
+    if (!event.ctrlKey && !event.metaKey && !event.altKey &&
+        (event.key === 'ArrowLeft' || event.key === 'ArrowRight')) {
+      // Gallery-focused arrows stop bubbling in the shared carousel handler.
+      event.preventDefault();
+      controller?.step(event.key === 'ArrowLeft' ? -1 : 1);
+      return;
+    }
     if (event.key !== 'Tab') return;
-    if (event.shiftKey && document.activeElement === close) {
+    const focusable = [...dialog.querySelectorAll('button:not(:disabled), a[href], [tabindex="0"]')]
+      .filter(element => !element.closest('[inert]') && element.getClientRects().length);
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (event.shiftKey && document.activeElement === first) {
       event.preventDefault();
-      source.focus();
-    } else if (!event.shiftKey && document.activeElement === source) {
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
       event.preventDefault();
-      close.focus();
+      first.focus();
     }
   });
   dialog.addEventListener('click', event => {
@@ -79,14 +145,18 @@
         event.clientY < bounds.top || event.clientY > bounds.bottom) dialog.close();
   });
   dialog.addEventListener('close', () => {
+    window.DAKnowTitleGallery.get(sourceGallery)?.select(Number(viewer.dataset.galleryIndex) || 0);
+    controller?.destroy();
+    controller = null;
+    sourceGallery = null;
     document.documentElement.classList.remove('image-lightbox-open');
     if (opener && opener.isConnected) opener.focus({ preventScroll: true });
     opener = null;
   });
 
   galleries.forEach(gallery => {
-    const viewport = gallery.querySelector('.title-gallery-window');
-    if (!viewport || viewport.querySelector('.title-gallery-expand')) return;
+    const galleryViewport = gallery.querySelector('.title-gallery-window');
+    if (!galleryViewport || galleryViewport.querySelector('.title-gallery-expand')) return;
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'title-gallery-expand';
@@ -98,6 +168,6 @@
       event.stopPropagation();
       openImage(gallery, button);
     });
-    viewport.append(button);
+    galleryViewport.append(button);
   });
 })();
