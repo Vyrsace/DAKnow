@@ -1,17 +1,23 @@
 /* Guide navigation and the separate release, download and executable catalogs. */
+:root { --card-border: #9eafc5; --catalog-version-width: 96px; --catalog-notes-width: 360px; --catalog-table-min-width: 1220px; }
+header { padding-bottom: 0; border-bottom: 0; }
+main > section { padding: 10px 0; border-bottom: 0; }
+main > footer { padding-top: 10px; }
+.contents { margin-top: 18px; }
+.contents, .verification-card, .game-card { border-color: var(--card-border); }
 .contents-list {
   display: block;
-  counter-reset: chapter;
-  padding: 15px 20px 20px;
+  margin: 0;
+  padding: 8px 28px 12px;
+  list-style: none;
 }
-.contents-list > li { counter-increment: chapter; margin: 0; padding: 4px 0; }
-.contents-list > li > a { display: inline-flex; align-items: baseline; gap: 14px; padding: 3px 0; font-size: 14px; font-weight: 600; }
-.contents-list > li > a::before { content: counter(chapter, decimal-leading-zero); width: 22px; color: var(--muted); font-size: 11px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.contents-list > li { margin: 0; padding: 0; }
+.contents-list > li > a { display: inline-block; padding: 1px 0; font-size: 14px; font-weight: 600; }
 .contents-list a { text-decoration: none; }
 .contents-list a:hover { color: var(--accent-hover); background: var(--soft); border-radius: 3px; }
-.contents-list ul { margin: 1px 0 4px 36px; padding-left: 13px; border-left: 1px solid var(--line); }
+.contents-list ul { margin: 0 0 2px 14px; padding-left: 0; border-left: 0; }
 .contents-list ul li + li { margin-top: 0; }
-.contents-list ul a { display: inline-block; padding: 3px 0; color: #546b88; font-size: 12px; }
+.contents-list ul a { display: inline-block; padding: 1px 0; color: #546b88; font-size: 12px; }
 .section-heading { margin: 0 0 16px; color: #243f64; font-size: 18px; font-weight: 650; line-height: 1.35; }
 .section-intro { margin: 0 0 18px; color: var(--muted); font-size: 12px; max-width: 110ch; }
 .catalog-filters > h3 { font-size: 14px; margin: 0 0 10px; }
@@ -26,12 +32,13 @@
 .sort-indicator { color: var(--muted); font-size: 10px; font-weight: 500; white-space: nowrap; }
 th[aria-sort]:not([aria-sort="none"]) { background: #dfeaf9; }
 th[aria-sort]:not([aria-sort="none"]) .sort-indicator { color: var(--accent); font-weight: 700; }
-#master-catalog { min-width: 800px; }
-#master-catalog col.version { width: 100px; }
-#master-catalog col.country { width: 140px; }
-#master-catalog col.game-title { width: 240px; }
-#master-catalog col.date { width: 170px; }
-#master-catalog col.notes { width: auto; }
+#master-catalog, .downloads-table, .hashes-table { width: 100%; min-width: var(--catalog-table-min-width); table-layout: fixed; }
+#master-catalog col.version { width: var(--catalog-version-width); }
+#master-catalog col.country { width: 120px; }
+#master-catalog col.game-title { width: 252px; }
+#master-catalog col.date { width: auto; }
+#master-catalog col.notes { width: var(--catalog-notes-width); }
+#master-catalog td:not(.notes-cell) { white-space: nowrap; overflow-wrap: normal; }
 #master-catalog .sort-button[data-sort="version"] { justify-content: flex-start; }
 #master-catalog th, #master-catalog td { padding: 5px 8px; }
 #master-catalog th:first-child, #master-catalog td.version,
@@ -47,17 +54,18 @@ table th.notes-cell, table td.notes-cell { border-left: 1px solid var(--line); }
 #catalog .counter { margin-bottom: 8px; }
 .download-region + .download-region, .hash-region + .hash-region { margin-top: 26px; }
 .download-region h3, .hash-region h3 { font-size: 15px; margin: 0 0 10px; }
-.downloads-table { min-width: 860px; font-size: 12px; }
+.downloads-table { font-size: 12px; }
 .downloads-table th, .downloads-table td, .hashes-table th, .hashes-table td { padding: 10px; }
-.downloads-table col:nth-child(1) { width: 8%; }
-.downloads-table col:nth-child(2) { width: 15%; }
-.downloads-table col:nth-child(3) { width: 27%; }
-.downloads-table col:nth-child(4) { width: 13%; }
-.downloads-table col:nth-child(5) { width: 37%; }
+.downloads-table col:nth-child(1) { width: var(--catalog-version-width); }
+.downloads-table col:nth-child(2) { width: 192px; }
+.downloads-table col:nth-child(3) { width: 380px; }
+.downloads-table col:nth-child(4) { width: auto; }
+.downloads-table col:nth-child(5) { width: var(--catalog-notes-width); }
 .downloads-table tbody tr:nth-child(even), .hashes-table tbody tr:nth-child(even) { background: #f8fafd; }
 .downloads-table tbody tr:last-child td, .hashes-table tbody tr:last-child td { border-bottom: 0; }
 .download-filename { font-size: 12px; overflow-wrap: anywhere; }
 .download-name code { font-size: 11px; font-weight: 600; }
+.download-version, .download-type, .download-name, .download-source { white-space: nowrap; overflow-wrap: normal; }
 .download-alias-label { color: var(--muted); font-size: 10px; }
 .download-mirrors { margin-top: 7px; }
 .download-source { display: block; margin-top: 5px; color: var(--muted); font-size: 11px; }
@@ -70,24 +78,26 @@ table th.notes-cell, table td.notes-cell { border-left: 1px solid var(--line); }
 .download-badge--archive { padding: 1px 5px; background: #f0f3f7; color: #5b6c83; border-color: #dbe2ea; font-size: 10px; text-decoration: none; }
 a.download-badge--client, a.download-badge--patch { text-decoration: none; }
 a.download-badge--client:hover, a.download-badge--patch:hover { filter: brightness(.96); }
-.patch-route { display: inline-block; margin-top: 5px; padding: 2px 5px; border: 1px solid #ded8f3; border-radius: 4px; background: #f8f6ff; color: #675e94; font-size: 10px; white-space: nowrap; }
+.patch-route { display: inline-block; margin: 0 0 0 6px; padding: 2px 5px; border: 1px solid #ded8f3; border-radius: 4px; background: #f8f6ff; color: #675e94; font-size: 10px; white-space: nowrap; }
 .download-notes { font-size: 11px; }
 .download-notes .notes { margin: 0; padding-left: 14px; list-style-type: square; font-size: 11px; }
 .download-notes li + li { margin-top: 5px; }
 .download-notes li::marker { font-size: 9px; color: var(--muted); }
-.download-bytes, .download-channel { display: block; color: var(--muted); font-size: 10px; }
-.download-size { font-variant-numeric: tabular-nums; }
-.hashes-table { min-width: 1000px; font-size: 12px; }
-.hashes-table col:nth-child(1) { width: 8%; }
-.hashes-table col:nth-child(2) { width: 13%; }
-.hashes-table col:nth-child(3) { width: 21%; }
-.hashes-table col:nth-child(4) { width: 36%; }
-.hashes-table col:nth-child(5) { width: 22%; }
+.download-channel { display: inline; margin-left: 6px; color: var(--muted); font-size: 10px; }
+.download-bytes { display: inline; color: inherit; font-size: inherit; }
+.download-size { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.hashes-table { font-size: 12px; }
+.hashes-table col:nth-child(1) { width: var(--catalog-version-width); }
+.hashes-table col:nth-child(2) { width: 116px; }
+.hashes-table col:nth-child(3) { width: 205px; }
+.hashes-table col:nth-child(4) { width: auto; }
+.hashes-table col:nth-child(5) { width: var(--catalog-notes-width); }
+.catalog-table th, .catalog-table td { padding-left: 8px; padding-right: 8px; }
 .hash-version { font-weight: 650; font-variant-numeric: tabular-nums; }
 .hash-version a { text-decoration: none; }
 .hash-version a:hover { text-decoration: underline; }
 .executable-name { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 12px; }
-.executable-hash { font: 11px/1.6 ui-monospace, SFMono-Regular, Consolas, monospace; overflow-wrap: anywhere; word-break: break-all; user-select: all; }
+.executable-hash { font: 11px/1.6 ui-monospace, SFMono-Regular, Consolas, monospace; white-space: nowrap; overflow-wrap: normal; word-break: normal; user-select: all; }
 .file-size { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .file-bytes { display: inline; color: inherit; font-size: inherit; }
 .hashes-table .note-list { font-size: 11px; }
@@ -96,9 +106,7 @@ a.download-badge--client:hover, a.download-badge--patch:hover { filter: brightne
 .skip-link { position: absolute; top: 8px; left: 8px; transform: translateY(-200%); padding: 8px 12px; background: var(--paper); border: 1px solid var(--line); z-index: 30; }
 .skip-link:focus { transform: none; }
 @media (max-width: 550px) {
-  .contents-list { padding: 12px 17px 17px; }
-  .contents-list > li > a { padding: 5px 0; }
-  .contents-list ul a { padding: 5px 0; }
+  .contents-list { padding: 8px 25px 12px; }
   .sort-toolbar { align-items: flex-start; }
   .section-intro { line-height: 1.65; }
 }

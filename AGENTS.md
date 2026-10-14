@@ -21,10 +21,11 @@ These rules carry the user's standing request to review, verify, and troubleshoo
 
 ## Preserve the accepted presentation
 
-- Keep the established compact visual language: restrained spacing, consistent file labels and download links, square note bullets, and no unnecessary dividers or extra panels. Downloads and Version List use matching collapsible cards, both closed by default. Hashes remains visible in a matching section card. Version List omits Downloads; Filters has its own heading.
-- Table of Contents is a static vertical guide outline, with numbered primary links, indented subsections and no underlines. Contents links reveal collapsed destination cards, including repeated clicks on the same fragment. Version List sorting accumulates columns in click order (primary, then secondary), cycles ascending/descending/off, keeps undocumented values last and has a separate Reset sorting control. Reset filters preserves sorting.
+- Keep the established compact visual language: restrained spacing, consistent file labels and download links, square note bullets, and no extra panels. Version List, Downloads and Hashes use matching collapsible cards, all closed by default. Version List omits Downloads; Filters has its own heading. Keep gaps between sections tight and make outer card borders clearly visible. Do not add dividers between sections or a divider after the header introduction; keep the requested Notes column borders.
+- Table of Contents is a static vertical guide outline with tight line spacing, slight indentation and no counters, numbering or underlines. Contents links reveal collapsed destination cards, including repeated clicks on the same fragment. Version List sorting accumulates columns in click order (primary, then secondary), cycles ascending/descending/off, keeps undocumented values last and has a separate Reset sorting control. Reset filters preserves sorting.
 - Research Notes use title-based groups, with General first. Sources remain one consolidated list in numeric Ref order. Preserve reference IDs and working cross-links. Both sections remain collapsed by default unless requested otherwise.
-- Title cards follow the shared metadata and paragraph layout. Keep company and country text left aligned, history before gameplay, native names on their own line, and date ranges without a "Released:" prefix. Maintain a usable desktop and mobile presentation.
+- Title cards follow the shared metadata and paragraph layout with tight gaps between cards. Keep company and country text left aligned, history before gameplay, native names on their own line, and date ranges without a "Released:" prefix. The visible title-range indicator uses "# - #" without a total count. Maintain a usable desktop and mobile presentation.
+- Share column sizing across the main Version List, Downloads and Hashes tables: Version has the same fixed width everywhere; Notes has the same fixed width at the right, with its left edge aligned across these tables. The column immediately before Notes absorbs the remaining width. Give other columns fixed widths sufficient to keep each item and header unwrapped. Verification, Research Notes and Sources are excluded from this shared sizing rule. Preserve left alignment, top-aligned Notes, exact data and all working links.
 
 The user's current table and spacing requirements supersede earlier display defaults:
 
@@ -32,7 +33,7 @@ The user's current table and spacing requirements supersede earlier display defa
 2. Top align Notes cells in Hashes.
 3. Decrease padding in every Version List row, keeping the contents tight with a small gap so they do not touch.
 4. Decrease spacing between title cards.
-5. Make Downloads collapsible and closed by default; Contents navigation still expands it before scrolling.
+5. Make Downloads and Hashes collapsible and closed by default, matching Version List; Contents navigation still expands them before scrolling.
 6. Remove the "Hosting pending" remark everywhere, including visible labels, helper text and ARIA remarks. Keep the hosted dummy links without inventing real download URLs.
 7. Keep each Hashes size on one line, for example 0.70 MB [704,512 bytes].
 8. Place Version first in Hashes and move the version value from Notes into that column.
@@ -41,6 +42,8 @@ The user's current table and spacing requirements supersede earlier display defa
 11. Add a left border to every Notes column cell, including the header. Apply the same Notes treatment to Research Notes' Evidence and notes columns.
 
 The catalog uses shared typography, spacing and download sizing tokens. A dedicated styling skill is pending the user’s next review and agreement on the visual direction.
+
+The main tables currently share a 96px Version column, a 360px Notes column and a 1220px minimum table width. At narrower viewports, scroll the table within its card. Release Date, download Size and Hash absorb extra width; keep the remaining column widths fixed and check the longest displayed values before changing these tokens.
 
 ## Change and review workflow
 
