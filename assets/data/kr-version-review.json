@@ -1,0 +1,3216 @@
+{
+  "checked": "2026-10-13",
+  "new_version_rows": 97,
+  "updated_version_rows": [
+    "version-217",
+    "version-7"
+  ],
+  "reviewed_releases": [
+    {
+      "version": "5.70",
+      "channel": "retail",
+      "release_date": "2004-04-23",
+      "date_note": null,
+      "notes": [
+        "Added login-screen notices and a beginner Adventure mode; changed the title music.",
+        "Added summon permission and an option to disable clicked-player information windows."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/notice/1025",
+          "title": "어둠의전설 V5.70패치 안내",
+          "published": "2004.04.22. 00:00",
+          "published_version": "V5.70",
+          "capture_key": "article-notice-1025",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-notice-1025.html",
+          "raw_sha256": "b33aa9f06c2c8cd69b2f917767e1207fdb99a91b5e3fe5514ce8ae221158abd8",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-notice-1025.txt",
+          "fulltext_sha256": "9968d9a973e02aab611eb6ffbb9c8645594cf1af9f50e5e1064e351b39a88e53",
+          "scheduled_release_date": "2004-04-23"
+        }
+      ],
+      "research_notes": [
+        "The notice was published 2004-04-22 and schedules April 23 at about 10:00; the year follows the notice date. No original 5.70 download is established by this announcement."
+      ],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/notice/1025",
+      "date_basis": "see research_notes/date_note",
+      "source_version_normalization": "Publisher dotted version retained exactly."
+    },
+    {
+      "version": "5.80",
+      "channel": "retail",
+      "release_date": "2004-08-03",
+      "date_note": null,
+      "notes": [
+        "Redesigned shop/bank windows, displayed the map name and revised emoticons.",
+        "Added swimming poses, revised 아슬론/노엠 maps with position displays and made login loading screens translucent."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/notice/1090",
+          "title": "어둠의전설 V5.80패치 안내!",
+          "published": "2004.08.03. 10:44",
+          "published_version": "V5.80",
+          "capture_key": "article-notice-1090",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-notice-1090.html",
+          "raw_sha256": "ffab5b4ac61353f7e3a37d59ba22656e4e23d03a3bb0ea8423483030948d0cd4",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-notice-1090.txt",
+          "fulltext_sha256": "b5ff36cf459d7fa53287d68dba9148ab932a2fe3cb0a64239967686bd6c50fdc",
+          "scheduled_release_date": "2004-08-03"
+        }
+      ],
+      "research_notes": [
+        "The body says the update is applied by the morning reboot today; the displayed publication date is 2004-08-03. No original 5.80 download is established by this announcement."
+      ],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/notice/1090",
+      "date_basis": "see research_notes/date_note",
+      "source_version_normalization": "Publisher dotted version retained exactly."
+    },
+    {
+      "version": "5.90",
+      "channel": "retail",
+      "release_date": "2004-11-24",
+      "date_note": null,
+      "notes": [
+        "Added the group-advertisement window, life-skill window and Rest skill.",
+        "Improved shop price separators and sold-out indicators; added winter-event items."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/notice/1172",
+          "title": "어둠의전설 V5.90 패치 안내",
+          "published": "2004.11.23. 18:12",
+          "published_version": "V5.90",
+          "capture_key": "article-notice-1172",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-notice-1172.html",
+          "raw_sha256": "69e41cdaca4b4a36edc060bb99f513f8e2960d6195a7feda045e4e9d8d67ced1",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-notice-1172.txt",
+          "fulltext_sha256": "2c63f60027b8e16f84325f0bc5e9e4534c8856e51a28c442e8b59534ff081fb2",
+          "scheduled_release_date": "2004-11-24"
+        }
+      ],
+      "research_notes": [
+        "The body explicitly schedules 2004-11-24 at 11:00. No original 5.90 download is established by this announcement."
+      ],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/notice/1172",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Publisher dotted version retained exactly."
+    },
+    {
+      "version": "8.660",
+      "channel": "retail",
+      "release_date": "2017-05-18",
+      "date_note": null,
+      "notes": [
+        "Keyboard movement and party-member Hide visibility were corrected.",
+        "Chat-distance colors, quest hand-ins, bank-map skills and several monster drops were revised."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4521",
+          "title": "05/18(목) 상용 서버 v8660 패치 안내 (수정)",
+          "published": "2017.05.17. 19:04",
+          "published_version": "v8660",
+          "capture_key": "article-update-4521",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4521.html",
+          "raw_sha256": "7051307e1da5c09f83d37fb9a04ef7624473ebb9f2a5acc54f34c9ac5b9cfa7f",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4521.txt",
+          "fulltext_sha256": "8ed3fad54aea24c54f0ef7e31a90163910e187b01b01978d477f89c818c4207b",
+          "scheduled_release_date": "2017-05-18"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4521",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.680",
+      "channel": "retail",
+      "release_date": "2017-05-18",
+      "date_note": null,
+      "notes": [
+        "Fixed the board and cash-shop windows closing when Space or Enter was pressed."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4522",
+          "title": "05/18(목) 상용 서버 v8680 패치 안내 (수정)",
+          "published": "2017.05.18. 14:19",
+          "published_version": "v8680",
+          "capture_key": "article-update-4522",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4522.html",
+          "raw_sha256": "e9c0f7b2ca29a291039902909e33fc82ff647c9511b7c33ee95d2a779c11d793",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4522.txt",
+          "fulltext_sha256": "375c4803dcfb368463b11ee096f6121e520d010d611c1d214d8440be212033cc",
+          "scheduled_release_date": "2017-05-18"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4522",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.700",
+      "channel": "retail",
+      "release_date": "2017-05-18",
+      "date_note": null,
+      "notes": [
+        "Fixed connection failures on Windows XP."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4525",
+          "title": "05/18(목) 상용 서버 v8700 패치 안내 (수정)",
+          "published": "2017.05.18. 19:40",
+          "published_version": "v8700",
+          "capture_key": "article-update-4525",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4525.html",
+          "raw_sha256": "0305a12cc8e473ad3a32b8dbb63dd29a13d6b04ff116b12149d3a813810b7be2",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4525.txt",
+          "fulltext_sha256": "4b7b73b47a4a322de96844517a3b99fac91e0e5f46a267c8d4c9ed25fc172d3a",
+          "scheduled_release_date": "2017-05-18"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4525",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.720",
+      "channel": "retail",
+      "release_date": "2017-06-15",
+      "date_note": null,
+      "notes": [
+        "Added chat history; fixed party-member Hide visibility and changed two Black Ophion item icons."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4537",
+          "title": "[정기점검] 정식 서비스 서버 v8720 패치 안내 (오전 10시 30분 ~) (수정)",
+          "published": "2017.06.14. 19:10",
+          "published_version": "v8720",
+          "capture_key": "article-update-4537",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4537.html",
+          "raw_sha256": "e7ab91a32b707f3d0c4cf0e173788b25fe1e7a9325cb84061b5cb9649d6b8611",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4537.txt",
+          "fulltext_sha256": "9adc64822964c17db2f91eec84a4278df0d5abe9f0fdd30e652f54e5d75bdf26",
+          "scheduled_release_date": "2017-06-15"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4537",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.760",
+      "channel": "retail",
+      "release_date": "2017-07-27",
+      "date_note": null,
+      "notes": [
+        "Fixed teleport-feather use forcibly maximizing the game window."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4553",
+          "title": "07/27(목) 정식 서비스 서버 v8760 패치 안내 (수정)",
+          "published": "2017.07.27. 13:40",
+          "published_version": "v8760",
+          "capture_key": "article-update-4553",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4553.html",
+          "raw_sha256": "51c03b4dd397de1511b1d24c082dcf52f3149d50fd9f03a8364a05fe7ef2bd38",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4553.txt",
+          "fulltext_sha256": "fca8ef6f8cb6e83faa755ff43b6752d182111f91e03087a0800d92d60a5ab4a7",
+          "scheduled_release_date": "2017-07-27"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4553",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.780",
+      "channel": "retail",
+      "release_date": "2017-07-28",
+      "date_note": null,
+      "notes": [
+        "Added an option to use Tab for targeting or map information."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4559",
+          "title": "07/28(금) 정식 서비스 서버 v8780 패치 (오후 06시 ~) (수정)",
+          "published": "2017.07.28. 17:23",
+          "published_version": "v8780",
+          "capture_key": "article-update-4559",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4559.html",
+          "raw_sha256": "fa65d56c97c3a702550fff943059889b94c9fd08f238b505173e295a6b35be52",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4559.txt",
+          "fulltext_sha256": "d49af99b26bba71d332346934f44638ef61298cf265b8db2bbbc8df10896df42",
+          "scheduled_release_date": "2017-07-28"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4559",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.790",
+      "channel": "hades",
+      "release_date": null,
+      "date_note": "The notice title/introduction say 2017-05-12, but the maintenance schedule says 2017-05-11; release day remains unresolved.",
+      "notes": [
+        "Keyboard movement rules were revised; unintended continued movement while performing another action was fixed.",
+        "The 백갑 quest item hand-in and distance-based chat colors were corrected."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4520",
+          "title": "05/12(금) 하데스 서버 v8790 패치 안내 (수정)",
+          "published": "2017.05.12. 17:26",
+          "published_version": "v8790",
+          "capture_key": "article-update-4520",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4520.html",
+          "raw_sha256": "94510e2f3410dff097aa736c8c29aafdb4c82c8643e9809a5e5f0feeab83af3f",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4520.txt",
+          "fulltext_sha256": "b468536e5fe52767f699849c38a79132865f82bc9ec8f2f5e289cdf5df63d0ba",
+          "scheduled_release_date": null
+        }
+      ],
+      "research_notes": [
+        "The title, introduction, publication day and concluding paragraph say May 12, 2017. The maintenance schedule says May 11 (Friday), which is internally inconsistent. Preserve a null release day rather than silently repairing the schedule."
+      ],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4520",
+      "date_basis": "see research_notes/date_note",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.810",
+      "channel": "hades",
+      "release_date": "2017-05-17",
+      "date_note": null,
+      "notes": [
+        "Party members in Hide can be seen as silhouettes; distance-based chat colors were adjusted.",
+        "Chat deletion, the 화론 nationality quest, bank-map skills and item/drop rules were corrected."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4524",
+          "title": "05/17(수) 하데스 서버 v8810 패치 안내 (수정)",
+          "published": "2017.05.17. 14:41",
+          "published_version": "v8810",
+          "capture_key": "article-update-4524",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4524.html",
+          "raw_sha256": "d592a5d21b59da29831606386b6d7122edb8a4991a3e05b61a301344f84d8917",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4524.txt",
+          "fulltext_sha256": "f6fceecc65e69e4db4ce93f1d6c2e7b4635f591636385697f4002ebf3e162e45",
+          "scheduled_release_date": "2017-05-17"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4524",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.820",
+      "channel": "retail",
+      "release_date": "2017-08-18",
+      "date_note": null,
+      "notes": [
+        "Allowed immediate movement after skills or spells.",
+        "Changed the slot-opening-stone icon and added dropped slot scrolls."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4591",
+          "title": "08/18(금) 정식 서비스 서버 v8820 패치 (수정)",
+          "published": "2017.08.18. 17:46",
+          "published_version": "v8820",
+          "capture_key": "article-update-4591",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4591.html",
+          "raw_sha256": "ad8e27bb4085c9413eb022ed3cf3fd0983fba8e4d09abb9f7ef4080c52b3f2b7",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4591.txt",
+          "fulltext_sha256": "e526ce1405275436bd48b49e6e2bdbe2834ffb51bda8a9759dfb3f648e94dc6f",
+          "scheduled_release_date": "2017-08-18"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4591",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.830",
+      "channel": "hades",
+      "release_date": "2017-05-18",
+      "date_note": null,
+      "notes": [
+        "Fixed the board and cash-shop windows closing when Space or Enter was pressed.",
+        "Removed the repeated low/high-HP rule that sent characters to the Hades NPC; the under-level-41 death rule remained."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4526",
+          "title": "05/18(목) 하데스 서버 v8830 패치 안내",
+          "published": "2017.05.18. 16:46",
+          "published_version": "v8830",
+          "capture_key": "article-update-4526",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4526.html",
+          "raw_sha256": "e790acf7af57cbb11569d5131dea56db828f668800e36b793076c8410859db3e",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4526.txt",
+          "fulltext_sha256": "7b5eaab2b811b7bc9a0823e36c20e604d83da3ef4e7953fa629839afdd4dcd9a",
+          "scheduled_release_date": "2017-05-18"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4526",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.840",
+      "channel": "retail",
+      "release_date": "2017-08-24",
+      "date_note": null,
+      "notes": [
+        "Added fully remappable keys through KeyMap.",
+        "Fixed equipment repair, 거울숲 entry, archer bow requirements and map graphics."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4576",
+          "title": "[정기점검] 08/24(목) 정식 서비스 서버 v8840 패치",
+          "published": "2017.08.23. 17:59",
+          "published_version": "v8840",
+          "capture_key": "article-update-4576",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4576.html",
+          "raw_sha256": "dacc2421ec18a673bd6bcc8e76af611ba6ebe23082c70c66ef5558366beb1355",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4576.txt",
+          "fulltext_sha256": "6fa9f987a9f80b3477aec40bafb1a9e28388b99f5beb41a16ec688cc4cb200ca",
+          "scheduled_release_date": "2017-08-24"
+        },
+        {
+          "url": "https://lod.nexon.com/News/update/4577",
+          "title": "v8840 패치 이후 게임 실행 불가 관련안내",
+          "published": "2017.08.24. 19:09",
+          "published_version": "v8840",
+          "capture_key": "article-update-4577",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4577.html",
+          "raw_sha256": "8204911136698ca912fab515cf4d07f8df703a83bd06e80d3f912555af951fa0",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4577.txt",
+          "fulltext_sha256": "12266067389f03fd8bdf066a4ac9df22badfd3aed033d6ad5164c6eb7925724b",
+          "scheduled_release_date": "2017-08-24"
+        }
+      ],
+      "research_notes": [
+        "2017-08-24: additional notice https://lod.nexon.com/News/update/4577 uses v8840. The publisher documented a missing Visual C++ runtime DLL after v8840 and supplied a runtime-installation workaround."
+      ],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4576",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.850",
+      "channel": "hades",
+      "release_date": "2017-05-19",
+      "date_note": null,
+      "notes": [
+        "Fixed connection failures on Windows XP.",
+        "Office outfits gained gender conversion, and the Hades-only 세리카 test-item menu was expanded."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4527",
+          "title": "05/19(금) 하데스 서버 v8850 패치 안내 (수정)",
+          "published": "2017.05.19. 15:18",
+          "published_version": "v8850",
+          "capture_key": "article-update-4527",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4527.html",
+          "raw_sha256": "b121873b1fbd18390089b3ecf4498bca6b3a1182301b9ac1215e03b0d48c144e",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4527.txt",
+          "fulltext_sha256": "ab55c513015c5faf43816c9948473024e01427bcf653329c063e4336e00124b6",
+          "scheduled_release_date": "2017-05-19"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4527",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.860",
+      "channel": "retail",
+      "release_date": "2017-08-25",
+      "date_note": null,
+      "notes": [
+        "Fixed a DLL problem that prevented the game from starting."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4579",
+          "title": "08/25(금) 정식 서비스 서버 v8860 패치 안내 (수정)",
+          "published": "2017.08.25. 17:55",
+          "published_version": "v8860",
+          "capture_key": "article-update-4579",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4579.html",
+          "raw_sha256": "d3666b91042f0631727379d7c476c5c2ffede78f28af6c2dec8b6ee8b21e4350",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4579.txt",
+          "fulltext_sha256": "f96eae808d483adcbc5668b4bd6732a3611d0aa0bb4422b188696677a6f25a6b",
+          "scheduled_release_date": "2017-08-25"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4579",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.870",
+      "channel": "hades",
+      "release_date": "2017-06-01",
+      "date_note": null,
+      "notes": [
+        "Corrected bank item classification, prohibited words, guild-chat errors and party-member Hide silhouettes."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4532",
+          "title": "06/01(목) 하데스 서버 v8870 패치 안내",
+          "published": "2017.05.31. 18:58",
+          "published_version": "v8870",
+          "capture_key": "article-update-4532",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4532.html",
+          "raw_sha256": "40ec8b016efe7c42335996681292c68dac5ddaad89869dd1fb7c8757b7c279b0",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4532.txt",
+          "fulltext_sha256": "a47c2934598bc1f48b8010bd6083f5749a00b0e92fc46317faae7147ded1ca1e",
+          "scheduled_release_date": "2017-06-01"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4532",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.880",
+      "channel": "retail",
+      "release_date": "2017-08-31",
+      "date_note": null,
+      "notes": [
+        "KeyMap settings became character-specific; shortcut and multi-client setting bugs were fixed.",
+        "Preserved options during updates, strengthened speed-hack detection and corrected character animations/synchronization."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4584",
+          "title": "[정기점검] 08/31(목) 정식 서비스 서버 v8880 패치",
+          "published": "2017.08.30. 18:20",
+          "published_version": "v8880",
+          "capture_key": "article-update-4584",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4584.html",
+          "raw_sha256": "ca95e7f3a828230bddb57ecd674cc0adc7059b382275ae56016400554bd0f761",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4584.txt",
+          "fulltext_sha256": "32c16b256fe3af03a672c5db9782d0fbe3ab2137cc6c603b0f18026b23cfcc96",
+          "scheduled_release_date": "2017-08-31"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4584",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.890",
+      "channel": "hades",
+      "release_date": "2017-06-01",
+      "date_note": null,
+      "notes": [
+        "Fixed a crash when smooth screen scrolling was enabled."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4533",
+          "title": "06/01(목) 하데스 서버 v8890 패치 안내",
+          "published": "2017.06.01. 16:19",
+          "published_version": "v8890",
+          "capture_key": "article-update-4533",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4533.html",
+          "raw_sha256": "4d93a5b20e3253dc6aed0a2b5c70e7989100ed0967e28c8fa44f0f34cdd646b3",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4533.txt",
+          "fulltext_sha256": "b40957e599d0d8a698a6478a2a087d7568e1d45e951b7f54f49de9fc7f1cec92",
+          "scheduled_release_date": "2017-06-01"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4533",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.900",
+      "channel": "retail",
+      "release_date": "2017-09-08",
+      "date_note": null,
+      "notes": [
+        "Added item-detail screenshots and mouse-button KeyMap bindings.",
+        "Fixed false speed-hack detections and skill-learning errors; limited 거울숲 attempts to three per day."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4590",
+          "title": "09/08(금) 정식 서비스 서버 v8900 패치 (수정)",
+          "published": "2017.09.08. 18:05",
+          "published_version": "v8900",
+          "capture_key": "article-update-4590",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4590.html",
+          "raw_sha256": "d8bb596420edbdb5c83e4f2071bab10328609ff7e2df24e8c2836ec4acd0ed12",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4590.txt",
+          "fulltext_sha256": "5c88093163dfd42d1009b7bd0df1a5da83c8029100215f43c4e6bbda4720146e",
+          "scheduled_release_date": "2017-09-08"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4590",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.910",
+      "channel": "hades",
+      "release_date": "2017-06-07",
+      "date_note": null,
+      "notes": [
+        "Added graphics data and fixed a teleport-feather window-size problem.",
+        "Server stabilization."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4534",
+          "title": "06/07(수) 하데스 서버 v8910 패치 안내",
+          "published": "2017.06.07. 15:31",
+          "published_version": "v8910",
+          "capture_key": "article-update-4534",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4534.html",
+          "raw_sha256": "a836b3983223a0197c31d609554cccc00e897a8500504e34378e057bf6f7ee99",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4534.txt",
+          "fulltext_sha256": "dfff86370d63bdb15463e78863d17000a27e6ca27c968424c1fa62fab990dd66",
+          "scheduled_release_date": "2017-06-07"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4534",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.920",
+      "channel": "retail",
+      "release_date": "2017-09-15",
+      "date_note": null,
+      "notes": [
+        "Added KeyMap macros combining game shortcuts.",
+        "Corrected Pure-class temple travel, point purchases, icons and teleport-feather inventory behavior."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4621",
+          "title": "09/15(금) 정식 서비스 서버 v8920 패치 안내",
+          "published": "2017.09.15. 16:29",
+          "published_version": "v8920",
+          "capture_key": "article-update-4621",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4621.html",
+          "raw_sha256": "ae163a6290e45faab7b25d85844a78d5528573d784dd2b42e87061c190837e8f",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4621.txt",
+          "fulltext_sha256": "203f052feb670d29875ccc6a321d6fe995bc599a78dd91e3a366b43872af659d",
+          "scheduled_release_date": "2017-09-15"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4621",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.930",
+      "channel": "hades",
+      "release_date": "2017-07-06",
+      "date_note": null,
+      "notes": [
+        "Added equipment-removal shortcuts and more character-name display options.",
+        "Rebalanced skill prerequisites and the Catacomb dungeon, revised movement and spell effects, and fixed interface bugs."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4574",
+          "title": "07/06(목) 하데스 서버 v8930 패치 안내",
+          "published": "2017.07.06. 11:30",
+          "published_version": "v8930",
+          "capture_key": "article-update-4574",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4574.html",
+          "raw_sha256": "dcd4b76a4dc50334e83cc37f03921098c981efd270388a4e29b8593c81896aa9",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4574.txt",
+          "fulltext_sha256": "6b84f7cf9deb986918fa58cded3af550397c610711072ff393beeaa75c39e1ff",
+          "scheduled_release_date": "2017-07-06"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4574",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.940",
+      "channel": "retail",
+      "release_date": "2017-09-21",
+      "date_note": null,
+      "notes": [
+        "Fixed teleport-feather screen shifts and KeyMap modifier-key macros.",
+        "Added bank stack counts and profession-change confirmation; fixed access to blocked terrain and revised dungeon drops."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4601",
+          "title": "09/21(목) 정식 서비스 서버 v8940 패치 안내 (수정)",
+          "published": "2017.09.20. 15:14",
+          "published_version": "v8940",
+          "capture_key": "article-update-4601",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4601.html",
+          "raw_sha256": "3546904ef4ec581315dccdbc9b7cae506aadff45c74f9fb5c60775172e20e1c7",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4601.txt",
+          "fulltext_sha256": "de70ce4e1f68145da8721bfa764c55c49f83f007a402e54c986d8306a31142da",
+          "scheduled_release_date": "2017-09-21"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4601",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.950",
+      "channel": "hades",
+      "release_date": "2017-07-18",
+      "date_note": null,
+      "notes": [
+        "Added face customization, 천하제일 무한대전 and keyboard targeting.",
+        "Rebalanced several classes and revised spell effects and interface behavior."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4548",
+          "title": "07/18(화) 하데스 서버 v8950 패치 안내",
+          "published": "2017.07.18. 14:47",
+          "published_version": "v8950",
+          "capture_key": "article-update-4548",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4548.html",
+          "raw_sha256": "220e5da998d18f244eb85df5dcbe4eca858b1a1f908e401c75f1a8e50861a05c",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4548.txt",
+          "fulltext_sha256": "2fefcf97de9469b0e344b4b14811bcf6321e4815ed3ed84c4e2cd40159f584d1",
+          "scheduled_release_date": "2017-07-18"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4548",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.970",
+      "channel": "hades",
+      "release_date": "2017-07-21",
+      "date_note": null,
+      "notes": [
+        "Expanded keyboard-targeting options and corrected target resets.",
+        "Rebalanced 케라코라 rewards, Magic Protection and 콜라마; fixed event and skill-description errors."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4552",
+          "title": "07/21(금) 하데스 서버 v8970 패치 안내",
+          "published": "2017.07.21. 14:32",
+          "published_version": "v8970",
+          "capture_key": "article-update-4552",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4552.html",
+          "raw_sha256": "6243c71b262c66cc26917b2e2d3e1652d02adf4e48c7bd0596fae45e689a46a5",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4552.txt",
+          "fulltext_sha256": "420115b7318f9d3109a9dfe1f1a57050361ee54e571209db577048aadca399a3",
+          "scheduled_release_date": "2017-07-21"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4552",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.980",
+      "channel": "retail",
+      "release_date": "2017-10-13",
+      "date_note": null,
+      "notes": [
+        "Added Esc cancellation to KeyMap, map zoom for all classes and skill-learning-location descriptions.",
+        "세오의손길 can no longer be removed by 리베라토."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4602",
+          "title": "10/13(금) 정식 서비스 서버 v8980 패치 안내 (수정)",
+          "published": "2017.10.13. 17:35",
+          "published_version": "v8980",
+          "capture_key": "article-update-4602",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4602.html",
+          "raw_sha256": "ecdc500eb098d6693dd5941e1acf67536fd96b29a1239b5ab0d99b63b0e679c5",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4602.txt",
+          "fulltext_sha256": "07fc5876409302341b5c384c00fca08776f5bd22e585ce3e70d778de67f7c42b",
+          "scheduled_release_date": "2017-10-13"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4602",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "8.990",
+      "channel": "hades",
+      "release_date": "2017-07-25",
+      "date_note": null,
+      "notes": [
+        "신의축복 can affect its caster; 뮤레칸 equipment enhancement rates were increased.",
+        "Fixed targeting afterimages."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4550",
+          "title": "07/25(화) 하데스 서버 v8990 패치 안내",
+          "published": "2017.07.25. 18:11",
+          "published_version": "v8990",
+          "capture_key": "article-update-4550",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4550.html",
+          "raw_sha256": "ca8cf6ec1ca99ba1f1a8a1bc9a04316a94201201c6b5e21e2d2c96e19432957c",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4550.txt",
+          "fulltext_sha256": "ff7b50b116cf596540f52939cd82fdc6cf223c4aa9478c3abb36a52b8bb253b6",
+          "scheduled_release_date": "2017-07-25"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4550",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.010",
+      "channel": "hades",
+      "release_date": "2017-07-25",
+      "date_note": null,
+      "notes": [
+        "Added a shield display toggle and the 거울숲 instanced dungeon."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4551",
+          "title": "07/25(화) 하데스 서버 v9010 패치 안내 (수정)",
+          "published": "2017.07.25. 18:12",
+          "published_version": "v9010",
+          "capture_key": "article-update-4551",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4551.html",
+          "raw_sha256": "bf6d70e61af0d6c82c7e061ba4a1238a182a5857d82aec88e1503c49efe4cdec",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4551.txt",
+          "fulltext_sha256": "5fc8dad4fd90e79f2d43d42076b210ab9aa78f28efbeb837b2aa790be355cb47",
+          "scheduled_release_date": "2017-07-25"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4551",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.030",
+      "channel": "hades",
+      "release_date": "2017-07-28",
+      "date_note": null,
+      "notes": [
+        "Added an option to use Tab for targeting or map information."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4558",
+          "title": "07/28(금) 하데스 서버 v9030 패치 안내 (수정)",
+          "published": "2017.07.28. 17:20",
+          "published_version": "v9030",
+          "capture_key": "article-update-4558",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4558.html",
+          "raw_sha256": "cfb602b0f19eb9a6e8a06d488f52d8c41b23a47641b8eacef7f429ae63cfef69",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4558.txt",
+          "fulltext_sha256": "023dd75bfb3879ad253ac7c74c8f795761d0431d90ea627a7757400615c26a9b",
+          "scheduled_release_date": "2017-07-28"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4558",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.070",
+      "channel": "hades",
+      "release_date": "2017-08-10",
+      "date_note": null,
+      "notes": [
+        "Added the slot-enhancement system for eligible weapons.",
+        "Fixed six-character guild-partner names and allowed ground clicks to clear a target."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4565",
+          "title": "08/10(목) 하데스 서버 v9070 패치 안내 (수정)",
+          "published": "2017.08.10. 17:15",
+          "published_version": "v9070",
+          "capture_key": "article-update-4565",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4565.html",
+          "raw_sha256": "ed7392de1709736e4352ae523d27aa37efde2ec32d84afb85e2ede7d6b8bbcf7",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4565.txt",
+          "fulltext_sha256": "26906312702404a42480221de171311a49df0c3914918c598654b50114ef9cf5",
+          "scheduled_release_date": "2017-08-10"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4565",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.100",
+      "channel": "retail",
+      "release_date": "2017-11-16",
+      "date_note": null,
+      "notes": [
+        "Improved movement response after teleport-feather use and changed booster icons.",
+        "Revised 이아의구원 usage and several material drops; added the examination event and G-Star coupon support."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4613",
+          "title": "[정기점검] 11/16(목) 정식 서비스 서버 v9100 패치 안내 (수정)",
+          "published": "2017.11.15. 18:52",
+          "published_version": "v9100",
+          "capture_key": "article-update-4613",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4613.html",
+          "raw_sha256": "7a018bc0e23215cd6d94d078860792577b6433ee1a08f840a4c99917fddf96de",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4613.txt",
+          "fulltext_sha256": "642bde445d411176b7a9f3a0aa319af52d3b4d0a50c373889e96c50864fd2c9d",
+          "scheduled_release_date": "2017-11-16"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": "version-217",
+      "action": "update_existing_release_evidence",
+      "primary_source_url": "https://lod.nexon.com/News/update/4613",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.120",
+      "channel": "retail",
+      "release_date": "2017-11-23",
+      "date_note": null,
+      "notes": [
+        "Added 테슬러의깃털 and the first-snow event.",
+        "Improved connection stability, item-expiry displays and anti-cheat defenses; changed repair costs and fishing sale prices."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4623",
+          "title": "[정기점검] 11/23(목) 정식 서비스 서버 v9120 패치 안내 (수정)",
+          "published": "2017.11.22. 18:46",
+          "published_version": "v9120",
+          "capture_key": "article-update-4623",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4623.html",
+          "raw_sha256": "e1242492e89ae152739c6dd0182e7cb7c114967f1a15aae8e1738c7f0dc8efb9",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4623.txt",
+          "fulltext_sha256": "654e90571f3577137935a7a4addad3f27c2f71fc5e1667aafd57571910931ae9",
+          "scheduled_release_date": "2017-11-23"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4623",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.130",
+      "channel": "hades",
+      "release_date": "2017-08-11",
+      "date_note": null,
+      "notes": [
+        "Expanded eligible slot-enhancement weapons and corrected slot-system bugs.",
+        "Item details now show ability requirements; several weapon requirements were changed from skills to ability levels."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4567",
+          "title": "08/11(금) 하데스 서버 v9130 패치 안내 (수정)",
+          "published": "2017.08.11. 13:54",
+          "published_version": "v9130",
+          "capture_key": "article-update-4567",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4567.html",
+          "raw_sha256": "c51a53ebf71efb4b5450af1c852612bd2a1b1f757488a0df8fd5ac942849efe3",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4567.txt",
+          "fulltext_sha256": "3b61ec8e3f9e7df9f947bdd27298a33f76600d3887f53d28f6d7885d88a15bca",
+          "scheduled_release_date": "2017-08-11"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4567",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.150",
+      "channel": "hades",
+      "release_date": "2017-08-16",
+      "date_note": null,
+      "notes": [
+        "Fixed slot-enhancement bugs and revised scroll and 세오의각인 descriptions."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4568",
+          "title": "08/16(수) 하데스 서버 v9150 패치 안내",
+          "published": "2017.08.16. 11:09",
+          "published_version": "v9150",
+          "capture_key": "article-update-4568",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4568.html",
+          "raw_sha256": "ac873f2daec3c17af46f3f1c6681fd91e287a20d39b22f98dbc9a12b199105c4",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4568.txt",
+          "fulltext_sha256": "c2eb285a623de5e3c2f759f49a75c85b4c10b00c9b03e33928072681520d5ca4",
+          "scheduled_release_date": "2017-08-16"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4568",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.160",
+      "channel": "retail",
+      "release_date": "2017-11-30",
+      "date_note": null,
+      "notes": [
+        "Fixed false blocked-destination indications from teleport feathers.",
+        "Ended new 각인비밀번호 registrations while preserving existing passwords for their remaining term."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4617",
+          "title": "[정기점검] 11/30(목) 정식 서비스 서버 v9160 패치 안내 (수정)",
+          "published": "2017.11.29. 16:16",
+          "published_version": "v9160",
+          "capture_key": "article-update-4617",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4617.html",
+          "raw_sha256": "6092e4f47d2728149067ba3e51ab1223738691b50ab367852c9aa90abe914487",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4617.txt",
+          "fulltext_sha256": "cca32951359b4fee198d5a284d8b902fb167851437845aaf78d95f2d20cc4922",
+          "scheduled_release_date": "2017-11-30"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4617",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.170",
+      "channel": "hades",
+      "release_date": "2017-08-16",
+      "date_note": null,
+      "notes": [
+        "Revised slot enhancement and removed its test NPC.",
+        "Equipped/traded item descriptions now show slot and ability information; summer events ended."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4570",
+          "title": "08/16(수) 하데스 서버 v9170 패치 안내",
+          "published": "2017.08.16. 19:05",
+          "published_version": "v9170",
+          "capture_key": "article-update-4570",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4570.html",
+          "raw_sha256": "2937546b35dcd4e7f807e24ffc848af3da6fb49d330fca2aa8063ff3cf458511",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4570.txt",
+          "fulltext_sha256": "437a30d7099d2bf64bf89bc6cebf41fef6fc35726a5c2f779adff9a856c7c7e8",
+          "scheduled_release_date": "2017-08-16"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4570",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.180",
+      "channel": "retail",
+      "release_date": "2017-12-01",
+      "date_note": null,
+      "notes": [
+        "Fixed intermittent crashes from teleport feathers and missing item-expiry displays."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4615",
+          "title": "12/01(금) 정식 서비스 서버 v9180 패치 안내",
+          "published": "2017.12.01. 14:24",
+          "published_version": "v9180",
+          "capture_key": "article-update-4615",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4615.html",
+          "raw_sha256": "ed3422d1052535219ee98122131b2543a9cab9fafe36f1b25e9a7ac12fb5bf21",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4615.txt",
+          "fulltext_sha256": "d4956d11b09b689f79c22cf1b973fbf9b2f93ad495485b86a4a692c8e2637952",
+          "scheduled_release_date": "2017-12-01"
+        },
+        {
+          "url": "https://lod.nexon.com/News/update/4620",
+          "title": "[정기점검] 12/07(목) 정식 서비스 서버 v9180 패치 안내 (수정)",
+          "published": "2017.12.06. 16:50",
+          "published_version": "v9180",
+          "capture_key": "article-update-4620",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4620.html",
+          "raw_sha256": "1cb6874e5e81cb9ac0f87c7d859c8c01bd91a09afe9ca6dd8a0d96e4c780dc8d",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4620.txt",
+          "fulltext_sha256": "6d3ca4b2f9ec998a1ef1f1e9187647253c8c6ac8ed0d86d4634d22469cb691f7",
+          "scheduled_release_date": "2017-12-07"
+        },
+        {
+          "url": "https://lod.nexon.com/News/update/4624",
+          "title": "[정기점검] 12/14(목) 정식 서비스 서버 v9180 패치 안내 (수정)",
+          "published": "2017.12.13. 18:09",
+          "published_version": "v9180",
+          "capture_key": "article-update-4624",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4624.html",
+          "raw_sha256": "6b5bf113288624885558e88228ea7a09c957dee7440ae8c9716f6f1ab4ae0de9",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4624.txt",
+          "fulltext_sha256": "31b18f9508dd35e458437ae13aa3c2dcb426114d41ae90cbe83b4d039107caad",
+          "scheduled_release_date": "2017-12-14"
+        }
+      ],
+      "research_notes": [
+        "2017-12-07: additional notice https://lod.nexon.com/News/update/4620 uses v9180. Expanded shared experience distance, fixed the 밀기 skill and stabilized servers.",
+        "2017-12-14: additional notice https://lod.nexon.com/News/update/4624 uses v9180. Started the Christmas/New Year 130% experience and ability-experience event."
+      ],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4615",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.200",
+      "channel": "retail",
+      "release_date": "2017-12-21",
+      "date_note": null,
+      "notes": [
+        "Added Christmas/New Year events; preserved materials when cancelling advanced-armor upgrades.",
+        "Fixed Black Ophion portal positions and crashes caused by the Hanja key."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4652",
+          "title": "[정기점검] 12/21(목) 정식 서비스 서버 v9200 패치 안내 (수정)",
+          "published": "2017.12.20. 17:21",
+          "published_version": "v9200",
+          "capture_key": "article-update-4652",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4652.html",
+          "raw_sha256": "f5ba4c2eac6b27edb3210da8982f4e6a9861c789bd7e4960a0ad94970e438245",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4652.txt",
+          "fulltext_sha256": "9499a5e17a297480af6e42aed50a78bc3c1b33a18e87cfce1a5adedd37cf4822",
+          "scheduled_release_date": "2017-12-21"
+        },
+        {
+          "url": "https://lod.nexon.com/News/update/4626",
+          "title": "[정기점검] 12/28(목) 정식 서비스 서버 v9200 패치 안내",
+          "published": "2017.12.27. 17:20",
+          "published_version": "v9200",
+          "capture_key": "article-update-4626",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4626.html",
+          "raw_sha256": "9a42da2ddbaf35f6bb5865321e200aafb3d5781485b5583f82f7876479811331",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4626.txt",
+          "fulltext_sha256": "98253c283b457dce226b69195b75ed857767f4c4e946c9d4f8d72cffa8a1ac46",
+          "scheduled_release_date": "2017-12-28"
+        }
+      ],
+      "research_notes": [
+        "2017-12-28: additional notice https://lod.nexon.com/News/update/4626 uses v9200. Adjusted Gold earned from selling fish."
+      ],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4652",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.220",
+      "channel": "retail",
+      "release_date": "2018-01-18",
+      "date_note": "The 2018-01-11 notice conflicts (title v9220 / body v9200); 2018-01-18 is the first internally consistent v9220 patch notice recovered.",
+      "notes": [
+        "Fixed abnormal durability behavior when using equipment with attached scrolls."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4633",
+          "title": "[정기점검] 01/11(목) 정식 서비스 서버 v9220 패치 안내 (수정)",
+          "published": "2018.01.10. 17:50",
+          "published_version": "v9220",
+          "capture_key": "article-update-4633",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4633.html",
+          "raw_sha256": "8db26426dd6329390e48b3f308703eb042bb2fa814cc788ba9bd63fa9e31e1e1",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4633.txt",
+          "fulltext_sha256": "3b76e16db6449cec3b550c526064f795f1cb8e72256d2dc02607108ec51fa1ae",
+          "scheduled_release_date": "2018-01-11"
+        },
+        {
+          "url": "https://lod.nexon.com/News/update/4636",
+          "title": "[정기점검] 01/18(목) 정식 서비스 서버 v9220 점검 안내 (수정)",
+          "published": "2018.01.17. 18:16",
+          "published_version": "v9220",
+          "capture_key": "article-update-4636",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4636.html",
+          "raw_sha256": "9a07ac1e1293ad35c376a85795944c07064b2f44216613ebda35323c971ee487",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4636.txt",
+          "fulltext_sha256": "cb9fd2b7325672357a42b8ed0f5e25d547676cfd61296e71f8e3a966d88ed844",
+          "scheduled_release_date": "2018-01-18"
+        },
+        {
+          "url": "https://lod.nexon.com/News/update/4638",
+          "title": "01/18(목) 정식 서비스 서버 v9220 점검 안내 (수정)",
+          "published": "2018.01.18. 15:54",
+          "published_version": "v9220",
+          "capture_key": "article-update-4638",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4638.html",
+          "raw_sha256": "b350ecaa6be556879cd8fb7b9d903abeae7f10f3ba66a26dbd9d8f6dc50f5578",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4638.txt",
+          "fulltext_sha256": "c5e621419f786b13353f35484f5301a3a9f71bd9b6965ed4593688cc41a621fd",
+          "scheduled_release_date": "2018-01-18"
+        }
+      ],
+      "research_notes": [
+        "2018-01-11: additional notice https://lod.nexon.com/News/update/4633 uses v9220. Revised HP/MP checks for 백작부인별장 entry and eligibility for 해방의주문서; ended holiday sales/events.",
+        "2018-01-18: additional notice https://lod.nexon.com/News/update/4638 uses v9220. Fixed intermittent crashes when forming a group; stabilized servers.",
+        "January 11, 2018 notice title says v9220, but its introduction says v9200. Do not choose January 11 as an unequivocal first day for9.220. Two January18 notices explicitly agree on v9220 in title and body; they support a January18 scheduled patch date. Preserve the earlier conflict."
+      ],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4636",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.230",
+      "channel": "hades",
+      "release_date": "2017-08-16",
+      "date_note": null,
+      "notes": [
+        "Fixed equipped-item display errors."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4605",
+          "title": "08/16(수) 하데스 서버 v9230 패치 안내 (수정)",
+          "published": "2017.08.16. 20:39",
+          "published_version": "v9230",
+          "capture_key": "article-update-4605",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4605.html",
+          "raw_sha256": "20f003fb5c1b911b1e3270b0db884b388375b6fd2e1f77984823d87182cf59de",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4605.txt",
+          "fulltext_sha256": "67e30e959bc7d8c1f72bccf70457540e29ae086668d86f94056f0c4e06e4dd68",
+          "scheduled_release_date": "2017-08-16"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4605",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.240",
+      "channel": "retail",
+      "release_date": "2018-01-25",
+      "date_note": null,
+      "notes": [
+        "Revised several dungeon monster patterns.",
+        "Fixed simultaneous-key input, DAM values at or below zero and item-binding errors; adjusted 엑스쿠라눔 prices."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4639",
+          "title": "[정기점검] 01/25(목) 정식 서비스 서버 v9240 패치 안내 (수정)",
+          "published": "2018.01.24. 18:20",
+          "published_version": "v9240",
+          "capture_key": "article-update-4639",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4639.html",
+          "raw_sha256": "7b58d87efad05de0993d0ec8a220d18c7ff8f345b549eec170465c8b734e35bb",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4639.txt",
+          "fulltext_sha256": "3fd7174d8b3e3dfb17eac801793ddc603a6c2926a0208bda42c7e98b43c0bd1d",
+          "scheduled_release_date": "2018-01-25"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4639",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.250",
+      "channel": "hades",
+      "release_date": "2017-08-18",
+      "date_note": null,
+      "notes": [
+        "Allowed immediate movement after skills or spells.",
+        "Changed the slot-opening-stone icon and added dropped slot scrolls."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4571",
+          "title": "08/18(금) 하데스 서버 v9250 패치 안내",
+          "published": "2017.08.18. 17:39",
+          "published_version": "v9250",
+          "capture_key": "article-update-4571",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4571.html",
+          "raw_sha256": "55f710b14c811c00acc171f9fecb781f0cf8affa93ae7c887ddfca323a9ccf4c",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4571.txt",
+          "fulltext_sha256": "5886dc3e6afbe222b1381142b4c7f8df77d16ea6675a91221eb68c6b96ba712a",
+          "scheduled_release_date": "2017-08-18"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4571",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.260",
+      "channel": "retail",
+      "release_date": "2018-02-01",
+      "date_note": null,
+      "notes": [
+        "Fixed siege events sometimes failing to start and the incorrect Friends-tab name; added 황금꼬꼬알 sales."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4642",
+          "title": "[정기점검] 02/01(목) 정식 서비스 서버 v9260 패치 안내",
+          "published": "2018.01.31. 16:55",
+          "published_version": "v9260",
+          "capture_key": "article-update-4642",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4642.html",
+          "raw_sha256": "1845ae2921e4cbacc8e13c554680037a105a4ee6178d1d75eb16249887b3a29d",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4642.txt",
+          "fulltext_sha256": "0527e4426f6f8570dbdd67f5b7df844b3057a1217c28c3f335193d5983a197e3",
+          "scheduled_release_date": "2018-02-01"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4642",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.270",
+      "channel": "hades",
+      "release_date": "2017-08-18",
+      "date_note": null,
+      "notes": [
+        "Server stabilization."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4630",
+          "title": "08/18(금) 하데스 서버 v9270 패치 안내",
+          "published": "2017.08.21. 10:10",
+          "published_version": "v9270",
+          "capture_key": "article-update-4630",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4630.html",
+          "raw_sha256": "4a6d0f49255a7f8a9590c2020686f183b8eb836acfbdd2022bef4e085aaef692",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4630.txt",
+          "fulltext_sha256": "a8257d345d38c2fe8964f2b58aa8a7af46f5d84027a9dc8a11ca471e75a1c78d",
+          "scheduled_release_date": "2017-08-18"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4630",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.280",
+      "channel": "retail",
+      "release_date": "2018-02-08",
+      "date_note": null,
+      "notes": [
+        "Added mouse-wheel and side-button KeyMap bindings.",
+        "Started Lunar New Year events, added event items and changed selected bracelet options."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4644",
+          "title": "[정기점검] 02/08(목) 정식 서비스 서버 v9280패치 안내",
+          "published": "2018.02.07. 17:16",
+          "published_version": "v9280",
+          "capture_key": "article-update-4644",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4644.html",
+          "raw_sha256": "635e582858a2455c1d523d73da8157018f3a2fa71b099a5d5ee1aab8e27459ab",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4644.txt",
+          "fulltext_sha256": "c0ac094c5a01f585276c2656250d2a6b0cf9635b298260abfc25c9f9ba4a86d8",
+          "scheduled_release_date": "2018-02-08"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4644",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.290",
+      "channel": "hades",
+      "release_date": "2017-08-23",
+      "date_note": null,
+      "notes": [
+        "Added slot-scroll reset and fully remappable keys through KeyMap.",
+        "Fixed equipment repair, 거울숲 entry, archer bow requirements and map graphics."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4578",
+          "title": "08/23(수) 하데스 서버 v9290 패치 안내 (수정)",
+          "published": "2017.08.23. 14:16",
+          "published_version": "v9290",
+          "capture_key": "article-update-4578",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4578.html",
+          "raw_sha256": "467a328860660896676787fb6578606acb0b89d6c23b4e65809bac95f5b11467",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4578.txt",
+          "fulltext_sha256": "3513387ddf6f3875745a4bd365fadbe0e31570ae80646650edd238db73823173",
+          "scheduled_release_date": "2017-08-23"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4578",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.310",
+      "channel": "hades",
+      "release_date": "2017-08-24",
+      "date_note": null,
+      "notes": [
+        "Fixed NPC-related errors."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4581",
+          "title": "08/24(목) 하데스 서버 v9310 패치 안내",
+          "published": "2017.08.24. 15:21",
+          "published_version": "v9310",
+          "capture_key": "article-update-4581",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4581.html",
+          "raw_sha256": "90599b0c199056244a34d7bccb09d214f7112d7c75e1d21b2080a8a817d882e9",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4581.txt",
+          "fulltext_sha256": "5f414d049a9812f18df76b77ad6d21a4b59a282feee106a9a57b3b4195b27c1c",
+          "scheduled_release_date": "2017-08-24"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4581",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.320",
+      "channel": "retail",
+      "release_date": "2018-02-13",
+      "date_note": null,
+      "notes": [
+        "Improved 뮤레칸의역습 entry and capacity; fixed event-item distribution and mouse-wheel KeyMap behavior.",
+        "Expanded outfit gender exchanges and allowed teleport feathers in the maze leading to 오렌미궁."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4645",
+          "title": "[정기점검] 02/13(화) 정식 서비스 서버 v9320 패치 안내 (수정)",
+          "published": "2018.02.12. 17:02",
+          "published_version": "v9320",
+          "capture_key": "article-update-4645",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4645.html",
+          "raw_sha256": "707d4bd1b5e0858d7798bcf602e384d6f6473c5c996dd5044bf027a5e8d0b7f5",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4645.txt",
+          "fulltext_sha256": "1e20889105f87abf251516620bfb7cfe3174e44658dd465b13d3fa0d412529b6",
+          "scheduled_release_date": "2018-02-13"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4645",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.330",
+      "channel": "hades",
+      "release_date": "2017-08-25",
+      "date_note": null,
+      "notes": [
+        "Fixed a DLL problem that prevented the game from starting."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4582",
+          "title": "08/25(금) 하데스 서버 v9330 패치 안내",
+          "published": "2017.08.25. 16:10",
+          "published_version": "v9330",
+          "capture_key": "article-update-4582",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4582.html",
+          "raw_sha256": "6488a2d17827b46d8aff42255627921c63415a57b57610857406b4e545a8f8ce",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4582.txt",
+          "fulltext_sha256": "0523efaefb5c29602cc6d131cdd3e7f0da2f277be3c401c4eaf6940dd3a5940f",
+          "scheduled_release_date": "2017-08-25"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4582",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.340",
+      "channel": "retail",
+      "release_date": "2018-02-23",
+      "date_note": null,
+      "notes": [
+        "Revised 엔도르 dungeon monster AI, fixed minimap crashes and added anti-cheat defenses."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4707",
+          "title": "[정기점검] 02/23(금) 정식 서비스 서버 v9340 패치 안내",
+          "published": "2018.02.23. 17:18",
+          "published_version": "v9340",
+          "capture_key": "article-update-4707",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4707.html",
+          "raw_sha256": "e9593930d7c1ae3a3a73278d3942e6da03766b554fe4883c84bbef559dbeeae7",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4707.txt",
+          "fulltext_sha256": "1cea2df0b06ae0b815013da044ad1b1bc5badda40ab790502b62b12573408b7f",
+          "scheduled_release_date": "2018-02-23"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4707",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.350",
+      "channel": "hades",
+      "release_date": "2017-08-30",
+      "date_note": null,
+      "notes": [
+        "KeyMap settings became character-specific; shortcut and multi-client setting bugs were fixed.",
+        "Preserved options during updates, strengthened speed-hack detection and corrected character animations/synchronization."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4583",
+          "title": "08/30(수) 하데스 서버 v9350 패치 안내",
+          "published": "2017.08.30. 17:17",
+          "published_version": "v9350",
+          "capture_key": "article-update-4583",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4583.html",
+          "raw_sha256": "2757ba6426db8ad7fdd1eac3425521477352653d9b012b456bd46439086769f6",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4583.txt",
+          "fulltext_sha256": "2fd11f818223ae0c3ec4a07bbf56da249b1f3c67c2889436acf754fd874b7d26",
+          "scheduled_release_date": "2017-08-30"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4583",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.360",
+      "channel": "retail",
+      "release_date": "2018-03-08",
+      "date_note": null,
+      "notes": [
+        "Improved sleep-state effects and expanded 거울숲 access.",
+        "Revised monster AI and ability-experience rewards in 노엠, 아슬론 and 거울숲."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4660",
+          "title": "[정기점검] 03/08(목) 정식 서비스 서버 v9360 패치 안내",
+          "published": "2018.03.07. 17:27",
+          "published_version": "v9360",
+          "capture_key": "article-update-4660",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4660.html",
+          "raw_sha256": "f7e6f15b6eb7950ddf602e114b25942bc0623d976b5ee5f4a32ebd76b18f19cd",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4660.txt",
+          "fulltext_sha256": "a359017842d534c292d44100f7417c6571ea55157be4522864443c6125ad1d24",
+          "scheduled_release_date": "2018-03-08"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4660",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.370",
+      "channel": "hades",
+      "release_date": "2017-09-08",
+      "date_note": null,
+      "notes": [
+        "Added item-detail screenshots and mouse-button KeyMap bindings.",
+        "Fixed false speed-hack detections and skill-learning errors; limited 거울숲 attempts to three per day."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4594",
+          "title": "09/08(금) 하데스 서버 v9370 패치 안내 (수정)",
+          "published": "2017.09.08. 17:06",
+          "published_version": "v9370",
+          "capture_key": "article-update-4594",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4594.html",
+          "raw_sha256": "37401a39073517084de46645ecc0ebd90e8fb8976b09dc7a190d780feb26fadc",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4594.txt",
+          "fulltext_sha256": "de86e0f8fe7138f792fae62101944cb82944796c9dddf6761630c37e2b30a532",
+          "scheduled_release_date": "2017-09-08"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4594",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.390",
+      "channel": "hades",
+      "release_date": "2017-09-15",
+      "date_note": null,
+      "notes": [
+        "Added KeyMap macros combining game shortcuts.",
+        "Corrected Pure-class temple travel, point purchases, icons and teleport-feather inventory behavior."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4593",
+          "title": "09/15(금) 하데스 서버 v9390 패치 안내",
+          "published": "2017.09.15. 14:32",
+          "published_version": "v9390",
+          "capture_key": "article-update-4593",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4593.html",
+          "raw_sha256": "e7e89cddff5a6f3a24c0d653115ee73ce78a81a38955a931ec8167e5ae371f9e",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4593.txt",
+          "fulltext_sha256": "231156f2e331352497e441a4982762113e2a032e7e47f7abfba6dec217905a6d",
+          "scheduled_release_date": "2017-09-15"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4593",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.400",
+      "channel": "retail",
+      "release_date": "2018-03-16",
+      "date_note": null,
+      "notes": [
+        "Fixed black screens, incorrect Hide visibility and invalid-coordinate movement on login, recall or 아지토 use."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4664",
+          "title": "03/16(금) 정식 서비스 서버 v9400 패치 안내 (수정)",
+          "published": "2018.03.16. 17:14",
+          "published_version": "v9400",
+          "capture_key": "article-update-4664",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4664.html",
+          "raw_sha256": "14d910acb38c4038956fe0def727d3edf5ab83152a9ae260dd33e5b0af049185",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4664.txt",
+          "fulltext_sha256": "047e6ffb2c24205372c76ffe2192138c70ee6778d4057b31ae922430c4a3dffe",
+          "scheduled_release_date": "2018-03-16"
+        }
+      ],
+      "research_notes": [
+        "The introduction labels March16,2018 as Thursday, but the title and schedule say Friday. The numeric year/month/day is consistent; use2018-03-16 and retain the weekday typo as provenance."
+      ],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4664",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.410",
+      "channel": "hades",
+      "release_date": "2017-09-20",
+      "date_note": null,
+      "notes": [
+        "Fixed teleport-feather screen shifts and KeyMap modifier-key macros.",
+        "Added bank stack counts and profession-change confirmation; fixed access to blocked terrain."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4595",
+          "title": "09/20(수) 하데스 서버 v9410 패치 안내",
+          "published": "2017.09.20. 17:44",
+          "published_version": "v9410",
+          "capture_key": "article-update-4595",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4595.html",
+          "raw_sha256": "f402d9d54915f9488a9ac9d8f0f1ea67134897b8a977ac1dd906afeb16d1906c",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4595.txt",
+          "fulltext_sha256": "11c4f423632ffb89141a238682a344abac7540f73ba8d2857102fc47f9faeabc",
+          "scheduled_release_date": "2017-09-20"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4595",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.440",
+      "channel": "retail",
+      "release_date": "2018-03-29",
+      "date_note": null,
+      "notes": [
+        "Fixed spell-casting-time reductions not applying correctly."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4674",
+          "title": "03/29(목) 정식 서비스 서버 v9440 패치 안내 (수정)",
+          "published": "2018.03.29. 11:43",
+          "published_version": "v9440",
+          "capture_key": "article-update-4674",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4674.html",
+          "raw_sha256": "e648d3b53e605d384739bb146e6d9baf9ff711f1b3e1b9587d1d05969ee1d290",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4674.txt",
+          "fulltext_sha256": "1296efc23874a8b39cd087b7e2412f3e54df97ab321f5cc4319f3a441ad49579",
+          "scheduled_release_date": "2018-03-29"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4674",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.450",
+      "channel": "hades",
+      "release_date": "2017-10-13",
+      "date_note": null,
+      "notes": [
+        "Added Esc cancellation to KeyMap, map zoom for all classes and skill-learning-location descriptions.",
+        "세오의손길 can no longer be removed by 리베라토."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4600",
+          "title": "10/13(금) 하데스 서버 v9450 패치 안내",
+          "published": "2017.10.13. 17:33",
+          "published_version": "v9450",
+          "capture_key": "article-update-4600",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4600.html",
+          "raw_sha256": "b123bf63f45bac4b5ae02c7f95a087afcba8b36a101f5c82c429a7625efeb6aa",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4600.txt",
+          "fulltext_sha256": "5bf4c9e328f9715586e1e99257e9a624cbd476e5e866fada566eb311d5f1997a",
+          "scheduled_release_date": "2017-10-13"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4600",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.460",
+      "channel": "retail",
+      "release_date": "2018-04-12",
+      "date_note": null,
+      "notes": [
+        "Ended the April Fools event and removed its temporary books, skills and spells."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4679",
+          "title": "[정기점검] 04/12(목) 정식 서비스 서버 v9460 패치 안내 (수정)",
+          "published": "2018.04.11. 16:51",
+          "published_version": "v9460",
+          "capture_key": "article-update-4679",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4679.html",
+          "raw_sha256": "89aae6d0219ac39565a017e8c2a5d98950547433c0ea03347d5ec13c55b246e0",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4679.txt",
+          "fulltext_sha256": "ddca9ed35f67cb03f7d9a66692bc6c6b0dd9db8d534aa32d5409597a32a3f928",
+          "scheduled_release_date": "2018-04-12"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4679",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.470",
+      "channel": "hades",
+      "release_date": "2017-10-18",
+      "date_note": null,
+      "notes": [
+        "Allowed item use while characters overlap; changed 거울숲 entry timing and ended 천하제일 무한대전."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4603",
+          "title": "10/18(수) 하데스 서버 v9470 패치 안내",
+          "published": "2017.10.18. 13:48",
+          "published_version": "v9470",
+          "capture_key": "article-update-4603",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4603.html",
+          "raw_sha256": "becca170b208bc89161e7d05f4b8ab41b740d8d3f44267b2ae058385d36383f3",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4603.txt",
+          "fulltext_sha256": "2950117b2a1929f2919a74955cd86e96a540c48d5597c6416bba780f3de1b087",
+          "scheduled_release_date": "2017-10-18"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4603",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.480",
+      "channel": "retail",
+      "release_date": "2018-04-19",
+      "date_note": null,
+      "notes": [
+        "Fixed some Horror Castle and 백작부인의별장 monsters failing to drop items."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4681",
+          "title": "[정기점검] 04/19(목) 정식 서비스 서버 v9480 패치 안내 (수정)",
+          "published": "2018.04.18. 17:47",
+          "published_version": "v9480",
+          "capture_key": "article-update-4681",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4681.html",
+          "raw_sha256": "4b1f8c4ed40fa1ea13a02a2c6d03b9093268929109b4b5a34239dadeb9749285",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4681.txt",
+          "fulltext_sha256": "bca1e478a57f276b454e32df341fc41e74d4e38ac3e1804c1dbf256651087cb3",
+          "scheduled_release_date": "2018-04-19"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4681",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.490",
+      "channel": "hades",
+      "release_date": "2017-10-25",
+      "date_note": null,
+      "notes": [
+        "Map zoom is saved, intermittent black screens were fixed and hunting areas were adjusted."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4609",
+          "title": "10/25(수) 하데스 서버 v9490 패치 안내 (수정)",
+          "published": "2017.10.25. 18:06",
+          "published_version": "v9490",
+          "capture_key": "article-update-4609",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4609.html",
+          "raw_sha256": "13eb9512a378fbfd342c12c53499fc67cf23b90be0820dc90c7b91ac539e58c8",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4609.txt",
+          "fulltext_sha256": "8f2075c1a904b2844a3a455d5739dc23dd87f95ddf1c9e6ebf0c8637bf79bfcb",
+          "scheduled_release_date": "2017-10-25"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4609",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.500",
+      "channel": "retail",
+      "release_date": "2018-05-10",
+      "date_note": null,
+      "notes": [
+        "Added scroll removal at the slot-enhancement shop and finer music/effect volume controls.",
+        "Removed feather reuse restrictions in 히야트던전 and added item storage/destruction services; practice grounds became non-combat zones."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4686",
+          "title": "[정기점검] 05/10(목) 정식 서비스 서버 v9500 패치 안내 (수정)",
+          "published": "2018.05.09. 17:44",
+          "published_version": "v9500",
+          "capture_key": "article-update-4686",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4686.html",
+          "raw_sha256": "cbfb504df2ceac3f5e417b48dbb3ad0eb3ff662a5048faad991676fffdbaa5fd",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4686.txt",
+          "fulltext_sha256": "12bf8ff456ae222ca243c9d7d166c33e92a594a0a946744e557a2ecba2266805",
+          "scheduled_release_date": "2018-05-10"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4686",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.550",
+      "channel": "hades",
+      "release_date": "2017-11-16",
+      "date_note": null,
+      "notes": [
+        "Improved movement response after teleport-feather use and changed booster icons.",
+        "Revised 이아의구원 usage and several material drops; added G-Star coupon support."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4612",
+          "title": "11/16(목) 하데스 서버 v9550 패치 안내 (수정)",
+          "published": "2017.11.15. 18:55",
+          "published_version": "v9550",
+          "capture_key": "article-update-4612",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4612.html",
+          "raw_sha256": "f360b175407cec6759ea076a8fb7cabf2b616b04054fb7a5462489fdef7364c0",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4612.txt",
+          "fulltext_sha256": "2ba4ceafadc479db0ab7fc1e74962d12b4032c6e646fb9d9f05cd362e5823aa0",
+          "scheduled_release_date": "2017-11-16"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4612",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.590",
+      "channel": "hades",
+      "release_date": "2017-11-23",
+      "date_note": null,
+      "notes": [
+        "Added the first-snow event and strengthened anti-cheat defenses.",
+        "Improved connection stability and item-expiry displays; changed repair costs and fishing sale prices."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4618",
+          "title": "11/23(목) 하데스 서버 v9590 패치 안내",
+          "published": "2017.11.22. 18:51",
+          "published_version": "v9590",
+          "capture_key": "article-update-4618",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4618.html",
+          "raw_sha256": "9caa518bee70db53d90fc74f2994009e5380b6dbf2cfa1ec89d9bf652b07b2ad",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4618.txt",
+          "fulltext_sha256": "173c8af8601856d299b2059314364a6c76001658c43ea187c8f155955b1381de",
+          "scheduled_release_date": "2017-11-23"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4618",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.630",
+      "channel": "hades",
+      "release_date": "2017-11-30",
+      "date_note": null,
+      "notes": [
+        "Fixed false blocked-destination indications from teleport feathers.",
+        "Ended new 각인비밀번호 registrations while preserving existing passwords for their remaining term."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4648",
+          "title": "11/30(목) 하데스 서버 v9630 패치 안내 (수정)",
+          "published": "2017.11.29. 16:20",
+          "published_version": "v9630",
+          "capture_key": "article-update-4648",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4648.html",
+          "raw_sha256": "17c6bd6f7aa2f6220b0fc1123e5c6cbd0ba58d184190cc1730048773328c9c97",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4648.txt",
+          "fulltext_sha256": "4b2e2d7840c6b462bde12ba51d67b7d681d7323e63783678757bb10d3bd1d9a5",
+          "scheduled_release_date": "2017-11-30"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4648",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.650",
+      "channel": "hades",
+      "release_date": "2017-12-01",
+      "date_note": null,
+      "notes": [
+        "Fixed intermittent crashes from teleport feathers and missing item-expiry displays.",
+        "Improved detection of unauthorized programs."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4616",
+          "title": "12/01(금) 하데스 서버 v9650 패치 안내 (수정)",
+          "published": "2017.12.01. 14:24",
+          "published_version": "v9650",
+          "capture_key": "article-update-4616",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4616.html",
+          "raw_sha256": "3adeca25fc9777d74ee84cbeae8cd8fab20fbe0e140e8fa9b9bad5f4658813ca",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4616.txt",
+          "fulltext_sha256": "921d13d7c51428cfa4dd99062e6e1b51d47b55a4fdac30dc637be1a974af4a09",
+          "scheduled_release_date": "2017-12-01"
+        },
+        {
+          "url": "https://lod.nexon.com/News/update/4619",
+          "title": "12/06(수) 하데스 서버 v9650 패치 안내 (수정)",
+          "published": "2017.12.05. 19:20",
+          "published_version": "v9650",
+          "capture_key": "article-update-4619",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4619.html",
+          "raw_sha256": "2a7881617dab15d4e310411466231672a13e7be20722a3441d70edc9f9733cd1",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4619.txt",
+          "fulltext_sha256": "8e1635829ed80d7a7e4c2cb38c1dba3d4d595e96fb75887053f66ca4305ec562",
+          "scheduled_release_date": "2017-12-06"
+        },
+        {
+          "url": "https://lod.nexon.com/News/update/4658",
+          "title": "12/07(목) 하데스 서버 v9650 패치 안내 (수정)",
+          "published": "2017.12.06. 16:50",
+          "published_version": "v9650",
+          "capture_key": "article-update-4658",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4658.html",
+          "raw_sha256": "203e888269c512d1c9bc60de71d156d6c2b784b0f3a3a18138ed562c38d3958a",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4658.txt",
+          "fulltext_sha256": "10139cb629a455f45f52787dc992c4012e087033c5f77effcc58c7a6ca4cf7b6",
+          "scheduled_release_date": "2017-12-07"
+        }
+      ],
+      "research_notes": [
+        "2017-12-06: additional notice https://lod.nexon.com/News/update/4619 uses v9650. Expanded shared experience distance and fixed the 밀기 skill.",
+        "2017-12-07: additional notice https://lod.nexon.com/News/update/4658 uses v9650. Server stabilization."
+      ],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4616",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.670",
+      "channel": "hades",
+      "release_date": "2017-12-21",
+      "date_note": null,
+      "notes": [
+        "Added Christmas/New Year events; preserved materials when cancelling advanced-armor upgrades.",
+        "Fixed Black Ophion portal positions and Hanja-key crashes; strengthened anti-cheat defenses."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4627",
+          "title": "12/21(목) 하데스 서버 v9670 패치 안내 (수정)",
+          "published": "2017.12.20. 17:25",
+          "published_version": "v9670",
+          "capture_key": "article-update-4627",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4627.html",
+          "raw_sha256": "bd813be8d7143a4ba487303de7c12ed9959110a491dcee5df1581faca17a7c15",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4627.txt",
+          "fulltext_sha256": "f88bf40c890f875031507a2c22e01949e79a78f6543d1ea4ad949b3e1c2496ed",
+          "scheduled_release_date": "2017-12-21"
+        },
+        {
+          "url": "https://lod.nexon.com/News/update/4631",
+          "title": "12/28(목) 하데스 서버 v9670 패치 안내",
+          "published": "2017.12.27. 17:28",
+          "published_version": "v9670",
+          "capture_key": "article-update-4631",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4631.html",
+          "raw_sha256": "1e36712833572b0d7cd1be83e2ed67744614be3808dbeb4eea39a3a95b571a80",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4631.txt",
+          "fulltext_sha256": "ffab0990ee4da496e0938f51fdb682232b063fbf88fb58df2752aa95fa60958f",
+          "scheduled_release_date": "2017-12-28"
+        }
+      ],
+      "research_notes": [
+        "2017-12-28: additional notice https://lod.nexon.com/News/update/4631 uses v9670. Adjusted Gold earned from selling fish and strengthened anti-cheat defenses."
+      ],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4627",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.690",
+      "channel": "hades",
+      "release_date": "2018-01-11",
+      "date_note": null,
+      "notes": [
+        "Revised HP/MP checks for 백작부인별장 entry and eligibility for 해방의주문서."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4635",
+          "title": "01/11(목) 하데스 서버 v9690 패치 안내 (수정)",
+          "published": "2018.01.10. 17:52",
+          "published_version": "v9690",
+          "capture_key": "article-update-4635",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4635.html",
+          "raw_sha256": "b14bfe8a49b3f7755e7887d48300393b030cff3ad89788d0c58ca3821939bd34",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4635.txt",
+          "fulltext_sha256": "60f5f2e57a36a44429c6e9228f4f2f7ad5d8fef87ea0e6f5f71883f7df30e15f",
+          "scheduled_release_date": "2018-01-11"
+        },
+        {
+          "url": "https://lod.nexon.com/News/update/4637",
+          "title": "01/16(화) 하데스 서버 v9690 패치 안내",
+          "published": "2018.01.16. 16:41",
+          "published_version": "v9690",
+          "capture_key": "article-update-4637",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4637.html",
+          "raw_sha256": "81d382607ae5723052a456ef328e0eb6de243a375655021f981152ec800141ed",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4637.txt",
+          "fulltext_sha256": "ff4a70e72bf6e83aa014ae76e9945a99c8962f44572903dc1cea6c8d4b4bbc89",
+          "scheduled_release_date": "2018-01-16"
+        }
+      ],
+      "research_notes": [
+        "2018-01-16: additional notice https://lod.nexon.com/News/update/4637 uses v9690. Revised some monster AI in the Ophion, 북로톤 and 뮤레칸의역습 dungeons."
+      ],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4635",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.730",
+      "channel": "hades",
+      "release_date": "2018-01-18",
+      "date_note": null,
+      "notes": [
+        "Fixed abnormal durability behavior on scrolled equipment, strengthened anti-cheat defenses and revised dungeon monster AI."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4640",
+          "title": "01/18(목) 하데스 서버 v9730 패치 안내 (수정)",
+          "published": "2018.01.17. 18:19",
+          "published_version": "v9730",
+          "capture_key": "article-update-4640",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4640.html",
+          "raw_sha256": "f31a88e31a7051f1fc904a98deff2e049bddc1431d7da5f6cff768f6eb67f294",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4640.txt",
+          "fulltext_sha256": "53ba379e7a4bd9ba9ec0e6a8e325509d67be22ad86f30d303de8e3918caa9434",
+          "scheduled_release_date": "2018-01-18"
+        },
+        {
+          "url": "https://lod.nexon.com/News/update/4641",
+          "title": "01/18(목) 하데스 서버 v9730 점검 안내 (수정)",
+          "published": "2018.01.18. 15:56",
+          "published_version": "v9730",
+          "capture_key": "article-update-4641",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4641.html",
+          "raw_sha256": "bc8a8f5a581c5c80fb0a0308db79da8ea0189767f98cf117e477480869652b60",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4641.txt",
+          "fulltext_sha256": "d70fb452588cbd186e6f7c337320dd59b7b5160cd0c212e29d35e51e4e116def",
+          "scheduled_release_date": "2018-01-18"
+        }
+      ],
+      "research_notes": [
+        "2018-01-18: additional notice https://lod.nexon.com/News/update/4641 uses v9730. Fixed intermittent crashes when forming a group; stabilized servers."
+      ],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4640",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.750",
+      "channel": "hades",
+      "release_date": "2018-01-25",
+      "date_note": null,
+      "notes": [
+        "Fixed simultaneous-key input, DAM values at or below zero and item-binding errors; adjusted 엑스쿠라눔 prices."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4643",
+          "title": "01/25(목) 하데스 서버 v9750 패치 안내 (수정)",
+          "published": "2018.01.24. 18:20",
+          "published_version": "v9750",
+          "capture_key": "article-update-4643",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4643.html",
+          "raw_sha256": "09528887f883fb8b5b93eba42b936f1aed28e2c5d36b54e5d4290ec62c8ef7f7",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4643.txt",
+          "fulltext_sha256": "9cc538572310c4b7c82e4358be0d6e03f337bc5b94889a2eb48adbd12f3670c8",
+          "scheduled_release_date": "2018-01-25"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4643",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.770",
+      "channel": "hades",
+      "release_date": "2018-02-01",
+      "date_note": null,
+      "notes": [
+        "Fixed the incorrect Friends-tab name in the user list."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4647",
+          "title": "02/01(목) 하데스 서버 v9770 패치 안내",
+          "published": "2018.01.31. 16:55",
+          "published_version": "v9770",
+          "capture_key": "article-update-4647",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4647.html",
+          "raw_sha256": "cd460eebe72e7cd4ebc9160a678848f99ba918ece1336f01fc8406bdca4b977e",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4647.txt",
+          "fulltext_sha256": "27c6d44e8368118a06323fee7fcfe67941bc72668920680862ee4d5a43210f84",
+          "scheduled_release_date": "2018-02-01"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4647",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.790",
+      "channel": "hades",
+      "release_date": "2018-02-08",
+      "date_note": null,
+      "notes": [
+        "Added mouse-wheel and side-button KeyMap bindings.",
+        "Started Lunar New Year events, added event items and changed selected bracelet options."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4651",
+          "title": "02/08(목) 하데스 서버 v9790패치 안내",
+          "published": "2018.02.07. 17:19",
+          "published_version": "v9790",
+          "capture_key": "article-update-4651",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4651.html",
+          "raw_sha256": "5c3714953fb5a3667157470197d24b5e21ddb700def366384a7a9f0000323811",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4651.txt",
+          "fulltext_sha256": "2dd17c55479a1cb1e6a21112f032903a1a073b5441430f5cfb40751bb06e18e9",
+          "scheduled_release_date": "2018-02-08"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4651",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.830",
+      "channel": "hades",
+      "release_date": "2018-02-13",
+      "date_note": null,
+      "notes": [
+        "Improved 뮤레칸의역습 entry and capacity; fixed event-item distribution and mouse-wheel KeyMap behavior.",
+        "Expanded outfit gender exchanges and allowed teleport feathers in the maze leading to 오렌미궁."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4667",
+          "title": "02/13(화) 하데스 서버 v9830 패치 안내 (수정)",
+          "published": "2018.02.12. 17:02",
+          "published_version": "v9830",
+          "capture_key": "article-update-4667",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4667.html",
+          "raw_sha256": "27871485a2853ef6a7d07c5b1aec42cbb3450b6fbda63b81a3d044925ee6f809",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4667.txt",
+          "fulltext_sha256": "4200267ded79645c1ce2fdae34ae91801ac840862dce444c74dc3d66f0526c1c",
+          "scheduled_release_date": "2018-02-13"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4667",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.850",
+      "channel": "hades",
+      "release_date": "2018-02-23",
+      "date_note": null,
+      "notes": [
+        "Revised 엔도르 dungeon monster behavior, fixed minimap crashes and added anti-cheat defenses."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4655",
+          "title": "02/23(금) 하데스 서버 v9850 패치 안내",
+          "published": "2018.02.23. 11:13",
+          "published_version": "v9850",
+          "capture_key": "article-update-4655",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4655.html",
+          "raw_sha256": "edd4fc09f395107819e137ce5505da65a36d82ba7bdce5e91beefba3a4cbbd8a",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4655.txt",
+          "fulltext_sha256": "a2ee6322747d35165f62f2069a8247a4ae3cc0517066f91f6bab08836d627fef",
+          "scheduled_release_date": "2018-02-23"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4655",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.870",
+      "channel": "hades",
+      "release_date": "2018-02-23",
+      "date_note": null,
+      "notes": [
+        "Fixed characters becoming unable to move after the earlier February 23 maintenance."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4656",
+          "title": "02/23(금) 하데스 서버 v9870 패치 안내",
+          "published": "2018.02.23. 16:34",
+          "published_version": "v9870",
+          "capture_key": "article-update-4656",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4656.html",
+          "raw_sha256": "5378621fcd215439e0dbe594ab2eb93e9929c3e9f074df0932d85465c846e1d4",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4656.txt",
+          "fulltext_sha256": "156c8b10dd90e8fb1641bd90f9b500c5e8671bc5d3540eb6ce81d4b8468b2495",
+          "scheduled_release_date": "2018-02-23"
+        },
+        {
+          "url": "https://lod.nexon.com/News/update/4727",
+          "title": "02/27(화) 하데스 서버 v9870 패치 안내(완료)",
+          "published": "2018.02.26. 16:37",
+          "published_version": "v9870",
+          "capture_key": "article-update-4727",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4727.html",
+          "raw_sha256": "0a2a9fb4a848a2d4fa558b3e7a79876bf24ff1ab9420374ccdb4ab29fd72abb1",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4727.txt",
+          "fulltext_sha256": "6d182c7926030490937f0de07a1d5147610f02159de5a0acf0b510cbf6365f85",
+          "scheduled_release_date": "2018-02-27"
+        }
+      ],
+      "research_notes": [
+        "2018-02-27: additional notice https://lod.nexon.com/News/update/4727 uses v9870. Ended Lunar New Year events, deleted the specified event items and stopped the snow."
+      ],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4656",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.890",
+      "channel": "hades",
+      "release_date": "2018-03-05",
+      "date_note": null,
+      "notes": [
+        "Improved sleep-state effects and expanded 거울숲 access.",
+        "Revised monster AI and ability-experience rewards in 노엠, 아슬론 and 거울숲."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4659",
+          "title": "03/05(월) 하데스 서버 v9890 패치 안내",
+          "published": "2018.03.05. 17:21",
+          "published_version": "v9890",
+          "capture_key": "article-update-4659",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4659.html",
+          "raw_sha256": "8164a5a028844793a939cf15562638e16884e5247457b7d5730d7b2dace14e29",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4659.txt",
+          "fulltext_sha256": "5bc6639b96e704b5c643b660df254fa0d636892ac11dc353a4d8790e6a3c151c",
+          "scheduled_release_date": "2018-03-05"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4659",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.910",
+      "channel": "hades",
+      "release_date": "2018-03-08",
+      "date_note": null,
+      "notes": [
+        "Revised spell-casting UI and text input; displayed cast times and cooldowns in skill/spell settings."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4662",
+          "title": "03/08(목) 하데스 서버 v9910 패치 안내",
+          "published": "2018.03.07. 17:30",
+          "published_version": "v9910",
+          "capture_key": "article-update-4662",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4662.html",
+          "raw_sha256": "6ceb8e61c455347fa791cc4ec32f960b0a6defdda18e7f0cffd08e057c14372a",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4662.txt",
+          "fulltext_sha256": "4b3a419e5bfeb5336e5520570a0391eafa52206f49daac6fa9b3ffc54f979387",
+          "scheduled_release_date": "2018-03-08"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4662",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.970",
+      "channel": "hades",
+      "release_date": "2018-03-16",
+      "date_note": null,
+      "notes": [
+        "Fixed black screens, incorrect Hide visibility and invalid-coordinate movement on login, recall or 아지토 use.",
+        "Corrected displayed damage for some skills without changing actual damage."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4666",
+          "title": "03/16(금) 하데스 서버 v9970 패치 안내 (수정)",
+          "published": "2018.03.16. 17:16",
+          "published_version": "v9970",
+          "capture_key": "article-update-4666",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4666.html",
+          "raw_sha256": "a59fb0e4fc72872705763c9d10c5848e324c3d000e8c6bc20d1ec3b625e7e78b",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4666.txt",
+          "fulltext_sha256": "6fd867465dc6273ced629a297dd9b43a596d687f74c60c8c009b297059bdbf7f",
+          "scheduled_release_date": "2018-03-16"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4666",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "9.990",
+      "channel": "hades",
+      "release_date": "2018-03-22",
+      "date_note": null,
+      "notes": [
+        "Server stabilization."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4670",
+          "title": "03/22(목) 하데스 서버 v9990 패치 안내 (수정)",
+          "published": "2018.03.21. 15:54",
+          "published_version": "v9990",
+          "capture_key": "article-update-4670",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4670.html",
+          "raw_sha256": "03cdc73471ced7ae56e3b7b00727b0aa5da4819da427c63fd99c0eeea7336506",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4670.txt",
+          "fulltext_sha256": "5251ecc138036b50a077bb94b92d36c9d2798cb581ec787c306e88d85f31faf1",
+          "scheduled_release_date": "2018-03-22"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4670",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "10.010",
+      "channel": "hades",
+      "release_date": "2018-03-27",
+      "date_note": null,
+      "notes": [
+        "Tested the April Fools event and allowed life skills/spells in the combined shortcut bar."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4671",
+          "title": "03/27(화) 하데스 서버 v10010 패치 안내",
+          "published": "2018.03.27. 12:02",
+          "published_version": "v10010",
+          "capture_key": "article-update-4671",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4671.html",
+          "raw_sha256": "055ffd1b0496774188fa6c1599f9635ab0d32e2f751958ca638dc5320ad4678d",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4671.txt",
+          "fulltext_sha256": "5cb89e85a49fbbea25138ff9623a9d8d3fe1802520335eeb1edc52c5c1a3cdd0",
+          "scheduled_release_date": "2018-03-27"
+        },
+        {
+          "url": "https://lod.nexon.com/News/update/4672",
+          "title": "03/29(목) 하데스 서버 v10010 패치 안내 (수정)",
+          "published": "2018.03.28. 17:37",
+          "published_version": "v10010",
+          "capture_key": "article-update-4672",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4672.html",
+          "raw_sha256": "a12d6f9b6800c950ee4aeb3487c8b1c02ebafb207c06bdde9f77f1c7ca32aa12",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4672.txt",
+          "fulltext_sha256": "febb20901f4b7e7d17fe3913d67e2374bf67d520ca4148a08affdaf4b3d735a9",
+          "scheduled_release_date": "2018-03-29"
+        }
+      ],
+      "research_notes": [
+        "2018-03-29: additional notice https://lod.nexon.com/News/update/4672 uses v10010. Server stabilization."
+      ],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4671",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "10.030",
+      "channel": "hades",
+      "release_date": "2018-04-05",
+      "date_note": null,
+      "notes": [
+        "Revised 거울숲 monster AI, western-continent defense/rewards and the skill-restoration helper.",
+        "Fixed rapid feather-travel mouse clicks and limited daily 용자의공원 lottery use."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4676",
+          "title": "04/05(목) 하데스 서버 v10030 패치 안내 (수정)",
+          "published": "2018.04.04. 17:22",
+          "published_version": "v10030",
+          "capture_key": "article-update-4676",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4676.html",
+          "raw_sha256": "6c0f31b4422f478bfd5b9225939566f6217811b8dbd9ff705660f575ecba4c6b",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4676.txt",
+          "fulltext_sha256": "af201672a3aea32c9e9990ef74b09fd8da80610f82e698779d7c846e7ed8c737",
+          "scheduled_release_date": "2018-04-05"
+        },
+        {
+          "url": "https://lod.nexon.com/News/update/4680",
+          "title": "04/12(목) 하데스 서버 v10030 패치 안내 (수정)",
+          "published": "2018.04.11. 16:54",
+          "published_version": "v10030",
+          "capture_key": "article-update-4680",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4680.html",
+          "raw_sha256": "c0db15dbcce5c89795b57ab61eeb972947915e74c34588fc40c152fc5add036a",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4680.txt",
+          "fulltext_sha256": "df35e9d47d80778f95542e7966625647401ea5b3d215d2de30e4de88634e5d44",
+          "scheduled_release_date": "2018-04-12"
+        }
+      ],
+      "research_notes": [
+        "2018-04-12: additional notice https://lod.nexon.com/News/update/4680 uses v10030. Ended the April Fools event and removed its temporary books, skills and spells."
+      ],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4676",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "10.050",
+      "channel": "hades",
+      "release_date": "2018-04-19",
+      "date_note": null,
+      "notes": [
+        "Fixed some Horror Castle and 백작부인의별장 monsters failing to drop items."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4682",
+          "title": "04/19(목) 하데스 서버 v10050 패치 안내 (수정)",
+          "published": "2018.04.18. 17:58",
+          "published_version": "v10050",
+          "capture_key": "article-update-4682",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4682.html",
+          "raw_sha256": "7a1fd93ff2fa981368c4090b3332e7518cc2ee429a3f67dc352b8796bd02e98d",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4682.txt",
+          "fulltext_sha256": "2a606674d31a4f180b8ee89cc095f684ff104d7268f3fa76a384690c4eb627a9",
+          "scheduled_release_date": "2018-04-19"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4682",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "10.070",
+      "channel": "hades",
+      "release_date": "2018-05-10",
+      "date_note": null,
+      "notes": [
+        "Added scroll removal at the slot-enhancement shop and finer music/effect volume controls.",
+        "Removed feather reuse restrictions in 히야트던전 and added item storage/destruction services; practice grounds became non-combat zones."
+      ],
+      "sources": [
+        {
+          "url": "https://lod.nexon.com/News/update/4687",
+          "title": "05/10(목) 하데스 서버 v10070 패치 안내 (수정)",
+          "published": "2018.05.09. 17:48",
+          "published_version": "v10070",
+          "capture_key": "article-update-4687",
+          "raw_html": "data/version-research/2026-10-13/news-agent/raw/article-update-4687.html",
+          "raw_sha256": "d43dc5665ef733247623b190538773d30e1b4f5f89a9899a9249e294ecfee399",
+          "fulltext_capture": "data/version-research/2026-10-13/news-agent/text/article-update-4687.txt",
+          "fulltext_sha256": "8d05f6532087b837bc3567ac94221199bd7e1058a15c8e2b09cdbdf0d1df94b0",
+          "scheduled_release_date": "2018-05-10"
+        }
+      ],
+      "research_notes": [],
+      "existing_master_id": null,
+      "action": "add_release",
+      "primary_source_url": "https://lod.nexon.com/News/update/4687",
+      "date_basis": "explicit numeric date in official body/schedule",
+      "source_version_normalization": "Compact v#### divided into catalog major.three-digit suffix; exact publisher spelling retained per source."
+    },
+    {
+      "version": "2.10",
+      "channel": "retail",
+      "release_date": null,
+      "date_note": "Named as a previously used client in the 2.12 upgrade notice; no release day is established.",
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20000302155557id_/http://lod.nexon.co.kr/news/19981204.html",
+          "title": "Official archived news — 2.12 version upgrade",
+          "published": null,
+          "capture_key": "e927b2f3a7eaa724b7",
+          "capture_record": "archive/early-news/e927b2f3a7eaa724b7.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/19981204.html",
+          "retrieved_at": "2026-10-14T04:28:09.227955+00:00",
+          "sha256": "b70471968c7c6192dce7911c2bab69ff6bddfa4389ee2e61d6d3083e451f1f04"
+        }
+      ],
+      "research_notes": [
+        "The 2.12 notice directly names 2.10 and 2.11 clients as predecessors. This proves the labels, not their release dates or particular changes."
+      ]
+    },
+    {
+      "version": "2.11",
+      "channel": "retail",
+      "release_date": null,
+      "date_note": "Named as a previously used client in the 2.12 upgrade notice; no release day is established.",
+      "notes": [],
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20000302155557id_/http://lod.nexon.co.kr/news/19981204.html",
+          "title": "Official archived news — 2.12 version upgrade",
+          "published": null,
+          "capture_key": "e927b2f3a7eaa724b7",
+          "capture_record": "archive/early-news/e927b2f3a7eaa724b7.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/19981204.html",
+          "retrieved_at": "2026-10-14T04:28:09.227955+00:00",
+          "sha256": "b70471968c7c6192dce7911c2bab69ff6bddfa4389ee2e61d6d3083e451f1f04"
+        }
+      ],
+      "research_notes": [
+        "The 2.12 notice directly names 2.10 and 2.11 clients as predecessors. This proves the labels, not their release dates or particular changes."
+      ]
+    },
+    {
+      "version": "2.12",
+      "channel": "retail",
+      "release_date": "1998-12-04",
+      "date_note": "The body explicitly reports an upgrade on 12/04. The year is contextual, from the publisher's dated 19981204.html source path; it is not printed in the surviving body. The archive capture date is not the release date.",
+      "notes": [
+        "Adds an option to switch the animated torch effects in the Kasmanium mine on or off.",
+        "Adds data for four fifth-circle monsters, five fifth-circle outfits, two Christmas-event outfits and a New Year card.",
+        "Adds Push, a second-circle rogue skill.",
+        "Removes login loading, improves speed and fixes screen redraw problems under the named status effects."
+      ],
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20000302155557id_/http://lod.nexon.co.kr/news/19981204.html",
+          "title": "Official archived news — 2.12 version upgrade",
+          "published": null,
+          "capture_key": "e927b2f3a7eaa724b7",
+          "capture_record": "archive/early-news/e927b2f3a7eaa724b7.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/19981204.html",
+          "retrieved_at": "2026-10-14T04:28:09.227955+00:00",
+          "sha256": "b70471968c7c6192dce7911c2bab69ff6bddfa4389ee2e61d6d3083e451f1f04"
+        }
+      ],
+      "research_notes": [
+        "The original map-view paragraph and spell/skill \"세이\" wording are preserved in the capture; their precise UI/command meaning is not resolved here. Do not silently translate \"세이\" as a particular spoken or save command.",
+        "The patch instructions name 2.10/2.11 as predecessor versions. A later automatic-update sentence reads 2.10/2.12; preserve this source inconsistency instead of treating it as proof of a separate release."
+      ]
+    },
+    {
+      "version": "2.14",
+      "channel": "retail",
+      "release_date": "1999-02-23",
+      "date_note": "The notice is dated 99.02.23 and explicitly schedules the upgrade for 99/02/23; actual deployment time was not independently observed.",
+      "notes": [
+        "Adds distributed-server support, a friends list, guild-member markers in the user list and character legends.",
+        "Adds conversation mode and chat in the exchange window; places user configuration files in a separate folder.",
+        "Adds waiting-room maps for the catacombs and Piet dungeon, event-item data and a client notice screen; fixes minor bugs."
+      ],
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20000531121213id_/http://lod.nexon.co.kr/news/19990223.html",
+          "title": "Official archived news — 2.14 version",
+          "published": "1999-02-23",
+          "capture_key": "f6dbf41099cce10141",
+          "capture_record": "archive/early-news/f6dbf41099cce10141.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/19990223.html",
+          "retrieved_at": "2026-10-14T04:28:09.983614+00:00",
+          "sha256": "373e1c2b06a1a274a0a092de9abf399a5f0cc1c4e842d3f78007741016ae98b9"
+        }
+      ],
+      "research_notes": [
+        "The notice says automatic updating was unavailable for this release; it offered a full client or manual patch. This is distribution evidence, not a recovered download or installer identity."
+      ]
+    },
+    {
+      "version": "2.15",
+      "channel": "retail",
+      "release_date": null,
+      "date_note": "The publisher's notice is dated 1999-02-26 and describes version 2.15 in operation; it does not explicitly establish the release day.",
+      "notes": [
+        "The version notice describes a four-component distributed-server arrangement: login, towns and two dungeon servers, expanded from three components."
+      ],
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/19990902163536id_/http://lod.nexon.co.kr/news/19990226.html",
+          "title": "Official archived news — 2.15 distributed-server operation",
+          "published": "1999-02-26",
+          "capture_key": "57195f3d4b23cadad7",
+          "capture_record": "archive/early-news/57195f3d4b23cadad7.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/19990226.html",
+          "retrieved_at": "2026-10-14T04:28:10.386437+00:00",
+          "sha256": "4a9d32df95d96918539bae41f128bdcd39223e84ddeb1f0c50cb04a4874a9e67"
+        }
+      ],
+      "research_notes": [
+        "The body explains that whispers cannot cross component servers and transfers can take time. It is a dated operation report, not an explicit statement that 2.15 launched on its publication day.",
+        "This Korean 2.15 is independent of the catalog's U.S. closed-beta 2.15. Do not merge them across regions."
+      ]
+    },
+    {
+      "version": "2.16",
+      "channel": "retail",
+      "release_date": null,
+      "date_note": "The publisher's notice is dated 1999-04-30 and discusses the 2.16 version; no explicit release-day statement survives.",
+      "notes": [
+        "Improves internal optimization and stability."
+      ],
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/19991012153603id_/http://lod.nexon.co.kr:80/news/19990430.html",
+          "title": "Official archived news — 2.16 version",
+          "published": "1999-04-30",
+          "capture_key": "3f2009c8d7ffda296e",
+          "capture_record": "archive/early-news/3f2009c8d7ffda296e.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/19990430.html",
+          "retrieved_at": "2026-10-14T04:25:35.692142+00:00",
+          "sha256": "dabed29006f76dc8ab078ea46194ad6bc0989678ede19eced1f532cbf65d0154"
+        }
+      ],
+      "research_notes": [
+        "The captured source retains an explicit :80 in its replay URL and was successfully retrieved. Do not replace its capture timestamp with a guessed release date."
+      ]
+    },
+    {
+      "version": "3.03",
+      "channel": "retail",
+      "release_date": null,
+      "date_note": "The December 13, 1999 update notice schedules the patch only for \"this week\"; the older dated HTML says \"next week\". No exact release day is established.",
+      "notes": [
+        "Preparatory update for third-circle outfit animation fixes, monster fixes, nationality display, pathfinding and automatic-attack fixes, and moving the speed indicator.",
+        "Prepares Christmas/snow-event assets, skiing clothes, pet dogs, penguin outfits and 20 new hairstyles for each sex.",
+        "Prepares equipment data, fourfold expansions of Mileth, Abel and Rucesion, and a mine reset; the publisher warns that most visible changes would arrive later."
+      ],
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010708214929id_/http://lod.nexon.co.kr/news/update01.asp?no=79",
+          "title": "Official archived Update — 3.03 patch",
+          "published": "1999-12-13",
+          "capture_key": "115e3ed388bc77cb36",
+          "capture_record": "archive/update-pages/115e3ed388bc77cb36.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/update01.asp?no=79",
+          "retrieved_at": "2026-10-14T04:30:36.374803+00:00",
+          "sha256": "7e4396a75d85a0334ee8fd5f04fa075715e0313102e802cec8546cdf08d972f6"
+        },
+        {
+          "url": "https://web.archive.org/web/20000229194752id_/http://lod.nexon.co.kr/news/19991209-1.html",
+          "title": "Official archived dated HTML — 3.03 patch",
+          "published": null,
+          "capture_key": "3852edb1e90a74a994",
+          "capture_record": "archive/early-news/3852edb1e90a74a994.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/19991209-1.html",
+          "retrieved_at": "2026-10-14T04:28:56.385856+00:00",
+          "sha256": "f276b785de36e9961d6eb38b6dcb01612bd80427ea11672b014d794193e78173"
+        }
+      ],
+      "research_notes": [
+        "The December 13 date is the ASP registration date, not the release date. The older 19991209-1.html copy has an earlier relative schedule; neither supplies a day.",
+        "Do not present all prepared content as having gone live with the client update."
+      ]
+    },
+    {
+      "version": "3.04",
+      "channel": "retail",
+      "release_date": "1999-12-29",
+      "date_note": "The December 28, 1999 notice explicitly schedules 3.04 after regular maintenance on December 29; actual deployment was not independently observed.",
+      "notes": [
+        "Prepares Millennium and hair-event content, fourth-circle colored event outfits, weather effects, monsters, merchants and a new dungeon form.",
+        "Fixes a display bug, prepares a threefold mine expansion and two Mileth dungeons; some event clothing and weapons were to become available later."
+      ],
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010708215327id_/http://lod.nexon.co.kr/news/update01.asp?no=80",
+          "title": "Official archived Update — 3.04 version patch",
+          "published": "1999-12-28",
+          "capture_key": "1cd52993189db6abfc",
+          "capture_record": "archive/update-pages/1cd52993189db6abfc.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/update01.asp?no=80",
+          "retrieved_at": "2026-10-14T04:30:36.745735+00:00",
+          "sha256": "4290b1000a541c136086e0403922b04b75e3eb8bb1644155f4964c2aea957803"
+        }
+      ],
+      "research_notes": [
+        "The publisher calls this a data-file patch. The Town of Death event dungeon was to open during the event, with a full opening planned for late January 2000; this is not evidence that every staged feature was available December 29."
+      ]
+    },
+    {
+      "version": "3.10",
+      "channel": "retail",
+      "release_date": "2000-01-25",
+      "date_note": "The body schedules 3.10 for January 25 at 10:00 a.m. The year is contextual, from the publisher's dated 20000124.html source path and a March 2000 capture; it is not printed in the surviving body. Actual deployment was not independently observed.",
+      "notes": [
+        "Adds multi-server operation for the Seo, Khan and Hades books/servers.",
+        "Adds data for new warrior skills, whose activation was planned later that week after the multi-server system stabilized."
+      ],
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20000302195910id_/http://lod.nexon.co.kr/news/20000124.html",
+          "title": "Official archived news — 3.10 version patch",
+          "published": null,
+          "capture_key": "89a9f9682352835231",
+          "capture_record": "archive/early-news/89a9f9682352835231.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/20000124.html",
+          "retrieved_at": "2026-10-14T04:29:10.057954+00:00",
+          "sha256": "f6cb38d297c6067a800dda7ee7292ccc8c0bb164090260f8d6e17c03744978e0"
+        }
+      ],
+      "research_notes": [
+        "The notice requires a new full client and says neither automatic nor manual patching would work. No corresponding package was recovered in this research.",
+        "The shared notice names Hades among server destinations. This alone does not establish a separately numbered Hades executable or beta package."
+      ]
+    },
+    {
+      "version": "3.11",
+      "channel": "retail",
+      "release_date": "2000-03-07",
+      "date_note": "The notice is registered March 7, 2000 and explicitly schedules the patch for March 7 at 10:00 a.m.; actual deployment was not independently observed.",
+      "notes": [
+        "Adds rogue traps and fifth-circle outfit variants.",
+        "Adds official-guild castles, outfits and weapons.",
+        "Adds the first 30-floor Town of Death underground dungeon for fifth-circle characters, plus monsters for the town interiors and underground areas."
+      ],
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010708215343id_/http://lod.nexon.co.kr/news/update01.asp?no=81",
+          "title": "Official archived Update — 3.11 patch notice",
+          "published": "2000-03-07",
+          "capture_key": "98e7d55deae4007bd1",
+          "capture_record": "archive/update-pages/98e7d55deae4007bd1.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/update01.asp?no=81",
+          "retrieved_at": "2026-10-14T04:30:36.799456+00:00",
+          "sha256": "cd04f6e1c6176da52481d230bc690c9c03d6729e02ec1b5f305d77d86661dbaa"
+        }
+      ],
+      "research_notes": [
+        "Enrich the existing Korean production 3.11 record; do not create a duplicate. The preserved CD clients independently identify version 311, but this notice does not establish that either recovered installer is the exact March 7 package."
+      ],
+      "existing_record_action": "enrich_existing_korean_retail_3.11"
+    },
+    {
+      "version": "3.50",
+      "channel": "retail",
+      "release_date": "2000-05-02",
+      "date_note": "The June 12, 2000 retrospective explicitly says the 3.50 patch occurred on May 2. A May 2 notice uses 3.5/3,5 for matching content; June 12 is not the release date.",
+      "notes": [
+        "Prepares advancement outfits, class weapons, hats, skill/spell effects and related data.",
+        "Adds Town of Death floors 31–50, including a town-like floor 31, recall-making materials from floors 32–50, maze areas and monsters.",
+        "Prepares May customer-event items including sea, flame, earth and wind pendants. Advancement/class-change activation was planned for mid-May after the data patch."
+      ],
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010623180231id_/http://lod.nexon.co.kr/news/update01.asp?no=84",
+          "title": "Official archived Update — 3.50 patch guide",
+          "published": "2000-06-12",
+          "capture_key": "8b7046a1f8d859de9a",
+          "capture_record": "archive/update-pages/8b7046a1f8d859de9a.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/update01.asp?no=84",
+          "retrieved_at": "2026-10-14T04:30:37.390389+00:00",
+          "sha256": "3e3788216b41788a708c488fc2acb1442a286270a6faad5f228067c128b0693b"
+        },
+        {
+          "url": "https://web.archive.org/web/20010708214900id_/http://lod.nexon.co.kr/news/update01.asp?no=121",
+          "title": "Official archived Update — 3.5 patch content",
+          "published": "2000-05-02",
+          "capture_key": "69858ee00b01d9bf77",
+          "capture_record": "archive/update-pages/69858ee00b01d9bf77.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/update01.asp?no=121",
+          "retrieved_at": "2026-10-14T04:30:34.909210+00:00",
+          "sha256": "02f94741a28ed87f622c0f1e4f93caa5bd3d5bd4d8e5281fbbb8b05cacd0cb89"
+        }
+      ],
+      "research_notes": [
+        "Treat 3.5 and 3,5 in the May 2 source as source spellings for this 3.50 patch, not three releases: the later body explicitly names May 2 and repeats the same content.",
+        "The source distinguishes preparation data from the later gameplay activation; do not date advancement/class-change availability solely from this client release."
+      ],
+      "source_version_spellings": [
+        "3.50",
+        "3.5",
+        "3,5"
+      ]
+    },
+    {
+      "version": "3.6",
+      "channel": "retail",
+      "release_date": "2000-06-20",
+      "date_note": "Two notices registered June 19, 2000 explicitly schedule 3.6 for the morning of Tuesday, June 20; actual deployment was not independently observed.",
+      "notes": [
+        "Prepares Red Dragon Cave advancement-dungeon data, monsters, effects, skills/spells and monster behavior patterns.",
+        "Adds a beginner-school area, formation-spell effects, speed improvements and graphics fixes. Advancement/class-change activation was scheduled for the last week of June after the data patch."
+      ],
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010623181231id_/http://lod.nexon.co.kr/news/update01.asp?no=85",
+          "title": "Official archived Update — 3.6 patch notice",
+          "published": "2000-06-19",
+          "capture_key": "a9d7ddf302bf270626",
+          "capture_record": "archive/update-pages/a9d7ddf302bf270626.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/update01.asp?no=85",
+          "retrieved_at": "2026-10-14T04:30:37.628951+00:00",
+          "sha256": "5efe34512ce797680650176bf0fe051b35902c31ef8fa000a67790be09174b2a"
+        },
+        {
+          "url": "https://web.archive.org/web/20010623181439id_/http://lod.nexon.co.kr/news/update01.asp?no=86",
+          "title": "Official archived Update — 3.6 patch guide",
+          "published": "2000-06-19",
+          "capture_key": "4d6d6a20b252063315",
+          "capture_record": "archive/update-pages/4d6d6a20b252063315.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/update01.asp?no=86",
+          "retrieved_at": "2026-10-14T04:30:37.795540+00:00",
+          "sha256": "544e5f8fb8cf3441ace7ad21df4d5db5b6cc3c12c8ec66688c1386cdffac6ada"
+        }
+      ],
+      "research_notes": [
+        "The publisher prints 3.6. This research preserves that spelling and does not invent a separate 3.60 release.",
+        "Later 3.61 text still plans the Red Dragon Cave opening in August; preserve the distinction between shipped data and a later opening."
+      ]
+    },
+    {
+      "version": "3.61",
+      "channel": "retail",
+      "release_date": "2000-08-01",
+      "date_note": "The July 31, 2000 notice twice schedules 3.61 for the morning of August 1; actual deployment was not independently observed.",
+      "notes": [
+        "Adds advancement martial-artist weapon data, pending advancement skill/spell effects and icons, and adjustments to advancement clothing for class changes.",
+        "Adds Red Dragon Cave glove, greave, necklace and belt data.",
+        "Prepares summer undersea-event swimsuits, oxygen tanks, flippers and maps, and reworks honeymoon destinations. The summer dungeon was planned for early August and Red Dragon Cave for later in August."
+      ],
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010623182736id_/http://lod.nexon.co.kr/news/update01.asp?no=87",
+          "title": "Official archived Update — 3.61 patch",
+          "published": "2000-07-31",
+          "capture_key": "bc8bb27a6ae17b51e8",
+          "capture_record": "archive/update-pages/bc8bb27a6ae17b51e8.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/update01.asp?no=87",
+          "retrieved_at": "2026-10-14T04:30:37.817077+00:00",
+          "sha256": "dc34d3fc1024f4587abd8f30542f990aa31bc9ead031a8b6ccce2c21ec9a329d"
+        }
+      ],
+      "research_notes": [
+        "The source distinguishes the August 1 client patch from later dungeon openings; the dates of those openings were not independently recovered here."
+      ]
+    },
+    {
+      "version": "4.2",
+      "channel": "retail",
+      "release_date": "2001-03-13",
+      "date_note": "The surviving body explicitly schedules 4.2 for March 13 in the morning, while its registration header says January 24, 2001. The schedule is retained with that mismatch disclosed; actual deployment was not independently observed.",
+      "notes": [
+        "Removes accumulated snow and adds yellow spring training outfits and event clothing.",
+        "Adds Omok and football minigame areas, advancement skill/spell-quest dungeon data, and warrior advancement helmets; improves martial-artist advancement-headband graphics.",
+        "The notice says full application would take about a week after the patch."
+      ],
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20010623183311id_/http://lod.nexon.co.kr/news/update01.asp?no=88",
+          "title": "Official archived Update — 4.2 patch notice",
+          "published": "2001-01-24",
+          "capture_key": "8637d69d6a108a9454",
+          "capture_record": "archive/update-pages/8637d69d6a108a9454.json",
+          "source_url": "http://lod.nexon.co.kr:80/news/update01.asp?no=88",
+          "retrieved_at": "2026-10-14T04:30:38.230532+00:00",
+          "sha256": "8c5907bdc59eddcdd05e778cfb7b232adcf3944e8695cc45891b84d4f09aab6a"
+        }
+      ],
+      "research_notes": [
+        "The body apologizes for a delayed patch. The January 24 header and March 13 body schedule are preserved, not silently reconciled into a January 24 release.",
+        "The publisher prints 4.2; this research does not invent a distinct 4.20 package identity."
+      ]
+    }
+  ],
+  "current_client_observation": [
+    {
+      "channel": "production",
+      "numeric_game_version": null,
+      "numeric_game_version_status": "Not established by this observation. Do not substitute manifest-format, NGM manager, Unity engine, gid, game_code, or archived client versions.",
+      "configuration_url": "https://ngmapi.nexon.com/game-info/106602@021e",
+      "configuration_capture": "data/version-research/2026-10-13/client-agent/requests/production-config.body",
+      "configuration_sha256": "f8f6a12d5f815d2e4fb8ec1e19bd1d5bbb75507ec0bbf5008aec7e69f254c861",
+      "observed_at": "2026-10-14T04:23:49.292979+00:00",
+      "official_website_function": "GameDownload / GameStart",
+      "website_game_code": "106602@021e",
+      "game_id": "lod_r",
+      "game_name": "어둠의전설",
+      "executable_file_name": "Legend.exe",
+      "manifest_name": "5fd1b3dbddd54524ab35cfe17ac2d393",
+      "manifest_url": "https://lod.dn.nexoncdn.co.kr/Patch/Binary/5fd1b3dbddd54524ab35cfe17ac2d393",
+      "manifest_capture": "data/version-research/2026-10-13/client-agent/requests/production-manifest.body",
+      "manifest_sha256": "92d015de8d4ca8be13e34ca151b5ed83b566c8d5d209b7de7ec8ebc42ecfeff1",
+      "manifest_last_modified": "Wed, 30 Sep 2026 05:55:53 GMT",
+      "manifest_version_field": "1.0",
+      "manifest_version_interpretation": "File-manifest format indicator; not a published numeric game version. Inference from structure and static manager reader.",
+      "file_count": 156,
+      "total_uncompressed_size": 665209447,
+      "total_compressed_size": 341376483,
+      "engine_file_evidence": [
+        "UnityPlayer.dll",
+        "GameAssembly.dll",
+        "Legend_Data\\il2cpp_data\\Metadata\\global-metadata.dat",
+        "Legend_Data\\data.unity3d"
+      ],
+      "main_executable_manifest_entry": {
+        "objects": {
+          "1": "695cc6a00a0d37c75d4a214b878f879b4c09b577",
+          "0": "9c71b092177ae368a2788ec757f419a38dfc0b59"
+        },
+        "object_sizes": {
+          "1": 1288,
+          "0": 3751661
+        },
+        "uncompressed_size": 4195680,
+        "compressed_size": 3752949,
+        "hash": "2d1c064d340b24800c501d9774e2b6a4a4cb764e"
+      },
+      "manifest_hash_meaning": "The entry hash and object identifiers are advertised 40-hex identifiers, consistent with SHA-1, but their algorithm/content was not independently verified because payload bytes were not recovered.",
+      "main_executable_recovered": false,
+      "server_login_or_execution_attempted": false
+    },
+    {
+      "channel": "hades",
+      "numeric_game_version": null,
+      "numeric_game_version_status": "Not established by this observation. Do not substitute manifest-format, NGM manager, Unity engine, gid, game_code, or archived client versions.",
+      "configuration_url": "https://ngmapi.nexon.com/game-info/127027@6d15",
+      "configuration_capture": "data/version-research/2026-10-13/client-agent/requests/hades-config.body",
+      "configuration_sha256": "880b6e0f40a28d5b32522ac0fd57cfd9cf42ae4fb6715eadd04152db20380255",
+      "observed_at": "2026-10-14T04:23:49.294009+00:00",
+      "official_website_function": "GameStartTest",
+      "website_game_code": "127027@6d15",
+      "game_id": "lod_test",
+      "game_name": "어둠의전설 테스트",
+      "executable_file_name": "Legend.exe",
+      "manifest_name": "bb51cf7b438441319138de2c9e2fa07c",
+      "manifest_url": "https://lod.dn.nexoncdn.co.kr/Patch/Binary/bb51cf7b438441319138de2c9e2fa07c",
+      "manifest_capture": "data/version-research/2026-10-13/client-agent/requests/hades-manifest.body",
+      "manifest_sha256": "20f5659f1e359b11df0458857a693df2fbf56fdc14c53b0fee2427c284db22b8",
+      "manifest_last_modified": "Mon, 12 Oct 2026 05:56:32 GMT",
+      "manifest_version_field": "1.0",
+      "manifest_version_interpretation": "File-manifest format indicator; not a published numeric game version. Inference from structure and static manager reader.",
+      "file_count": 156,
+      "total_uncompressed_size": 664943022,
+      "total_compressed_size": 341360770,
+      "engine_file_evidence": [
+        "UnityPlayer.dll",
+        "GameAssembly.dll",
+        "Legend_Data\\il2cpp_data\\Metadata\\global-metadata.dat",
+        "Legend_Data\\data.unity3d"
+      ],
+      "main_executable_manifest_entry": {
+        "objects": {
+          "1": "80981e383b94a6a4dc1e82248e0233e904cef5c8",
+          "0": "c74dc48b3855a2b2194f7dc0b6bbc10ea645a820"
+        },
+        "object_sizes": {
+          "1": 51748,
+          "0": 3754630
+        },
+        "uncompressed_size": 4249680,
+        "compressed_size": 3806378,
+        "hash": "7e5554235bd4edc603de3bfefaa5ecdd4220b609"
+      },
+      "manifest_hash_meaning": "The entry hash and object identifiers are advertised 40-hex identifiers, consistent with SHA-1, but their algorithm/content was not independently verified because payload bytes were not recovered.",
+      "main_executable_recovered": false,
+      "server_login_or_execution_attempted": false
+    }
+  ]
+}

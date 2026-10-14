@@ -20,7 +20,11 @@
     if (key === 'region') return row.dataset.region || '';
     if (key === 'title') return row.dataset.title || '';
     const version = row.querySelector('td.version').textContent.trim();
-    return /^\d/.test(version) ? version : '';
+    if (!/^\d/.test(version)) return '';
+    // Compare the catalog's equivalent spellings together: 3.6 / 3.60,
+    // and 7.32 / 7.320. Keep the publisher's displayed label unchanged.
+    const [major, revision = '0'] = version.split('.');
+    return `${major}.${revision.padEnd(3, '0')}`;
   }
 
   function compare(a, b) {

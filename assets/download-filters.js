@@ -47,8 +47,8 @@
   const entries = [...entriesByRow.values()];
   let renderedSearch = null;
   const facets = [
-    { id: 'region', field: 'region', all: 'All countries', empty: 'No matching countries' },
-    { id: 'title', field: 'title', all: 'All titles', empty: 'No matching titles' },
+    { id: 'region', field: 'region', all: 'All Countries', empty: 'No matching countries' },
+    { id: 'title', field: 'title', all: 'All Titles', empty: 'No matching titles' },
     { id: 'version', field: 'version', all: 'All versions', empty: 'No matching versions' },
     { id: 'type', field: 'type', all: 'Clients and patches', empty: 'No matching types' }
   ].map(facet => ({
