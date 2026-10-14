@@ -25,7 +25,20 @@ main > footer#sources { padding-top: 5px; }
 .evidence-table, .evidence-table th, .evidence-table td { border: 1px solid var(--line); }
 .research-table { min-width: 800px; }
 .research-reference-col { width: 240px; }
-.research-table-wrap { border: 0; border-radius: 0; }
+.research-table-wrap { border: 1px solid var(--line); border-radius: 8px; }
+.table-heading-row { display: flex; align-items: baseline; justify-content: space-between; gap: 8px 20px; margin: 0 0 10px; }
+.table-heading-row > :is(h3, h4) { margin: 0; min-width: 0; }
+.table-heading-row > h3 { font-size: 15px; }
+.table-return-links { display: flex; flex: 0 0 auto; justify-content: flex-end; gap: 14px; margin-left: auto; font-size: 12px; font-weight: 400; white-space: nowrap; }
+.region-nav { margin-bottom: 18px; }
+.region-nav a[aria-current="true"] { font-weight: 700; }
+.download-general-notes { margin-top: 18px; }
+.download-general-table { min-width: 800px; font-size: 12px; }
+.download-general-table col.download-general-subject { width: 200px; }
+.download-general-table th, .download-general-table td { padding: 6px 8px; }
+.download-general-table .note-list { margin: 0; }
+.download-general-table .note-list li + li { margin-top: 3px; }
+.sources-table-wrap { border-radius: 8px; }
 .contents-list {
   display: block;
   margin: 0;
@@ -72,7 +85,8 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 #downloads .download-region[hidden] { display: none !important; }
 #downloads .download-region:not([hidden]) ~ .download-region:not([hidden]), .hash-region + .hash-region { margin-top: 26px; }
 .download-region h3, .hash-region h3 { font-size: 15px; margin: 0 0 10px; }
-.downloads-table { font-size: 12px; }
+.download-region .table-heading-row h3, .hash-region .table-heading-row h3, .evidence-region .table-heading-row h4 { margin: 0; }
+.downloads-table { --download-line-height: 20px; font-size: 12px; }
 .downloads-table col:nth-child(1) { width: var(--catalog-version-width); }
 .downloads-table col:nth-child(2) { width: 208px; }
 .downloads-table col:nth-child(3) { width: 580px; }
@@ -92,10 +106,15 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 .download-source a:hover { text-decoration: underline; }
 .download-source-label { margin-left: 6px; }
 .download-file-line { display: flex; align-items: baseline; gap: 6px; width: 100%; white-space: nowrap; }
-.download-file-line .download-line-name { font-size: 11px; font-weight: 700; }
+.download-file-line .download-line-name { color: #000; font-size: 11px; font-weight: 700; }
 .download-file-line .download-line-source { margin: 0; color: var(--muted); font-size: 11px; }
 .download-file-line .download-badge { flex: none; }
 .download-file-line > .download-badge--download { margin-left: auto; }
+.download-file-line, .download-detail-line { min-height: var(--download-line-height); line-height: var(--download-line-height); }
+.download-primary + .download-mirrors { margin-top: calc(var(--download-line-height) + 3px); }
+.download-mirrors > .download-detail-line + .download-detail-line { margin-top: 3px; }
+.download-note-line .notes { line-height: var(--download-line-height); }
+.download-file-notes { margin-top: 8px !important; }
 .download-badge { display: inline-block; padding: 3px 7px; border: 1px solid transparent; border-radius: 4px; font-size: 11px; font-weight: 700; line-height: 1.45; white-space: nowrap; }
 .download-type > .download-badge { width: 54px; text-align: center; }
 .download-badge--client { background: #e5eefb; color: #355f99; border-color: #cbdcf4; }
