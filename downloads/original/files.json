@@ -1,0 +1,294 @@
+{
+  "kind": "Original",
+  "repository": "Vyrsace/DAKnow",
+  "files": [
+    {
+      "filename": "JP-Yami-[Client]-[5.22]-Original.zip",
+      "hosted_filename": "JP-Yami-.Client.-.5.22.-Original.zip",
+      "bytes": 78508246,
+      "sha256": "d8a1dda7f76f979a87342c0d50527213bab043a8d57c339b159a4fbe22f72f43",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/JP-Yami-.Client.-.5.22.-Original.zip",
+      "asset_id": 640934968
+    },
+    {
+      "filename": "KR-Elancia-[Client]-[6.0.0.0]-Original.zip",
+      "hosted_filename": "KR-Elancia-.Client.-.6.0.0.0.-Original.zip",
+      "bytes": 181715489,
+      "sha256": "eca8252d5f32927f70947ac47474881484d34ac302f2aac9c66852c28b38fad1",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-Elancia-.Client.-.6.0.0.0.-Original.zip",
+      "asset_id": 640934985
+    },
+    {
+      "filename": "KR-Elancia-[Client]-[6.0.3.0]-Original.zip",
+      "hosted_filename": "KR-Elancia-.Client.-.6.0.3.0.-Original.zip",
+      "bytes": 181615031,
+      "sha256": "43c0082719e1e251bc0c4bb0cc3a4b39809d18b643fb7a7ab40c6d17a949b318",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-Elancia-.Client.-.6.0.3.0.-Original.zip",
+      "asset_id": 640934971
+    },
+    {
+      "filename": "KR-LegendsofDarkness-[Client]-[3.11]-Original.zip",
+      "hosted_filename": "KR-LegendsofDarkness-.Client.-.3.11.-Original.zip",
+      "bytes": 23811834,
+      "sha256": "bfb0ba35caff1f3abe7e8ce2ba59329d65d49f7f8471295b6f571d66224c3bbc",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.3.11.-Original.zip",
+      "asset_id": 640935114
+    },
+    {
+      "filename": "KR-LegendsofDarkness-[Client]-[5.01]-Original.zip",
+      "hosted_filename": "KR-LegendsofDarkness-.Client.-.5.01.-Original.zip",
+      "bytes": 70002359,
+      "sha256": "8938e0a50c1e56b291e8f2aaf5dfbd9d4a7808b75aa44172fbcd04a637d4f926",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.5.01.-Original.zip",
+      "asset_id": 640935194
+    },
+    {
+      "filename": "KR-LegendsofDarkness-[Client]-[5.20]-Original.zip",
+      "hosted_filename": "KR-LegendsofDarkness-.Client.-.5.20.-Original.zip",
+      "bytes": 77133624,
+      "sha256": "127d71b0d8aa28824e49f4dfe43a4ffeed453c5913a1827ec8cc8db35ad58c39",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.5.20.-Original.zip",
+      "asset_id": 640935331
+    },
+    {
+      "filename": "KR-LegendsofDarkness-[Client]-[5.30]-Original.zip",
+      "hosted_filename": "KR-LegendsofDarkness-.Client.-.5.30.-Original.zip",
+      "bytes": 84300559,
+      "sha256": "ce1c26732f9c9b008d1d62da730066aac1204fac0b8850a04a63b4c45674b791",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.5.30.-Original.zip",
+      "asset_id": 640935359
+    },
+    {
+      "filename": "KR-LegendsofDarkness-[Client]-[8.540]-Original.zip",
+      "hosted_filename": "KR-LegendsofDarkness-.Client.-.8.540.-Original.zip",
+      "bytes": 251461694,
+      "sha256": "1d33a0d0147418815b2b23e2157d0ed70bc583d2f256ac1655a41094022bf7db",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.8.540.-Original.zip",
+      "asset_id": 640935431
+    },
+    {
+      "filename": "KR-LegendsofDarkness-[Client]-[9.100]-Original.zip",
+      "hosted_filename": "KR-LegendsofDarkness-.Client.-.9.100.-Original.zip",
+      "bytes": 251695747,
+      "sha256": "5ecb5cd3a86ff9cd9c3d498f1308a2593b9c6ba18af1ed0e706b8c9cbad82a0b",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.9.100.-Original.zip",
+      "asset_id": 640935510
+    },
+    {
+      "filename": "KR-LegendsofDarkness-[Client]-[9.570]-Original.zip",
+      "hosted_filename": "KR-LegendsofDarkness-.Client.-.9.570.-Original.zip",
+      "bytes": 251694800,
+      "sha256": "7f19ebc695eea7198936fde698316abe43c0da31a279543d38a2798650dc2a86",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.9.570.-Original.zip",
+      "asset_id": 640935530
+    },
+    {
+      "filename": "MY-LegendsofTemuair-[Client]-[4.20]-Original.zip",
+      "hosted_filename": "MY-LegendsofTemuair-.Client.-.4.20.-Original.zip",
+      "bytes": 59780913,
+      "sha256": "d447bbd88c2ce8454f74a6b2857cd02f9c2a17487ee522ffe3ffc568cbccb966",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/MY-LegendsofTemuair-.Client.-.4.20.-Original.zip",
+      "asset_id": 640935941
+    },
+    {
+      "filename": "MY-LegendsofTemuair-[Client]-[4.21]-Original.zip",
+      "hosted_filename": "MY-LegendsofTemuair-.Client.-.4.21.-Original.zip",
+      "bytes": 51973190,
+      "sha256": "8c8aee6760c2a6778da5994c7b9d998912e76a6abf863136130df9dc030522d3",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/MY-LegendsofTemuair-.Client.-.4.21.-Original.zip",
+      "asset_id": 640935970
+    },
+    {
+      "filename": "SG-DarkAgesSGDA-[Client]-[3.51]-Original.zip",
+      "hosted_filename": "SG-DarkAgesSGDA-.Client.-.3.51.-Original.zip",
+      "bytes": 20918494,
+      "sha256": "e4b93ec1d103929535dac3c0ec6cc41b4606477ef65c99f6daa44af983a3b820",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/SG-DarkAgesSGDA-.Client.-.3.51.-Original.zip",
+      "asset_id": 640936065
+    },
+    {
+      "filename": "SG-DarkAgesSGDA-[Patch]-[Replace-4.21]-Original.zip",
+      "hosted_filename": "SG-DarkAgesSGDA-.Patch.-.Replace-4.21.-Original.zip",
+      "bytes": 1368145,
+      "sha256": "6bf5a6b6a49c871d83e0b9fadc3f0cb5b0bdb4c6ea920fdb144365ad86554a1d",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/SG-DarkAgesSGDA-.Patch.-.Replace-4.21.-Original.zip",
+      "asset_id": 640936086
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[2.15]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.2.15.-Original.zip",
+      "bytes": 13824751,
+      "sha256": "197a9bf0a98576abb6a0391edd8efc7f799d8bf83b14676358b1ed49f68814b6",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.2.15.-Original.zip",
+      "asset_id": 640936102
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[3.50]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.3.50.-Original.zip",
+      "bytes": 24112000,
+      "sha256": "c83719d5d34ce23eda5a045ea601d99ddfdf1ef4779d520929764a030f15bc03",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.50.-Original.zip",
+      "asset_id": 640936114
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[3.51]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.3.51.-Original.zip",
+      "bytes": 24610613,
+      "sha256": "f0dd589bcd98bb7d15c9d8faa3abf2997b93d74bd4b7d624871b20d71eb20636",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.51.-Original.zip",
+      "asset_id": 640936116
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[3.71]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.3.71.-Original.zip",
+      "bytes": 22651923,
+      "sha256": "7abe90898b08c00f05e57bc16d30d686398ab5cf9f2a4083c2c6f90250b95043",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.71.-Original.zip",
+      "asset_id": 640936166
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[3.72]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.3.72.-Original.zip",
+      "bytes": 20884892,
+      "sha256": "24a4bb190829918bf39f20278625d6ab6eb1af1ac72a46163afb00565f5acdaf",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.72.-Original.zip",
+      "asset_id": 640936192
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[3.73]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.3.73.-Original.zip",
+      "bytes": 21600930,
+      "sha256": "6af6fb953177570153d151887d1aad0b2e9f6708b4021c17c42ab4245010c17b",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.73.-Original.zip",
+      "asset_id": 640936235
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[4.51]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.4.51.-Original.zip",
+      "bytes": 35948781,
+      "sha256": "2d1266c492af2cc45635658b7ed24625faad79be186a17a49e998aad8b80ff1a",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.4.51.-Original.zip",
+      "asset_id": 640936221
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[5.21]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.5.21.-Original.zip",
+      "bytes": 48286739,
+      "sha256": "3b4b5495194ddd10fdd9e34d5504cca48766a8b3a959850f71a40eb18f69b902",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.5.21.-Original.zip",
+      "asset_id": 640936287
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[5.51]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.5.51.-Original.zip",
+      "bytes": 60922164,
+      "sha256": "4bdce322e93d8c8310dc6850086458575def781df957ed944d590635a6983cf1",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.5.51.-Original.zip",
+      "asset_id": 640936355
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[7.05]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.7.05.-Original.zip",
+      "bytes": 151817868,
+      "sha256": "c657ee5b570ec528c7f836180fd7b720aeaf4c7d4c8be9667e52be63a27af221",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.05.-Original.zip",
+      "asset_id": 640936367
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[7.12]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.7.12.-Original.zip",
+      "bytes": 158953100,
+      "sha256": "addd4723e65645d6864d7aeaff8285b8ae71adb98daa7e4ba2706469f1798bab",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.12.-Original.zip",
+      "asset_id": 640936462
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[7.18]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.7.18.-Original.zip",
+      "bytes": 169384456,
+      "sha256": "7dd6021a3f16120375aa06b9ea5e04a970de351a6ac5a5d08e27eaa3370aa7e5",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.18.-Original.zip",
+      "asset_id": 640936654
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[7.29]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.7.29.-Original.zip",
+      "bytes": 198183175,
+      "sha256": "f8e0b789180b7f647110a4d958223c642c45ded82c62513265ba55c8979684bc",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.29.-Original.zip",
+      "asset_id": 640936780
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[7.30]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.7.30.-Original.zip",
+      "bytes": 205194074,
+      "sha256": "5c7618bdbe64c17405810b97f71fe6f42409ab7749d4bd9f1896a10210c3ddf8",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.30.-Original.zip",
+      "asset_id": 640936931
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[7.35]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.7.35.-Original.zip",
+      "bytes": 206193587,
+      "sha256": "c522967fd4dcb1aad037e07004995b3bb79b3e512aef48920cbc697ff002aba6",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.35.-Original.zip",
+      "asset_id": 640937104
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[7.39]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.7.39.-Original.zip",
+      "bytes": 206936985,
+      "sha256": "091a5fcc21c341a7ceb8bd5585764a70cb5ff745148f9bce77eb0b75f0748149",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.39.-Original.zip",
+      "asset_id": 640937224
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[7.40]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.7.40.-Original.zip",
+      "bytes": 206936295,
+      "sha256": "330b0d7c25fce4ea2c224265d8acc58bf8fef368904add0e21c07479cd6a38ca",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.40.-Original.zip",
+      "asset_id": 640937519
+    },
+    {
+      "filename": "US-DarkAges-[Client]-[7.41]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.7.41.-Original.zip",
+      "bytes": 206871809,
+      "sha256": "4f8f8ba3a9bce248bafefc19be423ac991bd767879ed4424378d01a20741f76d",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.41.-Original.zip",
+      "asset_id": 640937642
+    },
+    {
+      "filename": "US-DarkAges-[Patch]-[7.04-7.05]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Patch.-.7.04-7.05.-Original.zip",
+      "bytes": 16754682,
+      "sha256": "921f867f3e52b0d975aaea0308164f74b154df95865093f4e13dd4fa9e2c8f46",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Patch.-.7.04-7.05.-Original.zip",
+      "asset_id": 640937780
+    },
+    {
+      "filename": "US-DarkAges-[Patch]-[7.38-7.39]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Patch.-.7.38-7.39.-Original.zip",
+      "bytes": 884808,
+      "sha256": "3618390078e2a6f9caf670100508b20c56e7246a1310a78ffdcf8a7f3b16518b",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Patch.-.7.38-7.39.-Original.zip",
+      "asset_id": 640937845
+    },
+    {
+      "filename": "US-DarkAges-[Patch]-[7.39-7.40]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Patch.-.7.39-7.40.-Original.zip",
+      "bytes": 584518,
+      "sha256": "8bbdf5af3a875f92c528e88c15dc71f0efe16b353d47d2617324f74f50b24e2e",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Patch.-.7.39-7.40.-Original.zip",
+      "asset_id": 640937882
+    },
+    {
+      "filename": "US-DarkAges-[Patch]-[7.40-7.41]-Original.zip",
+      "hosted_filename": "US-DarkAges-.Patch.-.7.40-7.41.-Original.zip",
+      "bytes": 1232147,
+      "sha256": "6c14738e0ad59625b59b568dd5c5091f971a0760cc733bf9f5d1660b7146230b",
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Patch.-.7.40-7.41.-Original.zip",
+      "asset_id": 640937911
+    }
+  ]
+}
