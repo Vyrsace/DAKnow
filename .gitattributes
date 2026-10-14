@@ -1,0 +1,2 @@
+# Preserve original SVG payload bytes, including their source line endings.
+assets/flags/*.svg -text
