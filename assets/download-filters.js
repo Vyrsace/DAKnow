@@ -279,5 +279,5 @@
     if (!event.defaultPrevented && anchor && anchor.hash === location.hash) revealHashTarget();
   });
   refresh();
-  revealHashTarget(false);
+  if (performance.getEntriesByType('navigation')[0]?.type !== 'reload') revealHashTarget(false);
 })();
