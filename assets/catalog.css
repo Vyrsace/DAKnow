@@ -76,6 +76,13 @@ table.version-table th, table.version-table td,
 #master-catalog .note-list, .hashes-table .note-list, .downloads-table .download-notes .notes { margin: 0; padding-left: 14px; }
 #master-catalog .note-list li, .hashes-table .note-list li, .downloads-table .download-notes li { margin: 0; }
 #master-catalog .note-list li + li, .hashes-table .note-list li + li, .downloads-table .download-notes li + li { margin-top: 3px; }
+:is(#master-catalog, .downloads-table, .download-general-table, .hashes-table) tbody td.notes-cell,
+:is(#master-catalog, .downloads-table, .download-general-table, .hashes-table) tbody td.notes-cell * {
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+}
+#master-catalog .note-list:has(> li:only-child) { padding-left: 0; list-style: none; }
 table th.notes-cell, table td.notes-cell { border-left: 1px solid var(--line); vertical-align: top; }
 table .notes-cell a[href^="#source-"],
 table .notes-cell a[href^="#source-"]:hover,
