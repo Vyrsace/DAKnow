@@ -6,6 +6,8 @@
   if (!section || !query) return;
   const rows = [...section.querySelectorAll('.download-catalog-row')];
   const groups = [...section.querySelectorAll('.download-region')];
+  const generalNotes = document.getElementById('download-general-notes');
+  const generalGroups = [...section.querySelectorAll('.download-general-region')];
   const counter = document.getElementById('downloads-counter');
   const activeFilters = document.getElementById('downloads-active-filters');
   const empty = document.getElementById('downloads-empty');
@@ -182,6 +184,11 @@
     groups.forEach(group => {
       group.hidden = ![...group.querySelectorAll('.download-catalog-row')].some(row => !row.hidden);
     });
+    generalGroups.forEach(group => {
+      const downloadGroup = groups.find(item => item.dataset.region === group.dataset.region);
+      group.hidden = !downloadGroup || downloadGroup.hidden;
+    });
+    if (generalNotes) generalNotes.hidden = generalGroups.every(group => group.hidden);
     counter.textContent = `Displaying ${visibleCount} of ${rows.length} entries`;
     empty.hidden = visibleCount > 0;
     refreshBadges();
@@ -258,7 +265,7 @@
     const target = id && document.getElementById(id);
     if (!target || !section.contains(target)) return;
     const row = target.closest('.download-catalog-row');
-    const group = target.closest('.download-region');
+    const group = target.closest('.download-region, .download-general-region, .download-general-notes');
     if ((row && row.hidden) || (group && group.hidden)) {
       resetFilters();
       section.querySelector(':scope > details.collapsible-card').open = true;
