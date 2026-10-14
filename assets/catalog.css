@@ -39,6 +39,7 @@ main > footer#sources { padding-top: 5px; }
 .download-general-table .note-list { margin: 0; }
 .download-general-table .note-list li + li { margin-top: 3px; }
 .sources-table-wrap { border-radius: 8px; }
+.sources-table tbody .source-reference { text-align: center; }
 .contents-list {
   display: block;
   margin: 0;
