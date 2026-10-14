@@ -1,0 +1,23 @@
+/* The gallery frame opens its original image without altering the carousel. */
+.title-gallery-window { position: relative; }
+.title-gallery-expand { position: absolute; inset: 0; z-index: 1; width: 100%; height: 100%; padding: 0; border: 0; border-radius: inherit; background: transparent; cursor: zoom-in; }
+.title-gallery-expand:focus-visible { outline: 2px solid var(--accent); outline-offset: -3px; }
+html.image-lightbox-open { overflow: hidden; scrollbar-gutter: stable; }
+.image-lightbox { width: fit-content; min-width: min(320px, calc(100vw - 32px)); max-width: calc(100vw - 32px); max-height: calc(100vh - 32px); max-height: calc(100dvh - 32px); margin: auto; padding: 0; overflow: auto; overscroll-behavior: contain; border: 1px solid var(--card-border); border-radius: 8px; background: var(--paper, #fff); color: var(--ink); box-shadow: 0 18px 70px #0005; }
+.image-lightbox::backdrop { background: #101b2bcc; }
+.image-lightbox-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 4px 8px 4px 12px; }
+.image-lightbox-header h2 { margin: 0; padding: 0; border: 0; font-size: 14px; line-height: 1.4; }
+.image-lightbox-close { display: grid; place-items: center; flex: 0 0 44px; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 6px; background: transparent; color: inherit; font: 28px/1 system-ui, sans-serif; cursor: pointer; }
+.image-lightbox-close:hover { background: var(--soft); }
+.image-lightbox figure { margin: 0; }
+.image-lightbox-image-wrap { display: flex; align-items: center; justify-content: center; padding: 0 12px; }
+.image-lightbox-image-wrap img { display: block; width: auto; height: auto; max-width: 100%; max-height: calc(100vh - 180px); max-height: calc(100dvh - 180px); object-fit: contain; }
+.image-lightbox figcaption { padding: 10px 12px 12px; font-size: 12px; line-height: 1.5; overflow-wrap: anywhere; }
+#image-lightbox-caption, #image-lightbox-credit { display: block; }
+#image-lightbox-credit { margin-top: 3px; color: var(--muted); }
+.image-lightbox a { color: var(--accent); }
+.image-lightbox :is(button, a):focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+@media print {
+  .title-gallery-expand, .image-lightbox { display: none !important; }
+  html.image-lightbox-open { overflow: visible; }
+}

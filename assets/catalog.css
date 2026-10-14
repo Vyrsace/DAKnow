@@ -43,6 +43,8 @@ main > footer#sources { padding-top: 5px; }
 .table-return-links { display: flex; flex: 0 0 auto; justify-content: flex-end; gap: 14px; margin-left: auto; font-size: 12px; font-weight: 400; white-space: nowrap; }
 .region-nav { margin-bottom: 18px; }
 .region-nav a[aria-current="true"] { font-weight: 700; }
+#catalog .region-nav a { font-weight: 700; text-decoration: none; }
+#catalog .region-nav a:hover, #catalog .region-nav a:focus-visible { text-decoration: none; }
 .download-general-notes { margin-top: 26px; }
 .download-general-region:not([hidden]) ~ .download-general-region:not([hidden]) { margin-top: 18px; }
 .download-general-region h4 { font-size: 14px; }
