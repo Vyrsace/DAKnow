@@ -79,15 +79,17 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 .download-version, .download-type, .download-name, .download-source { white-space: nowrap; overflow-wrap: normal; }
 .download-alias-label { color: var(--muted); font-size: 10px; }
 .download-mirrors { margin-top: 3px; }
+.download-name + .download-mirrors { margin-top: calc(1lh + 3px); }
 .download-source { display: block; margin-top: 3px; color: var(--muted); font-size: 11px; }
 .download-mirrors > .download-source:first-child { margin-top: 0; }
 .download-source a { text-decoration: none; }
 .download-source a:hover { text-decoration: underline; }
 .download-source-label { margin-left: 6px; }
-.download-file-line { display: flex; align-items: baseline; gap: 6px; width: max-content; white-space: nowrap; }
+.download-file-line { display: flex; align-items: baseline; gap: 6px; width: 100%; white-space: nowrap; }
 .download-file-line .download-line-name { font-size: 11px; font-weight: 700; }
 .download-file-line .download-line-source { margin: 0; color: var(--muted); font-size: 11px; }
 .download-file-line .download-badge { flex: none; }
+.download-file-line > .download-badge--download { margin-left: auto; }
 .download-badge { display: inline-block; padding: 3px 7px; border: 1px solid transparent; border-radius: 4px; font-size: 11px; font-weight: 700; line-height: 1.45; white-space: nowrap; }
 .download-badge--client { background: #e5eefb; color: #355f99; border-color: #cbdcf4; }
 .download-badge--patch { background: #edeafd; color: #5753a4; border-color: #ded8f3; }
