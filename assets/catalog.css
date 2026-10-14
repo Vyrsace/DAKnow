@@ -120,7 +120,7 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 .download-filename { font-size: 12px; overflow-wrap: anywhere; }
 .download-name code { font-size: 11px; font-weight: 600; }
 .download-version, .download-type, .download-name, .download-source { white-space: nowrap; overflow-wrap: normal; }
-.downloads-table tbody td.download-version { vertical-align: middle; }
+.downloads-table tbody td.download-version { text-align: center; vertical-align: middle; }
 .download-alias-label { color: var(--muted); font-size: 10px; }
 .download-mirrors { margin-top: 3px; }
 .download-name + .download-mirrors { margin-top: calc(1lh + 3px); }
