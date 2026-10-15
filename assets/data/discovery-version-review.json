@@ -1,0 +1,1016 @@
+{
+  "review_date": "2026-10-15",
+  "scope": "Owner-requested version additions and title corrections; no new download links or hosting packages",
+  "versions": [
+    {
+      "region_id": "korea",
+      "region": "South Korea",
+      "type": "Client",
+      "status": "Released",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [],
+      "research_notes": [
+        "Documented in Nexon's 19 May 2004 press release; includes the offline Adventure tutorial."
+      ],
+      "variants": [],
+      "id": "discovery-kr-lod-5-71",
+      "version": "5.71",
+      "game_title": "Legends of Darkness / 어둠의 전설",
+      "country": "South Korea",
+      "channel": "retail",
+      "catalog_observation_notes": [
+        {
+          "text": "Documented in Nexon's 19 May 2004 press release; includes the offline Adventure tutorial.",
+          "source_url": "https://www.newswire.co.kr/newsRead.php?no=3182"
+        }
+      ],
+      "sources": [
+        [
+          "https://www.newswire.co.kr/newsRead.php?no=3182",
+          "Nexon press release: Korean LoD 5.71 and the Adventure tutorial"
+        ]
+      ],
+      "available_by": "2004-05-19",
+      "master_id": "version-discovery-kr-lod-5-71",
+      "member_ids": [
+        "discovery-kr-lod-5-71"
+      ],
+      "release_notes": [
+        "Documented in Nexon's 19 May 2004 press release; includes the offline Adventure tutorial."
+      ],
+      "release_note_sources": [
+        "https://www.newswire.co.kr/newsRead.php?no=3182"
+      ]
+    },
+    {
+      "region_id": "korea",
+      "region": "South Korea",
+      "type": "Client",
+      "status": "Released",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [
+        {
+          "filename": "lodr.exe",
+          "url": "https://archive.org/download/atfile-client-archive/download/%5B2004-11-30%5D%20%EC%96%B4%EB%91%A0%EC%9D%98%20%EC%A0%84%EC%84%A4%205.90/lodr.exe",
+          "bytes": 174228727,
+          "sha256": "69aa1813bcbf14a5db639c9122ae8562832c18df05c2f284679df87b312f192e"
+        }
+      ],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [
+        "Owner-supplied package association and filenames; no release date inferred. Legend.exe PE strings retain 360, 0, 0, 0, so they do not independently establish 5.99",
+        "Installer size, CRC32, MD5 and SHA-1 match Archive metadata; the folder's 5.90 label is preserved in the URL"
+      ],
+      "research_notes": [
+        "Listed as 5.99 by ATFile; the preserved package is already available in Downloads.",
+        "The supplied Internet Archive mirror's folder is labeled 5.90; retain that source-label discrepancy."
+      ],
+      "variants": [],
+      "id": "entry-kr-package-5-99",
+      "version": "5.99",
+      "game_title": "Legends of Darkness / 어둠의 전설",
+      "country": "South Korea",
+      "channel": "retail",
+      "catalog_observation_notes": [
+        {
+          "text": "Listed as 5.99 by ATFile; the preserved package is already available in Downloads.",
+          "source_url": "http://web.archive.org/web/20050414214918id_/http://atfile.com:80/pds_download.asp?flag=1&pg_code=1555&pv_code=32"
+        },
+        {
+          "text": "The supplied Internet Archive mirror's folder is labeled 5.90; retain that source-label discrepancy.",
+          "source_url": "https://archive.org/download/atfile-client-archive/download/%5B2004-11-30%5D%20%EC%96%B4%EB%91%A0%EC%9D%98%20%EC%A0%84%EC%84%A4%205.90/lodr.exe"
+        }
+      ],
+      "sources": [
+        [
+          "http://web.archive.org/web/20050414214918id_/http://atfile.com:80/pds_download.asp?flag=1&pg_code=1555&pv_code=32",
+          "ATFile: Korean LoD 5.99 download page"
+        ],
+        [
+          "https://archive.org/download/atfile-client-archive/download/%5B2004-11-30%5D%20%EC%96%B4%EB%91%A0%EC%9D%98%20%EC%A0%84%EC%84%A4%205.90/lodr.exe",
+          "Internet Archive: preserved lodr.exe in the folder labeled 5.90"
+        ]
+      ],
+      "master_id": "version-kr-package-5-99",
+      "member_ids": [
+        "entry-kr-package-5-99"
+      ],
+      "release_notes": [
+        "Listed as 5.99 by ATFile; the preserved package is already available in Downloads.",
+        "The supplied Internet Archive mirror's folder is labeled 5.90; retain that source-label discrepancy."
+      ],
+      "release_note_sources": [
+        "http://web.archive.org/web/20050414214918id_/http://atfile.com:80/pds_download.asp?flag=1&pg_code=1555&pv_code=32",
+        "https://archive.org/download/atfile-client-archive/download/%5B2004-11-30%5D%20%EC%96%B4%EB%91%A0%EC%9D%98%20%EC%A0%84%EC%84%A4%205.90/lodr.exe"
+      ]
+    },
+    {
+      "region_id": "korea",
+      "region": "South Korea",
+      "type": "Client",
+      "status": "Community listing",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [],
+      "research_notes": [
+        "Listed as a 4.51 client in a Gamezone community post; the attachment binary was not recovered or independently identified."
+      ],
+      "variants": [],
+      "id": "discovery-kr-lod-4-51",
+      "version": "4.51",
+      "game_title": "Legends of Darkness / 어둠의 전설",
+      "country": "South Korea",
+      "channel": "unspecified",
+      "catalog_observation_notes": [
+        {
+          "text": "Listed as a 4.51 client in a Gamezone community post; the attachment binary was not recovered or independently identified.",
+          "source_url": "https://gamezone.live/board_MsnU09/21324"
+        }
+      ],
+      "sources": [
+        [
+          "https://gamezone.live/board_MsnU09/21324",
+          "Gamezone community listing: Korean LoD 4.51 client"
+        ]
+      ],
+      "master_id": "version-discovery-kr-lod-4-51",
+      "member_ids": [
+        "discovery-kr-lod-4-51"
+      ],
+      "release_notes": [
+        "Listed as a 4.51 client in a Gamezone community post; the attachment binary was not recovered or independently identified."
+      ],
+      "release_note_sources": [
+        "https://gamezone.live/board_MsnU09/21324"
+      ]
+    },
+    {
+      "region_id": "korea",
+      "region": "South Korea",
+      "type": "Client",
+      "status": "Community listing",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [],
+      "research_notes": [
+        "Listed as a 5.00 client in a Gamezone community post; the attachment binary was not recovered or independently identified."
+      ],
+      "variants": [],
+      "id": "discovery-kr-lod-5-00",
+      "version": "5.00",
+      "game_title": "Legends of Darkness / 어둠의 전설",
+      "country": "South Korea",
+      "channel": "unspecified",
+      "catalog_observation_notes": [
+        {
+          "text": "Listed as a 5.00 client in a Gamezone community post; the attachment binary was not recovered or independently identified.",
+          "source_url": "https://gamezone.live/board_MsnU09/80367"
+        }
+      ],
+      "sources": [
+        [
+          "https://gamezone.live/board_MsnU09/80367",
+          "Gamezone community listing: Korean LoD 5.00 client"
+        ]
+      ],
+      "master_id": "version-discovery-kr-lod-5-00",
+      "member_ids": [
+        "discovery-kr-lod-5-00"
+      ],
+      "release_notes": [
+        "Listed as a 5.00 client in a Gamezone community post; the attachment binary was not recovered or independently identified."
+      ],
+      "release_note_sources": [
+        "https://gamezone.live/board_MsnU09/80367"
+      ]
+    },
+    {
+      "region_id": "korea",
+      "region": "South Korea",
+      "type": "Client",
+      "status": "Community listing",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [],
+      "research_notes": [
+        "Listed as a 5.81 client in a Gamezone community post; the attachment binary was not recovered or independently identified."
+      ],
+      "variants": [],
+      "id": "discovery-kr-lod-5-81",
+      "version": "5.81",
+      "game_title": "Legends of Darkness / 어둠의 전설",
+      "country": "South Korea",
+      "channel": "unspecified",
+      "catalog_observation_notes": [
+        {
+          "text": "Listed as a 5.81 client in a Gamezone community post; the attachment binary was not recovered or independently identified.",
+          "source_url": "https://gamezone.live/board_MsnU09/11592"
+        }
+      ],
+      "sources": [
+        [
+          "https://gamezone.live/board_MsnU09/11592",
+          "Gamezone community listing: Korean LoD 5.81 client"
+        ]
+      ],
+      "master_id": "version-discovery-kr-lod-5-81",
+      "member_ids": [
+        "discovery-kr-lod-5-81"
+      ],
+      "release_notes": [
+        "Listed as a 5.81 client in a Gamezone community post; the attachment binary was not recovered or independently identified."
+      ],
+      "release_note_sources": [
+        "https://gamezone.live/board_MsnU09/11592"
+      ]
+    },
+    {
+      "region_id": "korea",
+      "region": "South Korea",
+      "type": "Client",
+      "status": "Community listing",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [],
+      "research_notes": [
+        "Gamezone post title says 5.59, but its attachment is named \"5.99 클라이언트.zip\"; the version identity remains unverified."
+      ],
+      "variants": [],
+      "id": "discovery-kr-lod-5-59",
+      "version": "5.59",
+      "game_title": "Legends of Darkness / 어둠의 전설",
+      "country": "South Korea",
+      "channel": "unspecified",
+      "catalog_observation_notes": [
+        {
+          "text": "Gamezone post title says 5.59, but its attachment is named \"5.99 클라이언트.zip\"; the version identity remains unverified.",
+          "source_url": "https://gamezone.live/board_MsnU09/4233"
+        }
+      ],
+      "sources": [
+        [
+          "https://gamezone.live/board_MsnU09/4233",
+          "Gamezone community post: 5.59 title with a 5.99-named attachment"
+        ]
+      ],
+      "master_id": "version-discovery-kr-lod-5-59",
+      "member_ids": [
+        "discovery-kr-lod-5-59"
+      ],
+      "release_notes": [
+        "Gamezone post title says 5.59, but its attachment is named \"5.99 클라이언트.zip\"; the version identity remains unverified."
+      ],
+      "release_note_sources": [
+        "https://gamezone.live/board_MsnU09/4233"
+      ]
+    },
+    {
+      "region_id": "korea",
+      "region": "South Korea",
+      "type": "Client",
+      "status": "Listed",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [],
+      "research_notes": [
+        "ATFile lists a 5.10 production client; the original download route is preserved, but its binary remains unrecovered."
+      ],
+      "variants": [],
+      "id": "discovery-kr-lod-retail-5-10",
+      "version": "5.10",
+      "game_title": "Legends of Darkness / 어둠의 전설",
+      "country": "South Korea",
+      "channel": "retail",
+      "catalog_observation_notes": [
+        {
+          "text": "ATFile lists a 5.10 production client; the original download route is preserved, but its binary remains unrecovered.",
+          "source_url": "http://web.archive.org/web/20020921024256id_/http://www.atfile.com:80/pds_download.asp?flag=1&pg_code=1555&pv_code=7"
+        }
+      ],
+      "sources": [
+        [
+          "http://web.archive.org/web/20020921024256id_/http://www.atfile.com:80/pds_download.asp?flag=1&pg_code=1555&pv_code=7",
+          "ATFile: @file.com - 어둠의 전설 5.10 다운로드 중입니다"
+        ]
+      ],
+      "observed_download_urls": [
+        "ftp://download.nexon.co.kr/lod/lodr.exe",
+        "ftp://ftp.atfile.com/lodr/5.10/lodr.exe"
+      ],
+      "master_id": "version-discovery-kr-lod-retail-5-10",
+      "member_ids": [
+        "discovery-kr-lod-retail-5-10"
+      ],
+      "release_notes": [
+        "ATFile lists a 5.10 production client; the original download route is preserved, but its binary remains unrecovered."
+      ],
+      "release_note_sources": [
+        "http://web.archive.org/web/20020921024256id_/http://www.atfile.com:80/pds_download.asp?flag=1&pg_code=1555&pv_code=7"
+      ]
+    },
+    {
+      "region_id": "korea",
+      "region": "South Korea",
+      "type": "Client",
+      "status": "Listed",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [],
+      "research_notes": [
+        "ATFile lists a 5.21 production client; the original download route is preserved, but its binary remains unrecovered."
+      ],
+      "variants": [],
+      "id": "discovery-kr-lod-retail-5-21",
+      "version": "5.21",
+      "game_title": "Legends of Darkness / 어둠의 전설",
+      "country": "South Korea",
+      "channel": "retail",
+      "catalog_observation_notes": [
+        {
+          "text": "ATFile lists a 5.21 production client; the original download route is preserved, but its binary remains unrecovered.",
+          "source_url": "https://web.archive.org/web/20021231151824id_/http://www.atfile.com:80/pds_download.asp?pg_code=1555&pv_code=15&flag=1"
+        }
+      ],
+      "sources": [
+        [
+          "https://web.archive.org/web/20021231151824id_/http://www.atfile.com:80/pds_download.asp?pg_code=1555&pv_code=15&flag=1",
+          "ATFile: @file.com - 어둠의 전설 5.21 다운로드 중입니다"
+        ]
+      ],
+      "observed_download_urls": [
+        "ftp://download.nexon.co.kr/lod/lodr.exe",
+        "ftp://ftp2.atfile.com/files/lodr/5.21/lodr.exe"
+      ],
+      "master_id": "version-discovery-kr-lod-retail-5-21",
+      "member_ids": [
+        "discovery-kr-lod-retail-5-21"
+      ],
+      "release_notes": [
+        "ATFile lists a 5.21 production client; the original download route is preserved, but its binary remains unrecovered."
+      ],
+      "release_note_sources": [
+        "https://web.archive.org/web/20021231151824id_/http://www.atfile.com:80/pds_download.asp?pg_code=1555&pv_code=15&flag=1"
+      ]
+    },
+    {
+      "region_id": "korea",
+      "region": "South Korea",
+      "type": "Client",
+      "status": "Listed",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [],
+      "research_notes": [
+        "ATFile lists a 5.60 production client; the original download route is preserved, but its binary remains unrecovered."
+      ],
+      "variants": [],
+      "id": "discovery-kr-lod-retail-5-60",
+      "version": "5.60",
+      "game_title": "Legends of Darkness / 어둠의 전설",
+      "country": "South Korea",
+      "channel": "retail",
+      "catalog_observation_notes": [
+        {
+          "text": "ATFile lists a 5.60 production client; the original download route is preserved, but its binary remains unrecovered.",
+          "source_url": "http://web.archive.org/web/20040120165013id_/http://atfile.com:80/pds_download.asp?pg_code=1555&pv_code=25&flag=2"
+        }
+      ],
+      "sources": [
+        [
+          "http://web.archive.org/web/20040120165013id_/http://atfile.com:80/pds_download.asp?pg_code=1555&pv_code=25&flag=2",
+          "ATFile: 앳파일 - 어둠의 전설 5.60 다운로드 중입니다"
+        ]
+      ],
+      "observed_download_urls": [
+        "ftp://download.nexon.co.kr/lod/lodr.exe",
+        "ftp://ftp2.atfile.com/download/lodr/5.60/lodr.exe"
+      ],
+      "master_id": "version-discovery-kr-lod-retail-5-60",
+      "member_ids": [
+        "discovery-kr-lod-retail-5-60"
+      ],
+      "release_notes": [
+        "ATFile lists a 5.60 production client; the original download route is preserved, but its binary remains unrecovered."
+      ],
+      "release_note_sources": [
+        "http://web.archive.org/web/20040120165013id_/http://atfile.com:80/pds_download.asp?pg_code=1555&pv_code=25&flag=2"
+      ]
+    },
+    {
+      "region_id": "korea",
+      "region": "South Korea",
+      "type": "Client",
+      "status": "Test Server",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [],
+      "research_notes": [
+        "ATFile lists a 5.06 Hades test-server client; the original download route is preserved, but its binary remains unrecovered."
+      ],
+      "variants": [],
+      "id": "discovery-kr-lod-hades-5-06",
+      "version": "5.06",
+      "game_title": "Legends of Darkness / 어둠의 전설",
+      "country": "South Korea",
+      "channel": "hades",
+      "catalog_observation_notes": [
+        {
+          "text": "ATFile lists a 5.06 Hades test-server client; the original download route is preserved, but its binary remains unrecovered.",
+          "source_url": "http://web.archive.org/web/20020926211702id_/http://www.atfile.com:80/pds_download.asp?flag=2&pg_code=1555&pv_code=9"
+        }
+      ],
+      "sources": [
+        [
+          "http://web.archive.org/web/20020926211702id_/http://www.atfile.com:80/pds_download.asp?flag=2&pg_code=1555&pv_code=9",
+          "ATFile: @file.com - 어둠의 전설 5.06 하데스서버 Test 클라이언트 다운로드 중입니다"
+        ]
+      ],
+      "observed_download_urls": [
+        "ftp://ftp.atfile.com/lodr/5.06Test/Lodtest.exe",
+        "ftp://patch.nexon.co.kr/lod/Lodtest.exe"
+      ],
+      "master_id": "version-discovery-kr-lod-hades-5-06",
+      "member_ids": [
+        "discovery-kr-lod-hades-5-06"
+      ],
+      "release_notes": [
+        "ATFile lists a 5.06 Hades test-server client; the original download route is preserved, but its binary remains unrecovered."
+      ],
+      "release_note_sources": [
+        "http://web.archive.org/web/20020926211702id_/http://www.atfile.com:80/pds_download.asp?flag=2&pg_code=1555&pv_code=9"
+      ]
+    },
+    {
+      "region_id": "korea",
+      "region": "South Korea",
+      "type": "Client",
+      "status": "Test Server",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [],
+      "research_notes": [
+        "ATFile lists a 5.35 Hades test-server client; the original download route is preserved, but its binary remains unrecovered."
+      ],
+      "variants": [],
+      "id": "discovery-kr-lod-hades-5-35",
+      "version": "5.35",
+      "game_title": "Legends of Darkness / 어둠의 전설",
+      "country": "South Korea",
+      "channel": "hades",
+      "catalog_observation_notes": [
+        {
+          "text": "ATFile lists a 5.35 Hades test-server client; the original download route is preserved, but its binary remains unrecovered.",
+          "source_url": "https://web.archive.org/web/20030306154224id_/http://www.atfile.com:80/pds_download.asp?flag=1&pg_code=1555&pv_code=19"
+        }
+      ],
+      "sources": [
+        [
+          "https://web.archive.org/web/20030306154224id_/http://www.atfile.com:80/pds_download.asp?flag=1&pg_code=1555&pv_code=19",
+          "ATFile: @file.com - 어둠의 전설 5.35 하데스서버 Test 클라이언트 다운로드 중입니다"
+        ]
+      ],
+      "observed_download_urls": [
+        "ftp://ftp.atfile.com/files/lodr/5.35test/Lodtest.exe",
+        "ftp://patch.nexon.co.kr/lod/Lodtest.exe"
+      ],
+      "master_id": "version-discovery-kr-lod-hades-5-35",
+      "member_ids": [
+        "discovery-kr-lod-hades-5-35"
+      ],
+      "release_notes": [
+        "ATFile lists a 5.35 Hades test-server client; the original download route is preserved, but its binary remains unrecovered."
+      ],
+      "release_note_sources": [
+        "https://web.archive.org/web/20030306154224id_/http://www.atfile.com:80/pds_download.asp?flag=1&pg_code=1555&pv_code=19"
+      ]
+    },
+    {
+      "region_id": "korea",
+      "region": "South Korea",
+      "type": "Client",
+      "status": "Test Server",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [],
+      "research_notes": [
+        "ATFile lists a 5.48 Hades test-server client; the original download route is preserved, but its binary remains unrecovered."
+      ],
+      "variants": [],
+      "id": "discovery-kr-lod-hades-5-48",
+      "version": "5.48",
+      "game_title": "Legends of Darkness / 어둠의 전설",
+      "country": "South Korea",
+      "channel": "hades",
+      "catalog_observation_notes": [
+        {
+          "text": "ATFile lists a 5.48 Hades test-server client; the original download route is preserved, but its binary remains unrecovered.",
+          "source_url": "http://web.archive.org/web/20030830050558id_/http://www.atfile.com:80/pds_download.asp?pg_code=1555&pv_code=23&flag=1"
+        }
+      ],
+      "sources": [
+        [
+          "http://web.archive.org/web/20030830050558id_/http://www.atfile.com:80/pds_download.asp?pg_code=1555&pv_code=23&flag=1",
+          "ATFile: @file.com - 어둠의 전설 5.48 하데스서버 Test 클라이언트 다운로드 중입니다"
+        ]
+      ],
+      "observed_download_urls": [
+        "ftp://211.109.2.112/download/lodr/5.48test/Lodtest.exe",
+        "ftp://patch.nexon.co.kr/lod/Lodtest.exe"
+      ],
+      "master_id": "version-discovery-kr-lod-hades-5-48",
+      "member_ids": [
+        "discovery-kr-lod-hades-5-48"
+      ],
+      "release_notes": [
+        "ATFile lists a 5.48 Hades test-server client; the original download route is preserved, but its binary remains unrecovered."
+      ],
+      "release_note_sources": [
+        "http://web.archive.org/web/20030830050558id_/http://www.atfile.com:80/pds_download.asp?pg_code=1555&pv_code=23&flag=1"
+      ]
+    },
+    {
+      "region_id": "asgard-jp",
+      "region": "Japan",
+      "type": "Client",
+      "status": "Released",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [
+        "Raw BIN MD5 matches IA/Redump; complete Asgard install tree statically extracted; unshield integrity test passes564files. Setup.ini Japanese language0x0011.",
+        "Disc folder Asgard122 is mislabeled relative to gamePE1.1.2.0. Raw disc has one abnormal sector near its end; no zero-fill used; every sector read for Asgard tree validated Mode1.",
+        "Game executable SHA-256 rechecked; embedded PE FileVersion 1.1.2.0 inspected statically."
+      ],
+      "research_notes": [
+        "Verified game executable version 1.1.2.0 on Famitsu NetGames Vol.5; the disc directory is labeled Asgard122."
+      ],
+      "variants": [],
+      "id": "discovery-asgard-jp-1-1-2-0",
+      "version": "1.1.2.0",
+      "game_title": "Asgard / アスガルド",
+      "country": "Japan",
+      "channel": "retail",
+      "catalog_observation_notes": [
+        {
+          "text": "Verified game executable version 1.1.2.0 on Famitsu NetGames Vol.5; the disc directory is labeled Asgard122.",
+          "source_url": "https://archive.org/details/famitsu-net-games-vol.-5-special-cd-rom-japan"
+        }
+      ],
+      "sources": [
+        [
+          "https://archive.org/details/famitsu-net-games-vol.-5-special-cd-rom-japan",
+          "Internet Archive: Famitsu NetGames Vol.5 Special CD-ROM; Japanese Asgard client"
+        ]
+      ],
+      "publisher_version": "1.12",
+      "package_game_executable": {
+        "path": "data/version-research/2026-10-15/client-discovery/japanese/famitsu-probe/game/App_Executables/Asgard.exe",
+        "bytes": 2359296,
+        "sha256": "f28a8971e4a3b4e7b60a684fd189e495e39ab8dfd23f391b3740a960bb2ac62c"
+      },
+      "master_id": "version-discovery-asgard-jp-1-1-2-0",
+      "member_ids": [
+        "discovery-asgard-jp-1-1-2-0"
+      ],
+      "release_notes": [
+        "Verified game executable version 1.1.2.0 on Famitsu NetGames Vol.5; the disc directory is labeled Asgard122."
+      ],
+      "release_note_sources": [
+        "https://archive.org/details/famitsu-net-games-vol.-5-special-cd-rom-japan"
+      ]
+    },
+    {
+      "region_id": "asgard-jp",
+      "region": "Japan",
+      "type": "Client",
+      "status": "Released",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [
+        "The small Python resource reader could not read another resource (Truncated resource); fixed version independently read with Windows FileVersionInfo.",
+        "Game executable SHA-256 rechecked; embedded PE FileVersion 2.8.6.0 inspected statically."
+      ],
+      "research_notes": [
+        "Japanese Asgard distribution labeled 2.860; Full and Light packages contain the same verified 2.8.6.0 game executable."
+      ],
+      "variants": [],
+      "id": "discovery-asgard-jp-2-8-6-0",
+      "version": "2.8.6.0",
+      "game_title": "Asgard / アスガルド",
+      "country": "Japan",
+      "channel": "retail",
+      "catalog_observation_notes": [
+        {
+          "text": "Japanese Asgard distribution labeled 2.860; Full and Light packages contain the same verified 2.8.6.0 game executable.",
+          "source_url": "https://web.archive.org/web/20150105201407id_/http%3A//asgard.nexon.co.jp:80/entry/download.asp"
+        }
+      ],
+      "sources": [
+        [
+          "https://web.archive.org/web/20150105201407id_/http%3A//asgard.nexon.co.jp:80/entry/download.asp",
+          "Nexon Japan: archived Asgard 2.860 Full and Light downloads"
+        ]
+      ],
+      "publisher_version": "2.860",
+      "version_aliases": [
+        "2.860"
+      ],
+      "package_game_executable": {
+        "path": "E:\\My Projects\\DAKnow\\data\\version-research\\2026-10-15\\client-discovery\\japanese\\asgard2860-full\\game\\Asgard.exe",
+        "bytes": 3061216,
+        "sha256": "05e72ddebd9130b16ee4f97d34c7003790bd7bdd5b019a5407fa9ff1de9af49b"
+      },
+      "master_id": "version-discovery-asgard-jp-2-8-6-0",
+      "member_ids": [
+        "discovery-asgard-jp-2-8-6-0"
+      ],
+      "release_notes": [
+        "Japanese Asgard distribution labeled 2.860; Full and Light packages contain the same verified 2.8.6.0 game executable."
+      ],
+      "release_note_sources": [
+        "https://web.archive.org/web/20150105201407id_/http%3A//asgard.nexon.co.jp:80/entry/download.asp"
+      ]
+    },
+    {
+      "region_id": "asgard-tw",
+      "region": "Taiwan",
+      "type": "Client",
+      "status": "Listed",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [],
+      "research_notes": [
+        "Listed by Softking as the Traditional Chinese DigiCell Asgard 1.33 client; filename Asgard_Test_133.exe. Binary and server channel remain unverified."
+      ],
+      "variants": [],
+      "id": "discovery-asgard-tw-1-33",
+      "version": "1.33",
+      "game_title": "Asgard / 神之領域",
+      "country": "Taiwan",
+      "channel": "unspecified",
+      "catalog_observation_notes": [
+        {
+          "text": "Listed by Softking as the Traditional Chinese DigiCell Asgard 1.33 client; filename Asgard_Test_133.exe. Binary and server channel remain unverified.",
+          "source_url": "https://www.softking.com.tw/20884/"
+        }
+      ],
+      "sources": [
+        [
+          "https://www.softking.com.tw/20884/",
+          "Softking: DigiCell Traditional Chinese Asgard 1.33 listing"
+        ]
+      ],
+      "observed_download_urls": [
+        "http://yesterday.cdpa.nsysu.edu.tw/v/digicell/Asgard_Test_133.exe"
+      ],
+      "master_id": "version-discovery-asgard-tw-1-33",
+      "member_ids": [
+        "discovery-asgard-tw-1-33"
+      ],
+      "release_notes": [
+        "Listed by Softking as the Traditional Chinese DigiCell Asgard 1.33 client; filename Asgard_Test_133.exe. Binary and server channel remain unverified."
+      ],
+      "release_note_sources": [
+        "https://www.softking.com.tw/20884/"
+      ]
+    },
+    {
+      "region_id": "elancia-kr",
+      "region": "South Korea",
+      "type": "Client",
+      "status": "Released",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [
+        "Whole-file SHA1 matches Wayback CDX; all 531 ZIP members CRC-verified; actual game PE version 5.8.1.0.",
+        "Exact PE version; no inferred publisher shorthand or release date.",
+        "Game executable SHA-256 rechecked; embedded PE FileVersion 5.8.1.0 inspected statically."
+      ],
+      "research_notes": [
+        "Verified Korean Elancia game executable version 5.8.1.0; production installer recovered from an archived publisher download."
+      ],
+      "variants": [],
+      "id": "discovery-elancia-kr-5-8-1-0",
+      "version": "5.8.1.0",
+      "game_title": "Elancia / 일랜시아",
+      "country": "South Korea",
+      "channel": "retail",
+      "catalog_observation_notes": [
+        {
+          "text": "Verified Korean Elancia game executable version 5.8.1.0; production installer recovered from an archived publisher download.",
+          "source_url": "http://web.archive.org/web/20150423073351/http://elancia.dn.nexoncdn.co.kr/elanr.exe"
+        }
+      ],
+      "sources": [
+        [
+          "http://web.archive.org/web/20150423073351/http://elancia.dn.nexoncdn.co.kr/elanr.exe",
+          "Korean Elancia 5.8.1.0: preserved publisher installer"
+        ]
+      ],
+      "package_game_executable": {
+        "path": "data/version-research/2026-10-15/client-discovery/core/elancia-2015-static/Elancia.exe",
+        "bytes": 2064384,
+        "sha256": "d5fb01d67f488ec5e262ec5a3b111ec417ceeccfedb90e6e7ab85712fa5bf27c"
+      },
+      "master_id": "version-discovery-elancia-kr-5-8-1-0",
+      "member_ids": [
+        "discovery-elancia-kr-5-8-1-0"
+      ],
+      "release_notes": [
+        "Verified Korean Elancia game executable version 5.8.1.0; production installer recovered from an archived publisher download."
+      ],
+      "release_note_sources": [
+        "http://web.archive.org/web/20150423073351/http://elancia.dn.nexoncdn.co.kr/elanr.exe"
+      ]
+    },
+    {
+      "region_id": "elancia-kr",
+      "region": "South Korea",
+      "type": "Client",
+      "status": "Test Server",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [
+        "Whole-file SHA1 matches Wayback CDX; all 531 ZIP members CRC-verified; actual game PE version 5.7.9.0.",
+        "Exact PE version; no inferred publisher shorthand or release date.",
+        "Game executable SHA-256 rechecked; embedded PE FileVersion 5.7.9.0 inspected statically."
+      ],
+      "research_notes": [
+        "Verified Korean Elancia game executable version 5.7.9.0; test installer recovered from an archived publisher download."
+      ],
+      "variants": [],
+      "id": "discovery-elancia-kr-5-7-9-0",
+      "version": "5.7.9.0",
+      "game_title": "Elancia / 일랜시아",
+      "country": "South Korea",
+      "channel": "test",
+      "catalog_observation_notes": [
+        {
+          "text": "Verified Korean Elancia game executable version 5.7.9.0; test installer recovered from an archived publisher download.",
+          "source_url": "http://web.archive.org/web/20150216135343/http://elancia-nexon.ktics.co.kr/elantest.exe"
+        }
+      ],
+      "sources": [
+        [
+          "http://web.archive.org/web/20150216135343/http://elancia-nexon.ktics.co.kr/elantest.exe",
+          "Korean Elancia 5.7.9.0: preserved publisher installer"
+        ]
+      ],
+      "package_game_executable": {
+        "path": "data/version-research/2026-10-15/client-discovery/core/elancia-2015-test-static/Elancia.exe",
+        "bytes": 3092480,
+        "sha256": "25cd08a0811e9553543a69ca09930cf524d8f826b5c7f9c6d71dbb1a0c002b49"
+      },
+      "master_id": "version-discovery-elancia-kr-5-7-9-0",
+      "member_ids": [
+        "discovery-elancia-kr-5-7-9-0"
+      ],
+      "release_notes": [
+        "Verified Korean Elancia game executable version 5.7.9.0; test installer recovered from an archived publisher download."
+      ],
+      "release_note_sources": [
+        "http://web.archive.org/web/20150216135343/http://elancia-nexon.ktics.co.kr/elantest.exe"
+      ]
+    },
+    {
+      "region_id": "elancia-kr",
+      "region": "South Korea",
+      "type": "Client",
+      "status": "Released",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [
+        "Complete installer recovered by validated image ranges from two independent disc images; SHA256 identical. Outer MSZIP archive extracts cleanly. All101 inner cabinet files extract using old-compression mode and match declared sizes.",
+        "Outer MSZIP archive extracted without CRC error; all101 inner cabinet members statically extracted with old-compression mode and checked against cabinet sizes. unshield test subcommand failed all entries despite successful old-mode extraction; do not claim independent inner-cabinet CRC verification.",
+        "Game executable SHA-256 rechecked; embedded PE FileVersion 2.6.6.0 inspected statically."
+      ],
+      "research_notes": [
+        "Verified Korean Elancia game executable version 2.6.6.0; identical installer recovered from the HITEL 2000 and NICE Internet 3.71 CDs."
+      ],
+      "variants": [],
+      "id": "discovery-elancia-kr-2-6-6-0",
+      "version": "2.6.6.0",
+      "game_title": "Elancia / 일랜시아",
+      "country": "South Korea",
+      "channel": "retail",
+      "catalog_observation_notes": [
+        {
+          "text": "Verified Korean Elancia game executable version 2.6.6.0; identical installer recovered from the HITEL 2000 and NICE Internet 3.71 CDs.",
+          "source_url": "https://archive.org/download/hitel-2000/hitel%202000.iso"
+        }
+      ],
+      "sources": [
+        [
+          "https://archive.org/download/hitel-2000/hitel%202000.iso",
+          "Korean Elancia 2.6.6.0: preserved CD media"
+        ]
+      ],
+      "package_game_executable": {
+        "path": "data/version-research/2026-10-15/client-discovery/core/early-elancia/hitel-static/runtime-old/ExeDllEtc/Elancia.EXE",
+        "bytes": 1257544,
+        "sha256": "085a53949101f38be22e2fc8e3c095110c0d6b36fa19ab0b303eebe41145c9b9"
+      },
+      "master_id": "version-discovery-elancia-kr-2-6-6-0",
+      "member_ids": [
+        "discovery-elancia-kr-2-6-6-0"
+      ],
+      "release_notes": [
+        "Verified Korean Elancia game executable version 2.6.6.0; identical installer recovered from the HITEL 2000 and NICE Internet 3.71 CDs."
+      ],
+      "release_note_sources": [
+        "https://archive.org/download/hitel-2000/hitel%202000.iso"
+      ]
+    },
+    {
+      "region_id": "elancia-kr",
+      "region": "South Korea",
+      "type": "Client",
+      "status": "Released",
+      "release_date": null,
+      "date_scope": "Documented version or package observation; original first-release date unknown",
+      "date_note": "No verified first-release date. Source post, archive capture, disc publication and file timestamps are not release dates.",
+      "notes": [],
+      "files": [],
+      "audit_ids": [],
+      "variant": null,
+      "verification_notes": [
+        "Game executable SHA-256 rechecked; embedded PE FileVersion 3.2.5.0 inspected statically."
+      ],
+      "research_notes": [
+        "Verified Korean Elancia game executable version 3.2.5.0; complete installer recovered from NetPower November 2001."
+      ],
+      "variants": [],
+      "id": "discovery-elancia-kr-3-2-5-0",
+      "version": "3.2.5.0",
+      "game_title": "Elancia / 일랜시아",
+      "country": "South Korea",
+      "channel": "retail",
+      "catalog_observation_notes": [
+        {
+          "text": "Verified Korean Elancia game executable version 3.2.5.0; complete installer recovered from NetPower November 2001.",
+          "source_url": "https://discmaster.textfiles.com/file/28501/Net_Power_11.iso/client/elanr.exe"
+        }
+      ],
+      "sources": [
+        [
+          "https://discmaster.textfiles.com/file/28501/Net_Power_11.iso/client/elanr.exe",
+          "DiscMaster: NetPower November 2001 Korean Elancia installer"
+        ]
+      ],
+      "package_game_executable": {
+        "path": "data/version-research/2026-10-15/client-discovery/korean-atfile/elancia-netpower/extracted/Program_Files/Elancia.exe",
+        "bytes": 1351760,
+        "sha256": "dd4c97fbeb0361ccf3f98aef58ee9fa774744b11d28c597a2fff627905a48bbf",
+        "sha1": "49fb062d0f41bf7ef7742a79872fd115569bf168",
+        "md5": "7a498b2487f9afbbfc68d590013253e2",
+        "coff_timestamp": 998298660,
+        "coff_timestamp_utc": "2001-08-20T09:11:00+00:00",
+        "fixed_version": [
+          {
+            "file_version": "3.2.5.0",
+            "product_version": "3.2.5.0"
+          }
+        ],
+        "version_strings": [
+          {
+            "lang_id": "000004b0",
+            "entries": {
+              "Comments": "",
+              "CompanyName": "Nexon",
+              "FileDescription": "Elancia",
+              "FileVersion": "3, 2, 5, 0",
+              "InternalName": "Elancia",
+              "LegalCopyright": "Copyright ? 1998",
+              "LegalTrademarks": "",
+              "OriginalFilename": "Elancia.exe",
+              "PrivateBuild": "",
+              "ProductName": "Nexon Elancia",
+              "ProductVersion": "3, 2, 5, 0",
+              "SpecialBuild": ""
+            }
+          }
+        ],
+        "string_table": []
+      },
+      "master_id": "version-discovery-elancia-kr-3-2-5-0",
+      "member_ids": [
+        "discovery-elancia-kr-3-2-5-0"
+      ],
+      "release_notes": [
+        "Verified Korean Elancia game executable version 3.2.5.0; complete installer recovered from NetPower November 2001."
+      ],
+      "release_note_sources": [
+        "https://discmaster.textfiles.com/file/28501/Net_Power_11.iso/client/elanr.exe"
+      ]
+    }
+  ],
+  "alias_updates": [
+    {
+      "country": "South Korea",
+      "title": "Legends of Darkness / 어둠의 전설",
+      "version": "7.420",
+      "aliases": [
+        "7.42"
+      ],
+      "source": "https://gamezone.live/board_MsnU09/12238"
+    }
+  ],
+  "classification_corrections": {
+    "2.6.6.0": "Korean Elancia",
+    "3.2.5.0": "Korean Elancia",
+    "5.7.9.0": "Korean Elancia test",
+    "5.8.1.0": "Korean Elancia production",
+    "2.851": "Japanese Asgard; game PE2.8.5.1",
+    "2.860": "Japanese Asgard; game PE2.8.6.0",
+    "3.51/3.64/3.69": "Singapore Elancia in the recent discovery pass; 3.51 also independently exists for SGDA"
+  }
+}
