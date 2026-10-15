@@ -53,8 +53,8 @@
   caption.append(title, description, credit);
   const footer = document.createElement('div');
   footer.className = 'image-lightbox-footer';
-  footer.append(caption, close, count);
-  figure.append(viewer, footer);
+  footer.append(caption, count);
+  figure.append(viewer, footer, close);
   dialog.append(figure);
   document.body.append(dialog);
 

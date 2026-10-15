@@ -24,7 +24,7 @@ html.image-lightbox-open { overflow: hidden; scrollbar-gutter: auto; }
 #image-lightbox-caption, #image-lightbox-credit { display: block; }
 #image-lightbox-credit { margin-top: 3px; color: #bbb; }
 .image-lightbox .title-gallery-count { grid-column: 1 / -1; grid-row: 2; justify-self: stretch; display: block; margin: 0; padding: 0; color: #aaa; font-size: 12px; line-height: 1.4; font-variant-numeric: tabular-nums; text-align: center; opacity: 1; }
-.image-lightbox-close { grid-column: 2; grid-row: 1; display: grid; place-items: start end; width: 44px; height: 44px; padding: 0 4px 0 0; border: 0; background: transparent; cursor: pointer; opacity: .7; transition: opacity 200ms ease; }
+.image-lightbox-close { position: absolute; right: 0; bottom: calc(100% + 5px); z-index: 3; display: grid; place-items: end end; width: 44px; height: 44px; padding: 0 4px 0 0; border: 0; background: transparent; cursor: pointer; opacity: .7; transition: opacity 200ms ease; }
 .image-lightbox-close::before { content: ""; width: 30px; height: 30px; background: url("vendor/lightbox2/close.png") center / 30px 30px no-repeat; }
 .image-lightbox-close:hover, .image-lightbox-close:focus-visible { opacity: 1; }
 .image-lightbox a { color: #ddd; }
