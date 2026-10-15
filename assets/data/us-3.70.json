@@ -1,0 +1,135 @@
+{
+  "review_date": "2026-10-15",
+  "entry_id": "entry-9",
+  "master_id": "version-12",
+  "version": "3.70",
+  "country": "United States",
+  "game_title": "DarkAges",
+  "owner_authorized_publication": true,
+  "supersedes_partial_package_exclusion": true,
+  "complete_distribution": true,
+  "installer_executed": false,
+  "version_evidence": "Installer PE FileVersion 3.70.0.0 and Darkages.exe STRINGTABLE entry 1 value 370; the game's inherited PE FileVersion is 360.0.0.0",
+  "release_date": null,
+  "date_note": "Archive captures and file timestamps are not release dates",
+  "recovery_verification": "data/version-research/2026-10-15/client-discovery/core/us-370-static/verification.json",
+  "source_urls": [
+    "http://web.archive.org/web/20010905020425/http://www1.darkages.com:80/download/DarkAges_Key_split.exe",
+    "http://web.archive.org/web/20010905014351/http://www1.darkages.com:80/download/DarkAges_Key_split.W02",
+    "http://web.archive.org/web/20010905014523/http://www1.darkages.com:80/download/DarkAges_Key_split.W03",
+    "http://web.archive.org/web/20010905014837/http://www1.darkages.com:80/download/DarkAges_Key_split.W04"
+  ],
+  "installer_pe": {
+    "machine": "0x014c",
+    "coff_timestamp_uninterpreted": 956673432,
+    "stringtable": [],
+    "file_versions": [
+      "3.70.0.0"
+    ],
+    "product_versions": [
+      "3.70.0.0"
+    ]
+  },
+  "game_executable_pe": {
+    "machine": "0x014c",
+    "coff_timestamp_uninterpreted": 989486552,
+    "stringtable": [
+      {
+        "block": 1,
+        "index": 1,
+        "language": 1042,
+        "text": "370"
+      },
+      {
+        "block": 1,
+        "index": 2,
+        "language": 1042,
+        "text": "420"
+      }
+    ],
+    "file_versions": [
+      "360.0.0.0"
+    ],
+    "product_versions": [
+      "360.0.0.0"
+    ]
+  },
+  "game_executable": {
+    "filename": "Darkages.exe",
+    "bytes": 905216,
+    "sha256": "61abfd9224a502ce51b1073e44338e416c896dd171aa83a9bc6afb830a4f2130"
+  },
+  "packages": [
+    {
+      "kind": "Original",
+      "filename": "US-DarkAges-[Client]-[3.70]-Original.zip",
+      "source_path": "Downloads/TEMP/Original/US-DarkAges-[Client]-[3.70]-Original.zip",
+      "bytes": 21001359,
+      "sha256": "6cbf5351b1f296c8b35ddc13b5f9fb8997279013e90275daf44eb05ff43a25bb",
+      "source_mtime_ms": 1792062399853.7214,
+      "asset_id": 643602939,
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.70.-Original.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.3.70.-Original.zip",
+      "crc_verified": true,
+      "members": [
+        {
+          "filename": "DarkAges_Key_split.exe",
+          "bytes": 5427200,
+          "sha256": "d0f46b9c6508e026c71da12dd1b9b536807337e1d80dc22ca74ecdd920cd8a87"
+        },
+        {
+          "filename": "DarkAges_Key_split.W02",
+          "bytes": 5427200,
+          "sha256": "2e7444f2e474fba6ccafb9986028f0d3fbba6a7cf70b25ad85390c84a0d5683f"
+        },
+        {
+          "filename": "DarkAges_Key_split.W03",
+          "bytes": 5427200,
+          "sha256": "bd79ab7daae5d06987bad965a6ffa79fe4f7bf3153fdc99958cbcaa88a99f9e7"
+        },
+        {
+          "filename": "DarkAges_Key_split.W04",
+          "bytes": 4825234,
+          "sha256": "e5aee89bf4662c3cbd20342ba4b20ed22fadea54c41e2bb6019b68ac5a40af3f"
+        }
+      ]
+    },
+    {
+      "kind": "Repack",
+      "filename": "US-DarkAges-[Client]-[3.70]-Repack.zip",
+      "source_path": "Downloads/TEMP/Repack/US-DarkAges-[Client]-[3.70]-Repack.zip",
+      "bytes": 20035351,
+      "sha256": "2d4ef8b6f81b80a01854a27d6bff8851aadda684f96fea26447648939fa261ca",
+      "source_mtime_ms": 1792062360579.971,
+      "asset_id": 643603035,
+      "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-repack/US-DarkAges-.Client.-.3.70.-Repack.zip",
+      "hosted_filename": "US-DarkAges-.Client.-.3.70.-Repack.zip",
+      "crc_verified": true,
+      "members": [
+        {
+          "filename": "Darkages.exe",
+          "bytes": 905216,
+          "sha256": "61abfd9224a502ce51b1073e44338e416c896dd171aa83a9bc6afb830a4f2130"
+        },
+        {
+          "filename": "FaceMaker.exe",
+          "bytes": 421888,
+          "sha256": "1cc128b729f964806261f2be9b9044e41b48247fa92c2de51732ca011b5ee2bc"
+        },
+        {
+          "filename": "Patcher.exe",
+          "bytes": 360502,
+          "sha256": "5a0278d0fa82e1242dcb4efe01242bc7a47b784a19b972bee0dc70fd9ebf0f6e"
+        },
+        {
+          "filename": "DarkAges.dat",
+          "bytes": 64269240,
+          "sha256": "87c8107a5df43cc97d85c672c36c0779d236b6c1a3cea62799a19f57dc08d096"
+        }
+      ]
+    }
+  ],
+  "existing_table_rows_unchanged": true,
+  "existing_mirrors_unchanged": true,
+  "all_downloads_have_matching_versions": true
+}

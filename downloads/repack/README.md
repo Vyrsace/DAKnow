@@ -25,6 +25,7 @@ Package and patch limitations are recorded in the [catalog](https://vyrsace.gith
 | [US-DarkAges-\[Client\]-\[2.15\]-Repack.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-repack/US-DarkAges-.Client.-.2.15.-Repack.zip) | 11,725,891 |
 | [US-DarkAges-\[Client\]-\[3.50\]-Repack.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-repack/US-DarkAges-.Client.-.3.50.-Repack.zip) | 19,886,869 |
 | [US-DarkAges-\[Client\]-\[3.51\]-Repack.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-repack/US-DarkAges-.Client.-.3.51.-Repack.zip) | 20,309,900 |
+| [US-DarkAges-\[Client\]-\[3.70\]-Repack.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-repack/US-DarkAges-.Client.-.3.70.-Repack.zip) | 20,035,351 |
 | [US-DarkAges-\[Client\]-\[3.71\]-Repack.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-repack/US-DarkAges-.Client.-.3.71.-Repack.zip) | 22,068,578 |
 | [US-DarkAges-\[Client\]-\[3.72\]-Repack.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-repack/US-DarkAges-.Client.-.3.72.-Repack.zip) | 20,430,928 |
 | [US-DarkAges-\[Client\]-\[3.73\]-Repack.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-repack/US-DarkAges-.Client.-.3.73.-Repack.zip) | 21,136,746 |

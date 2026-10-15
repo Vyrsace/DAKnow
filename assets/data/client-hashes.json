@@ -6,14 +6,16 @@
   "verification": {
     "method": "Read every preserved main executable and recalculate SHA-256 and byte length; compare with Downloads/files.jsonl and the supplemental preservation manifest. No preserved binary was executed.",
     "verifiedPaths": 35,
-    "uniqueRows": 33,
+    "uniqueRows": 34,
     "fileManifest": "Downloads/files.jsonl",
     "extractionManifest": "Downloads/extraction-manifest.jsonl",
     "downloadPlan": "Downloads/download-plan.json",
     "builder": "scripts/build_version_catalog_hashes.py",
     "supplementalManifests": [
-      "Downloads/elancia-preservation.json"
-    ]
+      "Downloads/elancia-preservation.json",
+      "data/download-hosting/us-3.70.json"
+    ],
+    "supplementalBuilder": "scripts/add_us_370_downloads.py"
   },
   "groups": [
     {
@@ -86,6 +88,34 @@
           ],
           "entryIds": [
             "entry-8"
+          ]
+        },
+        {
+          "filename": "Darkages.exe",
+          "bytes": 905216,
+          "sha256": "61abfd9224a502ce51b1073e44338e416c896dd171aa83a9bc6afb830a4f2130",
+          "version": "3.70",
+          "region": "United States",
+          "notes": [
+            "Version 3.70.",
+            "Complete four-part Installer; runtime verified by static extraction.",
+            "STRINGTABLE version 370; inherited PE FileVersion 360.0.0.0."
+          ],
+          "paths": [
+            "data/version-research/2026-10-15/client-discovery/core/us-370-static/main/Darkages.exe"
+          ],
+          "sourcePaths": [
+            "Downloads/TEMP/Original/US-DarkAges-[Client]-[3.70]-Original.zip",
+            "Downloads/TEMP/Repack/US-DarkAges-[Client]-[3.70]-Repack.zip"
+          ],
+          "sourceUrls": [
+            "http://web.archive.org/web/20010905020425/http://www1.darkages.com:80/download/DarkAges_Key_split.exe",
+            "http://web.archive.org/web/20010905014351/http://www1.darkages.com:80/download/DarkAges_Key_split.W02",
+            "http://web.archive.org/web/20010905014523/http://www1.darkages.com:80/download/DarkAges_Key_split.W03",
+            "http://web.archive.org/web/20010905014837/http://www1.darkages.com:80/download/DarkAges_Key_split.W04"
+          ],
+          "entryIds": [
+            "entry-9"
           ]
         },
         {

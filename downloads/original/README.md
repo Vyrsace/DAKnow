@@ -24,6 +24,7 @@ Package and patch limitations are recorded in the [catalog](https://vyrsace.gith
 | [US-DarkAges-\[Client\]-\[2.15\]-Original.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.2.15.-Original.zip) | 13,824,751 |
 | [US-DarkAges-\[Client\]-\[3.50\]-Original.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.50.-Original.zip) | 24,112,000 |
 | [US-DarkAges-\[Client\]-\[3.51\]-Original.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.51.-Original.zip) | 24,610,613 |
+| [US-DarkAges-\[Client\]-\[3.70\]-Original.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.70.-Original.zip) | 21,001,359 |
 | [US-DarkAges-\[Client\]-\[3.71\]-Original.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.71.-Original.zip) | 22,651,923 |
 | [US-DarkAges-\[Client\]-\[3.72\]-Original.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.72.-Original.zip) | 20,884,892 |
 | [US-DarkAges-\[Client\]-\[3.73\]-Original.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.73.-Original.zip) | 21,600,930 |
