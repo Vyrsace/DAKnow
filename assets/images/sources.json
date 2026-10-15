@@ -49,7 +49,13 @@
       "provenance": "Player-uploaded image embedded in a public post on the official lod.nexon.com screenshot board; player-authored evidence, not an official developer capture.",
       "notes": [
         "Player-submitted summer-event screenshot with the original game interface; no added annotations."
-      ]
+      ],
+      "display": {
+        "caption": "Screenshot - Waikiki summer event beach",
+        "credit": "펜아 / NEXON screenshot board",
+        "source_url": "https://lod.nexon.com/Community/screenshot/137625?Category2=2",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Legends of Darkness — South Korea",
@@ -80,7 +86,13 @@
       "provenance": "Player-uploaded image embedded in a public post on the official lod.nexon.com screenshot board; player-authored evidence, not an official developer capture.",
       "notes": [
         "Player-submitted Queen Ant encounter. The uploader supplied a gameplay-area crop; the complete uploaded image is preserved."
-      ]
+      ],
+      "display": {
+        "caption": "Screenshot - Queen Ant encounter",
+        "credit": "생츄 / NEXON screenshot board",
+        "source_url": "https://lod.nexon.com/Community/screenshot/147872?Category2=2",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Legends of Darkness — South Korea",
@@ -111,7 +123,13 @@
       "provenance": "Player-uploaded image embedded in a public post on the official lod.nexon.com screenshot board; player-authored evidence, not an official developer capture.",
       "notes": [
         "Player-submitted Doom Love event screenshot dated 2025-12-18, preserving the original game interface and winter setting."
-      ]
+      ],
+      "display": {
+        "caption": "Screenshot - Doom Love winter event",
+        "credit": "루나 / NEXON screenshot board",
+        "source_url": "https://lod.nexon.com/community/screenshot/142126",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Legends of Darkness — South Korea",
@@ -142,7 +160,13 @@
       "provenance": "Player-uploaded image embedded in a public post on the official lod.nexon.com screenshot board; player-authored evidence, not an official developer capture.",
       "notes": [
         "The author describes summer-event guild activities and swimming competitions. Native gameplay UI and nameplates are retained."
-      ]
+      ],
+      "display": {
+        "caption": "Screenshot - Waikiki summer swimming event",
+        "credit": "뱀뀨 / NEXON screenshot board",
+        "source_url": "https://lod.nexon.com/Community/screenshot/137622?Category2=2",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "name": "2026-catpuccino.png",
@@ -364,7 +388,13 @@
       "width": 1024,
       "height": 768,
       "sha256": "bceb98556690b7cd7492e5d312caf21bbd4926a4947e322335226b2c7ae279a7",
-      "label": "[넥슨30주년] 뚜뚜 이벤트 참여"
+      "label": "[넥슨30주년] 뚜뚜 이벤트 참여",
+      "display": {
+        "caption": "Screenshot - NEXON 30th anniversary event gathering",
+        "credit": "더블슬래셔 / NEXON screenshot board",
+        "source_url": "https://asgard.nexon.com/Community/screenshot/9271",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "gallery_order": 2,
@@ -402,7 +432,13 @@
       "width": 1024,
       "height": 768,
       "sha256": "bbbe0e4d2430df1a66f0197975445074ab36c1e1bd2263ff119ccf6a59650898",
-      "label": "[이지인증] 야차 엔네아 솔플"
+      "label": "[이지인증] 야차 엔네아 솔플",
+      "display": {
+        "caption": "Screenshot - Ennea easy-mode raid completion",
+        "credit": "시러 / NEXON screenshot board",
+        "source_url": "https://asgard.nexon.com/Community/screenshot/9520",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "gallery_order": 3,
@@ -440,7 +476,13 @@
       "width": 709,
       "height": 497,
       "sha256": "064efaf2f7eeab5bf6c0d121cc8feffa4dca9dc7e7b31aba3626b891513698b0",
-      "label": "2025년 12월 30일 연말결혼식"
+      "label": "2025년 12월 30일 연말결혼식",
+      "display": {
+        "caption": "Screenshot - An in-game wedding celebration",
+        "credit": "리프야 / NEXON screenshot board",
+        "source_url": "https://asgard.nexon.com/Community/screenshot/10067",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "gallery_order": 4,
@@ -478,7 +520,13 @@
       "width": 1024,
       "height": 768,
       "sha256": "5c87f2077fd10b10d5b43fbb04ca04f58deb25c39c50403ebf5e0f40515ca056",
-      "label": "[이지인증] 엔네아 이지 레이드 클리어~"
+      "label": "[이지인증] 엔네아 이지 레이드 클리어~",
+      "display": {
+        "caption": "Screenshot - Party after an Ennea raid",
+        "credit": "솔직히힘들어 / NEXON screenshot board",
+        "source_url": "https://asgard.nexon.com/Community/screenshot/9697",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "region": "jp",
@@ -527,7 +575,13 @@
       "alt": "A character fights flaming creatures in a flowered forest in Japanese Yami",
       "label": "Forest battle",
       "image_number": 2,
-      "asset": "assets/images/yami-jp-gameplay-2.png"
+      "asset": "assets/images/yami-jp-gameplay-2.png",
+      "display": {
+        "caption": "Screenshot - Forest battle in Japanese Yami",
+        "credit": "NEXON Japan / GAME Watch",
+        "source_url": "https://game.watch.impress.co.jp/docs/20010417/nexon.htm",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "region": "jp",
@@ -576,7 +630,13 @@
       "alt": "Japanese Yami players explore a dungeon",
       "label": "Dungeon encounter",
       "image_number": 3,
-      "asset": "assets/images/yami-jp-gameplay-3.png"
+      "asset": "assets/images/yami-jp-gameplay-3.png",
+      "display": {
+        "caption": "Screenshot - Dungeon encounter in Japanese Yami",
+        "credit": "NEXON Japan / GAME Watch",
+        "source_url": "https://game.watch.impress.co.jp/docs/20010417/nexon.htm",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "region": "jp",
@@ -625,7 +685,13 @@
       "alt": "A snowy penguin encounter in Japanese Yami",
       "label": "Snowy penguins",
       "image_number": 4,
-      "asset": "assets/images/yami-jp-gameplay-4.png"
+      "asset": "assets/images/yami-jp-gameplay-4.png",
+      "display": {
+        "caption": "Screenshot - Snowy penguins in Japanese Yami",
+        "credit": "NEXON Japan / GAME Watch",
+        "source_url": "https://game.watch.impress.co.jp/docs/20010417/nexon.htm",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "region": "jp",
@@ -674,7 +740,13 @@
       "alt": "A character stands beside flowerbeds and a statue inside a temple in Japanese Yami",
       "label": "Temple interior",
       "image_number": 5,
-      "asset": "assets/images/yami-jp-gameplay-5.png"
+      "asset": "assets/images/yami-jp-gameplay-5.png",
+      "display": {
+        "caption": "Screenshot - Temple interior in Japanese Yami",
+        "credit": "NEXON Japan / GAME Watch",
+        "source_url": "https://game.watch.impress.co.jp/docs/20010417/nexon.htm",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "source_url": "https://web.archive.org/web/20010619183924id_/http://www.apexon-online.com.tw/images/da_images/da03-1.jpg",
@@ -750,7 +822,13 @@
       "alt": "Chinese-language client gameplay in the snowy wilderness of 真世界",
       "label": "Snowy wilderness — publisher preview",
       "image_number": 3,
-      "asset": "assets/images/zhenshijie-tw-gameplay-2.png"
+      "asset": "assets/images/zhenshijie-tw-gameplay-2.png",
+      "display": {
+        "caption": "Screenshot - Snowy wilderness - publisher preview",
+        "credit": "APEXON archive",
+        "source_url": "https://web.archive.org/web/20010426181445/http://www.apexon-online.com.tw:80/nexon/dasc.htm",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "source_url": "https://web.archive.org/web/20011007070139id_/http://www.apexon-online.com.tw:80/images/0806/05.JPG",
@@ -826,7 +904,13 @@
       "alt": "Players gather in Love City in the Chinese-language 真世界 client",
       "label": "Love City — publisher preview",
       "image_number": 4,
-      "asset": "assets/images/zhenshijie-tw-gameplay-3.png"
+      "asset": "assets/images/zhenshijie-tw-gameplay-3.png",
+      "display": {
+        "caption": "Screenshot - Love City - publisher preview",
+        "credit": "APEXON archive",
+        "source_url": "https://web.archive.org/web/20010826104221id_/http://www.apexon-online.com.tw:80/news/news20010806_3.htm",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "DarkAges — Singapore",
@@ -854,7 +938,13 @@
       "verification": "Source and PNG visually inspected: real gameplay with native UI/player speech only",
       "qualification": "Selected: Singapore event provenance established by publisher diary and exact screenshot page",
       "image_number": 2,
-      "asset": "assets/images/darkages-sg-gameplay-2.png"
+      "asset": "assets/images/darkages-sg-gameplay-2.png",
+      "display": {
+        "caption": "Screenshot - Victory after the Aisling Quest",
+        "credit": "NexonAsia archive",
+        "source_url": "https://web.archive.org/web/20021031050807id_/http://darkages.nexonasia.com:80/aislingquest/day1/screenshots5.html",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "DarkAges — Singapore",
@@ -882,7 +972,13 @@
       "verification": "Source and PNG visually inspected: real gameplay with native UI/player speech only",
       "qualification": "Selected: Singapore event provenance established; native player speech bubbles are retained",
       "image_number": 3,
-      "asset": "assets/images/darkages-sg-gameplay-3.png"
+      "asset": "assets/images/darkages-sg-gameplay-3.png",
+      "display": {
+        "caption": "Screenshot - Aftermath of the Aisling Quest",
+        "credit": "NexonAsia archive",
+        "source_url": "https://web.archive.org/web/20021104040059id_/http://darkages.nexonasia.com:80/aislingquest/day1/screenshots6.html",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Legends of Temuair — Malaysia",
@@ -910,7 +1006,13 @@
       "verification": "Source and PNG visually inspected: real gameplay with native UI/player speech only",
       "qualification": "Selected: official Malaysian service gallery; full uploaded gameplay-area crop retained",
       "image_number": 2,
-      "asset": "assets/images/legends-temuair-my-gameplay-2.png"
+      "asset": "assets/images/legends-temuair-my-gameplay-2.png",
+      "display": {
+        "caption": "Screenshot - Gathering at the royal court",
+        "credit": "TIMENet screenshot archive",
+        "source_url": "https://web.archive.org/web/20020708141741id_/http://legends.time.net.my:80/screen/screen.cfm?ID=35",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Legends of Temuair — Malaysia",
@@ -938,7 +1040,13 @@
       "verification": "Source and PNG visually inspected: real gameplay with native UI/player speech only",
       "qualification": "Selected: official Malaysian service gallery; full uploaded gameplay-area crop retained",
       "image_number": 3,
-      "asset": "assets/images/legends-temuair-my-gameplay-3.png"
+      "asset": "assets/images/legends-temuair-my-gameplay-3.png",
+      "display": {
+        "caption": "Screenshot - Ceannlaidir temple mass",
+        "credit": "TIMENet screenshot archive",
+        "source_url": "https://web.archive.org/web/20020706123613id_/http://legends.time.net.my:80/screen/screen.cfm?ID=36",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Legends of Temuair — Malaysia",
@@ -966,7 +1074,13 @@
       "verification": "Source and PNG visually inspected: real gameplay with native UI/player speech only",
       "qualification": "Selected: publisher caption explicitly credits Gunman and dates scene May 18 despite image filename May 21",
       "image_number": 4,
-      "asset": "assets/images/legends-temuair-my-gameplay-4.png"
+      "asset": "assets/images/legends-temuair-my-gameplay-4.png",
+      "display": {
+        "caption": "Screenshot - Fiosachd temple mass",
+        "credit": "Gunman / TIMENet archive",
+        "source_url": "https://web.archive.org/web/20020705181000id_/http://legends.time.net.my:80/screen/screen.cfm?ID=37",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Legends of Temuair — Malaysia",
@@ -994,7 +1108,13 @@
       "verification": "Source and PNG visually inspected: real gameplay with native UI/player speech only",
       "qualification": "Selected: official Malaysian service gallery; full uploaded gameplay-area crop retained",
       "image_number": 5,
-      "asset": "assets/images/legends-temuair-my-gameplay-5.png"
+      "asset": "assets/images/legends-temuair-my-gameplay-5.png",
+      "display": {
+        "caption": "Screenshot - A priest performing a mana ritual",
+        "credit": "TIMENet screenshot archive",
+        "source_url": "https://web.archive.org/web/20020701021956id_/http://legends.time.net.my:80/screen/screen.cfm?ID=38",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Legends of Orphelias — NexonAsia",
@@ -1022,7 +1142,13 @@
       "verification": "Source and PNG visually inspected: real gameplay with native UI/player speech only",
       "qualification": "Candidate with qualification: publisher caption identifies unique Orphelias location Conquista; source is NexonAsia Singapore site, not independent proof of Malaysian server",
       "image_number": 2,
-      "asset": "assets/images/legends-orphelias-gameplay-2.png"
+      "asset": "assets/images/legends-orphelias-gameplay-2.png",
+      "display": {
+        "caption": "Screenshot - Dragon battle in Conquista",
+        "credit": "NexonAsia screenshot archive",
+        "source_url": "https://web.archive.org/web/20020422070715id_/http://www.lod.com.sg:80/picofweek14.asp",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Legends of Orphelias — NexonAsia",
@@ -1050,7 +1176,13 @@
       "verification": "Source and PNG visually inspected: real gameplay with native UI/player speech only",
       "qualification": "Candidate with qualification: publisher caption identifies unique Orphelias location Asal; source is NexonAsia Singapore site, not independent proof of Malaysian server",
       "image_number": 3,
-      "asset": "assets/images/legends-orphelias-gameplay-3.png"
+      "asset": "assets/images/legends-orphelias-gameplay-3.png",
+      "display": {
+        "caption": "Screenshot - New Year celebrations in Asal",
+        "credit": "NexonAsia screenshot archive",
+        "source_url": "https://web.archive.org/web/20020328171446id_/http://www.lod.com.sg:80/picofweek16.asp",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "selection_order": 1,
@@ -1083,7 +1215,13 @@
       "credit": "User-selected image / Namu Wiki CDN",
       "evidence_kind": "promotional-artwork",
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
-      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity."
+      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
+      "display": {
+        "caption": "Green promotional wallpaper",
+        "credit": "Namu Wiki CDN",
+        "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0QMclmfDr3KBh-XszurQGp3PwVDjoVOAnTQcp86LaTDym_fvEKwheiDOB7WSJCVnsrbCvVnt2nZ_nWg8U67x1zvpT-HG-NmyUnt9qa_QQTkEg2igzUJ-0TtGOB_cHIowECjC6C0n-2-v39ofWNFDCic.webp",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "selection_order": 2,
@@ -1116,7 +1254,13 @@
       "credit": "User-selected image / Namu Wiki CDN",
       "evidence_kind": "character-artwork",
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
-      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity."
+      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
+      "display": {
+        "caption": "Character artwork",
+        "credit": "Namu Wiki CDN",
+        "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0frkzSK7qlWaSeY4ymPlDblJREiW8250qrU9u-a9h3cM1tmlVFcg_LSsx-1m2-kRxBeEEakpRXu4GDSXN75MVEeMT3thE4W5Wi7VClvBPkEFsWRSBkCsbs46cL0pj5tKSuLoX1QnzLszvhWIdeI-_fs.webp",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "selection_order": 3,
@@ -1149,7 +1293,13 @@
       "credit": "User-selected image / Namu Wiki CDN",
       "evidence_kind": "gameplay-screenshot",
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
-      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity."
+      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
+      "display": {
+        "caption": "Screenshot - Crowded gathering - Japanese client",
+        "credit": "Namu Wiki CDN",
+        "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0VJirTyYuudF35_3PjUDtecbMCSIhs563Ovfy4FAuc_QnKXcVV3X9So2V9xspG3CKUIerQOPWEEgam0uaTLCriBM1vZxViJp1mfRuKzes2H_EiEKXfjNhLF_DitH5MG22SyDHH3aRCslOz5CcQKixgk.webp",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "selection_order": 4,
@@ -1182,7 +1332,13 @@
       "credit": "User-selected image / Namu Wiki CDN",
       "evidence_kind": "gameplay-screenshot",
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
-      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity."
+      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
+      "display": {
+        "caption": "Screenshot - Bank and inventory - Korean client",
+        "credit": "Namu Wiki CDN",
+        "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0e985f9w0CyAKyIsTQmD0SXpJy8tYVMkRffG304r8lC48iUFkN9LJquyZlhIBhhO8mlAb6yb7wbZmpq6Rz0kJ4w5REObxM3Xf9ShuM_fGC1cefglJVNFTuLpZ05eJAETYFrInxRR2AWlo_JBpR9AAo0.webp",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "selection_order": 5,
@@ -1215,7 +1371,13 @@
       "credit": "User-selected image / Namu Wiki CDN",
       "evidence_kind": "client-screen",
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
-      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity."
+      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
+      "display": {
+        "caption": "Screenshot - Connect screen",
+        "credit": "Namu Wiki CDN",
+        "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0d5WrCQi8zfh8WS5HWJYDZV_UpQw4VMqfcymJc-39SxE07_InIF6QjdjQhvkoWb6pIoMoh1yxUE23xQxI1WJXZKyv1Uq6s7Tt5OV_OfyHSOrtXNNKEwnCqTecRVDj83LjBBT3F36-tN1sE3_70Nu4gM.webp",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "selection_order": 6,
@@ -1248,7 +1410,13 @@
       "credit": "User-selected image / Namu Wiki CDN",
       "evidence_kind": "client-screen",
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
-      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity."
+      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
+      "display": {
+        "caption": "Screenshot - Title screen - displayed Vers. 3.08",
+        "credit": "Namu Wiki CDN",
+        "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0fy61mbo2Tu4AODJhfGg1EhhR_g_GvWzMIJpRuxXsvRZSF5h57NwY9RI9c5TQ1fod7XFKni0ulc7LWBW_MXyIVl2FkFalKYFcOwbPU2OBWQ9DzhDsKpPPjP7vWnG7OIUJi3u1uZOn6hYMDACjq7fV3w.webp",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "selection_order": 7,
@@ -1281,7 +1449,13 @@
       "credit": "User-selected image / Namu Wiki CDN",
       "evidence_kind": "gameplay-screenshot",
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
-      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity."
+      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
+      "display": {
+        "caption": "Screenshot - Merchant window - Japanese client",
+        "credit": "Namu Wiki CDN",
+        "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0Rw4r_TfGAXhq4q1yjgGi4h6ZpTie5dBZzFuoZmqnLWlTs4mX0EW3EhwvQW1Mefrx904k1UfxvrmHt6F9DJ9ZLjorQYaNDP8RYNvpYo2omy0OyP83lielInUakMknBYFrgE2fMVQr6qx06_6C7J5gzE.webp",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "selection_order": 8,
@@ -1314,7 +1488,13 @@
       "credit": "User-selected image / Namu Wiki CDN",
       "evidence_kind": "gameplay-screenshot",
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
-      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity."
+      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
+      "display": {
+        "caption": "Screenshot - Dungeon gathering",
+        "credit": "Namu Wiki CDN",
+        "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0Q3UnZuOGCowKbO3xl7IHUYoLqz3nfIsqGV5HWPII997VFIY_OjREgvPBa_52xRK8SmykE9w3Ou4Y5FPj7oSuBWL4mFupb3aux8lLfw6F8WabzEKyMs1kZGIPzFaST0Uamdde3Ye8YPNHhqhCQXHdtg.webp",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "selection_order": 9,
@@ -1347,7 +1527,13 @@
       "credit": "User-selected image / Namu Wiki CDN",
       "evidence_kind": "gameplay-screenshot",
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
-      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity."
+      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
+      "display": {
+        "caption": "Screenshot - Town street - Korean client",
+        "credit": "Namu Wiki CDN",
+        "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0eEyn2_TzNtK3JZT1HoV7y8K7mJgY5JszfsJVqX8mWFAGN2oUoLn7om4ke03PRBscoWgVNFI974ICS577xb-W-xuhOSA2zUjcoY_EobXrgt4q9qO4NcwrdbwhYju0rEzzn7SNRsSXRaBkvHJcUFOOGc.webp",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "selection_order": 10,
@@ -1380,7 +1566,13 @@
       "credit": "User-selected image / Namu Wiki CDN",
       "evidence_kind": "gameplay-screenshot",
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
-      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity."
+      "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
+      "display": {
+        "caption": "Screenshot - Snowy bank - Korean client",
+        "credit": "Namu Wiki CDN",
+        "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0SoBnCmTQvvKbAtw-ykFe1k5vpw9AJzx7DLeKCvjwCTbPZgvbsbKEEDcptmTEtemiO7iCVI10qYOSVnCLDcSNXoLLFkWuHn1XKEj-V4tEmtSYeiAxWT0R7U6tqQeFIH5mwRYCT5iyZzS1T-MT2BcEQQ.webp",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "name": "lod-namu-01",
@@ -1409,7 +1601,13 @@
       "credit": "User-selected image / Namu Wiki CDN",
       "evidence_kind": "gameplay-screenshot",
       "verification": "Source WebP and PNG hashes verified; native dimensions and decoded RGBA pixels match exactly; complete images visually inspected.",
-      "qualification": "Selected by the catalog owner. Original author, screenshot date, source post and numeric client version are unestablished. Captions describe visible scenes without asserting map identity or dates."
+      "qualification": "Selected by the catalog owner. Original author, screenshot date, source post and numeric client version are unestablished. Captions describe visible scenes without asserting map identity or dates.",
+      "display": {
+        "caption": "Screenshot - Spell effect beside a riverside bridge",
+        "credit": "Namu Wiki CDN",
+        "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0Q5f4sfcm8Rf5FZ5UDYIgPn5_za5IB7UQfwmjAEGpLC7gWx1yDNhBzMRtX-Wjt-CmUPBDdSLIYOsWe2evfnHp2FbD0tImGUIdvSvoBekwyNLxFBNGtpR8uZ_DGwD5hYNe9lDr4G91z6G2Li2Vuqedd8.webp",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "name": "lod-namu-02",
@@ -1438,7 +1636,13 @@
       "credit": "User-selected image / Namu Wiki CDN",
       "evidence_kind": "gameplay-screenshot",
       "verification": "Source WebP and PNG hashes verified; native dimensions and decoded RGBA pixels match exactly; complete images visually inspected.",
-      "qualification": "Selected by the catalog owner. Original author, screenshot date, source post and numeric client version are unestablished. Captions describe visible scenes without asserting map identity or dates."
+      "qualification": "Selected by the catalog owner. Original author, screenshot date, source post and numeric client version are unestablished. Captions describe visible scenes without asserting map identity or dates.",
+      "display": {
+        "caption": "Screenshot - Characters beside a city canal",
+        "credit": "Namu Wiki CDN",
+        "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0TgfMWDGlA2_nB8-l-BjIAzL4gcfjuxBoi3xX4hJE2ZaDCbT_AmctQhkNgEa4tHm_pkWdOzpVA_2arWOyczeNaDiEXz47f2GpdbPL4ZtL7tWlarSg6vZz53Hlm68D7pAtt3h3NHDgKgW9b8SD-a3W_E.webp",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "name": "lod-namu-03",
@@ -1467,7 +1671,13 @@
       "credit": "User-selected image / Namu Wiki CDN",
       "evidence_kind": "gameplay-screenshot",
       "verification": "Source WebP and PNG hashes verified; native dimensions and decoded RGBA pixels match exactly; complete images visually inspected.",
-      "qualification": "Selected by the catalog owner. Original author, screenshot date, source post and numeric client version are unestablished. Captions describe visible scenes without asserting map identity or dates."
+      "qualification": "Selected by the catalog owner. Original author, screenshot date, source post and numeric client version are unestablished. Captions describe visible scenes without asserting map identity or dates.",
+      "display": {
+        "caption": "Screenshot - Underground group encounter",
+        "credit": "Namu Wiki CDN",
+        "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0fD-YL9sz_nhw65Xn4K56hjMjMx2mC4LWBJX6dDd5RgG2PJgK_Ewpvvcp44MzcP8NRjUrZDhLgdeAnIBzseIbBvesmXPKrfYunclnJf7bK8gDFigL-QytLOhp7ffvy9_sni61aNgs7tIalltcRwF3Z4.webp",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "name": "lod-namu-04",
@@ -1496,7 +1706,13 @@
       "credit": "User-selected image / Namu Wiki CDN",
       "evidence_kind": "gameplay-screenshot",
       "verification": "Source WebP and PNG hashes verified; native dimensions and decoded RGBA pixels match exactly; complete images visually inspected.",
-      "qualification": "Selected by the catalog owner. Original author, screenshot date, source post and numeric client version are unestablished. Captions describe visible scenes without asserting map identity or dates."
+      "qualification": "Selected by the catalog owner. Original author, screenshot date, source post and numeric client version are unestablished. Captions describe visible scenes without asserting map identity or dates.",
+      "display": {
+        "caption": "Screenshot - Forest gameplay and modern client interface",
+        "credit": "Namu Wiki CDN",
+        "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0Y8s_SOpTIoe3yKm9dGWwpweQN5dEPEARsqzzL-cwqvHzmI5kpBhXc22YTeFwNA8H-xH3AyE_L6aT7mrFxcXjx7U_193HJ8ZGYDlgKdKF-3Holv6tNb3_npH55bvGW9VIQqZHZBREI_8CKqns2mIqcg.webp",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Yami — Japan",
@@ -1524,7 +1740,13 @@
       "decoded_rgba_sha256": "4c915a96b994cb18a63f216513adf43b4957368548c5e7798036b2934acbab39",
       "conversion": "Lossless GIF-to-PNG conversion of the original palette image; unchanged decoded RGBA pixels, native size and complete frame.",
       "visual_review": "Owner-selected historical Japanese gameplay/UI screenshot; only original game interface, labels and dialogue.",
-      "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date."
+      "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date.",
+      "display": {
+        "caption": "Screenshot - Social scene in Japanese Yami",
+        "credit": "NEXON Japan / Vector review",
+        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/n020427sp1.html",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Yami — Japan",
@@ -1552,7 +1774,13 @@
       "decoded_rgba_sha256": "073ef29194077d1b351e25c5f63d9f2a6f8ff0164468cb26dea5186c1cb51dc2",
       "conversion": "Lossless GIF-to-PNG conversion of the original palette image; unchanged decoded RGBA pixels, native size and complete frame.",
       "visual_review": "Owner-selected historical Japanese gameplay/UI screenshot; only original game interface, labels and dialogue.",
-      "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date."
+      "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date.",
+      "display": {
+        "caption": "Screenshot - Combat in Japanese Yami",
+        "credit": "NEXON Japan / Vector review",
+        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/n020427sp1.html",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Yami — Japan",
@@ -1580,7 +1808,13 @@
       "decoded_rgba_sha256": "462a0b2194425c69260c28f93da17380e3d745109360fa60ffd80e1b0b595b66",
       "conversion": "Lossless GIF-to-PNG conversion of the original palette image; unchanged decoded RGBA pixels, native size and complete frame.",
       "visual_review": "Owner-selected historical Japanese gameplay/UI screenshot; only original game interface, labels and dialogue.",
-      "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date."
+      "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date.",
+      "display": {
+        "caption": "Screenshot - Regional map in Japanese Yami",
+        "credit": "NEXON Japan / Vector review",
+        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/n020427sp1.html",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Yami — Japan",
@@ -1608,7 +1842,13 @@
       "decoded_rgba_sha256": "20a6ece2304e257cfb403fb51d23eca70c3ba46c60c068c9cd1ee9099386600c",
       "conversion": "Lossless GIF-to-PNG conversion of the original palette image; unchanged decoded RGBA pixels, native size and complete frame.",
       "visual_review": "Owner-selected historical Japanese gameplay/UI screenshot; only original game interface, labels and dialogue.",
-      "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date."
+      "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date.",
+      "display": {
+        "caption": "Screenshot - Equipment screen in Japanese Yami",
+        "credit": "NEXON Japan / Vector review",
+        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/n020427sp1.html",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Yami — Japan",
@@ -1636,7 +1876,13 @@
       "decoded_rgba_sha256": "faf48381a617a8e97de3fc01e556dbdf87de409ab3ed51a6c748bcd5165d1734",
       "conversion": "Lossless GIF-to-PNG conversion of the original palette image; unchanged decoded RGBA pixels, native size and complete frame.",
       "visual_review": "Owner-selected historical Japanese gameplay/UI screenshot; only original game interface, labels and dialogue.",
-      "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date."
+      "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date.",
+      "display": {
+        "caption": "Screenshot - Profession selection in Japanese Yami",
+        "credit": "NEXON Japan / Vector review",
+        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/n020427sp1.html",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Yami — Japan",
@@ -1664,7 +1910,13 @@
       "decoded_rgba_sha256": "8765637b57962388b9a35cdf5a394a9296a4c18740673638f3ed58aa079d568b",
       "conversion": "Lossless GIF-to-PNG conversion of the original palette image; unchanged decoded RGBA pixels, native size and complete frame.",
       "visual_review": "Owner-selected historical Japanese gameplay/UI screenshot; only original game interface, labels and dialogue.",
-      "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date."
+      "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date.",
+      "display": {
+        "caption": "Screenshot - World travel map in Japanese Yami",
+        "credit": "NEXON Japan / Vector review",
+        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/n020427sp1.html",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "url": "https://automaton-media.com/wp-content/uploads/2025/09/mmorpg-dark-ages-20250909-356940-header.jpg",

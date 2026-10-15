@@ -51,7 +51,13 @@
         "prompt_path": "data/version-research/2026-10-14/logo-remasters/prompts.json",
         "approval": "accepted 2026-10-14; backup deletion authorized"
       },
-      "removed_original_asset": "assets/logos/legends-of-darkness.png"
+      "removed_original_asset": "assets/logos/legends-of-darkness.png",
+      "display": {
+        "caption": "Remastered Legends of Darkness Korean logo",
+        "credit": "NEXON Korea",
+        "source_url": "https://lwres.nexon.com/css/lod/renewal/brand/common.css",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Yami / 闇の伝説",
@@ -94,7 +100,13 @@
         "prompt_path": "data/version-research/2026-10-14/logo-remasters/prompts.json",
         "approval": "accepted 2026-10-14; backup deletion authorized"
       },
-      "removed_original_asset": "assets/logos/legends-malaysia.jpg"
+      "removed_original_asset": "assets/logos/legends-malaysia.jpg",
+      "display": {
+        "caption": "Remastered Shared Malaysian LEGENDS title logo",
+        "credit": "TIMENet archive",
+        "source_url": "https://web.archive.org/web/20011027013706id_/http://legends.time.net.my:80/about.cfm",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Legends of Temuair",
@@ -114,7 +126,13 @@
         "prompt_path": "data/version-research/2026-10-14/logo-remasters/prompts.json",
         "approval": "accepted 2026-10-14; backup deletion authorized"
       },
-      "removed_original_asset": "assets/logos/legends-malaysia.jpg"
+      "removed_original_asset": "assets/logos/legends-malaysia.jpg",
+      "display": {
+        "caption": "Remastered Shared Malaysian LEGENDS title logo",
+        "credit": "TIMENet archive",
+        "source_url": "https://web.archive.org/web/20011027013706id_/http://legends.time.net.my:80/about.cfm",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "DarkAges (SGDA)",
@@ -135,7 +153,13 @@
         "prompt_path": "data/version-research/2026-10-14/logo-remasters/prompts.json",
         "approval": "accepted 2026-10-14; backup deletion authorized"
       },
-      "removed_original_asset": "assets/logos/darkages-singapore.gif"
+      "removed_original_asset": "assets/logos/darkages-singapore.gif",
+      "display": {
+        "caption": "Remastered DarkAges Singapore logo",
+        "credit": "NexonAsia archive",
+        "source_url": "https://web.archive.org/web/20021227115238id_/http://darkages.nexonasia.com/images/newtop/DAhead1.gif",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "真世界 / Zhēn Shìjiè",
@@ -155,6 +179,12 @@
         "tool": "built-in image_gen",
         "prompt_path": "data/version-research/2026-10-14/taiwan-logo-remaster/prompt.json",
         "validation": "Chinese title, English subtitle, relative offset, brush contours and palette visually reviewed; alpha verified. Restoration is not pixel-identical source evidence."
+      },
+      "display": {
+        "caption": "Remastered 真世界 / Dark Ages logo",
+        "credit": "APEXON archive",
+        "source_url": "https://web.archive.org/web/20011005234949id_/http://www.apexon-online.com.tw:80/da/images/wallpaper/dalogo1024.JPG",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
       }
     },
     {
@@ -206,7 +236,13 @@
         "prompt_path": "data/version-research/2026-10-14/logo-remasters/prompts.json",
         "approval": "accepted 2026-10-14; backup deletion authorized"
       },
-      "removed_original_asset": "assets/logos/elancia.png"
+      "removed_original_asset": "assets/logos/elancia.png",
+      "display": {
+        "caption": "Remastered Elancia Korean title logo",
+        "credit": "NEXON Korea",
+        "source_url": "https://elancia.nexon.com/",
+        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+      }
     },
     {
       "title": "Asgard",
