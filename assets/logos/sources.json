@@ -2,12 +2,24 @@
   "logos": [
     {
       "title": "DarkAges",
-      "asset": "assets/logos/darkages.png",
-      "width": 747,
-      "height": 421,
-      "sha256": "68dc3485b3b240ad421d605fcd348315d81f5b601be6e8c7e02ce65c20e20228",
-      "description": "Original Nexon promotional artwork supplied by the catalog owner. The browser crops left-side background for display; the source PNG is unchanged.",
-      "unchanged": true
+      "asset": "assets/logos/darkages-us-remastered.png",
+      "width": 1468,
+      "height": 1071,
+      "sha256": "4900d3d959fdb98db18531cd491eca1943db64902a03dab65bb1c9602b0f3865",
+      "description": "Owner-requested transparent high-resolution restoration candidate of the three original characters, Dark Ages title and Your legend begins here tagline. Background and copyright line removed. AI-edited derivative; original retained unchanged pending owner approval.",
+      "unchanged": false,
+      "bytes": 1344979,
+      "original_asset": "assets/logos/darkages.png",
+      "original_sha256": "68dc3485b3b240ad421d605fcd348315d81f5b601be6e8c7e02ce65c20e20228",
+      "evidence_kind": "owner-requested-logo-restoration",
+      "conversion": "Built-in image_gen background extraction and faithful higher-resolution restoration; generated PNG copied without further pixel edits",
+      "verification": "Complete characters, title and tagline visually compared with the original. Original background and copyright line removed. Genuine alpha confirmed. AI restoration is a derivative, not pixel-identical source evidence.",
+      "remaster": {
+        "tool": "built-in image_gen",
+        "prompt_path": "data/version-research/2026-10-14/us-logo-remaster/prompt.txt",
+        "manifest_path": "data/version-research/2026-10-14/us-logo-remaster/manifest.json",
+        "approval": "pending owner review; original retained; deletion not authorized"
+      }
     },
     {
       "title": "Legends of Darkness / 어둠의 전설",
@@ -322,6 +334,18 @@
       "removed_at": "2026-10-14",
       "approval": "Owner requested replacement and deletion of old banner.",
       "retirement_reason": "Superseded by the owner-selected Japanese installer wordmark; historical source and Git history retained."
+    },
+    {
+      "title": "DarkAges",
+      "asset": "assets/logos/darkages.png",
+      "width": 747,
+      "height": 421,
+      "sha256": "68dc3485b3b240ad421d605fcd348315d81f5b601be6e8c7e02ce65c20e20228",
+      "description": "Original Nexon promotional artwork supplied by the catalog owner. The browser crops left-side background for display; the source PNG is unchanged.",
+      "unchanged": true,
+      "retired_at": "2026-10-14",
+      "retirement_reason": "Carousel uses a restoration candidate pending owner review; original file retained unchanged for restoration",
+      "approval": "pending; deletion not authorized"
     }
   ]
 }

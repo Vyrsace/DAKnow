@@ -1,5 +1,7 @@
 # DAKnow project rules
 
+- U.S. DarkAges currently opens with `assets/logos/darkages-us-remastered.png`, an owner-requested transparent restoration candidate of the three characters, Dark Ages title and Your legend begins here tagline. Remove the old card-only crop wrapper when displaying this derivative. The original `assets/logos/darkages.png` must remain unchanged until the owner explicitly authorizes its deletion; the remaster is pending review and may need to be replaced with that original. The original frame markup, logo record, source/output hashes and complete built-in image_gen prompt are preserved in the parent project's `data/version-research/2026-10-14/us-logo-remaster`. Preserve all fourteen gallery frames and their order. This explicit request supersedes the earlier instruction to keep the original artwork's crop active.
+
 These rules carry the user's standing request to review, verify, and troubleshoot every catalog change before delivery. Apply them to work in this repository. The user's latest instructions and accepted decisions take precedence; use judgment to fulfill the intended result without rigidly overinterpreting an example or expanding the scope.
 
 ## Scope and evidence
