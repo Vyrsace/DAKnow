@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>International globe</title>
+  <circle cx="32" cy="32" r="26" fill="#e9f4ff" stroke="#254e70" stroke-width="4"/>
+  <g fill="none" stroke="#254e70" stroke-width="3.25" stroke-linecap="round">
+    <ellipse cx="32" cy="32" rx="12" ry="26"/>
+    <path d="M6 32h52M10 18.5q22 9 44 0M10 45.5q22-9 44 0"/>
+  </g>
+</svg>
