@@ -13,6 +13,7 @@ Package and patch limitations are recorded in the [catalog](https://vyrsace.gith
 | [KR-LegendsofDarkness-\[Client\]-\[5.01\]-Original.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.5.01.-Original.zip) | 70,002,359 |
 | [KR-LegendsofDarkness-\[Client\]-\[5.20\]-Original.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.5.20.-Original.zip) | 77,133,624 |
 | [KR-LegendsofDarkness-\[Client\]-\[5.30\]-Original.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.5.30.-Original.zip) | 84,300,559 |
+| [KR-LegendsofDarkness-\[Client\]-\[5.99\]-Original.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.5.99.-Original.zip) | 174,149,654 |
 | [KR-LegendsofDarkness-\[Client\]-\[8.540\]-Original.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.8.540.-Original.zip) | 251,461,694 |
 | [KR-LegendsofDarkness-\[Client\]-\[9.100\]-Original.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.9.100.-Original.zip) | 251,695,747 |
 | [KR-LegendsofDarkness-\[Client\]-\[9.570\]-Original.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.9.570.-Original.zip) | 251,694,800 |

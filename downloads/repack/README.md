@@ -13,6 +13,7 @@ Package and patch limitations are recorded in the [catalog](https://vyrsace.gith
 | [KR-LegendsofDarkness-\[Client\]-\[5.01\]-Repack.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-repack/KR-LegendsofDarkness-.Client.-.5.01.-Repack.zip) | 68,301,171 |
 | [KR-LegendsofDarkness-\[Client\]-\[5.20\]-Repack.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-repack/KR-LegendsofDarkness-.Client.-.5.20.-Repack.zip) | 75,030,955 |
 | [KR-LegendsofDarkness-\[Client\]-\[5.30\]-Repack.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-repack/KR-LegendsofDarkness-.Client.-.5.30.-Repack.zip) | 82,050,478 |
+| [KR-LegendsofDarkness-\[Client\]-\[5.99\]-Repack.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-repack/KR-LegendsofDarkness-.Client.-.5.99.-Repack.zip) | 168,510,938 |
 | [KR-LegendsofDarkness-\[Client\]-\[8.540\]-Repack.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-repack/KR-LegendsofDarkness-.Client.-.8.540.-Repack.zip) | 244,458,025 |
 | [KR-LegendsofDarkness-\[Client\]-\[9.100\]-Repack.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-repack/KR-LegendsofDarkness-.Client.-.9.100.-Repack.zip) | 245,947,703 |
 | [KR-LegendsofDarkness-\[Client\]-\[9.570\]-Repack.zip](https://github.com/Vyrsace/DAKnow/releases/download/downloads-repack/KR-LegendsofDarkness-.Client.-.9.570.-Repack.zip) | 245,947,793 |

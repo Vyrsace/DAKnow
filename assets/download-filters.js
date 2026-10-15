@@ -35,8 +35,8 @@
     const source = sourceEntries.get(row.dataset.entryId) || {};
     const heading = row.closest('.download-region').querySelector('h3').textContent.trim();
     const separator = heading.lastIndexOf(' — ');
-    const region = source.country || (separator < 0 ? '' : heading.slice(separator + 3));
-    const title = source.game_title || (separator < 0 ? heading : heading.slice(0, separator));
+    const region = row.dataset.country || source.country || (separator < 0 ? '' : heading.slice(separator + 3));
+    const title = row.dataset.gameTitle || source.game_title || (separator < 0 ? heading : heading.slice(0, separator));
     const version = row.querySelector('.download-version > span').textContent.trim();
     const type = row.dataset.recordType || source.type || '';
     const filename = row.querySelector('.download-filename').textContent;

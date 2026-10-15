@@ -2289,6 +2289,19 @@
           "path": "Downloads/elancia-preservation.json"
         }
       ]
+    },
+    {
+      "url": "https://archive.org/download/atfile-client-archive/download/%5B2004-11-30%5D%20%EC%96%B4%EB%91%A0%EC%9D%98%20%EC%A0%84%EC%84%A4%205.90/lodr.exe",
+      "filename": "lodr.exe",
+      "bytes": 174228727,
+      "sha256": "69aa1813bcbf14a5db639c9122ae8562832c18df05c2f284679df87b312f192e",
+      "classification": "Wise Installer",
+      "size_verification": "Read from the owner-supplied Original ZIP; size, CRC32, MD5 and SHA-1 match Internet Archive item metadata observed 2026-10-15",
+      "type_evidence": [
+        {
+          "path": "data/download-hosting/lod-5.99.json"
+        }
+      ]
     }
   ],
   "generalNotes": [
