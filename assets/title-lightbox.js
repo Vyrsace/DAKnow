@@ -8,16 +8,12 @@
   dialog.id = 'title-image-lightbox';
   dialog.setAttribute('aria-labelledby', 'image-lightbox-title');
   dialog.setAttribute('aria-describedby', 'image-lightbox-caption image-lightbox-credit');
-  const header = document.createElement('div');
-  header.className = 'image-lightbox-header';
   const title = document.createElement('h2');
   title.id = 'image-lightbox-title';
   const close = document.createElement('button');
   close.type = 'button';
   close.className = 'image-lightbox-close';
   close.setAttribute('aria-label', 'Close image');
-  close.textContent = '×';
-  header.append(title, close);
 
   const figure = document.createElement('figure');
   const viewer = document.createElement('div');
@@ -30,11 +26,10 @@
   viewport.append(track);
   const previous = document.createElement('button');
   const next = document.createElement('button');
-  [[previous, 'previous', '‹'], [next, 'next', '›']].forEach(([button, direction, label]) => {
+  [[previous, 'previous'], [next, 'next']].forEach(([button, direction]) => {
     button.type = 'button';
     button.className = 'title-gallery-arrow';
     button.dataset.galleryDirection = direction;
-    button.textContent = label;
   });
   const count = document.createElement('span');
   count.className = 'title-gallery-count';
@@ -43,7 +38,7 @@
   status.setAttribute('role', 'status');
   status.setAttribute('aria-live', 'polite');
   status.setAttribute('aria-atomic', 'true');
-  viewer.append(viewport, previous, next, count, status);
+  viewer.append(viewport, previous, next, status);
 
   const caption = document.createElement('figcaption');
   caption.tabIndex = 0;
@@ -55,15 +50,43 @@
   source.target = '_blank';
   source.rel = 'noopener noreferrer';
   credit.append('Source: ', source);
-  caption.append(description, credit);
-  figure.append(viewer, caption);
-  dialog.append(header, figure);
+  caption.append(title, description, credit, count);
+  const footer = document.createElement('div');
+  footer.className = 'image-lightbox-footer';
+  footer.append(caption, close);
+  figure.append(viewer, footer);
+  dialog.append(figure);
   document.body.append(dialog);
 
   let opener = null;
   let sourceGallery = null;
   let slides = [];
   let controller = null;
+  let fitFrame = null;
+
+  function fitImage() {
+    fitFrame = null;
+    if (!dialog.open) return;
+    // Complete the shared slide animation before changing its frame dimensions.
+    if (viewer.matches('.is-moving, .is-dragging, .is-swipe-settling')) {
+      fitFrame = window.requestAnimationFrame(fitImage);
+      return;
+    }
+    const image = track.querySelector('.title-gallery-slide[aria-hidden="false"] img');
+    if (!image?.naturalWidth || !image.naturalHeight) return;
+    const captionSpace = parseFloat(getComputedStyle(dialog).getPropertyValue('--lightbox-caption-space'));
+    const maxWidth = Math.min(1200, dialog.clientWidth - 32) - 8;
+    const maxHeight = Math.min(960, dialog.clientHeight - 2 * (captionSpace + 16)) - 8;
+    const scale = Math.max(0, Math.min(1, maxWidth / image.naturalWidth, maxHeight / image.naturalHeight));
+    figure.style.setProperty('--lightbox-image-width', `${image.naturalWidth * scale + 8}px`);
+    figure.style.setProperty('--lightbox-image-height', `${image.naturalHeight * scale + 8}px`);
+  }
+  function scheduleFit() {
+    if (fitFrame === null) fitFrame = window.requestAnimationFrame(fitImage);
+  }
+  window.addEventListener('resize', scheduleFit, { passive: true });
+  window.visualViewport?.addEventListener('resize', scheduleFit, { passive: true });
+  track.addEventListener('load', scheduleFit, true);
 
   function updateCaption() {
     const slide = slides[Number(viewer.dataset.galleryIndex) || 0];
@@ -72,7 +95,9 @@
     description.textContent = slide.dataset.imageCaption || slide.dataset.galleryLabel || original.alt;
     source.textContent = slide.dataset.imageCredit || 'Original image';
     source.href = slide.dataset.imageSource || original.src;
+    count.textContent = `${Number(viewer.dataset.galleryIndex) + 1} / ${slides.length}`;
     caption.scrollTop = 0;
+    scheduleFit();
   }
   viewer.addEventListener('title-gallery-change', updateCaption);
 
@@ -126,6 +151,8 @@
     controller = window.DAKnowTitleGallery.create(viewer, Number(gallery.dataset.galleryIndex) || 0);
     document.documentElement.classList.add('image-lightbox-open');
     dialog.showModal();
+    window.cancelAnimationFrame(fitFrame);
+    fitImage();
     close.focus({ preventScroll: true });
   }
 
@@ -151,13 +178,16 @@
       first.focus();
     }
   });
+  let backdropPressed = false;
+  dialog.addEventListener('pointerdown', event => { backdropPressed = event.target === dialog; });
   dialog.addEventListener('click', event => {
-    if (event.target !== dialog) return;
-    const bounds = dialog.getBoundingClientRect();
-    if (event.clientX < bounds.left || event.clientX > bounds.right ||
-        event.clientY < bounds.top || event.clientY > bounds.bottom) dialog.close();
+    // Releasing an image drag outside its frame must not dismiss the viewer.
+    if (event.target === dialog && backdropPressed) dialog.close();
+    backdropPressed = false;
   });
   dialog.addEventListener('close', () => {
+    window.cancelAnimationFrame(fitFrame);
+    fitFrame = null;
     window.DAKnowTitleGallery.get(sourceGallery)?.select(Number(viewer.dataset.galleryIndex) || 0);
     controller?.destroy();
     controller = null;
