@@ -75,7 +75,7 @@
   }
   viewer.addEventListener('title-gallery-change', updateCaption);
 
-  function openImage(gallery, button) {
+  function openImage(gallery, button, pointerInitiated) {
     slides = [...gallery.querySelector('.title-gallery-track').children]
       .filter(slide => slide.classList.contains('title-gallery-slide') && !slide.dataset.galleryClone);
     if (!slides.length) return;
@@ -123,12 +123,16 @@
     next.setAttribute('aria-label', `Next ${accessibleTitle} image`);
     previous.disabled = next.disabled = slides.length < 2;
     controller = window.DAKnowTitleGallery.create(viewer, Number(gallery.dataset.galleryIndex) || 0);
+    dialog.toggleAttribute('data-pointer-focus', pointerInitiated);
     document.documentElement.classList.add('image-lightbox-open');
     dialog.showModal();
     close.focus({ preventScroll: true });
   }
 
   close.addEventListener('click', () => dialog.close());
+  // Mobile browsers may mark programmatic dialog focus as focus-visible even
+  // after a tap. Keep close focused, but show its ring only for keyboard input.
+  dialog.addEventListener('keydown', () => dialog.removeAttribute('data-pointer-focus'), true);
   dialog.addEventListener('keydown', event => {
     if (!event.ctrlKey && !event.metaKey && !event.altKey &&
         (event.key === 'ArrowLeft' || event.key === 'ArrowRight')) {
@@ -151,7 +155,10 @@
     }
   });
   let backdropPressed = false;
-  dialog.addEventListener('pointerdown', event => { backdropPressed = event.target === dialog; });
+  dialog.addEventListener('pointerdown', event => {
+    dialog.setAttribute('data-pointer-focus', '');
+    backdropPressed = event.target === dialog;
+  });
   dialog.addEventListener('click', event => {
     // Releasing an image drag outside its frame must not dismiss the viewer.
     if (event.target === dialog && backdropPressed) dialog.close();
@@ -179,7 +186,7 @@
     button.title = 'View full image';
     button.addEventListener('click', event => {
       event.stopPropagation();
-      openImage(gallery, button);
+      openImage(gallery, button, event.detail > 0);
     });
     galleryViewport.append(button);
   });

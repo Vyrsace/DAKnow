@@ -29,6 +29,7 @@ html.image-lightbox-open { overflow: hidden; scrollbar-gutter: auto; }
 .image-lightbox-close:hover, .image-lightbox-close:focus-visible { opacity: 1; }
 .image-lightbox a { color: #ddd; }
 .image-lightbox :is(button, a, figcaption):focus-visible { outline: 2px solid #fff; outline-offset: -2px; }
+.image-lightbox[data-pointer-focus] .image-lightbox-close:focus { outline: none; }
 @media (hover: hover) and (pointer: fine) {
   .image-lightbox-gallery:hover .title-gallery-arrow, .image-lightbox-gallery:focus-within .title-gallery-arrow { opacity: 1; }
 }

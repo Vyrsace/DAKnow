@@ -70,13 +70,19 @@
     }
     const pointerUp = event => finishGesture(event);
     const cancel = event => finishGesture(event, true);
+    const lostCapture = event => {
+      // Touch/pen initially capture the image or Enlarge button implicitly.
+      // Its capture loss bubbles here when we take over a horizontal swipe;
+      // only losing the viewport's own capture cancels the active gesture.
+      if (event.target === viewport) cancel(event);
+    };
     const resize = () => finishGesture(null, true);
     const preventDrag = event => event.preventDefault();
     viewport.addEventListener('pointerdown', pointerDown);
     viewport.addEventListener('pointermove', pointerMove);
     viewport.addEventListener('pointerup', pointerUp);
     viewport.addEventListener('pointercancel', cancel);
-    viewport.addEventListener('lostpointercapture', cancel);
+    viewport.addEventListener('lostpointercapture', lostCapture);
     viewport.addEventListener('dragstart', preventDrag);
     viewport.addEventListener('click', click, true);
     // A press may leave the image before horizontal capture begins.
@@ -90,7 +96,7 @@
       viewport.removeEventListener('pointermove', pointerMove);
       viewport.removeEventListener('pointerup', pointerUp);
       viewport.removeEventListener('pointercancel', cancel);
-      viewport.removeEventListener('lostpointercapture', cancel);
+      viewport.removeEventListener('lostpointercapture', lostCapture);
       viewport.removeEventListener('dragstart', preventDrag);
       viewport.removeEventListener('click', click, true);
       window.removeEventListener('pointerup', pointerUp, true);
