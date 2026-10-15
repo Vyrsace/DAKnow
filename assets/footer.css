@@ -1,20 +1,21 @@
 /* Shared catalog footer and information pages. Load after the page styles. */
+.site-footer { font-size: 12px; line-height: 1.35; }
 .site-footer .footer-grid {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  line-height: 1.45;
+  gap: 10px;
+  line-height: inherit;
 }
 .footer-grid > * { min-width: 0; }
-.footer-copy { width: 100%; padding-block: 10px; border-bottom: 1px solid var(--card-border); }
+.footer-copy { width: 100%; padding-block: 8px; border-bottom: 1px solid var(--card-border); }
 .footer-brand { font-weight: 700; }
-.footer-notices { display: flex; align-items: flex-end; justify-content: space-between; gap: 5px 24px; margin-top: 5px; }
+.footer-notices { display: flex; align-items: flex-end; justify-content: space-between; gap: 3px 24px; margin-top: 3px; }
 .footer-notices > p { min-width: 0; }
 .footer-affiliation { text-align: right; }
-.footer-policies { align-self: flex-end; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 5px 20px; text-align: right; font-size: 13px; font-weight: 650; }
-.site-footer > .footer-back { display: block; width: fit-content; margin: 0 0 6px auto; font-size: 13px; font-weight: 650; }
-.site-footer .footer-grid p { margin: 0; }
-.site-footer .footer-copy > p + p { margin-top: 5px; }
+.footer-policies { align-self: flex-end; display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 3px 20px; text-align: right; font-size: inherit; font-weight: 650; }
+.site-footer > .footer-back { display: block; width: fit-content; margin: 0 0 6px auto; font-size: inherit; font-weight: 650; }
+.site-footer .footer-grid p { margin: 0; font-size: inherit; }
+.site-footer .footer-copy > p + p { margin-top: 3px; }
 .footer-policies a, .footer-back { text-decoration: none; }
 .footer-policies a:hover, .footer-back:hover { text-decoration: underline; }
 .footer-affiliation a { white-space: normal; }
@@ -55,7 +56,7 @@
 }
 @media (max-width: 620px) {
   .footer-notices { flex-direction: column; align-items: stretch; }
-  .footer-policies { gap: 5px 16px; }
+  .footer-policies { gap: 3px 16px; }
   .policy-layout { grid-template-columns: minmax(0, 1fr); gap: 22px; }
   .policy-contents { position: static; }
   .policy-contents ol { columns: 2; column-gap: 18px; }
