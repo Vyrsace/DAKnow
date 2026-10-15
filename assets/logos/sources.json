@@ -2,23 +2,29 @@
   "logos": [
     {
       "title": "DarkAges",
-      "asset": "assets/logos/darkages-us-remastered.png",
+      "asset": "assets/logos/darkages-us-remastered-v2.png",
       "width": 1468,
       "height": 1071,
-      "sha256": "4900d3d959fdb98db18531cd491eca1943db64902a03dab65bb1c9602b0f3865",
+      "sha256": "645f22a9d6ad3439a1b971f26d47f5045b7904aa5ffddee03adc53360c095d92",
       "description": "Owner-requested transparent high-resolution restoration candidate of the three original characters, Dark Ages title and Your legend begins here tagline. Background and copyright line removed. AI-edited derivative; original retained unchanged pending owner approval.",
       "unchanged": false,
-      "bytes": 1344979,
+      "bytes": 1359761,
       "original_asset": "assets/logos/darkages.png",
       "original_sha256": "68dc3485b3b240ad421d605fcd348315d81f5b601be6e8c7e02ce65c20e20228",
       "evidence_kind": "owner-requested-logo-restoration",
-      "conversion": "Built-in image_gen background extraction and faithful higher-resolution restoration; generated PNG copied without further pixel edits",
-      "verification": "Complete characters, title and tagline visually compared with the original. Original background and copyright line removed. Genuine alpha confirmed. AI restoration is a derivative, not pixel-identical source evidence.",
+      "conversion": "Built-in image_gen restoration followed by owner-authorized direct PNG pixel translation of the existing tagline 12px downward; no resampling, font substitution or further generation",
+      "verification": "Moved tagline RGBA pixels copied exactly. Every pixel outside the source/destination selection is identical to the preceding remaster; canvas and alpha retained. Original promotional artwork remains unchanged.",
       "remaster": {
         "tool": "built-in image_gen",
         "prompt_path": "data/version-research/2026-10-14/us-logo-remaster/prompt.txt",
         "manifest_path": "data/version-research/2026-10-14/us-logo-remaster/manifest.json",
-        "approval": "pending owner review; original retained; deletion not authorized"
+        "approval": "pending owner review; tagline spacing correction requested; original retained; deletion not authorized"
+      },
+      "previous_remaster_asset": "assets/logos/darkages-us-remastered.png",
+      "tagline_adjustment": {
+        "offset_y": 12,
+        "method": "Pillow RGBA pixel translation",
+        "record_path": "data/version-research/2026-10-14/us-logo-remaster/tagline-spacing.json"
       }
     },
     {
