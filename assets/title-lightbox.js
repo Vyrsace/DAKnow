@@ -50,10 +50,10 @@
   source.target = '_blank';
   source.rel = 'noopener noreferrer';
   credit.append('Source: ', source);
-  caption.append(title, description, credit, count);
+  caption.append(title, description, credit);
   const footer = document.createElement('div');
   footer.className = 'image-lightbox-footer';
-  footer.append(caption, close);
+  footer.append(caption, close, count);
   figure.append(viewer, footer);
   dialog.append(figure);
   document.body.append(dialog);
@@ -62,31 +62,6 @@
   let sourceGallery = null;
   let slides = [];
   let controller = null;
-  let fitFrame = null;
-
-  function fitImage() {
-    fitFrame = null;
-    if (!dialog.open) return;
-    // Complete the shared slide animation before changing its frame dimensions.
-    if (viewer.matches('.is-moving, .is-dragging, .is-swipe-settling')) {
-      fitFrame = window.requestAnimationFrame(fitImage);
-      return;
-    }
-    const image = track.querySelector('.title-gallery-slide[aria-hidden="false"] img');
-    if (!image?.naturalWidth || !image.naturalHeight) return;
-    const captionSpace = parseFloat(getComputedStyle(dialog).getPropertyValue('--lightbox-caption-space'));
-    const maxWidth = Math.min(1200, dialog.clientWidth - 32) - 8;
-    const maxHeight = Math.min(960, dialog.clientHeight - 2 * (captionSpace + 16)) - 8;
-    const scale = Math.max(0, Math.min(1, maxWidth / image.naturalWidth, maxHeight / image.naturalHeight));
-    figure.style.setProperty('--lightbox-image-width', `${image.naturalWidth * scale + 8}px`);
-    figure.style.setProperty('--lightbox-image-height', `${image.naturalHeight * scale + 8}px`);
-  }
-  function scheduleFit() {
-    if (fitFrame === null) fitFrame = window.requestAnimationFrame(fitImage);
-  }
-  window.addEventListener('resize', scheduleFit, { passive: true });
-  window.visualViewport?.addEventListener('resize', scheduleFit, { passive: true });
-  track.addEventListener('load', scheduleFit, true);
 
   function updateCaption() {
     const slide = slides[Number(viewer.dataset.galleryIndex) || 0];
@@ -97,7 +72,6 @@
     source.href = slide.dataset.imageSource || original.src;
     count.textContent = `${Number(viewer.dataset.galleryIndex) + 1} / ${slides.length}`;
     caption.scrollTop = 0;
-    scheduleFit();
   }
   viewer.addEventListener('title-gallery-change', updateCaption);
 
@@ -151,8 +125,6 @@
     controller = window.DAKnowTitleGallery.create(viewer, Number(gallery.dataset.galleryIndex) || 0);
     document.documentElement.classList.add('image-lightbox-open');
     dialog.showModal();
-    window.cancelAnimationFrame(fitFrame);
-    fitImage();
     close.focus({ preventScroll: true });
   }
 
@@ -186,8 +158,6 @@
     backdropPressed = false;
   });
   dialog.addEventListener('close', () => {
-    window.cancelAnimationFrame(fitFrame);
-    fitFrame = null;
     window.DAKnowTitleGallery.get(sourceGallery)?.select(Number(viewer.dataset.galleryIndex) || 0);
     controller?.destroy();
     controller = null;

@@ -5,7 +5,7 @@ The `prev.png`, `next.png` and `close.png` images are by Lokesh Dhakar, distribu
 Inspected on October 14, 2026 in the image viewer at:
 https://www.posters.cz/carousel-slider-vector-arrow-set-direction-control-button-f524021408
 
-Downloaded from `https://cdn.europosters.eu/img/lightbox/{prev,next,close}.png` and verified byte-for-byte against the corresponding files in https://github.com/lokesh/lightbox2/tree/dev/dist/images. The catalog serves these local copies; it does not load the reference site's scripts, styles or remote assets. Its existing native dialog and shared gallery supply all interaction behavior. Dark controls on the catalog page use a CSS color filter; the image files are unchanged.
+Downloaded from `https://cdn.europosters.eu/img/lightbox/{prev,next,close}.png` and verified byte-for-byte against the corresponding files in https://github.com/lokesh/lightbox2/tree/dev/dist/images. The catalog serves these local copies; it does not load the reference site's scripts, styles or remote assets. Its existing native dialog and shared gallery supply all interaction behavior. Page controls use the PNG alpha masks tinted with the shared catalog colors; popup controls display the original PNGs directly. The image files are unchanged.
 
 SHA-256 of the preserved files:
 
