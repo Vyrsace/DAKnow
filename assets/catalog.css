@@ -85,7 +85,8 @@ th[aria-sort]:not([aria-sort="none"]) { background: #dfeaf9; }
 th[aria-sort]:not([aria-sort="none"]) .sort-indicator { color: var(--accent); font-weight: 700; }
 .version-section:not([hidden]) ~ .version-section:not([hidden]) { margin-top: 26px; }
 #catalog :is(.version-section, tbody)[hidden] { display: none !important; }
-.version-group-heading th { text-align: left; font-weight: 700; }
+.version-group-heading th { text-align: left; font-weight: 700; background: #dde6f0; }
+#other-titles-catalog tbody[data-version-group="Elancia"] .version-group-heading th { border-top: 1px solid var(--card-border); }
 .version-table, .downloads-table, .hashes-table { width: 100%; min-width: var(--catalog-table-min-width); table-layout: fixed; }
 .version-table col.version { width: var(--catalog-version-width); }
 .version-table col.country { width: 144px; }

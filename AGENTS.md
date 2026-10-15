@@ -118,6 +118,8 @@ All 16 primary Version List, Downloads and Hashes tables use the shared 2070px m
 
 This review routine applies throughout the project; the user should not have to repeat it on each request.
 
+- Other Titles' merged title rows use a subtly darker blue-gray background (#dde6f0) than the column headers. Label the first row "DarkAges VI - Asgard" and the second "Elancia"; both remain left aligned and bold. Give Elancia a full-width 1px top border in the shared card-border color.
+
 - Titles uses a verification-card titles-card wrapper containing its heading, navigation and entire carousel, with shared global card padding and borders. Keep its heading compact like the other cards. The Table of Contents width follows one inner title card after outer Titles padding and borders. Titles remains expanded.
 - Downloads and Hashes regional subsection links are bold without underlines in normal, hover and focus states; retain visible focus outlines. Their introductory paragraphs fill the available card width. Version List and Downloads hide the applied-filter row when it has no badges and reveal it when a filter is selected; badge removal and Reset hide it again without changing the other section. Keep 12px bottom spacing on their filter blocks even while that row is hidden.
 - The Singapore DarkAges rows in Version List display DarkAges (SGDA), including their filter and sort metadata; preserve historical source naming and Downloads package identities.
