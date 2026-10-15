@@ -3,6 +3,103 @@
 
   const controllers = new WeakMap();
 
+  // Card images and popup images use the same gesture, threshold and snapback.
+  function enableSwipe(gallery, viewport, track, controller, total) {
+    let gesture = null;
+    let snapTimer = null;
+    let suppressClick = false;
+    gallery.dataset.swipe = String(total > 1);
+
+    function clearSnap() {
+      window.clearTimeout(snapTimer);
+      snapTimer = null;
+      gallery.classList.remove('is-swipe-settling');
+    }
+    function finishGesture(event, canceled = false) {
+      if (!gesture || (event && event.pointerId !== gesture.pointerId)) return;
+      const ended = gesture;
+      gesture = null;
+      gallery.classList.remove('is-dragging');
+      if (viewport.hasPointerCapture(ended.pointerId)) viewport.releasePointerCapture(ended.pointerId);
+      const distance = (event?.clientX ?? ended.lastX) - ended.startX;
+      const vertical = (event?.clientY ?? ended.lastY) - ended.startY;
+      // A real drag must never activate the card's transparent Enlarge button.
+      suppressClick = ended.horizontal || Math.hypot(distance, vertical) > 8;
+      if (!ended.horizontal) return;
+      const threshold = Math.max(36, Math.min(96, viewport.clientWidth * 0.15));
+      if (!canceled && Math.abs(distance) >= threshold && Math.abs(distance) > Math.abs(vertical)) {
+        controller.step(distance < 0 ? 1 : -1);
+      } else {
+        gallery.classList.add('is-swipe-settling');
+        controller.select(Number(gallery.dataset.galleryIndex) || 0);
+        snapTimer = window.setTimeout(clearSnap, 220);
+      }
+    }
+    function pointerDown(event) {
+      if (total < 2 || !event.isPrimary || event.button !== 0 || gesture) return;
+      suppressClick = false;
+      clearSnap();
+      controller.select(Number(gallery.dataset.galleryIndex) || 0);
+      gesture = { pointerId: event.pointerId, startX: event.clientX, startY: event.clientY,
+        lastX: event.clientX, lastY: event.clientY, horizontal: false };
+    }
+    function pointerMove(event) {
+      if (!gesture || event.pointerId !== gesture.pointerId) return;
+      gesture.lastX = event.clientX;
+      gesture.lastY = event.clientY;
+      const distance = event.clientX - gesture.startX;
+      const vertical = event.clientY - gesture.startY;
+      if (!gesture.horizontal) {
+        if (Math.abs(distance) < 8 || Math.abs(distance) <= Math.abs(vertical)) return;
+        gesture.horizontal = true;
+        // Defer capture until dragging so an ordinary click still enlarges.
+        viewport.setPointerCapture(event.pointerId);
+        gallery.classList.add('is-dragging');
+      }
+      event.preventDefault();
+      event.stopPropagation();
+      const offset = Math.max(-viewport.clientWidth, Math.min(viewport.clientWidth, distance));
+      const position = (Number(gallery.dataset.galleryIndex) || 0) + 1;
+      track.style.transform = `translateX(calc(${-position * 100}% + ${offset}px))`;
+    }
+    function click(event) {
+      if (!suppressClick || event.detail === 0) return;
+      suppressClick = false;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+    }
+    const pointerUp = event => finishGesture(event);
+    const cancel = event => finishGesture(event, true);
+    const resize = () => finishGesture(null, true);
+    const preventDrag = event => event.preventDefault();
+    viewport.addEventListener('pointerdown', pointerDown);
+    viewport.addEventListener('pointermove', pointerMove);
+    viewport.addEventListener('pointerup', pointerUp);
+    viewport.addEventListener('pointercancel', cancel);
+    viewport.addEventListener('lostpointercapture', cancel);
+    viewport.addEventListener('dragstart', preventDrag);
+    viewport.addEventListener('click', click, true);
+    // A press may leave the image before horizontal capture begins.
+    window.addEventListener('pointerup', pointerUp, true);
+    window.addEventListener('pointercancel', cancel, true);
+    window.addEventListener('resize', resize, { passive: true });
+    return () => {
+      finishGesture(null, true);
+      clearSnap();
+      viewport.removeEventListener('pointerdown', pointerDown);
+      viewport.removeEventListener('pointermove', pointerMove);
+      viewport.removeEventListener('pointerup', pointerUp);
+      viewport.removeEventListener('pointercancel', cancel);
+      viewport.removeEventListener('lostpointercapture', cancel);
+      viewport.removeEventListener('dragstart', preventDrag);
+      viewport.removeEventListener('click', click, true);
+      window.removeEventListener('pointerup', pointerUp, true);
+      window.removeEventListener('pointercancel', cancel, true);
+      window.removeEventListener('resize', resize);
+      delete gallery.dataset.swipe;
+    };
+  }
+
   function create(gallery, initialIndex = 0) {
     if (controllers.has(gallery)) return controllers.get(gallery);
     const viewport = gallery.querySelector('.title-gallery-window');
@@ -173,6 +270,7 @@
       },
       destroy() {
         destroyed = true;
+        disposeSwipe();
         window.clearTimeout(safetyTimer);
         observer?.disconnect();
         window.removeEventListener('resize', settleResize);
@@ -186,6 +284,7 @@
         controllers.delete(gallery);
       }
     };
+    const disposeSwipe = enableSwipe(gallery, viewport, track, controller, slides.length);
     controllers.set(gallery, controller);
     return controller;
   }

@@ -41,8 +41,9 @@ main > footer#sources { padding-top: 5px; }
 .table-return-links { display: flex; flex: 0 0 auto; justify-content: flex-end; gap: 14px; margin-left: auto; font-size: 12px; font-weight: 400; white-space: nowrap; }
 .region-nav { margin-bottom: 18px; }
 .region-nav a[aria-current="true"] { font-weight: 700; }
-.region-nav a { font-weight: 700; text-decoration: none; }
-.region-nav a:hover, .region-nav a:focus-visible { text-decoration: none; }
+.region-nav a, #research-notes > .evidence-nav a { font-weight: 700; text-decoration: none; }
+.region-nav a:hover, .region-nav a:focus-visible,
+#research-notes > .evidence-nav a:hover, #research-notes > .evidence-nav a:focus-visible { text-decoration: none; }
 .download-general-notes { margin-top: 26px; }
 .download-general-region:not([hidden]) ~ .download-general-region:not([hidden]) { margin-top: 18px; }
 .download-general-region h4 { font-size: 14px; }
@@ -70,6 +71,8 @@ main > footer#sources { padding-top: 5px; }
 .section-intro { margin: 0 0 18px; color: var(--muted); font-size: 12px; max-width: none; }
 .catalog-filters > h3 { font-size: 14px; margin: 0 0 10px; }
 .catalog-filters .controls { margin-top: 0; }
+.catalog-filters { margin-bottom: 12px; }
+.sources-search { margin-bottom: 12px; }
 #research :is(.evidence-region, tbody, tr)[hidden] { display: none !important; }
 .sort-button { display: flex; align-items: center; gap: 7px; width: 100%; padding: 0; border: 0; background: transparent; color: inherit; font: inherit; text-align: inherit; cursor: pointer; }
 .sort-button:hover { color: var(--accent); }
