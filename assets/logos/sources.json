@@ -31,12 +31,26 @@
     },
     {
       "title": "Yami / 闇の伝説",
-      "asset": "assets/logos/yami.png",
-      "width": 620,
-      "height": 75,
-      "sha256": "4c74b0e4df696bc2116ced9ddaee4632d10b15f3a7636970ed0f20309192e3cc",
-      "description": "Exact lossless extraction of original DefineBitsLossless bitmap character ID 1 from archived official Nexon Yami header Flash SWF. Palette and all pixels retained; no cropping, filtering, reconstruction, or generated imagery. Archived official index2.html embeds top.swf at original 620 by 75 dimensions.",
-      "unchanged": true
+      "asset": "assets/logos/yami-installer-wordmark.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1722134,
+      "sha256": "66044d459e92287183ed6e059181ff805eb570d5b1348c247d107055c96653e7",
+      "unchanged": false,
+      "source_url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/JP-Yami-.Client.-.5.22.-Original.zip",
+      "original_path": "data/version-research/2026-10-14/yami-sg-image-leads/yami-installer-art-original.png",
+      "original_sha256": "e46bd99fae6dd75cfa45b92022245d2a9a6466d0c4eb613794caf7e5fd45652c",
+      "original_package_member": "setup.bmp",
+      "description": "Owner-selected Japanese 闇の伝説 and English Legend of Darkness wordmark isolated from authentic Japanese client installer artwork. AI-assisted transparent extraction; not original publisher bytes.",
+      "evidence_kind": "owner-selected-logo-extraction",
+      "conversion": "Built-in image_gen background extraction; original installer artwork retained in the parent research collection.",
+      "verification": "Source and extraction visually compared for lettering, placement, red/cream colors and original shadow details; transparent alpha verified.",
+      "removed_previous_logo_asset": "assets/logos/yami.png",
+      "extraction": {
+        "tool": "built-in image_gen",
+        "prompt_path": "data/version-research/2026-10-14/yami-sg-image-leads/logo-extraction-prompt.json",
+        "selection": "Installer wordmark selected by owner on 2026-10-14."
+      }
     },
     {
       "title": "Legends of Orphelias",
@@ -296,6 +310,18 @@
       "approval": "accepted replacement; backup deletion authorized",
       "removed_asset": "assets/logos/darkages-singapore.gif",
       "removed_at": "2026-10-14"
+    },
+    {
+      "title": "Yami / 闇の伝説",
+      "width": 620,
+      "height": 75,
+      "sha256": "4c74b0e4df696bc2116ced9ddaee4632d10b15f3a7636970ed0f20309192e3cc",
+      "description": "Exact lossless extraction of original DefineBitsLossless bitmap character ID 1 from archived official Nexon Yami header Flash SWF. Palette and all pixels retained; no cropping, filtering, reconstruction, or generated imagery. Archived official index2.html embeds top.swf at original 620 by 75 dimensions.",
+      "unchanged": true,
+      "removed_asset": "assets/logos/yami.png",
+      "removed_at": "2026-10-14",
+      "approval": "Owner requested replacement and deletion of old banner.",
+      "retirement_reason": "Superseded by the owner-selected Japanese installer wordmark; historical source and Git history retained."
     }
   ]
 }
