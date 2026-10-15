@@ -4,6 +4,10 @@
 .title-gallery-track { display: flex; width: 100%; height: 100%; }
 .title-gallery.is-moving .title-gallery-track { transition: transform 240ms ease; }
 .title-gallery-slide { display: flex; flex: 0 0 100%; align-items: center; justify-content: center; min-width: 0; height: 100%; }
+/* Use the full card frame for the U.S. artwork, centering its visible content.
+   Only transparent side padding is excluded; the popup keeps the complete PNG. */
+.game-card .darkages-us-logo-fit { position: relative; width: min(100%, 201.4958px); aspect-ratio: 1262 / 1071; overflow: hidden; }
+.game-card .darkages-us-logo-fit > img { position: absolute; top: 0; left: -11.4897%; width: 116.3233%; height: auto; max-width: none; max-height: none; }
 /* Fit Yami's visible wordmark, excluding its transparent canvas padding.
    The popup unwraps this card-only frame and shows the complete original PNG. */
 .game-card .yami-logo-fit { position: relative; width: min(100%, 268.5px); aspect-ratio: 1432 / 720; overflow: hidden; }
