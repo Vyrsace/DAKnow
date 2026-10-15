@@ -107,6 +107,8 @@ All 16 primary Version List, Downloads and Hashes tables use the shared 2070px m
 
 ## Change and review workflow
 
+- Yami's normal title-card logo uses the yami-logo-fit CSS frame to exclude the PNG's transparent padding from card sizing, displaying the complete visible wordmark at the shared logo height. Keep the PNG bytes, card/gallery geometry, screenshots and popup fitting unchanged. The popup must continue to unwrap the card frame and show the complete original asset.
+
 - Yami's first image is the Japanese 闇の伝説 and English Legend of Darkness wordmark isolated from the authentic Japanese installer artwork, in assets/logos/yami-installer-wordmark.png. Preserve the original lettering, placement, red/cream colors and close shadows; the AI-assisted background extraction is labeled in logo provenance, with the source installer artwork and prompts retained in the parent research collection. The owner authorized deleting the old assets/logos/yami.png banner; retain its hash, source identity and Git history. Yami keeps its four Game Watch screenshots, then adds the six owner-selected Vector screenshots in this order: Social scene, Combat, Regional map, Equipment screen, Profession selection, World travel map (11 images total). Preserve the original decoded screenshot pixels, native dimensions, source URLs and review-date versus capture-date qualification; do not add the unselected character-creation or menu artwork to this carousel.
 
 1. Start from the latest published and accepted baseline. Check repository state and current deployment before applying a builder or script. Never rerun a stale builder that could revert accepted changes. Preserve unrelated content and work already in progress.

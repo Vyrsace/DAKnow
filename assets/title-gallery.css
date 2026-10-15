@@ -4,6 +4,10 @@
 .title-gallery-track { display: flex; width: 100%; height: 100%; }
 .title-gallery.is-moving .title-gallery-track { transition: transform 240ms ease; }
 .title-gallery-slide { display: flex; flex: 0 0 100%; align-items: center; justify-content: center; min-width: 0; height: 100%; }
+/* Fit Yami's visible wordmark, excluding its transparent canvas padding.
+   The popup unwraps this card-only frame and shows the complete original PNG. */
+.game-card .yami-logo-fit { position: relative; width: min(100%, 268.5px); aspect-ratio: 1432 / 720; overflow: hidden; }
+.game-card .yami-logo-fit > img { position: absolute; top: -20%; left: -2.7933%; width: 107.2626%; height: auto; max-width: none; max-height: none; }
 .title-gallery:not(.is-ready) .title-gallery-slide:not(:first-child) { display: none; }
 .title-gallery.is-ready:not(.is-moving) .title-gallery-slide[aria-hidden="true"] { visibility: hidden; }
 .title-gallery[data-swipe="true"] .title-gallery-window,
