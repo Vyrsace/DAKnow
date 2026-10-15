@@ -1,5 +1,5 @@
 /* Guide navigation and the separate release, download and executable catalogs. */
-:root { --card-border: #9eafc5; --catalog-version-width: 96px; --catalog-notes-width: 900px; --catalog-table-min-width: 2070px; --research-subject-width: 320px; --research-region-width: 200px; --research-sources-width: 240px; --reference-table-min-width: 1660px; --reference-fixed-width: calc(var(--research-subject-width) + var(--research-region-width) + var(--research-sources-width)); --table-header-border: #d2ddea; --table-row-border: #e3e9f1; }
+:root { --card-border: #9eafc5; --catalog-version-width: 96px; --catalog-notes-width: 900px; --catalog-table-min-width: 2070px; --research-subject-width: 320px; --research-region-width: 144px; --research-sources-width: 240px; --research-table-min-width: 1024px; --reference-table-min-width: 1660px; --reference-fixed-width: 760px; --table-header-border: #d2ddea; --table-row-border: #e3e9f1; }
 .catalog-name, .catalog-subtitle { display: block; }
 .catalog-subtitle { margin-top: 4px; color: #526780; font-size: .6em; font-weight: 600; line-height: 1.25; letter-spacing: -.02em; }
 .methodology { max-width: none; }
@@ -22,7 +22,9 @@ main > footer#sources { padding-top: 5px; }
 .card-subsection + .card-subsection { border-top-color: var(--card-border); }
 #verification-notes, #research-notes { border-top: 0; }
 .evidence-table, .evidence-table th, .evidence-table td { border: 1px solid var(--line); }
-.research-table, .sources-table { width: 100%; min-width: var(--reference-table-min-width); table-layout: fixed; }
+.research-table, .sources-table { width: 100%; table-layout: fixed; }
+.research-table { min-width: var(--research-table-min-width); }
+.sources-table { min-width: var(--reference-table-min-width); }
 .research-table .research-subject-col { width: var(--research-subject-width); }
 .research-table .research-origin-col { width: var(--research-region-width); }
 .research-table .research-evidence-col { width: auto; }
@@ -85,7 +87,7 @@ th[aria-sort]:not([aria-sort="none"]) { background: #dfeaf9; }
 th[aria-sort]:not([aria-sort="none"]) .sort-indicator { color: var(--accent); font-weight: 700; }
 .version-section:not([hidden]) ~ .version-section:not([hidden]) { margin-top: 26px; }
 #catalog :is(.version-section, tbody)[hidden] { display: none !important; }
-.version-group-heading th { text-align: left; font-weight: 700; background: #dde6f0; }
+.version-group-heading th, .research-kind-row th { padding: 5px 8px; text-align: left; font-weight: 700; background: #dde6f0; }
 #other-titles-catalog tbody[data-version-group="Elancia"] .version-group-heading th { border-top: 1px solid var(--table-row-border); }
 .version-table, .downloads-table, .hashes-table { width: 100%; min-width: var(--catalog-table-min-width); table-layout: fixed; }
 #catalog .version-table { min-width: 992px; }

@@ -33,10 +33,12 @@
 
   const entriesByRow = new Map(rows.map(row => {
     const source = sourceEntries.get(row.dataset.entryId) || {};
-    const heading = row.closest('.download-region').querySelector('h3').textContent.trim();
-    const separator = heading.lastIndexOf(' - ');
-    const region = row.dataset.country || source.country || (separator < 0 ? '' : heading.slice(separator + 3));
-    const title = row.dataset.gameTitle || source.game_title || (separator < 0 ? heading : heading.slice(0, separator));
+    const heading = row.closest('.download-region').querySelector('h3');
+    const regionLabel = heading.querySelector('.region-label');
+    const headingTitle = [...heading.childNodes].filter(node => node !== regionLabel)
+      .map(node => node.textContent).join('').trim();
+    const region = row.dataset.country || source.country || regionLabel?.textContent.trim() || '';
+    const title = row.dataset.gameTitle || source.game_title || headingTitle;
     const version = row.querySelector('.download-version > span').textContent.trim();
     const type = row.dataset.recordType || source.type || '';
     const filename = row.querySelector('.download-filename').textContent;

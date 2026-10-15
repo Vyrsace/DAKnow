@@ -12,7 +12,13 @@
       "original_sha256": "6ad3376da0384e4c62b99b06ada607d8d409ee8a63315f5ae7b700b4922d59eb",
       "conversion": "Pillow GIF-to-PNG conversion preserving indexed palette and transparency; no resizing, cropping or quantization.",
       "verification": "Source GIF and final PNG decode to identical RGBA pixel bytes.",
-      "alt": "DarkAges characters gathered around glowing floor markings in a wooden room"
+      "alt": "DarkAges characters gathered around glowing floor markings in a wooden room",
+      "display": {
+        "caption": "Screenshot - A class in session at Mileth College",
+        "credit": "Official DarkAges.com / KRU Interactive",
+        "source_url": "https://www.darkages.com/screenshots/images/s_b_21.gif",
+        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+      }
     },
     {
       "title": "Legends of Darkness — South Korea",
@@ -176,7 +182,13 @@
       "width": 640,
       "height": 480,
       "original_sha256": "754b4c6014144cb4733a59689c63549f6b5ccecbd23edffdf7b54718fe0c5695",
-      "label": "Catpuccino, “Husband vs. Wife at Pet Appreciation Festival's Pet Battles event”"
+      "label": "Catpuccino, “Husband vs. Wife at Pet Appreciation Festival's Pet Battles event”",
+      "display": {
+        "caption": "Screenshot - Pet Appreciation Festival pet battles",
+        "credit": "Catpuccino / Mileth College",
+        "source_url": "https://novus-imperia.com/college/moc-2026.php",
+        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+      }
     },
     {
       "name": "2026-mayheart.png",
@@ -216,7 +228,13 @@
       "width": 640,
       "height": 480,
       "original_sha256": "51fa8a61a2ad5824dcddc6a4d45cbd3ac866a71e823a4254c41e1f4140254792",
-      "label": "Mayheart, “Red Moon Necromancer Rising”"
+      "label": "Mayheart, “Red Moon Necromancer Rising”",
+      "display": {
+        "caption": "Screenshot - Red Moon Necromancer Rising battle",
+        "credit": "Mayheart / Mileth College",
+        "source_url": "https://novus-imperia.com/college/moc-2026.php",
+        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+      }
     },
     {
       "name": "2026-elel.png",
@@ -256,7 +274,13 @@
       "width": 640,
       "height": 480,
       "original_sha256": "73685bc7a2c4dda85bcc87a2e73926b971ab04cd31f0ce5f6368534ba679eaad",
-      "label": "Elel, “Countdown to Christmas”"
+      "label": "Elel, “Countdown to Christmas”",
+      "display": {
+        "caption": "Screenshot - Christmas gathering at Mount Giragan",
+        "credit": "Elel / Mileth College",
+        "source_url": "https://novus-imperia.com/college/moc-2026.php",
+        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+      }
     },
     {
       "name": "2026-nagisa.png",
@@ -296,7 +320,13 @@
       "width": 640,
       "height": 480,
       "original_sha256": "d4f702480ac4da17c2e5e176e0ae0abc8e317cc7c242f6cdb6c9f3a2c0281046",
-      "label": "NagisaChan, “Shinewood Forest”"
+      "label": "NagisaChan, “Shinewood Forest”",
+      "display": {
+        "caption": "Screenshot - Hunting party in Shinewood Forest",
+        "credit": "NagisaChan / Mileth College",
+        "source_url": "https://novus-imperia.com/college/moc-2026.php",
+        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+      }
     },
     {
       "gallery_order": 1,
@@ -1672,7 +1702,13 @@
       "verification": "Original JPEG and published PNG decode to identical RGBA pixels and dimensions",
       "visual_review": "Inspected complete supplied image: native client interface, nameplates, speech bubbles and spell effects; no added tutorial labels, arrows or drawings. Supplied publisher framing retained unchanged",
       "label": "Outdoor celebration",
-      "alt": "A crowded outdoor celebration in U.S. DarkAges, with balloons, costumes and native player nameplates"
+      "alt": "A crowded outdoor celebration in U.S. DarkAges, with balloons, costumes and native player nameplates",
+      "display": {
+        "caption": "Screenshot - Bindo celebration at the Loures Soccer Field",
+        "credit": "Bind / YouTube",
+        "source_url": "https://automaton-media.com/articles/newsjp/mmorpg-dark-ages-20250909-356940/",
+        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+      }
     },
     {
       "url": "https://automaton-media.com/wp-content/uploads/2025/09/mmorpg-dark-ages-20250909-356940-003-1536x864.jpg",
@@ -1710,7 +1746,13 @@
       "verification": "Original JPEG and published PNG decode to identical RGBA pixels and dimensions",
       "visual_review": "Inspected complete supplied image: native client interface, nameplates, speech bubbles and spell effects; no added tutorial labels, arrows or drawings. Supplied publisher framing retained unchanged",
       "label": "Dungeon celebration",
-      "alt": "U.S. DarkAges players celebrating in a stone dungeon amid snow and spell effects"
+      "alt": "U.S. DarkAges players celebrating in a stone dungeon amid snow and spell effects",
+      "display": {
+        "caption": "Screenshot - Dungeon celebration",
+        "credit": "Bind / YouTube",
+        "source_url": "https://automaton-media.com/articles/newsjp/mmorpg-dark-ages-20250909-356940/",
+        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+      }
     },
     {
       "url": "https://automaton-media.com/wp-content/uploads/2025/09/mmorpg-dark-ages-20250909-356940-004-1536x864.jpg",
@@ -1748,7 +1790,13 @@
       "verification": "Original JPEG and published PNG decode to identical RGBA pixels and dimensions",
       "visual_review": "Inspected complete supplied image: native client interface, nameplates, speech bubbles and spell effects; no added tutorial labels, arrows or drawings. Supplied publisher framing retained unchanged",
       "label": "Town square gathering",
-      "alt": "A large gathering of U.S. DarkAges players beside white benches and flower beds in a town square"
+      "alt": "A large gathering of U.S. DarkAges players beside white benches and flower beds in a town square",
+      "display": {
+        "caption": "Screenshot - Town square gathering",
+        "credit": "Bind / YouTube",
+        "source_url": "https://automaton-media.com/articles/newsjp/mmorpg-dark-ages-20250909-356940/",
+        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+      }
     },
     {
       "url": "https://automaton-media.com/wp-content/uploads/2025/09/mmorpg-dark-ages-20250909-356940-005-1536x864.jpg",
@@ -1786,7 +1834,13 @@
       "verification": "Original JPEG and published PNG decode to identical RGBA pixels and dimensions",
       "visual_review": "Inspected complete supplied image: native client interface, nameplates, speech bubbles and spell effects; no added tutorial labels, arrows or drawings. Supplied publisher framing retained unchanged",
       "label": "Wooden hall gathering",
-      "alt": "U.S. DarkAges players assembled inside a wooden hall with benches and windows"
+      "alt": "U.S. DarkAges players assembled inside a wooden hall with benches and windows",
+      "display": {
+        "caption": "Screenshot - Wooden hall gathering",
+        "credit": "Bind / YouTube",
+        "source_url": "https://automaton-media.com/articles/newsjp/mmorpg-dark-ages-20250909-356940/",
+        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+      }
     },
     {
       "source_url": "https://novus-imperia.com/college/mem2026/absobel.png",
@@ -1822,7 +1876,13 @@
       "provenance": "Player-submitted screenshot hosted by the player-run Mileth College; not an official developer capture",
       "approval": "Owner approved all four numbered candidate images in this chat on October 14, 2026",
       "label": "Lynith Sea octopus combat",
-      "alt": "Absobel fighting an octopus among underwater rocks and coral in Lynith Sea 8 in U.S. DarkAges"
+      "alt": "Absobel fighting an octopus among underwater rocks and coral in Lynith Sea 8 in U.S. DarkAges",
+      "display": {
+        "caption": "Screenshot - Lynith Sea octopus combat",
+        "credit": "Absobel / Mileth College",
+        "source_url": "https://novus-imperia.com/college/moc-2026.php",
+        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+      }
     },
     {
       "source_url": "https://novus-imperia.com/college/mem2026/danger.png",
@@ -1858,7 +1918,13 @@
       "provenance": "Player-submitted screenshot hosted by the player-run Mileth College; not an official developer capture",
       "approval": "Owner approved all four numbered candidate images in this chat on October 14, 2026",
       "label": "99 League arena PvP",
-      "alt": "Players fighting in a U.S. DarkAges Coliseum Arena match, submitted by Danger"
+      "alt": "Players fighting in a U.S. DarkAges Coliseum Arena match, submitted by Danger",
+      "display": {
+        "caption": "Screenshot - 99 League arena PvP",
+        "credit": "Danger / Mileth College",
+        "source_url": "https://novus-imperia.com/college/moc-2026.php",
+        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+      }
     },
     {
       "source_url": "https://novus-imperia.com/college/mem2026/moogle.png",
@@ -1894,7 +1960,13 @@
       "provenance": "Player-submitted screenshot hosted by the player-run Mileth College; not an official developer capture",
       "approval": "Owner approved all four numbered candidate images in this chat on October 14, 2026",
       "label": "Thubub's Theology Class",
-      "alt": "A crowded theology class inside a wooden hall in U.S. DarkAges, submitted by Moogle"
+      "alt": "A crowded theology class inside a wooden hall in U.S. DarkAges, submitted by Moogle",
+      "display": {
+        "caption": "Screenshot - Thubub's Theology Class",
+        "credit": "Moogle / Mileth College",
+        "source_url": "https://novus-imperia.com/college/moc-2026.php",
+        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+      }
     },
     {
       "source_url": "https://novus-imperia.com/college/mem/kirror.png",
@@ -1930,7 +2002,13 @@
       "provenance": "Player-submitted screenshot hosted by the player-run Mileth College; not an official developer capture",
       "approval": "Owner approved all four numbered candidate images in this chat on October 14, 2026",
       "label": "Attack of the Slimes",
-      "alt": "A crowd of blue slimes and players in a U.S. DarkAges training dojo, submitted by Kirror"
+      "alt": "A crowd of blue slimes and players in a U.S. DarkAges training dojo, submitted by Kirror",
+      "display": {
+        "caption": "Screenshot - Attack of the Slimes",
+        "credit": "Kirror / Mileth College",
+        "source_url": "https://novus-imperia.com/college/moc-2025.php",
+        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+      }
     }
   ],
   "retired_images": [

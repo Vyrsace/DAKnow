@@ -25,6 +25,12 @@
         "offset_y": 12,
         "method": "Pillow RGBA pixel translation",
         "record_path": "data/version-research/2026-10-14/us-logo-remaster/tagline-spacing.json"
+      },
+      "display": {
+        "caption": "Dark Ages Cover Art - \"Dark Ages - Your legend begins here\"",
+        "credit": "Official DarkAges.com / KRU Interactive",
+        "source_url": "https://www.darkages.com/2002/download/down_manual.files/image002.jpg",
+        "selection": "Owner-supplied wording and attribution, October 15, 2026"
       }
     },
     {
