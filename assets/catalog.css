@@ -91,8 +91,9 @@ th[aria-sort]:not([aria-sort="none"]) .sort-indicator { color: var(--accent); fo
 .version-table col.version { width: var(--catalog-version-width); }
 .version-table col.country { width: 144px; }
 .version-table col.game-title { width: 252px; }
-.version-table col.date { width: auto; }
-.version-table col.notes { width: var(--catalog-notes-width); }
+#catalog .version-table col.date { width: 180px; }
+#catalog .version-table col.notes { width: auto; }
+#catalog .version-table :is(th, td).notes-cell { text-align: left; }
 .version-table td:not(.notes-cell) { white-space: nowrap; overflow-wrap: normal; }
 .version-table tbody td:not(.notes-cell) { vertical-align: middle; }
 .version-table .date-unknown { color: var(--muted); }
