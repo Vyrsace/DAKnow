@@ -1,0 +1,254 @@
+{
+  "checked": "2026-10-15",
+  "scope": "Existing GameZone version observations; no new official versions or release dates",
+  "version_rows_added": 0,
+  "version_rows_updated": 6,
+  "source_rows_added": 7,
+  "master_count": 417,
+  "source_count": 642,
+  "coverage": [
+    {
+      "requested_version": "5.51",
+      "catalog_version": "5.51",
+      "country": "United States",
+      "entry_id": "entry-16",
+      "master_id": "version-33",
+      "already_present": true,
+      "gamezone_sources": [
+        "https://gamezone.live/board_MsnU09/11624"
+      ]
+    },
+    {
+      "requested_version": "7.18",
+      "catalog_version": "7.18",
+      "country": "United States",
+      "entry_id": "entry-29",
+      "master_id": "version-59",
+      "already_present": true,
+      "gamezone_sources": [
+        "https://gamezone.live/board_MsnU09/14032225",
+        "https://gamezone.live/board_MsnU09/14032251"
+      ]
+    },
+    {
+      "requested_version": "4.51",
+      "catalog_version": "4.51",
+      "country": "South Korea",
+      "entry_id": "discovery-kr-lod-4-51",
+      "master_id": "version-discovery-kr-lod-4-51",
+      "already_present": true,
+      "gamezone_sources": [
+        "https://gamezone.live/board_MsnU09/21324"
+      ]
+    },
+    {
+      "requested_version": "5.00",
+      "catalog_version": "5.00",
+      "country": "South Korea",
+      "entry_id": "discovery-kr-lod-5-00",
+      "master_id": "version-discovery-kr-lod-5-00",
+      "already_present": true,
+      "gamezone_sources": [
+        "https://gamezone.live/board_MsnU09/80367"
+      ]
+    },
+    {
+      "requested_version": "5.01",
+      "catalog_version": "5.01",
+      "country": "South Korea",
+      "entry_id": "entry-101",
+      "master_id": "version-26",
+      "already_present": true,
+      "gamezone_sources": [
+        "https://gamezone.live/board_MsnU09/11633"
+      ]
+    },
+    {
+      "requested_version": "5.99",
+      "catalog_version": "5.99",
+      "country": "South Korea",
+      "entry_id": "entry-kr-package-5-99",
+      "master_id": "version-kr-package-5-99",
+      "already_present": true,
+      "gamezone_sources": [
+        "https://gamezone.live/board_MsnU09/12352"
+      ]
+    },
+    {
+      "requested_version": "5.81",
+      "catalog_version": "5.81",
+      "country": "South Korea",
+      "entry_id": "discovery-kr-lod-5-81",
+      "master_id": "version-discovery-kr-lod-5-81",
+      "already_present": true,
+      "gamezone_sources": [
+        "https://gamezone.live/board_MsnU09/11592"
+      ]
+    },
+    {
+      "requested_version": "5.87",
+      "catalog_version": "5.87",
+      "country": "South Korea",
+      "entry_id": "entry-123",
+      "master_id": "version-36",
+      "already_present": true,
+      "gamezone_sources": [
+        "https://gamezone.live/board_MsnU09/495044"
+      ]
+    },
+    {
+      "requested_version": "7.42",
+      "catalog_version": "7.420",
+      "country": "South Korea",
+      "entry_id": "entry-147",
+      "master_id": "version-96",
+      "already_present": true,
+      "gamezone_sources": [
+        "https://gamezone.live/board_MsnU09/12238"
+      ]
+    },
+    {
+      "requested_version": "8.240",
+      "catalog_version": "8.240",
+      "country": "South Korea",
+      "entry_id": "entry-247",
+      "master_id": "version-196",
+      "already_present": true,
+      "gamezone_sources": [
+        "https://gamezone.live/board_MsnU09/35065"
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "entry_id": "entry-16",
+      "version": "5.51",
+      "country": "United States",
+      "url": "https://gamezone.live/board_MsnU09/11624",
+      "author": "로스트",
+      "post_date": "2016-02-18",
+      "post_date_scope": "Community post date; not a client release date",
+      "note": "Also listed on GameZone as the U.S. Dark Ages 5.51 client (dark5.51.exe-x); the attachment has not been compared with the preserved client.",
+      "capture": "data/version-research/2026-10-15/gamezone-followup/requests/97de54b6192b9399a162.body",
+      "capture_sha256": "74d1a088a16372aaa7bec79839ed374c74842a2e4f198ba9d2c05cb08f4fb309",
+      "capture_metadata": "data/version-research/2026-10-15/gamezone-followup/requests/97de54b6192b9399a162.json",
+      "attachment_recovered": false
+    },
+    {
+      "entry_id": "entry-29",
+      "version": "7.18",
+      "country": "United States",
+      "url": "https://gamezone.live/board_MsnU09/14032225",
+      "author": "2MB",
+      "post_date": "2024-01-14",
+      "post_date_scope": "Community post date; not a client release date",
+      "note": "A GameZone Lorule server-package post lists DarkAges718single.exe-x as U.S. 7.18; the attachment has not been compared with the preserved client.",
+      "capture": "data/version-research/2026-10-15/gamezone-followup/requests/e5f47b60af38524d1247.body",
+      "capture_sha256": "e76f34094157d13533058a7b1e997caf7e6adc558c5259fd4bd74bfd2c933891",
+      "capture_metadata": "data/version-research/2026-10-15/gamezone-followup/requests/e5f47b60af38524d1247.json",
+      "attachment_recovered": false
+    },
+    {
+      "entry_id": "entry-29",
+      "version": "7.18",
+      "country": "United States",
+      "url": "https://gamezone.live/board_MsnU09/14032251",
+      "author": "2MB",
+      "post_date": "2024-01-14",
+      "post_date_scope": "Community post date; not a client release date",
+      "note": "A second GameZone post labels its Zolian source and dedicated client as Lorule-based U.S. 7.18; modifications and retail binary equivalence remain unverified.",
+      "capture": "data/version-research/2026-10-15/gamezone-followup/requests/6d710b7d8b8f2547ac14.body",
+      "capture_sha256": "496f4a9c4d7afdef9ad3d540db7d36405f829b451b2a69ac7d61ca7a9fede642",
+      "capture_metadata": "data/version-research/2026-10-15/gamezone-followup/requests/6d710b7d8b8f2547ac14.json",
+      "attachment_recovered": false
+    },
+    {
+      "entry_id": "entry-101",
+      "version": "5.01",
+      "country": "South Korea",
+      "url": "https://gamezone.live/board_MsnU09/11633",
+      "author": "로스트",
+      "post_date": "2016-02-18",
+      "post_date_scope": "Community post date; not a client release date",
+      "note": "Also listed on GameZone as a Korean LoD 5.01 client (lodr5.01.exe-x); the attachment has not been compared with the preserved client.",
+      "capture": "data/version-research/2026-10-15/gamezone-followup/requests/10f7cf52e3d09c2c550f.body",
+      "capture_sha256": "9b53c4f7b8c3ebd9fdf85389c240b99ded0ae781f30c63e57b63bad6c77d8883",
+      "capture_metadata": "data/version-research/2026-10-15/gamezone-followup/requests/10f7cf52e3d09c2c550f.json",
+      "attachment_recovered": false
+    },
+    {
+      "entry_id": "entry-kr-package-5-99",
+      "version": "5.99",
+      "country": "South Korea",
+      "url": "https://gamezone.live/board_MsnU09/12352",
+      "author": "서블리",
+      "post_date": "2016-02-19",
+      "post_date_scope": "Community post date; not a client release date",
+      "note": "Also listed on GameZone as a Korean LoD 5.99 installer client (lodr.exe-x); the attachment has not been compared with the preserved client.",
+      "capture": "data/version-research/2026-10-15/gamezone-followup/requests/93e878661f41ac1d1cfe.body",
+      "capture_sha256": "403a1505698fc224a9e27f9b3c80b075e6ee0a3b5d539b6de92a725570a97871",
+      "capture_metadata": "data/version-research/2026-10-15/gamezone-followup/requests/93e878661f41ac1d1cfe.json",
+      "attachment_recovered": false
+    },
+    {
+      "entry_id": "entry-123",
+      "version": "5.87",
+      "country": "South Korea",
+      "url": "https://gamezone.live/board_MsnU09/495044",
+      "author": "아르사라마",
+      "post_date": "2017-03-16",
+      "post_date_scope": "Community post date; not a client release date",
+      "note": "GameZone lists a community \"5.87 fix\" client (어둠5.87클라.zip); modifications and equivalence to the publisher client remain unverified.",
+      "capture": "data/version-research/2026-10-15/gamezone-followup/requests/b52b65c572c0958cd789.body",
+      "capture_sha256": "3f104fefc265ea320974f0b465f8bb96b3fd658b0a77154cf9af2dd72ff86a19",
+      "capture_metadata": "data/version-research/2026-10-15/gamezone-followup/requests/b52b65c572c0958cd789.json",
+      "attachment_recovered": false
+    },
+    {
+      "entry_id": "entry-247",
+      "version": "8.240",
+      "country": "South Korea",
+      "url": "https://gamezone.live/board_MsnU09/35065",
+      "author": "키키킥",
+      "post_date": "2016-03-16",
+      "post_date_scope": "Community post date; not a client release date",
+      "note": "Also listed on GameZone as a Korean LoD 8.240 client (클라.zip); the attachment binary has not been independently identified.",
+      "capture": "data/version-research/2026-10-15/gamezone-followup/requests/eb629e971259472661ef.body",
+      "capture_sha256": "315d99fe54bd75dc0c7d8c2837141eff09bf86bac4560d6563e21ef264f95a07",
+      "capture_metadata": "data/version-research/2026-10-15/gamezone-followup/requests/eb629e971259472661ef.json",
+      "attachment_recovered": false
+    }
+  ],
+  "elancia_classification": [
+    {
+      "version": "2.6.6.0",
+      "entry_id": "discovery-elancia-kr-2-6-6-0",
+      "title": "Elancia / 일랜시아",
+      "country": "South Korea",
+      "asgard_rows": 0
+    },
+    {
+      "version": "3.2.5.0",
+      "entry_id": "discovery-elancia-kr-3-2-5-0",
+      "title": "Elancia / 일랜시아",
+      "country": "South Korea",
+      "asgard_rows": 0
+    }
+  ],
+  "notes_review": {
+    "updated_rows": 6,
+    "release_note_count": 11,
+    "rows_with_changes": 2,
+    "missing_sources": []
+  },
+  "before_sha256": "7c93f9a21c56242a699309e70e9c921dd80ce3e196ccdb23a8026b9737f86149",
+  "after_sha256": "745bbf6d09d63a3d68d2c93e073c5ffd1356a5963d322f1dc5e64d555bb79d0a",
+  "unchanged_sections": [
+    "downloads",
+    "hashes",
+    "games",
+    "verification",
+    "research"
+  ],
+  "chatgpt_conversation": "Original GameZone ChatGPT conversation not located in the accessible recent turns; direct posts recovered and captured instead."
+}
