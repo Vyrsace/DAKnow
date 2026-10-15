@@ -6,7 +6,7 @@
       "filename": "DARKAGES.EXE",
       "bytes": 14221202,
       "sha256": "a8c32856c2540511be5346cafad48f88394b640f54bb2025ca8a121a58681b70",
-      "classification": "Self-extracting InstallShield Installer",
+      "classification": "Self-Extracting Installer (InstallShield)",
       "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:1 (verified-existing); Downloads/download-plan.json#/0; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
       "type_evidence": [
         {
