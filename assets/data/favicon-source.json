@@ -1,0 +1,47 @@
+{
+  "selected_by_owner": "2026-10-15",
+  "source_executable": "C:\\DarkAges\\Darkages.exe",
+  "source_executable_sha256": "054a5d6adc56099c6bfd9d2a58675aff62dc788b63209a3d906492f5b89e96c6",
+  "source_group_id": 127,
+  "source_language_id": 1042,
+  "extracted_ico": "data/version-research/2026-10-15/exe-favicon/icon-group-0.ico",
+  "extracted_ico_sha256": "95d19781293242d6cdc347731b7b1530d8bf8f2874c530ed061c70b0fcc77c23",
+  "native_icon_size": [
+    32,
+    32
+  ],
+  "native_icon_image_payload_preserved": true,
+  "native_image_pixels_preserved": true,
+  "transparency_preserved": true,
+  "resizing": "16px favicon frame downsampled from the native 32px image with Pillow Lanczos; no upscaling or generated artwork.",
+  "assets": [
+    {
+      "path": "favicon.ico",
+      "bytes": 3245,
+      "sha256": "147846da0868389ca5562e30dce5d8fd91b2c077185efa6cfc2c53c6dff4a25f",
+      "sizes": [
+        16,
+        32
+      ]
+    },
+    {
+      "path": "assets/favicon.png",
+      "bytes": 1997,
+      "sha256": "c21f7dff23ff4306214f6a02ea756617e94dde9df7b7069238b8ff9cc3244887",
+      "sizes": [
+        32
+      ]
+    }
+  ],
+  "pages": [
+    "copyright-licensing.html",
+    "index.html",
+    "privacy-policy.html",
+    "terms-of-use.html"
+  ],
+  "cache_busted_links": [
+    "<link rel=\"icon\" href=\"favicon.ico?v=147846da0868\" type=\"image/x-icon\" sizes=\"16x16 32x32\">",
+    "<link rel=\"icon\" href=\"assets/favicon.png?v=c21f7dff23ff\" type=\"image/png\" sizes=\"32x32\">"
+  ],
+  "executable_run": false
+}
