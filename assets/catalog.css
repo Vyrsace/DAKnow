@@ -83,27 +83,31 @@ main > footer#sources { padding-top: 5px; }
 .sort-indicator { color: var(--muted); font-weight: 500; white-space: nowrap; }
 th[aria-sort]:not([aria-sort="none"]) { background: #dfeaf9; }
 th[aria-sort]:not([aria-sort="none"]) .sort-indicator { color: var(--accent); font-weight: 700; }
-#master-catalog, .downloads-table, .hashes-table { width: 100%; min-width: var(--catalog-table-min-width); table-layout: fixed; }
-#master-catalog col.version { width: var(--catalog-version-width); }
-#master-catalog col.country { width: 144px; }
-#master-catalog col.game-title { width: 252px; }
-#master-catalog col.date { width: auto; }
-#master-catalog col.notes { width: var(--catalog-notes-width); }
-#master-catalog td:not(.notes-cell) { white-space: nowrap; overflow-wrap: normal; }
-#master-catalog tbody td:not(.notes-cell) { vertical-align: middle; }
-#master-catalog .sort-button[data-sort="version"] { justify-content: flex-start; }
-#master-catalog th:first-child, #master-catalog td.version,
+.version-section:not([hidden]) ~ .version-section:not([hidden]) { margin-top: 26px; }
+#catalog :is(.version-section, tbody)[hidden] { display: none !important; }
+.version-group-heading th { text-align: left; font-weight: 700; }
+.version-table, .downloads-table, .hashes-table { width: 100%; min-width: var(--catalog-table-min-width); table-layout: fixed; }
+.version-table col.version { width: var(--catalog-version-width); }
+.version-table col.country { width: 144px; }
+.version-table col.game-title { width: 252px; }
+.version-table col.date { width: auto; }
+.version-table col.notes { width: var(--catalog-notes-width); }
+.version-table td:not(.notes-cell) { white-space: nowrap; overflow-wrap: normal; }
+.version-table tbody td:not(.notes-cell) { vertical-align: middle; }
+.version-table .date-unknown { color: var(--muted); }
+.version-table .sort-button[data-sort="version"] { justify-content: flex-start; }
+#catalog .version-table th:first-child, #catalog .version-table td.version,
 table.version-table th, table.version-table td,
 .version-table .research-reference-cell { text-align: left; }
-#master-catalog .note-list, .hashes-table .note-list, .downloads-table .download-notes .notes { margin: 0; padding-left: 14px; }
-#master-catalog .note-list li, .hashes-table .note-list li, .downloads-table .download-notes li { margin: 0; }
-#master-catalog .note-list li + li, .hashes-table .note-list li + li, .downloads-table .download-notes li + li { margin-top: 3px; }
-:is(#master-catalog, .downloads-table, .download-general-table, .hashes-table) tbody td.notes-cell,
-:is(#master-catalog, .downloads-table, .download-general-table, .hashes-table) tbody td.notes-cell * {
+.version-table .note-list, .hashes-table .note-list, .downloads-table .download-notes .notes { margin: 0; padding-left: 14px; }
+.version-table .note-list li, .hashes-table .note-list li, .downloads-table .download-notes li { margin: 0; }
+.version-table .note-list li + li, .hashes-table .note-list li + li, .downloads-table .download-notes li + li { margin-top: 3px; }
+:is(.version-table, .downloads-table, .download-general-table, .hashes-table) tbody td.notes-cell,
+:is(.version-table, .downloads-table, .download-general-table, .hashes-table) tbody td.notes-cell * {
   font-weight: inherit;
   font-style: inherit;
 }
-#master-catalog .note-list:has(> li:only-child) { padding-left: 0; list-style: none; }
+.version-table .note-list:has(> li:only-child) { padding-left: 0; list-style: none; }
 #downloads td.notes-cell :is(ul, ol) { padding-left: 0; list-style: none; }
 table th.notes-cell, table td.notes-cell { border-left: 1px solid var(--line); vertical-align: top; }
 table .notes-cell a[href^="#source-"],
@@ -205,6 +209,6 @@ table td.dash-placeholder, table th.dash-placeholder, .download-size .dash-place
 }
 @media print {
   .catalog-filters { display: none; }
-  #master-catalog, .downloads-table, .hashes-table, .research-table, .sources-table { min-width: 0; }
+  .version-table, .downloads-table, .hashes-table, .research-table, .sources-table { min-width: 0; }
   #title-carousel { grid-auto-columns: auto; }
 }
