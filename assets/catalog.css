@@ -69,7 +69,11 @@ main > footer#sources { padding-top: 5px; }
 .contents-list ul a { display: inline-block; padding: 1px 0; color: #546b88; font-size: 12px; }
 .section-heading { margin: 0 0 16px; color: #243f64; font-size: 18px; font-weight: 650; line-height: 1.35; }
 .section-intro { margin: 0 0 18px; color: var(--muted); font-size: 12px; max-width: none; }
-.catalog-filters > h3 { font-size: 14px; margin: 0 0 10px; }
+.catalog-filters > h3, .download-legend > h3 { font-size: 14px; margin: 0 0 10px; }
+.download-legend { margin-bottom: 18px; }
+.download-legend-list { display: grid; grid-template-columns: max-content minmax(0, 1fr); align-items: center; gap: 6px 12px; margin: 0; }
+.download-legend-list dt { display: flex; align-items: center; }
+.download-legend-list dd { margin: 0; color: var(--muted); font-size: 13px; }
 .catalog-filters .controls { margin-top: 0; }
 .catalog-filters { margin-bottom: 12px; }
 .sources-search { margin-bottom: 12px; }
@@ -138,7 +142,7 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 .download-source a { text-decoration: none; }
 .download-source a:hover { text-decoration: underline; }
 .download-source-label { margin-left: 6px; }
-.download-file-line { display: flex; align-items: center; gap: 6px; width: 100%; white-space: nowrap; }
+.download-file-line { display: flex; align-items: center; gap: 3px; width: 100%; white-space: nowrap; }
 .download-file-line .download-line-name { color: #000; font-weight: 700; }
 .download-file-line .download-line-source { margin: 0; color: var(--muted); }
 .download-file-line .download-badge { flex: none; }
@@ -151,19 +155,22 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 .download-primary-group > :is(.download-file-line, .download-detail-line) + :is(.download-file-line, .download-detail-line) { margin-top: 3px; }
 .download-note-line .notes { line-height: var(--download-line-height); }
 .download-file-notes { margin-top: 8px !important; }
-.download-badge { display: inline-block; padding: 1px 7px; border: 1px solid transparent; border-radius: 4px; font-weight: 700; line-height: 1.45; white-space: nowrap; }
-.download-type > .download-badge { width: 60px; text-align: center; }
+.download-badge, .patch-route { display: inline-flex; align-items: center; justify-content: center; vertical-align: middle; flex: none; box-sizing: border-box; height: calc(1.45em + 4px); padding: 1px 5px; border: 1px solid transparent; border-radius: 4px; line-height: 1.45; white-space: nowrap; }
+.download-badge { font-weight: 700; }
+/* Eight monospace characters plus the existing Download padding and borders. */
+.download-badge:is(.download-badge--original, .download-badge--repack, .download-badge--mirror, .download-badge--download) { width: calc(8ch + 12px); }
+.download-badge:is(.download-badge--client, .download-badge--patch) { width: 60px; }
 .download-badge--client { background: #e5eefb; color: #355f99; border-color: #cbdcf4; }
 .download-badge--patch { background: #edeafd; color: #5753a4; border-color: #ded8f3; }
-.download-badge--mirror { padding: 1px 5px; background: #f0f3f7; color: #5b6c83; border-color: #dbe2ea; text-decoration: none; }
-.download-badge--original, .download-badge--repack { width: 70px; padding: 1px 5px; }
+.download-badge--mirror { background: #f0f3f7; color: #5b6c83; border-color: #dbe2ea; text-decoration: none; }
 .download-badge--original { background: #e6f1ed; color: #3b6759; border-color: #cce0d6; }
 .download-badge--repack { background: #f8eddc; color: #856234; border-color: #e9d8ba; }
-.download-badge--download { padding: 1px 5px; background: #e5eefb; color: #355f99; border-color: #cbdcf4; text-decoration: none; }
+.download-badge--download { background: #e5eefb; color: #355f99; border-color: #cbdcf4; text-decoration: none; }
 .download-file-line .download-badge--download:hover { background: #dfeafb; border-color: #abc4e6; text-decoration: none; }
 a.download-badge--client, a.download-badge--patch { text-decoration: none; }
 a.download-badge--client:hover, a.download-badge--patch:hover { filter: brightness(.96); }
-.patch-route { display: inline-block; margin: 0 0 0 6px; padding: 2px 5px; border: 1px solid #ded8f3; border-radius: 4px; background: #f8f6ff; color: #675e94; white-space: nowrap; }
+.patch-route { margin: 0 0 0 6px; background: #f8f6ff; color: #675e94; border-color: #ded8f3; }
+.download-legend .patch-route { margin: 0; }
 .badge, .download-badge, .patch-route, .download-heading { display: inline-flex; align-items: center; justify-content: center; vertical-align: middle; }
 .download-notes .notes { margin: 0; padding-left: 14px; list-style-type: square; }
 .download-notes li::marker { color: var(--muted); }

@@ -15,6 +15,10 @@ table :where(*) {
   font-family: inherit;
   font-size: inherit;
 }
+.download-legend :is(.download-badge, .patch-route) {
+  font-family: var(--table-font);
+  font-size: var(--table-text-size);
+}
 @media print {
   :root { --table-text-size: 9px; }
 }
