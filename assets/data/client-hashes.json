@@ -5,8 +5,8 @@
   "scope": "Main game executable only, for versions with preserved client or replacement-executable downloads.",
   "verification": {
     "method": "Read every preserved main executable and recalculate SHA-256 and byte length; compare with Downloads/files.jsonl and the supplemental preservation manifest. No preserved binary was executed.",
-    "verifiedPaths": 36,
-    "uniqueRows": 34,
+    "verifiedPaths": 35,
+    "uniqueRows": 33,
     "fileManifest": "Downloads/files.jsonl",
     "extractionManifest": "Downloads/extraction-manifest.jsonl",
     "downloadPlan": "Downloads/download-plan.json",
@@ -86,29 +86,6 @@
           ],
           "entryIds": [
             "entry-8"
-          ]
-        },
-        {
-          "filename": "Darkages.exe",
-          "version": "3.70",
-          "bytes": 905216,
-          "sha256": "61abfd9224a502ce51b1073e44338e416c896dd171aa83a9bc6afb830a4f2130",
-          "region": "United States",
-          "notes": [
-            "Version 3.70.",
-            "Executable recovered from the first installer volume; the preserved distribution is incomplete."
-          ],
-          "paths": [
-            "Downloads/US - DarkAges/3.70/Client/Extracted-Main/Darkages.exe"
-          ],
-          "sourcePaths": [
-            "Downloads/US - DarkAges/3.70/Client/Original/DarkAges_Key_split.exe"
-          ],
-          "sourceUrls": [
-            "https://web.archive.org/web/20010905020425id_/http://www1.darkages.com:80/download/DarkAges_Key_split.exe"
-          ],
-          "entryIds": [
-            "entry-9"
           ]
         },
         {

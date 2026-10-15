@@ -90,28 +90,6 @@
       ]
     },
     {
-      "url": "https://web.archive.org/web/20010905020425id_/http://www1.darkages.com:80/download/DarkAges_Key_split.exe",
-      "filename": "DarkAges_Key_split.exe",
-      "bytes": 5427200,
-      "sha256": "d0f46b9c6508e026c71da12dd1b9b536807337e1d80dc22ca74ecdd920cd8a87",
-      "classification": "Wise Installer [Part 1] (self-extracting EXE); Missing: Part 2 - ?",
-      "size_verification": "Fresh local original size and SHA-256 check; Downloads/download-manifest.jsonl:8 (verified-existing); Downloads/download-plan.json#/7; matching exact URL, byte count and SHA-256 in Downloads/catalog-snapshot.json",
-      "type_evidence": [
-        {
-          "path": "Downloads/download-plan.json",
-          "pointer": "/7",
-          "sha256": "d0f46b9c6508e026c71da12dd1b9b536807337e1d80dc22ca74ecdd920cd8a87"
-        },
-        {
-          "path": "Downloads/extraction-manifest.jsonl",
-          "line": 8
-        },
-        {
-          "path": ".cache/download-work/wise-collection/3.70/Client/extracted/metadata.json"
-        }
-      ]
-    },
-    {
       "url": "https://archive.org/download/sg-cd/SG_CD.bin",
       "filename": "SG_CD.bin",
       "bytes": 422953104,
