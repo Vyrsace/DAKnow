@@ -17,7 +17,10 @@
         "caption": "Screenshot - A class in session at Mileth College",
         "credit": "Official DarkAges.com / KRU Interactive",
         "source_url": "https://www.darkages.com/screenshots/images/s_b_21.gif",
-        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner-edited carousel-text-edit-list.txt, preserved as owner-edits.txt"
+        ]
       }
     },
     {
@@ -51,10 +54,14 @@
         "Player-submitted summer-event screenshot with the original game interface; no added annotations."
       ],
       "display": {
-        "caption": "Screenshot - Waikiki summer event beach",
-        "credit": "펜아 / NEXON screenshot board",
-        "source_url": "https://lod.nexon.com/Community/screenshot/137625?Category2=2",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - [와이키키바캉스] 이 해변을 점령하러 왔다! [Waikiki Vacation: I've come to take over this beach!]",
+        "credit": "NEXON Screenshot Board / [와이키키바캉스] 이 해변을 점령하러 왔다!",
+        "source_url": "https://storage.nexon.com/dsk00/00/NX_FILE/Board/196608/05/2/000/00/69/4620789979000410262.png",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner wording and direct image URL",
+          "Original post title in assets/images/sources.json; English translation by assistant"
+        ]
       }
     },
     {
@@ -88,10 +95,15 @@
         "Player-submitted Queen Ant encounter. The uploader supplied a gameplay-area crop; the complete uploaded image is preserved."
       ],
       "display": {
-        "caption": "Screenshot - Queen Ant encounter",
-        "credit": "생츄 / NEXON screenshot board",
-        "source_url": "https://lod.nexon.com/Community/screenshot/147872?Category2=2",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - 여왕개미 잡는 직전과 순직 [Before fighting the Queen Ant, and dying in the line of duty]",
+        "credit": "생츄 / NEXON Screenshot Board",
+        "source_url": "https://storage.nexon.com/dsk01/07/NX_FILE/Board/196608/05/1/000/00/00/5125191719926628494.png",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Original Korean post title: 여왕개미 잡는 직전과 순직",
+          "Assistant English translation",
+          ".cache/catalog-redesign/kr-modern-gallery/community/post-147872.html"
+        ]
       }
     },
     {
@@ -125,10 +137,15 @@
         "Player-submitted Doom Love event screenshot dated 2025-12-18, preserving the original game interface and winter setting."
       ],
       "display": {
-        "caption": "Screenshot - Doom Love winter event",
-        "credit": "루나 / NEXON screenshot board",
-        "source_url": "https://lod.nexon.com/community/screenshot/142126",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - [둠사랑] 난 루나야 알러브루나 어둠사랑해 [Doom Love: I'm Luna, I love Luna, I love Dark Ages]",
+        "credit": "루나 / NEXON Screenshot Board",
+        "source_url": "https://storage.nexon.com/dsk00/02/NX_FILE/Board/196608/05/2/000/00/70/4764905167076266556.png",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Original Korean post title: [둠사랑] 난 루나야 알러브루나 어둠사랑해",
+          "Assistant English translation",
+          ".cache/catalog-redesign/kr-modern-gallery/official-board/142126.html"
+        ]
       }
     },
     {
@@ -162,10 +179,15 @@
         "The author describes summer-event guild activities and swimming competitions. Native gameplay UI and nameplates are retained."
       ],
       "display": {
-        "caption": "Screenshot - Waikiki summer swimming event",
-        "credit": "뱀뀨 / NEXON screenshot board",
-        "source_url": "https://lod.nexon.com/Community/screenshot/137622?Category2=2",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - [와이키키바캉스] 좋은길드 좋은사람들과 좋은자리 여름바캉스!!! [Waikiki Vacation: A summer vacation in a great spot with a great guild and great people!!!]",
+        "credit": "뱀뀨 / NEXON Screenshot Board",
+        "source_url": "https://storage.nexon.com/dsk02/10/NX_FILE/Board/196608/02/1/000/00/00/5341310733344833751.jpg",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Original Korean post title: [와이키키바캉스] 좋은길드 좋은사람들과 좋은자리 여름바캉스!!!",
+          "Assistant English translation",
+          ".cache/catalog-redesign/kr-modern-gallery/community/post-137622.html"
+        ]
       }
     },
     {
@@ -210,8 +232,13 @@
       "display": {
         "caption": "Screenshot - Pet Appreciation Festival pet battles",
         "credit": "Catpuccino / Mileth College",
-        "source_url": "https://novus-imperia.com/college/moc-2026.php",
-        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+        "source_url": "https://novus-imperia.com/college/mem2026/catpuccino.png",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner wording",
+          "assets/images/sources.json original source identity",
+          "Live Mileth College contest page and matching original image"
+        ]
       }
     },
     {
@@ -254,10 +281,13 @@
       "original_sha256": "51fa8a61a2ad5824dcddc6a4d45cbd3ac866a71e823a4254c41e1f4140254792",
       "label": "Mayheart, “Red Moon Necromancer Rising”",
       "display": {
-        "caption": "Screenshot - Red Moon Necromancer Rising battle",
+        "caption": "Screenshot - Red Moon Necromancer Rising / The Blood Moon: Uprising",
         "credit": "Mayheart / Mileth College",
-        "source_url": "https://novus-imperia.com/college/moc-2026.php",
-        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+        "source_url": "https://novus-imperia.com/college/mem2026/mayheart.png",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner-edited carousel-text-edit-list.txt, preserved as owner-edits.txt"
+        ]
       }
     },
     {
@@ -300,10 +330,13 @@
       "original_sha256": "73685bc7a2c4dda85bcc87a2e73926b971ab04cd31f0ce5f6368534ba679eaad",
       "label": "Elel, “Countdown to Christmas”",
       "display": {
-        "caption": "Screenshot - Christmas gathering at Mount Giragan",
-        "credit": "Elel / Mileth College",
-        "source_url": "https://novus-imperia.com/college/moc-2026.php",
-        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+        "caption": "Screenshot - Countdown to Christmas",
+        "credit": "elel / Mileth College",
+        "source_url": "https://novus-imperia.com/college/mem2026/elel.png",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner-edited carousel-text-edit-list.txt, preserved as owner-edits.txt"
+        ]
       }
     },
     {
@@ -346,10 +379,13 @@
       "original_sha256": "d4f702480ac4da17c2e5e176e0ae0abc8e317cc7c242f6cdb6c9f3a2c0281046",
       "label": "NagisaChan, “Shinewood Forest”",
       "display": {
-        "caption": "Screenshot - Hunting party in Shinewood Forest",
+        "caption": "Screenshot - Shinewood Forest",
         "credit": "NagisaChan / Mileth College",
-        "source_url": "https://novus-imperia.com/college/moc-2026.php",
-        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+        "source_url": "https://novus-imperia.com/college/mem2026/nagisa.png",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner-edited carousel-text-edit-list.txt, preserved as owner-edits.txt"
+        ]
       }
     },
     {
@@ -390,10 +426,16 @@
       "sha256": "bceb98556690b7cd7492e5d312caf21bbd4926a4947e322335226b2c7ae279a7",
       "label": "[넥슨30주년] 뚜뚜 이벤트 참여",
       "display": {
-        "caption": "Screenshot - NEXON 30th anniversary event gathering",
-        "credit": "더블슬래셔 / NEXON screenshot board",
-        "source_url": "https://asgard.nexon.com/Community/screenshot/9271",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - [넥슨30주년] 뚜뚜 이벤트 참여 [NEXON 30th Anniversary: Taking part in the Ttuttu event]",
+        "credit": "더블슬래셔 / NEXON Screenshot Board",
+        "source_url": "https://storage.nexon.com/dsk01/06/NX_FILE/Board/393216/04/2/000/00/51/5053117951041914841.bmp",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "https://asgard.nexon.com/Community/screenshot/9271",
+          "Original post title preserved in sources/version-research/2026-10-14/asgard",
+          "Assistant English translation",
+          "Original image downloader redirected to the selected storage URL"
+        ]
       }
     },
     {
@@ -434,10 +476,16 @@
       "sha256": "bbbe0e4d2430df1a66f0197975445074ab36c1e1bd2263ff119ccf6a59650898",
       "label": "[이지인증] 야차 엔네아 솔플",
       "display": {
-        "caption": "Screenshot - Ennea easy-mode raid completion",
-        "credit": "시러 / NEXON screenshot board",
-        "source_url": "https://asgard.nexon.com/Community/screenshot/9520",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - [이지인증] 야차 엔네아 솔플 [Easy-mode clear: Yaksha solos Ennea]",
+        "credit": "시러 / NEXON Screenshot Board",
+        "source_url": "https://storage.nexon.com/dsk01/06/NX_FILE/Board/393216/04/2/000/00/51/5053117951041914977.bmp",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "https://asgard.nexon.com/Community/screenshot/9520",
+          "Original post title preserved in sources/version-research/2026-10-14/asgard",
+          "Assistant English translation",
+          "Original image downloader redirected to the selected storage URL"
+        ]
       }
     },
     {
@@ -478,10 +526,16 @@
       "sha256": "064efaf2f7eeab5bf6c0d121cc8feffa4dca9dc7e7b31aba3626b891513698b0",
       "label": "2025년 12월 30일 연말결혼식",
       "display": {
-        "caption": "Screenshot - An in-game wedding celebration",
-        "credit": "리프야 / NEXON screenshot board",
-        "source_url": "https://asgard.nexon.com/Community/screenshot/10067",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - 2025년 12월 30일 연말결혼식 [December 30, 2025 year-end wedding]",
+        "credit": "리프야 / NEXON Screenshot Board",
+        "source_url": "https://storage.nexon.com/dsk02/10/NX_FILE/Board/393216/02/1/000/00/00/5341309685372814218.jpg",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "https://asgard.nexon.com/Community/screenshot/10067",
+          "Original post title preserved in sources/version-research/2026-10-14/asgard",
+          "Assistant English translation",
+          "Original image downloader redirected to the selected storage URL"
+        ]
       }
     },
     {
@@ -522,10 +576,16 @@
       "sha256": "5c87f2077fd10b10d5b43fbb04ca04f58deb25c39c50403ebf5e0f40515ca056",
       "label": "[이지인증] 엔네아 이지 레이드 클리어~",
       "display": {
-        "caption": "Screenshot - Party after an Ennea raid",
-        "credit": "솔직히힘들어 / NEXON screenshot board",
-        "source_url": "https://asgard.nexon.com/Community/screenshot/9697",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - [이지인증] 엔네아 이지 레이드 클리어~ [Easy-mode clear: Ennea easy raid cleared~]",
+        "credit": "솔직히힘들어 / NEXON Screenshot Board",
+        "source_url": "https://storage.nexon.com/dsk01/06/NX_FILE/Board/393216/04/2/000/00/51/5053117951041915113.bmp",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "https://asgard.nexon.com/Community/screenshot/9697",
+          "Original post title preserved in sources/version-research/2026-10-14/asgard",
+          "Assistant English translation",
+          "Original image downloader redirected to the selected storage URL"
+        ]
       }
     },
     {
@@ -577,10 +637,14 @@
       "image_number": 2,
       "asset": "assets/images/yami-jp-gameplay-2.png",
       "display": {
-        "caption": "Screenshot - Forest battle in Japanese Yami",
+        "caption": "Screenshot - Fighting flame monsters in Yami's flower-filled forest",
         "credit": "NEXON Japan / GAME Watch",
-        "source_url": "https://game.watch.impress.co.jp/docs/20010417/nexon.htm",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "source_url": "https://game.watch.impress.co.jp/docs/20010417/nexon2.jpg",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Original image visually inspected",
+          "captures/game-watch.html: publisher screenshots and NEXON Japan copyright"
+        ]
       }
     },
     {
@@ -632,10 +696,14 @@
       "image_number": 3,
       "asset": "assets/images/yami-jp-gameplay-3.png",
       "display": {
-        "caption": "Screenshot - Dungeon encounter in Japanese Yami",
+        "caption": "Screenshot - A red giant towers over players in a torch-lit stone dungeon",
         "credit": "NEXON Japan / GAME Watch",
-        "source_url": "https://game.watch.impress.co.jp/docs/20010417/nexon.htm",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "source_url": "https://game.watch.impress.co.jp/docs/20010417/nexon4.jpg",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Original image visually inspected",
+          "captures/game-watch.html: publisher screenshots and NEXON Japan copyright"
+        ]
       }
     },
     {
@@ -687,10 +755,14 @@
       "image_number": 4,
       "asset": "assets/images/yami-jp-gameplay-4.png",
       "display": {
-        "caption": "Screenshot - Snowy penguins in Japanese Yami",
+        "caption": "Screenshot - Penguins surround a player in Yami's snowy hunting grounds",
         "credit": "NEXON Japan / GAME Watch",
-        "source_url": "https://game.watch.impress.co.jp/docs/20010417/nexon.htm",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "source_url": "https://game.watch.impress.co.jp/docs/20010417/nexon6.jpg",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Original image visually inspected",
+          "captures/game-watch.html: publisher screenshots and NEXON Japan copyright"
+        ]
       }
     },
     {
@@ -742,10 +814,14 @@
       "image_number": 5,
       "asset": "assets/images/yami-jp-gameplay-5.png",
       "display": {
-        "caption": "Screenshot - Temple interior in Japanese Yami",
+        "caption": "Screenshot - A shrine statue, flowerbeds and lit braziers inside a Japanese Yami temple",
         "credit": "NEXON Japan / GAME Watch",
-        "source_url": "https://game.watch.impress.co.jp/docs/20010417/nexon.htm",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "source_url": "https://game.watch.impress.co.jp/docs/20010417/nexon7.jpg",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Original image visually inspected",
+          "captures/game-watch.html: publisher screenshots and NEXON Japan copyright"
+        ]
       }
     },
     {
@@ -824,10 +900,14 @@
       "image_number": 3,
       "asset": "assets/images/zhenshijie-tw-gameplay-2.png",
       "display": {
-        "caption": "Screenshot - Snowy wilderness - publisher preview",
-        "credit": "APEXON archive",
-        "source_url": "https://web.archive.org/web/20010426181445/http://www.apexon-online.com.tw:80/nexon/dasc.htm",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - Snow-covered village and walled paths in the Chinese-client publisher preview",
+        "credit": "APEXON / Official 真世界 Website",
+        "source_url": "https://web.archive.org/web/20010619183924id_/http://www.apexon-online.com.tw/images/da_images/da03-1.jpg",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Preserved original publisher image and direct image URL",
+          "Publisher preview qualifications retained; Love City identified in tw-2001-08-06-v420-part3.html"
+        ]
       }
     },
     {
@@ -906,10 +986,14 @@
       "image_number": 4,
       "asset": "assets/images/zhenshijie-tw-gameplay-3.png",
       "display": {
-        "caption": "Screenshot - Love City - publisher preview",
-        "credit": "APEXON archive",
-        "source_url": "https://web.archive.org/web/20010826104221id_/http://www.apexon-online.com.tw:80/news/news20010806_3.htm",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - 愛情之城 (Love City) gathering in the Chinese-client publisher preview",
+        "credit": "APEXON / Official 真世界 Website",
+        "source_url": "https://web.archive.org/web/20011007070139id_/http://www.apexon-online.com.tw:80/images/0806/05.JPG",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Preserved original publisher image and direct image URL",
+          "Publisher preview qualifications retained; Love City identified in tw-2001-08-06-v420-part3.html"
+        ]
       }
     },
     {
@@ -940,10 +1024,13 @@
       "image_number": 2,
       "asset": "assets/images/darkages-sg-gameplay-2.png",
       "display": {
-        "caption": "Screenshot - Victory after the Aisling Quest",
-        "credit": "NexonAsia archive",
-        "source_url": "https://web.archive.org/web/20021031050807id_/http://darkages.nexonasia.com:80/aislingquest/day1/screenshots5.html",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - Victory? Or will there be more?",
+        "credit": "NexonAsia / Official DarkAges Website",
+        "source_url": "https://web.archive.org/web/20021106220809id_/http://darkages.nexonasia.com:80/aislingquest/day1/AQ1_5.jpg",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "sources/version-research/2026-10-14/sea/sg-aisling-quest-picture-5.html: original caption"
+        ]
       }
     },
     {
@@ -974,10 +1061,13 @@
       "image_number": 3,
       "asset": "assets/images/darkages-sg-gameplay-3.png",
       "display": {
-        "caption": "Screenshot - Aftermath of the Aisling Quest",
-        "credit": "NexonAsia archive",
-        "source_url": "https://web.archive.org/web/20021104040059id_/http://darkages.nexonasia.com:80/aislingquest/day1/screenshots6.html",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - Aislings asking the brave about the aftermath",
+        "credit": "NexonAsia / Official DarkAges Website",
+        "source_url": "https://web.archive.org/web/20021106221306id_/http://darkages.nexonasia.com:80/aislingquest/day1/AQ1_6.jpg",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "sources/version-research/2026-10-14/sea/sg-aisling-quest-picture-6.html: original caption"
+        ]
       }
     },
     {
@@ -1008,10 +1098,13 @@
       "image_number": 2,
       "asset": "assets/images/legends-temuair-my-gameplay-2.png",
       "display": {
-        "caption": "Screenshot - Gathering at the royal court",
-        "credit": "TIMENet screenshot archive",
-        "source_url": "https://web.archive.org/web/20020708141741id_/http://legends.time.net.my:80/screen/screen.cfm?ID=35",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - A Royal court, with a King, knight, jesters, chandeliers and nice ceramic tiles.",
+        "credit": "TIME dotNet / Official LEGENDS Website",
+        "source_url": "https://web.archive.org/web/20030828131654id_/http://legends.time.net.my:80/screen/20020508.jpg",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "sources/version-research/2026-10-14/sea/my-legends-screenshot-35.html: original caption; Pix by Gunman moved to credit"
+        ]
       }
     },
     {
@@ -1042,10 +1135,13 @@
       "image_number": 3,
       "asset": "assets/images/legends-temuair-my-gameplay-3.png",
       "display": {
-        "caption": "Screenshot - Ceannlaidir temple mass",
-        "credit": "TIMENet screenshot archive",
-        "source_url": "https://web.archive.org/web/20020706123613id_/http://legends.time.net.my:80/screen/screen.cfm?ID=36",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - Mass in the Temple of Ceannlaidir, God of War.",
+        "credit": "TIME dotNet / Official LEGENDS Website",
+        "source_url": "https://web.archive.org/web/20040304065538id_/http://legends.time.net.my:80/screen/20020513.jpg",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "sources/version-research/2026-10-14/sea/my-legends-screenshot-36.html: original caption; Pix by Gunman moved to credit"
+        ]
       }
     },
     {
@@ -1076,10 +1172,13 @@
       "image_number": 4,
       "asset": "assets/images/legends-temuair-my-gameplay-4.png",
       "display": {
-        "caption": "Screenshot - Fiosachd temple mass",
-        "credit": "Gunman / TIMENet archive",
-        "source_url": "https://web.archive.org/web/20020705181000id_/http://legends.time.net.my:80/screen/screen.cfm?ID=37",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - Fiosachd Mass, for the God of Swiftness and Wealth, patron of thieves - those bunch of crooks :)",
+        "credit": "Gunman / Official LEGENDS Website",
+        "source_url": "https://web.archive.org/web/20030628084801id_/http://legends.time.net.my:80/screen/20020521.jpg",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "sources/version-research/2026-10-14/sea/my-legends-screenshot-37.html: original caption; Pix by Gunman moved to credit"
+        ]
       }
     },
     {
@@ -1110,10 +1209,13 @@
       "image_number": 5,
       "asset": "assets/images/legends-temuair-my-gameplay-5.png",
       "display": {
-        "caption": "Screenshot - A priest performing a mana ritual",
-        "credit": "TIMENet screenshot archive",
-        "source_url": "https://web.archive.org/web/20020701021956id_/http://legends.time.net.my:80/screen/screen.cfm?ID=38",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - Mana Ritual allows Priests to regain mana. Wizards have Mana Dance. Rogues have to Steal Mana instead.",
+        "credit": "TIME dotNet / Official LEGENDS Website",
+        "source_url": "https://web.archive.org/web/20030205011445id_/http://legends.time.net.my:80/screen/20020530a.jpg",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "sources/version-research/2026-10-14/sea/my-legends-screenshot-38.html: original caption; Pix by Gunman moved to credit"
+        ]
       }
     },
     {
@@ -1144,10 +1246,13 @@
       "image_number": 2,
       "asset": "assets/images/legends-orphelias-gameplay-2.png",
       "display": {
-        "caption": "Screenshot - Dragon battle in Conquista",
-        "credit": "NexonAsia screenshot archive",
-        "source_url": "https://web.archive.org/web/20020422070715id_/http://www.lod.com.sg:80/picofweek14.asp",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - A story of the Dragon Slayers' trip to Conquista... (we failed to kill the dragon : ( )",
+        "credit": "Uncredited player / NexonAsia",
+        "source_url": "https://web.archive.org/web/20020424012842id_/http://www.lod.com.sg:80/images/screenshotofweek14.GIF",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Original Picture of the Week caption in sources/version-research/2026-10-14/sea/orphelias-conquista-screenshot.html"
+        ]
       }
     },
     {
@@ -1178,10 +1283,13 @@
       "image_number": 3,
       "asset": "assets/images/legends-orphelias-gameplay-3.png",
       "display": {
-        "caption": "Screenshot - New Year celebrations in Asal",
-        "credit": "NexonAsia screenshot archive",
-        "source_url": "https://web.archive.org/web/20020328171446id_/http://www.lod.com.sg:80/picofweek16.asp",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - Asal, New Year's Eve, 2001",
+        "credit": "Uncredited player / NexonAsia",
+        "source_url": "https://web.archive.org/web/20020422070357id_/http://www.lod.com.sg:80/images/screenshotofweek16.GIF",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Original Picture of the Week caption in sources/version-research/2026-10-14/sea/orphelias-asal-new-year-screenshot.html"
+        ]
       }
     },
     {
@@ -1217,10 +1325,14 @@
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
       "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
       "display": {
-        "caption": "Green promotional wallpaper",
-        "credit": "Namu Wiki CDN",
+        "caption": "Wallpaper - Elancia archer with a bow, clover and a ladybird",
+        "credit": "Uncredited artist / Namu Wiki",
         "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0QMclmfDr3KBh-XszurQGp3PwVDjoVOAnTQcp86LaTDym_fvEKwheiDOB7WSJCVnsrbCvVnt2nZ_nWg8U67x1zvpT-HG-NmyUnt9qa_QQTkEg2igzUJ-0TtGOB_cHIowECjC6C0n-2-v39ofWNFDCic.webp",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Preserved original source URL and import metadata",
+          "Original image visually inspected; uncredited contributors remain uncredited"
+        ]
       }
     },
     {
@@ -1256,10 +1368,14 @@
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
       "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
       "display": {
-        "caption": "Character artwork",
-        "credit": "Namu Wiki CDN",
+        "caption": "Illustration - Elancia character ensemble",
+        "credit": "Uncredited artist / Namu Wiki",
         "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0frkzSK7qlWaSeY4ymPlDblJREiW8250qrU9u-a9h3cM1tmlVFcg_LSsx-1m2-kRxBeEEakpRXu4GDSXN75MVEeMT3thE4W5Wi7VClvBPkEFsWRSBkCsbs46cL0pj5tKSuLoX1QnzLszvhWIdeI-_fs.webp",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Preserved original source URL and import metadata",
+          "Original image visually inspected; uncredited contributors remain uncredited"
+        ]
       }
     },
     {
@@ -1295,10 +1411,14 @@
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
       "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
       "display": {
-        "caption": "Screenshot - Crowded gathering - Japanese client",
-        "credit": "Namu Wiki CDN",
+        "caption": "Screenshot - A crowded Japanese-client gathering with heart balloons and spell effects",
+        "credit": "Uncredited contributor / Namu Wiki",
         "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0VJirTyYuudF35_3PjUDtecbMCSIhs563Ovfy4FAuc_QnKXcVV3X9So2V9xspG3CKUIerQOPWEEgam0uaTLCriBM1vZxViJp1mfRuKzes2H_EiEKXfjNhLF_DitH5MG22SyDHH3aRCslOz5CcQKixgk.webp",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Preserved original source URL and import metadata",
+          "Original image visually inspected; uncredited contributors remain uncredited"
+        ]
       }
     },
     {
@@ -1334,10 +1454,14 @@
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
       "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
       "display": {
-        "caption": "Screenshot - Bank and inventory - Korean client",
-        "credit": "Namu Wiki CDN",
+        "caption": "Screenshot - Safe Deposit storage and the character's equipment and inventory windows",
+        "credit": "Uncredited contributor / Namu Wiki",
         "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0e985f9w0CyAKyIsTQmD0SXpJy8tYVMkRffG304r8lC48iUFkN9LJquyZlhIBhhO8mlAb6yb7wbZmpq6Rz0kJ4w5REObxM3Xf9ShuM_fGC1cefglJVNFTuLpZ05eJAETYFrInxRR2AWlo_JBpR9AAo0.webp",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Preserved original source URL and import metadata",
+          "Original image visually inspected; uncredited contributors remain uncredited"
+        ]
       }
     },
     {
@@ -1373,10 +1497,14 @@
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
       "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
       "display": {
-        "caption": "Screenshot - Connect screen",
-        "credit": "Namu Wiki CDN",
+        "caption": "Screenshot - Elancia Connect and Exit screen",
+        "credit": "Uncredited contributor / Namu Wiki",
         "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0d5WrCQi8zfh8WS5HWJYDZV_UpQw4VMqfcymJc-39SxE07_InIF6QjdjQhvkoWb6pIoMoh1yxUE23xQxI1WJXZKyv1Uq6s7Tt5OV_OfyHSOrtXNNKEwnCqTecRVDj83LjBBT3F36-tN1sE3_70Nu4gM.webp",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Preserved original source URL and import metadata",
+          "Original image visually inspected; uncredited contributors remain uncredited"
+        ]
       }
     },
     {
@@ -1412,10 +1540,14 @@
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
       "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
       "display": {
-        "caption": "Screenshot - Title screen - displayed Vers. 3.08",
-        "credit": "Namu Wiki CDN",
+        "caption": "Screenshot - Vers. 3.08 title screen with Continue, New Character and Change Password",
+        "credit": "Uncredited contributor / Namu Wiki",
         "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0fy61mbo2Tu4AODJhfGg1EhhR_g_GvWzMIJpRuxXsvRZSF5h57NwY9RI9c5TQ1fod7XFKni0ulc7LWBW_MXyIVl2FkFalKYFcOwbPU2OBWQ9DzhDsKpPPjP7vWnG7OIUJi3u1uZOn6hYMDACjq7fV3w.webp",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Preserved original source URL and import metadata",
+          "Original image visually inspected; uncredited contributors remain uncredited"
+        ]
       }
     },
     {
@@ -1451,10 +1583,14 @@
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
       "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
       "display": {
-        "caption": "Screenshot - Merchant window - Japanese client",
-        "credit": "Namu Wiki CDN",
+        "caption": "Screenshot - Japanese-client merchant window with bargaining and item-price controls",
+        "credit": "Uncredited contributor / Namu Wiki",
         "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0Rw4r_TfGAXhq4q1yjgGi4h6ZpTie5dBZzFuoZmqnLWlTs4mX0EW3EhwvQW1Mefrx904k1UfxvrmHt6F9DJ9ZLjorQYaNDP8RYNvpYo2omy0OyP83lielInUakMknBYFrgE2fMVQr6qx06_6C7J5gzE.webp",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Preserved original source URL and import metadata",
+          "Original image visually inspected; uncredited contributors remain uncredited"
+        ]
       }
     },
     {
@@ -1490,10 +1626,14 @@
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
       "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
       "display": {
-        "caption": "Screenshot - Dungeon gathering",
-        "credit": "Namu Wiki CDN",
+        "caption": "Screenshot - A party lines up beneath the purple dungeon arches",
+        "credit": "Uncredited contributor / Namu Wiki",
         "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0Q3UnZuOGCowKbO3xl7IHUYoLqz3nfIsqGV5HWPII997VFIY_OjREgvPBa_52xRK8SmykE9w3Ou4Y5FPj7oSuBWL4mFupb3aux8lLfw6F8WabzEKyMs1kZGIPzFaST0Uamdde3Ye8YPNHhqhCQXHdtg.webp",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Preserved original source URL and import metadata",
+          "Original image visually inspected; uncredited contributors remain uncredited"
+        ]
       }
     },
     {
@@ -1529,10 +1669,14 @@
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
       "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
       "display": {
-        "caption": "Screenshot - Town street - Korean client",
-        "credit": "Namu Wiki CDN",
+        "caption": "Screenshot - Korean-client conversation outside the stone town houses",
+        "credit": "Uncredited contributor / Namu Wiki",
         "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0eEyn2_TzNtK3JZT1HoV7y8K7mJgY5JszfsJVqX8mWFAGN2oUoLn7om4ke03PRBscoWgVNFI974ICS577xb-W-xuhOSA2zUjcoY_EobXrgt4q9qO4NcwrdbwhYju0rEzzn7SNRsSXRaBkvHJcUFOOGc.webp",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Preserved original source URL and import metadata",
+          "Original image visually inspected; uncredited contributors remain uncredited"
+        ]
       }
     },
     {
@@ -1568,10 +1712,14 @@
       "verification": "Original WebP and published PNG independently rehashed; decoded RGBA pixels and native dimensions match exactly. Complete source images visually inspected.",
       "qualification": "Owner-selected historical image; original author, capture date and source post are not established. Japanese client scenes are not labeled as Korean service captures. Visible client-screen version text alone does not establish first availability or recovered package identity.",
       "display": {
-        "caption": "Screenshot - Snowy bank - Korean client",
-        "credit": "Namu Wiki CDN",
+        "caption": "Screenshot - A character outside the snow-covered Bank",
+        "credit": "Uncredited contributor / Namu Wiki",
         "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0SoBnCmTQvvKbAtw-ykFe1k5vpw9AJzx7DLeKCvjwCTbPZgvbsbKEEDcptmTEtemiO7iCVI10qYOSVnCLDcSNXoLLFkWuHn1XKEj-V4tEmtSYeiAxWT0R7U6tqQeFIH5mwRYCT5iyZzS1T-MT2BcEQQ.webp",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Preserved original source URL and import metadata",
+          "Original image visually inspected; uncredited contributors remain uncredited"
+        ]
       }
     },
     {
@@ -1603,10 +1751,14 @@
       "verification": "Source WebP and PNG hashes verified; native dimensions and decoded RGBA pixels match exactly; complete images visually inspected.",
       "qualification": "Selected by the catalog owner. Original author, screenshot date, source post and numeric client version are unestablished. Captions describe visible scenes without asserting map identity or dates.",
       "display": {
-        "caption": "Screenshot - Spell effect beside a riverside bridge",
-        "credit": "Namu Wiki CDN",
+        "caption": "Screenshot - 포링이 with the 포트리스 spell effect beside the bridge in 베투스 서",
+        "credit": "Uncredited contributor / Namu Wiki",
         "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0Q5f4sfcm8Rf5FZ5UDYIgPn5_za5IB7UQfwmjAEGpLC7gWx1yDNhBzMRtX-Wjt-CmUPBDdSLIYOsWe2evfnHp2FbD0tImGUIdvSvoBekwyNLxFBNGtpR8uZ_DGwD5hYNe9lDr4G91z6G2Li2Vuqedd8.webp",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner-supplied Namu original image and preserved import metadata",
+          "Original image visually inspected for displayed character/spell/map/status labels; no uploader or authored caption established"
+        ]
       }
     },
     {
@@ -1638,10 +1790,14 @@
       "verification": "Source WebP and PNG hashes verified; native dimensions and decoded RGBA pixels match exactly; complete images visually inspected.",
       "qualification": "Selected by the catalog owner. Original author, screenshot date, source post and numeric client version are unestablished. Captions describe visible scenes without asserting map identity or dates.",
       "display": {
-        "caption": "Screenshot - Characters beside a city canal",
-        "credit": "Namu Wiki CDN",
+        "caption": "Screenshot - Level 99 and Ability 33 status window beside the canal in 뤼케시온마을",
+        "credit": "Uncredited contributor / Namu Wiki",
         "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0TgfMWDGlA2_nB8-l-BjIAzL4gcfjuxBoi3xX4hJE2ZaDCbT_AmctQhkNgEa4tHm_pkWdOzpVA_2arWOyczeNaDiEXz47f2GpdbPL4ZtL7tWlarSg6vZz53Hlm68D7pAtt3h3NHDgKgW9b8SD-a3W_E.webp",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner-supplied Namu original image and preserved import metadata",
+          "Original image visually inspected for displayed character/spell/map/status labels; no uploader or authored caption established"
+        ]
       }
     },
     {
@@ -1673,10 +1829,14 @@
       "verification": "Source WebP and PNG hashes verified; native dimensions and decoded RGBA pixels match exactly; complete images visually inspected.",
       "qualification": "Selected by the catalog owner. Original author, screenshot date, source post and numeric client version are unestablished. Captions describe visible scenes without asserting map identity or dates.",
       "display": {
-        "caption": "Screenshot - Underground group encounter",
-        "credit": "Namu Wiki CDN",
+        "caption": "Screenshot - Underground Ruins Zone 10 at 100% progress before the next-floor transfer",
+        "credit": "Uncredited contributor / Namu Wiki",
         "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0fD-YL9sz_nhw65Xn4K56hjMjMx2mC4LWBJX6dDd5RgG2PJgK_Ewpvvcp44MzcP8NRjUrZDhLgdeAnIBzseIbBvesmXPKrfYunclnJf7bK8gDFigL-QytLOhp7ffvy9_sni61aNgs7tIalltcRwF3Z4.webp",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner-supplied Namu original image and preserved import metadata",
+          "Original image visually inspected for displayed character/spell/map/status labels; no uploader or authored caption established"
+        ]
       }
     },
     {
@@ -1708,10 +1868,14 @@
       "verification": "Source WebP and PNG hashes verified; native dimensions and decoded RGBA pixels match exactly; complete images visually inspected.",
       "qualification": "Selected by the catalog owner. Original author, screenshot date, source post and numeric client version are unestablished. Captions describe visible scenes without asserting map identity or dates.",
       "display": {
-        "caption": "Screenshot - Forest gameplay and modern client interface",
-        "credit": "Namu Wiki CDN",
+        "caption": "Screenshot - A forest hunt with green slimes, dropped items and the minimap open",
+        "credit": "Uncredited contributor / Namu Wiki",
         "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0Y8s_SOpTIoe3yKm9dGWwpweQN5dEPEARsqzzL-cwqvHzmI5kpBhXc22YTeFwNA8H-xH3AyE_L6aT7mrFxcXjx7U_193HJ8ZGYDlgKdKF-3Holv6tNb3_npH55bvGW9VIQqZHZBREI_8CKqns2mIqcg.webp",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner-supplied Namu original image and preserved import metadata",
+          "Original image visually inspected for displayed character/spell/map/status labels; no uploader or authored caption established"
+        ]
       }
     },
     {
@@ -1742,10 +1906,14 @@
       "visual_review": "Owner-selected historical Japanese gameplay/UI screenshot; only original game interface, labels and dialogue.",
       "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date.",
       "display": {
-        "caption": "Screenshot - Social scene in Japanese Yami",
-        "credit": "NEXON Japan / Vector review",
-        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/n020427sp1.html",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - Fighting is optional; many players enjoy chatting instead",
+        "credit": "山口 伸一 / Vector",
+        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/images/n020427sp11b.gif",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "captures/vector.html: image-specific Japanese caption and reviewer credit 山口 伸一",
+          "Caption translated and condensed into English; reviewer authorship does not independently establish photographer identity"
+        ]
       }
     },
     {
@@ -1776,10 +1944,14 @@
       "visual_review": "Owner-selected historical Japanese gameplay/UI screenshot; only original game interface, labels and dialogue.",
       "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date.",
       "display": {
-        "caption": "Screenshot - Combat in Japanese Yami",
-        "credit": "NEXON Japan / Vector review",
-        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/n020427sp1.html",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - Hold Space to attack continuously, then click the defeated enemy's loot to collect it",
+        "credit": "山口 伸一 / Vector",
+        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/images/n020427sp12b.gif",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "captures/vector.html: image-specific Japanese caption and reviewer credit 山口 伸一",
+          "Caption translated and condensed into English; reviewer authorship does not independently establish photographer identity"
+        ]
       }
     },
     {
@@ -1810,10 +1982,14 @@
       "visual_review": "Owner-selected historical Japanese gameplay/UI screenshot; only original game interface, labels and dialogue.",
       "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date.",
       "display": {
-        "caption": "Screenshot - Regional map in Japanese Yami",
-        "credit": "NEXON Japan / Vector review",
-        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/n020427sp1.html",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - The M button opens the local map and identifies buildings and facilities",
+        "credit": "山口 伸一 / Vector",
+        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/images/n020427sp14b.gif",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "captures/vector.html: image-specific Japanese caption and reviewer credit 山口 伸一",
+          "Caption translated and condensed into English; reviewer authorship does not independently establish photographer identity"
+        ]
       }
     },
     {
@@ -1844,10 +2020,14 @@
       "visual_review": "Owner-selected historical Japanese gameplay/UI screenshot; only original game interface, labels and dialogue.",
       "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date.",
       "display": {
-        "caption": "Screenshot - Equipment screen in Japanese Yami",
-        "credit": "NEXON Japan / Vector review",
-        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/n020427sp1.html",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - Equipped items change the character's appearance, making collecting outfits another way to play",
+        "credit": "山口 伸一 / Vector",
+        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/images/n020427sp15b.gif",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "captures/vector.html: image-specific Japanese caption and reviewer credit 山口 伸一",
+          "Caption translated and condensed into English; reviewer authorship does not independently establish photographer identity"
+        ]
       }
     },
     {
@@ -1878,10 +2058,14 @@
       "visual_review": "Owner-selected historical Japanese gameplay/UI screenshot; only original game interface, labels and dialogue.",
       "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date.",
       "display": {
-        "caption": "Screenshot - Profession selection in Japanese Yami",
-        "credit": "NEXON Japan / Vector review",
-        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/n020427sp1.html",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Screenshot - At level 3, answer questions at the temple to choose a profession suited to the character",
+        "credit": "山口 伸一 / Vector",
+        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/images/n020427sp16b.gif",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "captures/vector.html: image-specific Japanese caption and reviewer credit 山口 伸一",
+          "Caption translated and condensed into English; reviewer authorship does not independently establish photographer identity"
+        ]
       }
     },
     {
@@ -1912,54 +2096,14 @@
       "visual_review": "Owner-selected historical Japanese gameplay/UI screenshot; only original game interface, labels and dialogue.",
       "qualification": "The contemporary review identifies Yami 4.52. Its publication date does not establish a first release or individual screenshot capture date.",
       "display": {
-        "caption": "Screenshot - World travel map in Japanese Yami",
-        "credit": "NEXON Japan / Vector review",
-        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/n020427sp1.html",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
-      }
-    },
-    {
-      "url": "https://automaton-media.com/wp-content/uploads/2025/09/mmorpg-dark-ages-20250909-356940-header.jpg",
-      "resolved_url": "https://automaton-media.com/wp-content/uploads/2025/09/mmorpg-dark-ages-20250909-356940-header.jpg",
-      "content_type": "image/jpeg",
-      "captured_at": "2026-10-15T00:53:28.281571+00:00",
-      "order": 1,
-      "original_path": "data/version-research/2026-10-14/us-automaton-gallery/header.jpg",
-      "png_path": "data/version-research/2026-10-14/us-automaton-gallery/darkages-us-automaton-header.png",
-      "original_format": "JPEG",
-      "width": 1600,
-      "height": 900,
-      "original_sha256": "e4ba5a0a32a7ec361f5cddfb6e43f86de625ab8c920fbcc7c2034e7365bfc78f",
-      "original_bytes": 302740,
-      "sha256": "ed51b32241fd3d3d36a91bda80fb22aec850a5cd9f4c1b5e7c659a03efbc47c6",
-      "bytes": 2697145,
-      "decoded_rgb_sha256": "8cf0c76b8a2e072db6779290986330433df0162fa6008f8d70fd68871fcc895e",
-      "title": "DarkAges — United States",
-      "title_id": "darkages-us",
-      "region": "United States",
-      "image_number": 7,
-      "asset": "assets/images/darkages-us-automaton-header.png",
-      "source_url": "https://automaton-media.com/wp-content/uploads/2025/09/mmorpg-dark-ages-20250909-356940-header.jpg",
-      "page_url": "https://automaton-media.com/articles/newsjp/mmorpg-dark-ages-20250909-356940/",
-      "source_page_capture": "data/version-research/2026-10-14/us-automaton-gallery/article.html",
-      "source_page_sha256": "e1a83b6810e5eae09b55771142865eb0ee706f45d4de22e36073a830efe8e640",
-      "source_author": "Bind (YouTube), credited by AUTOMATON",
-      "source_article_author": "Naoto Morooka",
-      "source_post_date": "2025-09-09 21:38",
-      "source_post_timezone": "Not stated; retained as displayed",
-      "image_capture_date": null,
-      "date_qualification": "Article publication date is known; individual gameplay capture dates are not established",
-      "provenance": "Owner-selected gameplay still credited to Bind on YouTube by the AUTOMATON article; a published video still, not an official developer screenshot",
-      "conversion": "JPEG-to-PNG encoding at native dimensions preserving decoded RGB pixels; no resizing, cropping, annotation or retouching",
-      "verification": "Original JPEG and published PNG decode to identical RGBA pixels and dimensions",
-      "visual_review": "Inspected complete supplied image: native client interface, nameplates, speech bubbles and spell effects; no added tutorial labels, arrows or drawings. Supplied publisher framing retained unchanged",
-      "label": "Outdoor celebration",
-      "alt": "A crowded outdoor celebration in U.S. DarkAges, with balloons, costumes and native player nameplates",
-      "display": {
-        "caption": "Screenshot - Bindo celebration at the Loures Soccer Field",
-        "credit": "Bind / YouTube",
-        "source_url": "https://automaton-media.com/articles/newsjp/mmorpg-dark-ages-20250909-356940/",
-        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+        "caption": "Screenshot - The world connects many small areas; click a destination to travel between them",
+        "credit": "山口 伸一 / Vector",
+        "source_url": "https://www.vector.co.jp/magazine/softnews/020427/images/n020427sp17b.gif",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "captures/vector.html: image-specific Japanese caption and reviewer credit 山口 伸一",
+          "Caption translated and condensed into English; reviewer authorship does not independently establish photographer identity"
+        ]
       }
     },
     {
@@ -2000,10 +2144,13 @@
       "label": "Dungeon celebration",
       "alt": "U.S. DarkAges players celebrating in a stone dungeon amid snow and spell effects",
       "display": {
-        "caption": "Screenshot - Dungeon celebration",
+        "caption": "Screenshot - Bindo becomes a Master Wizard at the Temple of Choosing",
         "credit": "Bind / YouTube",
-        "source_url": "https://automaton-media.com/articles/newsjp/mmorpg-dark-ages-20250909-356940/",
-        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+        "source_url": "https://youtu.be/FIFty-O4rOE?t=886",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner-edited carousel-text-edit-list.txt, preserved as owner-edits.txt"
+        ]
       }
     },
     {
@@ -2044,10 +2191,13 @@
       "label": "Town square gathering",
       "alt": "A large gathering of U.S. DarkAges players beside white benches and flower beds in a town square",
       "display": {
-        "caption": "Screenshot - Town square gathering",
+        "caption": "Screenshot - Solei's Scavenger Hunt",
         "credit": "Bind / YouTube",
-        "source_url": "https://automaton-media.com/articles/newsjp/mmorpg-dark-ages-20250909-356940/",
-        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+        "source_url": "https://youtu.be/0zNtATsb5eg?t=712",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner-edited carousel-text-edit-list.txt, preserved as owner-edits.txt"
+        ]
       }
     },
     {
@@ -2088,10 +2238,13 @@
       "label": "Wooden hall gathering",
       "alt": "U.S. DarkAges players assembled inside a wooden hall with benches and windows",
       "display": {
-        "caption": "Screenshot - Wooden hall gathering",
+        "caption": "Screenshot - NaLyd teaches a class at Mileth College",
         "credit": "Bind / YouTube",
-        "source_url": "https://automaton-media.com/articles/newsjp/mmorpg-dark-ages-20250909-356940/",
-        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+        "source_url": "https://youtu.be/0zNtATsb5eg?t=392",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner-edited carousel-text-edit-list.txt, preserved as owner-edits.txt"
+        ]
       }
     },
     {
@@ -2130,10 +2283,15 @@
       "label": "Lynith Sea octopus combat",
       "alt": "Absobel fighting an octopus among underwater rocks and coral in Lynith Sea 8 in U.S. DarkAges",
       "display": {
-        "caption": "Screenshot - Lynith Sea octopus combat",
+        "caption": "Screenshot - Insight 44 Miest kicks a Lynith Sea octopus to death",
         "credit": "Absobel / Mileth College",
-        "source_url": "https://novus-imperia.com/college/moc-2026.php",
-        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+        "source_url": "https://novus-imperia.com/college/mem2026/absobel.png",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner wording",
+          "assets/images/sources.json original source identity",
+          "Live Mileth College contest page and matching original image"
+        ]
       }
     },
     {
@@ -2172,10 +2330,15 @@
       "label": "99 League arena PvP",
       "alt": "Players fighting in a U.S. DarkAges Coliseum Arena match, submitted by Danger",
       "display": {
-        "caption": "Screenshot - 99 League arena PvP",
+        "caption": "Screenshot - 99 League",
         "credit": "Danger / Mileth College",
-        "source_url": "https://novus-imperia.com/college/moc-2026.php",
-        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+        "source_url": "https://novus-imperia.com/college/mem2026/danger.png",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner wording",
+          "assets/images/sources.json original source identity",
+          "Live Mileth College contest page and matching original image"
+        ]
       }
     },
     {
@@ -2214,10 +2377,13 @@
       "label": "Thubub's Theology Class",
       "alt": "A crowded theology class inside a wooden hall in U.S. DarkAges, submitted by Moogle",
       "display": {
-        "caption": "Screenshot - Thubub's Theology Class",
+        "caption": "Screenshot - Thubub's Theology Class at Mileth College",
         "credit": "Moogle / Mileth College",
-        "source_url": "https://novus-imperia.com/college/moc-2026.php",
-        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+        "source_url": "https://novus-imperia.com/college/mem2026/moogle.png",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner-edited carousel-text-edit-list.txt, preserved as owner-edits.txt"
+        ]
       }
     },
     {
@@ -2258,8 +2424,42 @@
       "display": {
         "caption": "Screenshot - Attack of the Slimes",
         "credit": "Kirror / Mileth College",
-        "source_url": "https://novus-imperia.com/college/moc-2025.php",
-        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+        "source_url": "https://novus-imperia.com/college/mem/kirror.png",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner-edited carousel-text-edit-list.txt, preserved as owner-edits.txt"
+        ]
+      }
+    },
+    {
+      "title": "DarkAges - United States",
+      "image_number": 7,
+      "asset": "assets/images/darkages-us-community-dylanlan.png",
+      "source_url": "https://novus-imperia.com/college/mem2026/dylanlan.png",
+      "page_url": "https://novus-imperia.com/college/moc-2026.php",
+      "source_author": "Dylanlan",
+      "author": "Dylanlan",
+      "label": "Opening speech from Bindo's Bash Event",
+      "source_caption": "Opening speech from Bindo's Bash Event",
+      "sha256": "124a92e3709f1af572cc724ad7165febe0ba690c39ce0c84d1a43faee74ec4b2",
+      "width": 1280,
+      "height": 960,
+      "bytes": 2445385,
+      "original_path": "data/version-research/2026-10-15/carousel-text-review/captures/us-candidate-dylanlan.png",
+      "original_sha256": "124a92e3709f1af572cc724ad7165febe0ba690c39ce0c84d1a43faee74ec4b2",
+      "conversion": "None; original PNG copied unchanged.",
+      "capture_date": null,
+      "capture_date_note": "The 2026 contest label does not establish the gameplay capture date.",
+      "selection": "Owner explicitly chose the linked Dylanlan screenshot for Card 01/Image 7 on October 15, 2026.",
+      "display": {
+        "caption": "Screenshot - Opening speech from Bindo's Bash Event",
+        "credit": "Dylanlan / Mileth College",
+        "source_url": "https://novus-imperia.com/college/mem2026/dylanlan.png",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner explicitly selected Dylanlan linked image in reply to the image-mismatch clarification",
+          "https://novus-imperia.com/college/moc-2026.php"
+        ]
       }
     }
   ],
@@ -2587,6 +2787,66 @@
       "source_post_title": "일랜시아",
       "retired_at": "2026-10-14",
       "retirement_reason": "Gallery replaced by the ten images specifically selected by the catalog owner; source bytes and provenance retained"
+    },
+    {
+      "url": "https://automaton-media.com/wp-content/uploads/2025/09/mmorpg-dark-ages-20250909-356940-header.jpg",
+      "resolved_url": "https://automaton-media.com/wp-content/uploads/2025/09/mmorpg-dark-ages-20250909-356940-header.jpg",
+      "content_type": "image/jpeg",
+      "captured_at": "2026-10-15T00:53:28.281571+00:00",
+      "order": 1,
+      "original_path": "data/version-research/2026-10-14/us-automaton-gallery/header.jpg",
+      "png_path": "data/version-research/2026-10-14/us-automaton-gallery/darkages-us-automaton-header.png",
+      "original_format": "JPEG",
+      "width": 1600,
+      "height": 900,
+      "original_sha256": "e4ba5a0a32a7ec361f5cddfb6e43f86de625ab8c920fbcc7c2034e7365bfc78f",
+      "original_bytes": 302740,
+      "sha256": "ed51b32241fd3d3d36a91bda80fb22aec850a5cd9f4c1b5e7c659a03efbc47c6",
+      "bytes": 2697145,
+      "decoded_rgb_sha256": "8cf0c76b8a2e072db6779290986330433df0162fa6008f8d70fd68871fcc895e",
+      "title": "DarkAges — United States",
+      "title_id": "darkages-us",
+      "region": "United States",
+      "image_number": 7,
+      "asset": "assets/images/darkages-us-automaton-header.png",
+      "source_url": "https://automaton-media.com/wp-content/uploads/2025/09/mmorpg-dark-ages-20250909-356940-header.jpg",
+      "page_url": "https://automaton-media.com/articles/newsjp/mmorpg-dark-ages-20250909-356940/",
+      "source_page_capture": "data/version-research/2026-10-14/us-automaton-gallery/article.html",
+      "source_page_sha256": "e1a83b6810e5eae09b55771142865eb0ee706f45d4de22e36073a830efe8e640",
+      "source_author": "Bind (YouTube), credited by AUTOMATON",
+      "source_article_author": "Naoto Morooka",
+      "source_post_date": "2025-09-09 21:38",
+      "source_post_timezone": "Not stated; retained as displayed",
+      "image_capture_date": null,
+      "date_qualification": "Article publication date is known; individual gameplay capture dates are not established",
+      "provenance": "Owner-selected gameplay still credited to Bind on YouTube by the AUTOMATON article; a published video still, not an official developer screenshot",
+      "conversion": "JPEG-to-PNG encoding at native dimensions preserving decoded RGB pixels; no resizing, cropping, annotation or retouching",
+      "verification": "Original JPEG and published PNG decode to identical RGBA pixels and dimensions",
+      "visual_review": "Inspected complete supplied image: native client interface, nameplates, speech bubbles and spell effects; no added tutorial labels, arrows or drawings. Supplied publisher framing retained unchanged",
+      "label": "Outdoor celebration",
+      "alt": "A crowded outdoor celebration in U.S. DarkAges, with balloons, costumes and native player nameplates",
+      "display": {
+        "caption": "Screenshot - Bindo celebration at the Loures Soccer Field",
+        "credit": "Bind / YouTube",
+        "source_url": "https://automaton-media.com/articles/newsjp/mmorpg-dark-ages-20250909-356940/",
+        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+      },
+      "retired_at": "2026-10-15",
+      "retirement_reason": "Owner selected Dylanlan's linked contest image for Card 01/Image 7; retained asset and original capture provenance."
+    }
+  ],
+  "reference_images": [
+    {
+      "asset": "assets/images/yami-installer-art-original.png",
+      "title": "Yami original installer artwork source reference",
+      "source_path": "data/version-research/2026-10-14/yami-sg-image-leads/yami-installer-art-original.png",
+      "source_package_url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/JP-Yami-.Client.-.5.22.-Original.zip",
+      "source_package_member": "setup.bmp",
+      "sha256": "e46bd99fae6dd75cfa45b92022245d2a9a6466d0c4eb613794caf7e5fd45652c",
+      "width": 1024,
+      "height": 768,
+      "displayed_in_carousel": false,
+      "purpose": "Direct reference to the retained original artwork underlying the isolated carousel wordmark."
     }
   ]
 }

@@ -30,7 +30,10 @@
         "caption": "Dark Ages Cover Art - \"Dark Ages - Your legend begins here\"",
         "credit": "Official DarkAges.com / KRU Interactive",
         "source_url": "https://www.darkages.com/2002/download/down_manual.files/image002.jpg",
-        "selection": "Owner-supplied wording and attribution, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner-edited carousel-text-edit-list.txt, preserved as owner-edits.txt"
+        ]
       }
     },
     {
@@ -53,10 +56,15 @@
       },
       "removed_original_asset": "assets/logos/legends-of-darkness.png",
       "display": {
-        "caption": "Remastered Legends of Darkness Korean logo",
+        "caption": "Legends of Darkness Korean logo",
         "credit": "NEXON Korea",
-        "source_url": "https://lwres.nexon.com/css/lod/renewal/brand/common.css",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "source_url": "https://lwi.nexon.com/lod/renewal/brand/sub/modal_logo.png",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner wording",
+          "captures/lod-common.css: .modal .modal-wrap .modal-content::before",
+          "Live original logo SHA-256 matches the preserved pre-restoration original"
+        ]
       }
     },
     {
@@ -80,6 +88,16 @@
         "tool": "built-in image_gen",
         "prompt_path": "data/version-research/2026-10-14/yami-sg-image-leads/logo-extraction-prompt.json",
         "selection": "Installer wordmark selected by owner on 2026-10-14."
+      },
+      "display": {
+        "caption": "Logo - 闇の伝説 / Legend of Darkness",
+        "credit": "NEXON Japan / Yami Installer",
+        "source_url": "https://vyrsace.github.io/DAKnow/assets/images/yami-installer-art-original.png",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Original setup.bmp artwork preserved as yami-installer-art-original.png",
+          "Exact retained original PNG published as a source reference without changing carousel artwork"
+        ]
       }
     },
     {
@@ -102,10 +120,13 @@
       },
       "removed_original_asset": "assets/logos/legends-malaysia.jpg",
       "display": {
-        "caption": "Remastered Shared Malaysian LEGENDS title logo",
-        "credit": "TIMENet archive",
-        "source_url": "https://web.archive.org/web/20011027013706id_/http://legends.time.net.my:80/about.cfm",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Logo - LEGENDS",
+        "credit": "TIME dotNet / Official LEGENDS Website",
+        "source_url": "https://web.archive.org/web/20011219163922id_/http://legends.time.net.my:80/images/legend_logo.jpg",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Original image URL, size and SHA-256 in regional-expansion/sea/request-manifest.json"
+        ]
       }
     },
     {
@@ -128,10 +149,13 @@
       },
       "removed_original_asset": "assets/logos/legends-malaysia.jpg",
       "display": {
-        "caption": "Remastered Shared Malaysian LEGENDS title logo",
-        "credit": "TIMENet archive",
-        "source_url": "https://web.archive.org/web/20011027013706id_/http://legends.time.net.my:80/about.cfm",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Logo - LEGENDS",
+        "credit": "TIME dotNet / Official LEGENDS Website",
+        "source_url": "https://web.archive.org/web/20011219163922id_/http://legends.time.net.my:80/images/legend_logo.jpg",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Original image URL, size and SHA-256 in regional-expansion/sea/request-manifest.json"
+        ]
       }
     },
     {
@@ -155,10 +179,13 @@
       },
       "removed_original_asset": "assets/logos/darkages-singapore.gif",
       "display": {
-        "caption": "Remastered DarkAges Singapore logo",
-        "credit": "NexonAsia archive",
+        "caption": "Logo - Dark Ages / 어둠의 전설",
+        "credit": "NexonAsia / Official DarkAges Website",
         "source_url": "https://web.archive.org/web/20021227115238id_/http://darkages.nexonasia.com/images/newtop/DAhead1.gif",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Preserved NexonAsia header image and original URL"
+        ]
       }
     },
     {
@@ -181,10 +208,14 @@
         "validation": "Chinese title, English subtitle, relative offset, brush contours and palette visually reviewed; alpha verified. Restoration is not pixel-identical source evidence."
       },
       "display": {
-        "caption": "Remastered 真世界 / Dark Ages logo",
-        "credit": "APEXON archive",
+        "caption": "Logo - 真世界 / Dark Ages",
+        "credit": "APEXON / Official 真世界 Website",
         "source_url": "https://web.archive.org/web/20011005234949id_/http://www.apexon-online.com.tw:80/da/images/wallpaper/dalogo1024.JPG",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Preserved original publisher image and direct image URL",
+          "Publisher preview qualifications retained; Love City identified in tw-2001-08-06-v420-part3.html"
+        ]
       }
     },
     {
@@ -197,7 +228,17 @@
       "description": "Original publisher wallpaper retained byte-for-byte and displayed complete as the second Taiwan gallery image, after the isolated remastered wordmark.",
       "unchanged": true,
       "image_number": 2,
-      "gallery_id": "zhenshijie-tw-gallery"
+      "gallery_id": "zhenshijie-tw-gallery",
+      "display": {
+        "caption": "Wallpaper - 真世界 / Dark Ages character artwork",
+        "credit": "APEXON / Official 真世界 Website",
+        "source_url": "https://web.archive.org/web/20011005234949id_/http://www.apexon-online.com.tw:80/da/images/wallpaper/dalogo1024.JPG",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Preserved original publisher image and direct image URL",
+          "Publisher preview qualifications retained; Love City identified in tw-2001-08-06-v420-part3.html"
+        ]
+      }
     },
     {
       "title": "Elancia — South Korea",
@@ -238,10 +279,14 @@
       },
       "removed_original_asset": "assets/logos/elancia.png",
       "display": {
-        "caption": "Remastered Elancia Korean title logo",
-        "credit": "NEXON Korea",
-        "source_url": "https://elancia.nexon.com/",
-        "selection": "Owner-requested screenshot prefix and source-line cleanup, October 15, 2026"
+        "caption": "Logo - Elancia / 일랜시아",
+        "credit": "NEXON Korea / Official Elancia Website",
+        "source_url": "https://lwi.nexon.com/elancia/home/logo.png",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Preserved original source URL and import metadata",
+          "Original image visually inspected; uncredited contributors remain uncredited"
+        ]
       }
     },
     {
@@ -265,7 +310,16 @@
         "validation": "Original text, calligraphic letter forms, swashes, gold/orange palette, proportions and alpha visually compared. Generated output is a restoration candidate rather than a claim of pixel identity.",
         "approval": "accepted 2026-10-14"
       },
-      "removed_previous_logo_asset": "assets/logos/asgard.png"
+      "removed_previous_logo_asset": "assets/logos/asgard.png",
+      "display": {
+        "caption": "Logo - Asgard / 아스가르드",
+        "credit": "NEXON Korea / Namu Wiki",
+        "source_url": "https://i.namu.wiki/i/yOHIsFJfljgNBaRPbopl0RGbHVU198I_Ay55MU4gqdKmqTZVhouolp9susjbV39YwLk-Znsoc92zBeD3UM2mBRuPeUtDi6z8nhJhe03_HxEBLRnH-ef8JceIpqd_ObWcbn8UZME_TnDMFWQ6D4wPTUUpPlOX_5H1P9cpCI8IF9Q.webp",
+        "selection": "Owner-edited carousel review and source-grounded completion, October 15, 2026",
+        "evidence": [
+          "Owner-selected original Asgard logo URL and preserved provenance"
+        ]
+      }
     }
   ],
   "retired_logos": [
