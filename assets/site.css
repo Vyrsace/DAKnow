@@ -239,7 +239,9 @@ footer { padding-top: 30px; }
 .title-arrow:hover:not(:disabled), .title-arrow:focus-visible { color:var(--title-arrow-hover-color); opacity:1; }
 .title-arrow:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
 .title-arrow:disabled { opacity:.4; cursor:default; }
-#title-carousel { --visible-titles:5; display:grid; grid-template-columns:none; grid-auto-flow:column; grid-auto-columns:calc((100% - (var(--visible-titles) - 1)*16px)/var(--visible-titles)); grid-template-rows:auto auto auto auto; gap:0 16px; overflow-x:auto; overflow-y:hidden; scrollbar-width:none; scroll-snap-type:x mandatory; scroll-behavior:smooth; overscroll-behavior-x:contain; padding:0; margin:0; }
+#title-carousel { --visible-titles:5; display:grid; grid-template-columns:none; grid-auto-flow:column; grid-auto-columns:calc((100% - (var(--visible-titles) - 1)*16px)/var(--visible-titles)); grid-template-rows:auto auto auto auto; gap:0 16px; overflow-x:auto; overflow-y:hidden; scrollbar-width:none; scroll-snap-type:x mandatory; scroll-behavior:smooth; overscroll-behavior-x:contain; touch-action:pan-y pinch-zoom; cursor:grab; padding:0; margin:0; }
+#title-carousel.is-dragging { scroll-snap-type:none; scroll-behavior:auto; }
+#title-carousel.is-dragging, #title-carousel.is-dragging .game-card, #title-carousel.is-dragging .game-card * { cursor:grabbing; user-select:none; }
 #title-carousel::-webkit-scrollbar { display:none; }
 #title-carousel .game-card { grid-row:1 / span 4; grid-template-rows:subgrid; scroll-snap-align:start; }
 #title-carousel:focus-visible { outline:3px solid var(--focus); outline-offset:4px; border-radius:8px; }
