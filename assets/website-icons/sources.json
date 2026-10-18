@@ -1,0 +1,107 @@
+{
+  "purpose": "Locally served destination favicons for Official Website URL previews. Archived destinations use the Internet Archive favicon. Original icon bytes unchanged.",
+  "icons": [
+    {
+      "id": "darkages",
+      "page_url": "https://www.darkages.com/",
+      "source_url": "https://www.darkages.com/favicon.ico",
+      "retrieved_date": "2026-10-18",
+      "discovery": "Conventional same-origin favicon.ico; page declares no icon",
+      "resolved_url": "https://www.darkages.com/favicon.ico",
+      "asset": "assets/website-icons/darkages.ico",
+      "bytes": 1406,
+      "sha256": "74aa260f056e6b311237c5f2c1245778202f22e1c6fa7d95ce2743a270ab1f85",
+      "format": "ICO",
+      "size": [
+        16,
+        16
+      ],
+      "status": "captured"
+    },
+    {
+      "id": "lod",
+      "page_url": "https://lod.nexon.com/home/index",
+      "source_url": "https://lwi.nexon.com/lod/favicon/favicon-32x32.png",
+      "retrieved_date": "2026-10-18",
+      "discovery": "Declared icon link in destination page head",
+      "resolved_url": "https://lwi.nexon.com/lod/favicon/favicon-32x32.png",
+      "asset": "assets/website-icons/lod.png",
+      "bytes": 2656,
+      "sha256": "c66b60a965b45037d08625cbe0188174c6aa7e70a412148e6e3d942a40f7d9e8",
+      "format": "PNG",
+      "size": [
+        32,
+        32
+      ],
+      "status": "captured"
+    },
+    {
+      "id": "elancia",
+      "page_url": "https://elancia.nexon.com/",
+      "source_url": "https://lwi.nexon.com/elancia/home/favicon.ico",
+      "retrieved_date": "2026-10-18",
+      "discovery": "Declared icon link in destination page head",
+      "resolved_url": "https://lwi.nexon.com/elancia/home/favicon.ico",
+      "asset": "assets/website-icons/elancia.ico",
+      "bytes": 1406,
+      "sha256": "cb6e47769a2df10a31fe5051d93695c34fe6ec8106573fcb577f6477fcbb62e0",
+      "format": "ICO",
+      "size": [
+        16,
+        16
+      ],
+      "status": "captured"
+    },
+    {
+      "id": "asgard",
+      "page_url": "https://asgard.nexon.com/",
+      "source_url": "https://lwi.nexon.com/asgard/home/favicon.ico",
+      "retrieved_date": "2026-10-18",
+      "discovery": "Declared icon link in destination page head",
+      "resolved_url": "https://lwi.nexon.com/asgard/home/favicon.ico",
+      "asset": "assets/website-icons/asgard.ico",
+      "bytes": 15406,
+      "sha256": "8abf91390450554ff010b31bb3417b1f23db39166eb78163d76af4b48fa0a857",
+      "format": "ICO",
+      "size": [
+        48,
+        48
+      ],
+      "status": "captured"
+    },
+    {
+      "id": "internet-archive",
+      "page_url": "https://web.archive.org/",
+      "source_url": "https://web-static.archive.org/_static/images/archive.ico",
+      "retrieved_date": "2026-10-18",
+      "discovery": "Declared icon link in destination page head",
+      "resolved_url": "https://web-static.archive.org/_static/images/archive.ico",
+      "asset": "assets/website-icons/internet-archive.ico",
+      "bytes": 4286,
+      "sha256": "abac83a6e6813515818512cbe6b8714820e43471ac10dd997023dab93cd6aeca",
+      "format": "ICO",
+      "size": [
+        32,
+        32
+      ],
+      "status": "captured"
+    },
+    {
+      "id": "nexon",
+      "page_url": "https://www.nexon.com/main/en",
+      "source_url": "https://web.nxfs.nexon.com/arena-home/static/images/nexon.ico",
+      "retrieved_date": "2026-10-18",
+      "discovery": "Declared icon link in destination page head",
+      "resolved_url": "https://web.nxfs.nexon.com/arena-home/static/images/nexon.ico",
+      "asset": "assets/website-icons/nexon.ico",
+      "bytes": 32038,
+      "sha256": "d38363347c24738bff8ebfbbcd689dd15eb19873c8c6a970de9990f53c78fb53",
+      "format": "ICO",
+      "size": [
+        64,
+        64
+      ],
+      "status": "captured"
+    }
+  ]
+}

@@ -8,14 +8,37 @@
   preview.setAttribute('role', 'dialog');
   preview.setAttribute('aria-label', 'Official Website URL');
   preview.hidden = true;
+  const favicon = document.createElement('img');
+  favicon.className = 'website-url-favicon';
+  favicon.alt = '';
+  favicon.setAttribute('aria-hidden', 'true');
   const url = document.createElement('a');
+  const urlText = document.createElement('span');
+  urlText.className = 'website-url-text';
+  function icon(path) {
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('viewBox', '0 0 20 20');
+    svg.setAttribute('aria-hidden', 'true');
+    svg.setAttribute('focusable', 'false');
+    svg.innerHTML = `<path d="${path}"></path>`;
+    return svg;
+  }
+  url.append(urlText, icon('M6 14 15 5M7 5h8v8'));
   const copy = document.createElement('button');
   copy.type = 'button';
-  copy.textContent = 'Copy URL';
+  const copyPath = 'M7 6V4a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-2M4 7h7a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Z';
+  const copyIcon = icon(copyPath);
+  copy.append(copyIcon);
+  function copyState(label, path = copyPath) {
+    copy.setAttribute('aria-label', label);
+    copy.title = label;
+    copyIcon.innerHTML = `<path d="${path}"></path>`;
+  }
+  copyState('Copy URL');
   const status = document.createElement('span');
   status.className = 'sr-only';
   status.setAttribute('role', 'status');
-  preview.append(url, copy, status);
+  preview.append(favicon, url, copy, status);
   document.body.append(preview);
   let active = null;
   let timer = null;
@@ -39,11 +62,11 @@
     if (active !== field) hide();
     active = field;
     const link = field.querySelector('a');
+    favicon.src = link.dataset.websiteIcon;
     url.href = link.href;
-    url.textContent = link.href;
+    urlText.textContent = link.href;
     url.title = link.href;
-    copy.textContent = 'Copy URL';
-    copy.title = 'Copy website URL';
+    copyState('Copy URL');
     status.textContent = '';
     field.querySelector('button').setAttribute('aria-expanded', 'true');
     preview.hidden = false;
@@ -76,14 +99,15 @@
     try {
       await navigator.clipboard.writeText(value);
       if (!preview.hidden && url.href === value) {
-        copy.textContent = 'Copied';
+        copyState('URL copied', 'M3 10 8 15 17 5');
         status.textContent = 'Website URL copied';
         position();
       }
     } catch (_) {
-      copy.textContent = 'Copy failed';
-      copy.title = 'Select the URL to copy it manually';
-      status.textContent = 'Copy unavailable. Select the URL to copy it manually.';
+      if (!preview.hidden && url.href === value) {
+        copyState('Copy failed. Select the URL to copy it manually.', 'M10 3v8M10 16v1');
+        status.textContent = 'Copy unavailable. Select the URL to copy it manually.';
+      }
     }
   });
   document.addEventListener('pointerdown', event => {
