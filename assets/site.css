@@ -291,7 +291,10 @@ footer { padding-top: 30px; }
 .title-arrow:disabled { opacity:.4; cursor:default; }
 #title-carousel { --visible-titles:5; display:grid; grid-template-columns:none; grid-auto-flow:column; grid-auto-columns:calc((100% - (var(--visible-titles) - 1)*16px)/var(--visible-titles)); grid-template-rows:auto auto auto auto; gap:0 16px; overflow-x:auto; overflow-y:hidden; scrollbar-width:none; scroll-snap-type:x mandatory; scroll-behavior:auto; overscroll-behavior-x:contain; touch-action:pan-x pan-y pinch-zoom; cursor:grab; padding:0; margin:0; }
 #title-carousel:is(.is-dragging, .is-pointer-scrolling) { scroll-snap-type:none; scroll-behavior:auto; }
-#title-carousel.is-dragging, #title-carousel.is-dragging .game-card, #title-carousel.is-dragging .game-card * { cursor:grabbing; user-select:none; }
+#title-carousel.is-text-hover { cursor:text; }
+#title-carousel :is(a, button, summary, [role="button"]) { cursor:pointer; }
+#title-carousel .region-flag { cursor:default; }
+#title-carousel:is(.is-drag-held, .is-dragging), #title-carousel.is-drag-held * { cursor:ew-resize; user-select:none; }
 #title-carousel.is-touch-panning, #title-carousel.is-touch-panning * { -webkit-user-select:none; user-select:none; }
 #title-carousel::-webkit-scrollbar { display:none; }
 #title-carousel .game-card { grid-row:1 / span 4; grid-template-rows:subgrid; scroll-snap-align:start; }

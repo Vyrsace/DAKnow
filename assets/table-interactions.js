@@ -33,7 +33,14 @@
   function refreshOverflow() {
     pending = false;
     frames.forEach(({ wrapper, frame }) => {
-      wrapper.classList.toggle('is-scrollable', frame.classList.contains('is-table-expanded') && wrapper.clientWidth > 0 && wrapper.scrollWidth > wrapper.clientWidth + 1);
+      const scrollable = frame.classList.contains('is-table-expanded') && wrapper.clientWidth > 0 && wrapper.scrollWidth > wrapper.clientWidth + 1;
+      wrapper.classList.toggle('is-scrollable', scrollable);
+      if (!scrollable) {
+        wrapper.classList.remove('is-text-hover');
+        if (hoveredWrapper === wrapper) hoveredWrapper = null;
+        if (gesture?.wrapper === wrapper) finish();
+        if (touchPan?.wrapper === wrapper) finishTouch();
+      }
     });
   }
 

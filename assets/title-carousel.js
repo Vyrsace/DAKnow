@@ -12,6 +12,20 @@
   let requested = null;
   let gesture = null;
   let suppressClick = false;
+  const interactive = 'a, button, input, select, textarea, summary, [contenteditable], [role="button"], img, svg, [data-title-gallery]';
+  function textAtPoint(event) {
+    const caret = document.caretPositionFromPoint?.(event.clientX, event.clientY);
+    const node = caret?.offsetNode || document.caretRangeFromPoint?.(event.clientX, event.clientY)?.startContainer;
+    if (node?.nodeType !== 3 || !node.textContent.trim() || !strip.contains(node)) return false;
+    const range = document.createRange();
+    range.selectNodeContents(node);
+    return [...range.getClientRects()].some(rect => event.clientX >= rect.left && event.clientX <= rect.right
+      && event.clientY >= rect.top && event.clientY <= rect.bottom);
+  }
+  function hover(event) {
+    strip.classList.toggle('is-text-hover', !!event && event.pointerType !== 'touch'
+      && !event.target.closest(interactive) && textAtPoint(event));
+  }
   const visibleCount = () => Number(getComputedStyle(strip).getPropertyValue('--visible-titles')) || 1;
   const lastIndex = () => Math.max(0, cards.length - visibleCount());
   const maximum = () => Math.max(0, strip.scrollWidth - strip.clientWidth);
@@ -68,8 +82,10 @@
     gesture = null;
     if (ended.dragging) {
       suppressClick = true;
+      window.getSelection()?.removeAllRanges();
     }
     strip.classList.remove('is-dragging');
+    strip.classList.remove('is-drag-held');
     if (strip.hasPointerCapture(ended.pointerId)) strip.releasePointerCapture(ended.pointerId);
     settle();
   }
@@ -79,22 +95,28 @@
       strip.classList.remove('is-pointer-scrolling');
       return;
     }
-    if (!event.isPrimary || event.button !== 0 || gesture) return;
+    if (!event.isPrimary || event.button !== 0 || event.altKey || gesture) return;
     suppressClick = false;
     // Each image gallery owns its gesture; links and controls keep normal clicks.
-    if (maximum() <= 2 || event.target.closest('a, button, input, select, textarea, summary, [contenteditable], [data-title-gallery]')) return;
+    if (maximum() <= 2 || event.target.closest(interactive) || textAtPoint(event)) return;
+    strip.classList.remove('is-text-hover');
+    if (event.pointerType === 'mouse') {
+      event.preventDefault();
+      strip.classList.add('is-drag-held');
+    }
     strip.classList.add('is-pointer-scrolling');
     gesture = { pointerId: event.pointerId, startX: event.clientX, startY: event.clientY,
       startLeft: strip.scrollLeft, dragging: false };
   }
   function pointerMove(event) {
-    if (!gesture || event.pointerId !== gesture.pointerId) return;
+    if (!gesture) { hover(event); return; }
+    if (event.pointerId !== gesture.pointerId) return;
     const distance = event.clientX - gesture.startX;
     const vertical = event.clientY - gesture.startY;
     if (!gesture.dragging) {
       if (Math.max(Math.abs(distance), Math.abs(vertical)) < 8) return;
       if (Math.abs(vertical) >= Math.abs(distance)) {
-        gesture = null;
+        finishGesture(event);
         return;
       }
       gesture.startLeft = strip.scrollLeft;
@@ -102,16 +124,17 @@
       requested = null;
       clearTimeout(timer);
       strip.classList.add('is-dragging');
+      strip.classList.add('is-drag-held');
       strip.scrollTo({ left: gesture.startLeft, behavior: 'instant' });
       strip.setPointerCapture(event.pointerId);
-      const selection = window.getSelection();
-      if (selection?.anchorNode && strip.contains(selection.anchorNode)) selection.removeAllRanges();
+      window.getSelection()?.removeAllRanges();
     }
     event.preventDefault();
     strip.scrollTo({ left: Math.max(0, Math.min(maximum(), gesture.startLeft - distance)), behavior: 'instant' });
   }
   strip.addEventListener('pointerdown', pointerDown);
   strip.addEventListener('pointermove', pointerMove);
+  strip.addEventListener('pointerleave', () => hover());
   function finishTouch() {
     strip.classList.remove('is-touch-panning');
   }
@@ -134,8 +157,8 @@
   }, true);
   window.addEventListener('pointerup', event => finishGesture(event), true);
   window.addEventListener('pointercancel', event => finishGesture(event), true);
-  window.addEventListener('resize', () => { finishGesture(); finishTouch(); }, { passive: true });
-  window.addEventListener('blur', () => { finishGesture(); finishTouch(); });
+  window.addEventListener('resize', () => { finishGesture(); finishTouch(); hover(); }, { passive: true });
+  window.addEventListener('blur', () => { finishGesture(); finishTouch(); hover(); });
   previous.addEventListener('click', () => move(-1));
   next.addEventListener('click', () => move(1));
   strip.addEventListener('keydown', event => {
