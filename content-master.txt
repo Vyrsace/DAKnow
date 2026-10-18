@@ -3078,7 +3078,7 @@
                 [Filename]US-DarkAges-[Client]-[2.15]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.2.15.-Original.zip[/Download.URL]
                 [File.Size]13.82 MB (13,824,751 bytes)[/File.Size]
-                [Notes]US DarkAges 2.15 Client · Original[/Notes]
+                [Notes]US DarkAges 2.15 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3095,7 +3095,7 @@
                 [Filename]DARKAGES.EXE[/Filename]
                 [Download.URL]https://discmaster.textfiles.com/file/42800/SharePlay%2004-1999%20%28DE%29%20%281999%29%20%28Publish%20Verlag%20GmbH%29/SharePlay_04-99.iso/SHARE/SPIELE/DARKAGES/DARKAGES.EXE[/Download.URL]
                 [File.Size]14.22 MB (14,221,202 bytes)[/File.Size]
-                [Notes]US DarkAges 2.15 Client · Original[/Notes]
+                [Notes]US DarkAges 2.15 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3108,7 +3108,7 @@
                 [Filename]US-DarkAges-[Client]-[3.50]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.50.-Original.zip[/Download.URL]
                 [File.Size]24.11 MB (24,112,000 bytes)[/File.Size]
-                [Notes]US DarkAges 3.50 Client · Original[/Notes]
+                [Notes]US DarkAges 3.50 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3125,7 +3125,7 @@
                 [Filename]DarkAges_Key.exe[/Filename]
                 [Download.URL]https://discmaster.textfiles.com/file/37840/PC%20Master%20%CE%A4%CE%B5%CF%8D%CF%87%CE%BF%CF%82%20124%20-%2015%20%CE%99%CE%BF%CF%85%CE%BD%CE%AF%CE%BF%CF%85%202000/PC%20Master%20%CE%A4%CE%B5%CF%8D%CF%87%CE%BF%CF%82%20124%20-%2015%20%CE%99%CE%BF%CF%85%CE%BD%CE%AF%CE%BF%CF%85%202000%20-%20CD%201.bin/darkages/DarkAges_Key.exe[/Download.URL]
                 [File.Size]24.79 MB (24,786,606 bytes)[/File.Size]
-                [Notes]US DarkAges 3.50 Client · Original[/Notes]
+                [Notes]US DarkAges 3.50 Client[/Notes]
             [/File]
 
             [File ID="3"]
@@ -3134,7 +3134,7 @@
                 [Filename]DarkAges_Key.exe[/Filename]
                 [Download.URL]https://raw.githubusercontent.com/SK0RPSE/DarkAges-version-3.50-2000/main/DarkAges_Key.exe[/Download.URL]
                 [File.Size]24.79 MB (24,786,606 bytes)[/File.Size]
-                [Notes]US DarkAges 3.50 Client · Original[/Notes]
+                [Notes]US DarkAges 3.50 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3147,7 +3147,7 @@
                 [Filename]US-DarkAges-[Client]-[3.51]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.51.-Original.zip[/Download.URL]
                 [File.Size]24.61 MB (24,610,613 bytes)[/File.Size]
-                [Notes]US DarkAges 3.51 Client · Original[/Notes]
+                [Notes]US DarkAges 3.51 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3164,7 +3164,7 @@
                 [Filename]darkages.exe[/Filename]
                 [Download.URL]https://discmaster.textfiles.com/file/42817/SharePlay%2006-2000%20%28DE%29%20%282000%29%20%28Publish%20Verlag%20GmbH%29/SharePlay_06-2000.iso/share/rollensp/darkages/darkages.exe[/Download.URL]
                 [File.Size]25.36 MB (25,357,414 bytes)[/File.Size]
-                [Notes]US DarkAges 3.51 Client · Original[/Notes]
+                [Notes]US DarkAges 3.51 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3177,7 +3177,7 @@
                 [Filename]US-DarkAges-[Client]-[3.70]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.70.-Original.zip[/Download.URL]
                 [File.Size]21.00 MB (21,001,359 bytes)[/File.Size]
-                [Notes]US DarkAges 3.70 Client · Original[/Notes]
+                [Notes]US DarkAges 3.70 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3198,7 +3198,7 @@
                 [Filename]US-DarkAges-[Client]-[3.71]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.71.-Original.zip[/Download.URL]
                 [File.Size]22.65 MB (22,651,923 bytes)[/File.Size]
-                [Notes]US DarkAges 3.71 Client · Original[/Notes]
+                [Notes]US DarkAges 3.71 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3215,7 +3215,7 @@
                 [Filename]SG_CD.bin[/Filename]
                 [Download.URL]https://archive.org/download/sg-cd/SG_CD.bin[/Download.URL]
                 [File.Size]422.95 MB (422,953,104 bytes)[/File.Size]
-                [Notes]US DarkAges 3.71 Client · Original[/Notes]
+                [Notes]US DarkAges 3.71 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3228,7 +3228,7 @@
                 [Filename]US-DarkAges-[Client]-[3.72]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.72.-Original.zip[/Download.URL]
                 [File.Size]20.88 MB (20,884,892 bytes)[/File.Size]
-                [Notes]US DarkAges 3.72 Client · Original[/Notes]
+                [Notes]US DarkAges 3.72 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3245,7 +3245,7 @@
                 [Filename]DarkAges_Key.exe[/Filename]
                 [Download.URL]https://discmaster.textfiles.com/file/24071/2002-01_-_Disc_7.11.iso/Software/Demos/DarkAges/DarkAges_Key.exe[/Download.URL]
                 [File.Size]21.18 MB (21,176,562 bytes)[/File.Size]
-                [Notes]US DarkAges 3.72 Client · Original[/Notes]
+                [Notes]US DarkAges 3.72 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3258,7 +3258,7 @@
                 [Filename]US-DarkAges-[Client]-[3.73]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.73.-Original.zip[/Download.URL]
                 [File.Size]21.60 MB (21,600,930 bytes)[/File.Size]
-                [Notes]US DarkAges 3.73 Client · Original[/Notes]
+                [Notes]US DarkAges 3.73 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3275,7 +3275,7 @@
                 [Filename]DarkAges_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20020225052326id_/http://file.nexon.net/client/DarkAges/Single/DarkAges_key.exe[/Download.URL]
                 [File.Size]21.91 MB (21,910,290 bytes)[/File.Size]
-                [Notes]US DarkAges 3.73 Client · Original[/Notes]
+                [Notes]US DarkAges 3.73 Client[/Notes]
             [/File]
 
             [File ID="3"]
@@ -3284,7 +3284,7 @@
                 [Filename]DarkAges-3.61.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1VkgbVJK-ajC7Qd2csIjOgjeh9-GlenGo&export=download&confirm=t[/Download.URL]
                 [File.Size]21.91 MB (21,910,290 bytes)[/File.Size]
-                [Notes]US DarkAges 3.73 Client · Original[/Notes]
+                [Notes]US DarkAges 3.73 Client[/Notes]
             [/File]
 
             [File ID="4"]
@@ -3293,7 +3293,7 @@
                 [Filename]DarkAges-3.61.exe[/Filename]
                 [Download.URL]https://novus-imperia.com/vault/DarkAges-3.61.exe[/Download.URL]
                 [File.Size]21.91 MB (21,910,290 bytes)[/File.Size]
-                [Notes]US DarkAges 3.73 Client · Original[/Notes]
+                [Notes]US DarkAges 3.73 Client[/Notes]
             [/File]
 
             [File ID="5"]
@@ -3302,7 +3302,7 @@
                 [Filename]DarkAges_Key_3.71.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1M1O7KqNw9MYaOSS1SHKIkr02BWzOEFCi&export=download&confirm=t[/Download.URL]
                 [File.Size]21.91 MB (21,910,290 bytes)[/File.Size]
-                [Notes]US DarkAges 3.73 Client · Original[/Notes]
+                [Notes]US DarkAges 3.73 Client[/Notes]
             [/File]
 
             [File ID="6"]
@@ -3311,7 +3311,7 @@
                 [Filename]DarkAges_Key_5.21.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1E2DOHRSZrT2wjRS5sRGklh4JqtNUbkaQ&export=download&confirm=t[/Download.URL]
                 [File.Size]21.91 MB (21,910,290 bytes)[/File.Size]
-                [Notes]US DarkAges 3.73 Client · Original[/Notes]
+                [Notes]US DarkAges 3.73 Client[/Notes]
             [/File]
 
             [File ID="7"]
@@ -3320,7 +3320,7 @@
                 [Filename]DarkAges_Key_split.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20011221231452id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.exe[/Download.URL]
                 [File.Size]5.53 MB (5,529,600 bytes)[/File.Size]
-                [Notes]US DarkAges 3.73 Client · Original[/Notes]
+                [Notes]US DarkAges 3.73 Client[/Notes]
             [/File]
 
             [File ID="8"]
@@ -3329,7 +3329,7 @@
                 [Filename]DarkAges_Key_split.W02[/Filename]
                 [Download.URL]https://web.archive.org/web/20011221224710id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.W02[/Download.URL]
                 [File.Size]5.53 MB (5,529,600 bytes)[/File.Size]
-                [Notes]US DarkAges 3.73 Client · Original[/Notes]
+                [Notes]US DarkAges 3.73 Client[/Notes]
             [/File]
 
             [File ID="9"]
@@ -3338,7 +3338,7 @@
                 [Filename]DarkAges_Key_split.W03[/Filename]
                 [Download.URL]https://web.archive.org/web/20011221230221id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.W03[/Download.URL]
                 [File.Size]5.53 MB (5,529,600 bytes)[/File.Size]
-                [Notes]US DarkAges 3.73 Client · Original[/Notes]
+                [Notes]US DarkAges 3.73 Client[/Notes]
             [/File]
 
             [File ID="10"]
@@ -3347,7 +3347,7 @@
                 [Filename]DarkAges_key_split.w04[/Filename]
                 [Download.URL]https://web.archive.org/web/20020108031942id_/http://file.nexon.net:80/client/Darkages/multiple/DarkAges_key_split.w04[/Download.URL]
                 [File.Size]5.32 MB (5,321,491 bytes)[/File.Size]
-                [Notes]US DarkAges 3.73 Client · Original[/Notes]
+                [Notes]US DarkAges 3.73 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3360,7 +3360,7 @@
                 [Filename]US-DarkAges-[Client]-[4.51]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.4.51.-Original.zip[/Download.URL]
                 [File.Size]35.95 MB (35,948,781 bytes)[/File.Size]
-                [Notes]US DarkAges 4.51 Client · Original[/Notes]
+                [Notes]US DarkAges 4.51 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3377,7 +3377,7 @@
                 [Filename]DarkAges-4.52.zip[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1sjZ0jq7CaqrMtOg_aaQlRz36CKAIWKlM&export=download&confirm=t[/Download.URL]
                 [File.Size]35.95 MB (35,948,781 bytes)[/File.Size]
-                [Notes]US DarkAges 4.51 Client · Original[/Notes]
+                [Notes]US DarkAges 4.51 Client[/Notes]
             [/File]
 
             [File ID="3"]
@@ -3386,7 +3386,7 @@
                 [Filename]DarkAges-4.52.zip[/Filename]
                 [Download.URL]https://novus-imperia.com/vault/DarkAges-4.52.zip[/Download.URL]
                 [File.Size]35.95 MB (35,948,781 bytes)[/File.Size]
-                [Notes]US DarkAges 4.51 Client · Original[/Notes]
+                [Notes]US DarkAges 4.51 Client[/Notes]
             [/File]
 
             [File ID="4"]
@@ -3395,7 +3395,7 @@
                 [Filename]darkages_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20020816001725id_/http://file.nexon.net:80/client/DarkAges/451/multiple/darkages_key.exe[/Download.URL]
                 [File.Size]14.34 MB (14,336,000 bytes)[/File.Size]
-                [Notes]US DarkAges 4.51 Client · Original[/Notes]
+                [Notes]US DarkAges 4.51 Client[/Notes]
             [/File]
 
             [File ID="5"]
@@ -3404,7 +3404,7 @@
                 [Filename]darkages_key.w02[/Filename]
                 [Download.URL]https://web.archive.org/web/20021204130948id_/http://file.nexon.net:80/client/DarkAges/451/multiple/darkages_key.w02[/Download.URL]
                 [File.Size]14.34 MB (14,336,000 bytes)[/File.Size]
-                [Notes]US DarkAges 4.51 Client · Original[/Notes]
+                [Notes]US DarkAges 4.51 Client[/Notes]
             [/File]
 
             [File ID="6"]
@@ -3413,7 +3413,7 @@
                 [Filename]darkages_key.w03[/Filename]
                 [Download.URL]https://web.archive.org/web/20020816001406id_/http://file.nexon.net:80/client/DarkAges/451/multiple/darkages_key.w03[/Download.URL]
                 [File.Size]7.59 MB (7,589,018 bytes)[/File.Size]
-                [Notes]US DarkAges 4.51 Client · Original[/Notes]
+                [Notes]US DarkAges 4.51 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3426,7 +3426,7 @@
                 [Filename]US-DarkAges-[Client]-[5.21]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.5.21.-Original.zip[/Download.URL]
                 [File.Size]48.29 MB (48,286,739 bytes)[/File.Size]
-                [Notes]US DarkAges 5.21 Client · Original[/Notes]
+                [Notes]US DarkAges 5.21 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3443,7 +3443,7 @@
                 [Filename]DarkAges-5.21.zip[/Filename]
                 [Download.URL]https://novus-imperia.com/vault/DarkAges-5.21.zip[/Download.URL]
                 [File.Size]48.29 MB (48,286,739 bytes)[/File.Size]
-                [Notes]US DarkAges 5.21 Client · Original[/Notes]
+                [Notes]US DarkAges 5.21 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3456,7 +3456,7 @@
                 [Filename]US-DarkAges-[Client]-[5.51]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.5.51.-Original.zip[/Download.URL]
                 [File.Size]60.92 MB (60,922,164 bytes)[/File.Size]
-                [Notes]US DarkAges 5.51 Client · Original[/Notes]
+                [Notes]US DarkAges 5.51 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3473,7 +3473,7 @@
                 [Filename]darkages_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20040220093130id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe[/Download.URL]
                 [File.Size]61.14 MB (61,139,651 bytes)[/File.Size]
-                [Notes]US DarkAges 5.51 Client · Original[/Notes]
+                [Notes]US DarkAges 5.51 Client[/Notes]
             [/File]
 
             [File ID="3"]
@@ -3482,7 +3482,7 @@
                 [Filename]darkages_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20040220093419id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe[/Download.URL]
                 [File.Size]61.14 MB (61,139,651 bytes)[/File.Size]
-                [Notes]US DarkAges 5.51 Client · Original[/Notes]
+                [Notes]US DarkAges 5.51 Client[/Notes]
             [/File]
 
             [File ID="4"]
@@ -3491,7 +3491,7 @@
                 [Filename]darkages_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20040726212640id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe[/Download.URL]
                 [File.Size]61.14 MB (61,139,651 bytes)[/File.Size]
-                [Notes]US DarkAges 5.51 Client · Original[/Notes]
+                [Notes]US DarkAges 5.51 Client[/Notes]
             [/File]
 
             [File ID="5"]
@@ -3500,7 +3500,7 @@
                 [Filename]darkages_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20051020132146id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe[/Download.URL]
                 [File.Size]61.14 MB (61,139,651 bytes)[/File.Size]
-                [Notes]US DarkAges 5.51 Client · Original[/Notes]
+                [Notes]US DarkAges 5.51 Client[/Notes]
             [/File]
 
             [File ID="6"]
@@ -3509,7 +3509,7 @@
                 [Filename]DarkAges-5.51.exe[/Filename]
                 [Download.URL]https://novus-imperia.com/vault/DarkAges-5.51.exe[/Download.URL]
                 [File.Size]61.14 MB (61,139,651 bytes)[/File.Size]
-                [Notes]US DarkAges 5.51 Client · Original[/Notes]
+                [Notes]US DarkAges 5.51 Client[/Notes]
             [/File]
 
             [File ID="7"]
@@ -3518,7 +3518,7 @@
                 [Filename]DarkAges_Key_5.51.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1beW1OaUr6oVHxY0wv4hmS9E0fh2E_5hv&export=download&confirm=t[/Download.URL]
                 [File.Size]61.14 MB (61,139,651 bytes)[/File.Size]
-                [Notes]US DarkAges 5.51 Client · Original[/Notes]
+                [Notes]US DarkAges 5.51 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3531,7 +3531,7 @@
                 [Filename]US-DarkAges-[Client]-[7.05]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.05.-Original.zip[/Download.URL]
                 [File.Size]151.82 MB (151,817,868 bytes)[/File.Size]
-                [Notes]US DarkAges 7.05 Client · Original[/Notes]
+                [Notes]US DarkAges 7.05 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3548,7 +3548,7 @@
                 [Filename]DA705_multi.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135708id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.exe[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
-                [Notes]US DarkAges 7.05 Client · Original[/Notes]
+                [Notes]US DarkAges 7.05 Client[/Notes]
             [/File]
 
             [File ID="3"]
@@ -3557,7 +3557,7 @@
                 [Filename]DA705_multi.W02[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135651id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W02[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
-                [Notes]US DarkAges 7.05 Client · Original[/Notes]
+                [Notes]US DarkAges 7.05 Client[/Notes]
             [/File]
 
             [File ID="4"]
@@ -3566,7 +3566,7 @@
                 [Filename]DA705_multi.W03[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135819id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W03[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
-                [Notes]US DarkAges 7.05 Client · Original[/Notes]
+                [Notes]US DarkAges 7.05 Client[/Notes]
             [/File]
 
             [File ID="5"]
@@ -3575,7 +3575,7 @@
                 [Filename]DA705_multi.W04[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135831id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W04[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
-                [Notes]US DarkAges 7.05 Client · Original[/Notes]
+                [Notes]US DarkAges 7.05 Client[/Notes]
             [/File]
 
             [File ID="6"]
@@ -3584,7 +3584,7 @@
                 [Filename]DA705_multi.W05[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135743id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W05[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
-                [Notes]US DarkAges 7.05 Client · Original[/Notes]
+                [Notes]US DarkAges 7.05 Client[/Notes]
             [/File]
 
             [File ID="7"]
@@ -3593,7 +3593,7 @@
                 [Filename]DA705_multi.W06[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135806id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W06[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
-                [Notes]US DarkAges 7.05 Client · Original[/Notes]
+                [Notes]US DarkAges 7.05 Client[/Notes]
             [/File]
 
             [File ID="8"]
@@ -3602,7 +3602,7 @@
                 [Filename]DA705_multi.W07[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135844id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W07[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
-                [Notes]US DarkAges 7.05 Client · Original[/Notes]
+                [Notes]US DarkAges 7.05 Client[/Notes]
             [/File]
 
             [File ID="9"]
@@ -3611,7 +3611,7 @@
                 [Filename]DA705_multi.W08[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135855id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W08[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
-                [Notes]US DarkAges 7.05 Client · Original[/Notes]
+                [Notes]US DarkAges 7.05 Client[/Notes]
             [/File]
 
             [File ID="10"]
@@ -3620,7 +3620,7 @@
                 [Filename]DA705_multi.W09[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135908id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W09[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
-                [Notes]US DarkAges 7.05 Client · Original[/Notes]
+                [Notes]US DarkAges 7.05 Client[/Notes]
             [/File]
 
             [File ID="11"]
@@ -3629,7 +3629,7 @@
                 [Filename]DA705_multi.W10[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135922id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W10[/Download.URL]
                 [File.Size]14.03 MB (14,034,395 bytes)[/File.Size]
-                [Notes]US DarkAges 7.05 Client · Original[/Notes]
+                [Notes]US DarkAges 7.05 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3643,7 +3643,7 @@
                 [Filename]US-DarkAges-[Patch]-[7.04-7.05]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Patch.-.7.04-7.05.-Original.zip[/Download.URL]
                 [File.Size]16.75 MB (16,754,682 bytes)[/File.Size]
-                [Notes]US DarkAges 7.05 Patch · Original[/Notes]
+                [Notes]US DarkAges 7.05 Patch[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3652,7 +3652,7 @@
                 [Filename]DA704to705.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135725id_/http://files.kru.com:80/DarkAges/Client/Single/DA704to705.exe[/Download.URL]
                 [File.Size]16.89 MB (16,892,910 bytes)[/File.Size]
-                [Notes]US DarkAges 7.05 Patch · Original[/Notes]
+                [Notes]US DarkAges 7.05 Patch[/Notes]
             [/File]
         [/Entry]
 
@@ -3665,7 +3665,7 @@
                 [Filename]US-DarkAges-[Client]-[7.12]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.12.-Original.zip[/Download.URL]
                 [File.Size]158.95 MB (158,953,100 bytes)[/File.Size]
-                [Notes]US DarkAges 7.12 Client · Original[/Notes]
+                [Notes]US DarkAges 7.12 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3682,7 +3682,7 @@
                 [Filename]DarkAges712single.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1FkjK-MbVErgvEfQYNsY_s-IVckHOHWT8&export=download&confirm=t[/Download.URL]
                 [File.Size]159.88 MB (159,882,280 bytes)[/File.Size]
-                [Notes]US DarkAges 7.12 Client · Original[/Notes]
+                [Notes]US DarkAges 7.12 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3695,7 +3695,7 @@
                 [Filename]US-DarkAges-[Client]-[7.18]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.18.-Original.zip[/Download.URL]
                 [File.Size]169.38 MB (169,384,456 bytes)[/File.Size]
-                [Notes]US DarkAges 7.18 Client · Original[/Notes]
+                [Notes]US DarkAges 7.18 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3712,7 +3712,7 @@
                 [Filename]DarkAges718single.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1KdkTnGAU42KAMTrmUawp79pURZiwetoR&export=download&confirm=t[/Download.URL]
                 [File.Size]170.35 MB (170,354,251 bytes)[/File.Size]
-                [Notes]US DarkAges 7.18 Client · Original[/Notes]
+                [Notes]US DarkAges 7.18 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3725,7 +3725,7 @@
                 [Filename]US-DarkAges-[Client]-[7.29]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.29.-Original.zip[/Download.URL]
                 [File.Size]198.18 MB (198,183,175 bytes)[/File.Size]
-                [Notes]US DarkAges 7.29 Client · Original[/Notes]
+                [Notes]US DarkAges 7.29 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3742,7 +3742,7 @@
                 [Filename]DarkAges729single.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1xFLKueXrAVa4cBoprhHjms4f_R8HdtKM&export=download&confirm=t[/Download.URL]
                 [File.Size]199.74 MB (199,739,213 bytes)[/File.Size]
-                [Notes]US DarkAges 7.29 Client · Original[/Notes]
+                [Notes]US DarkAges 7.29 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3755,7 +3755,7 @@
                 [Filename]US-DarkAges-[Client]-[7.30]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.30.-Original.zip[/Download.URL]
                 [File.Size]205.19 MB (205,194,074 bytes)[/File.Size]
-                [Notes]US DarkAges 7.30 Client · Original[/Notes]
+                [Notes]US DarkAges 7.30 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3772,7 +3772,7 @@
                 [Filename]DarkAges730single.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=17kJDgPawjOpZrLsGkJUZ88FAfIvmzPFO&export=download&confirm=t[/Download.URL]
                 [File.Size]206.84 MB (206,839,406 bytes)[/File.Size]
-                [Notes]US DarkAges 7.30 Client · Original[/Notes]
+                [Notes]US DarkAges 7.30 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3785,7 +3785,7 @@
                 [Filename]US-DarkAges-[Client]-[7.35]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.35.-Original.zip[/Download.URL]
                 [File.Size]206.19 MB (206,193,587 bytes)[/File.Size]
-                [Notes]US DarkAges 7.35 Client · Original[/Notes]
+                [Notes]US DarkAges 7.35 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3802,7 +3802,7 @@
                 [Filename]DarkAges735single.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1l_IdZBmsmxg1erZ8LM38POLCltPfriHg&export=download&confirm=t[/Download.URL]
                 [File.Size]207.83 MB (207,830,277 bytes)[/File.Size]
-                [Notes]US DarkAges 7.35 Client · Original[/Notes]
+                [Notes]US DarkAges 7.35 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3815,7 +3815,7 @@
                 [Filename]US-DarkAges-[Client]-[7.39]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.39.-Original.zip[/Download.URL]
                 [File.Size]206.94 MB (206,936,985 bytes)[/File.Size]
-                [Notes]US DarkAges 7.39 Client · Original[/Notes]
+                [Notes]US DarkAges 7.39 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3832,7 +3832,7 @@
                 [Filename]DarkAges739single.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1GaKKx-TXX0EvyvyWMwcKCF08J2xz0Z3f&export=download&confirm=t[/Download.URL]
                 [File.Size]208.58 MB (208,578,983 bytes)[/File.Size]
-                [Notes]US DarkAges 7.39 Client · Original[/Notes]
+                [Notes]US DarkAges 7.39 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3846,7 +3846,7 @@
                 [Filename]US-DarkAges-[Patch]-[7.38-7.39]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Patch.-.7.38-7.39.-Original.zip[/Download.URL]
                 [File.Size]0.88 MB (884,808 bytes)[/File.Size]
-                [Notes]US DarkAges 7.39 Patch · Original[/Notes]
+                [Notes]US DarkAges 7.39 Patch[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3855,7 +3855,7 @@
                 [Filename]DarkAges738-739patch.exe[/Filename]
                 [Download.URL]https://s3.amazonaws.com/kru-downloads/da/DarkAges738-739patch.exe[/Download.URL]
                 [File.Size]0.89 MB (891,054 bytes)[/File.Size]
-                [Notes]US DarkAges 7.39 Patch · Original[/Notes]
+                [Notes]US DarkAges 7.39 Patch[/Notes]
             [/File]
         [/Entry]
 
@@ -3868,7 +3868,7 @@
                 [Filename]US-DarkAges-[Client]-[7.40]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.40.-Original.zip[/Download.URL]
                 [File.Size]206.94 MB (206,936,295 bytes)[/File.Size]
-                [Notes]US DarkAges 7.40 Client · Original[/Notes]
+                [Notes]US DarkAges 7.40 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3885,7 +3885,7 @@
                 [Filename]DarkAges740single.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1unZI3Trq_o9kOf_wNKM_s7CCY3bA-js0&export=download&confirm=t[/Download.URL]
                 [File.Size]208.58 MB (208,578,384 bytes)[/File.Size]
-                [Notes]US DarkAges 7.40 Client · Original[/Notes]
+                [Notes]US DarkAges 7.40 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3899,7 +3899,7 @@
                 [Filename]US-DarkAges-[Patch]-[7.39-7.40]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Patch.-.7.39-7.40.-Original.zip[/Download.URL]
                 [File.Size]0.58 MB (584,518 bytes)[/File.Size]
-                [Notes]US DarkAges 7.40 Patch · Original[/Notes]
+                [Notes]US DarkAges 7.40 Patch[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3908,7 +3908,7 @@
                 [Filename]DarkAges739-740patch.exe[/Filename]
                 [Download.URL]https://s3.amazonaws.com/kru-downloads/da/DarkAges739-740patch.exe[/Download.URL]
                 [File.Size]0.59 MB (590,955 bytes)[/File.Size]
-                [Notes]US DarkAges 7.40 Patch · Original[/Notes]
+                [Notes]US DarkAges 7.40 Patch[/Notes]
             [/File]
         [/Entry]
 
@@ -3921,7 +3921,7 @@
                 [Filename]US-DarkAges-[Client]-[7.41]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.41.-Original.zip[/Download.URL]
                 [File.Size]206.87 MB (206,871,809 bytes)[/File.Size]
-                [Notes]US DarkAges 7.41 Client · Original[/Notes]
+                [Notes]US DarkAges 7.41 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3938,7 +3938,7 @@
                 [Filename]DarkAges741single.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1ZGgK1KGXmAMHsgsZKIr-ZLfSAPRAjWqp&export=download&confirm=t[/Download.URL]
                 [File.Size]208.51 MB (208,513,633 bytes)[/File.Size]
-                [Notes]US DarkAges 7.41 Client · Original[/Notes]
+                [Notes]US DarkAges 7.41 Client[/Notes]
             [/File]
 
             [File ID="3"]
@@ -3947,7 +3947,7 @@
                 [Filename]DarkAges741single.exe[/Filename]
                 [Download.URL]https://s3.amazonaws.com/kru-downloads/da/DarkAges741single.exe[/Download.URL]
                 [File.Size]208.51 MB (208,513,633 bytes)[/File.Size]
-                [Notes]US DarkAges 7.41 Client · Original[/Notes]
+                [Notes]US DarkAges 7.41 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -3961,7 +3961,7 @@
                 [Filename]US-DarkAges-[Patch]-[7.40-7.41]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Patch.-.7.40-7.41.-Original.zip[/Download.URL]
                 [File.Size]1.23 MB (1,232,147 bytes)[/File.Size]
-                [Notes]US DarkAges 7.41 Patch · Original[/Notes]
+                [Notes]US DarkAges 7.41 Patch[/Notes]
             [/File]
 
             [File ID="1"]
@@ -3970,7 +3970,7 @@
                 [Filename]DarkAges740-741patch.exe[/Filename]
                 [Download.URL]https://s3.amazonaws.com/kru-downloads/da/DarkAges740-741patch.exe[/Download.URL]
                 [File.Size]1.24 MB (1,238,302 bytes)[/File.Size]
-                [Notes]US DarkAges 7.41 Patch · Original[/Notes]
+                [Notes]US DarkAges 7.41 Patch[/Notes]
             [/File]
         [/Entry]
     [/Table]
@@ -3987,7 +3987,7 @@
                 [Filename]KR-LegendsofDarkness-[Client]-[3.11]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.3.11.-Original.zip[/Download.URL]
                 [File.Size]23.81 MB (23,811,834 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 3.11 Client · Original[/Notes]
+                [Notes]KR Legends of Darkness 3.11 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -4004,7 +4004,7 @@
                 [Filename]hitel 2000.iso[/Filename]
                 [Download.URL]https://archive.org/download/hitel-2000/hitel%202000.iso[/Download.URL]
                 [File.Size]523.46 MB (523,460,608 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 3.11 Client · Original[/Notes]
+                [Notes]KR Legends of Darkness 3.11 Client[/Notes]
             [/File]
 
             [File ID="3"]
@@ -4013,7 +4013,7 @@
                 [Filename]Nice_인터넷_3.71.img[/Filename]
                 [Download.URL]https://archive.org/download/nice_internet_3.71/Nice_%EC%9D%B8%ED%84%B0%EB%84%B7_3.71.img[/Download.URL]
                 [File.Size]779.01 MB (779,008,272 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 3.11 Client · Original[/Notes]
+                [Notes]KR Legends of Darkness 3.11 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -4026,7 +4026,7 @@
                 [Filename]KR-LegendsofDarkness-[Client]-[5.01]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.5.01.-Original.zip[/Download.URL]
                 [File.Size]70.00 MB (70,002,359 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 5.01 Client · Original[/Notes]
+                [Notes]KR Legends of Darkness 5.01 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -4043,7 +4043,7 @@
                 [Filename]lodr.exe[/Filename]
                 [Download.URL]https://discmaster.textfiles.com/file/28506/Net_2002_06.iso/Client/lodr.exe[/Download.URL]
                 [File.Size]70.08 MB (70,077,895 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 5.01 Client · Original[/Notes]
+                [Notes]KR Legends of Darkness 5.01 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -4056,7 +4056,7 @@
                 [Filename]KR-LegendsofDarkness-[Client]-[5.20]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.5.20.-Original.zip[/Download.URL]
                 [File.Size]77.13 MB (77,133,624 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 5.20 Client · Original[/Notes]
+                [Notes]KR Legends of Darkness 5.20 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -4073,7 +4073,7 @@
                 [Filename]lodr.exe[/Filename]
                 [Download.URL]https://discmaster.textfiles.com/file/28508/Net_2002_12.iso/online/lodr.exe[/Download.URL]
                 [File.Size]77.21 MB (77,214,792 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 5.20 Client · Original[/Notes]
+                [Notes]KR Legends of Darkness 5.20 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -4086,7 +4086,7 @@
                 [Filename]KR-LegendsofDarkness-[Client]-[5.30]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.5.30.-Original.zip[/Download.URL]
                 [File.Size]84.30 MB (84,300,559 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 5.30 Client · Original[/Notes]
+                [Notes]KR Legends of Darkness 5.30 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -4103,7 +4103,7 @@
                 [Filename]lodr.exe[/Filename]
                 [Download.URL]https://discmaster.textfiles.com/file/28510/Net_2003_02_cd2.iso/online/lodr.exe[/Download.URL]
                 [File.Size]84.38 MB (84,379,438 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 5.30 Client · Original[/Notes]
+                [Notes]KR Legends of Darkness 5.30 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -4116,7 +4116,7 @@
                 [Filename]KR-LegendsofDarkness-[Client]-[5.99]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.5.99.-Original.zip[/Download.URL]
                 [File.Size]174.15 MB (174,149,654 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 5.99 Client · Original[/Notes]
+                [Notes]KR Legends of Darkness 5.99 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -4133,7 +4133,7 @@
                 [Filename]lodr.exe[/Filename]
                 [Download.URL]https://archive.org/download/atfile-client-archive/download/%5B2004-11-30%5D%20%EC%96%B4%EB%91%A0%EC%9D%98%20%EC%A0%84%EC%84%A4%205.90/lodr.exe[/Download.URL]
                 [File.Size]174.23 MB (174,228,727 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 5.99 Client · Original[/Notes]
+                [Notes]KR Legends of Darkness 5.99 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -4146,7 +4146,7 @@
                 [Filename]KR-LegendsofDarkness-[Client]-[8.540]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.8.540.-Original.zip[/Download.URL]
                 [File.Size]251.46 MB (251,461,694 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 8.540 Client · Original[/Notes]
+                [Notes]KR Legends of Darkness 8.540 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -4163,7 +4163,7 @@
                 [Filename]lodr.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20170407025514id_/http://lod.dn.nexoncdn.co.kr/lodr.exe[/Download.URL]
                 [File.Size]258.06 MB (258,057,658 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 8.540 Client · Original[/Notes]
+                [Notes]KR Legends of Darkness 8.540 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -4176,7 +4176,7 @@
                 [Filename]KR-LegendsofDarkness-[Client]-[9.100]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.9.100.-Original.zip[/Download.URL]
                 [File.Size]251.70 MB (251,695,747 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 9.100 Client · Original[/Notes]
+                [Notes]KR Legends of Darkness 9.100 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -4193,7 +4193,7 @@
                 [Filename]lodr.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20210724200127id_/http://lod.dn.nexoncdn.co.kr/lodr.exe[/Download.URL]
                 [File.Size]257.37 MB (257,368,445 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 9.100 Client · Original[/Notes]
+                [Notes]KR Legends of Darkness 9.100 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -4207,7 +4207,7 @@
                 [Filename]KR-LegendsofDarkness-[Client]-[9.570]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.9.570.-Original.zip[/Download.URL]
                 [File.Size]251.69 MB (251,694,800 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 9.570 Client (Hades) · Original[/Notes]
+                [Notes]KR Legends of Darkness 9.570 Client (Hades)[/Notes]
             [/File]
 
             [File ID="1"]
@@ -4224,7 +4224,7 @@
                 [Filename]Lodtest.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20210724200046id_/http://lod.dn.nexoncdn.co.kr/Lodtest.exe[/Download.URL]
                 [File.Size]257.37 MB (257,368,023 bytes)[/File.Size]
-                [Notes]KR Legends of Darkness 9.570 Client (Hades) · Original[/Notes]
+                [Notes]KR Legends of Darkness 9.570 Client (Hades)[/Notes]
             [/File]
         [/Entry]
     [/Table]
@@ -4241,7 +4241,7 @@
                 [Filename]KR-Elancia-[Client]-[6.0.3.0]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-Elancia-.Client.-.6.0.3.0.-Original.zip[/Download.URL]
                 [File.Size]181.62 MB (181,615,031 bytes)[/File.Size]
-                [Notes]KR Elancia 6.0.3.0 Client · Original[/Notes]
+                [Notes]KR Elancia 6.0.3.0 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -4258,7 +4258,7 @@
                 [Filename]elanr.exe[/Filename]
                 [Download.URL]https://elancia.dn.nexoncdn.co.kr/elanr.exe[/Download.URL]
                 [File.Size]14.12 MB (14,118,704 bytes)[/File.Size]
-                [Notes]KR Elancia 6.0.3.0 Client · Original[/Notes]
+                [Notes]KR Elancia 6.0.3.0 Client[/Notes]
             [/File]
 
             [File ID="3"]
@@ -4267,7 +4267,7 @@
                 [Filename]Elancia.z00[/Filename]
                 [Download.URL]https://elancia.dn.nexoncdn.co.kr/InstallData/Elancia.z00[/Download.URL]
                 [File.Size]176.58 MB (176,577,999 bytes)[/File.Size]
-                [Notes]KR Elancia 6.0.3.0 Client · Original[/Notes]
+                [Notes]KR Elancia 6.0.3.0 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -4280,7 +4280,7 @@
                 [Filename]KR-Elancia-[Client]-[6.0.0.0]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-Elancia-.Client.-.6.0.0.0.-Original.zip[/Download.URL]
                 [File.Size]181.72 MB (181,715,489 bytes)[/File.Size]
-                [Notes]KR Elancia 6.0.0.0 Client · Original[/Notes]
+                [Notes]KR Elancia 6.0.0.0 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -4297,7 +4297,7 @@
                 [Filename]elantest.exe[/Filename]
                 [Download.URL]https://elancia.dn.nexoncdn.co.kr/elantest.exe[/Download.URL]
                 [File.Size]14.12 MB (14,119,216 bytes)[/File.Size]
-                [Notes]KR Elancia 6.0.0.0 Client · Original[/Notes]
+                [Notes]KR Elancia 6.0.0.0 Client[/Notes]
             [/File]
 
             [File ID="3"]
@@ -4306,7 +4306,7 @@
                 [Filename]ElanciaTest.z00[/Filename]
                 [Download.URL]https://elancia.dn.nexoncdn.co.kr/xx/InstallData/ElanciaTest.z00[/Download.URL]
                 [File.Size]176.68 MB (176,680,470 bytes)[/File.Size]
-                [Notes]KR Elancia 6.0.0.0 Client · Original[/Notes]
+                [Notes]KR Elancia 6.0.0.0 Client[/Notes]
             [/File]
         [/Entry]
     [/Table]
@@ -4323,7 +4323,7 @@
                 [Filename]SG-DarkAgesSGDA-[Client]-[3.51]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/SG-DarkAgesSGDA-.Client.-.3.51.-Original.zip[/Download.URL]
                 [File.Size]20.92 MB (20,918,494 bytes)[/File.Size]
-                [Notes]SG DarkAges 3.51 Client · Original[/Notes]
+                [Notes]SG DarkAges 3.51 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -4340,7 +4340,7 @@
                 [Filename]DarkAges351.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20011229223229id_/http://download.nexonasia.com:80/DarkAges/DarkAges351.exe[/Download.URL]
                 [File.Size]21.01 MB (21,010,944 bytes)[/File.Size]
-                [Notes]SG DarkAges 3.51 Client · Original[/Notes]
+                [Notes]SG DarkAges 3.51 Client[/Notes]
             [/File]
 
             [File ID="3"]
@@ -4349,7 +4349,7 @@
                 [Filename]DarkAges351.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20020222224012id_/http://download.nexonasia.com:80/DarkAges/DarkAges351.exe[/Download.URL]
                 [File.Size]21.45 MB (21,450,240 bytes)[/File.Size]
-                [Notes]SG DarkAges 3.51 Client · Original[/Notes]
+                [Notes]SG DarkAges 3.51 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -4363,7 +4363,7 @@
                 [Filename]darkages.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20020605035323id_/http://darkages.nexonasia.com:80/downloads/darkages.exe[/Download.URL]
                 [File.Size]0.94 MB (938,065 bytes)[/File.Size]
-                [Notes]SG DarkAges 4.21 Client · Original[/Notes]
+                [Notes]SG DarkAges 4.21 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -4376,7 +4376,7 @@
                 [Filename]SG-DarkAgesSGDA-[Patch]-[Replace-4.21]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/SG-DarkAgesSGDA-.Patch.-.Replace-4.21.-Original.zip[/Download.URL]
                 [File.Size]1.37 MB (1,368,145 bytes)[/File.Size]
-                [Notes]SG DarkAges 4.21 Patch · Original[/Notes]
+                [Notes]SG DarkAges 4.21 Patch[/Notes]
             [/File]
 
             [File ID="1"]
@@ -4393,7 +4393,7 @@
                 [Filename]dapatch.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20020605035108id_/http://darkages.nexonasia.com:80/downloads/dapatch.exe[/Download.URL]
                 [File.Size]1.53 MB (1,528,992 bytes)[/File.Size]
-                [Notes]SG DarkAges 4.21 Patch · Original[/Notes]
+                [Notes]SG DarkAges 4.21 Patch[/Notes]
             [/File]
         [/Entry]
     [/Table]
@@ -4445,7 +4445,7 @@
                 [Filename]MY-LegendsofTemuair-[Client]-[4.20]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/MY-LegendsofTemuair-.Client.-.4.20.-Original.zip[/Download.URL]
                 [File.Size]59.78 MB (59,780,913 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.20 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.20 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -4462,7 +4462,7 @@
                 [Filename]legends_full_20011011.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20040515172001id_/http://www.time.net.my/download/legends_full_20011011.exe[/Download.URL]
                 [File.Size]59.77 MB (59,773,579 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.20 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.20 Client[/Notes]
             [/File]
 
             [File ID="3"]
@@ -4471,7 +4471,7 @@
                 [Filename]legends_full_20011011.exe[/Filename]
                 [Download.URL]https://novus-imperia.com/vault/legends_full_20011011.exe[/Download.URL]
                 [File.Size]59.77 MB (59,773,579 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.20 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.20 Client[/Notes]
             [/File]
 
             [File ID="4"]
@@ -4489,7 +4489,7 @@
                 [Filename]legends.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20020208022752id_/http://legends.time.net.my:80/download/legends.exe[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.20 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.20 Client[/Notes]
             [/File]
 
             [File ID="6"]
@@ -4498,7 +4498,7 @@
                 [Filename]legends.c00[/Filename]
                 [Download.URL]https://web.archive.org/web/20011224174053id_/http://legends.time.net.my:80/download/legends.c00[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.20 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.20 Client[/Notes]
             [/File]
 
             [File ID="7"]
@@ -4507,7 +4507,7 @@
                 [Filename]legends.c01[/Filename]
                 [Download.URL]https://web.archive.org/web/20011224173547id_/http://legends.time.net.my:80/download/legends.c01[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.20 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.20 Client[/Notes]
             [/File]
 
             [File ID="8"]
@@ -4516,7 +4516,7 @@
                 [Filename]legends.c02[/Filename]
                 [Download.URL]https://web.archive.org/web/20011027232745id_/http://legends.time.net.my:80/download/legends.c02[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.20 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.20 Client[/Notes]
             [/File]
 
             [File ID="9"]
@@ -4525,7 +4525,7 @@
                 [Filename]legends.c03[/Filename]
                 [Download.URL]https://web.archive.org/web/20011027233618id_/http://legends.time.net.my:80/download/legends.c03[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.20 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.20 Client[/Notes]
             [/File]
 
             [File ID="10"]
@@ -4534,7 +4534,7 @@
                 [Filename]legends.c04[/Filename]
                 [Download.URL]https://web.archive.org/web/20011027235437id_/http://legends.time.net.my:80/download/legends.c04[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.20 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.20 Client[/Notes]
             [/File]
 
             [File ID="11"]
@@ -4543,7 +4543,7 @@
                 [Filename]legends.c05[/Filename]
                 [Download.URL]https://web.archive.org/web/20011027235230id_/http://legends.time.net.my:80/download/legends.c05[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.20 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.20 Client[/Notes]
             [/File]
 
             [File ID="12"]
@@ -4552,7 +4552,7 @@
                 [Filename]legends.c06[/Filename]
                 [Download.URL]https://web.archive.org/web/20011224171025id_/http://legends.time.net.my:80/download/legends.c06[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.20 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.20 Client[/Notes]
             [/File]
 
             [File ID="13"]
@@ -4561,7 +4561,7 @@
                 [Filename]legends.c07[/Filename]
                 [Download.URL]https://web.archive.org/web/20020208020104id_/http://legends.time.net.my:80/download/legends.c07[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.20 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.20 Client[/Notes]
             [/File]
 
             [File ID="14"]
@@ -4570,7 +4570,7 @@
                 [Filename]legends.c08[/Filename]
                 [Download.URL]https://web.archive.org/web/20011224201442id_/http://legends.time.net.my:80/download/legends.c08[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.20 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.20 Client[/Notes]
             [/File]
 
             [File ID="15"]
@@ -4579,7 +4579,7 @@
                 [Filename]legends.c09[/Filename]
                 [Download.URL]https://web.archive.org/web/20020208021635id_/http://legends.time.net.my:80/download/legends.c09[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.20 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.20 Client[/Notes]
             [/File]
 
             [File ID="16"]
@@ -4588,7 +4588,7 @@
                 [Filename]legends.c10[/Filename]
                 [Download.URL]https://web.archive.org/web/20020208014958id_/http://legends.time.net.my:80/download/legends.c10[/Download.URL]
                 [File.Size]3.45 MB (3,454,734 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.20 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.20 Client[/Notes]
             [/File]
         [/Entry]
 
@@ -4601,7 +4601,7 @@
                 [Filename]MY-LegendsofTemuair-[Client]-[4.21]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/MY-LegendsofTemuair-.Client.-.4.21.-Original.zip[/Download.URL]
                 [File.Size]51.97 MB (51,973,190 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.21 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.21 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -4618,7 +4618,7 @@
                 [Filename]legends421_part.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20020804211828id_/http://legends.time.net.my:80/download/legends421_part.exe[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.21 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.21 Client[/Notes]
             [/File]
 
             [File ID="3"]
@@ -4627,7 +4627,7 @@
                 [Filename]legends421_part.c00[/Filename]
                 [Download.URL]https://web.archive.org/web/20020601131132id_/http://legends.time.net.my:80/download/legends421_part.c00[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.21 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.21 Client[/Notes]
             [/File]
 
             [File ID="4"]
@@ -4636,7 +4636,7 @@
                 [Filename]legends421_part.c01[/Filename]
                 [Download.URL]https://web.archive.org/web/20020601135852id_/http://legends.time.net.my:80/download/legends421_part.c01[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.21 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.21 Client[/Notes]
             [/File]
 
             [File ID="5"]
@@ -4645,7 +4645,7 @@
                 [Filename]legends421_part.c02[/Filename]
                 [Download.URL]https://web.archive.org/web/20020601140354id_/http://legends.time.net.my:80/download/legends421_part.c02[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.21 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.21 Client[/Notes]
             [/File]
 
             [File ID="6"]
@@ -4654,7 +4654,7 @@
                 [Filename]legends421_part.c03[/Filename]
                 [Download.URL]https://web.archive.org/web/20020601135830id_/http://legends.time.net.my:80/download/legends421_part.c03[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.21 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.21 Client[/Notes]
             [/File]
 
             [File ID="7"]
@@ -4663,7 +4663,7 @@
                 [Filename]legends421_part.c04[/Filename]
                 [Download.URL]https://web.archive.org/web/20020601140046id_/http://legends.time.net.my:80/download/legends421_part.c04[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.21 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.21 Client[/Notes]
             [/File]
 
             [File ID="8"]
@@ -4672,7 +4672,7 @@
                 [Filename]legends421_part.c05[/Filename]
                 [Download.URL]https://web.archive.org/web/20020410194834id_/http://legends.time.net.my:80/download/legends421_part.c05[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.21 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.21 Client[/Notes]
             [/File]
 
             [File ID="9"]
@@ -4681,7 +4681,7 @@
                 [Filename]legends421_part.c06[/Filename]
                 [Download.URL]https://web.archive.org/web/20020804210250id_/http://legends.time.net.my:80/download/legends421_part.c06[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.21 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.21 Client[/Notes]
             [/File]
 
             [File ID="10"]
@@ -4690,7 +4690,7 @@
                 [Filename]legends421_part.c07[/Filename]
                 [Download.URL]https://web.archive.org/web/20020410195807id_/http://legends.time.net.my:80/download/legends421_part.c07[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.21 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.21 Client[/Notes]
             [/File]
 
             [File ID="11"]
@@ -4699,7 +4699,7 @@
                 [Filename]legends421_part.c08[/Filename]
                 [Download.URL]https://web.archive.org/web/20020601141535id_/http://legends.time.net.my:80/download/legends421_part.c08[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.21 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.21 Client[/Notes]
             [/File]
 
             [File ID="12"]
@@ -4708,7 +4708,7 @@
                 [Filename]legends421_part.c09[/Filename]
                 [Download.URL]https://web.archive.org/web/20020601140623id_/http://legends.time.net.my:80/download/legends421_part.c09[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.21 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.21 Client[/Notes]
             [/File]
 
             [File ID="13"]
@@ -4717,7 +4717,7 @@
                 [Filename]legends421_part.c10[/Filename]
                 [Download.URL]https://web.archive.org/web/20020601141113id_/http://legends.time.net.my:80/download/legends421_part.c10[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.21 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.21 Client[/Notes]
             [/File]
 
             [File ID="14"]
@@ -4726,7 +4726,7 @@
                 [Filename]legends421_part.c11[/Filename]
                 [Download.URL]https://web.archive.org/web/20020410201601id_/http://legends.time.net.my:80/download/legends421_part.c11[/Download.URL]
                 [File.Size]1.64 MB (1,635,030 bytes)[/File.Size]
-                [Notes]MY Legends of Temuair 4.21 Client · Original[/Notes]
+                [Notes]MY Legends of Temuair 4.21 Client[/Notes]
             [/File]
         [/Entry]
     [/Table]
@@ -4743,7 +4743,7 @@
                 [Filename]JP-Yami-[Client]-[5.22]-Original.zip[/Filename]
                 [Download.URL]https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/JP-Yami-.Client.-.5.22.-Original.zip[/Download.URL]
                 [File.Size]78.51 MB (78,508,246 bytes)[/File.Size]
-                [Notes]JP Yami 5.22 Client · Original[/Notes]
+                [Notes]JP Yami 5.22 Client[/Notes]
             [/File]
 
             [File ID="1"]
@@ -4760,7 +4760,7 @@
                 [Filename]Yami522c_62.exe[/Filename]
                 [Download.URL]https://novus-imperia.com/vault/Yami522c_62.exe[/Download.URL]
                 [File.Size]79.12 MB (79,121,985 bytes)[/File.Size]
-                [Notes]JP Yami 5.22 Client · Original[/Notes]
+                [Notes]JP Yami 5.22 Client[/Notes]
             [/File]
 
             [File ID="3"]
@@ -4769,7 +4769,7 @@
                 [Filename]Yami522c_62.7z[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1MY1iINfz9HaegNJyg8TLsMjWoNRo54Hr&export=download&confirm=t[/Download.URL]
                 [File.Size]78.31 MB (78,313,193 bytes)[/File.Size]
-                [Notes]JP Yami 5.22 Client · Original[/Notes]
+                [Notes]JP Yami 5.22 Client[/Notes]
             [/File]
         [/Entry]
     [/Table]

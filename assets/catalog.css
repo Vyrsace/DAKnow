@@ -197,7 +197,6 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 .download-primary + .download-mirrors { margin-top: calc(var(--download-line-height) + 3px); }
 .download-mirrors > [data-download-line] + [data-download-line] { margin-top: 3px; }
 .download-mirror-heading { display: flex; align-items: flex-start; min-height: var(--download-line-height); }
-.download-filename .download-mirrors > .download-file-line { padding-left: 10px; }
 .download-primary-group > :is(.download-file-line, .download-detail-line) + :is(.download-file-line, .download-detail-line) { margin-top: 3px; }
 .download-note-line .notes { line-height: var(--download-line-height); }
 .download-file-notes { margin-top: 8px !important; }

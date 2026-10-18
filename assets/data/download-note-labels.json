@@ -1,6 +1,6 @@
 {
   "baseline_commit": "6163b8ac35ab1af377e1e1038c827f4ba446620f",
-  "format": "Identity · Original/Repack · italic external source",
+  "format": "Identity · optional Repack · italic external source",
   "files": [
     {
       "entry": "entry-1",
@@ -10,7 +10,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.2.15.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 2.15 Client · Original",
+      "label": "US DarkAges 2.15 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -40,7 +40,7 @@
       "url": "https://discmaster.textfiles.com/file/42800/SharePlay%2004-1999%20%28DE%29%20%281999%29%20%28Publish%20Verlag%20GmbH%29/SharePlay_04-99.iso/SHARE/SPIELE/DARKAGES/DARKAGES.EXE",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 2.15 Client · Original",
+      "label": "US DarkAges 2.15 Client",
       "source": "SharePlay (April 1999), CD-ROM (ISO via DiscMaster)",
       "source_links": {
         "DiscMaster": "https://discmaster.textfiles.com/"
@@ -57,7 +57,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.50.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 3.50 Client · Original",
+      "label": "US DarkAges 3.50 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -87,7 +87,7 @@
       "url": "https://discmaster.textfiles.com/file/37840/PC%20Master%20%CE%A4%CE%B5%CF%8D%CF%87%CE%BF%CF%82%20124%20-%2015%20%CE%99%CE%BF%CF%85%CE%BD%CE%AF%CE%BF%CF%85%202000/PC%20Master%20%CE%A4%CE%B5%CF%8D%CF%87%CE%BF%CF%82%20124%20-%2015%20%CE%99%CE%BF%CF%85%CE%BD%CE%AF%CE%BF%CF%85%202000%20-%20CD%201.bin/darkages/DarkAges_Key.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 3.50 Client · Original",
+      "label": "US DarkAges 3.50 Client",
       "source": "PC Master (June 15, 2000), CD-ROM 1 (BIN via DiscMaster)",
       "source_links": {
         "DiscMaster": "https://discmaster.textfiles.com/"
@@ -104,7 +104,7 @@
       "url": "https://raw.githubusercontent.com/SK0RPSE/DarkAges-version-3.50-2000/main/DarkAges_Key.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 3.50 Client · Original",
+      "label": "US DarkAges 3.50 Client",
       "source": "SK0RPSE (via GitHub)",
       "source_links": {
         "GitHub": "https://github.com/"
@@ -121,7 +121,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.51.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 3.51 Client · Original",
+      "label": "US DarkAges 3.51 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -151,7 +151,7 @@
       "url": "https://discmaster.textfiles.com/file/42817/SharePlay%2006-2000%20%28DE%29%20%282000%29%20%28Publish%20Verlag%20GmbH%29/SharePlay_06-2000.iso/share/rollensp/darkages/darkages.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 3.51 Client · Original",
+      "label": "US DarkAges 3.51 Client",
       "source": "SharePlay (June 2000), CD-ROM (ISO via DiscMaster)",
       "source_links": {
         "DiscMaster": "https://discmaster.textfiles.com/"
@@ -168,7 +168,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.70.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 3.70 Client · Original",
+      "label": "US DarkAges 3.70 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -198,7 +198,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.71.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 3.71 Client · Original",
+      "label": "US DarkAges 3.71 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -228,7 +228,7 @@
       "url": "https://archive.org/download/sg-cd/SG_CD.bin",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 3.71 Client · Original",
+      "label": "US DarkAges 3.71 Client",
       "source": "SG CD, CD-ROM (BIN/CUE via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -245,7 +245,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.72.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 3.72 Client · Original",
+      "label": "US DarkAges 3.72 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -275,7 +275,7 @@
       "url": "https://discmaster.textfiles.com/file/24071/2002-01_-_Disc_7.11.iso/Software/Demos/DarkAges/DarkAges_Key.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 3.72 Client · Original",
+      "label": "US DarkAges 3.72 Client",
       "source": "PC Gamer (January 2002), CD-ROM 7.11 (ISO via DiscMaster)",
       "source_links": {
         "DiscMaster": "https://discmaster.textfiles.com/"
@@ -292,7 +292,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.3.73.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 3.73 Client · Original",
+      "label": "US DarkAges 3.73 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -322,7 +322,7 @@
       "url": "https://web.archive.org/web/20020225052326id_/http://file.nexon.net/client/DarkAges/Single/DarkAges_key.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 3.73 Client · Original",
+      "label": "US DarkAges 3.73 Client",
       "source": "Nexon (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -339,7 +339,7 @@
       "url": "https://drive.usercontent.google.com/download?id=1VkgbVJK-ajC7Qd2csIjOgjeh9-GlenGo&export=download&confirm=t",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 3.73 Client · Original",
+      "label": "US DarkAges 3.73 Client",
       "source": "Google Drive",
       "source_links": {
         "Google Drive": "https://drive.google.com/"
@@ -356,7 +356,7 @@
       "url": "https://novus-imperia.com/vault/DarkAges-3.61.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 3.73 Client · Original",
+      "label": "US DarkAges 3.73 Client",
       "source": "Novus Imperia",
       "source_links": {
         "Novus Imperia": "https://novus-imperia.com/"
@@ -373,7 +373,7 @@
       "url": "https://drive.usercontent.google.com/download?id=1M1O7KqNw9MYaOSS1SHKIkr02BWzOEFCi&export=download&confirm=t",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 3.73 Client · Original",
+      "label": "US DarkAges 3.73 Client",
       "source": "Google Drive",
       "source_links": {
         "Google Drive": "https://drive.google.com/"
@@ -390,7 +390,7 @@
       "url": "https://drive.usercontent.google.com/download?id=1E2DOHRSZrT2wjRS5sRGklh4JqtNUbkaQ&export=download&confirm=t",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 3.73 Client · Original",
+      "label": "US DarkAges 3.73 Client",
       "source": "Google Drive",
       "source_links": {
         "Google Drive": "https://drive.google.com/"
@@ -407,7 +407,7 @@
       "url": "https://web.archive.org/web/20011221231452id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 3.73 Client · Original",
+      "label": "US DarkAges 3.73 Client",
       "source": "Nexon (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -424,7 +424,7 @@
       "url": "https://web.archive.org/web/20011221224710id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.W02",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 3.73 Client · Original",
+      "label": "US DarkAges 3.73 Client",
       "source": "Nexon (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -441,7 +441,7 @@
       "url": "https://web.archive.org/web/20011221230221id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.W03",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 3.73 Client · Original",
+      "label": "US DarkAges 3.73 Client",
       "source": "Nexon (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -458,7 +458,7 @@
       "url": "https://web.archive.org/web/20020108031942id_/http://file.nexon.net:80/client/Darkages/multiple/DarkAges_key_split.w04",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 3.73 Client · Original",
+      "label": "US DarkAges 3.73 Client",
       "source": "Nexon (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -475,7 +475,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.4.51.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 4.51 Client · Original",
+      "label": "US DarkAges 4.51 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -505,7 +505,7 @@
       "url": "https://drive.usercontent.google.com/download?id=1sjZ0jq7CaqrMtOg_aaQlRz36CKAIWKlM&export=download&confirm=t",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 4.51 Client · Original",
+      "label": "US DarkAges 4.51 Client",
       "source": "Google Drive",
       "source_links": {
         "Google Drive": "https://drive.google.com/"
@@ -522,7 +522,7 @@
       "url": "https://novus-imperia.com/vault/DarkAges-4.52.zip",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 4.51 Client · Original",
+      "label": "US DarkAges 4.51 Client",
       "source": "Novus Imperia",
       "source_links": {
         "Novus Imperia": "https://novus-imperia.com/"
@@ -539,7 +539,7 @@
       "url": "https://web.archive.org/web/20020816001725id_/http://file.nexon.net:80/client/DarkAges/451/multiple/darkages_key.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 4.51 Client · Original",
+      "label": "US DarkAges 4.51 Client",
       "source": "Nexon (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -556,7 +556,7 @@
       "url": "https://web.archive.org/web/20021204130948id_/http://file.nexon.net:80/client/DarkAges/451/multiple/darkages_key.w02",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 4.51 Client · Original",
+      "label": "US DarkAges 4.51 Client",
       "source": "Nexon (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -573,7 +573,7 @@
       "url": "https://web.archive.org/web/20020816001406id_/http://file.nexon.net:80/client/DarkAges/451/multiple/darkages_key.w03",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 4.51 Client · Original",
+      "label": "US DarkAges 4.51 Client",
       "source": "Nexon (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -590,7 +590,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.5.21.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 5.21 Client · Original",
+      "label": "US DarkAges 5.21 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -620,7 +620,7 @@
       "url": "https://novus-imperia.com/vault/DarkAges-5.21.zip",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 5.21 Client · Original",
+      "label": "US DarkAges 5.21 Client",
       "source": "Novus Imperia",
       "source_links": {
         "Novus Imperia": "https://novus-imperia.com/"
@@ -637,7 +637,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.5.51.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 5.51 Client · Original",
+      "label": "US DarkAges 5.51 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -667,7 +667,7 @@
       "url": "https://web.archive.org/web/20040220093130id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 5.51 Client · Original",
+      "label": "US DarkAges 5.51 Client",
       "source": "Nexon (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -684,7 +684,7 @@
       "url": "https://web.archive.org/web/20040220093419id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 5.51 Client · Original",
+      "label": "US DarkAges 5.51 Client",
       "source": "Nexon (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -701,7 +701,7 @@
       "url": "https://web.archive.org/web/20040726212640id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 5.51 Client · Original",
+      "label": "US DarkAges 5.51 Client",
       "source": "Nexon (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -718,7 +718,7 @@
       "url": "https://web.archive.org/web/20051020132146id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 5.51 Client · Original",
+      "label": "US DarkAges 5.51 Client",
       "source": "Nexon (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -735,7 +735,7 @@
       "url": "https://novus-imperia.com/vault/DarkAges-5.51.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 5.51 Client · Original",
+      "label": "US DarkAges 5.51 Client",
       "source": "Novus Imperia",
       "source_links": {
         "Novus Imperia": "https://novus-imperia.com/"
@@ -752,7 +752,7 @@
       "url": "https://drive.usercontent.google.com/download?id=1beW1OaUr6oVHxY0wv4hmS9E0fh2E_5hv&export=download&confirm=t",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 5.51 Client · Original",
+      "label": "US DarkAges 5.51 Client",
       "source": "Google Drive",
       "source_links": {
         "Google Drive": "https://drive.google.com/"
@@ -769,7 +769,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.05.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 7.05 Client · Original",
+      "label": "US DarkAges 7.05 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -799,7 +799,7 @@
       "url": "https://web.archive.org/web/20060823135708id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.05 Client · Original",
+      "label": "US DarkAges 7.05 Client",
       "source": "Official DarkAges Website (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -816,7 +816,7 @@
       "url": "https://web.archive.org/web/20060823135651id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W02",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.05 Client · Original",
+      "label": "US DarkAges 7.05 Client",
       "source": "Official DarkAges Website (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -833,7 +833,7 @@
       "url": "https://web.archive.org/web/20060823135819id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W03",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.05 Client · Original",
+      "label": "US DarkAges 7.05 Client",
       "source": "Official DarkAges Website (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -850,7 +850,7 @@
       "url": "https://web.archive.org/web/20060823135831id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W04",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.05 Client · Original",
+      "label": "US DarkAges 7.05 Client",
       "source": "Official DarkAges Website (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -867,7 +867,7 @@
       "url": "https://web.archive.org/web/20060823135743id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W05",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.05 Client · Original",
+      "label": "US DarkAges 7.05 Client",
       "source": "Official DarkAges Website (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -884,7 +884,7 @@
       "url": "https://web.archive.org/web/20060823135806id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W06",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.05 Client · Original",
+      "label": "US DarkAges 7.05 Client",
       "source": "Official DarkAges Website (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -901,7 +901,7 @@
       "url": "https://web.archive.org/web/20060823135844id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W07",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.05 Client · Original",
+      "label": "US DarkAges 7.05 Client",
       "source": "Official DarkAges Website (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -918,7 +918,7 @@
       "url": "https://web.archive.org/web/20060823135855id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W08",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.05 Client · Original",
+      "label": "US DarkAges 7.05 Client",
       "source": "Official DarkAges Website (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -935,7 +935,7 @@
       "url": "https://web.archive.org/web/20060823135908id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W09",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.05 Client · Original",
+      "label": "US DarkAges 7.05 Client",
       "source": "Official DarkAges Website (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -952,7 +952,7 @@
       "url": "https://web.archive.org/web/20060823135922id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W10",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.05 Client · Original",
+      "label": "US DarkAges 7.05 Client",
       "source": "Official DarkAges Website (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -969,7 +969,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Patch.-.7.04-7.05.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 7.05 Patch · Original",
+      "label": "US DarkAges 7.05 Patch",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -984,7 +984,7 @@
       "url": "https://web.archive.org/web/20060823135725id_/http://files.kru.com:80/DarkAges/Client/Single/DA704to705.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.05 Patch · Original",
+      "label": "US DarkAges 7.05 Patch",
       "source": "Official DarkAges Website (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -1001,7 +1001,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.12.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 7.12 Client · Original",
+      "label": "US DarkAges 7.12 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1031,7 +1031,7 @@
       "url": "https://drive.usercontent.google.com/download?id=1FkjK-MbVErgvEfQYNsY_s-IVckHOHWT8&export=download&confirm=t",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.12 Client · Original",
+      "label": "US DarkAges 7.12 Client",
       "source": "Google Drive",
       "source_links": {
         "Google Drive": "https://drive.google.com/"
@@ -1048,7 +1048,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.18.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 7.18 Client · Original",
+      "label": "US DarkAges 7.18 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1078,7 +1078,7 @@
       "url": "https://drive.usercontent.google.com/download?id=1KdkTnGAU42KAMTrmUawp79pURZiwetoR&export=download&confirm=t",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.18 Client · Original",
+      "label": "US DarkAges 7.18 Client",
       "source": "Google Drive",
       "source_links": {
         "Google Drive": "https://drive.google.com/"
@@ -1095,7 +1095,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.29.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 7.29 Client · Original",
+      "label": "US DarkAges 7.29 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1125,7 +1125,7 @@
       "url": "https://drive.usercontent.google.com/download?id=1xFLKueXrAVa4cBoprhHjms4f_R8HdtKM&export=download&confirm=t",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.29 Client · Original",
+      "label": "US DarkAges 7.29 Client",
       "source": "Google Drive",
       "source_links": {
         "Google Drive": "https://drive.google.com/"
@@ -1142,7 +1142,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.30.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 7.30 Client · Original",
+      "label": "US DarkAges 7.30 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1172,7 +1172,7 @@
       "url": "https://drive.usercontent.google.com/download?id=17kJDgPawjOpZrLsGkJUZ88FAfIvmzPFO&export=download&confirm=t",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.30 Client · Original",
+      "label": "US DarkAges 7.30 Client",
       "source": "Google Drive",
       "source_links": {
         "Google Drive": "https://drive.google.com/"
@@ -1189,7 +1189,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.35.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 7.35 Client · Original",
+      "label": "US DarkAges 7.35 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1219,7 +1219,7 @@
       "url": "https://drive.usercontent.google.com/download?id=1l_IdZBmsmxg1erZ8LM38POLCltPfriHg&export=download&confirm=t",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.35 Client · Original",
+      "label": "US DarkAges 7.35 Client",
       "source": "Google Drive",
       "source_links": {
         "Google Drive": "https://drive.google.com/"
@@ -1236,7 +1236,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.39.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 7.39 Client · Original",
+      "label": "US DarkAges 7.39 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1266,7 +1266,7 @@
       "url": "https://drive.usercontent.google.com/download?id=1GaKKx-TXX0EvyvyWMwcKCF08J2xz0Z3f&export=download&confirm=t",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.39 Client · Original",
+      "label": "US DarkAges 7.39 Client",
       "source": "Google Drive",
       "source_links": {
         "Google Drive": "https://drive.google.com/"
@@ -1283,7 +1283,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Patch.-.7.38-7.39.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 7.39 Patch · Original",
+      "label": "US DarkAges 7.39 Patch",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1298,7 +1298,7 @@
       "url": "https://s3.amazonaws.com/kru-downloads/da/DarkAges738-739patch.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.39 Patch · Original",
+      "label": "US DarkAges 7.39 Patch",
       "source": "KRU Interactive (via Amazon S3)",
       "source_links": {
         "Amazon S3": "https://aws.amazon.com/s3/"
@@ -1315,7 +1315,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.40.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 7.40 Client · Original",
+      "label": "US DarkAges 7.40 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1345,7 +1345,7 @@
       "url": "https://drive.usercontent.google.com/download?id=1unZI3Trq_o9kOf_wNKM_s7CCY3bA-js0&export=download&confirm=t",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.40 Client · Original",
+      "label": "US DarkAges 7.40 Client",
       "source": "Google Drive",
       "source_links": {
         "Google Drive": "https://drive.google.com/"
@@ -1362,7 +1362,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Patch.-.7.39-7.40.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 7.40 Patch · Original",
+      "label": "US DarkAges 7.40 Patch",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1377,7 +1377,7 @@
       "url": "https://s3.amazonaws.com/kru-downloads/da/DarkAges739-740patch.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.40 Patch · Original",
+      "label": "US DarkAges 7.40 Patch",
       "source": "KRU Interactive (via Amazon S3)",
       "source_links": {
         "Amazon S3": "https://aws.amazon.com/s3/"
@@ -1394,7 +1394,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Client.-.7.41.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 7.41 Client · Original",
+      "label": "US DarkAges 7.41 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1424,7 +1424,7 @@
       "url": "https://drive.usercontent.google.com/download?id=1ZGgK1KGXmAMHsgsZKIr-ZLfSAPRAjWqp&export=download&confirm=t",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.41 Client · Original",
+      "label": "US DarkAges 7.41 Client",
       "source": "Google Drive",
       "source_links": {
         "Google Drive": "https://drive.google.com/"
@@ -1441,7 +1441,7 @@
       "url": "https://s3.amazonaws.com/kru-downloads/da/DarkAges741single.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.41 Client · Original",
+      "label": "US DarkAges 7.41 Client",
       "source": "KRU Interactive (via Amazon S3)",
       "source_links": {
         "Amazon S3": "https://aws.amazon.com/s3/"
@@ -1458,7 +1458,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/US-DarkAges-.Patch.-.7.40-7.41.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "US DarkAges 7.41 Patch · Original",
+      "label": "US DarkAges 7.41 Patch",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1473,7 +1473,7 @@
       "url": "https://s3.amazonaws.com/kru-downloads/da/DarkAges740-741patch.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "US DarkAges 7.41 Patch · Original",
+      "label": "US DarkAges 7.41 Patch",
       "source": "KRU Interactive (via Amazon S3)",
       "source_links": {
         "Amazon S3": "https://aws.amazon.com/s3/"
@@ -1490,7 +1490,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.3.11.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "KR Legends of Darkness 3.11 Client · Original",
+      "label": "KR Legends of Darkness 3.11 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1520,7 +1520,7 @@
       "url": "https://archive.org/download/hitel-2000/hitel%202000.iso",
       "hosted": false,
       "kind": "Original",
-      "label": "KR Legends of Darkness 3.11 Client · Original",
+      "label": "KR Legends of Darkness 3.11 Client",
       "source": "Hitel (2000), CD-ROM (ISO via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -1537,7 +1537,7 @@
       "url": "https://archive.org/download/nice_internet_3.71/Nice_%EC%9D%B8%ED%84%B0%EB%84%B7_3.71.img",
       "hosted": false,
       "kind": "Original",
-      "label": "KR Legends of Darkness 3.11 Client · Original",
+      "label": "KR Legends of Darkness 3.11 Client",
       "source": "Nice 인터넷 3.71, CD-ROM (CCD/IMG/SUB via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -1554,7 +1554,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.5.01.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "KR Legends of Darkness 5.01 Client · Original",
+      "label": "KR Legends of Darkness 5.01 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1584,7 +1584,7 @@
       "url": "https://discmaster.textfiles.com/file/28506/Net_2002_06.iso/Client/lodr.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "KR Legends of Darkness 5.01 Client · Original",
+      "label": "KR Legends of Darkness 5.01 Client",
       "source": "Net (June 2002), CD-ROM (ISO via DiscMaster)",
       "source_links": {
         "DiscMaster": "https://discmaster.textfiles.com/"
@@ -1601,7 +1601,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.5.20.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "KR Legends of Darkness 5.20 Client · Original",
+      "label": "KR Legends of Darkness 5.20 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1631,7 +1631,7 @@
       "url": "https://discmaster.textfiles.com/file/28508/Net_2002_12.iso/online/lodr.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "KR Legends of Darkness 5.20 Client · Original",
+      "label": "KR Legends of Darkness 5.20 Client",
       "source": "Net (December 2002), CD-ROM (ISO via DiscMaster)",
       "source_links": {
         "DiscMaster": "https://discmaster.textfiles.com/"
@@ -1648,7 +1648,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.5.30.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "KR Legends of Darkness 5.30 Client · Original",
+      "label": "KR Legends of Darkness 5.30 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1678,7 +1678,7 @@
       "url": "https://discmaster.textfiles.com/file/28510/Net_2003_02_cd2.iso/online/lodr.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "KR Legends of Darkness 5.30 Client · Original",
+      "label": "KR Legends of Darkness 5.30 Client",
       "source": "Net (February 2003), CD-ROM 2 (ISO via DiscMaster)",
       "source_links": {
         "DiscMaster": "https://discmaster.textfiles.com/"
@@ -1695,7 +1695,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.5.99.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "KR Legends of Darkness 5.99 Client · Original",
+      "label": "KR Legends of Darkness 5.99 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1725,7 +1725,7 @@
       "url": "https://archive.org/download/atfile-client-archive/download/%5B2004-11-30%5D%20%EC%96%B4%EB%91%A0%EC%9D%98%20%EC%A0%84%EC%84%A4%205.90/lodr.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "KR Legends of Darkness 5.99 Client · Original",
+      "label": "KR Legends of Darkness 5.99 Client",
       "source": "ATFile client archive (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -1742,7 +1742,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.8.540.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "KR Legends of Darkness 8.540 Client · Original",
+      "label": "KR Legends of Darkness 8.540 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1772,7 +1772,7 @@
       "url": "https://web.archive.org/web/20170407025514id_/http://lod.dn.nexoncdn.co.kr/lodr.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "KR Legends of Darkness 8.540 Client · Original",
+      "label": "KR Legends of Darkness 8.540 Client",
       "source": "Nexon Korea (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/",
@@ -1790,7 +1790,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.9.100.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "KR Legends of Darkness 9.100 Client · Original",
+      "label": "KR Legends of Darkness 9.100 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1820,7 +1820,7 @@
       "url": "https://web.archive.org/web/20210724200127id_/http://lod.dn.nexoncdn.co.kr/lodr.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "KR Legends of Darkness 9.100 Client · Original",
+      "label": "KR Legends of Darkness 9.100 Client",
       "source": "Nexon Korea (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/",
@@ -1838,7 +1838,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-LegendsofDarkness-.Client.-.9.570.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "KR Legends of Darkness 9.570 Client (Hades) · Original",
+      "label": "KR Legends of Darkness 9.570 Client (Hades)",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1868,7 +1868,7 @@
       "url": "https://web.archive.org/web/20210724200046id_/http://lod.dn.nexoncdn.co.kr/Lodtest.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "KR Legends of Darkness 9.570 Client (Hades) · Original",
+      "label": "KR Legends of Darkness 9.570 Client (Hades)",
       "source": "Nexon Korea (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/",
@@ -1886,7 +1886,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-Elancia-.Client.-.6.0.3.0.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "KR Elancia 6.0.3.0 Client · Original",
+      "label": "KR Elancia 6.0.3.0 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1916,7 +1916,7 @@
       "url": "https://elancia.dn.nexoncdn.co.kr/elanr.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "KR Elancia 6.0.3.0 Client · Original",
+      "label": "KR Elancia 6.0.3.0 Client",
       "source": "Nexon Korea, production launcher",
       "source_links": {
         "Nexon Korea": "https://company.nexon.com/"
@@ -1933,7 +1933,7 @@
       "url": "https://elancia.dn.nexoncdn.co.kr/InstallData/Elancia.z00",
       "hosted": false,
       "kind": "Original",
-      "label": "KR Elancia 6.0.3.0 Client · Original",
+      "label": "KR Elancia 6.0.3.0 Client",
       "source": "Nexon Korea, production game payload",
       "source_links": {
         "Nexon Korea": "https://company.nexon.com/"
@@ -1950,7 +1950,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/KR-Elancia-.Client.-.6.0.0.0.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "KR Elancia 6.0.0.0 Client · Original",
+      "label": "KR Elancia 6.0.0.0 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -1980,7 +1980,7 @@
       "url": "https://elancia.dn.nexoncdn.co.kr/elantest.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "KR Elancia 6.0.0.0 Client · Original",
+      "label": "KR Elancia 6.0.0.0 Client",
       "source": "Nexon Korea, test launcher",
       "source_links": {
         "Nexon Korea": "https://company.nexon.com/"
@@ -1997,7 +1997,7 @@
       "url": "https://elancia.dn.nexoncdn.co.kr/xx/InstallData/ElanciaTest.z00",
       "hosted": false,
       "kind": "Original",
-      "label": "KR Elancia 6.0.0.0 Client · Original",
+      "label": "KR Elancia 6.0.0.0 Client",
       "source": "Nexon Korea, test game payload",
       "source_links": {
         "Nexon Korea": "https://company.nexon.com/"
@@ -2014,7 +2014,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/SG-DarkAgesSGDA-.Client.-.3.51.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "SG DarkAges 3.51 Client · Original",
+      "label": "SG DarkAges 3.51 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -2044,7 +2044,7 @@
       "url": "https://web.archive.org/web/20011229223229id_/http://download.nexonasia.com:80/DarkAges/DarkAges351.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "SG DarkAges 3.51 Client · Original",
+      "label": "SG DarkAges 3.51 Client",
       "source": "NexonAsia, Singapore-help package (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2061,7 +2061,7 @@
       "url": "https://web.archive.org/web/20020222224012id_/http://download.nexonasia.com:80/DarkAges/DarkAges351.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "SG DarkAges 3.51 Client · Original",
+      "label": "SG DarkAges 3.51 Client",
       "source": "NexonAsia, U.S.-help package (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2078,7 +2078,7 @@
       "url": "https://web.archive.org/web/20020605035323id_/http://darkages.nexonasia.com:80/downloads/darkages.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "SG DarkAges 4.21 Client · Original",
+      "label": "SG DarkAges 4.21 Client",
       "source": "NexonAsia (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2095,7 +2095,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/SG-DarkAgesSGDA-.Patch.-.Replace-4.21.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "SG DarkAges 4.21 Patch · Original",
+      "label": "SG DarkAges 4.21 Patch",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -2125,7 +2125,7 @@
       "url": "https://web.archive.org/web/20020605035108id_/http://darkages.nexonasia.com:80/downloads/dapatch.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "SG DarkAges 4.21 Patch · Original",
+      "label": "SG DarkAges 4.21 Patch",
       "source": "NexonAsia (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2191,7 +2191,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/MY-LegendsofTemuair-.Client.-.4.20.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.20 Client · Original",
+      "label": "MY Legends of Temuair 4.20 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -2221,7 +2221,7 @@
       "url": "https://web.archive.org/web/20040515172001id_/http://www.time.net.my/download/legends_full_20011011.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.20 Client · Original",
+      "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2238,7 +2238,7 @@
       "url": "https://novus-imperia.com/vault/legends_full_20011011.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.20 Client · Original",
+      "label": "MY Legends of Temuair 4.20 Client",
       "source": "Novus Imperia",
       "source_links": {
         "Novus Imperia": "https://novus-imperia.com/"
@@ -2272,7 +2272,7 @@
       "url": "https://web.archive.org/web/20020208022752id_/http://legends.time.net.my:80/download/legends.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.20 Client · Original",
+      "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2289,7 +2289,7 @@
       "url": "https://web.archive.org/web/20011224174053id_/http://legends.time.net.my:80/download/legends.c00",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.20 Client · Original",
+      "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2306,7 +2306,7 @@
       "url": "https://web.archive.org/web/20011224173547id_/http://legends.time.net.my:80/download/legends.c01",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.20 Client · Original",
+      "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2323,7 +2323,7 @@
       "url": "https://web.archive.org/web/20011027232745id_/http://legends.time.net.my:80/download/legends.c02",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.20 Client · Original",
+      "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2340,7 +2340,7 @@
       "url": "https://web.archive.org/web/20011027233618id_/http://legends.time.net.my:80/download/legends.c03",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.20 Client · Original",
+      "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2357,7 +2357,7 @@
       "url": "https://web.archive.org/web/20011027235437id_/http://legends.time.net.my:80/download/legends.c04",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.20 Client · Original",
+      "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2374,7 +2374,7 @@
       "url": "https://web.archive.org/web/20011027235230id_/http://legends.time.net.my:80/download/legends.c05",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.20 Client · Original",
+      "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2391,7 +2391,7 @@
       "url": "https://web.archive.org/web/20011224171025id_/http://legends.time.net.my:80/download/legends.c06",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.20 Client · Original",
+      "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2408,7 +2408,7 @@
       "url": "https://web.archive.org/web/20020208020104id_/http://legends.time.net.my:80/download/legends.c07",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.20 Client · Original",
+      "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2425,7 +2425,7 @@
       "url": "https://web.archive.org/web/20011224201442id_/http://legends.time.net.my:80/download/legends.c08",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.20 Client · Original",
+      "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2442,7 +2442,7 @@
       "url": "https://web.archive.org/web/20020208021635id_/http://legends.time.net.my:80/download/legends.c09",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.20 Client · Original",
+      "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2459,7 +2459,7 @@
       "url": "https://web.archive.org/web/20020208014958id_/http://legends.time.net.my:80/download/legends.c10",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.20 Client · Original",
+      "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2476,7 +2476,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/MY-LegendsofTemuair-.Client.-.4.21.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.21 Client · Original",
+      "label": "MY Legends of Temuair 4.21 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -2506,7 +2506,7 @@
       "url": "https://web.archive.org/web/20020804211828id_/http://legends.time.net.my:80/download/legends421_part.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.21 Client · Original",
+      "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2523,7 +2523,7 @@
       "url": "https://web.archive.org/web/20020601131132id_/http://legends.time.net.my:80/download/legends421_part.c00",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.21 Client · Original",
+      "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2540,7 +2540,7 @@
       "url": "https://web.archive.org/web/20020601135852id_/http://legends.time.net.my:80/download/legends421_part.c01",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.21 Client · Original",
+      "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2557,7 +2557,7 @@
       "url": "https://web.archive.org/web/20020601140354id_/http://legends.time.net.my:80/download/legends421_part.c02",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.21 Client · Original",
+      "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2574,7 +2574,7 @@
       "url": "https://web.archive.org/web/20020601135830id_/http://legends.time.net.my:80/download/legends421_part.c03",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.21 Client · Original",
+      "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2591,7 +2591,7 @@
       "url": "https://web.archive.org/web/20020601140046id_/http://legends.time.net.my:80/download/legends421_part.c04",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.21 Client · Original",
+      "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2608,7 +2608,7 @@
       "url": "https://web.archive.org/web/20020410194834id_/http://legends.time.net.my:80/download/legends421_part.c05",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.21 Client · Original",
+      "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2625,7 +2625,7 @@
       "url": "https://web.archive.org/web/20020804210250id_/http://legends.time.net.my:80/download/legends421_part.c06",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.21 Client · Original",
+      "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2642,7 +2642,7 @@
       "url": "https://web.archive.org/web/20020410195807id_/http://legends.time.net.my:80/download/legends421_part.c07",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.21 Client · Original",
+      "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2659,7 +2659,7 @@
       "url": "https://web.archive.org/web/20020601141535id_/http://legends.time.net.my:80/download/legends421_part.c08",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.21 Client · Original",
+      "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2676,7 +2676,7 @@
       "url": "https://web.archive.org/web/20020601140623id_/http://legends.time.net.my:80/download/legends421_part.c09",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.21 Client · Original",
+      "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2693,7 +2693,7 @@
       "url": "https://web.archive.org/web/20020601141113id_/http://legends.time.net.my:80/download/legends421_part.c10",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.21 Client · Original",
+      "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2710,7 +2710,7 @@
       "url": "https://web.archive.org/web/20020410201601id_/http://legends.time.net.my:80/download/legends421_part.c11",
       "hosted": false,
       "kind": "Original",
-      "label": "MY Legends of Temuair 4.21 Client · Original",
+      "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (via Internet Archive)",
       "source_links": {
         "Internet Archive": "https://archive.org/"
@@ -2727,7 +2727,7 @@
       "url": "https://github.com/Vyrsace/DAKnow/releases/download/downloads-original/JP-Yami-.Client.-.5.22.-Original.zip",
       "hosted": true,
       "kind": "Original",
-      "label": "JP Yami 5.22 Client · Original",
+      "label": "JP Yami 5.22 Client",
       "source": "",
       "source_links": {},
       "previous_caption": "",
@@ -2757,7 +2757,7 @@
       "url": "https://novus-imperia.com/vault/Yami522c_62.exe",
       "hosted": false,
       "kind": "Original",
-      "label": "JP Yami 5.22 Client · Original",
+      "label": "JP Yami 5.22 Client",
       "source": "Novus Imperia",
       "source_links": {
         "Novus Imperia": "https://novus-imperia.com/"
@@ -2774,7 +2774,7 @@
       "url": "https://drive.usercontent.google.com/download?id=1MY1iINfz9HaegNJyg8TLsMjWoNRo54Hr&export=download&confirm=t",
       "hosted": false,
       "kind": "Original",
-      "label": "JP Yami 5.22 Client · Original",
+      "label": "JP Yami 5.22 Client",
       "source": "Google Drive",
       "source_links": {
         "Google Drive": "https://drive.google.com/"
