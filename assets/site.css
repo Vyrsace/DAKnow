@@ -107,7 +107,7 @@ tr[hidden] { display: none !important; }
 .titles-card { padding: var(--title-section-padding, 20px); }
 .titles-card .titles-heading h2 { color: #243f64; font-size: 18px; line-height: 1.35; font-weight: 650; }
 .collapsible-card { padding: 0; }
-.card-summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 20px; cursor: pointer; list-style: none; font-size: 18px; line-height: 1.35; font-weight: 650; color: #243f64; }
+.card-summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 10px 20px; cursor: pointer; list-style: none; font-size: 18px; line-height: 1.35; font-weight: 650; color: #243f64; }
 .card-summary::-webkit-details-marker { display: none; }
 .card-summary::after { content: "+"; flex: 0 0 auto; width: 24px; height: 24px; color: #5376a2; font-size: 21px; font-weight: 400; line-height: 24px; text-align: center; }
 .collapsible-card[open] > .card-summary::after { content: "−"; }
@@ -150,7 +150,8 @@ footer { padding-top: 30px; }
   .legend { gap: 10px; }
   .game-card { padding: 17px; }
   .game-card p { font-size: 14px; }
-  .verification-card, .card-summary, .card-content { padding: 17px; }
+  .verification-card, .card-content { padding: 17px; }
+  .card-summary { padding: 10px 17px; }
   .collapsible-card { padding: 0; }
 }
 @media (prefers-reduced-motion: reduce) {

@@ -37,10 +37,9 @@ main > footer#sources { padding-top: 5px; }
 .sources-table .source-usage-col { width: var(--catalog-notes-width); }
 .research-table-wrap { border: 1px solid var(--line); border-radius: 8px; }
 .table-heading-row { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 20px; margin: 0 0 10px; }
-.table-title-group { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; min-width: 0; }
 .table-heading-row :is(h3, h4) { margin: 0; min-width: 0; }
 .table-heading-row h3 { font-size: 15px; }
-.table-return-links { display: flex; flex: 0 0 auto; justify-content: flex-end; gap: 14px; margin-left: auto; font-size: 12px; font-weight: 400; white-space: nowrap; }
+.table-return-links { display: flex; flex: 0 0 auto; align-items: baseline; justify-content: flex-end; gap: 14px; margin-left: auto; font-size: 12px; font-weight: 400; white-space: nowrap; }
 .region-nav { margin-bottom: 18px; }
 .region-nav a[aria-current="true"] { font-weight: 700; }
 .region-nav a, #research-notes > .evidence-nav a { font-weight: 700; text-decoration: none; }
@@ -58,13 +57,18 @@ main > footer#sources { padding-top: 5px; }
 .download-general-table .note-list li + li { margin-top: 3px; }
 .sources-table-wrap { border-radius: 8px; }
 .table-frame { position: relative; min-width: 0; }
-.table-frame:not(.is-table-expanded) table > tbody { display: none; }
-.table-frame:not(.is-table-expanded) .table-wrap { overflow-x: hidden; }
-.table-frame:not(.is-table-expanded) thead, .table-frame:not(.is-table-expanded) .sort-button { cursor: pointer; }
+.table-expand-prompt { display: flex; align-items: center; justify-content: center; gap: .5em; width: 100%; padding: 6px 8px; border: 1px solid var(--table-header-border); border-radius: 8px; background: #eaf0f8; color: var(--ink); font: inherit; font-size: 12px; font-weight: 600; cursor: pointer; }
+.table-expand-prompt[hidden] { display: none; }
+.table-expand-arrow { font-size: 1em; line-height: 1; }
+.table-expand-prompt:hover, .table-frame.is-table-expanded thead th:hover { background: #dfeaf9; }
 .table-toggle { flex: 0 0 auto; padding: 0; border: 0; background: transparent; color: var(--accent); font: inherit; font-size: 12px; font-weight: 400; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
 .table-toggle:hover { color: var(--accent-hover); }
+.table-frame .table-wrap { scrollbar-width: none; }
+.table-frame .table-wrap::-webkit-scrollbar { height: 0; }
 .table-wrap.is-scrollable { cursor: grab; touch-action: pan-y pinch-zoom; }
-.table-wrap.is-dragging { cursor: grabbing; user-select: none; }
+.table-wrap:is(.is-drag-held, .is-dragging) { cursor: ew-resize; }
+.table-wrap.is-dragging { scrollbar-width: thin; user-select: none; }
+.table-wrap.is-dragging::-webkit-scrollbar { height: 8px; }
 .sources-table tbody .source-reference { text-align: center; }
 .contents-list {
   display: block;
@@ -150,7 +154,7 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 #downloads .downloads-table :is(th, td):nth-child(n + 3),
 #downloads .download-general-table :is(th, td).notes-cell { vertical-align: top; }
 .downloads-table col:nth-child(1) { width: var(--catalog-version-width); }
-.downloads-table col:nth-child(2) { width: 238px; }
+.downloads-table col:nth-child(2) { width: calc(8ch + 28px); }
 .downloads-table col:nth-child(3) { width: 620px; }
 .downloads-table col:nth-child(4) { width: auto; }
 .downloads-table col:nth-child(5) { width: var(--catalog-notes-width); }
@@ -239,8 +243,8 @@ table td.dash-placeholder, table th.dash-placeholder, .download-size .dash-place
 @media print {
   .catalog-filters { display: none; }
   .table-toggle { display: none; }
-  .table-frame:not(.is-table-expanded) .table-wrap { overflow: visible; }
-  .table-frame:not(.is-table-expanded) table > tbody:not([hidden]) { display: table-row-group; }
+  .table-expand-prompt { display: none; }
+  .table-frame .table-wrap, .table-frame .table-wrap[hidden] { display: block; overflow: visible; }
   .version-table, .downloads-table, .hashes-table, .research-table, .sources-table { min-width: 0; }
   #title-carousel { grid-auto-columns: auto; }
 }
