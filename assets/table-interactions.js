@@ -32,9 +32,7 @@
     entry.button.setAttribute('aria-expanded', String(expanded));
     entry.button.setAttribute('aria-label', `${expanded ? 'Collapse' : 'Expand'} ${entry.label}`);
     entry.button.title = entry.button.getAttribute('aria-label');
-    entry.button.textContent = expanded ? 'Collapse' : 'Expand';
-    entry.prompt.hidden = expanded;
-    entry.prompt.setAttribute('aria-expanded', String(expanded));
+    entry.button.textContent = expanded ? '−' : '+';
     entry.wrapper.hidden = !expanded;
     if (!expanded) entry.wrapper.scrollLeft = 0;
     table.querySelectorAll('.sort-button').forEach(button => {
@@ -55,32 +53,21 @@
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'table-toggle';
-    const navigation = wrapper.previousElementSibling.querySelector('.table-return-links');
-    navigation.prepend(button);
-    const prompt = document.createElement('button');
-    prompt.type = 'button';
-    prompt.className = 'table-expand-prompt';
-    prompt.setAttribute('aria-label', `Click to Expand ${label}`);
-    const promptText = document.createElement('span');
-    promptText.textContent = 'Click to Expand';
-    const arrow = document.createElement('span');
-    arrow.className = 'table-expand-arrow';
-    arrow.setAttribute('aria-hidden', 'true');
-    arrow.textContent = '↓';
-    prompt.append(promptText, arrow);
+    const headingRow = wrapper.previousElementSibling;
+    headingRow.append(button);
     const bodyIds = [...table.tBodies].map((body, bodyIndex) => {
       if (!body.id) body.id = `catalog-table-${index + 1}-body-${bodyIndex + 1}`;
       return body.id;
     });
     button.setAttribute('aria-controls', bodyIds.join(' '));
-    prompt.setAttribute('aria-controls', bodyIds.join(' '));
     wrapper.before(frame);
-    frame.append(prompt, wrapper);
-    frames.set(table, { frame, wrapper, button, prompt, label });
+    frame.append(headingRow, wrapper);
+    frames.set(table, { frame, wrapper, button, label });
     button.addEventListener('click', () => setExpanded(table, button.getAttribute('aria-expanded') !== 'true'));
-    prompt.addEventListener('click', () => {
-      setExpanded(table, true);
-      wrapper.focus({ preventScroll: true });
+    headingRow.addEventListener('click', event => {
+      if (event.target.closest(interactive)) return;
+      setExpanded(table, button.getAttribute('aria-expanded') !== 'true');
+      button.focus({ preventScroll: true });
     });
     setExpanded(table, false);
   });

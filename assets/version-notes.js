@@ -14,6 +14,7 @@
     group.querySelector('.official-note-qualifier').textContent = showOriginal
       ? 'Original' : 'Translated';
     const action = showOriginal ? 'Show English translation' : `Show original ${button.dataset.originalLanguage} text`;
+    button.textContent = showOriginal ? '[English]' : `[${button.dataset.originalLanguage}]`;
     button.setAttribute('aria-pressed', String(showOriginal));
     button.setAttribute('aria-label', action);
     button.title = action;
