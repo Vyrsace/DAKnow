@@ -7,6 +7,11 @@
   let draggedWrapper = null;
   const interactive = 'a, button, input, select, textarea, summary, [contenteditable], [role="button"]';
 
+  function clearSelection(wrapper) {
+    const selection = window.getSelection();
+    if (selection?.anchorNode && wrapper.contains(selection.anchorNode)) selection.removeAllRanges();
+  }
+
   function refreshOverflow() {
     pending = false;
     frames.forEach(({ wrapper, frame }, table) => {
@@ -68,7 +73,10 @@
     if (!gesture || (event && event.pointerId !== gesture.pointerId)) return;
     const ended = gesture;
     gesture = null;
-    if (ended.dragging) draggedWrapper = ended.wrapper;
+    if (ended.dragging) {
+      draggedWrapper = ended.wrapper;
+      clearSelection(ended.wrapper);
+    }
     ended.wrapper.classList.remove('is-dragging');
     if (ended.wrapper.hasPointerCapture(ended.pointerId)) ended.wrapper.releasePointerCapture(ended.pointerId);
   }
@@ -94,8 +102,7 @@
       gesture.dragging = true;
       gesture.wrapper.classList.add('is-dragging');
       gesture.wrapper.setPointerCapture(event.pointerId);
-      const selection = window.getSelection();
-      if (selection?.anchorNode && gesture.wrapper.contains(selection.anchorNode)) selection.removeAllRanges();
+      clearSelection(gesture.wrapper);
     }
     event.preventDefault();
     gesture.wrapper.scrollLeft = Math.max(0, Math.min(gesture.wrapper.scrollWidth - gesture.wrapper.clientWidth, gesture.startLeft - horizontal));
@@ -106,6 +113,7 @@
   });
   document.addEventListener('click', event => {
     if (!draggedWrapper || event.detail === 0 || !draggedWrapper.contains(event.target)) return;
+    clearSelection(draggedWrapper);
     draggedWrapper = null;
     event.preventDefault();
     event.stopImmediatePropagation();
