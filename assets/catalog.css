@@ -48,7 +48,7 @@ main > footer#sources { padding-top: 5px; }
 .region-nav a[aria-current="true"] { font-weight: 700; }
 #catalog .region-nav { align-items: center; column-gap: 8px; }
 #catalog .region-nav a[data-version-region]:not([data-version-region=""]) { display: inline-flex; align-items: center; padding: 4px; border: 1px solid transparent; border-radius: 4px; }
-#catalog .region-nav a[data-version-region][aria-current="true"] { border-color: var(--selection-border); background: var(--selection-surface); }
+#catalog .region-nav a[data-version-region][aria-current="true"] { border-color: var(--action-border); background: var(--selection-surface); }
 #catalog .region-nav .region-flag { margin-inline-end: 0; }
 .region-nav a, #research-notes > .evidence-nav a { font-weight: 700; text-decoration: none; }
 .region-nav a:hover, .region-nav a:focus-visible,
