@@ -58,6 +58,8 @@ Archived Versions citations show the original publisher and linked Internet Arch
 
 Titles is the hero section: page introduction, Titles, Table of Contents, Versions, Downloads, Hashes, Verification, Research and Sources. Preserve the current carousel, responsive behavior and anchor IDs.
 
+Outer Titles controls sit below the cards, centered on the visible carousel viewport. Place the live range just above the paired arrows (2px row gap), with 10px above the control group. Arrows use 32px by 30px targets and 18px glyphs; retain muted/plum hover/focus colors and disabled endpoint feedback. Do not shrink nested image-gallery or popup controls. Versions and Downloads Region dropdown choices use the existing 3:2 flags at the adjacent label's font height, separated from their country names by 6px; retain ordinary checkbox and selected-state feedback.
+
 The Table of Contents container spans the same full width as the other section cards, sharing their left and right edges at every viewport size. Its bottom-to-Versions card gap matches the shared 10px gap between main section cards.
 
 Keep the existing body type and central 12px Consolas-first table typography, including its deliberate citation/route exceptions. Retain section padding, fitted fixed columns, scrollable table wrappers, default collapse, +/- controls, top-aligned download file slots, filters, sorting, translation switching and drag/swipe. The reference's shop layout, oversized headline, pill geometry and font are outside this color adaptation.

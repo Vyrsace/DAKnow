@@ -111,6 +111,16 @@
         const name = document.createElement('span');
         name.className = 'filter-option-label';
         name.textContent = value;
+        if (facet.id === 'region') {
+          input.setAttribute('aria-label', value);
+          const flag = document.querySelector(`.region-label[data-country="${CSS.escape(value)}"] .region-flag`)?.cloneNode();
+          if (flag) {
+            flag.alt = '';
+            flag.setAttribute('aria-hidden', 'true');
+            flag.draggable = false;
+            name.prepend(flag);
+          }
+        }
         label.append(input, name);
         if (!available.has(value)) {
           const hint = document.createElement('span');
