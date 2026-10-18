@@ -8,7 +8,7 @@
 }
 .footer-grid > * { min-width: 0; }
 .footer-copy { width: 100%; padding-block: 8px; border-bottom: 1px solid var(--card-border); }
-.footer-brand { font-weight: 700; }
+.footer-brand { font-weight: 700; color: var(--heading); }
 .footer-notices { display: flex; align-items: flex-end; justify-content: space-between; gap: 3px 24px; margin-top: 3px; }
 .footer-notices > p { min-width: 0; }
 .footer-affiliation { text-align: right; }
@@ -28,12 +28,12 @@
 .policy-nav a:hover { text-decoration: underline; }
 .policy-nav a[aria-current="page"] { color: var(--ink); }
 .policy-card { padding: 0; overflow: hidden; }
-.policy-card-heading { padding: 20px; border-bottom: 1px solid var(--card-border); }
-.policy-card-heading h2 { margin: 0 0 6px; font-size: 20px; color: #243f64; }
+.policy-card-heading { padding: 20px; border-bottom: 1px solid var(--card-border); background: var(--section-surface); }
+.policy-card-heading h2 { margin: 0 0 6px; font-size: 20px; color: var(--heading); }
 .policy-card-heading p { margin: 0; line-height: 1.5; }
 .policy-layout { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 28px; padding: 20px; }
 .policy-contents { align-self: start; position: sticky; top: 24px; }
-.policy-contents h3 { margin: 0 0 8px; font-size: 15px; color: #243f64; }
+.policy-contents h3 { margin: 0 0 8px; font-size: 15px; color: var(--heading); }
 .policy-contents ol { margin: 0; padding: 0; list-style: none; }
 .policy-contents li { margin: 4px 0; line-height: 1.45; }
 .policy-contents a { text-decoration: none; }
@@ -41,7 +41,7 @@
 .policy-body { min-width: 0; }
 .policy-body section { padding: 0; border: 0; scroll-margin-top: 24px; }
 .policy-body section + section { margin-top: 22px; }
-.policy-body h3 { margin: 0 0 7px; font-size: 16px; color: #243f64; }
+.policy-body h3 { margin: 0 0 7px; font-size: 16px; color: var(--heading); }
 .policy-body p { margin: 0; line-height: 1.6; }
 .policy-body p + p, .policy-body p + ul, .policy-body ul + p { margin-top: 8px; }
 .policy-body ul { margin: 0; padding-left: 18px; list-style-type: square; }

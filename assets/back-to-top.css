@@ -13,18 +13,18 @@
   width: 44px;
   height: 44px;
   padding: 0;
-  border: 1px solid var(--card-border, #9eafc5);
+  border: 1px solid var(--control-border);
   border-radius: 6px;
-  background: var(--paper, #fff);
-  color: var(--accent, #275caa);
+  background: var(--paper);
+  color: var(--accent);
   font: 24px/1 system-ui, sans-serif;
   cursor: pointer;
 }
 
 #back-to-top[hidden] { display: none !important; }
-#back-to-top:hover { background: var(--soft, #eef3fa); }
+#back-to-top:hover { background: var(--table-hover); }
 #back-to-top:focus-visible {
-  outline: 3px solid var(--focus, #779ed3);
+  outline: 3px solid var(--focus);
   outline-offset: 3px;
 }
 
