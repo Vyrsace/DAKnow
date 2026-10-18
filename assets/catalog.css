@@ -219,8 +219,9 @@ table td.dash-placeholder, table th.dash-placeholder, .download-size .dash-place
 .hashes-table col:nth-child(1) { width: var(--catalog-version-width); }
 .hashes-table col:nth-child(2) { width: 116px; }
 .hashes-table col:nth-child(3) { width: 205px; }
-.hashes-table col:nth-child(4) { width: auto; }
-.hashes-table col:nth-child(5) { width: var(--catalog-notes-width); }
+.hashes-table col:nth-child(4) { width: calc(64ch + 16px); }
+.hashes-table col:nth-child(5) { width: auto; }
+#hashes .region-nav { margin-bottom: 6px; }
 .catalog-table th, .catalog-table td { padding: 5px 8px; }
 .hash-version { font-weight: 650; font-variant-numeric: tabular-nums; }
 .hash-version a { text-decoration: none; }

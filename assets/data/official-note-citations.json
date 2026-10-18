@@ -1,5 +1,5 @@
 {
-  "format": "Official · italic translated/literal post title (publisher · linked archive, or source host) with its existing superscript reference",
+  "format": "Official · italic translated/literal post title (original publisher · linked archive, or linked named source) with its existing superscript reference",
   "sources": {
     "source-424": {
       "title": "어둠의 전설 2.12버전",
@@ -10,7 +10,9 @@
       "capture_sha256": "b70471968c7c6192dce7911c2bab69ff6bddfa4389ee2e61d6d3083e451f1f04",
       "selector": "first b article heading",
       "translation": "Legends of Darkness Version 2.12",
-      "publisher": "Nexon Korea"
+      "publisher": "Nexon Korea",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Korea · Internet Archive"
     },
     "source-425": {
       "title": "99.02.23 어둠의전설 2.14버전",
@@ -21,7 +23,9 @@
       "capture_sha256": "373e1c2b06a1a274a0a092de9abf399a5f0cc1c4e842d3f78007741016ae98b9",
       "selector": "first b article heading",
       "translation": "99.02.23 Legends of Darkness Version 2.14",
-      "publisher": "Nexon Korea"
+      "publisher": "Nexon Korea",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Korea · Internet Archive"
     },
     "source-426": {
       "title": "99.02.26 어둠의전설 2.15버전 분산서버운영",
@@ -32,7 +36,9 @@
       "capture_sha256": "4a9d32df95d96918539bae41f128bdcd39223e84ddeb1f0c50cb04a4874a9e67",
       "selector": "first b article heading",
       "translation": "99.02.26 Legends of Darkness Version 2.15 - Distributed Server Operation",
-      "publisher": "Nexon Korea"
+      "publisher": "Nexon Korea",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Korea · Internet Archive"
     },
     "source-427": {
       "title": "99.04.30 어둠의전설 2.16 버전",
@@ -43,7 +49,9 @@
       "capture_sha256": "dabed29006f76dc8ab078ea46194ad6bc0989678ede19eced1f532cbf65d0154",
       "selector": "first b article heading",
       "translation": "99.04.30 Legends of Darkness Version 2.16",
-      "publisher": "Nexon Korea"
+      "publisher": "Nexon Korea",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Korea · Internet Archive"
     },
     "source-26": {
       "title": "Client 2.25",
@@ -52,7 +60,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/33.xml",
       "capture": "archive/candle/repository/News/33.xml",
       "capture_sha256": "2194697119f0f0ea3fa7adb00168c4ecf339a33d3fa45b149d17237b6e7c97c3",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "Nexon US",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "Nexon US · Library of Loures"
     },
     "source-27": {
       "title": "40 New Clothing Variations (Circle 3)",
@@ -61,7 +73,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/46.xml",
       "capture": "archive/candle/repository/News/46.xml",
       "capture_sha256": "5a2bedcb51c8c57172529228f74ad034797394e3ecf04fea71c24cecb3c6e979",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "Nexon US",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "Nexon US · Library of Loures"
     },
     "source-28": {
       "title": "Client 2.27",
@@ -70,7 +86,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/115.xml",
       "capture": "archive/candle/repository/News/115.xml",
       "capture_sha256": "dc6c157403af5308c5f4bd5c6c0912cfcc50b2cdfb9b7d35390b185fa124c171",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "Nexon US",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "Nexon US · Library of Loures"
     },
     "source-428": {
       "title": "3.03 패치",
@@ -81,7 +101,9 @@
       "capture_sha256": "7e4396a75d85a0334ee8fd5f04fa075715e0313102e802cec8546cdf08d972f6",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "3.03 Patch",
-      "publisher": "Nexon Korea"
+      "publisher": "Nexon Korea",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Korea · Internet Archive"
     },
     "source-429": {
       "title": "3.03 패치",
@@ -92,7 +114,9 @@
       "capture_sha256": "f276b785de36e9961d6eb38b6dcb01612bd80427ea11672b014d794193e78173",
       "selector": "first b article heading",
       "translation": "3.03 Patch",
-      "publisher": "Nexon Korea"
+      "publisher": "Nexon Korea",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Korea · Internet Archive"
     },
     "source-430": {
       "title": "3.04 버전 패치",
@@ -103,7 +127,9 @@
       "capture_sha256": "4290b1000a541c136086e0403922b04b75e3eb8bb1644155f4964c2aea957803",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "Version 3.04 Patch",
-      "publisher": "Nexon Korea"
+      "publisher": "Nexon Korea",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Korea · Internet Archive"
     },
     "source-431": {
       "title": "어둠의 전설 3.10버전 패치",
@@ -114,7 +140,9 @@
       "capture_sha256": "f6cb38d297c6067a800dda7ee7292ccc8c0bb164090260f8d6e17c03744978e0",
       "selector": "first b article heading",
       "translation": "Legends of Darkness Version 3.10 Patch",
-      "publisher": "Nexon Korea"
+      "publisher": "Nexon Korea",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Korea · Internet Archive"
     },
     "source-432": {
       "title": "3.11 패치 공지",
@@ -125,7 +153,9 @@
       "capture_sha256": "cd04f6e1c6176da52481d230bc690c9c03d6729e02ec1b5f305d77d86661dbaa",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "3.11 Patch Notice",
-      "publisher": "Nexon Korea"
+      "publisher": "Nexon Korea",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Korea · Internet Archive"
     },
     "source-32": {
       "title": "Version 3.5",
@@ -134,7 +164,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/238.xml",
       "capture": "archive/candle/repository/News/238.xml",
       "capture_sha256": "a4852838a66e4a31e0182120ffbe6afe9e5b992cff6b38378ea935dddea371bb",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "Nexon US",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "Nexon US · Library of Loures"
     },
     "source-433": {
       "title": "3.50패치 안내",
@@ -145,7 +179,9 @@
       "capture_sha256": "3e3788216b41788a708c488fc2acb1442a286270a6faad5f228067c128b0693b",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "3.50 Patch Notice",
-      "publisher": "Nexon Korea"
+      "publisher": "Nexon Korea",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Korea · Internet Archive"
     },
     "source-434": {
       "title": "어둠의 전설 3,5 패치 내용 안내!!!!",
@@ -156,7 +192,9 @@
       "capture_sha256": "02f94741a28ed87f622c0f1e4f93caa5bd3d5bd4d8e5281fbbb8b05cacd0cb89",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "Legends of Darkness 3.5 Patch Details!!!!",
-      "publisher": "Nexon Korea"
+      "publisher": "Nexon Korea",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Korea · Internet Archive"
     },
     "source-4": {
       "title": "Dark Ages Beta : Item Wipe",
@@ -166,7 +204,9 @@
       "capture": "sources/version-research/2026-10-14/sea/sg-news-september-2000.html",
       "capture_sha256": "bc2e83fb60376644477669cf83324704589059ca6b3641a7fb32c324dc954494",
       "selector": "b preceding the quoted compatibility paragraph",
-      "publisher": "NexonAsia"
+      "publisher": "NexonAsia",
+      "link_label": "Internet Archive",
+      "source_label": "NexonAsia · Internet Archive"
     },
     "source-435": {
       "title": "어둠의전설 3.6 패치 공지",
@@ -177,7 +217,9 @@
       "capture_sha256": "5efe34512ce797680650176bf0fe051b35902c31ef8fa000a67790be09174b2a",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "Legends of Darkness 3.6 Patch Notice",
-      "publisher": "Nexon Korea"
+      "publisher": "Nexon Korea",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Korea · Internet Archive"
     },
     "source-436": {
       "title": "어둠의 전설 3.6 패치 안내",
@@ -188,7 +230,9 @@
       "capture_sha256": "544e5f8fb8cf3441ace7ad21df4d5db5b6cc3c12c8ec66688c1386cdffac6ada",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "Legends of Darkness 3.6 Patch Notice",
-      "publisher": "Nexon Korea"
+      "publisher": "Nexon Korea",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Korea · Internet Archive"
     },
     "source-437": {
       "title": "게임의 전설 어둠의 3.61패치!",
@@ -199,7 +243,9 @@
       "capture_sha256": "dc34d3fc1024f4587abd8f30542f990aa31bc9ead031a8b6ccce2c21ec9a329d",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "The Legend of Games: Legends of Darkness 3.61 Patch!",
-      "publisher": "Nexon Korea"
+      "publisher": "Nexon Korea",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Korea · Internet Archive"
     },
     "source-43": {
       "title": "Dark Ages 3.73",
@@ -208,7 +254,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/442.xml",
       "capture": "archive/candle/repository/News/442.xml",
       "capture_sha256": "988ca5cc472197657f03339ff70418d98ea62b00ef422da0fca03bb115f731eb",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "Nexon US",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "Nexon US · Library of Loures"
     },
     "source-438": {
       "title": "어둠의전설 4.2 패치 공지",
@@ -219,7 +269,9 @@
       "capture_sha256": "8c5907bdc59eddcdd05e778cfb7b232adcf3944e8695cc45891b84d4f09aab6a",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "Legends of Darkness 4.2 Patch Notice",
-      "publisher": "Nexon Korea"
+      "publisher": "Nexon Korea",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Korea · Internet Archive"
     },
     "source-447": {
       "title": "定期メンテナンスが終了しました",
@@ -230,7 +282,9 @@
       "capture_sha256": "d80bf3ff02f08ac5b11107e976d42756961edc8b8b64c39ac87af483d94cc844",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "Scheduled Maintenance Has Ended",
-      "publisher": "Nexon Japan"
+      "publisher": "Nexon Japan",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Japan · Internet Archive"
     },
     "source-53": {
       "title": "Dark Ages 4.51 Launches On Monday",
@@ -239,7 +293,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/493.xml",
       "capture": "archive/candle/repository/News/493.xml",
       "capture_sha256": "00c891e4d7f4532aa03c5528d558359891d2207c59ddf00eef84c4de7e34a5bd",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "Nexon US",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "Nexon US · Library of Loures"
     },
     "source-54": {
       "title": "Dark Ages 4.51 available for download",
@@ -248,7 +306,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/494.xml",
       "capture": "archive/candle/repository/News/494.xml",
       "capture_sha256": "38ed9dd089a93d2ef5ac90a4b1d86b94619438d038d5b15103a08e6dee7b90cc",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "Nexon US",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "Nexon US · Library of Loures"
     },
     "source-448": {
       "title": "Version 4.52 sの導入予定日時について",
@@ -259,7 +321,9 @@
       "capture_sha256": "89a413fae10efc13c28ebc4f31d9bd202b1cf76331550a90c545ddb85af4aa70",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "Scheduled Introduction Date and Time for Version 4.52 s",
-      "publisher": "Nexon Japan"
+      "publisher": "Nexon Japan",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Japan · Internet Archive"
     },
     "source-600": {
       "title": "Version 5.00の導入予定日時について",
@@ -270,7 +334,9 @@
       "capture_sha256": "7162d372413ad644d98ee4a96d761a7fe133dcc8117a00b7e59f86fc9e4591fe",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "Scheduled Introduction Date and Time for Version 5.00",
-      "publisher": "Nexon Japan"
+      "publisher": "Nexon Japan",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Japan · Internet Archive"
     },
     "source-450": {
       "title": "Version 5.20の導入予定日時について",
@@ -281,7 +347,9 @@
       "capture_sha256": "5053ea62eb6fa4f384e6530f0f50f93b2ada06583312bb7fe4724dfb23178480",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "Scheduled Introduction Date and Time for Version 5.20",
-      "publisher": "Nexon Japan"
+      "publisher": "Nexon Japan",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Japan · Internet Archive"
     },
     "source-451": {
       "title": "Version 5.21の導入予定日時について",
@@ -292,7 +360,9 @@
       "capture_sha256": "0ace7f624c84d1c82d84f6f07bb4151e86c89f93c29b500b0ca665d6c4e84159",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "Scheduled Introduction Date and Time for Version 5.21",
-      "publisher": "Nexon Japan"
+      "publisher": "Nexon Japan",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Japan · Internet Archive"
     },
     "source-453": {
       "title": "Version 5.22の導入予定日時について",
@@ -303,7 +373,9 @@
       "capture_sha256": "679144b560845ff163496d197b1c4161e7739c60d6b5c82dc8e2075b91032f00",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "Scheduled Introduction Date and Time for Version 5.22",
-      "publisher": "Nexon Japan"
+      "publisher": "Nexon Japan",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Japan · Internet Archive"
     },
     "source-454": {
       "title": "サーバー移転に伴うアップデートのお知らせ",
@@ -314,7 +386,9 @@
       "capture_sha256": "a2fa3ba7364d49440d2db115a5d652f1b751cace0ca2b553d6d1dd93df8d6ac5",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "Update Notice for the Server Migration",
-      "publisher": "Nexon Japan"
+      "publisher": "Nexon Japan",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Japan · Internet Archive"
     },
     "source-455": {
       "title": "バージョンアップに伴うアップデート方法について",
@@ -325,7 +399,9 @@
       "capture_sha256": "61e7755de976fa7b4f14ee39f22a71cf95cd116f322f335f6b61e9d87df1a38f",
       "selector": ".notice_title td:nth-child(2)",
       "translation": "How to Update for the Version Upgrade",
-      "publisher": "Nexon Japan"
+      "publisher": "Nexon Japan",
+      "link_label": "Internet Archive",
+      "source_label": "Nexon Japan · Internet Archive"
     },
     "source-68": {
       "title": "Snow Storm ((Dark Ages 5.51))",
@@ -334,7 +410,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/634.xml",
       "capture": "archive/candle/repository/News/634.xml",
       "capture_sha256": "94cfe37dd0efcb4fc3dbdef3d9354e19ab86190ce64c87fb157c8feef76fe5f1",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "Nexon US",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "Nexon US · Library of Loures"
     },
     "source-325": {
       "title": "어둠의전설 V5.70패치 안내",
@@ -344,7 +424,10 @@
       "capture": "sources/version-research/2026-10-13/news-notice-1025.html",
       "capture_sha256": "b33aa9f06c2c8cd69b2f917767e1207fdb99a91b5e3fe5514ce8ae221158abd8",
       "selector": ".view_subject",
-      "translation": "Legends of Darkness V5.70 Patch Notice"
+      "translation": "Legends of Darkness V5.70 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-326": {
       "title": "어둠의전설 V5.80패치 안내!",
@@ -354,7 +437,10 @@
       "capture": "sources/version-research/2026-10-13/news-notice-1090.html",
       "capture_sha256": "ffab5b4ac61353f7e3a37d59ba22656e4e23d03a3bb0ea8423483030948d0cd4",
       "selector": ".view_subject",
-      "translation": "Legends of Darkness V5.80 Patch Notice!"
+      "translation": "Legends of Darkness V5.80 Patch Notice!",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-327": {
       "title": "어둠의전설 V5.90 패치 안내",
@@ -364,7 +450,10 @@
       "capture": "sources/version-research/2026-10-13/news-notice-1172.html",
       "capture_sha256": "69e41cdaca4b4a36edc060bb99f513f8e2960d6195a7feda045e4e9d8d67ced1",
       "selector": ".view_subject",
-      "translation": "Legends of Darkness V5.90 Patch Notice"
+      "translation": "Legends of Darkness V5.90 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-74": {
       "title": "Dark Ages 7.03",
@@ -373,7 +462,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/725.xml",
       "capture": "archive/candle/repository/News/725.xml",
       "capture_sha256": "7b3a8993b254639c4c1ddef6edc064b43b336262157aca05cd207ddaa824e9cb",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-76": {
       "title": "Dark Ages 7.03 Released!!!",
@@ -382,7 +475,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/727.xml",
       "capture": "archive/candle/repository/News/727.xml",
       "capture_sha256": "335eb21a21031a761c0b18b78f6d08d45a18490b8f063779cde63b59aa81285c",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-78": {
       "title": "Dark Ages 7.04",
@@ -391,7 +488,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/745.xml",
       "capture": "archive/candle/repository/News/745.xml",
       "capture_sha256": "37ee51bf456e02127218f12e5caec9ba8bb109f950f8b2b22bc40579adbb6597",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-88": {
       "title": "Dark Ages 7.1 patch on 03/14",
@@ -400,7 +501,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/787.xml",
       "capture": "archive/candle/repository/News/787.xml",
       "capture_sha256": "2cffb676e3c9f150026e0ee0fe1a990bdbb7d9a4bd8d8ac4b98d5f3ac547abcc",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-93": {
       "title": "7.11 patch on 04/05",
@@ -409,7 +514,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/790.xml",
       "capture": "archive/candle/repository/News/790.xml",
       "capture_sha256": "be79d259176281601ec22e8a40ffc772e2cf51bf199cfbe3ec8952f41d08154f",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-100": {
       "title": "7.12 Patch (May 31st)",
@@ -418,7 +527,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/802.xml",
       "capture": "archive/candle/repository/News/802.xml",
       "capture_sha256": "37a032abc287585845adb2c9338895bcbc4eba709945914e2eb8bf9e85e44464",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-101": {
       "title": "Dark Ages 7.13 patch",
@@ -427,7 +540,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/808.xml",
       "capture": "archive/candle/repository/News/808.xml",
       "capture_sha256": "c07bc8104cd2fcba488d617ba12507b09e3ff7c7e56f921ff5dfccaa2179d29d",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-106": {
       "title": "Patch 7.18 and Window Client Beta",
@@ -436,7 +553,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/820.xml",
       "capture": "archive/candle/repository/News/820.xml",
       "capture_sha256": "699061f5ee078096b8a53390299a3c309788e958166ba955dd5ae156dc5791e3",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-108": {
       "title": "Dark Ages 7.19",
@@ -445,7 +566,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/839.xml",
       "capture": "archive/candle/repository/News/839.xml",
       "capture_sha256": "2d384c930e9c34b7722992244e924e630e303059558c6c326a4242f723aa470f",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-115": {
       "title": "Dark Ages 7.20",
@@ -454,7 +579,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/873.xml",
       "capture": "archive/candle/repository/News/873.xml",
       "capture_sha256": "72422b258e316df5670a5d23486a1c567d5992722096752f70cd3b386cb3b759",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-116": {
       "title": "Dark Ages 7.21",
@@ -463,7 +592,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/874.xml",
       "capture": "archive/candle/repository/News/874.xml",
       "capture_sha256": "aa2b188c0db11f443368712311d90a4c8ade93d0c2502ca0a5707fc8e62f77c4",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-122": {
       "title": "Dark Ages 7.24",
@@ -472,7 +605,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/919.xml",
       "capture": "archive/candle/repository/News/919.xml",
       "capture_sha256": "afb97f9155dc7e60a1fbafe3cb2d50853f546d8f78f89b1336de3098979ffc4c",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-123": {
       "title": "Dark Ages 7.25",
@@ -481,7 +618,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/920.xml",
       "capture": "archive/candle/repository/News/920.xml",
       "capture_sha256": "70bb0d7136eb84bada940f64feb5d9b7069c752f478d0978984760e65b0e2c4d",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-127": {
       "title": "Dark Ages 7.29",
@@ -490,7 +631,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/956.xml",
       "capture": "archive/candle/repository/News/956.xml",
       "capture_sha256": "f97e23096ea3bbe2da9c4e3e8abf6f9d6d7cb409e18ee1c007cde4a9598b4111",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-130": {
       "title": "Dark Ages 7.30",
@@ -499,7 +644,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/1003.xml",
       "capture": "archive/candle/repository/News/1003.xml",
       "capture_sha256": "94265a8029f4ce11724e235c6a6a0ad11fbca0f5d4e04630b338b9b2002a281e",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-135": {
       "title": "DA Patch 7.32 - New Mounts & Updates",
@@ -508,7 +657,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/1014.xml",
       "capture": "archive/candle/repository/News/1014.xml",
       "capture_sha256": "87d8f7396ffdfd6cf741bd2d0ada842e838131f461ae00b6a1c729c2894785e6",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-138": {
       "title": "DA Patch 7.33 - Itemshop & Updates",
@@ -517,7 +670,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/1017.xml",
       "capture": "archive/candle/repository/News/1017.xml",
       "capture_sha256": "8520d780fd74abbbb5ef38aa877ea5cbbb83d2ee2ddf8962f34cdee461b58b0d",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-141": {
       "title": "DA Patch 7.34",
@@ -526,7 +683,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/1024.xml",
       "capture": "archive/candle/repository/News/1024.xml",
       "capture_sha256": "268281e688df1f9451c15df2d30b825b670ab56ddd0ec49bc9101f06aa25d72c",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-143": {
       "title": "DA Patch 7.35",
@@ -535,7 +696,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/1026.xml",
       "capture": "archive/candle/repository/News/1026.xml",
       "capture_sha256": "93b491b3be34478c47f73581bbd8abba6e3f300759a4b9071d996e4a53cc15d8",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-147": {
       "title": "DA Patch 7.36",
@@ -544,7 +709,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/1034.xml",
       "capture": "archive/candle/repository/News/1034.xml",
       "capture_sha256": "9d9909d6133eecee19d5c77a001f5a40a017b520e973709ea6fe9e0b63402447",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-148": {
       "title": "DA Patch 7.37",
@@ -553,7 +722,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/1057.xml",
       "capture": "archive/candle/repository/News/1057.xml",
       "capture_sha256": "00db811a823591bc5928d877129d53fcc22bda691caf9ef55d32d57dd3e74087",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-150": {
       "title": "DA Patch 7.38",
@@ -562,7 +735,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/1070.xml",
       "capture": "archive/candle/repository/News/1070.xml",
       "capture_sha256": "0a3ced3fb48570f5fd7329513a719ea3651f6c12fa1b979de3a134029425c706",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-151": {
       "title": "DA Patch 7.39 + Events",
@@ -571,7 +748,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/1088.xml",
       "capture": "archive/candle/repository/News/1088.xml",
       "capture_sha256": "3b3fdc5ed152ac232419f9b0d078ba295bc5fb4d7128841ca66778863825050a",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-154": {
       "title": "DA Patch 7.40 + Updates",
@@ -580,7 +761,11 @@
       "url": "https://github.com/eriscorp/candle/blob/main/News/1169.xml",
       "capture": "archive/candle/repository/News/1169.xml",
       "capture_sha256": "fdb2ac604dfbdfaa768ed3de9d8e326f74a79ee1ad97b6198cf875f4f5270e52",
-      "selector": "NewsArticle/Title"
+      "selector": "NewsArticle/Title",
+      "publisher": "KRU Interactive",
+      "archive": "Library of Loures",
+      "link_label": "Library of Loures",
+      "source_label": "KRU Interactive · Library of Loures"
     },
     "source-328": {
       "title": "05/18(목) 상용 서버 v8660 패치 안내 (수정)",
@@ -590,7 +775,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4521.html",
       "capture_sha256": "7051307e1da5c09f83d37fb9a04ef7624473ebb9f2a5acc54f34c9ac5b9cfa7f",
       "selector": ".view_subject",
-      "translation": "05/18 (Thu) Production Server v8660 Patch Notice (Revised)"
+      "translation": "05/18 (Thu) Production Server v8660 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-329": {
       "title": "05/18(목) 상용 서버 v8680 패치 안내 (수정)",
@@ -600,7 +788,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4522.html",
       "capture_sha256": "e9c0f7b2ca29a291039902909e33fc82ff647c9511b7c33ee95d2a779c11d793",
       "selector": ".view_subject",
-      "translation": "05/18 (Thu) Production Server v8680 Patch Notice (Revised)"
+      "translation": "05/18 (Thu) Production Server v8680 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-330": {
       "title": "05/18(목) 상용 서버 v8700 패치 안내 (수정)",
@@ -610,7 +801,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4525.html",
       "capture_sha256": "0305a12cc8e473ad3a32b8dbb63dd29a13d6b04ff116b12149d3a813810b7be2",
       "selector": ".view_subject",
-      "translation": "05/18 (Thu) Production Server v8700 Patch Notice (Revised)"
+      "translation": "05/18 (Thu) Production Server v8700 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-331": {
       "title": "[정기점검] 정식 서비스 서버 v8720 패치 안내 (오전 10시 30분 ~) (수정)",
@@ -620,7 +814,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4537.html",
       "capture_sha256": "e7ab91a32b707f3d0c4cf0e173788b25fe1e7a9325cb84061b5cb9649d6b8611",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] Production Server v8720 Patch Notice (from 10:30 a.m.) (Revised)"
+      "translation": "[Scheduled Maintenance] Production Server v8720 Patch Notice (from 10:30 a.m.) (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-332": {
       "title": "07/27(목) 정식 서비스 서버 v8760 패치 안내 (수정)",
@@ -630,7 +827,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4553.html",
       "capture_sha256": "51c03b4dd397de1511b1d24c082dcf52f3149d50fd9f03a8364a05fe7ef2bd38",
       "selector": ".view_subject",
-      "translation": "07/27 (Thu) Production Server v8760 Patch Notice (Revised)"
+      "translation": "07/27 (Thu) Production Server v8760 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-333": {
       "title": "07/28(금) 정식 서비스 서버 v8780 패치 (오후 06시 ~) (수정)",
@@ -640,7 +840,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4559.html",
       "capture_sha256": "fa65d56c97c3a702550fff943059889b94c9fd08f238b505173e295a6b35be52",
       "selector": ".view_subject",
-      "translation": "07/28 (Fri) Production Server v8780 Patch (from 6 p.m.) (Revised)"
+      "translation": "07/28 (Fri) Production Server v8780 Patch (from 6 p.m.) (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-334": {
       "title": "05/12(금) 하데스 서버 v8790 패치 안내 (수정)",
@@ -650,7 +853,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4520.html",
       "capture_sha256": "94510e2f3410dff097aa736c8c29aafdb4c82c8643e9809a5e5f0feeab83af3f",
       "selector": ".view_subject",
-      "translation": "05/12 (Fri) Hades Server v8790 Patch Notice (Revised)"
+      "translation": "05/12 (Fri) Hades Server v8790 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-335": {
       "title": "05/17(수) 하데스 서버 v8810 패치 안내 (수정)",
@@ -660,7 +866,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4524.html",
       "capture_sha256": "d592a5d21b59da29831606386b6d7122edb8a4991a3e05b61a301344f84d8917",
       "selector": ".view_subject",
-      "translation": "05/17 (Wed) Hades Server v8810 Patch Notice (Revised)"
+      "translation": "05/17 (Wed) Hades Server v8810 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-336": {
       "title": "08/18(금) 정식 서비스 서버 v8820 패치 (수정)",
@@ -670,7 +879,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4591.html",
       "capture_sha256": "ad8e27bb4085c9413eb022ed3cf3fd0983fba8e4d09abb9f7ef4080c52b3f2b7",
       "selector": ".view_subject",
-      "translation": "08/18 (Fri) Production Server v8820 Patch (Revised)"
+      "translation": "08/18 (Fri) Production Server v8820 Patch (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-337": {
       "title": "05/18(목) 하데스 서버 v8830 패치 안내",
@@ -680,7 +892,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4526.html",
       "capture_sha256": "e790acf7af57cbb11569d5131dea56db828f668800e36b793076c8410859db3e",
       "selector": ".view_subject",
-      "translation": "05/18 (Thu) Hades Server v8830 Patch Notice"
+      "translation": "05/18 (Thu) Hades Server v8830 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-338": {
       "title": "[정기점검] 08/24(목) 정식 서비스 서버 v8840 패치",
@@ -690,7 +905,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4576.html",
       "capture_sha256": "dacc2421ec18a673bd6bcc8e76af611ba6ebe23082c70c66ef5558366beb1355",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 08/24 (Thu) Production Server v8840 Patch"
+      "translation": "[Scheduled Maintenance] 08/24 (Thu) Production Server v8840 Patch",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-339": {
       "title": "v8840 패치 이후 게임 실행 불가 관련안내",
@@ -700,7 +918,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4577.html",
       "capture_sha256": "8204911136698ca912fab515cf4d07f8df703a83bd06e80d3f912555af951fa0",
       "selector": ".view_subject",
-      "translation": "Notice on Inability to Launch the Game after the v8840 Patch"
+      "translation": "Notice on Inability to Launch the Game after the v8840 Patch",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-340": {
       "title": "05/19(금) 하데스 서버 v8850 패치 안내 (수정)",
@@ -710,7 +931,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4527.html",
       "capture_sha256": "b121873b1fbd18390089b3ecf4498bca6b3a1182301b9ac1215e03b0d48c144e",
       "selector": ".view_subject",
-      "translation": "05/19 (Fri) Hades Server v8850 Patch Notice (Revised)"
+      "translation": "05/19 (Fri) Hades Server v8850 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-341": {
       "title": "08/25(금) 정식 서비스 서버 v8860 패치 안내 (수정)",
@@ -720,7 +944,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4579.html",
       "capture_sha256": "d3666b91042f0631727379d7c476c5c2ffede78f28af6c2dec8b6ee8b21e4350",
       "selector": ".view_subject",
-      "translation": "08/25 (Fri) Production Server v8860 Patch Notice (Revised)"
+      "translation": "08/25 (Fri) Production Server v8860 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-342": {
       "title": "06/01(목) 하데스 서버 v8870 패치 안내",
@@ -730,7 +957,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4532.html",
       "capture_sha256": "40ec8b016efe7c42335996681292c68dac5ddaad89869dd1fb7c8757b7c279b0",
       "selector": ".view_subject",
-      "translation": "06/01 (Thu) Hades Server v8870 Patch Notice"
+      "translation": "06/01 (Thu) Hades Server v8870 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-343": {
       "title": "[정기점검] 08/31(목) 정식 서비스 서버 v8880 패치",
@@ -740,7 +970,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4584.html",
       "capture_sha256": "ca95e7f3a828230bddb57ecd674cc0adc7059b382275ae56016400554bd0f761",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 08/31 (Thu) Production Server v8880 Patch"
+      "translation": "[Scheduled Maintenance] 08/31 (Thu) Production Server v8880 Patch",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-344": {
       "title": "06/01(목) 하데스 서버 v8890 패치 안내",
@@ -750,7 +983,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4533.html",
       "capture_sha256": "4d93a5b20e3253dc6aed0a2b5c70e7989100ed0967e28c8fa44f0f34cdd646b3",
       "selector": ".view_subject",
-      "translation": "06/01 (Thu) Hades Server v8890 Patch Notice"
+      "translation": "06/01 (Thu) Hades Server v8890 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-345": {
       "title": "09/08(금) 정식 서비스 서버 v8900 패치 (수정)",
@@ -760,7 +996,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4590.html",
       "capture_sha256": "d8bb596420edbdb5c83e4f2071bab10328609ff7e2df24e8c2836ec4acd0ed12",
       "selector": ".view_subject",
-      "translation": "09/08 (Fri) Production Server v8900 Patch (Revised)"
+      "translation": "09/08 (Fri) Production Server v8900 Patch (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-346": {
       "title": "06/07(수) 하데스 서버 v8910 패치 안내",
@@ -770,7 +1009,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4534.html",
       "capture_sha256": "a836b3983223a0197c31d609554cccc00e897a8500504e34378e057bf6f7ee99",
       "selector": ".view_subject",
-      "translation": "06/07 (Wed) Hades Server v8910 Patch Notice"
+      "translation": "06/07 (Wed) Hades Server v8910 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-347": {
       "title": "09/15(금) 정식 서비스 서버 v8920 패치 안내",
@@ -780,7 +1022,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4621.html",
       "capture_sha256": "ae163a6290e45faab7b25d85844a78d5528573d784dd2b42e87061c190837e8f",
       "selector": ".view_subject",
-      "translation": "09/15 (Fri) Production Server v8920 Patch Notice"
+      "translation": "09/15 (Fri) Production Server v8920 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-348": {
       "title": "07/06(목) 하데스 서버 v8930 패치 안내",
@@ -790,7 +1035,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4574.html",
       "capture_sha256": "dcd4b76a4dc50334e83cc37f03921098c981efd270388a4e29b8593c81896aa9",
       "selector": ".view_subject",
-      "translation": "07/06 (Thu) Hades Server v8930 Patch Notice"
+      "translation": "07/06 (Thu) Hades Server v8930 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-349": {
       "title": "09/21(목) 정식 서비스 서버 v8940 패치 안내 (수정)",
@@ -800,7 +1048,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4601.html",
       "capture_sha256": "3546904ef4ec581315dccdbc9b7cae506aadff45c74f9fb5c60775172e20e1c7",
       "selector": ".view_subject",
-      "translation": "09/21 (Thu) Production Server v8940 Patch Notice (Revised)"
+      "translation": "09/21 (Thu) Production Server v8940 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-350": {
       "title": "07/18(화) 하데스 서버 v8950 패치 안내",
@@ -810,7 +1061,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4548.html",
       "capture_sha256": "220e5da998d18f244eb85df5dcbe4eca858b1a1f908e401c75f1a8e50861a05c",
       "selector": ".view_subject",
-      "translation": "07/18 (Tue) Hades Server v8950 Patch Notice"
+      "translation": "07/18 (Tue) Hades Server v8950 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-351": {
       "title": "07/21(금) 하데스 서버 v8970 패치 안내",
@@ -820,7 +1074,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4552.html",
       "capture_sha256": "6243c71b262c66cc26917b2e2d3e1652d02adf4e48c7bd0596fae45e689a46a5",
       "selector": ".view_subject",
-      "translation": "07/21 (Fri) Hades Server v8970 Patch Notice"
+      "translation": "07/21 (Fri) Hades Server v8970 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-352": {
       "title": "10/13(금) 정식 서비스 서버 v8980 패치 안내 (수정)",
@@ -830,7 +1087,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4602.html",
       "capture_sha256": "ecdc500eb098d6693dd5941e1acf67536fd96b29a1239b5ab0d99b63b0e679c5",
       "selector": ".view_subject",
-      "translation": "10/13 (Fri) Production Server v8980 Patch Notice (Revised)"
+      "translation": "10/13 (Fri) Production Server v8980 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-353": {
       "title": "07/25(화) 하데스 서버 v8990 패치 안내",
@@ -840,7 +1100,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4550.html",
       "capture_sha256": "ca8cf6ec1ca99ba1f1a8a1bc9a04316a94201201c6b5e21e2d2c96e19432957c",
       "selector": ".view_subject",
-      "translation": "07/25 (Tue) Hades Server v8990 Patch Notice"
+      "translation": "07/25 (Tue) Hades Server v8990 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-354": {
       "title": "07/25(화) 하데스 서버 v9010 패치 안내 (수정)",
@@ -850,7 +1113,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4551.html",
       "capture_sha256": "bf6d70e61af0d6c82c7e061ba4a1238a182a5857d82aec88e1503c49efe4cdec",
       "selector": ".view_subject",
-      "translation": "07/25 (Tue) Hades Server v9010 Patch Notice (Revised)"
+      "translation": "07/25 (Tue) Hades Server v9010 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-355": {
       "title": "07/28(금) 하데스 서버 v9030 패치 안내 (수정)",
@@ -860,7 +1126,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4558.html",
       "capture_sha256": "cfb602b0f19eb9a6e8a06d488f52d8c41b23a47641b8eacef7f429ae63cfef69",
       "selector": ".view_subject",
-      "translation": "07/28 (Fri) Hades Server v9030 Patch Notice (Revised)"
+      "translation": "07/28 (Fri) Hades Server v9030 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-356": {
       "title": "08/10(목) 하데스 서버 v9070 패치 안내 (수정)",
@@ -870,7 +1139,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4565.html",
       "capture_sha256": "ed7392de1709736e4352ae523d27aa37efde2ec32d84afb85e2ede7d6b8bbcf7",
       "selector": ".view_subject",
-      "translation": "08/10 (Thu) Hades Server v9070 Patch Notice (Revised)"
+      "translation": "08/10 (Thu) Hades Server v9070 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-357": {
       "title": "[정기점검] 11/16(목) 정식 서비스 서버 v9100 패치 안내 (수정)",
@@ -880,7 +1152,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4613.html",
       "capture_sha256": "7a018bc0e23215cd6d94d078860792577b6433ee1a08f840a4c99917fddf96de",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 11/16 (Thu) Production Server v9100 Patch Notice (Revised)"
+      "translation": "[Scheduled Maintenance] 11/16 (Thu) Production Server v9100 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-358": {
       "title": "[정기점검] 11/23(목) 정식 서비스 서버 v9120 패치 안내 (수정)",
@@ -890,7 +1165,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4623.html",
       "capture_sha256": "e1242492e89ae152739c6dd0182e7cb7c114967f1a15aae8e1738c7f0dc8efb9",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 11/23 (Thu) Production Server v9120 Patch Notice (Revised)"
+      "translation": "[Scheduled Maintenance] 11/23 (Thu) Production Server v9120 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-359": {
       "title": "08/11(금) 하데스 서버 v9130 패치 안내 (수정)",
@@ -900,7 +1178,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4567.html",
       "capture_sha256": "c51a53ebf71efb4b5450af1c852612bd2a1b1f757488a0df8fd5ac942849efe3",
       "selector": ".view_subject",
-      "translation": "08/11 (Fri) Hades Server v9130 Patch Notice (Revised)"
+      "translation": "08/11 (Fri) Hades Server v9130 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-360": {
       "title": "08/16(수) 하데스 서버 v9150 패치 안내",
@@ -910,7 +1191,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4568.html",
       "capture_sha256": "ac873f2daec3c17af46f3f1c6681fd91e287a20d39b22f98dbc9a12b199105c4",
       "selector": ".view_subject",
-      "translation": "08/16 (Wed) Hades Server v9150 Patch Notice"
+      "translation": "08/16 (Wed) Hades Server v9150 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-361": {
       "title": "[정기점검] 11/30(목) 정식 서비스 서버 v9160 패치 안내 (수정)",
@@ -920,7 +1204,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4617.html",
       "capture_sha256": "6092e4f47d2728149067ba3e51ab1223738691b50ab367852c9aa90abe914487",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 11/30 (Thu) Production Server v9160 Patch Notice (Revised)"
+      "translation": "[Scheduled Maintenance] 11/30 (Thu) Production Server v9160 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-362": {
       "title": "08/16(수) 하데스 서버 v9170 패치 안내",
@@ -930,7 +1217,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4570.html",
       "capture_sha256": "2937546b35dcd4e7f807e24ffc848af3da6fb49d330fca2aa8063ff3cf458511",
       "selector": ".view_subject",
-      "translation": "08/16 (Wed) Hades Server v9170 Patch Notice"
+      "translation": "08/16 (Wed) Hades Server v9170 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-363": {
       "title": "12/01(금) 정식 서비스 서버 v9180 패치 안내",
@@ -940,7 +1230,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4615.html",
       "capture_sha256": "ed3422d1052535219ee98122131b2543a9cab9fafe36f1b25e9a7ac12fb5bf21",
       "selector": ".view_subject",
-      "translation": "12/01 (Fri) Production Server v9180 Patch Notice"
+      "translation": "12/01 (Fri) Production Server v9180 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-364": {
       "title": "[정기점검] 12/07(목) 정식 서비스 서버 v9180 패치 안내 (수정)",
@@ -950,7 +1243,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4620.html",
       "capture_sha256": "1cb6874e5e81cb9ac0f87c7d859c8c01bd91a09afe9ca6dd8a0d96e4c780dc8d",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 12/07 (Thu) Production Server v9180 Patch Notice (Revised)"
+      "translation": "[Scheduled Maintenance] 12/07 (Thu) Production Server v9180 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-365": {
       "title": "[정기점검] 12/14(목) 정식 서비스 서버 v9180 패치 안내 (수정)",
@@ -960,7 +1256,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4624.html",
       "capture_sha256": "6b5bf113288624885558e88228ea7a09c957dee7440ae8c9716f6f1ab4ae0de9",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 12/14 (Thu) Production Server v9180 Patch Notice (Revised)"
+      "translation": "[Scheduled Maintenance] 12/14 (Thu) Production Server v9180 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-366": {
       "title": "[정기점검] 12/21(목) 정식 서비스 서버 v9200 패치 안내 (수정)",
@@ -970,7 +1269,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4652.html",
       "capture_sha256": "f5ba4c2eac6b27edb3210da8982f4e6a9861c789bd7e4960a0ad94970e438245",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 12/21 (Thu) Production Server v9200 Patch Notice (Revised)"
+      "translation": "[Scheduled Maintenance] 12/21 (Thu) Production Server v9200 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-367": {
       "title": "[정기점검] 12/28(목) 정식 서비스 서버 v9200 패치 안내",
@@ -980,7 +1282,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4626.html",
       "capture_sha256": "9a42da2ddbaf35f6bb5865321e200aafb3d5781485b5583f82f7876479811331",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 12/28 (Thu) Production Server v9200 Patch Notice"
+      "translation": "[Scheduled Maintenance] 12/28 (Thu) Production Server v9200 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-368": {
       "title": "[정기점검] 01/11(목) 정식 서비스 서버 v9220 패치 안내 (수정)",
@@ -990,7 +1295,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4633.html",
       "capture_sha256": "8db26426dd6329390e48b3f308703eb042bb2fa814cc788ba9bd63fa9e31e1e1",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 01/11 (Thu) Production Server v9220 Patch Notice (Revised)"
+      "translation": "[Scheduled Maintenance] 01/11 (Thu) Production Server v9220 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-369": {
       "title": "[정기점검] 01/18(목) 정식 서비스 서버 v9220 점검 안내 (수정)",
@@ -1000,7 +1308,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4636.html",
       "capture_sha256": "9a07ac1e1293ad35c376a85795944c07064b2f44216613ebda35323c971ee487",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 01/18 (Thu) Production Server v9220 Maintenance Notice (Revised)"
+      "translation": "[Scheduled Maintenance] 01/18 (Thu) Production Server v9220 Maintenance Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-370": {
       "title": "01/18(목) 정식 서비스 서버 v9220 점검 안내 (수정)",
@@ -1010,7 +1321,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4638.html",
       "capture_sha256": "b350ecaa6be556879cd8fb7b9d903abeae7f10f3ba66a26dbd9d8f6dc50f5578",
       "selector": ".view_subject",
-      "translation": "01/18 (Thu) Production Server v9220 Maintenance Notice (Revised)"
+      "translation": "01/18 (Thu) Production Server v9220 Maintenance Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-371": {
       "title": "08/16(수) 하데스 서버 v9230 패치 안내 (수정)",
@@ -1020,7 +1334,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4605.html",
       "capture_sha256": "20f003fb5c1b911b1e3270b0db884b388375b6fd2e1f77984823d87182cf59de",
       "selector": ".view_subject",
-      "translation": "08/16 (Wed) Hades Server v9230 Patch Notice (Revised)"
+      "translation": "08/16 (Wed) Hades Server v9230 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-372": {
       "title": "[정기점검] 01/25(목) 정식 서비스 서버 v9240 패치 안내 (수정)",
@@ -1030,7 +1347,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4639.html",
       "capture_sha256": "7b58d87efad05de0993d0ec8a220d18c7ff8f345b549eec170465c8b734e35bb",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 01/25 (Thu) Production Server v9240 Patch Notice (Revised)"
+      "translation": "[Scheduled Maintenance] 01/25 (Thu) Production Server v9240 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-373": {
       "title": "08/18(금) 하데스 서버 v9250 패치 안내",
@@ -1040,7 +1360,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4571.html",
       "capture_sha256": "55f710b14c811c00acc171f9fecb781f0cf8affa93ae7c887ddfca323a9ccf4c",
       "selector": ".view_subject",
-      "translation": "08/18 (Fri) Hades Server v9250 Patch Notice"
+      "translation": "08/18 (Fri) Hades Server v9250 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-374": {
       "title": "[정기점검] 02/01(목) 정식 서비스 서버 v9260 패치 안내",
@@ -1050,7 +1373,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4642.html",
       "capture_sha256": "1845ae2921e4cbacc8e13c554680037a105a4ee6178d1d75eb16249887b3a29d",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 02/01 (Thu) Production Server v9260 Patch Notice"
+      "translation": "[Scheduled Maintenance] 02/01 (Thu) Production Server v9260 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-375": {
       "title": "08/18(금) 하데스 서버 v9270 패치 안내",
@@ -1060,7 +1386,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4630.html",
       "capture_sha256": "4a6d0f49255a7f8a9590c2020686f183b8eb836acfbdd2022bef4e085aaef692",
       "selector": ".view_subject",
-      "translation": "08/18 (Fri) Hades Server v9270 Patch Notice"
+      "translation": "08/18 (Fri) Hades Server v9270 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-376": {
       "title": "[정기점검] 02/08(목) 정식 서비스 서버 v9280패치 안내",
@@ -1070,7 +1399,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4644.html",
       "capture_sha256": "635e582858a2455c1d523d73da8157018f3a2fa71b099a5d5ee1aab8e27459ab",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 02/08 (Thu) Production Server v9280 Patch Notice"
+      "translation": "[Scheduled Maintenance] 02/08 (Thu) Production Server v9280 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-377": {
       "title": "08/23(수) 하데스 서버 v9290 패치 안내 (수정)",
@@ -1080,7 +1412,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4578.html",
       "capture_sha256": "467a328860660896676787fb6578606acb0b89d6c23b4e65809bac95f5b11467",
       "selector": ".view_subject",
-      "translation": "08/23 (Wed) Hades Server v9290 Patch Notice (Revised)"
+      "translation": "08/23 (Wed) Hades Server v9290 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-378": {
       "title": "08/24(목) 하데스 서버 v9310 패치 안내",
@@ -1090,7 +1425,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4581.html",
       "capture_sha256": "90599b0c199056244a34d7bccb09d214f7112d7c75e1d21b2080a8a817d882e9",
       "selector": ".view_subject",
-      "translation": "08/24 (Thu) Hades Server v9310 Patch Notice"
+      "translation": "08/24 (Thu) Hades Server v9310 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-379": {
       "title": "[정기점검] 02/13(화) 정식 서비스 서버 v9320 패치 안내 (수정)",
@@ -1100,7 +1438,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4645.html",
       "capture_sha256": "707d4bd1b5e0858d7798bcf602e384d6f6473c5c996dd5044bf027a5e8d0b7f5",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 02/13 (Tue) Production Server v9320 Patch Notice (Revised)"
+      "translation": "[Scheduled Maintenance] 02/13 (Tue) Production Server v9320 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-380": {
       "title": "08/25(금) 하데스 서버 v9330 패치 안내",
@@ -1110,7 +1451,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4582.html",
       "capture_sha256": "6488a2d17827b46d8aff42255627921c63415a57b57610857406b4e545a8f8ce",
       "selector": ".view_subject",
-      "translation": "08/25 (Fri) Hades Server v9330 Patch Notice"
+      "translation": "08/25 (Fri) Hades Server v9330 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-381": {
       "title": "[정기점검] 02/23(금) 정식 서비스 서버 v9340 패치 안내",
@@ -1120,7 +1464,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4707.html",
       "capture_sha256": "e9593930d7c1ae3a3a73278d3942e6da03766b554fe4883c84bbef559dbeeae7",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 02/23 (Fri) Production Server v9340 Patch Notice"
+      "translation": "[Scheduled Maintenance] 02/23 (Fri) Production Server v9340 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-382": {
       "title": "08/30(수) 하데스 서버 v9350 패치 안내",
@@ -1130,7 +1477,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4583.html",
       "capture_sha256": "2757ba6426db8ad7fdd1eac3425521477352653d9b012b456bd46439086769f6",
       "selector": ".view_subject",
-      "translation": "08/30 (Wed) Hades Server v9350 Patch Notice"
+      "translation": "08/30 (Wed) Hades Server v9350 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-383": {
       "title": "[정기점검] 03/08(목) 정식 서비스 서버 v9360 패치 안내",
@@ -1140,7 +1490,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4660.html",
       "capture_sha256": "f7e6f15b6eb7950ddf602e114b25942bc0623d976b5ee5f4a32ebd76b18f19cd",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 03/08 (Thu) Production Server v9360 Patch Notice"
+      "translation": "[Scheduled Maintenance] 03/08 (Thu) Production Server v9360 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-384": {
       "title": "09/08(금) 하데스 서버 v9370 패치 안내 (수정)",
@@ -1150,7 +1503,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4594.html",
       "capture_sha256": "37401a39073517084de46645ecc0ebd90e8fb8976b09dc7a190d780feb26fadc",
       "selector": ".view_subject",
-      "translation": "09/08 (Fri) Hades Server v9370 Patch Notice (Revised)"
+      "translation": "09/08 (Fri) Hades Server v9370 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-385": {
       "title": "09/15(금) 하데스 서버 v9390 패치 안내",
@@ -1160,7 +1516,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4593.html",
       "capture_sha256": "e7e89cddff5a6f3a24c0d653115ee73ce78a81a38955a931ec8167e5ae371f9e",
       "selector": ".view_subject",
-      "translation": "09/15 (Fri) Hades Server v9390 Patch Notice"
+      "translation": "09/15 (Fri) Hades Server v9390 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-386": {
       "title": "03/16(금) 정식 서비스 서버 v9400 패치 안내 (수정)",
@@ -1170,7 +1529,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4664.html",
       "capture_sha256": "14d910acb38c4038956fe0def727d3edf5ab83152a9ae260dd33e5b0af049185",
       "selector": ".view_subject",
-      "translation": "03/16 (Fri) Production Server v9400 Patch Notice (Revised)"
+      "translation": "03/16 (Fri) Production Server v9400 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-387": {
       "title": "09/20(수) 하데스 서버 v9410 패치 안내",
@@ -1180,7 +1542,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4595.html",
       "capture_sha256": "f402d9d54915f9488a9ac9d8f0f1ea67134897b8a977ac1dd906afeb16d1906c",
       "selector": ".view_subject",
-      "translation": "09/20 (Wed) Hades Server v9410 Patch Notice"
+      "translation": "09/20 (Wed) Hades Server v9410 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-388": {
       "title": "03/29(목) 정식 서비스 서버 v9440 패치 안내 (수정)",
@@ -1190,7 +1555,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4674.html",
       "capture_sha256": "e648d3b53e605d384739bb146e6d9baf9ff711f1b3e1b9587d1d05969ee1d290",
       "selector": ".view_subject",
-      "translation": "03/29 (Thu) Production Server v9440 Patch Notice (Revised)"
+      "translation": "03/29 (Thu) Production Server v9440 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-389": {
       "title": "10/13(금) 하데스 서버 v9450 패치 안내",
@@ -1200,7 +1568,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4600.html",
       "capture_sha256": "b123bf63f45bac4b5ae02c7f95a087afcba8b36a101f5c82c429a7625efeb6aa",
       "selector": ".view_subject",
-      "translation": "10/13 (Fri) Hades Server v9450 Patch Notice"
+      "translation": "10/13 (Fri) Hades Server v9450 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-390": {
       "title": "[정기점검] 04/12(목) 정식 서비스 서버 v9460 패치 안내 (수정)",
@@ -1210,7 +1581,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4679.html",
       "capture_sha256": "89aae6d0219ac39565a017e8c2a5d98950547433c0ea03347d5ec13c55b246e0",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 04/12 (Thu) Production Server v9460 Patch Notice (Revised)"
+      "translation": "[Scheduled Maintenance] 04/12 (Thu) Production Server v9460 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-391": {
       "title": "10/18(수) 하데스 서버 v9470 패치 안내",
@@ -1220,7 +1594,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4603.html",
       "capture_sha256": "becca170b208bc89161e7d05f4b8ab41b740d8d3f44267b2ae058385d36383f3",
       "selector": ".view_subject",
-      "translation": "10/18 (Wed) Hades Server v9470 Patch Notice"
+      "translation": "10/18 (Wed) Hades Server v9470 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-392": {
       "title": "[정기점검] 04/19(목) 정식 서비스 서버 v9480 패치 안내 (수정)",
@@ -1230,7 +1607,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4681.html",
       "capture_sha256": "4b1f8c4ed40fa1ea13a02a2c6d03b9093268929109b4b5a34239dadeb9749285",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 04/19 (Thu) Production Server v9480 Patch Notice (Revised)"
+      "translation": "[Scheduled Maintenance] 04/19 (Thu) Production Server v9480 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-393": {
       "title": "10/25(수) 하데스 서버 v9490 패치 안내 (수정)",
@@ -1240,7 +1620,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4609.html",
       "capture_sha256": "13eb9512a378fbfd342c12c53499fc67cf23b90be0820dc90c7b91ac539e58c8",
       "selector": ".view_subject",
-      "translation": "10/25 (Wed) Hades Server v9490 Patch Notice (Revised)"
+      "translation": "10/25 (Wed) Hades Server v9490 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-394": {
       "title": "[정기점검] 05/10(목) 정식 서비스 서버 v9500 패치 안내 (수정)",
@@ -1250,7 +1633,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4686.html",
       "capture_sha256": "cbfb504df2ceac3f5e417b48dbb3ad0eb3ff662a5048faad991676fffdbaa5fd",
       "selector": ".view_subject",
-      "translation": "[Scheduled Maintenance] 05/10 (Thu) Production Server v9500 Patch Notice (Revised)"
+      "translation": "[Scheduled Maintenance] 05/10 (Thu) Production Server v9500 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-395": {
       "title": "11/16(목) 하데스 서버 v9550 패치 안내 (수정)",
@@ -1260,7 +1646,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4612.html",
       "capture_sha256": "f360b175407cec6759ea076a8fb7cabf2b616b04054fb7a5462489fdef7364c0",
       "selector": ".view_subject",
-      "translation": "11/16 (Thu) Hades Server v9550 Patch Notice (Revised)"
+      "translation": "11/16 (Thu) Hades Server v9550 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-396": {
       "title": "11/23(목) 하데스 서버 v9590 패치 안내",
@@ -1270,7 +1659,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4618.html",
       "capture_sha256": "9caa518bee70db53d90fc74f2994009e5380b6dbf2cfa1ec89d9bf652b07b2ad",
       "selector": ".view_subject",
-      "translation": "11/23 (Thu) Hades Server v9590 Patch Notice"
+      "translation": "11/23 (Thu) Hades Server v9590 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-397": {
       "title": "11/30(목) 하데스 서버 v9630 패치 안내 (수정)",
@@ -1280,7 +1672,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4648.html",
       "capture_sha256": "17c6bd6f7aa2f6220b0fc1123e5c6cbd0ba58d184190cc1730048773328c9c97",
       "selector": ".view_subject",
-      "translation": "11/30 (Thu) Hades Server v9630 Patch Notice (Revised)"
+      "translation": "11/30 (Thu) Hades Server v9630 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-398": {
       "title": "12/01(금) 하데스 서버 v9650 패치 안내 (수정)",
@@ -1290,7 +1685,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4616.html",
       "capture_sha256": "3adeca25fc9777d74ee84cbeae8cd8fab20fbe0e140e8fa9b9bad5f4658813ca",
       "selector": ".view_subject",
-      "translation": "12/01 (Fri) Hades Server v9650 Patch Notice (Revised)"
+      "translation": "12/01 (Fri) Hades Server v9650 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-399": {
       "title": "12/06(수) 하데스 서버 v9650 패치 안내 (수정)",
@@ -1300,7 +1698,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4619.html",
       "capture_sha256": "2a7881617dab15d4e310411466231672a13e7be20722a3441d70edc9f9733cd1",
       "selector": ".view_subject",
-      "translation": "12/06 (Wed) Hades Server v9650 Patch Notice (Revised)"
+      "translation": "12/06 (Wed) Hades Server v9650 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-400": {
       "title": "12/07(목) 하데스 서버 v9650 패치 안내 (수정)",
@@ -1310,7 +1711,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4658.html",
       "capture_sha256": "203e888269c512d1c9bc60de71d156d6c2b784b0f3a3a18138ed562c38d3958a",
       "selector": ".view_subject",
-      "translation": "12/07 (Thu) Hades Server v9650 Patch Notice (Revised)"
+      "translation": "12/07 (Thu) Hades Server v9650 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-401": {
       "title": "12/21(목) 하데스 서버 v9670 패치 안내 (수정)",
@@ -1320,7 +1724,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4627.html",
       "capture_sha256": "bd813be8d7143a4ba487303de7c12ed9959110a491dcee5df1581faca17a7c15",
       "selector": ".view_subject",
-      "translation": "12/21 (Thu) Hades Server v9670 Patch Notice (Revised)"
+      "translation": "12/21 (Thu) Hades Server v9670 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-402": {
       "title": "12/28(목) 하데스 서버 v9670 패치 안내",
@@ -1330,7 +1737,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4631.html",
       "capture_sha256": "1e36712833572b0d7cd1be83e2ed67744614be3808dbeb4eea39a3a95b571a80",
       "selector": ".view_subject",
-      "translation": "12/28 (Thu) Hades Server v9670 Patch Notice"
+      "translation": "12/28 (Thu) Hades Server v9670 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-403": {
       "title": "01/11(목) 하데스 서버 v9690 패치 안내 (수정)",
@@ -1340,7 +1750,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4635.html",
       "capture_sha256": "b14bfe8a49b3f7755e7887d48300393b030cff3ad89788d0c58ca3821939bd34",
       "selector": ".view_subject",
-      "translation": "01/11 (Thu) Hades Server v9690 Patch Notice (Revised)"
+      "translation": "01/11 (Thu) Hades Server v9690 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-404": {
       "title": "01/16(화) 하데스 서버 v9690 패치 안내",
@@ -1350,7 +1763,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4637.html",
       "capture_sha256": "81d382607ae5723052a456ef328e0eb6de243a375655021f981152ec800141ed",
       "selector": ".view_subject",
-      "translation": "01/16 (Tue) Hades Server v9690 Patch Notice"
+      "translation": "01/16 (Tue) Hades Server v9690 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-405": {
       "title": "01/18(목) 하데스 서버 v9730 패치 안내 (수정)",
@@ -1360,7 +1776,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4640.html",
       "capture_sha256": "f31a88e31a7051f1fc904a98deff2e049bddc1431d7da5f6cff768f6eb67f294",
       "selector": ".view_subject",
-      "translation": "01/18 (Thu) Hades Server v9730 Patch Notice (Revised)"
+      "translation": "01/18 (Thu) Hades Server v9730 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-406": {
       "title": "01/18(목) 하데스 서버 v9730 점검 안내 (수정)",
@@ -1370,7 +1789,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4641.html",
       "capture_sha256": "bc8a8f5a581c5c80fb0a0308db79da8ea0189767f98cf117e477480869652b60",
       "selector": ".view_subject",
-      "translation": "01/18 (Thu) Hades Server v9730 Maintenance Notice (Revised)"
+      "translation": "01/18 (Thu) Hades Server v9730 Maintenance Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-407": {
       "title": "01/25(목) 하데스 서버 v9750 패치 안내 (수정)",
@@ -1380,7 +1802,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4643.html",
       "capture_sha256": "09528887f883fb8b5b93eba42b936f1aed28e2c5d36b54e5d4290ec62c8ef7f7",
       "selector": ".view_subject",
-      "translation": "01/25 (Thu) Hades Server v9750 Patch Notice (Revised)"
+      "translation": "01/25 (Thu) Hades Server v9750 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-408": {
       "title": "02/01(목) 하데스 서버 v9770 패치 안내",
@@ -1390,7 +1815,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4647.html",
       "capture_sha256": "cd460eebe72e7cd4ebc9160a678848f99ba918ece1336f01fc8406bdca4b977e",
       "selector": ".view_subject",
-      "translation": "02/01 (Thu) Hades Server v9770 Patch Notice"
+      "translation": "02/01 (Thu) Hades Server v9770 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-409": {
       "title": "02/08(목) 하데스 서버 v9790패치 안내",
@@ -1400,7 +1828,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4651.html",
       "capture_sha256": "5c3714953fb5a3667157470197d24b5e21ddb700def366384a7a9f0000323811",
       "selector": ".view_subject",
-      "translation": "02/08 (Thu) Hades Server v9790 Patch Notice"
+      "translation": "02/08 (Thu) Hades Server v9790 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-410": {
       "title": "02/13(화) 하데스 서버 v9830 패치 안내 (수정)",
@@ -1410,7 +1841,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4667.html",
       "capture_sha256": "27871485a2853ef6a7d07c5b1aec42cbb3450b6fbda63b81a3d044925ee6f809",
       "selector": ".view_subject",
-      "translation": "02/13 (Tue) Hades Server v9830 Patch Notice (Revised)"
+      "translation": "02/13 (Tue) Hades Server v9830 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-411": {
       "title": "02/23(금) 하데스 서버 v9850 패치 안내",
@@ -1420,7 +1854,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4655.html",
       "capture_sha256": "edd4fc09f395107819e137ce5505da65a36d82ba7bdce5e91beefba3a4cbbd8a",
       "selector": ".view_subject",
-      "translation": "02/23 (Fri) Hades Server v9850 Patch Notice"
+      "translation": "02/23 (Fri) Hades Server v9850 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-412": {
       "title": "02/23(금) 하데스 서버 v9870 패치 안내",
@@ -1430,7 +1867,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4656.html",
       "capture_sha256": "5378621fcd215439e0dbe594ab2eb93e9929c3e9f074df0932d85465c846e1d4",
       "selector": ".view_subject",
-      "translation": "02/23 (Fri) Hades Server v9870 Patch Notice"
+      "translation": "02/23 (Fri) Hades Server v9870 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-413": {
       "title": "02/27(화) 하데스 서버 v9870 패치 안내(완료)",
@@ -1440,7 +1880,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4727.html",
       "capture_sha256": "0a2a9fb4a848a2d4fa558b3e7a79876bf24ff1ab9420374ccdb4ab29fd72abb1",
       "selector": ".view_subject",
-      "translation": "02/27 (Tue) Hades Server v9870 Patch Notice (Completed)"
+      "translation": "02/27 (Tue) Hades Server v9870 Patch Notice (Completed)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-414": {
       "title": "03/05(월) 하데스 서버 v9890 패치 안내",
@@ -1450,7 +1893,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4659.html",
       "capture_sha256": "8164a5a028844793a939cf15562638e16884e5247457b7d5730d7b2dace14e29",
       "selector": ".view_subject",
-      "translation": "03/05 (Mon) Hades Server v9890 Patch Notice"
+      "translation": "03/05 (Mon) Hades Server v9890 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-415": {
       "title": "03/08(목) 하데스 서버 v9910 패치 안내",
@@ -1460,7 +1906,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4662.html",
       "capture_sha256": "6ceb8e61c455347fa791cc4ec32f960b0a6defdda18e7f0cffd08e057c14372a",
       "selector": ".view_subject",
-      "translation": "03/08 (Thu) Hades Server v9910 Patch Notice"
+      "translation": "03/08 (Thu) Hades Server v9910 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-416": {
       "title": "03/16(금) 하데스 서버 v9970 패치 안내 (수정)",
@@ -1470,7 +1919,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4666.html",
       "capture_sha256": "a59fb0e4fc72872705763c9d10c5848e324c3d000e8c6bc20d1ec3b625e7e78b",
       "selector": ".view_subject",
-      "translation": "03/16 (Fri) Hades Server v9970 Patch Notice (Revised)"
+      "translation": "03/16 (Fri) Hades Server v9970 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-417": {
       "title": "03/22(목) 하데스 서버 v9990 패치 안내 (수정)",
@@ -1480,7 +1932,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4670.html",
       "capture_sha256": "03cdc73471ced7ae56e3b7b00727b0aa5da4819da427c63fd99c0eeea7336506",
       "selector": ".view_subject",
-      "translation": "03/22 (Thu) Hades Server v9990 Patch Notice (Revised)"
+      "translation": "03/22 (Thu) Hades Server v9990 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-418": {
       "title": "03/27(화) 하데스 서버 v10010 패치 안내",
@@ -1490,7 +1945,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4671.html",
       "capture_sha256": "055ffd1b0496774188fa6c1599f9635ab0d32e2f751958ca638dc5320ad4678d",
       "selector": ".view_subject",
-      "translation": "03/27 (Tue) Hades Server v10010 Patch Notice"
+      "translation": "03/27 (Tue) Hades Server v10010 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-419": {
       "title": "03/29(목) 하데스 서버 v10010 패치 안내 (수정)",
@@ -1500,7 +1958,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4672.html",
       "capture_sha256": "a12d6f9b6800c950ee4aeb3487c8b1c02ebafb207c06bdde9f77f1c7ca32aa12",
       "selector": ".view_subject",
-      "translation": "03/29 (Thu) Hades Server v10010 Patch Notice (Revised)"
+      "translation": "03/29 (Thu) Hades Server v10010 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-420": {
       "title": "04/05(목) 하데스 서버 v10030 패치 안내 (수정)",
@@ -1510,7 +1971,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4676.html",
       "capture_sha256": "6c0f31b4422f478bfd5b9225939566f6217811b8dbd9ff705660f575ecba4c6b",
       "selector": ".view_subject",
-      "translation": "04/05 (Thu) Hades Server v10030 Patch Notice (Revised)"
+      "translation": "04/05 (Thu) Hades Server v10030 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-421": {
       "title": "04/12(목) 하데스 서버 v10030 패치 안내 (수정)",
@@ -1520,7 +1984,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4680.html",
       "capture_sha256": "c0db15dbcce5c89795b57ab61eeb972947915e74c34588fc40c152fc5add036a",
       "selector": ".view_subject",
-      "translation": "04/12 (Thu) Hades Server v10030 Patch Notice (Revised)"
+      "translation": "04/12 (Thu) Hades Server v10030 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-422": {
       "title": "04/19(목) 하데스 서버 v10050 패치 안내 (수정)",
@@ -1530,7 +1997,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4682.html",
       "capture_sha256": "7a1fd93ff2fa981368c4090b3332e7518cc2ee429a3f67dc352b8796bd02e98d",
       "selector": ".view_subject",
-      "translation": "04/19 (Thu) Hades Server v10050 Patch Notice (Revised)"
+      "translation": "04/19 (Thu) Hades Server v10050 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-423": {
       "title": "05/10(목) 하데스 서버 v10070 패치 안내 (수정)",
@@ -1540,7 +2010,10 @@
       "capture": "sources/version-research/2026-10-13/news-update-4687.html",
       "capture_sha256": "d43dc5665ef733247623b190538773d30e1b4f5f89a9899a9249e294ecfee399",
       "selector": ".view_subject",
-      "translation": "05/10 (Thu) Hades Server v10070 Patch Notice (Revised)"
+      "translation": "05/10 (Thu) Hades Server v10070 Patch Notice (Revised)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-615": {
       "title": "어둠의 전설, 초보자 매뉴얼을 미니 게임으로 제작",
@@ -1550,7 +2023,10 @@
       "capture": "data/version-research/2026-10-15/client-discovery/korean-atfile/requests/042695ad2a246df655e2.body",
       "capture_sha256": "190acf2f292d9b428819c49ccc998d1733dee16abd71c6613886f2a2ff43dc4f",
       "selector": "h1",
-      "translation": "Legends of Darkness Turns Its Beginner Manual into a Mini-Game"
+      "translation": "Legends of Darkness Turns Its Beginner Manual into a Mini-Game",
+      "publisher": "NewsWire",
+      "link_label": "NewsWire",
+      "source_label": "NewsWire"
     },
     "source-456": {
       "title": "(추가) 5/29(금) 수정된 현상 안내 (클라이언트 패치)",
@@ -1560,7 +2036,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-149211.html",
       "capture_sha256": "e188c3fa75e0cbb53a7dc0f262c6b64b30ded5ca439f50492311ede7795d3eaf",
       "selector": "h4",
-      "translation": "(Additional) 5/29 (Fri) Notice of Fixed Issues (Client Patch)"
+      "translation": "(Additional) 5/29 (Fri) Notice of Fixed Issues (Client Patch)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-457": {
       "title": "[업데이트] 7/2(목) 정식 서버 클라이언트 패치 안내 (16:24)",
@@ -1570,7 +2049,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-149439.html",
       "capture_sha256": "b3031365cb9539341741f9b317e8db45259e38d0a9c5abfc1602fd03d90e42be",
       "selector": "h4",
-      "translation": "[Update] 7/2 (Thu) Production Server Client Patch Notice (16:24)"
+      "translation": "[Update] 7/2 (Thu) Production Server Client Patch Notice (16:24)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-458": {
       "title": "[업데이트] 7/9(목) 정식 서버 클라이언트 패치 안내 (16:13)",
@@ -1580,7 +2062,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-149493.html",
       "capture_sha256": "f45f901d1a034295791821f7131e07bd244481e9cf46c70d9deaddb0b0da090d",
       "selector": "h4",
-      "translation": "[Update] 7/9 (Thu) Production Server Client Patch Notice (16:13)"
+      "translation": "[Update] 7/9 (Thu) Production Server Client Patch Notice (16:13)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-459": {
       "title": "[업데이트] 7/23(목) 정식 서버 클라이언트 패치 안내 (14:38)",
@@ -1590,7 +2075,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-149572.html",
       "capture_sha256": "b439153e1ff2ad182914265e934307737c8f37bce8fdda59615eca3c7e920035",
       "selector": "h4",
-      "translation": "[Update] 7/23 (Thu) Production Server Client Patch Notice (14:38)"
+      "translation": "[Update] 7/23 (Thu) Production Server Client Patch Notice (14:38)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-460": {
       "title": "[업데이트] 7/24(금) 정식 서버 클라이언트 패치 안내 (13:54)",
@@ -1600,7 +2088,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-149583.html",
       "capture_sha256": "a1f1132d95ef0c86db6fce52cf79a1716d6b8dbe73bbb4ebd2573871bb10716b",
       "selector": "h4",
-      "translation": "[Update] 7/24 (Fri) Production Server Client Patch Notice (13:54)"
+      "translation": "[Update] 7/24 (Fri) Production Server Client Patch Notice (13:54)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-461": {
       "title": "[업데이트] 7/24(금) 정식 서버 클라이언트 패치 안내 (17:08)",
@@ -1610,7 +2101,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-149587.html",
       "capture_sha256": "b72f6bb8c137c6a878e7de84d7bdf6549920efb9bc3d61a7e808413947fce529",
       "selector": "h4",
-      "translation": "[Update] 7/24 (Fri) Production Server Client Patch Notice (17:08)"
+      "translation": "[Update] 7/24 (Fri) Production Server Client Patch Notice (17:08)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-462": {
       "title": "[업데이트] 7/27(월) 정식 서버 클라이언트 패치 안내 (14:34)",
@@ -1620,7 +2114,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-149594.html",
       "capture_sha256": "bd92ece04f45ab90491c5f8ad26a708b97edce6b5e383c777181d7e23e884cd8",
       "selector": "h4",
-      "translation": "[Update] 7/27 (Mon) Production Server Client Patch Notice (14:34)"
+      "translation": "[Update] 7/27 (Mon) Production Server Client Patch Notice (14:34)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-463": {
       "title": "[업데이트] 7/27(월) 정식 서버 클라이언트 패치 안내 (16:19)",
@@ -1630,7 +2127,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-149596.html",
       "capture_sha256": "3a9da3c2ebe52acddaaed6630d1b52bfd084a7a2490d07c19a9caf465ca81f83",
       "selector": "h4",
-      "translation": "[Update] 7/27 (Mon) Production Server Client Patch Notice (16:19)"
+      "translation": "[Update] 7/27 (Mon) Production Server Client Patch Notice (16:19)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-464": {
       "title": "[업데이트] 7/27(월) 정식 서버 클라이언트 패치 안내 (17:31)",
@@ -1640,7 +2140,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-149599.html",
       "capture_sha256": "57f5e24f3bca190ca1a1f9dc39cfff8d609d32917ca9ef7815b64d3ffb380685",
       "selector": "h4",
-      "translation": "[Update] 7/27 (Mon) Production Server Client Patch Notice (17:31)"
+      "translation": "[Update] 7/27 (Mon) Production Server Client Patch Notice (17:31)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-465": {
       "title": "[업데이트] 7/30(목) 정식 서버 클라이언트 패치 안내 (15:37)",
@@ -1650,7 +2153,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-149624.html",
       "capture_sha256": "4faaaea3746d6bba6469ac7faa7e11ca6d1f0c582edec3f215cd1ebb61253836",
       "selector": "h4",
-      "translation": "[Update] 7/30 (Thu) Production Server Client Patch Notice (15:37)"
+      "translation": "[Update] 7/30 (Thu) Production Server Client Patch Notice (15:37)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-466": {
       "title": "[업데이트] 8/4(화) 정식 서버 클라이언트 패치 안내 (14:04)",
@@ -1660,7 +2166,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-149637.html",
       "capture_sha256": "bf16bd27470d5083dd01066771970fffb7a8f4083daad241135151adbb3717f2",
       "selector": "h4",
-      "translation": "[Update] 8/4 (Tue) Production Server Client Patch Notice (14:04)"
+      "translation": "[Update] 8/4 (Tue) Production Server Client Patch Notice (14:04)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-467": {
       "title": "(추가)[업데이트] 8/13(목) 정식 서버 클라이언트 패치 안내 (14:00,16:41)",
@@ -1670,7 +2179,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-149697.html",
       "capture_sha256": "eb50797b867dd128684b73bdd75c218491b8d6a365be966a452cd50756cdaf98",
       "selector": "h4",
-      "translation": "(Additional) [Update] 8/13 (Thu) Production Server Client Patch Notice (14:00,16:41)"
+      "translation": "(Additional) [Update] 8/13 (Thu) Production Server Client Patch Notice (14:00,16:41)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-468": {
       "title": "[업데이트] 8/21(금) 정식 서버 클라이언트 패치 안내 (16:10)",
@@ -1680,7 +2192,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-149764.html",
       "capture_sha256": "2c7c453d122803d82e64111dde6c15e5a7ccde4d60a3c66d62c1c5dcddca07d3",
       "selector": "h4",
-      "translation": "[Update] 8/21 (Fri) Production Server Client Patch Notice (16:10)"
+      "translation": "[Update] 8/21 (Fri) Production Server Client Patch Notice (16:10)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-469": {
       "title": "[업데이트] 8/24(월) 정식 서버 클라이언트 패치 안내 (15:04)",
@@ -1690,7 +2205,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-149772.html",
       "capture_sha256": "9ae569dbad6b2ad56e58a54e6623751845a093a990d3fa1d687faa569239bc95",
       "selector": "h4",
-      "translation": "[Update] 8/24 (Mon) Production Server Client Patch Notice (15:04)"
+      "translation": "[Update] 8/24 (Mon) Production Server Client Patch Notice (15:04)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-470": {
       "title": "[업데이트] 8/25(화) 정식 서버 클라이언트 패치 안내 (14:35)",
@@ -1700,7 +2218,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-149776.html",
       "capture_sha256": "819c6c610284ae5777083e6a22f4fc255dca0b2665173d60f083974302692965",
       "selector": "h4",
-      "translation": "[Update] 8/25 (Tue) Production Server Client Patch Notice (14:35)"
+      "translation": "[Update] 8/25 (Tue) Production Server Client Patch Notice (14:35)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-471": {
       "title": "[업데이트] 9/11(금) 정식 서버 클라이언트 패치 안내 (15:22)",
@@ -1710,7 +2231,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-150133.html",
       "capture_sha256": "b33ae629307e52875cb44bc67aac7fdac0b84c51b620a2721baa862d788a66fd",
       "selector": "h4",
-      "translation": "[Update] 9/11 (Fri) Production Server Client Patch Notice (15:22)"
+      "translation": "[Update] 9/11 (Fri) Production Server Client Patch Notice (15:22)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-472": {
       "title": "[업데이트] 9/17(목) 정식 서버 클라이언트 패치 안내 (16:36)",
@@ -1720,7 +2244,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-150181.html",
       "capture_sha256": "62328483588719b8495a2f99d73732817efadd84d9086340815a587569ceb978",
       "selector": "h4",
-      "translation": "[Update] 9/17 (Thu) Production Server Client Patch Notice (16:36)"
+      "translation": "[Update] 9/17 (Thu) Production Server Client Patch Notice (16:36)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-473": {
       "title": "[업데이트] 10/2(금) 정식 서버 클라이언트 패치 안내 (15:32)",
@@ -1730,7 +2257,10 @@
       "capture": "sources/version-research/2026-10-14/asgard/notice-150250.html",
       "capture_sha256": "55f1426591e981743a620a7c3bde571fe8e2a04cfd65994c553b93daca447fdf",
       "selector": "h4",
-      "translation": "[Update] 10/2 (Fri) Production Server Client Patch Notice (15:32)"
+      "translation": "[Update] 10/2 (Fri) Production Server Client Patch Notice (15:32)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-510": {
       "title": "일랜시아 v5.02 패치 및 캐시아이템 추가 안내",
@@ -1740,7 +2270,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-8075.html",
       "capture_sha256": "b802a48c650e9086d2cd13d27a3521873cfdbc0bdffe82f7871ba8f6c529d3dc",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia v5.02 Patch and Cash Item Additions Notice"
+      "translation": "Elancia v5.02 Patch and Cash Item Additions Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-511": {
       "title": "일랜시아 v5.06 패치 및 캐시아이템 추가 안내",
@@ -1750,7 +2283,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-8333.html",
       "capture_sha256": "e21160f7efda22de22fe6288ad15cd2e2076233f003f4c7aa3a32994fbf21363",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia v5.06 Patch and Cash Item Additions Notice"
+      "translation": "Elancia v5.06 Patch and Cash Item Additions Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-512": {
       "title": "일랜시아 v5.09 패치 및 캐시아이템 추가 안내",
@@ -1760,7 +2296,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-8501.html",
       "capture_sha256": "eb0ae17301863620ecf370822292c933fd3d913a3478991d506783eb9fa3f1ca",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia v5.09 Patch and Cash Item Additions Notice"
+      "translation": "Elancia v5.09 Patch and Cash Item Additions Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-513": {
       "title": "일랜시아 v5.10 패치 안내",
@@ -1770,7 +2309,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-8544.html",
       "capture_sha256": "060870d009e1ec0ffb9455ac252c658dff22495a479d029a6c98c7a1b66357af",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia v5.10 Patch Notice"
+      "translation": "Elancia v5.10 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-514": {
       "title": "일랜시아 v5.12 패치 및 이벤트 적용 안내",
@@ -1780,7 +2322,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-8663.html",
       "capture_sha256": "e276d11de23380603921f5dcd6e45480089d9902c946b99b9f78a70926db9c7a",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia v5.12 Patch and Event Implementation Notice"
+      "translation": "Elancia v5.12 Patch and Event Implementation Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-515": {
       "title": "9월 20일 업데이트 안내",
@@ -1790,7 +2335,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/update-10.html",
       "capture_sha256": "8efd5b5a41cfdb99cc02df7469844d287f45af737ef0304f928d087ec0b18eb9",
       "selector": ".subject .tit excluding the category em",
-      "translation": "September 20 Update Notice"
+      "translation": "September 20 Update Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-516": {
       "title": "일랜시아 v5.16 패치 및 이벤트 적용 안내",
@@ -1800,7 +2348,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-8988.html",
       "capture_sha256": "53cb7e99b5641c53213f4de96c787f0ddf71447215378c4b5f0a07ea51923c42",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia v5.16 Patch and Event Implementation Notice"
+      "translation": "Elancia v5.16 Patch and Event Implementation Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-517": {
       "title": "10월 25일 업데이트 안내",
@@ -1810,7 +2361,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/update-11.html",
       "capture_sha256": "1b2debe19afb7b027ebca938ae6a0331d888c9c44037ddfad046bdd57739f630",
       "selector": ".subject .tit excluding the category em",
-      "translation": "October 25 Update Notice"
+      "translation": "October 25 Update Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-518": {
       "title": "일랜시아 v5.18 패치 및 캐시아이템 업데이트 안내",
@@ -1820,7 +2374,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-69819.html",
       "capture_sha256": "9408c8e3e6938456a8ba33b6705d6a40449abc04637cbe6b368c4430f5afff6c",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia v5.18 Patch and Cash Item Update Notice"
+      "translation": "Elancia v5.18 Patch and Cash Item Update Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-519": {
       "title": "일랜시아 v5.20 패치 및 이벤트 적용 안내",
@@ -1830,7 +2387,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-69965.html",
       "capture_sha256": "b514ee9e9e9d8d5908a53960fbbc5b2dc4747bcf5d2bdbf1410a3575613489ce",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia v5.20 Patch and Event Implementation Notice"
+      "translation": "Elancia v5.20 Patch and Event Implementation Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-520": {
       "title": "2008년 1월 17일 업데이트 안내",
@@ -1840,7 +2400,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/update-12.html",
       "capture_sha256": "9a01f29bf45e4692a9d51f0452b0c8914b288b517d5b64a4edbe945d6eeb63f6",
       "selector": ".subject .tit excluding the category em",
-      "translation": "January 17, 2008 Update Notice"
+      "translation": "January 17, 2008 Update Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-521": {
       "title": "일랜시아 v5.26 패치 및 캐시아이템 업데이트 안내 (연장)",
@@ -1850,7 +2413,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-70539.html",
       "capture_sha256": "d113c4aa887cd84cb42116d573439fc0bdf0f497c2c0afd669d73613be9b9f3e",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia v5.26 Patch and Cash Item Update Notice (Extended)"
+      "translation": "Elancia v5.26 Patch and Cash Item Update Notice (Extended)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-522": {
       "title": "2008년 1월 18일 업데이트 안내",
@@ -1860,7 +2426,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/update-13.html",
       "capture_sha256": "7978388c18a9ca5b1174736448460a3a479661255d792a02bbb537b99fbfd0f3",
       "selector": ".subject .tit excluding the category em",
-      "translation": "January 18, 2008 Update Notice"
+      "translation": "January 18, 2008 Update Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-524": {
       "title": "일랜시아 v5.28 패치 안내",
@@ -1870,7 +2439,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-70569.html",
       "capture_sha256": "63a7301b8fdec4b5bc6f3e36cbe58e27cdd7b1ae635c6ceb86dfcf18ad35da47",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia v5.28 Patch Notice"
+      "translation": "Elancia v5.28 Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-525": {
       "title": "2008년 4월 10일 업데이트 안내",
@@ -1880,7 +2452,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/update-14.html",
       "capture_sha256": "1dadb2ed7bf2e5da13bcad5586b4a581be79c610e3e889a164edca9ea12d8cc1",
       "selector": ".subject .tit excluding the category em",
-      "translation": "April 10, 2008 Update Notice"
+      "translation": "April 10, 2008 Update Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-526": {
       "title": "일랜시아 v5.30 패치 및 캐시아이템 업데이트 안내",
@@ -1890,7 +2465,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-71396.html",
       "capture_sha256": "11d418e5df66230d03386b1265aed1daf318305eb604d63ad57f38bb5b4c521e",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia v5.30 Patch and Cash Item Update Notice"
+      "translation": "Elancia v5.30 Patch and Cash Item Update Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-527": {
       "title": "2008년 4월 24일 업데이트 안내",
@@ -1900,7 +2478,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/update-15.html",
       "capture_sha256": "b0ce1c040c5ac4797e39979fd6fd1ca606e1fba2e911efa3555c303e4dbee4d7",
       "selector": ".subject .tit excluding the category em",
-      "translation": "April 24, 2008 Update Notice"
+      "translation": "April 24, 2008 Update Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-528": {
       "title": "일랜시아 v5.31패치 및 캐시아이템 추가 안내",
@@ -1910,7 +2491,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-71585.html",
       "capture_sha256": "acf7757fd96c8274d9c518e63e30791bfe273ba3dd02eb2b97eccefd6f6660fd",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia v5.31 Patch and Cash Item Additions Notice"
+      "translation": "Elancia v5.31 Patch and Cash Item Additions Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-529": {
       "title": "2008년 5월 29일 업데이트 안내",
@@ -1920,7 +2504,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/update-16.html",
       "capture_sha256": "f695bb18130ecfef8f0db18dda427b7db57233f3e79a7944c1143a131e506ec3",
       "selector": ".subject .tit excluding the category em",
-      "translation": "May 29, 2008 Update Notice"
+      "translation": "May 29, 2008 Update Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-530": {
       "title": "일랜시아 v5.35 패치 및 캐시아이템 추가 안내",
@@ -1930,7 +2517,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-71881.html",
       "capture_sha256": "ce6f39a689bf6fc6d3957cde29778e8240039674fc0eda71c996d6e88bf9d855",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia v5.35 Patch and Cash Item Additions Notice"
+      "translation": "Elancia v5.35 Patch and Cash Item Additions Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-531": {
       "title": "2008년 7월 17일 업데이트 안내",
@@ -1940,7 +2530,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/update-17.html",
       "capture_sha256": "61df48710eae89507d5e4a611288db1170701efc7e65cc5271e1c9a9131252af",
       "selector": ".subject .tit excluding the category em",
-      "translation": "July 17, 2008 Update Notice"
+      "translation": "July 17, 2008 Update Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-533": {
       "title": "일랜시아 v5.39 패치 및 캐시아이템 추가 안내",
@@ -1950,7 +2543,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-72737.html",
       "capture_sha256": "1d2c92a372106d53f4383fc25a95134b31cc5976a14e1bec227fb6ecedc50a93",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia v5.39 Patch and Cash Item Additions Notice"
+      "translation": "Elancia v5.39 Patch and Cash Item Additions Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-538": {
       "title": "일랜시아 v5.44 테스트 서버 패치 안내",
@@ -1960,7 +2556,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/update-20.html",
       "capture_sha256": "dc2aed5605e64504e68ba6a28ad08d14791cc12a48e55fd418512978dea5cd3d",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia v5.44 Test Server Patch Notice"
+      "translation": "Elancia v5.44 Test Server Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-539": {
       "title": "일랜시아 v5.45 상용 서버 패치 안내",
@@ -1970,7 +2569,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/update-21.html",
       "capture_sha256": "bc8aefe885d6c931491e26322dd0ed3043a3d828daa5e2647016b97918486292",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia v5.45 Production Server Patch Notice"
+      "translation": "Elancia v5.45 Production Server Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-549": {
       "title": "일랜시아 Ver 5.57 상용서버 패치 안내",
@@ -1980,7 +2582,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/update-29.html",
       "capture_sha256": "81eb33e812ef38e26d0088f4225deb4c28fa320df355104b0617d06a3498e1b0",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia Ver 5.57 Production Server Patch Notice"
+      "translation": "Elancia Ver 5.57 Production Server Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-557": {
       "title": "일랜시아 Ver 5.65 상용서버 패치 안내",
@@ -1990,7 +2595,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/update-36.html",
       "capture_sha256": "aa55dfc240ca60c5e2464df93b2aaf5e35e58b7951e41357a56a99f6ae516ace",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia Ver 5.65 Production Server Patch Notice"
+      "translation": "Elancia Ver 5.65 Production Server Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-558": {
       "title": "3/8(목) Ver 5.65 상용서버 패치 안내 (완료)",
@@ -2000,7 +2608,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-86938.html",
       "capture_sha256": "f4d3236dd6b0a8302111bcd6f66c31e8f60cad1278a493ff9dc91d390b249126",
       "selector": ".subject .tit excluding the category em",
-      "translation": "3/8 (Thu) Ver 5.65 Production Server Patch Notice (Completed)"
+      "translation": "3/8 (Thu) Ver 5.65 Production Server Patch Notice (Completed)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-561": {
       "title": "일랜시아 Ver 5.67 상용서버 패치 안내",
@@ -2010,7 +2621,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/update-38.html",
       "capture_sha256": "92276da30c46f5e39d3c4e2fc8663db6e9eab46b95b14df687d9ad0bd9a78867",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia Ver 5.67 Production Server Patch Notice"
+      "translation": "Elancia Ver 5.67 Production Server Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-562": {
       "title": "3/8(목) Ver 5.67 상용서버 패치 안내 (완료)",
@@ -2020,7 +2634,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-87000.html",
       "capture_sha256": "ad1089249b30fd85772445370925c015ad23bb3baf08bb2c637547ac00c9284b",
       "selector": ".subject .tit excluding the category em",
-      "translation": "3/8 (Thu) Ver 5.67 Production Server Patch Notice (Completed)"
+      "translation": "3/8 (Thu) Ver 5.67 Production Server Patch Notice (Completed)",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-570": {
       "title": "6/28 (목) 상용서버 Ver5.73 패치",
@@ -2030,7 +2647,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-88630.html",
       "capture_sha256": "79419bcd815ce77d11a3ee2438f876c7691809270b76c77da30a0f3c34af5826",
       "selector": ".subject .tit excluding the category em",
-      "translation": "6/28 (Thu) Production Server Ver 5.73 Patch"
+      "translation": "6/28 (Thu) Production Server Ver 5.73 Patch",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-573": {
       "title": "일랜시아 Ver 5.80 상용서버 패치 안내",
@@ -2040,7 +2660,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/update-42.html",
       "capture_sha256": "430c35660668f715aa23747192e12dbca4ea0dda6a5950c10a0d7eba29c52c33",
       "selector": ".subject .tit excluding the category em",
-      "translation": "Elancia Ver 5.80 Production Server Patch Notice"
+      "translation": "Elancia Ver 5.80 Production Server Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     },
     "source-574": {
       "title": "(완료)03/27(목) 일랜시아 Ver 5.80 상용서버 패치 안내",
@@ -2050,7 +2673,10 @@
       "capture": "sources/version-research/2026-10-14/elancia/notice-100736.html",
       "capture_sha256": "124b37c474c614a27af5544f3fb3c5b2e46fca39aac126847354a94ee1651c2a",
       "selector": ".subject .tit excluding the category em",
-      "translation": "(Completed) 03/27 (Thu) Elancia Ver 5.80 Production Server Patch Notice"
+      "translation": "(Completed) 03/27 (Thu) Elancia Ver 5.80 Production Server Patch Notice",
+      "publisher": "Nexon Korea",
+      "link_label": "Nexon Korea",
+      "source_label": "Nexon Korea"
     }
   }
 }

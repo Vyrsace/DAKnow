@@ -15,9 +15,9 @@
       title.textContent = showOriginal ? title.dataset.originalTitle : title.dataset.translatedTitle;
       title.lang = showOriginal ? title.dataset.titleLanguage : 'en';
     });
-    group.querySelectorAll('.official-archive-link').forEach(link => {
+    group.querySelectorAll('.official-source-link').forEach(link => {
       const title = link.closest('.official-note-citation').querySelector('.official-note-title').textContent;
-      link.title = `Official · ${title} (${link.dataset.publisher} · Internet Archive)`;
+      link.title = `Official · ${title} (${link.dataset.sourceLabel})`;
     });
     group.querySelector('.official-note-qualifier').textContent = showOriginal
       ? 'Original' : 'Translated';

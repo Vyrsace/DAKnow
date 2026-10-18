@@ -43,7 +43,7 @@
       "label": "US DarkAges 2.15 Client",
       "source": "SharePlay (April 1999), CD-ROM (DiscMaster)",
       "source_links": {
-        "DiscMaster": "https://discmaster.textfiles.com/"
+        "DiscMaster": "https://discmaster.textfiles.com/file/42800/SharePlay%2004-1999%20%28DE%29%20%281999%29%20%28Publish%20Verlag%20GmbH%29/SharePlay_04-99.iso/SHARE/SPIELE/DARKAGES/DARKAGES.EXE"
       },
       "previous_caption": "",
       "previous_notes": "Self-Extracting Installer (InstallShield)",
@@ -90,7 +90,7 @@
       "label": "US DarkAges 3.50 Client",
       "source": "PC Master (June 15, 2000), CD-ROM 1 (DiscMaster)",
       "source_links": {
-        "DiscMaster": "https://discmaster.textfiles.com/"
+        "DiscMaster": "https://discmaster.textfiles.com/file/37840/PC%20Master%20%CE%A4%CE%B5%CF%8D%CF%87%CE%BF%CF%82%20124%20-%2015%20%CE%99%CE%BF%CF%85%CE%BD%CE%AF%CE%BF%CF%85%202000/PC%20Master%20%CE%A4%CE%B5%CF%8D%CF%87%CE%BF%CF%82%20124%20-%2015%20%CE%99%CE%BF%CF%85%CE%BD%CE%AF%CE%BF%CF%85%202000%20-%20CD%201.bin/darkages/DarkAges_Key.exe"
       },
       "previous_caption": "PC Master CD (via DiscMaster)",
       "previous_notes": "Self-extracting InstallShield Installer",
@@ -107,7 +107,7 @@
       "label": "US DarkAges 3.50 Client",
       "source": "SK0RPSE (GitHub)",
       "source_links": {
-        "GitHub": "https://github.com/"
+        "GitHub": "https://github.com/SK0RPSE/DarkAges-version-3.50-2000/blob/main/DarkAges_Key.exe"
       },
       "previous_caption": "SK0RPSE (via GitHub)",
       "previous_notes": "Self-extracting InstallShield Installer",
@@ -154,7 +154,7 @@
       "label": "US DarkAges 3.51 Client",
       "source": "SharePlay (June 2000), CD-ROM (DiscMaster)",
       "source_links": {
-        "DiscMaster": "https://discmaster.textfiles.com/"
+        "DiscMaster": "https://discmaster.textfiles.com/file/42817/SharePlay%2006-2000%20%28DE%29%20%282000%29%20%28Publish%20Verlag%20GmbH%29/SharePlay_06-2000.iso/share/rollensp/darkages/darkages.exe"
       },
       "previous_caption": "SharePlay CD (via DiscMaster)",
       "previous_notes": "Self-extracting InstallShield Installer",
@@ -231,7 +231,7 @@
       "label": "US DarkAges 3.71 Client",
       "source": "SG CD, CD-ROM (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://archive.org/details/sg-cd"
       },
       "previous_caption": "SG CD (via Internet Archive)",
       "previous_notes": "CD image (BIN/CUE) containing a self-extracting Wise Installer",
@@ -278,7 +278,7 @@
       "label": "US DarkAges 3.72 Client",
       "source": "PC Gamer (January 2002), CD-ROM 7.11 (DiscMaster)",
       "source_links": {
-        "DiscMaster": "https://discmaster.textfiles.com/"
+        "DiscMaster": "https://discmaster.textfiles.com/file/24071/2002-01_-_Disc_7.11.iso/Software/Demos/DarkAges/DarkAges_Key.exe"
       },
       "previous_caption": "PC Gamer CD (via DiscMaster)",
       "previous_notes": "Self-extracting Wise Installer",
@@ -323,9 +323,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 3.73 Client",
-      "source": "Nexon (Internet Archive)",
+      "source": "Nexon US (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020225052326id_/http://file.nexon.net/client/DarkAges/Single/DarkAges_key.exe"
       },
       "previous_caption": "Nexon (via Internet Archive)",
       "previous_notes": "Self-extracting Wise Installer",
@@ -340,9 +340,10 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 3.73 Client",
-      "source": "Google Drive",
+      "source": "The Buck Network (Google Drive)",
       "source_links": {
-        "Google Drive": "https://drive.google.com/"
+        "The Buck Network": "https://www.thebucknetwork.com/Archive",
+        "Google Drive": "https://drive.google.com/file/d/1VkgbVJK-ajC7Qd2csIjOgjeh9-GlenGo/view?usp=sharing"
       },
       "previous_caption": "Google Drive",
       "previous_notes": "Self-extracting Wise Installer",
@@ -374,9 +375,10 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 3.73 Client",
-      "source": "Google Drive",
+      "source": "The Buck Network (Google Drive)",
       "source_links": {
-        "Google Drive": "https://drive.google.com/"
+        "The Buck Network": "https://www.thebucknetwork.com/Archive",
+        "Google Drive": "https://drive.google.com/file/d/1M1O7KqNw9MYaOSS1SHKIkr02BWzOEFCi/view?usp=sharing"
       },
       "previous_caption": "Google Drive",
       "previous_notes": "Self-extracting Wise Installer",
@@ -391,9 +393,10 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 3.73 Client",
-      "source": "Google Drive",
+      "source": "The Buck Network (Google Drive)",
       "source_links": {
-        "Google Drive": "https://drive.google.com/"
+        "The Buck Network": "https://www.thebucknetwork.com/Archive",
+        "Google Drive": "https://drive.google.com/file/d/1E2DOHRSZrT2wjRS5sRGklh4JqtNUbkaQ/view?usp=sharing"
       },
       "previous_caption": "Google Drive",
       "previous_notes": "Self-extracting Wise Installer",
@@ -408,9 +411,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 3.73 Client",
-      "source": "Nexon (Internet Archive)",
+      "source": "Nexon US (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20011221231452id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.exe"
       },
       "previous_caption": "Nexon (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 1 of 4] (self-extracting EXE)",
@@ -425,9 +428,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 3.73 Client",
-      "source": "Nexon (Internet Archive)",
+      "source": "Nexon US (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20011221224710id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.W02"
       },
       "previous_caption": "Nexon (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 2 of 4] (Installer data volume)",
@@ -442,9 +445,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 3.73 Client",
-      "source": "Nexon (Internet Archive)",
+      "source": "Nexon US (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20011221230221id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.W03"
       },
       "previous_caption": "Nexon (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 3 of 4] (Installer data volume)",
@@ -459,9 +462,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 3.73 Client",
-      "source": "Nexon (Internet Archive)",
+      "source": "Nexon US (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020108031942id_/http://file.nexon.net:80/client/Darkages/multiple/DarkAges_key_split.w04"
       },
       "previous_caption": "Nexon (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 4 of 4] (Installer data volume)\nMultipart mirror Installers require all 4 listed parts",
@@ -506,9 +509,10 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 4.51 Client",
-      "source": "Google Drive",
+      "source": "The Buck Network (Google Drive)",
       "source_links": {
-        "Google Drive": "https://drive.google.com/"
+        "The Buck Network": "https://www.thebucknetwork.com/Archive",
+        "Google Drive": "https://drive.google.com/file/d/1sjZ0jq7CaqrMtOg_aaQlRz36CKAIWKlM/view?usp=sharing"
       },
       "previous_caption": "Google Drive",
       "previous_notes": "ZIP archive containing the complete three-part Wise Installer\nThe ZIP filename says 4.52; its Installer and client files identify 4.51\nThe ZIP contains the complete original three-part Installer: darkages_key.exe, darkages_key.w02 and darkages_key.w03. Its members match the separate official volumes byte-for-byte",
@@ -540,9 +544,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 4.51 Client",
-      "source": "Nexon (Internet Archive)",
+      "source": "Nexon US (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020816001725id_/http://file.nexon.net:80/client/DarkAges/451/multiple/darkages_key.exe"
       },
       "previous_caption": "Nexon (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 1 of 3] (self-extracting EXE)",
@@ -557,9 +561,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 4.51 Client",
-      "source": "Nexon (Internet Archive)",
+      "source": "Nexon US (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20021204130948id_/http://file.nexon.net:80/client/DarkAges/451/multiple/darkages_key.w02"
       },
       "previous_caption": "Nexon (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 2 of 3] (Installer data volume)",
@@ -574,9 +578,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 4.51 Client",
-      "source": "Nexon (Internet Archive)",
+      "source": "Nexon US (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020816001406id_/http://file.nexon.net:80/client/DarkAges/451/multiple/darkages_key.w03"
       },
       "previous_caption": "Nexon (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 3 of 3] (Installer data volume)\nMultipart mirror Installers require all 3 listed parts",
@@ -668,9 +672,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 5.51 Client",
-      "source": "Nexon (Internet Archive)",
+      "source": "Nexon US (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20040220093130id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe"
       },
       "previous_caption": "Nexon (via Internet Archive)",
       "previous_notes": "Self-extracting Wise Installer",
@@ -685,9 +689,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 5.51 Client",
-      "source": "Nexon (Internet Archive)",
+      "source": "Nexon US (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20040220093419id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe"
       },
       "previous_caption": "Nexon (via Internet Archive)",
       "previous_notes": "Self-extracting Wise Installer",
@@ -702,9 +706,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 5.51 Client",
-      "source": "Nexon (Internet Archive)",
+      "source": "Nexon US (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20040726212640id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe"
       },
       "previous_caption": "Nexon (via Internet Archive)",
       "previous_notes": "Self-extracting Wise Installer",
@@ -719,9 +723,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 5.51 Client",
-      "source": "Nexon (Internet Archive)",
+      "source": "Nexon US (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20051020132146id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe"
       },
       "previous_caption": "Nexon (via Internet Archive)",
       "previous_notes": "Self-extracting Wise Installer",
@@ -753,9 +757,10 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 5.51 Client",
-      "source": "Google Drive",
+      "source": "The Buck Network (Google Drive)",
       "source_links": {
-        "Google Drive": "https://drive.google.com/"
+        "The Buck Network": "https://www.thebucknetwork.com/Archive",
+        "Google Drive": "https://drive.google.com/file/d/1beW1OaUr6oVHxY0wv4hmS9E0fh2E_5hv/view?usp=sharing"
       },
       "previous_caption": "Google Drive",
       "previous_notes": "Self-extracting Wise Installer",
@@ -800,9 +805,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.05 Client",
-      "source": "Official DarkAges Website (Internet Archive)",
+      "source": "KRU Interactive (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20060823135708id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.exe"
       },
       "previous_caption": "Official DarkAges Website (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 1 of 10] (self-extracting EXE)",
@@ -817,9 +822,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.05 Client",
-      "source": "Official DarkAges Website (Internet Archive)",
+      "source": "KRU Interactive (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20060823135651id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W02"
       },
       "previous_caption": "Official DarkAges Website (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 2 of 10] (Installer data volume)",
@@ -834,9 +839,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.05 Client",
-      "source": "Official DarkAges Website (Internet Archive)",
+      "source": "KRU Interactive (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20060823135819id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W03"
       },
       "previous_caption": "Official DarkAges Website (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 3 of 10] (Installer data volume)",
@@ -851,9 +856,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.05 Client",
-      "source": "Official DarkAges Website (Internet Archive)",
+      "source": "KRU Interactive (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20060823135831id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W04"
       },
       "previous_caption": "Official DarkAges Website (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 4 of 10] (Installer data volume)",
@@ -868,9 +873,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.05 Client",
-      "source": "Official DarkAges Website (Internet Archive)",
+      "source": "KRU Interactive (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20060823135743id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W05"
       },
       "previous_caption": "Official DarkAges Website (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 5 of 10] (Installer data volume)",
@@ -885,9 +890,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.05 Client",
-      "source": "Official DarkAges Website (Internet Archive)",
+      "source": "KRU Interactive (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20060823135806id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W06"
       },
       "previous_caption": "Official DarkAges Website (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 6 of 10] (Installer data volume)",
@@ -902,9 +907,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.05 Client",
-      "source": "Official DarkAges Website (Internet Archive)",
+      "source": "KRU Interactive (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20060823135844id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W07"
       },
       "previous_caption": "Official DarkAges Website (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 7 of 10] (Installer data volume)",
@@ -919,9 +924,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.05 Client",
-      "source": "Official DarkAges Website (Internet Archive)",
+      "source": "KRU Interactive (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20060823135855id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W08"
       },
       "previous_caption": "Official DarkAges Website (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 8 of 10] (Installer data volume)",
@@ -936,9 +941,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.05 Client",
-      "source": "Official DarkAges Website (Internet Archive)",
+      "source": "KRU Interactive (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20060823135908id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W09"
       },
       "previous_caption": "Official DarkAges Website (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 9 of 10] (Installer data volume)",
@@ -953,9 +958,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.05 Client",
-      "source": "Official DarkAges Website (Internet Archive)",
+      "source": "KRU Interactive (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20060823135922id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W10"
       },
       "previous_caption": "Official DarkAges Website (via Internet Archive)",
       "previous_notes": "Wise Installer [Part 10 of 10] (Installer data volume)\nMultipart mirror Installers require all 10 listed parts",
@@ -985,9 +990,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.05 Patch",
-      "source": "Official DarkAges Website (Internet Archive)",
+      "source": "KRU Interactive (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20060823135725id_/http://files.kru.com:80/DarkAges/Client/Single/DA704to705.exe"
       },
       "previous_caption": "Official DarkAges Website (via Internet Archive)",
       "previous_notes": "Self-extracting patch Installer (Wise); installs replacement executable and game-data files\nUpdates the client executable and game-data files; requires version 7.04",
@@ -1032,9 +1037,10 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.12 Client",
-      "source": "Google Drive",
+      "source": "The Buck Network (Google Drive)",
       "source_links": {
-        "Google Drive": "https://drive.google.com/"
+        "The Buck Network": "https://www.thebucknetwork.com/Archive",
+        "Google Drive": "https://drive.google.com/file/d/1FkjK-MbVErgvEfQYNsY_s-IVckHOHWT8/view?usp=sharing"
       },
       "previous_caption": "Google Drive",
       "previous_notes": "Self-extracting Wise Installer",
@@ -1079,9 +1085,10 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.18 Client",
-      "source": "Google Drive",
+      "source": "The Buck Network (Google Drive)",
       "source_links": {
-        "Google Drive": "https://drive.google.com/"
+        "The Buck Network": "https://www.thebucknetwork.com/Archive",
+        "Google Drive": "https://drive.google.com/file/d/1KdkTnGAU42KAMTrmUawp79pURZiwetoR/view?usp=sharing"
       },
       "previous_caption": "Google Drive",
       "previous_notes": "Self-extracting Wise Installer",
@@ -1126,9 +1133,10 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.29 Client",
-      "source": "Google Drive",
+      "source": "The Buck Network (Google Drive)",
       "source_links": {
-        "Google Drive": "https://drive.google.com/"
+        "The Buck Network": "https://www.thebucknetwork.com/Archive",
+        "Google Drive": "https://drive.google.com/file/d/1xFLKueXrAVa4cBoprhHjms4f_R8HdtKM/view?usp=sharing"
       },
       "previous_caption": "Google Drive",
       "previous_notes": "Self-extracting Wise Installer",
@@ -1173,9 +1181,10 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.30 Client",
-      "source": "Google Drive",
+      "source": "The Buck Network (Google Drive)",
       "source_links": {
-        "Google Drive": "https://drive.google.com/"
+        "The Buck Network": "https://www.thebucknetwork.com/Archive",
+        "Google Drive": "https://drive.google.com/file/d/17kJDgPawjOpZrLsGkJUZ88FAfIvmzPFO/view?usp=sharing"
       },
       "previous_caption": "Google Drive",
       "previous_notes": "Self-extracting Wise Installer",
@@ -1220,9 +1229,10 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.35 Client",
-      "source": "Google Drive",
+      "source": "The Buck Network (Google Drive)",
       "source_links": {
-        "Google Drive": "https://drive.google.com/"
+        "The Buck Network": "https://www.thebucknetwork.com/Archive",
+        "Google Drive": "https://drive.google.com/file/d/1l_IdZBmsmxg1erZ8LM38POLCltPfriHg/view?usp=sharing"
       },
       "previous_caption": "Google Drive",
       "previous_notes": "Self-extracting Wise Installer",
@@ -1267,9 +1277,10 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.39 Client",
-      "source": "Google Drive",
+      "source": "The Buck Network (Google Drive)",
       "source_links": {
-        "Google Drive": "https://drive.google.com/"
+        "The Buck Network": "https://www.thebucknetwork.com/Archive",
+        "Google Drive": "https://drive.google.com/file/d/1GaKKx-TXX0EvyvyWMwcKCF08J2xz0Z3f/view?usp=sharing"
       },
       "previous_caption": "Google Drive",
       "previous_notes": "Self-extracting Wise Installer",
@@ -1301,7 +1312,7 @@
       "label": "US DarkAges 7.39 Patch",
       "source": "KRU Interactive (Amazon S3)",
       "source_links": {
-        "Amazon S3": "https://aws.amazon.com/s3/"
+        "Amazon S3": "https://s3.amazonaws.com/kru-downloads/da/DarkAges738-739patch.exe"
       },
       "previous_caption": "KRU Interactive (via Amazon S3)",
       "previous_notes": "Self-extracting binary-patch Installer (Wise)\nContains binary deltas; requires version 7.38 and is not a standalone client",
@@ -1346,9 +1357,10 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.40 Client",
-      "source": "Google Drive",
+      "source": "The Buck Network (Google Drive)",
       "source_links": {
-        "Google Drive": "https://drive.google.com/"
+        "The Buck Network": "https://www.thebucknetwork.com/Archive",
+        "Google Drive": "https://drive.google.com/file/d/1unZI3Trq_o9kOf_wNKM_s7CCY3bA-js0/view?usp=sharing"
       },
       "previous_caption": "Google Drive",
       "previous_notes": "Self-extracting Wise Installer",
@@ -1380,7 +1392,7 @@
       "label": "US DarkAges 7.40 Patch",
       "source": "KRU Interactive (Amazon S3)",
       "source_links": {
-        "Amazon S3": "https://aws.amazon.com/s3/"
+        "Amazon S3": "https://s3.amazonaws.com/kru-downloads/da/DarkAges739-740patch.exe"
       },
       "previous_caption": "KRU Interactive (via Amazon S3)",
       "previous_notes": "Self-extracting binary-patch Installer (Wise)\nContains binary deltas; requires version 7.39 and is not a standalone client",
@@ -1425,9 +1437,10 @@
       "hosted": false,
       "kind": "Original",
       "label": "US DarkAges 7.41 Client",
-      "source": "Google Drive",
+      "source": "The Buck Network (Google Drive)",
       "source_links": {
-        "Google Drive": "https://drive.google.com/"
+        "The Buck Network": "https://www.thebucknetwork.com/Archive",
+        "Google Drive": "https://drive.google.com/file/d/1ZGgK1KGXmAMHsgsZKIr-ZLfSAPRAjWqp/view?usp=sharing"
       },
       "previous_caption": "Google Drive",
       "previous_notes": "Self-extracting Wise Installer",
@@ -1444,7 +1457,7 @@
       "label": "US DarkAges 7.41 Client",
       "source": "KRU Interactive (Amazon S3)",
       "source_links": {
-        "Amazon S3": "https://aws.amazon.com/s3/"
+        "Amazon S3": "https://s3.amazonaws.com/kru-downloads/da/DarkAges741single.exe"
       },
       "previous_caption": "KRU Interactive (via Amazon S3)",
       "previous_notes": "Self-extracting Wise Installer",
@@ -1476,7 +1489,7 @@
       "label": "US DarkAges 7.41 Patch",
       "source": "KRU Interactive (Amazon S3)",
       "source_links": {
-        "Amazon S3": "https://aws.amazon.com/s3/"
+        "Amazon S3": "https://s3.amazonaws.com/kru-downloads/da/DarkAges740-741patch.exe"
       },
       "previous_caption": "KRU Interactive (via Amazon S3)",
       "previous_notes": "Self-extracting binary-patch Installer (Wise)\nContains binary deltas; requires version 7.40 and is not a standalone client",
@@ -1523,7 +1536,7 @@
       "label": "KR Legends of Darkness 3.11 Client",
       "source": "Hitel (2000), CD-ROM (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://archive.org/details/hitel-2000"
       },
       "previous_caption": "Hitel CD (via Internet Archive)",
       "previous_notes": "CD image (ISO) containing a self-extracting InstallShield Installer (LodR.exe)",
@@ -1540,7 +1553,7 @@
       "label": "KR Legends of Darkness 3.11 Client",
       "source": "Nice 인터넷 3.71, CD-ROM (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://archive.org/details/nice_internet_3.71"
       },
       "previous_caption": "Nice CD (via Internet Archive)",
       "previous_notes": "CD image (CCD/IMG/SUB) containing a self-extracting InstallShield Installer (Lod.exe)",
@@ -1587,7 +1600,7 @@
       "label": "KR Legends of Darkness 5.01 Client",
       "source": "Net (June 2002), CD-ROM (DiscMaster)",
       "source_links": {
-        "DiscMaster": "https://discmaster.textfiles.com/"
+        "DiscMaster": "https://discmaster.textfiles.com/file/28506/Net_2002_06.iso/Client/lodr.exe"
       },
       "previous_caption": "Net CD - June 2002 (via DiscMaster)",
       "previous_notes": "Self-extracting InstallShield Installer (PackageForTheWeb/CAB wrapper)",
@@ -1634,7 +1647,7 @@
       "label": "KR Legends of Darkness 5.20 Client",
       "source": "Net (December 2002), CD-ROM (DiscMaster)",
       "source_links": {
-        "DiscMaster": "https://discmaster.textfiles.com/"
+        "DiscMaster": "https://discmaster.textfiles.com/file/28508/Net_2002_12.iso/online/lodr.exe"
       },
       "previous_caption": "Net CD - December 2002 (via DiscMaster)",
       "previous_notes": "Self-extracting InstallShield Installer (PackageForTheWeb/CAB wrapper)",
@@ -1681,7 +1694,7 @@
       "label": "KR Legends of Darkness 5.30 Client",
       "source": "Net (February 2003), CD-ROM 2 (DiscMaster)",
       "source_links": {
-        "DiscMaster": "https://discmaster.textfiles.com/"
+        "DiscMaster": "https://discmaster.textfiles.com/file/28510/Net_2003_02_cd2.iso/online/lodr.exe"
       },
       "previous_caption": "Net CD 2 - February 2003 (via DiscMaster)",
       "previous_notes": "Self-extracting InstallShield Installer (PackageForTheWeb/CAB wrapper)",
@@ -1726,9 +1739,9 @@
       "hosted": false,
       "kind": "Original",
       "label": "KR Legends of Darkness 5.99 Client",
-      "source": "ATFile client archive (Internet Archive)",
+      "source": "ATFile (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://archive.org/details/atfile-client-archive"
       },
       "previous_caption": "Internet Archive",
       "previous_notes": "Wise Installer",
@@ -1775,8 +1788,8 @@
       "label": "KR Legends of Darkness 8.540 Client",
       "source": "Nexon Korea (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/",
-        "Nexon Korea": "https://company.nexon.com/"
+        "Internet Archive": "https://web.archive.org/web/20170407025514id_/http://lod.dn.nexoncdn.co.kr/lodr.exe",
+        "Nexon Korea": "https://lod.nexon.com/"
       },
       "previous_caption": "Nexon Korea (via Internet Archive)",
       "previous_notes": "Self-extracting Nexon NGM Installer with an embedded ZIP client payload",
@@ -1823,8 +1836,8 @@
       "label": "KR Legends of Darkness 9.100 Client",
       "source": "Nexon Korea (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/",
-        "Nexon Korea": "https://company.nexon.com/"
+        "Internet Archive": "https://web.archive.org/web/20210724200127id_/http://lod.dn.nexoncdn.co.kr/lodr.exe",
+        "Nexon Korea": "https://lod.nexon.com/"
       },
       "previous_caption": "Nexon Korea (via Internet Archive)",
       "previous_notes": "Self-extracting Nexon NGM Installer with an embedded ZIP client payload",
@@ -1871,8 +1884,8 @@
       "label": "KR Legends of Darkness 9.570 Client (Hades)",
       "source": "Nexon Korea (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/",
-        "Nexon Korea": "https://company.nexon.com/"
+        "Internet Archive": "https://web.archive.org/web/20210724200046id_/http://lod.dn.nexoncdn.co.kr/Lodtest.exe",
+        "Nexon Korea": "https://lod.nexon.com/"
       },
       "previous_caption": "Nexon Korea (via Internet Archive)",
       "previous_notes": "Self-extracting Nexon NGM Installer with an embedded ZIP client payload\nHades test-server client Installer",
@@ -1919,7 +1932,7 @@
       "label": "KR Elancia 6.0.3.0 Client",
       "source": "Nexon Korea, production launcher",
       "source_links": {
-        "Nexon Korea": "https://company.nexon.com/"
+        "Nexon Korea": "https://elancia.nexon.com/"
       },
       "previous_caption": "Nexon production launcher",
       "previous_notes": "Nexon Game Manager Bootstrapper (downloads the client separately)",
@@ -1936,7 +1949,7 @@
       "label": "KR Elancia 6.0.3.0 Client",
       "source": "Nexon Korea, production game payload",
       "source_links": {
-        "Nexon Korea": "https://company.nexon.com/"
+        "Nexon Korea": "https://elancia.nexon.com/"
       },
       "previous_caption": "Nexon production game payload",
       "previous_notes": "ZIP archive (NGM game payload)",
@@ -1983,7 +1996,7 @@
       "label": "KR Elancia 6.0.0.0 Client",
       "source": "Nexon Korea, test launcher",
       "source_links": {
-        "Nexon Korea": "https://company.nexon.com/"
+        "Nexon Korea": "https://elancia.nexon.com/"
       },
       "previous_caption": "Nexon test launcher",
       "previous_notes": "Nexon Game Manager Bootstrapper (downloads the test client separately)",
@@ -2000,7 +2013,7 @@
       "label": "KR Elancia 6.0.0.0 Client",
       "source": "Nexon Korea, test game payload",
       "source_links": {
-        "Nexon Korea": "https://company.nexon.com/"
+        "Nexon Korea": "https://elancia.nexon.com/"
       },
       "previous_caption": "Nexon test game payload",
       "previous_notes": "ZIP archive (NGM test game payload)",
@@ -2047,7 +2060,7 @@
       "label": "SG DarkAges 3.51 Client",
       "source": "NexonAsia, Singapore-help package (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20011229223229id_/http://download.nexonasia.com:80/DarkAges/DarkAges351.exe"
       },
       "previous_caption": "NexonAsia - “Singapore help” (via Internet Archive)",
       "previous_notes": "Self-extracting ZIP containing an InstallShield Installer (WinZip Self-Extractor)\nSingapore-customized help text\nThe loose DarkAges.dat is 51,769,769 bytes; the Installer CAB index declares 51,769,961 bytes. The original bytes are preserved without reconstruction",
@@ -2064,7 +2077,7 @@
       "label": "SG DarkAges 3.51 Client",
       "source": "NexonAsia, U.S.-help package (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020222224012id_/http://download.nexonasia.com:80/DarkAges/DarkAges351.exe"
       },
       "previous_caption": "NexonAsia - “U.S. help” (via Internet Archive)",
       "previous_notes": "Self-extracting ZIP containing an InstallShield Installer (WinZip Self-Extractor)\nU.S.-matching help text; this DarkAges.dat is byte-identical to U.S. 3.51",
@@ -2081,7 +2094,7 @@
       "label": "SG DarkAges 4.21 Client",
       "source": "NexonAsia (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020605035323id_/http://darkages.nexonasia.com:80/downloads/darkages.exe"
       },
       "previous_caption": "NexonAsia (via Internet Archive)",
       "previous_notes": "Standalone game executable (replacement client EXE)\nStandalone replacement client executable; requires the existing game-data files\nThe required base version is unconfirmed\nThis version-4.21 game executable is byte-identical to the one contained by dapatch.exe",
@@ -2128,7 +2141,7 @@
       "label": "SG DarkAges 4.21 Patch",
       "source": "NexonAsia (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020605035108id_/http://darkages.nexonasia.com:80/downloads/dapatch.exe"
       },
       "previous_caption": "NexonAsia (via Internet Archive)",
       "previous_notes": "Self-extracting ZIP patch Installer (InstallAnywhere); replaces the game executable\nPatch Installer containing the replacement executable\nExecutable-only update; the required base version is unconfirmed\nThe direct darkages.exe and the dapatch.exe package contain the identical version-4.21 replacement game executable. The patch does not replace game-data archives",
@@ -2157,10 +2170,11 @@
       "url": "https://drive.usercontent.google.com/download?id=1pIitS1WK6zZTO8TiWdABusPWWhMuyiHt&export=download&confirm=t",
       "hosted": false,
       "kind": "Repack",
-      "label": "MY Legends of Orphelias 4.20 Client · Repack",
-      "source": "Google Drive",
+      "label": "MY Legends of Orphelias 4.20 Client",
+      "source": "The Buck Network (Google Drive)",
       "source_links": {
-        "Google Drive": "https://drive.google.com/"
+        "The Buck Network": "https://www.thebucknetwork.com/Archive",
+        "Google Drive": "https://drive.google.com/file/d/1pIitS1WK6zZTO8TiWdABusPWWhMuyiHt/view?usp=sharing"
       },
       "previous_caption": "Google Drive",
       "previous_notes": "ZIP archive of installed client files\nArchive of installed client files, without the original Installer\nThe preservation mirror attributes this package to Orphelias; its independently distinct Orphelias identity is unconfirmed",
@@ -2174,7 +2188,7 @@
       "url": "https://novus-imperia.com/vault/legends-of-orphelias.zip",
       "hosted": false,
       "kind": "Repack",
-      "label": "MY Legends of Orphelias 4.20 Client · Repack",
+      "label": "MY Legends of Orphelias 4.20 Client",
       "source": "Novus Imperia",
       "source_links": {
         "Novus Imperia": "https://novus-imperia.com/"
@@ -2224,7 +2238,7 @@
       "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20040515172001id_/http://www.time.net.my/download/legends_full_20011011.exe"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "Self-extracting ACE archive containing an InstallShield Installer",
@@ -2256,9 +2270,10 @@
       "hosted": false,
       "kind": "Repack",
       "label": "MY Legends of Temuair 4.20 Client · Repack",
-      "source": "Google Drive",
+      "source": "The Buck Network (Google Drive)",
       "source_links": {
-        "Google Drive": "https://drive.google.com/"
+        "The Buck Network": "https://www.thebucknetwork.com/Archive",
+        "Google Drive": "https://drive.google.com/file/d/1AVnuu2TVfkW4MaXN-RmSo6hJIFnDUojy/view?usp=sharing"
       },
       "previous_caption": "Google Drive",
       "previous_notes": "7z archive of extracted InstallShield setup files\nThe 7z repack contains the same 15 extracted InstallShield setup files, rather than the byte-identical original self-extracting EXE",
@@ -2275,7 +2290,7 @@
       "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020208022752id_/http://legends.time.net.my:80/download/legends.exe"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 1 of 12] (self-extracting EXE containing InstallShield setup files)",
@@ -2292,7 +2307,7 @@
       "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20011224174053id_/http://legends.time.net.my:80/download/legends.c00"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 2 of 12] (InstallShield setup distribution)",
@@ -2309,7 +2324,7 @@
       "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20011224173547id_/http://legends.time.net.my:80/download/legends.c01"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 3 of 12] (InstallShield setup distribution)",
@@ -2326,7 +2341,7 @@
       "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20011027232745id_/http://legends.time.net.my:80/download/legends.c02"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 4 of 12] (InstallShield setup distribution)",
@@ -2343,7 +2358,7 @@
       "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20011027233618id_/http://legends.time.net.my:80/download/legends.c03"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 5 of 12] (InstallShield setup distribution)",
@@ -2360,7 +2375,7 @@
       "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20011027235437id_/http://legends.time.net.my:80/download/legends.c04"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 6 of 12] (InstallShield setup distribution)",
@@ -2377,7 +2392,7 @@
       "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20011027235230id_/http://legends.time.net.my:80/download/legends.c05"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 7 of 12] (InstallShield setup distribution)",
@@ -2394,7 +2409,7 @@
       "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20011224171025id_/http://legends.time.net.my:80/download/legends.c06"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 8 of 12] (InstallShield setup distribution)",
@@ -2411,7 +2426,7 @@
       "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020208020104id_/http://legends.time.net.my:80/download/legends.c07"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 9 of 12] (InstallShield setup distribution)",
@@ -2428,7 +2443,7 @@
       "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20011224201442id_/http://legends.time.net.my:80/download/legends.c08"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 10 of 12] (InstallShield setup distribution)",
@@ -2445,7 +2460,7 @@
       "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020208021635id_/http://legends.time.net.my:80/download/legends.c09"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 11 of 12] (InstallShield setup distribution)",
@@ -2462,7 +2477,7 @@
       "label": "MY Legends of Temuair 4.20 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020208014958id_/http://legends.time.net.my:80/download/legends.c10"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 12 of 12] (InstallShield setup distribution)\nMultipart mirror Installers require all 12 listed parts",
@@ -2509,7 +2524,7 @@
       "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020804211828id_/http://legends.time.net.my:80/download/legends421_part.exe"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 1 of 13] (self-extracting EXE containing InstallShield setup files)",
@@ -2526,7 +2541,7 @@
       "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020601131132id_/http://legends.time.net.my:80/download/legends421_part.c00"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 2 of 13] (InstallShield setup distribution)",
@@ -2543,7 +2558,7 @@
       "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020601135852id_/http://legends.time.net.my:80/download/legends421_part.c01"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 3 of 13] (InstallShield setup distribution)",
@@ -2560,7 +2575,7 @@
       "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020601140354id_/http://legends.time.net.my:80/download/legends421_part.c02"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 4 of 13] (InstallShield setup distribution)",
@@ -2577,7 +2592,7 @@
       "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020601135830id_/http://legends.time.net.my:80/download/legends421_part.c03"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 5 of 13] (InstallShield setup distribution)",
@@ -2594,7 +2609,7 @@
       "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020601140046id_/http://legends.time.net.my:80/download/legends421_part.c04"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 6 of 13] (InstallShield setup distribution)",
@@ -2611,7 +2626,7 @@
       "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020410194834id_/http://legends.time.net.my:80/download/legends421_part.c05"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 7 of 13] (InstallShield setup distribution)",
@@ -2628,7 +2643,7 @@
       "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020804210250id_/http://legends.time.net.my:80/download/legends421_part.c06"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 8 of 13] (InstallShield setup distribution)",
@@ -2645,7 +2660,7 @@
       "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020410195807id_/http://legends.time.net.my:80/download/legends421_part.c07"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 9 of 13] (InstallShield setup distribution)",
@@ -2662,7 +2677,7 @@
       "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020601141535id_/http://legends.time.net.my:80/download/legends421_part.c08"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 10 of 13] (InstallShield setup distribution)",
@@ -2679,7 +2694,7 @@
       "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020601140623id_/http://legends.time.net.my:80/download/legends421_part.c09"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 11 of 13] (InstallShield setup distribution)",
@@ -2696,7 +2711,7 @@
       "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020601141113id_/http://legends.time.net.my:80/download/legends421_part.c10"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 12 of 13] (InstallShield setup distribution)",
@@ -2713,7 +2728,7 @@
       "label": "MY Legends of Temuair 4.21 Client",
       "source": "TIME dotNet (Internet Archive)",
       "source_links": {
-        "Internet Archive": "https://archive.org/"
+        "Internet Archive": "https://web.archive.org/web/20020410201601id_/http://legends.time.net.my:80/download/legends421_part.c11"
       },
       "previous_caption": "TIME dotNet (via Internet Archive)",
       "previous_notes": "ACE archive [Part 13 of 13] (InstallShield setup distribution)\nMultipart mirror Installers require all 13 listed parts",
@@ -2775,9 +2790,10 @@
       "hosted": false,
       "kind": "Original",
       "label": "JP Yami 5.22 Client",
-      "source": "Google Drive",
+      "source": "The Buck Network (Google Drive)",
       "source_links": {
-        "Google Drive": "https://drive.google.com/"
+        "The Buck Network": "https://www.thebucknetwork.com/Archive",
+        "Google Drive": "https://drive.google.com/file/d/1MY1iINfz9HaegNJyg8TLsMjWoNRo54Hr/view?usp=sharing"
       },
       "previous_caption": "Google Drive",
       "previous_notes": "7z archive containing the original InstallShield Installer (Yami522c_62.exe)\nThe c_62 filename suffix identifies a package variant, rather than a separate client version\nContains Yami522c_62.exe byte-identical to the separately listed original EXE",

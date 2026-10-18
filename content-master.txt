@@ -3281,7 +3281,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (Internet Archive)[/Source]
+                [Source]Nexon US (Internet Archive)[/Source]
                 [Filename]DarkAges_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20020225052326id_/http://file.nexon.net/client/DarkAges/Single/DarkAges_key.exe[/Download.URL]
                 [File.Size]21.91 MB (21,910,290 bytes)[/File.Size]
@@ -3290,7 +3290,7 @@
 
             [File ID="3"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Google Drive[/Source]
+                [Source]The Buck Network (Google Drive)[/Source]
                 [Filename]DarkAges-3.61.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1VkgbVJK-ajC7Qd2csIjOgjeh9-GlenGo&export=download&confirm=t[/Download.URL]
                 [File.Size]21.91 MB (21,910,290 bytes)[/File.Size]
@@ -3308,7 +3308,7 @@
 
             [File ID="5"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Google Drive[/Source]
+                [Source]The Buck Network (Google Drive)[/Source]
                 [Filename]DarkAges_Key_3.71.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1M1O7KqNw9MYaOSS1SHKIkr02BWzOEFCi&export=download&confirm=t[/Download.URL]
                 [File.Size]21.91 MB (21,910,290 bytes)[/File.Size]
@@ -3317,7 +3317,7 @@
 
             [File ID="6"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Google Drive[/Source]
+                [Source]The Buck Network (Google Drive)[/Source]
                 [Filename]DarkAges_Key_5.21.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1E2DOHRSZrT2wjRS5sRGklh4JqtNUbkaQ&export=download&confirm=t[/Download.URL]
                 [File.Size]21.91 MB (21,910,290 bytes)[/File.Size]
@@ -3326,7 +3326,7 @@
 
             [File ID="7"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (Internet Archive)[/Source]
+                [Source]Nexon US (Internet Archive)[/Source]
                 [Filename]DarkAges_Key_split.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20011221231452id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.exe[/Download.URL]
                 [File.Size]5.53 MB (5,529,600 bytes)[/File.Size]
@@ -3335,7 +3335,7 @@
 
             [File ID="8"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (Internet Archive)[/Source]
+                [Source]Nexon US (Internet Archive)[/Source]
                 [Filename]DarkAges_Key_split.W02[/Filename]
                 [Download.URL]https://web.archive.org/web/20011221224710id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.W02[/Download.URL]
                 [File.Size]5.53 MB (5,529,600 bytes)[/File.Size]
@@ -3344,7 +3344,7 @@
 
             [File ID="9"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (Internet Archive)[/Source]
+                [Source]Nexon US (Internet Archive)[/Source]
                 [Filename]DarkAges_Key_split.W03[/Filename]
                 [Download.URL]https://web.archive.org/web/20011221230221id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.W03[/Download.URL]
                 [File.Size]5.53 MB (5,529,600 bytes)[/File.Size]
@@ -3353,7 +3353,7 @@
 
             [File ID="10"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (Internet Archive)[/Source]
+                [Source]Nexon US (Internet Archive)[/Source]
                 [Filename]DarkAges_key_split.w04[/Filename]
                 [Download.URL]https://web.archive.org/web/20020108031942id_/http://file.nexon.net:80/client/Darkages/multiple/DarkAges_key_split.w04[/Download.URL]
                 [File.Size]5.32 MB (5,321,491 bytes)[/File.Size]
@@ -3383,7 +3383,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Google Drive[/Source]
+                [Source]The Buck Network (Google Drive)[/Source]
                 [Filename]DarkAges-4.52.zip[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1sjZ0jq7CaqrMtOg_aaQlRz36CKAIWKlM&export=download&confirm=t[/Download.URL]
                 [File.Size]35.95 MB (35,948,781 bytes)[/File.Size]
@@ -3401,7 +3401,7 @@
 
             [File ID="4"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (Internet Archive)[/Source]
+                [Source]Nexon US (Internet Archive)[/Source]
                 [Filename]darkages_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20020816001725id_/http://file.nexon.net:80/client/DarkAges/451/multiple/darkages_key.exe[/Download.URL]
                 [File.Size]14.34 MB (14,336,000 bytes)[/File.Size]
@@ -3410,7 +3410,7 @@
 
             [File ID="5"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (Internet Archive)[/Source]
+                [Source]Nexon US (Internet Archive)[/Source]
                 [Filename]darkages_key.w02[/Filename]
                 [Download.URL]https://web.archive.org/web/20021204130948id_/http://file.nexon.net:80/client/DarkAges/451/multiple/darkages_key.w02[/Download.URL]
                 [File.Size]14.34 MB (14,336,000 bytes)[/File.Size]
@@ -3419,7 +3419,7 @@
 
             [File ID="6"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (Internet Archive)[/Source]
+                [Source]Nexon US (Internet Archive)[/Source]
                 [Filename]darkages_key.w03[/Filename]
                 [Download.URL]https://web.archive.org/web/20020816001406id_/http://file.nexon.net:80/client/DarkAges/451/multiple/darkages_key.w03[/Download.URL]
                 [File.Size]7.59 MB (7,589,018 bytes)[/File.Size]
@@ -3479,7 +3479,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (Internet Archive)[/Source]
+                [Source]Nexon US (Internet Archive)[/Source]
                 [Filename]darkages_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20040220093130id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe[/Download.URL]
                 [File.Size]61.14 MB (61,139,651 bytes)[/File.Size]
@@ -3488,7 +3488,7 @@
 
             [File ID="3"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (Internet Archive)[/Source]
+                [Source]Nexon US (Internet Archive)[/Source]
                 [Filename]darkages_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20040220093419id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe[/Download.URL]
                 [File.Size]61.14 MB (61,139,651 bytes)[/File.Size]
@@ -3497,7 +3497,7 @@
 
             [File ID="4"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (Internet Archive)[/Source]
+                [Source]Nexon US (Internet Archive)[/Source]
                 [Filename]darkages_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20040726212640id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe[/Download.URL]
                 [File.Size]61.14 MB (61,139,651 bytes)[/File.Size]
@@ -3506,7 +3506,7 @@
 
             [File ID="5"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (Internet Archive)[/Source]
+                [Source]Nexon US (Internet Archive)[/Source]
                 [Filename]darkages_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20051020132146id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe[/Download.URL]
                 [File.Size]61.14 MB (61,139,651 bytes)[/File.Size]
@@ -3524,7 +3524,7 @@
 
             [File ID="7"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Google Drive[/Source]
+                [Source]The Buck Network (Google Drive)[/Source]
                 [Filename]DarkAges_Key_5.51.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1beW1OaUr6oVHxY0wv4hmS9E0fh2E_5hv&export=download&confirm=t[/Download.URL]
                 [File.Size]61.14 MB (61,139,651 bytes)[/File.Size]
@@ -3554,7 +3554,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (Internet Archive)[/Source]
+                [Source]KRU Interactive (Internet Archive)[/Source]
                 [Filename]DA705_multi.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135708id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.exe[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3563,7 +3563,7 @@
 
             [File ID="3"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (Internet Archive)[/Source]
+                [Source]KRU Interactive (Internet Archive)[/Source]
                 [Filename]DA705_multi.W02[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135651id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W02[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3572,7 +3572,7 @@
 
             [File ID="4"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (Internet Archive)[/Source]
+                [Source]KRU Interactive (Internet Archive)[/Source]
                 [Filename]DA705_multi.W03[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135819id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W03[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3581,7 +3581,7 @@
 
             [File ID="5"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (Internet Archive)[/Source]
+                [Source]KRU Interactive (Internet Archive)[/Source]
                 [Filename]DA705_multi.W04[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135831id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W04[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3590,7 +3590,7 @@
 
             [File ID="6"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (Internet Archive)[/Source]
+                [Source]KRU Interactive (Internet Archive)[/Source]
                 [Filename]DA705_multi.W05[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135743id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W05[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3599,7 +3599,7 @@
 
             [File ID="7"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (Internet Archive)[/Source]
+                [Source]KRU Interactive (Internet Archive)[/Source]
                 [Filename]DA705_multi.W06[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135806id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W06[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3608,7 +3608,7 @@
 
             [File ID="8"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (Internet Archive)[/Source]
+                [Source]KRU Interactive (Internet Archive)[/Source]
                 [Filename]DA705_multi.W07[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135844id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W07[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3617,7 +3617,7 @@
 
             [File ID="9"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (Internet Archive)[/Source]
+                [Source]KRU Interactive (Internet Archive)[/Source]
                 [Filename]DA705_multi.W08[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135855id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W08[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3626,7 +3626,7 @@
 
             [File ID="10"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (Internet Archive)[/Source]
+                [Source]KRU Interactive (Internet Archive)[/Source]
                 [Filename]DA705_multi.W09[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135908id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W09[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3635,7 +3635,7 @@
 
             [File ID="11"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (Internet Archive)[/Source]
+                [Source]KRU Interactive (Internet Archive)[/Source]
                 [Filename]DA705_multi.W10[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135922id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W10[/Download.URL]
                 [File.Size]14.03 MB (14,034,395 bytes)[/File.Size]
@@ -3658,7 +3658,7 @@
 
             [File ID="1"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (Internet Archive)[/Source]
+                [Source]KRU Interactive (Internet Archive)[/Source]
                 [Filename]DA704to705.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135725id_/http://files.kru.com:80/DarkAges/Client/Single/DA704to705.exe[/Download.URL]
                 [File.Size]16.89 MB (16,892,910 bytes)[/File.Size]
@@ -3688,7 +3688,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Google Drive[/Source]
+                [Source]The Buck Network (Google Drive)[/Source]
                 [Filename]DarkAges712single.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1FkjK-MbVErgvEfQYNsY_s-IVckHOHWT8&export=download&confirm=t[/Download.URL]
                 [File.Size]159.88 MB (159,882,280 bytes)[/File.Size]
@@ -3718,7 +3718,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Google Drive[/Source]
+                [Source]The Buck Network (Google Drive)[/Source]
                 [Filename]DarkAges718single.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1KdkTnGAU42KAMTrmUawp79pURZiwetoR&export=download&confirm=t[/Download.URL]
                 [File.Size]170.35 MB (170,354,251 bytes)[/File.Size]
@@ -3748,7 +3748,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Google Drive[/Source]
+                [Source]The Buck Network (Google Drive)[/Source]
                 [Filename]DarkAges729single.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1xFLKueXrAVa4cBoprhHjms4f_R8HdtKM&export=download&confirm=t[/Download.URL]
                 [File.Size]199.74 MB (199,739,213 bytes)[/File.Size]
@@ -3778,7 +3778,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Google Drive[/Source]
+                [Source]The Buck Network (Google Drive)[/Source]
                 [Filename]DarkAges730single.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=17kJDgPawjOpZrLsGkJUZ88FAfIvmzPFO&export=download&confirm=t[/Download.URL]
                 [File.Size]206.84 MB (206,839,406 bytes)[/File.Size]
@@ -3808,7 +3808,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Google Drive[/Source]
+                [Source]The Buck Network (Google Drive)[/Source]
                 [Filename]DarkAges735single.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1l_IdZBmsmxg1erZ8LM38POLCltPfriHg&export=download&confirm=t[/Download.URL]
                 [File.Size]207.83 MB (207,830,277 bytes)[/File.Size]
@@ -3838,7 +3838,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Google Drive[/Source]
+                [Source]The Buck Network (Google Drive)[/Source]
                 [Filename]DarkAges739single.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1GaKKx-TXX0EvyvyWMwcKCF08J2xz0Z3f&export=download&confirm=t[/Download.URL]
                 [File.Size]208.58 MB (208,578,983 bytes)[/File.Size]
@@ -3891,7 +3891,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Google Drive[/Source]
+                [Source]The Buck Network (Google Drive)[/Source]
                 [Filename]DarkAges740single.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1unZI3Trq_o9kOf_wNKM_s7CCY3bA-js0&export=download&confirm=t[/Download.URL]
                 [File.Size]208.58 MB (208,578,384 bytes)[/File.Size]
@@ -3944,7 +3944,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Google Drive[/Source]
+                [Source]The Buck Network (Google Drive)[/Source]
                 [Filename]DarkAges741single.exe[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1ZGgK1KGXmAMHsgsZKIr-ZLfSAPRAjWqp&export=download&confirm=t[/Download.URL]
                 [File.Size]208.51 MB (208,513,633 bytes)[/File.Size]
@@ -4139,7 +4139,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]ATFile client archive (Internet Archive)[/Source]
+                [Source]ATFile (Internet Archive)[/Source]
                 [Filename]lodr.exe[/Filename]
                 [Download.URL]https://archive.org/download/atfile-client-archive/download/%5B2004-11-30%5D%20%EC%96%B4%EB%91%A0%EC%9D%98%20%EC%A0%84%EC%84%A4%205.90/lodr.exe[/Download.URL]
                 [File.Size]174.23 MB (174,228,727 bytes)[/File.Size]
@@ -4425,11 +4425,11 @@
 
             [File ID="1"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Google Drive[/Source]
+                [Source]The Buck Network (Google Drive)[/Source]
                 [Filename]legends-of-orphelias.zip[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1pIitS1WK6zZTO8TiWdABusPWWhMuyiHt&export=download&confirm=t[/Download.URL]
                 [File.Size]48.19 MB (48,188,247 bytes)[/File.Size]
-                [Notes]MY Legends of Orphelias 4.20 Client · Repack[/Notes]
+                [Notes]MY Legends of Orphelias 4.20 Client[/Notes]
             [/File]
 
             [File ID="2"]
@@ -4438,7 +4438,7 @@
                 [Filename]legends-of-orphelias.zip[/Filename]
                 [Download.URL]https://novus-imperia.com/vault/legends-of-orphelias.zip[/Download.URL]
                 [File.Size]48.19 MB (48,188,247 bytes)[/File.Size]
-                [Notes]MY Legends of Orphelias 4.20 Client · Repack[/Notes]
+                [Notes]MY Legends of Orphelias 4.20 Client[/Notes]
             [/File]
         [/Entry]
     [/Table]
@@ -4486,7 +4486,7 @@
 
             [File ID="4"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Google Drive[/Source]
+                [Source]The Buck Network (Google Drive)[/Source]
                 [Filename]Legends-of-temuair.7z[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1AVnuu2TVfkW4MaXN-RmSo6hJIFnDUojy&export=download&confirm=t[/Download.URL]
                 [File.Size]59.85 MB (59,853,373 bytes)[/File.Size]
@@ -4775,7 +4775,7 @@
 
             [File ID="3"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Google Drive[/Source]
+                [Source]The Buck Network (Google Drive)[/Source]
                 [Filename]Yami522c_62.7z[/Filename]
                 [Download.URL]https://drive.usercontent.google.com/download?id=1MY1iINfz9HaegNJyg8TLsMjWoNRo54Hr&export=download&confirm=t[/Download.URL]
                 [File.Size]78.31 MB (78,313,193 bytes)[/File.Size]
