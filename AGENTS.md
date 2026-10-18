@@ -8,6 +8,8 @@ Use the parent project's `.agents/skills/daknow-catalog-review/SKILL.md` for eve
 
 ## Scope and evidence
 
+- Titles is the page's hero section and comes first after the page introduction, followed by Table of Contents, then Versions and the remaining sections. Keep this real document order on desktop and mobile, and mirror it in content-master.txt and its helper. Preserve the existing card/carousel design, section labels and anchor IDs.
+
 - This is a historical catalog of Windows versions of DarkAges and its related games and regional editions. Add only titles and services the user has authorized. Do not introduce phone games, the Code Dragon mobile project, or other unsolicited services.
 - Never invent a title, release date, version, developer credit, logo, official translation, or download identity. Keep regional operator, original developer, localization company, service territory, and server location distinct. A regional service is not automatically a separate original game.
 - Prefer primary evidence: official pages, contemporary publisher announcements, recovered packages, and their embedded metadata. Clearly distinguish an announced plan from an observed release, and a Wayback capture date or file timestamp from a release date. A manifest schema version is not a game version.

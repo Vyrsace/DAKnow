@@ -2,51 +2,6 @@
 
 # Bulk Instructions
 
-[Section ID="contents"]
-    [Section.Title]Table of Contents[/Section.Title]
-
-    [TOC.Entry ID="games"]
-        [TOC.Link]Titles[/TOC.Link]
-    [/TOC.Entry]
-
-    [TOC.Entry ID="catalog"]
-        [TOC.Link]Versions[/TOC.Link]
-        [TOC.ChildLink ID="version-table-heading"]DarkAges IV - DarkAges / Legends of Darkness[/TOC.ChildLink]
-        [TOC.ChildLink ID="other-titles-heading"]Other Titles[/TOC.ChildLink]
-    [/TOC.Entry]
-
-    [TOC.Entry ID="downloads"]
-        [TOC.Link]Downloads[/TOC.Link]
-        [TOC.ChildLink ID="download-region-us"]United States[/TOC.ChildLink]
-        [TOC.ChildLink ID="download-region-kr"]South Korea[/TOC.ChildLink]
-        [TOC.ChildLink ID="download-region-kr-elancia"]South Korea - Elancia[/TOC.ChildLink]
-        [TOC.ChildLink ID="download-region-sg"]Singapore[/TOC.ChildLink]
-        [TOC.ChildLink ID="download-region-my-orphelias"]Malaysia - Orphelias[/TOC.ChildLink]
-        [TOC.ChildLink ID="download-region-my-temuair"]Malaysia - Temuair[/TOC.ChildLink]
-        [TOC.ChildLink ID="download-region-jp"]Japan[/TOC.ChildLink]
-    [/TOC.Entry]
-
-    [TOC.Entry ID="hashes"]
-        [TOC.Link]Hashes[/TOC.Link]
-    [/TOC.Entry]
-
-    [TOC.Entry ID="verification"]
-        [TOC.Link]Verification[/TOC.Link]
-        [TOC.ChildLink ID="file-verification-methodology"]File Verification Methodology[/TOC.ChildLink]
-        [TOC.ChildLink ID="verification-notes"]Verification Notes[/TOC.ChildLink]
-    [/TOC.Entry]
-
-    [TOC.Entry ID="research"]
-        [TOC.Link]Research[/TOC.Link]
-        [TOC.ChildLink ID="research-methodology"]Methodology[/TOC.ChildLink]
-        [TOC.ChildLink ID="research-notes"]Research Notes[/TOC.ChildLink]
-    [/TOC.Entry]
-
-    [TOC.Entry ID="sources"]
-        [TOC.Link]Sources[/TOC.Link]
-    [/TOC.Entry]
-[/Section]
-
 [Section ID="games"]
     [Section.Title]Titles[/Section.Title]
 
@@ -171,6 +126,51 @@
         [Paragraph.1]Licensed from Nexon and localized by APEXON Technology (捷生資訊), 真世界 was promoted in Taiwan in 2001. Its original website announced client testing in Traditional Chinese for selected participants.[/Paragraph.1]
         [Paragraph.2]Set in Temuair and localized into Traditional Chinese, with five adventuring professions. Publisher guides described rogues using traps, wizards casting elemental spells and priests conducting weddings.[/Paragraph.2]
     [/Card]
+[/Section]
+
+[Section ID="contents"]
+    [Section.Title]Table of Contents[/Section.Title]
+
+    [TOC.Entry ID="games"]
+        [TOC.Link]Titles[/TOC.Link]
+    [/TOC.Entry]
+
+    [TOC.Entry ID="catalog"]
+        [TOC.Link]Versions[/TOC.Link]
+        [TOC.ChildLink ID="version-table-heading"]DarkAges IV - DarkAges / Legends of Darkness[/TOC.ChildLink]
+        [TOC.ChildLink ID="other-titles-heading"]Other Titles[/TOC.ChildLink]
+    [/TOC.Entry]
+
+    [TOC.Entry ID="downloads"]
+        [TOC.Link]Downloads[/TOC.Link]
+        [TOC.ChildLink ID="download-region-us"]United States[/TOC.ChildLink]
+        [TOC.ChildLink ID="download-region-kr"]South Korea[/TOC.ChildLink]
+        [TOC.ChildLink ID="download-region-kr-elancia"]South Korea - Elancia[/TOC.ChildLink]
+        [TOC.ChildLink ID="download-region-sg"]Singapore[/TOC.ChildLink]
+        [TOC.ChildLink ID="download-region-my-orphelias"]Malaysia - Orphelias[/TOC.ChildLink]
+        [TOC.ChildLink ID="download-region-my-temuair"]Malaysia - Temuair[/TOC.ChildLink]
+        [TOC.ChildLink ID="download-region-jp"]Japan[/TOC.ChildLink]
+    [/TOC.Entry]
+
+    [TOC.Entry ID="hashes"]
+        [TOC.Link]Hashes[/TOC.Link]
+    [/TOC.Entry]
+
+    [TOC.Entry ID="verification"]
+        [TOC.Link]Verification[/TOC.Link]
+        [TOC.ChildLink ID="file-verification-methodology"]File Verification Methodology[/TOC.ChildLink]
+        [TOC.ChildLink ID="verification-notes"]Verification Notes[/TOC.ChildLink]
+    [/TOC.Entry]
+
+    [TOC.Entry ID="research"]
+        [TOC.Link]Research[/TOC.Link]
+        [TOC.ChildLink ID="research-methodology"]Methodology[/TOC.ChildLink]
+        [TOC.ChildLink ID="research-notes"]Research Notes[/TOC.ChildLink]
+    [/TOC.Entry]
+
+    [TOC.Entry ID="sources"]
+        [TOC.Link]Sources[/TOC.Link]
+    [/TOC.Entry]
 [/Section]
 
 [Section ID="catalog"]
