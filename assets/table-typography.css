@@ -15,6 +15,8 @@ table :where(*) {
   font-family: inherit;
   font-size: inherit;
 }
+table sup { font-size: .75em; }
+.table-toggle { font-family: var(--table-font); font-size: var(--table-text-size); }
 .download-legend :is(.download-badge, .patch-route) {
   font-family: var(--table-font);
   font-size: var(--table-text-size);

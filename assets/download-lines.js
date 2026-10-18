@@ -8,8 +8,6 @@
     pending = false;
     section.querySelectorAll('.download-catalog-row').forEach(row => {
       if (!row.getClientRects().length) return;
-      // Include the shared multipart note in the final file slot so every
-      // column has the same content height when its cell is middle aligned.
       const notes = row.querySelector('.download-notes');
       const footer = notes && notes.querySelector(':scope > .download-group-notes');
       const lastNote = notes && notes.querySelector('.download-mirrors > .download-note-line:last-child');
@@ -37,6 +35,7 @@
     subtree: true, attributes: true, attributeFilter: ['hidden', 'open']
   });
   window.addEventListener('resize', schedule);
+  section.addEventListener('tabletoggle', schedule);
   if (document.fonts) document.fonts.ready.then(schedule);
   schedule();
 })();

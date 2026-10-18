@@ -11,8 +11,8 @@
     const showOriginal = original.hidden;
     original.hidden = !showOriginal;
     translated.hidden = showOriginal;
-    group.querySelector('[data-official-label]').textContent = showOriginal
-      ? 'Official (Original)' : 'Official (Translated)';
+    group.querySelector('.official-note-qualifier').textContent = showOriginal
+      ? 'Original' : 'Translated';
     const action = showOriginal ? 'Show English translation' : `Show original ${button.dataset.originalLanguage} text`;
     button.setAttribute('aria-pressed', String(showOriginal));
     button.setAttribute('aria-label', action);
