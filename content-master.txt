@@ -3091,7 +3091,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]SharePlay (April 1999), CD-ROM (ISO via DiscMaster)[/Source]
+                [Source]SharePlay (April 1999), CD-ROM (DiscMaster)[/Source]
                 [Filename]DARKAGES.EXE[/Filename]
                 [Download.URL]https://discmaster.textfiles.com/file/42800/SharePlay%2004-1999%20%28DE%29%20%281999%29%20%28Publish%20Verlag%20GmbH%29/SharePlay_04-99.iso/SHARE/SPIELE/DARKAGES/DARKAGES.EXE[/Download.URL]
                 [File.Size]14.22 MB (14,221,202 bytes)[/File.Size]
@@ -3121,7 +3121,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]PC Master (June 15, 2000), CD-ROM 1 (BIN via DiscMaster)[/Source]
+                [Source]PC Master (June 15, 2000), CD-ROM 1 (DiscMaster)[/Source]
                 [Filename]DarkAges_Key.exe[/Filename]
                 [Download.URL]https://discmaster.textfiles.com/file/37840/PC%20Master%20%CE%A4%CE%B5%CF%8D%CF%87%CE%BF%CF%82%20124%20-%2015%20%CE%99%CE%BF%CF%85%CE%BD%CE%AF%CE%BF%CF%85%202000/PC%20Master%20%CE%A4%CE%B5%CF%8D%CF%87%CE%BF%CF%82%20124%20-%2015%20%CE%99%CE%BF%CF%85%CE%BD%CE%AF%CE%BF%CF%85%202000%20-%20CD%201.bin/darkages/DarkAges_Key.exe[/Download.URL]
                 [File.Size]24.79 MB (24,786,606 bytes)[/File.Size]
@@ -3130,7 +3130,7 @@
 
             [File ID="3"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]SK0RPSE (via GitHub)[/Source]
+                [Source]SK0RPSE (GitHub)[/Source]
                 [Filename]DarkAges_Key.exe[/Filename]
                 [Download.URL]https://raw.githubusercontent.com/SK0RPSE/DarkAges-version-3.50-2000/main/DarkAges_Key.exe[/Download.URL]
                 [File.Size]24.79 MB (24,786,606 bytes)[/File.Size]
@@ -3160,7 +3160,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]SharePlay (June 2000), CD-ROM (ISO via DiscMaster)[/Source]
+                [Source]SharePlay (June 2000), CD-ROM (DiscMaster)[/Source]
                 [Filename]darkages.exe[/Filename]
                 [Download.URL]https://discmaster.textfiles.com/file/42817/SharePlay%2006-2000%20%28DE%29%20%282000%29%20%28Publish%20Verlag%20GmbH%29/SharePlay_06-2000.iso/share/rollensp/darkages/darkages.exe[/Download.URL]
                 [File.Size]25.36 MB (25,357,414 bytes)[/File.Size]
@@ -3211,7 +3211,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]SG CD, CD-ROM (BIN/CUE via Internet Archive)[/Source]
+                [Source]SG CD, CD-ROM (Internet Archive)[/Source]
                 [Filename]SG_CD.bin[/Filename]
                 [Download.URL]https://archive.org/download/sg-cd/SG_CD.bin[/Download.URL]
                 [File.Size]422.95 MB (422,953,104 bytes)[/File.Size]
@@ -3241,7 +3241,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]PC Gamer (January 2002), CD-ROM 7.11 (ISO via DiscMaster)[/Source]
+                [Source]PC Gamer (January 2002), CD-ROM 7.11 (DiscMaster)[/Source]
                 [Filename]DarkAges_Key.exe[/Filename]
                 [Download.URL]https://discmaster.textfiles.com/file/24071/2002-01_-_Disc_7.11.iso/Software/Demos/DarkAges/DarkAges_Key.exe[/Download.URL]
                 [File.Size]21.18 MB (21,176,562 bytes)[/File.Size]
@@ -3271,7 +3271,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (via Internet Archive)[/Source]
+                [Source]Nexon (Internet Archive)[/Source]
                 [Filename]DarkAges_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20020225052326id_/http://file.nexon.net/client/DarkAges/Single/DarkAges_key.exe[/Download.URL]
                 [File.Size]21.91 MB (21,910,290 bytes)[/File.Size]
@@ -3316,7 +3316,7 @@
 
             [File ID="7"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (via Internet Archive)[/Source]
+                [Source]Nexon (Internet Archive)[/Source]
                 [Filename]DarkAges_Key_split.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20011221231452id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.exe[/Download.URL]
                 [File.Size]5.53 MB (5,529,600 bytes)[/File.Size]
@@ -3325,7 +3325,7 @@
 
             [File ID="8"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (via Internet Archive)[/Source]
+                [Source]Nexon (Internet Archive)[/Source]
                 [Filename]DarkAges_Key_split.W02[/Filename]
                 [Download.URL]https://web.archive.org/web/20011221224710id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.W02[/Download.URL]
                 [File.Size]5.53 MB (5,529,600 bytes)[/File.Size]
@@ -3334,7 +3334,7 @@
 
             [File ID="9"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (via Internet Archive)[/Source]
+                [Source]Nexon (Internet Archive)[/Source]
                 [Filename]DarkAges_Key_split.W03[/Filename]
                 [Download.URL]https://web.archive.org/web/20011221230221id_/http://file.nexon.net:80/client/Darkages/Multiple/DarkAges_Key_split.W03[/Download.URL]
                 [File.Size]5.53 MB (5,529,600 bytes)[/File.Size]
@@ -3343,7 +3343,7 @@
 
             [File ID="10"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (via Internet Archive)[/Source]
+                [Source]Nexon (Internet Archive)[/Source]
                 [Filename]DarkAges_key_split.w04[/Filename]
                 [Download.URL]https://web.archive.org/web/20020108031942id_/http://file.nexon.net:80/client/Darkages/multiple/DarkAges_key_split.w04[/Download.URL]
                 [File.Size]5.32 MB (5,321,491 bytes)[/File.Size]
@@ -3391,7 +3391,7 @@
 
             [File ID="4"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (via Internet Archive)[/Source]
+                [Source]Nexon (Internet Archive)[/Source]
                 [Filename]darkages_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20020816001725id_/http://file.nexon.net:80/client/DarkAges/451/multiple/darkages_key.exe[/Download.URL]
                 [File.Size]14.34 MB (14,336,000 bytes)[/File.Size]
@@ -3400,7 +3400,7 @@
 
             [File ID="5"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (via Internet Archive)[/Source]
+                [Source]Nexon (Internet Archive)[/Source]
                 [Filename]darkages_key.w02[/Filename]
                 [Download.URL]https://web.archive.org/web/20021204130948id_/http://file.nexon.net:80/client/DarkAges/451/multiple/darkages_key.w02[/Download.URL]
                 [File.Size]14.34 MB (14,336,000 bytes)[/File.Size]
@@ -3409,7 +3409,7 @@
 
             [File ID="6"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (via Internet Archive)[/Source]
+                [Source]Nexon (Internet Archive)[/Source]
                 [Filename]darkages_key.w03[/Filename]
                 [Download.URL]https://web.archive.org/web/20020816001406id_/http://file.nexon.net:80/client/DarkAges/451/multiple/darkages_key.w03[/Download.URL]
                 [File.Size]7.59 MB (7,589,018 bytes)[/File.Size]
@@ -3469,7 +3469,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (via Internet Archive)[/Source]
+                [Source]Nexon (Internet Archive)[/Source]
                 [Filename]darkages_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20040220093130id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe[/Download.URL]
                 [File.Size]61.14 MB (61,139,651 bytes)[/File.Size]
@@ -3478,7 +3478,7 @@
 
             [File ID="3"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (via Internet Archive)[/Source]
+                [Source]Nexon (Internet Archive)[/Source]
                 [Filename]darkages_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20040220093419id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe[/Download.URL]
                 [File.Size]61.14 MB (61,139,651 bytes)[/File.Size]
@@ -3487,7 +3487,7 @@
 
             [File ID="4"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (via Internet Archive)[/Source]
+                [Source]Nexon (Internet Archive)[/Source]
                 [Filename]darkages_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20040726212640id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe[/Download.URL]
                 [File.Size]61.14 MB (61,139,651 bytes)[/File.Size]
@@ -3496,7 +3496,7 @@
 
             [File ID="5"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon (via Internet Archive)[/Source]
+                [Source]Nexon (Internet Archive)[/Source]
                 [Filename]darkages_key.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20051020132146id_/http://file.nexon.net/client/DarkAges/single/darkages_key.exe[/Download.URL]
                 [File.Size]61.14 MB (61,139,651 bytes)[/File.Size]
@@ -3544,7 +3544,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (via Internet Archive)[/Source]
+                [Source]Official DarkAges Website (Internet Archive)[/Source]
                 [Filename]DA705_multi.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135708id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.exe[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3553,7 +3553,7 @@
 
             [File ID="3"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (via Internet Archive)[/Source]
+                [Source]Official DarkAges Website (Internet Archive)[/Source]
                 [Filename]DA705_multi.W02[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135651id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W02[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3562,7 +3562,7 @@
 
             [File ID="4"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (via Internet Archive)[/Source]
+                [Source]Official DarkAges Website (Internet Archive)[/Source]
                 [Filename]DA705_multi.W03[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135819id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W03[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3571,7 +3571,7 @@
 
             [File ID="5"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (via Internet Archive)[/Source]
+                [Source]Official DarkAges Website (Internet Archive)[/Source]
                 [Filename]DA705_multi.W04[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135831id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W04[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3580,7 +3580,7 @@
 
             [File ID="6"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (via Internet Archive)[/Source]
+                [Source]Official DarkAges Website (Internet Archive)[/Source]
                 [Filename]DA705_multi.W05[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135743id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W05[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3589,7 +3589,7 @@
 
             [File ID="7"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (via Internet Archive)[/Source]
+                [Source]Official DarkAges Website (Internet Archive)[/Source]
                 [Filename]DA705_multi.W06[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135806id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W06[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3598,7 +3598,7 @@
 
             [File ID="8"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (via Internet Archive)[/Source]
+                [Source]Official DarkAges Website (Internet Archive)[/Source]
                 [Filename]DA705_multi.W07[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135844id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W07[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3607,7 +3607,7 @@
 
             [File ID="9"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (via Internet Archive)[/Source]
+                [Source]Official DarkAges Website (Internet Archive)[/Source]
                 [Filename]DA705_multi.W08[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135855id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W08[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3616,7 +3616,7 @@
 
             [File ID="10"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (via Internet Archive)[/Source]
+                [Source]Official DarkAges Website (Internet Archive)[/Source]
                 [Filename]DA705_multi.W09[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135908id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W09[/Download.URL]
                 [File.Size]15.36 MB (15,360,000 bytes)[/File.Size]
@@ -3625,7 +3625,7 @@
 
             [File ID="11"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (via Internet Archive)[/Source]
+                [Source]Official DarkAges Website (Internet Archive)[/Source]
                 [Filename]DA705_multi.W10[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135922id_/http://files.kru.com:80/DarkAges/client/multiple/DA705_multi.W10[/Download.URL]
                 [File.Size]14.03 MB (14,034,395 bytes)[/File.Size]
@@ -3648,7 +3648,7 @@
 
             [File ID="1"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Official DarkAges Website (via Internet Archive)[/Source]
+                [Source]Official DarkAges Website (Internet Archive)[/Source]
                 [Filename]DA704to705.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20060823135725id_/http://files.kru.com:80/DarkAges/Client/Single/DA704to705.exe[/Download.URL]
                 [File.Size]16.89 MB (16,892,910 bytes)[/File.Size]
@@ -3851,7 +3851,7 @@
 
             [File ID="1"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]KRU Interactive (via Amazon S3)[/Source]
+                [Source]KRU Interactive (Amazon S3)[/Source]
                 [Filename]DarkAges738-739patch.exe[/Filename]
                 [Download.URL]https://s3.amazonaws.com/kru-downloads/da/DarkAges738-739patch.exe[/Download.URL]
                 [File.Size]0.89 MB (891,054 bytes)[/File.Size]
@@ -3904,7 +3904,7 @@
 
             [File ID="1"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]KRU Interactive (via Amazon S3)[/Source]
+                [Source]KRU Interactive (Amazon S3)[/Source]
                 [Filename]DarkAges739-740patch.exe[/Filename]
                 [Download.URL]https://s3.amazonaws.com/kru-downloads/da/DarkAges739-740patch.exe[/Download.URL]
                 [File.Size]0.59 MB (590,955 bytes)[/File.Size]
@@ -3943,7 +3943,7 @@
 
             [File ID="3"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]KRU Interactive (via Amazon S3)[/Source]
+                [Source]KRU Interactive (Amazon S3)[/Source]
                 [Filename]DarkAges741single.exe[/Filename]
                 [Download.URL]https://s3.amazonaws.com/kru-downloads/da/DarkAges741single.exe[/Download.URL]
                 [File.Size]208.51 MB (208,513,633 bytes)[/File.Size]
@@ -3966,7 +3966,7 @@
 
             [File ID="1"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]KRU Interactive (via Amazon S3)[/Source]
+                [Source]KRU Interactive (Amazon S3)[/Source]
                 [Filename]DarkAges740-741patch.exe[/Filename]
                 [Download.URL]https://s3.amazonaws.com/kru-downloads/da/DarkAges740-741patch.exe[/Download.URL]
                 [File.Size]1.24 MB (1,238,302 bytes)[/File.Size]
@@ -4000,7 +4000,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Hitel (2000), CD-ROM (ISO via Internet Archive)[/Source]
+                [Source]Hitel (2000), CD-ROM (Internet Archive)[/Source]
                 [Filename]hitel 2000.iso[/Filename]
                 [Download.URL]https://archive.org/download/hitel-2000/hitel%202000.iso[/Download.URL]
                 [File.Size]523.46 MB (523,460,608 bytes)[/File.Size]
@@ -4009,7 +4009,7 @@
 
             [File ID="3"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nice 인터넷 3.71, CD-ROM (CCD/IMG/SUB via Internet Archive)[/Source]
+                [Source]Nice 인터넷 3.71, CD-ROM (Internet Archive)[/Source]
                 [Filename]Nice_인터넷_3.71.img[/Filename]
                 [Download.URL]https://archive.org/download/nice_internet_3.71/Nice_%EC%9D%B8%ED%84%B0%EB%84%B7_3.71.img[/Download.URL]
                 [File.Size]779.01 MB (779,008,272 bytes)[/File.Size]
@@ -4039,7 +4039,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Net (June 2002), CD-ROM (ISO via DiscMaster)[/Source]
+                [Source]Net (June 2002), CD-ROM (DiscMaster)[/Source]
                 [Filename]lodr.exe[/Filename]
                 [Download.URL]https://discmaster.textfiles.com/file/28506/Net_2002_06.iso/Client/lodr.exe[/Download.URL]
                 [File.Size]70.08 MB (70,077,895 bytes)[/File.Size]
@@ -4069,7 +4069,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Net (December 2002), CD-ROM (ISO via DiscMaster)[/Source]
+                [Source]Net (December 2002), CD-ROM (DiscMaster)[/Source]
                 [Filename]lodr.exe[/Filename]
                 [Download.URL]https://discmaster.textfiles.com/file/28508/Net_2002_12.iso/online/lodr.exe[/Download.URL]
                 [File.Size]77.21 MB (77,214,792 bytes)[/File.Size]
@@ -4099,7 +4099,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Net (February 2003), CD-ROM 2 (ISO via DiscMaster)[/Source]
+                [Source]Net (February 2003), CD-ROM 2 (DiscMaster)[/Source]
                 [Filename]lodr.exe[/Filename]
                 [Download.URL]https://discmaster.textfiles.com/file/28510/Net_2003_02_cd2.iso/online/lodr.exe[/Download.URL]
                 [File.Size]84.38 MB (84,379,438 bytes)[/File.Size]
@@ -4129,7 +4129,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]ATFile client archive (via Internet Archive)[/Source]
+                [Source]ATFile client archive (Internet Archive)[/Source]
                 [Filename]lodr.exe[/Filename]
                 [Download.URL]https://archive.org/download/atfile-client-archive/download/%5B2004-11-30%5D%20%EC%96%B4%EB%91%A0%EC%9D%98%20%EC%A0%84%EC%84%A4%205.90/lodr.exe[/Download.URL]
                 [File.Size]174.23 MB (174,228,727 bytes)[/File.Size]
@@ -4159,7 +4159,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon Korea (via Internet Archive)[/Source]
+                [Source]Nexon Korea (Internet Archive)[/Source]
                 [Filename]lodr.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20170407025514id_/http://lod.dn.nexoncdn.co.kr/lodr.exe[/Download.URL]
                 [File.Size]258.06 MB (258,057,658 bytes)[/File.Size]
@@ -4189,7 +4189,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon Korea (via Internet Archive)[/Source]
+                [Source]Nexon Korea (Internet Archive)[/Source]
                 [Filename]lodr.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20210724200127id_/http://lod.dn.nexoncdn.co.kr/lodr.exe[/Download.URL]
                 [File.Size]257.37 MB (257,368,445 bytes)[/File.Size]
@@ -4220,7 +4220,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]Nexon Korea (via Internet Archive)[/Source]
+                [Source]Nexon Korea (Internet Archive)[/Source]
                 [Filename]Lodtest.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20210724200046id_/http://lod.dn.nexoncdn.co.kr/Lodtest.exe[/Download.URL]
                 [File.Size]257.37 MB (257,368,023 bytes)[/File.Size]
@@ -4336,7 +4336,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]NexonAsia, Singapore-help package (via Internet Archive)[/Source]
+                [Source]NexonAsia, Singapore-help package (Internet Archive)[/Source]
                 [Filename]DarkAges351.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20011229223229id_/http://download.nexonasia.com:80/DarkAges/DarkAges351.exe[/Download.URL]
                 [File.Size]21.01 MB (21,010,944 bytes)[/File.Size]
@@ -4345,7 +4345,7 @@
 
             [File ID="3"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]NexonAsia, U.S.-help package (via Internet Archive)[/Source]
+                [Source]NexonAsia, U.S.-help package (Internet Archive)[/Source]
                 [Filename]DarkAges351.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20020222224012id_/http://download.nexonasia.com:80/DarkAges/DarkAges351.exe[/Download.URL]
                 [File.Size]21.45 MB (21,450,240 bytes)[/File.Size]
@@ -4359,7 +4359,7 @@
 
             [File ID="0"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]NexonAsia (via Internet Archive)[/Source]
+                [Source]NexonAsia (Internet Archive)[/Source]
                 [Filename]darkages.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20020605035323id_/http://darkages.nexonasia.com:80/downloads/darkages.exe[/Download.URL]
                 [File.Size]0.94 MB (938,065 bytes)[/File.Size]
@@ -4389,7 +4389,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]NexonAsia (via Internet Archive)[/Source]
+                [Source]NexonAsia (Internet Archive)[/Source]
                 [Filename]dapatch.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20020605035108id_/http://darkages.nexonasia.com:80/downloads/dapatch.exe[/Download.URL]
                 [File.Size]1.53 MB (1,528,992 bytes)[/File.Size]
@@ -4458,7 +4458,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends_full_20011011.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20040515172001id_/http://www.time.net.my/download/legends_full_20011011.exe[/Download.URL]
                 [File.Size]59.77 MB (59,773,579 bytes)[/File.Size]
@@ -4485,7 +4485,7 @@
 
             [File ID="5"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20020208022752id_/http://legends.time.net.my:80/download/legends.exe[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
@@ -4494,7 +4494,7 @@
 
             [File ID="6"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends.c00[/Filename]
                 [Download.URL]https://web.archive.org/web/20011224174053id_/http://legends.time.net.my:80/download/legends.c00[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
@@ -4503,7 +4503,7 @@
 
             [File ID="7"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends.c01[/Filename]
                 [Download.URL]https://web.archive.org/web/20011224173547id_/http://legends.time.net.my:80/download/legends.c01[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
@@ -4512,7 +4512,7 @@
 
             [File ID="8"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends.c02[/Filename]
                 [Download.URL]https://web.archive.org/web/20011027232745id_/http://legends.time.net.my:80/download/legends.c02[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
@@ -4521,7 +4521,7 @@
 
             [File ID="9"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends.c03[/Filename]
                 [Download.URL]https://web.archive.org/web/20011027233618id_/http://legends.time.net.my:80/download/legends.c03[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
@@ -4530,7 +4530,7 @@
 
             [File ID="10"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends.c04[/Filename]
                 [Download.URL]https://web.archive.org/web/20011027235437id_/http://legends.time.net.my:80/download/legends.c04[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
@@ -4539,7 +4539,7 @@
 
             [File ID="11"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends.c05[/Filename]
                 [Download.URL]https://web.archive.org/web/20011027235230id_/http://legends.time.net.my:80/download/legends.c05[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
@@ -4548,7 +4548,7 @@
 
             [File ID="12"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends.c06[/Filename]
                 [Download.URL]https://web.archive.org/web/20011224171025id_/http://legends.time.net.my:80/download/legends.c06[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
@@ -4557,7 +4557,7 @@
 
             [File ID="13"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends.c07[/Filename]
                 [Download.URL]https://web.archive.org/web/20020208020104id_/http://legends.time.net.my:80/download/legends.c07[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
@@ -4566,7 +4566,7 @@
 
             [File ID="14"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends.c08[/Filename]
                 [Download.URL]https://web.archive.org/web/20011224201442id_/http://legends.time.net.my:80/download/legends.c08[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
@@ -4575,7 +4575,7 @@
 
             [File ID="15"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends.c09[/Filename]
                 [Download.URL]https://web.archive.org/web/20020208021635id_/http://legends.time.net.my:80/download/legends.c09[/Download.URL]
                 [File.Size]5.12 MB (5,120,000 bytes)[/File.Size]
@@ -4584,7 +4584,7 @@
 
             [File ID="16"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends.c10[/Filename]
                 [Download.URL]https://web.archive.org/web/20020208014958id_/http://legends.time.net.my:80/download/legends.c10[/Download.URL]
                 [File.Size]3.45 MB (3,454,734 bytes)[/File.Size]
@@ -4614,7 +4614,7 @@
 
             [File ID="2"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends421_part.exe[/Filename]
                 [Download.URL]https://web.archive.org/web/20020804211828id_/http://legends.time.net.my:80/download/legends421_part.exe[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
@@ -4623,7 +4623,7 @@
 
             [File ID="3"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends421_part.c00[/Filename]
                 [Download.URL]https://web.archive.org/web/20020601131132id_/http://legends.time.net.my:80/download/legends421_part.c00[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
@@ -4632,7 +4632,7 @@
 
             [File ID="4"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends421_part.c01[/Filename]
                 [Download.URL]https://web.archive.org/web/20020601135852id_/http://legends.time.net.my:80/download/legends421_part.c01[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
@@ -4641,7 +4641,7 @@
 
             [File ID="5"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends421_part.c02[/Filename]
                 [Download.URL]https://web.archive.org/web/20020601140354id_/http://legends.time.net.my:80/download/legends421_part.c02[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
@@ -4650,7 +4650,7 @@
 
             [File ID="6"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends421_part.c03[/Filename]
                 [Download.URL]https://web.archive.org/web/20020601135830id_/http://legends.time.net.my:80/download/legends421_part.c03[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
@@ -4659,7 +4659,7 @@
 
             [File ID="7"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends421_part.c04[/Filename]
                 [Download.URL]https://web.archive.org/web/20020601140046id_/http://legends.time.net.my:80/download/legends421_part.c04[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
@@ -4668,7 +4668,7 @@
 
             [File ID="8"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends421_part.c05[/Filename]
                 [Download.URL]https://web.archive.org/web/20020410194834id_/http://legends.time.net.my:80/download/legends421_part.c05[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
@@ -4677,7 +4677,7 @@
 
             [File ID="9"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends421_part.c06[/Filename]
                 [Download.URL]https://web.archive.org/web/20020804210250id_/http://legends.time.net.my:80/download/legends421_part.c06[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
@@ -4686,7 +4686,7 @@
 
             [File ID="10"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends421_part.c07[/Filename]
                 [Download.URL]https://web.archive.org/web/20020410195807id_/http://legends.time.net.my:80/download/legends421_part.c07[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
@@ -4695,7 +4695,7 @@
 
             [File ID="11"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends421_part.c08[/Filename]
                 [Download.URL]https://web.archive.org/web/20020601141535id_/http://legends.time.net.my:80/download/legends421_part.c08[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
@@ -4704,7 +4704,7 @@
 
             [File ID="12"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends421_part.c09[/Filename]
                 [Download.URL]https://web.archive.org/web/20020601140623id_/http://legends.time.net.my:80/download/legends421_part.c09[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
@@ -4713,7 +4713,7 @@
 
             [File ID="13"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends421_part.c10[/Filename]
                 [Download.URL]https://web.archive.org/web/20020601141113id_/http://legends.time.net.my:80/download/legends421_part.c10[/Download.URL]
                 [File.Size]4.19 MB (4,194,304 bytes)[/File.Size]
@@ -4722,7 +4722,7 @@
 
             [File ID="14"]
                 [File.Kind]Mirror[/File.Kind]
-                [Source]TIME dotNet (via Internet Archive)[/Source]
+                [Source]TIME dotNet (Internet Archive)[/Source]
                 [Filename]legends421_part.c11[/Filename]
                 [Download.URL]https://web.archive.org/web/20020410201601id_/http://legends.time.net.my:80/download/legends421_part.c11[/Download.URL]
                 [File.Size]1.64 MB (1,635,030 bytes)[/File.Size]

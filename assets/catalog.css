@@ -142,6 +142,7 @@ th[aria-sort]:not([aria-sort="none"]) .sort-indicator { color: var(--accent); fo
 .version-table .official-note-group + .note-list { margin-top: 8px; }
 .version-table .official-note-heading { margin-bottom: 4px; }
 .version-table .official-note-heading strong { font-weight: 700; }
+.version-table .official-note-title { font-style: italic; }
 .version-table .official-note-qualifier { color: var(--muted); font-weight: 400; font-style: italic; }
 .version-table .official-note-body { margin: 0; padding: 8px 10px; border: 0; border-block: 1px solid var(--quote-border); border-radius: 0; background: var(--quote-surface); }
 .version-table .official-note-meta { display: flex; align-items: baseline; gap: 6px; margin-bottom: 6px; }
@@ -200,7 +201,6 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 .downloads-table td.notes-cell .download-note-source { font-style: italic; }
 .download-primary + .download-mirrors { margin-top: calc(var(--download-line-height) + 3px); }
 .download-mirrors > [data-download-line] + [data-download-line] { margin-top: 3px; }
-.download-mirror-heading { display: flex; align-items: flex-start; min-height: var(--download-line-height); }
 .download-primary-group > :is(.download-file-line, .download-detail-line) + :is(.download-file-line, .download-detail-line) { margin-top: 3px; }
 .download-note-line .notes { line-height: var(--download-line-height); }
 .download-file-notes { margin-top: 8px !important; }
