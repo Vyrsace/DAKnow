@@ -16,7 +16,7 @@
   cards.forEach(card => {
     card.element.open = Object.prototype.hasOwnProperty.call(saved, card.id) && typeof saved[card.id] === 'boolean'
       ? saved[card.id]
-      : card.id === 'catalog';
+      : false;
   });
 
   function save() {

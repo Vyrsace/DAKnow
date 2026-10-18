@@ -4,6 +4,7 @@
   const frames = new Map();
   let pending = false;
   let gesture = null;
+  let touchPan = null;
   let draggedWrapper = null;
   const interactive = 'a, button, input, select, textarea, summary, [contenteditable], [role="button"]';
 
@@ -34,7 +35,10 @@
     entry.button.title = entry.button.getAttribute('aria-label');
     entry.button.textContent = expanded ? '−' : '+';
     entry.wrapper.hidden = !expanded;
-    if (!expanded) entry.wrapper.scrollLeft = 0;
+    if (!expanded) {
+      entry.wrapper.scrollLeft = 0;
+      if (touchPan?.wrapper === entry.wrapper) finishTouch();
+    }
     table.querySelectorAll('.sort-button').forEach(button => {
       button.tabIndex = expanded ? 0 : -1;
       if (expanded) button.removeAttribute('aria-disabled');
@@ -76,7 +80,7 @@
     let identifier;
     try { identifier = decodeURIComponent(hash.slice(1)); }
     catch (_) { return; }
-    const target = identifier && document.getElementById(identifier);
+    const target = identifier ? document.getElementById(identifier) : null;
     const table = target?.closest('table');
     if (table && (target === table || target.closest('tbody'))) setExpanded(table, true);
   }
@@ -96,6 +100,7 @@
 
   document.addEventListener('pointerdown', event => {
     draggedWrapper = null;
+    if (event.pointerType === 'touch') return;
     if (!event.isPrimary || event.button !== 0 || event.altKey || gesture) return;
     const wrapper = event.target.closest('.table-wrap.is-scrollable');
     if (!wrapper || wrapper.scrollWidth <= wrapper.clientWidth + 1 || event.target.closest(interactive)) return;
@@ -126,6 +131,32 @@
     gesture.wrapper.scrollLeft = Math.max(0, Math.min(gesture.wrapper.scrollWidth - gesture.wrapper.clientWidth, gesture.startLeft - horizontal));
   }, { passive: false });
 
+  function finishTouch() {
+    if (!touchPan) return;
+    touchPan.wrapper.classList.remove('is-touch-panning');
+    touchPan.wrapper.classList.remove('is-dragging');
+    touchPan = null;
+  }
+
+  document.addEventListener('touchstart', event => {
+    finishTouch();
+    if (gesture || event.touches.length !== 1 || event.target.closest(interactive)) return;
+    const wrapper = event.target.closest('.table-wrap.is-scrollable');
+    if (!wrapper || wrapper.scrollWidth <= wrapper.clientWidth + 1) return;
+    touchPan = { wrapper, startLeft: wrapper.scrollLeft };
+    wrapper.classList.add('is-touch-panning');
+  }, { passive: true });
+  document.addEventListener('touchmove', event => {
+    if (event.touches.length !== 1) finishTouch();
+  }, { passive: true });
+  document.addEventListener('scroll', event => {
+    if (touchPan?.wrapper === event.target && Math.abs(event.target.scrollLeft - touchPan.startLeft) > 1) {
+      event.target.classList.add('is-dragging');
+    }
+  }, { passive: true, capture: true });
+  document.addEventListener('touchend', finishTouch, { passive: true });
+  document.addEventListener('touchcancel', finishTouch, { passive: true });
+
   document.addEventListener('lostpointercapture', event => {
     if (gesture && event.target === gesture.wrapper) finish(event);
   });
@@ -143,8 +174,8 @@
   }, true);
   window.addEventListener('pointerup', finish, true);
   window.addEventListener('pointercancel', finish, true);
-  window.addEventListener('blur', () => finish());
-  window.addEventListener('resize', () => { finish(); schedule(); }, { passive: true });
+  window.addEventListener('blur', () => { finish(); finishTouch(); });
+  window.addEventListener('resize', () => { finish(); finishTouch(); schedule(); }, { passive: true });
   window.addEventListener('hashchange', () => revealTarget(location.hash));
   document.addEventListener('toggle', schedule, true);
   if (window.ResizeObserver) {

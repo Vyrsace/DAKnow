@@ -81,6 +81,10 @@
     if (ended.dragging) select(target);
   }
   function pointerDown(event) {
+    if (event.pointerType === 'touch') {
+      suppressClick = false;
+      return;
+    }
     if (!event.isPrimary || event.button !== 0 || gesture) return;
     suppressClick = false;
     // Each image gallery owns its gesture; links and controls keep normal clicks.
@@ -115,6 +119,15 @@
   }
   strip.addEventListener('pointerdown', pointerDown);
   strip.addEventListener('pointermove', pointerMove);
+  function finishTouch() {
+    strip.classList.remove('is-touch-panning');
+  }
+  strip.addEventListener('touchstart', event => {
+    requested = null;
+    strip.classList.toggle('is-touch-panning', event.touches.length === 1 && !event.target.closest('[data-title-gallery]'));
+  }, { passive: true });
+  strip.addEventListener('touchend', finishTouch, { passive: true });
+  strip.addEventListener('touchcancel', finishTouch, { passive: true });
   strip.addEventListener('lostpointercapture', event => {
     // Ignore capture transfers from descendants during a touch/pen gesture.
     if (event.target === strip) finishGesture(event, true);
@@ -127,7 +140,8 @@
   }, true);
   window.addEventListener('pointerup', event => finishGesture(event), true);
   window.addEventListener('pointercancel', event => finishGesture(event, true), true);
-  window.addEventListener('resize', () => finishGesture(null, true), { passive: true });
+  window.addEventListener('resize', () => { finishGesture(null, true); finishTouch(); }, { passive: true });
+  window.addEventListener('blur', () => { finishGesture(null, true); finishTouch(); });
   previous.addEventListener('click', () => move(-1));
   next.addEventListener('click', () => move(1));
   strip.addEventListener('keydown', event => {
@@ -137,7 +151,7 @@
       move(event.key === 'ArrowLeft' ? -1 : 1);
     }
   });
-  ['pointerdown', 'touchstart', 'wheel'].forEach(type => strip.addEventListener(type, () => { requested = null; }, { passive: true }));
+  ['pointerdown', 'wheel'].forEach(type => strip.addEventListener(type, () => { requested = null; }, { passive: true }));
   strip.addEventListener('scroll', () => {
     moving = true;
     edges();

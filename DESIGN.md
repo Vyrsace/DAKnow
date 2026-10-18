@@ -30,10 +30,10 @@ This is the current visual contract for the catalog and its three policy pages. 
 | Marigold hover | `--action-hover` | `#dfbd49` | Download hover |
 | Action ink | `--on-action` | `#2d2a22` | Dark, legible labels on yellow actions |
 | Selected wash | `--selection-surface` | `#f5e6ac` | Applied chips, selected dropdowns/options and citation target |
-| Plum wash | `--accent-soft` | `#eeebf5` | Original/Client labels |
-| Warm wash | `--warm-surface` | `#f5e9cb` | Patch/Repack and conversion labels |
+| Plum wash | `--accent-soft` | `#eeebf5` | Release-status labels outside Downloads |
+| Warm wash | `--warm-surface` | `#f5e9cb` | Beta/planned-status labels outside Downloads |
 | Warm label ink | `--warm-ink` | `#715321` | Text on warm badges |
-| Neutral wash | `--neutral-surface` | `#eeece8` | Mirror labels |
+| Neutral wash | `--neutral-surface` | `#eeece8` | All descriptive Downloads badges and conversion labels |
 
 Other border and state tokens provide related neutral steps, not additional accent families. Borders use Ash-like warm grays: `--line` #d5d1cc, `--card-border` #b8b3ab and `--control-border` #89847d. Interactive yellow uses the darker `--action-border` #91752a. Muted Stone #8d8c8a is reserved for disabled controls, not ordinary small text.
 
@@ -41,7 +41,7 @@ Other border and state tokens provide related neutral steps, not additional acce
 
 - Use warm section bands, lighter table titles and cool column/group rows to make the nested hierarchy visible. Keep their current padding, borders and geometry.
 - Use marigold sparingly for useful actions and selected state. Do not fill section headers, tables, paragraphs or whole cards with yellow.
-- Keep links plum and ordinary labels ink. Download is a gold action; Original, Repack, Mirror, Client and Patch are softer descriptive badges. Badge text always names its meaning, so color is supplementary.
+- Keep links plum and ordinary labels ink. Download is a gold action. Original, Repack, Mirror, Client, Patch and conversion labels all use the same neutral wash, ink and card-border colors, including the Legend. Do not assign arbitrary colors to descriptive package categories. Preserve their shared dimensions and file alignment.
 - Highlight table title bars in both states and only the hovered column-header cell. Body rows have no hover fill. Use the existing shared neutral hover surfaces; retain visible focus outlines.
 - Keep Official material in consistent flat quote panels with thin horizontal rules. Translation labels use muted ink, and language links use plum.
 - Retain the lightbox's approved dark backdrop and white image edges. Preserve every original image, logo and flag color.
@@ -53,6 +53,12 @@ Other border and state tokens provide related neutral steps, not additional acce
 Titles is the hero section: page introduction, Titles, Table of Contents, Versions, Downloads, Hashes, Verification, Research and Sources. Preserve the current carousel, responsive behavior and anchor IDs.
 
 Keep the existing body type and central 12px Consolas-first table typography, including its deliberate citation/route exceptions. Retain section padding, fitted fixed columns, scrollable table wrappers, default collapse, +/- controls, top-aligned download file slots, filters, sorting, translation switching and drag/swipe. The reference's shop layout, oversized headline, pill geometry and font are outside this color adaptation.
+
+All six main collapsible sections, including Versions, start closed without a valid saved choice. Retain independent tab-session choices, browser refresh scroll restoration and intentional deep-link reveal. Individual tables still start collapsed.
+
+Use the shared 8px table gap between peer tables in Versions, Downloads, General Notes, Hashes and Research. Retain the separate General Notes subsection heading and 6px section Page top gap.
+
+Finger scrolling on the outer Titles strip and overflowing table bodies is native browser panning, including inertia and vertical scrolling/pinch zoom. Titles uses native finite CSS snapping. Do not capture touch pointers, consume their movement or apply JavaScript release-distance snapping to these surfaces. Mouse/pen dragging stays pointer-following; nested image galleries retain their separate infinite swipe implementation. Disable touch selection only during contact and clean up on end/cancel/blur/resize. Table scrollbar space remains stable: its paint is transparent at rest, appears during an active horizontal drag and hides on release, without resizing the wrapper.
 
 ## Review before publication
 
