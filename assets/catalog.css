@@ -89,7 +89,8 @@ th[aria-sort]:not([aria-sort="none"]) .sort-indicator { color: var(--accent); fo
 #catalog :is(.version-section, tbody)[hidden] { display: none !important; }
 .version-group-heading th, .research-kind-row th { padding: 5px 8px; text-align: left; font-weight: 700; background: #dde6f0; }
 #other-titles-catalog tbody[data-version-group="Elancia"] .version-group-heading th { border-top: 1px solid var(--table-row-border); }
-.version-table, .downloads-table, .hashes-table { width: 100%; min-width: var(--catalog-table-min-width); table-layout: fixed; }
+.version-table, .downloads-table, .hashes-table { width: 100%; table-layout: fixed; }
+.downloads-table, .hashes-table { min-width: var(--catalog-table-min-width); }
 #catalog .version-table { min-width: 992px; }
 .version-table col.version { width: var(--catalog-version-width); }
 .version-table col.country { width: 144px; }
@@ -101,23 +102,34 @@ th[aria-sort]:not([aria-sort="none"]) .sort-indicator { color: var(--accent); fo
 .version-table tbody td:not(.notes-cell) { vertical-align: middle; }
 .version-table .date-unknown { color: var(--muted); }
 .version-table .sort-button[data-sort="version"] { justify-content: flex-start; }
-#catalog .version-table th:first-child, #catalog .version-table td.version,
-table.version-table th, table.version-table td,
-.version-table .research-reference-cell { text-align: left; }
+.version-table th, .version-table td { text-align: left; }
 .version-table .note-list, .hashes-table .note-list, .downloads-table .download-notes .notes { margin: 0; padding-left: 14px; }
 .version-table .note-list li, .hashes-table .note-list li, .downloads-table .download-notes li { margin: 0; }
 .version-table .note-list li + li, .hashes-table .note-list li + li, .downloads-table .download-notes li + li { margin-top: 3px; }
 :is(.version-table, .downloads-table, .download-general-table, .hashes-table) tbody td.notes-cell,
-:is(.version-table, .downloads-table, .download-general-table, .hashes-table) tbody td.notes-cell * {
+:is(.downloads-table, .download-general-table, .hashes-table) tbody td.notes-cell * {
   font-weight: inherit;
   font-style: inherit;
 }
 .version-table .note-list:has(> li:only-child) { padding-left: 0; list-style: none; }
+.version-table .official-note-group + .official-note-group,
+.version-table .note-list + .official-note-group { margin-top: 6px; }
+.version-table .official-note-heading { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-bottom: 3px; }
+.version-table .official-note-heading strong { font-weight: 700; }
+.version-table .official-note-heading sup { position: relative; top: -.25em; }
+.version-table .official-note-body { margin: 0; padding: 6px 10px; border-left: 2px solid #b8c9dd; border-radius: 0 4px 4px 0; background: #f2f6fb; }
+.version-table .official-note-body p { margin: 0; white-space: pre-line; }
+.version-table .official-note-body p + p { margin-top: 3px; }
+.version-table .official-note-body[hidden] { display: none; }
+.version-table .official-language-toggle { display: inline-flex; align-items: center; justify-content: center; width: 28px; min-height: 24px; padding: 0 4px; border: 1px solid #9eafc5; border-radius: 4px; background: var(--paper); color: var(--accent); cursor: pointer; }
+.version-table .official-language-toggle:hover { background: #e4edf8; }
+.version-table .official-language-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 #downloads td.notes-cell :is(ul, ol) { padding-left: 0; list-style: none; }
 table th.notes-cell, table td.notes-cell { border-left: 1px solid var(--line); vertical-align: top; }
 table .notes-cell a[href^="#source-"],
 table .notes-cell a[href^="#source-"]:hover,
 table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
+.version-table .notes-cell a[href^="#research-"] { text-decoration: none; }
 #title-carousel { --visible-titles: inherit; --title-card-gap: inherit; column-gap: var(--title-card-gap); grid-auto-columns: calc((100% - (var(--visible-titles) - 1) * var(--title-card-gap)) / var(--visible-titles)); padding-inline: var(--title-carousel-inset); scroll-padding-inline: var(--title-carousel-inset); }
 .game-grid { gap: 8px; }
 #catalog .counter { margin-bottom: 8px; }
