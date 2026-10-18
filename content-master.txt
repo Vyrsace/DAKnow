@@ -3067,7 +3067,7 @@
     [Section.Title]Downloads[/Section.Title]
 
     [Table ID="download-region-us"]
-        [Table.Title]DarkAges United States[/Table.Title]
+        [Table.Title]DarkAges[/Table.Title]
 
         [Entry ID="entry-1-client"]
             [Version]2.15[/Version]
@@ -3976,7 +3976,7 @@
     [/Table]
 
     [Table ID="download-region-kr"]
-        [Table.Title]Legends of Darkness South Korea[/Table.Title]
+        [Table.Title]Legends of Darkness[/Table.Title]
 
         [Entry ID="entry-100-client"]
             [Version]3.11[/Version]
@@ -4230,7 +4230,7 @@
     [/Table]
 
     [Table ID="download-region-kr-elancia"]
-        [Table.Title]Elancia South Korea[/Table.Title]
+        [Table.Title]Elancia[/Table.Title]
 
         [Entry ID="entry-elancia-package-retail-6-0-3-0-client"]
             [Version]6.0.3.0[/Version]
@@ -4312,7 +4312,7 @@
     [/Table]
 
     [Table ID="download-region-sg"]
-        [Table.Title]DarkAges Singapore[/Table.Title]
+        [Table.Title]DarkAges[/Table.Title]
 
         [Entry ID="entry-111-client"]
             [Version]3.51[/Version]
@@ -4399,7 +4399,7 @@
     [/Table]
 
     [Table ID="download-region-my-orphelias"]
-        [Table.Title]Legends of Orphelias Malaysia[/Table.Title]
+        [Table.Title]Legends of Orphelias[/Table.Title]
 
         [Entry ID="entry-118-client"]
             [Version]4.20[/Version]
@@ -4434,7 +4434,7 @@
     [/Table]
 
     [Table ID="download-region-my-temuair"]
-        [Table.Title]Legends of Temuair Malaysia[/Table.Title]
+        [Table.Title]Legends of Temuair[/Table.Title]
 
         [Entry ID="entry-116-client"]
             [Version]4.20[/Version]
@@ -4732,7 +4732,7 @@
     [/Table]
 
     [Table ID="download-region-jp"]
-        [Table.Title]Yami Japan[/Table.Title]
+        [Table.Title]Yami[/Table.Title]
 
         [Entry ID="entry-109-client"]
             [Version]5.22[/Version]

@@ -68,7 +68,11 @@
   document.querySelectorAll('.table-wrap > table').forEach((table, index) => {
     const wrapper = table.parentElement;
     const labelIds = (wrapper.getAttribute('aria-labelledby') || '').split(/\s+/);
-    const label = wrapper.getAttribute('aria-label') || labelIds.map(id => document.getElementById(id)?.textContent.trim()).filter(Boolean).join(' ') || `table ${index + 1}`;
+    const label = wrapper.getAttribute('aria-label') || labelIds.map(id => {
+      const heading = document.getElementById(id);
+      const country = heading?.querySelector('.region-label')?.dataset.country;
+      return [heading?.textContent.trim(), country].filter(Boolean).join(' ');
+    }).filter(Boolean).join(' ') || `table ${index + 1}`;
     const frame = document.createElement('div');
     frame.className = 'table-frame';
     const button = document.createElement('button');

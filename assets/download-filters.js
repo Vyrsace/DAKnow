@@ -37,7 +37,7 @@
     const regionLabel = heading.querySelector('.region-label');
     const headingTitle = [...heading.childNodes].filter(node => node !== regionLabel)
       .map(node => node.textContent).join('').trim();
-    const region = row.dataset.country || source.country || regionLabel?.textContent.trim() || '';
+    const region = row.dataset.country || source.country || regionLabel?.dataset.country || regionLabel?.textContent.trim() || '';
     const title = row.dataset.gameTitle || source.game_title || headingTitle;
     const version = row.querySelector('.download-version > span').textContent.trim();
     const type = row.dataset.recordType || source.type || '';
