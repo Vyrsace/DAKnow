@@ -102,9 +102,19 @@
     try { identifier = decodeURIComponent(hash.slice(1)); }
     catch (_) { return; }
     const target = identifier ? document.getElementById(identifier) : null;
-    const table = target?.closest('table');
-    if (table && (target === table || target.closest('tbody'))) setExpanded(table, true);
+    const table = target?.closest('table') || target?.closest('.table-frame')?.querySelector('table')
+      || (target?.matches('.hash-region, .evidence-region, .download-region, .download-general-region, .version-section')
+        ? target.querySelector('.table-wrap > table') : null);
+    if (table) setExpanded(table, true);
   }
+
+  document.addEventListener('catalogfilteractivate', event => {
+    const section = event.target;
+    if (!section.matches('#catalog, #downloads')) return;
+    frames.forEach(({ frame }, table) => {
+      if (section.contains(table) && !frame.closest('[hidden]') && !frame.classList.contains('is-table-expanded')) setExpanded(table, true);
+    });
+  });
 
   function finish(event) {
     if (!gesture || (event && event.pointerId !== gesture.pointerId)) return;

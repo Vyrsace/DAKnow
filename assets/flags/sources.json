@@ -13,7 +13,17 @@
       "unchanged": true,
       "width": "1235",
       "height": "650",
-      "viewBox": "0 0 7410 3900"
+      "viewBox": "0 0 7410 3900",
+      "display": {
+        "asset": "assets/flags/display/united-states.svg",
+        "sha256": "67b5910dde3f71e0bcbd018a6f67f775f41060f303984314764f46af5b09ec78",
+        "width": 900,
+        "height": 600,
+        "preserveAspectRatio": "none",
+        "derived_from_sha256": "cb27d0b97737f7657b9c73199321a55d4ab4ed13abedfd1eaa9c44f3f920ab64",
+        "change": "Owner-requested 3:2 icon presentation. Only root viewport dimensions and aspect-ratio fitting change; original paths, colors and source SVG remain intact.",
+        "selected_at": "2026-10-18"
+      }
     },
     {
       "country": "South Korea",
@@ -73,7 +83,17 @@
       "license_note": "See original file description and saved source page for per-file licensing.",
       "width": "1200",
       "height": "600",
-      "viewBox": "0 0 13440 6720"
+      "viewBox": "0 0 13440 6720",
+      "display": {
+        "asset": "assets/flags/display/malaysia.svg",
+        "sha256": "39890681b27450adac9b8425e10bf6e612c71c5dda93dd864542910c2841ec91",
+        "width": 900,
+        "height": 600,
+        "preserveAspectRatio": "none",
+        "derived_from_sha256": "53b0aa224ba67a2d32be58aab6eb2e4395ac3df66e62692ac83a30bc296ee3a2",
+        "change": "Owner-requested 3:2 icon presentation. Only root viewport dimensions and aspect-ratio fitting change; original paths, colors and source SVG remain intact.",
+        "selected_at": "2026-10-18"
+      }
     },
     {
       "country": "Japan",

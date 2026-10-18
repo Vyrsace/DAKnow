@@ -175,7 +175,7 @@
     if (replacement) replacement.focus({ preventScroll: true });
   }
 
-  function refresh() {
+  function refresh(expandMatches = false) {
     const text = searchText();
     renderedSearch = text;
     refreshOptions(text);
@@ -195,6 +195,9 @@
     counter.textContent = `Displaying ${visibleCount} of ${rows.length} entries`;
     empty.hidden = visibleCount > 0;
     refreshBadges();
+    if (expandMatches === true && (text || facets.some(facet => facet.selected.size))) {
+      section.dispatchEvent(new Event('catalogfilteractivate', { bubbles: true }));
+    }
   }
 
   function resetFilters() {
@@ -212,11 +215,11 @@
       if (input.tagName !== 'INPUT' || input.type !== 'checkbox') return;
       if (input.checked) facet.selected.add(input.value);
       else facet.selected.delete(input.value);
-      refresh();
+      refresh(true);
     });
     facet.element.querySelector('.filter-clear').addEventListener('click', () => {
       facet.selected.clear();
-      refresh();
+      refresh(true);
     });
     facet.element.addEventListener('toggle', () => {
       if (facet.element.open) facets.forEach(other => {
@@ -232,15 +235,15 @@
     if (!facet) return;
     const index = [...activeFilters.querySelectorAll('.filter-chip')].indexOf(button);
     facet.selected.delete(button.dataset.value);
-    refresh();
+    refresh(true);
     const remaining = [...activeFilters.querySelectorAll('.filter-chip')];
     const target = remaining[Math.min(index, remaining.length - 1)] || facet.element.querySelector('summary');
     target.focus({ preventScroll: true });
   });
   document.getElementById('downloads-reset-filters').addEventListener('click', resetFilters);
-  query.addEventListener('input', refresh);
+  query.addEventListener('input', () => refresh(true));
   query.addEventListener('change', () => {
-    if (searchText() !== renderedSearch) refresh();
+    if (searchText() !== renderedSearch) refresh(true);
   });
   document.addEventListener('click', event => {
     facets.forEach(facet => {

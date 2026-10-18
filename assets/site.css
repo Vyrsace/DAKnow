@@ -73,7 +73,7 @@ section { padding: 28px 0; border-bottom: 1px solid var(--line); }
 .game-card .title-copy > p + p { margin-top: 1em; }
 .title-native { display: block; }
 .region-label { display: inline-block; white-space: nowrap; }
-.region-flag { display: inline-block; width: auto; height: 1em; max-width: none; margin-inline-end: .4em; vertical-align: -.125em; object-fit: contain; border-radius: 0; outline: 1px solid var(--line); outline-offset: 0; }
+.region-flag { display: inline-block; width: 1.5em; height: 1em; max-width: none; margin-inline-end: .4em; vertical-align: -.125em; object-fit: fill; border-radius: 0; outline: 1px solid var(--line); outline-offset: 0; }
 .controls { position: relative; display: flex; align-items: start; gap: 12px; flex-wrap: wrap; margin: 19px 0 14px; }
 .controls label, .filter-label { color: var(--muted); font-size: 12px; font-weight: 650; }
 .controls > label, .controls .search-control, .filter-control, .search-field { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
