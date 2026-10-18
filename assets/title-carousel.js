@@ -62,39 +62,33 @@
     select((requested === null ? startIndex() : requested) + direction);
   }
 
-  function finishGesture(event, canceled = false) {
+  function finishGesture(event) {
     if (!gesture || (event && event.pointerId !== gesture.pointerId)) return;
     const ended = gesture;
     gesture = null;
-    let target = ended.startIndex;
     if (ended.dragging) {
-      const distance = (event?.clientX ?? ended.lastX) - ended.startX;
-      const threshold = Math.max(36, Math.min(96, cards[0].getBoundingClientRect().width * 0.15));
-      if (!canceled && Math.abs(distance) >= threshold) {
-        const nearest = startIndex();
-        target = distance < 0 ? Math.max(nearest, target + 1) : Math.min(nearest, target - 1);
-      }
       suppressClick = true;
     }
     strip.classList.remove('is-dragging');
     if (strip.hasPointerCapture(ended.pointerId)) strip.releasePointerCapture(ended.pointerId);
-    if (ended.dragging) select(target);
+    settle();
   }
   function pointerDown(event) {
     if (event.pointerType === 'touch') {
       suppressClick = false;
+      strip.classList.remove('is-pointer-scrolling');
       return;
     }
     if (!event.isPrimary || event.button !== 0 || gesture) return;
     suppressClick = false;
     // Each image gallery owns its gesture; links and controls keep normal clicks.
     if (maximum() <= 2 || event.target.closest('a, button, input, select, textarea, summary, [contenteditable], [data-title-gallery]')) return;
+    strip.classList.add('is-pointer-scrolling');
     gesture = { pointerId: event.pointerId, startX: event.clientX, startY: event.clientY,
-      lastX: event.clientX, startLeft: strip.scrollLeft, startIndex: startIndex(), dragging: false };
+      startLeft: strip.scrollLeft, dragging: false };
   }
   function pointerMove(event) {
     if (!gesture || event.pointerId !== gesture.pointerId) return;
-    gesture.lastX = event.clientX;
     const distance = event.clientX - gesture.startX;
     const vertical = event.clientY - gesture.startY;
     if (!gesture.dragging) {
@@ -104,7 +98,6 @@
         return;
       }
       gesture.startLeft = strip.scrollLeft;
-      gesture.startIndex = startIndex();
       gesture.dragging = true;
       requested = null;
       clearTimeout(timer);
@@ -124,13 +117,14 @@
   }
   strip.addEventListener('touchstart', event => {
     requested = null;
+    strip.classList.remove('is-pointer-scrolling');
     strip.classList.toggle('is-touch-panning', event.touches.length === 1 && !event.target.closest('[data-title-gallery]'));
   }, { passive: true });
   strip.addEventListener('touchend', finishTouch, { passive: true });
   strip.addEventListener('touchcancel', finishTouch, { passive: true });
   strip.addEventListener('lostpointercapture', event => {
     // Ignore capture transfers from descendants during a touch/pen gesture.
-    if (event.target === strip) finishGesture(event, true);
+    if (event.target === strip) finishGesture(event);
   });
   strip.addEventListener('click', event => {
     if (!suppressClick || event.detail === 0) return;
@@ -139,9 +133,9 @@
     event.stopImmediatePropagation();
   }, true);
   window.addEventListener('pointerup', event => finishGesture(event), true);
-  window.addEventListener('pointercancel', event => finishGesture(event, true), true);
-  window.addEventListener('resize', () => { finishGesture(null, true); finishTouch(); }, { passive: true });
-  window.addEventListener('blur', () => { finishGesture(null, true); finishTouch(); });
+  window.addEventListener('pointercancel', event => finishGesture(event), true);
+  window.addEventListener('resize', () => { finishGesture(); finishTouch(); }, { passive: true });
+  window.addEventListener('blur', () => { finishGesture(); finishTouch(); });
   previous.addEventListener('click', () => move(-1));
   next.addEventListener('click', () => move(1));
   strip.addEventListener('keydown', event => {
@@ -152,6 +146,9 @@
     }
   });
   ['pointerdown', 'wheel'].forEach(type => strip.addEventListener(type, () => { requested = null; }, { passive: true }));
+  strip.addEventListener('wheel', event => {
+    if (event.deltaX || event.shiftKey) strip.classList.add('is-pointer-scrolling');
+  }, { passive: true });
   strip.addEventListener('scroll', () => {
     moving = true;
     edges();

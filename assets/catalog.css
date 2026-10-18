@@ -15,7 +15,7 @@ main > footer#sources { padding-top: 5px; }
 .site-footer .back { margin-top: 12px; }
 @media (max-width: 1100px) { .site-footer { padding-inline: 20px; } }
 @media (max-width: 850px) { .site-footer { padding-inline: 16px; } }
-.contents { --contents-edge-padding: 12px; width: calc((100% - 2px - 2 * var(--title-section-padding) - 2 * var(--title-carousel-inset) - (var(--visible-titles) - 1) * var(--title-card-gap)) / var(--visible-titles)); max-width: 100%; margin-top: 18px; }
+.contents { --contents-edge-padding: 12px; width: 100%; max-width: 100%; margin-top: 18px; }
 .contents, .verification-card, .game-card { border-color: var(--card-border); }
 .contents h2 { padding: var(--contents-edge-padding) 20px 4px; border-bottom: 0; background: var(--section-surface); border-radius: 7px 7px 0 0; }
 .collapsible-card[open] > .card-summary { border-bottom-color: var(--card-border); }
@@ -69,11 +69,14 @@ main > footer#sources { padding-top: 5px; }
 .table-frame .table-wrap::-webkit-scrollbar { height: 8px; background: transparent; }
 .table-frame .table-wrap::-webkit-scrollbar-thumb { background: transparent; }
 .table-wrap.is-scrollable { cursor: grab; touch-action: pan-x pan-y pinch-zoom; }
+.table-wrap.is-text-hover { cursor: text; }
+.table-wrap :is(a, button, summary, [role="button"]) { cursor: pointer; }
 .table-wrap:is(.is-drag-held, .is-dragging) { cursor: ew-resize; }
-.table-wrap.is-dragging { scrollbar-color: var(--control-border) var(--soft); user-select: none; }
+.table-wrap.is-drag-held * { cursor: ew-resize; }
+.table-wrap.is-drag-held { user-select: none; }
+.table-wrap.is-dragging { scrollbar-color: var(--control-border) var(--soft); }
 .table-wrap.is-dragging::-webkit-scrollbar { background: var(--soft); }
 .table-wrap.is-dragging::-webkit-scrollbar-thumb { background: var(--control-border); }
-.table-wrap.is-touch-panning { -webkit-user-select: none; user-select: none; }
 .sources-table tbody .source-reference { text-align: center; }
 .contents-list {
   display: block;
@@ -184,12 +187,13 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 .download-source-label { margin-left: 6px; }
 .download-file-line { display: flex; align-items: flex-start; gap: 3px; width: 100%; white-space: nowrap; }
 .download-file-line .download-line-name { color: var(--ink); font-weight: 700; }
-.download-file-line .download-line-source { margin: 0; color: var(--muted); }
 .download-file-line .download-badge { flex: none; }
 .download-file-line > .download-badge--download { margin-left: auto; }
 .download-file-line, .download-detail-line { min-height: var(--download-line-height); line-height: var(--download-line-height); }
 .download-detail-line { display: flex; align-items: flex-start; }
 .download-note-line { flex-direction: column; align-items: stretch; justify-content: flex-start; }
+.download-note-text { margin: 0; white-space: normal; overflow-wrap: anywhere; }
+.downloads-table td.notes-cell .download-note-source { font-style: italic; }
 .download-primary + .download-mirrors { margin-top: calc(var(--download-line-height) + 3px); }
 .download-mirrors > [data-download-line] + [data-download-line] { margin-top: 3px; }
 .download-mirror-heading { display: flex; align-items: flex-start; min-height: var(--download-line-height); }

@@ -5,12 +5,29 @@
   let pending = false;
   let gesture = null;
   let touchPan = null;
+  let hoveredWrapper = null;
   let draggedWrapper = null;
   const interactive = 'a, button, input, select, textarea, summary, [contenteditable], [role="button"]';
 
-  function clearSelection(wrapper) {
-    const selection = window.getSelection();
-    if (selection?.anchorNode && wrapper.contains(selection.anchorNode)) selection.removeAllRanges();
+  function textAtPoint(wrapper, event) {
+    const caret = document.caretPositionFromPoint?.(event.clientX, event.clientY);
+    const node = caret?.offsetNode || document.caretRangeFromPoint?.(event.clientX, event.clientY)?.startContainer;
+    if (node?.nodeType !== 3 || !node.textContent.trim() || !wrapper.contains(node)) return false;
+    const range = document.createRange();
+    range.selectNodeContents(node);
+    return [...range.getClientRects()].some(rectangle => event.clientX >= rectangle.left && event.clientX <= rectangle.right
+      && event.clientY >= rectangle.top && event.clientY <= rectangle.bottom);
+  }
+
+  function hover(event) {
+    const wrapper = event?.pointerType !== 'touch' && event?.target.closest('.table-wrap.is-scrollable');
+    if (hoveredWrapper && hoveredWrapper !== wrapper) hoveredWrapper.classList.remove('is-text-hover');
+    hoveredWrapper = wrapper || null;
+    if (wrapper) wrapper.classList.toggle('is-text-hover', !event.target.closest(interactive) && textAtPoint(wrapper, event));
+  }
+
+  function clearSelection() {
+    window.getSelection()?.removeAllRanges();
   }
 
   function refreshOverflow() {
@@ -91,7 +108,7 @@
     gesture = null;
     if (ended.dragging) {
       draggedWrapper = ended.wrapper;
-      clearSelection(ended.wrapper);
+      clearSelection();
     }
     ended.wrapper.classList.remove('is-dragging');
     ended.wrapper.classList.remove('is-drag-held');
@@ -103,7 +120,8 @@
     if (event.pointerType === 'touch') return;
     if (!event.isPrimary || event.button !== 0 || event.altKey || gesture) return;
     const wrapper = event.target.closest('.table-wrap.is-scrollable');
-    if (!wrapper || wrapper.scrollWidth <= wrapper.clientWidth + 1 || event.target.closest(interactive)) return;
+    if (!wrapper || wrapper.scrollWidth <= wrapper.clientWidth + 1 || event.target.closest(interactive) || textAtPoint(wrapper, event)) return;
+    wrapper.classList.remove('is-text-hover');
     const bounds = wrapper.getBoundingClientRect();
     if (event.clientY >= bounds.bottom - Math.max(8, wrapper.offsetHeight - wrapper.clientHeight)) return;
     if (event.pointerType === 'mouse') {
@@ -116,16 +134,18 @@
   });
 
   document.addEventListener('pointermove', event => {
-    if (!gesture || event.pointerId !== gesture.pointerId) return;
+    if (!gesture) { hover(event); return; }
+    if (event.pointerId !== gesture.pointerId) return;
     const horizontal = event.clientX - gesture.startX;
     const vertical = event.clientY - gesture.startY;
     if (!gesture.dragging) {
       if (Math.max(Math.abs(horizontal), Math.abs(vertical)) < 8) return;
       if (Math.abs(vertical) >= Math.abs(horizontal)) { finish(event); return; }
       gesture.dragging = true;
+      gesture.wrapper.classList.add('is-drag-held');
       gesture.wrapper.classList.add('is-dragging');
       gesture.wrapper.setPointerCapture(event.pointerId);
-      clearSelection(gesture.wrapper);
+      clearSelection();
     }
     event.preventDefault();
     gesture.wrapper.scrollLeft = Math.max(0, Math.min(gesture.wrapper.scrollWidth - gesture.wrapper.clientWidth, gesture.startLeft - horizontal));
@@ -133,7 +153,6 @@
 
   function finishTouch() {
     if (!touchPan) return;
-    touchPan.wrapper.classList.remove('is-touch-panning');
     touchPan.wrapper.classList.remove('is-dragging');
     touchPan = null;
   }
@@ -144,7 +163,6 @@
     const wrapper = event.target.closest('.table-wrap.is-scrollable');
     if (!wrapper || wrapper.scrollWidth <= wrapper.clientWidth + 1) return;
     touchPan = { wrapper, startLeft: wrapper.scrollLeft };
-    wrapper.classList.add('is-touch-panning');
   }, { passive: true });
   document.addEventListener('touchmove', event => {
     if (event.touches.length !== 1) finishTouch();
@@ -162,7 +180,7 @@
   });
   document.addEventListener('click', event => {
     if (!draggedWrapper || event.detail === 0 || !draggedWrapper.contains(event.target)) return;
-    clearSelection(draggedWrapper);
+    clearSelection();
     draggedWrapper = null;
     event.preventDefault();
     event.stopImmediatePropagation();
@@ -174,8 +192,8 @@
   }, true);
   window.addEventListener('pointerup', finish, true);
   window.addEventListener('pointercancel', finish, true);
-  window.addEventListener('blur', () => { finish(); finishTouch(); });
-  window.addEventListener('resize', () => { finish(); finishTouch(); schedule(); }, { passive: true });
+  window.addEventListener('blur', () => { finish(); finishTouch(); hover(); });
+  window.addEventListener('resize', () => { finish(); finishTouch(); hover(); schedule(); }, { passive: true });
   window.addEventListener('hashchange', () => revealTarget(location.hash));
   document.addEventListener('toggle', schedule, true);
   if (window.ResizeObserver) {
