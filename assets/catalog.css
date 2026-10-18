@@ -202,8 +202,8 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 .download-badge--mirror { background: var(--neutral-surface); color: var(--muted); border-color: var(--line); text-decoration: none; }
 .download-badge--original { background: var(--accent-soft); color: var(--accent-hover); border-color: var(--accent-line); }
 .download-badge--repack { background: var(--warm-surface); color: var(--warm-ink); border-color: var(--warm-line); }
-.download-badge--download { background: var(--accent); color: var(--on-accent); border-color: var(--accent); text-decoration: none; }
-.download-file-line .download-badge--download:hover { background: var(--accent-hover); color: var(--on-accent); border-color: var(--accent-hover); text-decoration: none; }
+.download-badge--download { background: var(--action); color: var(--on-action); border-color: var(--action-border); text-decoration: none; }
+.download-file-line .download-badge--download:hover { background: var(--action-hover); color: var(--on-action); border-color: var(--action-border); text-decoration: none; }
 a.download-badge--client, a.download-badge--patch { text-decoration: none; }
 a.download-badge--client:hover, a.download-badge--patch:hover { filter: brightness(.96); }
 .download-type .patch-route { display: flex; margin-top: 3px; }

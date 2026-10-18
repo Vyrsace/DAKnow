@@ -1,37 +1,42 @@
 /* Page shell, title cards and controls. Table typography lives in table-typography.css. */
 :root {
-  --bg: #eceee9;
-  --paper: #fffefa;
-  --ink: #283b3d;
-  --heading: #183f43;
-  --muted: #576b69;
-  --line: #cdd8d1;
-  --card-border: #a6bcb3;
-  --control-border: #768e86;
-  --accent: #17636b;
-  --accent-hover: #104850;
-  --focus: #176b75;
-  --soft: #edf3ef;
-  --section-surface: #d0e1d9;
-  --section-hover: #bfd6cd;
-  --table-title-surface: #e0ece7;
-  --table-hover: #ccdfd7;
-  --table-header-surface: #edf2ed;
-  --table-group-surface: #d9e5dc;
-  --table-header-border: #b8ccc1;
-  --table-row-border: #d5dfd8;
-  --row-stripe: #f4f7f2;
-  --quote-surface: #eaf1ec;
-  --quote-border: #b7cbc0;
-  --accent-soft: #dfefeb;
-  --accent-line: #a5c6bd;
-  --warm-ink: #795727;
-  --warm-surface: #f5ead6;
-  --warm-line: #d8c19b;
-  --neutral-surface: #edf0e9;
-  --disabled: #82908a;
-  --on-accent: #ffffff;
-  --shadow: #213f381a;
+  --bg: #e5e7eb;
+  --paper: #fcfbf8;
+  --ink: #29282d;
+  --heading: #25232b;
+  --muted: #615e66;
+  --line: #d5d1cc;
+  --card-border: #b8b3ab;
+  --control-border: #89847d;
+  --accent: #50456f;
+  --accent-hover: #3b3154;
+  --focus: #64527e;
+  --soft: #f1efea;
+  --section-surface: #d9d6d0;
+  --section-hover: #cbc7bf;
+  --table-title-surface: #e7e3dc;
+  --table-hover: #d9d4c9;
+  --table-header-surface: #f0eff2;
+  --table-group-surface: #dfdbe5;
+  --table-header-border: #c6c1cb;
+  --table-row-border: #dedbd7;
+  --row-stripe: #f4f3f0;
+  --quote-surface: #eeedf3;
+  --quote-border: #c8c3d4;
+  --accent-soft: #eeebf5;
+  --accent-line: #cbc2db;
+  --warm-ink: #715321;
+  --warm-surface: #f5e9cb;
+  --warm-line: #d9c59e;
+  --neutral-surface: #eeece8;
+  --disabled: #8d8c8a;
+  --action: #ecca53;
+  --action-hover: #dfbd49;
+  --action-border: #91752a;
+  --on-action: #2d2a22;
+  --selection-surface: #f5e6ac;
+  --selection-border: #a78d40;
+  --shadow: #29282d18;
   --title-arrow-icon-width: 28px;
   --title-arrow-icon-height: 26px;
   --title-arrow-color: var(--muted);
@@ -59,7 +64,7 @@ section { padding: 28px 0; border-bottom: 1px solid var(--line); }
 .released { background: var(--accent-soft); color: var(--accent); border-color: var(--accent-line); }
 .beta { background: var(--warm-surface); color: var(--warm-ink); border-color: var(--warm-line); }
 .planned { background: var(--warm-surface); color: var(--warm-ink); border-color: var(--warm-line); }
-.current { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+.current { background: var(--action); color: var(--on-action); border-color: var(--action-border); }
 .game-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; }
 .game-card { display: grid; grid-template-rows: subgrid; grid-row: span 4; row-gap: 0; min-width: 0; padding: 19px 18px; background: var(--paper); border: 1px solid var(--line); border-radius: 8px; }
 .game-card p { font-size: 13px; }
@@ -90,11 +95,11 @@ section { padding: 28px 0; border-bottom: 1px solid var(--line); }
 .controls .filter-options label, .filter-option { display: flex; flex-direction: row; align-items: center; gap: 9px; padding: 8px 9px; color: var(--ink); font-size: 13px; font-weight: 400; line-height: 1.4; border-radius: 4px; cursor: pointer; }
 .filter-options label:hover { background: var(--soft); }
 .filter-options input[type=checkbox] { flex: 0 0 auto; width: 15px; height: 15px; margin: 0; min-height: 0; accent-color: var(--accent); cursor: pointer; }
-.filter-options label:has(input:checked) { color: var(--accent-hover); background: var(--accent-soft); }
+.filter-options label:has(input:checked) { color: var(--ink); background: var(--selection-surface); }
 .filter-option-label { flex: 1; }
 .filter-option-hint { color: var(--muted); font-size: 10px; white-space: nowrap; }
 .filter-empty { padding: 8px 9px; color: var(--muted); font-size: 12px; }
-.filter-dropdown.has-selection > summary { border-color: var(--accent); background: var(--accent-soft); }
+.filter-dropdown.has-selection > summary { border-color: var(--action-border); background: var(--selection-surface); }
 .filter-options label:has(input:disabled) { color: var(--disabled); cursor: default; }
 .filter-clear { width: 100%; padding: 9px 10px 4px; margin-top: 5px; border: 0; border-top: 1px solid var(--line); background: transparent; color: var(--accent); font: inherit; font-size: 12px; text-align: left; cursor: pointer; }
 .filter-clear:hover { color: var(--accent-hover); }
@@ -207,10 +212,10 @@ footer { padding-top: 30px; }
 .controls { margin-bottom: 0; }
 .active-filters { display: flex; align-items: center; gap: 8px; height: 56px; padding: 9px 3px; margin: 0 -3px 8px; overflow-x: auto; overflow-y: hidden; white-space: nowrap; scrollbar-width: thin; scrollbar-color: var(--control-border) transparent; }
 .active-filters[hidden], .active-filters:empty { display: none; }
-.filter-chip { display: inline-flex; flex: 0 0 auto; align-items: center; gap: 6px; min-height: 30px; padding: 4px 9px; border: 1px solid var(--accent-line); border-radius: 5px; background: var(--accent-soft); color: var(--accent); font: inherit; font-size: 12px; line-height: 20px; cursor: pointer; }
-.filter-chip:hover { background: var(--table-hover); border-color: var(--accent); }
+.filter-chip { display: inline-flex; flex: 0 0 auto; align-items: center; gap: 6px; min-height: 30px; padding: 4px 9px; border: 1px solid var(--selection-border); border-radius: 5px; background: var(--selection-surface); color: var(--ink); font: inherit; font-size: 12px; line-height: 20px; cursor: pointer; }
+.filter-chip:hover { background: var(--action); border-color: var(--action-border); }
 .filter-chip-category { font-weight: 650; }
-.filter-chip-remove { margin-left: 2px; font-size: 17px; font-weight: 400; line-height: 18px; color: var(--accent); }
+.filter-chip-remove { margin-left: 2px; font-size: 17px; font-weight: 400; line-height: 18px; color: inherit; }
 .title-meta { margin: 0 0 15px; text-align: left; color: var(--muted); }
 .game-card .title-meta p { margin: 2px 0; font-size: 12px; line-height: 1.5; }
 .game-card .title-meta .title-publisher { color: var(--heading); font-size: 13px; font-weight: 650; }
@@ -245,7 +250,7 @@ footer { padding-top: 30px; }
 .source-list .source-title:hover, .source-list .source-title:focus-visible { text-decoration: underline; }
 .source-usage-cell { color: var(--muted); }
 .source-usage-item { display: block; }
-.source-row:target { background: var(--accent-soft); outline: 2px solid var(--accent); outline-offset: -2px; scroll-margin-top: 24px; }
+.source-row:target { background: var(--selection-surface); outline: 2px solid var(--accent); outline-offset: -2px; scroll-margin-top: 24px; }
 
 .research-origin-col { width: 100px; }
 .research-origin-cell { color: var(--muted); }
