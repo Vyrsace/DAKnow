@@ -14,10 +14,8 @@
 
   function refreshOverflow() {
     pending = false;
-    frames.forEach(({ wrapper, frame }, table) => {
-      wrapper.classList.toggle('is-scrollable', wrapper.clientWidth > 0 && wrapper.scrollWidth > wrapper.clientWidth + 1);
-      const height = table.tHead?.getBoundingClientRect().height;
-      if (height) frame.style.setProperty('--table-header-height', `${height}px`);
+    frames.forEach(({ wrapper, frame }) => {
+      wrapper.classList.toggle('is-scrollable', frame.classList.contains('is-table-expanded') && wrapper.clientWidth > 0 && wrapper.scrollWidth > wrapper.clientWidth + 1);
     });
   }
 
@@ -34,7 +32,15 @@
     entry.button.setAttribute('aria-expanded', String(expanded));
     entry.button.setAttribute('aria-label', `${expanded ? 'Collapse' : 'Expand'} ${entry.label}`);
     entry.button.title = entry.button.getAttribute('aria-label');
-    entry.button.textContent = expanded ? '-' : '+';
+    entry.button.textContent = expanded ? 'Collapse' : 'Expand';
+    if (!expanded) entry.wrapper.scrollLeft = 0;
+    table.tHead.tabIndex = expanded ? -1 : 0;
+    table.tHead.title = expanded ? '' : `Expand ${entry.label}`;
+    table.querySelectorAll('.sort-button').forEach(button => {
+      button.tabIndex = expanded ? 0 : -1;
+      if (expanded) button.removeAttribute('aria-disabled');
+      else button.setAttribute('aria-disabled', 'true');
+    });
     entry.wrapper.dispatchEvent(new Event('tabletoggle', { bubbles: true }));
     schedule();
   }
@@ -48,15 +54,33 @@
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'table-toggle';
+    const heading = wrapper.previousElementSibling.querySelector('h3, h4');
+    const titleGroup = document.createElement('div');
+    titleGroup.className = 'table-title-group';
+    heading.before(titleGroup);
+    titleGroup.append(heading, button);
     const bodyIds = [...table.tBodies].map((body, bodyIndex) => {
       if (!body.id) body.id = `catalog-table-${index + 1}-body-${bodyIndex + 1}`;
       return body.id;
     });
     button.setAttribute('aria-controls', bodyIds.join(' '));
     wrapper.before(frame);
-    frame.append(wrapper, button);
+    frame.append(wrapper);
     frames.set(table, { frame, wrapper, button, label });
     button.addEventListener('click', () => setExpanded(table, button.getAttribute('aria-expanded') !== 'true'));
+    table.tHead.addEventListener('click', event => {
+      if (button.getAttribute('aria-expanded') === 'true') return;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      setExpanded(table, true);
+    }, true);
+    table.tHead.addEventListener('keydown', event => {
+      if (button.getAttribute('aria-expanded') === 'true' || !['Enter', ' '].includes(event.key)) return;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      setExpanded(table, true);
+      wrapper.focus({ preventScroll: true });
+    });
     setExpanded(table, false);
   });
 

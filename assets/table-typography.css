@@ -16,11 +16,11 @@ table :where(*) {
   font-size: inherit;
 }
 table sup { font-size: .75em; }
-.table-toggle { font-family: var(--table-font); font-size: var(--table-text-size); }
 .download-legend :is(.download-badge, .patch-route) {
   font-family: var(--table-font);
   font-size: var(--table-text-size);
 }
+.patch-route .patch-route-label { font-size: .75em; letter-spacing: -.025em; }
 @media print {
   :root { --table-text-size: 9px; }
 }

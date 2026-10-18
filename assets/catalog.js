@@ -61,7 +61,7 @@
         const level = levels[index];
         const heading = button.closest('th');
         heading.setAttribute('aria-sort', index < 0 ? 'none' : index > 0 ? 'other' : level.direction === 'asc' ? 'ascending' : 'descending');
-        button.querySelector('.sort-indicator').textContent = index < 0 ? '↕' : `${index + 1} ${level.direction === 'asc' ? '↑' : '↓'}`;
+        button.querySelector('.sort-indicator').textContent = index < 0 ? '↕' : level.direction === 'asc' ? '↑' : '↓';
         const next = !level ? 'add ascending sort' : level.direction === 'asc' ? 'sort descending' : 'remove sort';
         button.setAttribute('aria-label', `${labels[button.dataset.sort]}${level ? `, priority ${index + 1}, ${level.direction === 'asc' ? 'ascending' : 'descending'}` : ''}; ${next}`);
       });

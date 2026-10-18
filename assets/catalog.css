@@ -36,9 +36,10 @@ main > footer#sources { padding-top: 5px; }
 .sources-table .source-label-col { width: auto; }
 .sources-table .source-usage-col { width: var(--catalog-notes-width); }
 .research-table-wrap { border: 1px solid var(--line); border-radius: 8px; }
-.table-heading-row { display: flex; align-items: baseline; justify-content: space-between; gap: 8px 20px; margin: 0 0 10px; }
-.table-heading-row > :is(h3, h4) { margin: 0; min-width: 0; }
-.table-heading-row > h3 { font-size: 15px; }
+.table-heading-row { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 20px; margin: 0 0 10px; }
+.table-title-group { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; min-width: 0; }
+.table-heading-row :is(h3, h4) { margin: 0; min-width: 0; }
+.table-heading-row h3 { font-size: 15px; }
 .table-return-links { display: flex; flex: 0 0 auto; justify-content: flex-end; gap: 14px; margin-left: auto; font-size: 12px; font-weight: 400; white-space: nowrap; }
 .region-nav { margin-bottom: 18px; }
 .region-nav a[aria-current="true"] { font-weight: 700; }
@@ -57,11 +58,11 @@ main > footer#sources { padding-top: 5px; }
 .download-general-table .note-list li + li { margin-top: 3px; }
 .sources-table-wrap { border-radius: 8px; }
 .table-frame { position: relative; min-width: 0; }
-.table-frame::after { content: ""; position: absolute; z-index: 1; top: 1px; right: 1px; width: 31px; height: var(--table-header-height, 30px); border-bottom: 1px solid var(--table-header-border); border-radius: 0 7px 0 0; background: #eaf0f8; }
 .table-frame:not(.is-table-expanded) table > tbody { display: none; }
-.table-frame thead th:last-child { padding-right: 36px; }
-.table-toggle { position: absolute; z-index: 2; top: 4px; right: 5px; display: flex; align-items: center; justify-content: center; width: 22px; height: 22px; padding: 0; border: 1px solid #9eafc5; border-radius: 4px; background: #fff; color: var(--accent); line-height: 1; cursor: pointer; }
-.table-toggle:hover { background: #e4edf8; }
+.table-frame:not(.is-table-expanded) .table-wrap { overflow-x: hidden; }
+.table-frame:not(.is-table-expanded) thead, .table-frame:not(.is-table-expanded) .sort-button { cursor: pointer; }
+.table-toggle { flex: 0 0 auto; padding: 0; border: 0; background: transparent; color: var(--accent); font: inherit; font-size: 12px; font-weight: 400; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.table-toggle:hover { color: var(--accent-hover); }
 .table-wrap.is-scrollable { cursor: grab; touch-action: pan-y pinch-zoom; }
 .table-wrap.is-dragging { cursor: grabbing; user-select: none; }
 .sources-table tbody .source-reference { text-align: center; }
@@ -180,13 +181,15 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 .download-detail-line { display: flex; align-items: flex-start; }
 .download-note-line { flex-direction: column; align-items: stretch; justify-content: flex-start; }
 .download-primary + .download-mirrors { margin-top: calc(var(--download-line-height) + 3px); }
-.download-mirrors > .download-detail-line + .download-detail-line { margin-top: 3px; }
+.download-mirrors > [data-download-line] + [data-download-line] { margin-top: 3px; }
+.download-mirror-heading { display: flex; align-items: flex-start; min-height: var(--download-line-height); }
+.download-filename .download-mirrors > .download-file-line { padding-left: 10px; }
 .download-primary-group > :is(.download-file-line, .download-detail-line) + :is(.download-file-line, .download-detail-line) { margin-top: 3px; }
 .download-note-line .notes { line-height: var(--download-line-height); }
 .download-file-notes { margin-top: 8px !important; }
 .download-badge, .patch-route { display: inline-flex; align-items: center; justify-content: center; vertical-align: middle; flex: none; box-sizing: border-box; height: calc(1.45em + 4px); padding: 1px 5px; border: 1px solid transparent; border-radius: 4px; line-height: 1.45; white-space: nowrap; }
 /* Eight monospace characters plus the existing Download padding and borders. */
-.download-badge { font-weight: 700; width: calc(8ch + 12px); }
+.download-badge, .patch-route { font-weight: 700; width: calc(8ch + 12px); }
 .download-badge--client { background: #e5eefb; color: #355f99; border-color: #cbdcf4; }
 .download-badge--patch { background: #edeafd; color: #5753a4; border-color: #ded8f3; }
 .download-badge--mirror { background: #f0f3f7; color: #5b6c83; border-color: #dbe2ea; text-decoration: none; }
@@ -196,7 +199,6 @@ table .notes-cell a[href^="#source-"]:focus-visible { text-decoration: none; }
 .download-file-line .download-badge--download:hover { background: #dfeafb; border-color: #abc4e6; text-decoration: none; }
 a.download-badge--client, a.download-badge--patch { text-decoration: none; }
 a.download-badge--client:hover, a.download-badge--patch:hover { filter: brightness(.96); }
-.download-badge--patch, .patch-route { width: calc(11ch + 12px); font-weight: 700; }
 .download-type .patch-route { display: flex; margin-top: 3px; }
 .patch-route { margin: 0; background: #f8f6ff; color: #675e94; border-color: #ded8f3; }
 .download-legend .patch-route { margin: 0; }
@@ -237,7 +239,6 @@ table td.dash-placeholder, table th.dash-placeholder, .download-size .dash-place
 @media print {
   .catalog-filters { display: none; }
   .table-toggle { display: none; }
-  .table-frame::after { display: none; }
   .table-frame:not(.is-table-expanded) table > tbody:not([hidden]) { display: table-row-group; }
   .version-table, .downloads-table, .hashes-table, .research-table, .sources-table { min-width: 0; }
   #title-carousel { grid-auto-columns: auto; }
