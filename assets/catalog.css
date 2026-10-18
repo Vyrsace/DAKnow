@@ -53,9 +53,7 @@ main > footer#sources { padding-top: 5px; }
 .region-nav a, #research-notes > .evidence-nav a { font-weight: 700; text-decoration: none; }
 .region-nav a:hover, .region-nav a:focus-visible,
 #research-notes > .evidence-nav a:hover, #research-notes > .evidence-nav a:focus-visible { text-decoration: none; }
-.download-general-notes { margin-top: 16px; }
-.download-general-region:not([hidden]) ~ .download-general-region:not([hidden]) { margin-top: var(--table-gap); }
-.download-general-region h4 { font-size: 14px; }
+.download-general-notes { margin-top: var(--table-gap); }
 .download-general-table { min-width: 1340px; }
 .download-general-table col.download-general-subject { width: 200px; }
 .download-general-table col:nth-child(2) { width: var(--catalog-notes-width); }
@@ -113,7 +111,7 @@ th[aria-sort]:not([aria-sort="none"]) { background: var(--table-hover); }
 th[aria-sort]:not([aria-sort="none"]) .sort-indicator { color: var(--accent); font-weight: 700; }
 .version-section:not([hidden]) ~ .version-section:not([hidden]) { margin-top: var(--table-gap); }
 #catalog :is(.version-section, tbody)[hidden] { display: none !important; }
-.version-group-heading th, .research-kind-row th { padding: 5px 8px; text-align: left; font-weight: 700; background: var(--table-group-surface); }
+.version-group-heading th, .research-kind-row th, .download-general-category th { padding: 5px 8px; text-align: left; font-weight: 700; background: var(--table-group-surface); }
 #other-titles-catalog tbody[data-version-group="Elancia"] .version-group-heading th { border-top: 1px solid var(--table-row-border); }
 .version-table, .downloads-table, .hashes-table { width: 100%; table-layout: fixed; }
 .downloads-table, .hashes-table { min-width: var(--catalog-table-min-width); }

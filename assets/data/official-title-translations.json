@@ -1,0 +1,697 @@
+{
+  "method": "English editorial translations checked against the preserved literal post titles; no year or release-date inference.",
+  "titles": {
+    "source-424": {
+      "original": "어둠의 전설 2.12버전",
+      "english": "Legends of Darkness Version 2.12"
+    },
+    "source-425": {
+      "original": "99.02.23 어둠의전설 2.14버전",
+      "english": "99.02.23 Legends of Darkness Version 2.14"
+    },
+    "source-426": {
+      "original": "99.02.26 어둠의전설 2.15버전 분산서버운영",
+      "english": "99.02.26 Legends of Darkness Version 2.15 - Distributed Server Operation"
+    },
+    "source-427": {
+      "original": "99.04.30 어둠의전설 2.16 버전",
+      "english": "99.04.30 Legends of Darkness Version 2.16"
+    },
+    "source-428": {
+      "original": "3.03 패치",
+      "english": "3.03 Patch"
+    },
+    "source-429": {
+      "original": "3.03 패치",
+      "english": "3.03 Patch"
+    },
+    "source-430": {
+      "original": "3.04 버전 패치",
+      "english": "Version 3.04 Patch"
+    },
+    "source-431": {
+      "original": "어둠의 전설 3.10버전 패치",
+      "english": "Legends of Darkness Version 3.10 Patch"
+    },
+    "source-432": {
+      "original": "3.11 패치 공지",
+      "english": "3.11 Patch Notice"
+    },
+    "source-433": {
+      "original": "3.50패치 안내",
+      "english": "3.50 Patch Notice"
+    },
+    "source-434": {
+      "original": "어둠의 전설 3,5 패치 내용 안내!!!!",
+      "english": "Legends of Darkness 3.5 Patch Details!!!!"
+    },
+    "source-435": {
+      "original": "어둠의전설 3.6 패치 공지",
+      "english": "Legends of Darkness 3.6 Patch Notice"
+    },
+    "source-436": {
+      "original": "어둠의 전설 3.6 패치 안내",
+      "english": "Legends of Darkness 3.6 Patch Notice"
+    },
+    "source-437": {
+      "original": "게임의 전설 어둠의 3.61패치!",
+      "english": "The Legend of Games: Legends of Darkness 3.61 Patch!"
+    },
+    "source-438": {
+      "original": "어둠의전설 4.2 패치 공지",
+      "english": "Legends of Darkness 4.2 Patch Notice"
+    },
+    "source-447": {
+      "original": "定期メンテナンスが終了しました",
+      "english": "Scheduled Maintenance Has Ended"
+    },
+    "source-448": {
+      "original": "Version 4.52 sの導入予定日時について",
+      "english": "Scheduled Introduction Date and Time for Version 4.52 s"
+    },
+    "source-600": {
+      "original": "Version 5.00の導入予定日時について",
+      "english": "Scheduled Introduction Date and Time for Version 5.00"
+    },
+    "source-450": {
+      "original": "Version 5.20の導入予定日時について",
+      "english": "Scheduled Introduction Date and Time for Version 5.20"
+    },
+    "source-451": {
+      "original": "Version 5.21の導入予定日時について",
+      "english": "Scheduled Introduction Date and Time for Version 5.21"
+    },
+    "source-453": {
+      "original": "Version 5.22の導入予定日時について",
+      "english": "Scheduled Introduction Date and Time for Version 5.22"
+    },
+    "source-454": {
+      "original": "サーバー移転に伴うアップデートのお知らせ",
+      "english": "Update Notice for the Server Migration"
+    },
+    "source-455": {
+      "original": "バージョンアップに伴うアップデート方法について",
+      "english": "How to Update for the Version Upgrade"
+    },
+    "source-325": {
+      "original": "어둠의전설 V5.70패치 안내",
+      "english": "Legends of Darkness V5.70 Patch Notice"
+    },
+    "source-326": {
+      "original": "어둠의전설 V5.80패치 안내!",
+      "english": "Legends of Darkness V5.80 Patch Notice!"
+    },
+    "source-327": {
+      "original": "어둠의전설 V5.90 패치 안내",
+      "english": "Legends of Darkness V5.90 Patch Notice"
+    },
+    "source-328": {
+      "original": "05/18(목) 상용 서버 v8660 패치 안내 (수정)",
+      "english": "05/18 (Thu) Production Server v8660 Patch Notice (Revised)"
+    },
+    "source-329": {
+      "original": "05/18(목) 상용 서버 v8680 패치 안내 (수정)",
+      "english": "05/18 (Thu) Production Server v8680 Patch Notice (Revised)"
+    },
+    "source-330": {
+      "original": "05/18(목) 상용 서버 v8700 패치 안내 (수정)",
+      "english": "05/18 (Thu) Production Server v8700 Patch Notice (Revised)"
+    },
+    "source-331": {
+      "original": "[정기점검] 정식 서비스 서버 v8720 패치 안내 (오전 10시 30분 ~) (수정)",
+      "english": "[Scheduled Maintenance] Production Server v8720 Patch Notice (from 10:30 a.m.) (Revised)"
+    },
+    "source-332": {
+      "original": "07/27(목) 정식 서비스 서버 v8760 패치 안내 (수정)",
+      "english": "07/27 (Thu) Production Server v8760 Patch Notice (Revised)"
+    },
+    "source-333": {
+      "original": "07/28(금) 정식 서비스 서버 v8780 패치 (오후 06시 ~) (수정)",
+      "english": "07/28 (Fri) Production Server v8780 Patch (from 6 p.m.) (Revised)"
+    },
+    "source-334": {
+      "original": "05/12(금) 하데스 서버 v8790 패치 안내 (수정)",
+      "english": "05/12 (Fri) Hades Server v8790 Patch Notice (Revised)"
+    },
+    "source-335": {
+      "original": "05/17(수) 하데스 서버 v8810 패치 안내 (수정)",
+      "english": "05/17 (Wed) Hades Server v8810 Patch Notice (Revised)"
+    },
+    "source-336": {
+      "original": "08/18(금) 정식 서비스 서버 v8820 패치 (수정)",
+      "english": "08/18 (Fri) Production Server v8820 Patch (Revised)"
+    },
+    "source-337": {
+      "original": "05/18(목) 하데스 서버 v8830 패치 안내",
+      "english": "05/18 (Thu) Hades Server v8830 Patch Notice"
+    },
+    "source-338": {
+      "original": "[정기점검] 08/24(목) 정식 서비스 서버 v8840 패치",
+      "english": "[Scheduled Maintenance] 08/24 (Thu) Production Server v8840 Patch"
+    },
+    "source-339": {
+      "original": "v8840 패치 이후 게임 실행 불가 관련안내",
+      "english": "Notice on Inability to Launch the Game after the v8840 Patch"
+    },
+    "source-340": {
+      "original": "05/19(금) 하데스 서버 v8850 패치 안내 (수정)",
+      "english": "05/19 (Fri) Hades Server v8850 Patch Notice (Revised)"
+    },
+    "source-341": {
+      "original": "08/25(금) 정식 서비스 서버 v8860 패치 안내 (수정)",
+      "english": "08/25 (Fri) Production Server v8860 Patch Notice (Revised)"
+    },
+    "source-342": {
+      "original": "06/01(목) 하데스 서버 v8870 패치 안내",
+      "english": "06/01 (Thu) Hades Server v8870 Patch Notice"
+    },
+    "source-343": {
+      "original": "[정기점검] 08/31(목) 정식 서비스 서버 v8880 패치",
+      "english": "[Scheduled Maintenance] 08/31 (Thu) Production Server v8880 Patch"
+    },
+    "source-344": {
+      "original": "06/01(목) 하데스 서버 v8890 패치 안내",
+      "english": "06/01 (Thu) Hades Server v8890 Patch Notice"
+    },
+    "source-345": {
+      "original": "09/08(금) 정식 서비스 서버 v8900 패치 (수정)",
+      "english": "09/08 (Fri) Production Server v8900 Patch (Revised)"
+    },
+    "source-346": {
+      "original": "06/07(수) 하데스 서버 v8910 패치 안내",
+      "english": "06/07 (Wed) Hades Server v8910 Patch Notice"
+    },
+    "source-347": {
+      "original": "09/15(금) 정식 서비스 서버 v8920 패치 안내",
+      "english": "09/15 (Fri) Production Server v8920 Patch Notice"
+    },
+    "source-348": {
+      "original": "07/06(목) 하데스 서버 v8930 패치 안내",
+      "english": "07/06 (Thu) Hades Server v8930 Patch Notice"
+    },
+    "source-349": {
+      "original": "09/21(목) 정식 서비스 서버 v8940 패치 안내 (수정)",
+      "english": "09/21 (Thu) Production Server v8940 Patch Notice (Revised)"
+    },
+    "source-350": {
+      "original": "07/18(화) 하데스 서버 v8950 패치 안내",
+      "english": "07/18 (Tue) Hades Server v8950 Patch Notice"
+    },
+    "source-351": {
+      "original": "07/21(금) 하데스 서버 v8970 패치 안내",
+      "english": "07/21 (Fri) Hades Server v8970 Patch Notice"
+    },
+    "source-352": {
+      "original": "10/13(금) 정식 서비스 서버 v8980 패치 안내 (수정)",
+      "english": "10/13 (Fri) Production Server v8980 Patch Notice (Revised)"
+    },
+    "source-353": {
+      "original": "07/25(화) 하데스 서버 v8990 패치 안내",
+      "english": "07/25 (Tue) Hades Server v8990 Patch Notice"
+    },
+    "source-354": {
+      "original": "07/25(화) 하데스 서버 v9010 패치 안내 (수정)",
+      "english": "07/25 (Tue) Hades Server v9010 Patch Notice (Revised)"
+    },
+    "source-355": {
+      "original": "07/28(금) 하데스 서버 v9030 패치 안내 (수정)",
+      "english": "07/28 (Fri) Hades Server v9030 Patch Notice (Revised)"
+    },
+    "source-356": {
+      "original": "08/10(목) 하데스 서버 v9070 패치 안내 (수정)",
+      "english": "08/10 (Thu) Hades Server v9070 Patch Notice (Revised)"
+    },
+    "source-357": {
+      "original": "[정기점검] 11/16(목) 정식 서비스 서버 v9100 패치 안내 (수정)",
+      "english": "[Scheduled Maintenance] 11/16 (Thu) Production Server v9100 Patch Notice (Revised)"
+    },
+    "source-358": {
+      "original": "[정기점검] 11/23(목) 정식 서비스 서버 v9120 패치 안내 (수정)",
+      "english": "[Scheduled Maintenance] 11/23 (Thu) Production Server v9120 Patch Notice (Revised)"
+    },
+    "source-359": {
+      "original": "08/11(금) 하데스 서버 v9130 패치 안내 (수정)",
+      "english": "08/11 (Fri) Hades Server v9130 Patch Notice (Revised)"
+    },
+    "source-360": {
+      "original": "08/16(수) 하데스 서버 v9150 패치 안내",
+      "english": "08/16 (Wed) Hades Server v9150 Patch Notice"
+    },
+    "source-361": {
+      "original": "[정기점검] 11/30(목) 정식 서비스 서버 v9160 패치 안내 (수정)",
+      "english": "[Scheduled Maintenance] 11/30 (Thu) Production Server v9160 Patch Notice (Revised)"
+    },
+    "source-362": {
+      "original": "08/16(수) 하데스 서버 v9170 패치 안내",
+      "english": "08/16 (Wed) Hades Server v9170 Patch Notice"
+    },
+    "source-363": {
+      "original": "12/01(금) 정식 서비스 서버 v9180 패치 안내",
+      "english": "12/01 (Fri) Production Server v9180 Patch Notice"
+    },
+    "source-364": {
+      "original": "[정기점검] 12/07(목) 정식 서비스 서버 v9180 패치 안내 (수정)",
+      "english": "[Scheduled Maintenance] 12/07 (Thu) Production Server v9180 Patch Notice (Revised)"
+    },
+    "source-365": {
+      "original": "[정기점검] 12/14(목) 정식 서비스 서버 v9180 패치 안내 (수정)",
+      "english": "[Scheduled Maintenance] 12/14 (Thu) Production Server v9180 Patch Notice (Revised)"
+    },
+    "source-366": {
+      "original": "[정기점검] 12/21(목) 정식 서비스 서버 v9200 패치 안내 (수정)",
+      "english": "[Scheduled Maintenance] 12/21 (Thu) Production Server v9200 Patch Notice (Revised)"
+    },
+    "source-367": {
+      "original": "[정기점검] 12/28(목) 정식 서비스 서버 v9200 패치 안내",
+      "english": "[Scheduled Maintenance] 12/28 (Thu) Production Server v9200 Patch Notice"
+    },
+    "source-368": {
+      "original": "[정기점검] 01/11(목) 정식 서비스 서버 v9220 패치 안내 (수정)",
+      "english": "[Scheduled Maintenance] 01/11 (Thu) Production Server v9220 Patch Notice (Revised)"
+    },
+    "source-369": {
+      "original": "[정기점검] 01/18(목) 정식 서비스 서버 v9220 점검 안내 (수정)",
+      "english": "[Scheduled Maintenance] 01/18 (Thu) Production Server v9220 Maintenance Notice (Revised)"
+    },
+    "source-370": {
+      "original": "01/18(목) 정식 서비스 서버 v9220 점검 안내 (수정)",
+      "english": "01/18 (Thu) Production Server v9220 Maintenance Notice (Revised)"
+    },
+    "source-371": {
+      "original": "08/16(수) 하데스 서버 v9230 패치 안내 (수정)",
+      "english": "08/16 (Wed) Hades Server v9230 Patch Notice (Revised)"
+    },
+    "source-372": {
+      "original": "[정기점검] 01/25(목) 정식 서비스 서버 v9240 패치 안내 (수정)",
+      "english": "[Scheduled Maintenance] 01/25 (Thu) Production Server v9240 Patch Notice (Revised)"
+    },
+    "source-373": {
+      "original": "08/18(금) 하데스 서버 v9250 패치 안내",
+      "english": "08/18 (Fri) Hades Server v9250 Patch Notice"
+    },
+    "source-374": {
+      "original": "[정기점검] 02/01(목) 정식 서비스 서버 v9260 패치 안내",
+      "english": "[Scheduled Maintenance] 02/01 (Thu) Production Server v9260 Patch Notice"
+    },
+    "source-375": {
+      "original": "08/18(금) 하데스 서버 v9270 패치 안내",
+      "english": "08/18 (Fri) Hades Server v9270 Patch Notice"
+    },
+    "source-376": {
+      "original": "[정기점검] 02/08(목) 정식 서비스 서버 v9280패치 안내",
+      "english": "[Scheduled Maintenance] 02/08 (Thu) Production Server v9280 Patch Notice"
+    },
+    "source-377": {
+      "original": "08/23(수) 하데스 서버 v9290 패치 안내 (수정)",
+      "english": "08/23 (Wed) Hades Server v9290 Patch Notice (Revised)"
+    },
+    "source-378": {
+      "original": "08/24(목) 하데스 서버 v9310 패치 안내",
+      "english": "08/24 (Thu) Hades Server v9310 Patch Notice"
+    },
+    "source-379": {
+      "original": "[정기점검] 02/13(화) 정식 서비스 서버 v9320 패치 안내 (수정)",
+      "english": "[Scheduled Maintenance] 02/13 (Tue) Production Server v9320 Patch Notice (Revised)"
+    },
+    "source-380": {
+      "original": "08/25(금) 하데스 서버 v9330 패치 안내",
+      "english": "08/25 (Fri) Hades Server v9330 Patch Notice"
+    },
+    "source-381": {
+      "original": "[정기점검] 02/23(금) 정식 서비스 서버 v9340 패치 안내",
+      "english": "[Scheduled Maintenance] 02/23 (Fri) Production Server v9340 Patch Notice"
+    },
+    "source-382": {
+      "original": "08/30(수) 하데스 서버 v9350 패치 안내",
+      "english": "08/30 (Wed) Hades Server v9350 Patch Notice"
+    },
+    "source-383": {
+      "original": "[정기점검] 03/08(목) 정식 서비스 서버 v9360 패치 안내",
+      "english": "[Scheduled Maintenance] 03/08 (Thu) Production Server v9360 Patch Notice"
+    },
+    "source-384": {
+      "original": "09/08(금) 하데스 서버 v9370 패치 안내 (수정)",
+      "english": "09/08 (Fri) Hades Server v9370 Patch Notice (Revised)"
+    },
+    "source-385": {
+      "original": "09/15(금) 하데스 서버 v9390 패치 안내",
+      "english": "09/15 (Fri) Hades Server v9390 Patch Notice"
+    },
+    "source-386": {
+      "original": "03/16(금) 정식 서비스 서버 v9400 패치 안내 (수정)",
+      "english": "03/16 (Fri) Production Server v9400 Patch Notice (Revised)"
+    },
+    "source-387": {
+      "original": "09/20(수) 하데스 서버 v9410 패치 안내",
+      "english": "09/20 (Wed) Hades Server v9410 Patch Notice"
+    },
+    "source-388": {
+      "original": "03/29(목) 정식 서비스 서버 v9440 패치 안내 (수정)",
+      "english": "03/29 (Thu) Production Server v9440 Patch Notice (Revised)"
+    },
+    "source-389": {
+      "original": "10/13(금) 하데스 서버 v9450 패치 안내",
+      "english": "10/13 (Fri) Hades Server v9450 Patch Notice"
+    },
+    "source-390": {
+      "original": "[정기점검] 04/12(목) 정식 서비스 서버 v9460 패치 안내 (수정)",
+      "english": "[Scheduled Maintenance] 04/12 (Thu) Production Server v9460 Patch Notice (Revised)"
+    },
+    "source-391": {
+      "original": "10/18(수) 하데스 서버 v9470 패치 안내",
+      "english": "10/18 (Wed) Hades Server v9470 Patch Notice"
+    },
+    "source-392": {
+      "original": "[정기점검] 04/19(목) 정식 서비스 서버 v9480 패치 안내 (수정)",
+      "english": "[Scheduled Maintenance] 04/19 (Thu) Production Server v9480 Patch Notice (Revised)"
+    },
+    "source-393": {
+      "original": "10/25(수) 하데스 서버 v9490 패치 안내 (수정)",
+      "english": "10/25 (Wed) Hades Server v9490 Patch Notice (Revised)"
+    },
+    "source-394": {
+      "original": "[정기점검] 05/10(목) 정식 서비스 서버 v9500 패치 안내 (수정)",
+      "english": "[Scheduled Maintenance] 05/10 (Thu) Production Server v9500 Patch Notice (Revised)"
+    },
+    "source-395": {
+      "original": "11/16(목) 하데스 서버 v9550 패치 안내 (수정)",
+      "english": "11/16 (Thu) Hades Server v9550 Patch Notice (Revised)"
+    },
+    "source-396": {
+      "original": "11/23(목) 하데스 서버 v9590 패치 안내",
+      "english": "11/23 (Thu) Hades Server v9590 Patch Notice"
+    },
+    "source-397": {
+      "original": "11/30(목) 하데스 서버 v9630 패치 안내 (수정)",
+      "english": "11/30 (Thu) Hades Server v9630 Patch Notice (Revised)"
+    },
+    "source-398": {
+      "original": "12/01(금) 하데스 서버 v9650 패치 안내 (수정)",
+      "english": "12/01 (Fri) Hades Server v9650 Patch Notice (Revised)"
+    },
+    "source-399": {
+      "original": "12/06(수) 하데스 서버 v9650 패치 안내 (수정)",
+      "english": "12/06 (Wed) Hades Server v9650 Patch Notice (Revised)"
+    },
+    "source-400": {
+      "original": "12/07(목) 하데스 서버 v9650 패치 안내 (수정)",
+      "english": "12/07 (Thu) Hades Server v9650 Patch Notice (Revised)"
+    },
+    "source-401": {
+      "original": "12/21(목) 하데스 서버 v9670 패치 안내 (수정)",
+      "english": "12/21 (Thu) Hades Server v9670 Patch Notice (Revised)"
+    },
+    "source-402": {
+      "original": "12/28(목) 하데스 서버 v9670 패치 안내",
+      "english": "12/28 (Thu) Hades Server v9670 Patch Notice"
+    },
+    "source-403": {
+      "original": "01/11(목) 하데스 서버 v9690 패치 안내 (수정)",
+      "english": "01/11 (Thu) Hades Server v9690 Patch Notice (Revised)"
+    },
+    "source-404": {
+      "original": "01/16(화) 하데스 서버 v9690 패치 안내",
+      "english": "01/16 (Tue) Hades Server v9690 Patch Notice"
+    },
+    "source-405": {
+      "original": "01/18(목) 하데스 서버 v9730 패치 안내 (수정)",
+      "english": "01/18 (Thu) Hades Server v9730 Patch Notice (Revised)"
+    },
+    "source-406": {
+      "original": "01/18(목) 하데스 서버 v9730 점검 안내 (수정)",
+      "english": "01/18 (Thu) Hades Server v9730 Maintenance Notice (Revised)"
+    },
+    "source-407": {
+      "original": "01/25(목) 하데스 서버 v9750 패치 안내 (수정)",
+      "english": "01/25 (Thu) Hades Server v9750 Patch Notice (Revised)"
+    },
+    "source-408": {
+      "original": "02/01(목) 하데스 서버 v9770 패치 안내",
+      "english": "02/01 (Thu) Hades Server v9770 Patch Notice"
+    },
+    "source-409": {
+      "original": "02/08(목) 하데스 서버 v9790패치 안내",
+      "english": "02/08 (Thu) Hades Server v9790 Patch Notice"
+    },
+    "source-410": {
+      "original": "02/13(화) 하데스 서버 v9830 패치 안내 (수정)",
+      "english": "02/13 (Tue) Hades Server v9830 Patch Notice (Revised)"
+    },
+    "source-411": {
+      "original": "02/23(금) 하데스 서버 v9850 패치 안내",
+      "english": "02/23 (Fri) Hades Server v9850 Patch Notice"
+    },
+    "source-412": {
+      "original": "02/23(금) 하데스 서버 v9870 패치 안내",
+      "english": "02/23 (Fri) Hades Server v9870 Patch Notice"
+    },
+    "source-413": {
+      "original": "02/27(화) 하데스 서버 v9870 패치 안내(완료)",
+      "english": "02/27 (Tue) Hades Server v9870 Patch Notice (Completed)"
+    },
+    "source-414": {
+      "original": "03/05(월) 하데스 서버 v9890 패치 안내",
+      "english": "03/05 (Mon) Hades Server v9890 Patch Notice"
+    },
+    "source-415": {
+      "original": "03/08(목) 하데스 서버 v9910 패치 안내",
+      "english": "03/08 (Thu) Hades Server v9910 Patch Notice"
+    },
+    "source-416": {
+      "original": "03/16(금) 하데스 서버 v9970 패치 안내 (수정)",
+      "english": "03/16 (Fri) Hades Server v9970 Patch Notice (Revised)"
+    },
+    "source-417": {
+      "original": "03/22(목) 하데스 서버 v9990 패치 안내 (수정)",
+      "english": "03/22 (Thu) Hades Server v9990 Patch Notice (Revised)"
+    },
+    "source-418": {
+      "original": "03/27(화) 하데스 서버 v10010 패치 안내",
+      "english": "03/27 (Tue) Hades Server v10010 Patch Notice"
+    },
+    "source-419": {
+      "original": "03/29(목) 하데스 서버 v10010 패치 안내 (수정)",
+      "english": "03/29 (Thu) Hades Server v10010 Patch Notice (Revised)"
+    },
+    "source-420": {
+      "original": "04/05(목) 하데스 서버 v10030 패치 안내 (수정)",
+      "english": "04/05 (Thu) Hades Server v10030 Patch Notice (Revised)"
+    },
+    "source-421": {
+      "original": "04/12(목) 하데스 서버 v10030 패치 안내 (수정)",
+      "english": "04/12 (Thu) Hades Server v10030 Patch Notice (Revised)"
+    },
+    "source-422": {
+      "original": "04/19(목) 하데스 서버 v10050 패치 안내 (수정)",
+      "english": "04/19 (Thu) Hades Server v10050 Patch Notice (Revised)"
+    },
+    "source-423": {
+      "original": "05/10(목) 하데스 서버 v10070 패치 안내 (수정)",
+      "english": "05/10 (Thu) Hades Server v10070 Patch Notice (Revised)"
+    },
+    "source-615": {
+      "original": "어둠의 전설, 초보자 매뉴얼을 미니 게임으로 제작",
+      "english": "Legends of Darkness Turns Its Beginner Manual into a Mini-Game"
+    },
+    "source-456": {
+      "original": "(추가) 5/29(금) 수정된 현상 안내 (클라이언트 패치)",
+      "english": "(Additional) 5/29 (Fri) Notice of Fixed Issues (Client Patch)"
+    },
+    "source-457": {
+      "original": "[업데이트] 7/2(목) 정식 서버 클라이언트 패치 안내 (16:24)",
+      "english": "[Update] 7/2 (Thu) Production Server Client Patch Notice (16:24)"
+    },
+    "source-458": {
+      "original": "[업데이트] 7/9(목) 정식 서버 클라이언트 패치 안내 (16:13)",
+      "english": "[Update] 7/9 (Thu) Production Server Client Patch Notice (16:13)"
+    },
+    "source-459": {
+      "original": "[업데이트] 7/23(목) 정식 서버 클라이언트 패치 안내 (14:38)",
+      "english": "[Update] 7/23 (Thu) Production Server Client Patch Notice (14:38)"
+    },
+    "source-460": {
+      "original": "[업데이트] 7/24(금) 정식 서버 클라이언트 패치 안내 (13:54)",
+      "english": "[Update] 7/24 (Fri) Production Server Client Patch Notice (13:54)"
+    },
+    "source-461": {
+      "original": "[업데이트] 7/24(금) 정식 서버 클라이언트 패치 안내 (17:08)",
+      "english": "[Update] 7/24 (Fri) Production Server Client Patch Notice (17:08)"
+    },
+    "source-462": {
+      "original": "[업데이트] 7/27(월) 정식 서버 클라이언트 패치 안내 (14:34)",
+      "english": "[Update] 7/27 (Mon) Production Server Client Patch Notice (14:34)"
+    },
+    "source-463": {
+      "original": "[업데이트] 7/27(월) 정식 서버 클라이언트 패치 안내 (16:19)",
+      "english": "[Update] 7/27 (Mon) Production Server Client Patch Notice (16:19)"
+    },
+    "source-464": {
+      "original": "[업데이트] 7/27(월) 정식 서버 클라이언트 패치 안내 (17:31)",
+      "english": "[Update] 7/27 (Mon) Production Server Client Patch Notice (17:31)"
+    },
+    "source-465": {
+      "original": "[업데이트] 7/30(목) 정식 서버 클라이언트 패치 안내 (15:37)",
+      "english": "[Update] 7/30 (Thu) Production Server Client Patch Notice (15:37)"
+    },
+    "source-466": {
+      "original": "[업데이트] 8/4(화) 정식 서버 클라이언트 패치 안내 (14:04)",
+      "english": "[Update] 8/4 (Tue) Production Server Client Patch Notice (14:04)"
+    },
+    "source-467": {
+      "original": "(추가)[업데이트] 8/13(목) 정식 서버 클라이언트 패치 안내 (14:00,16:41)",
+      "english": "(Additional) [Update] 8/13 (Thu) Production Server Client Patch Notice (14:00,16:41)"
+    },
+    "source-468": {
+      "original": "[업데이트] 8/21(금) 정식 서버 클라이언트 패치 안내 (16:10)",
+      "english": "[Update] 8/21 (Fri) Production Server Client Patch Notice (16:10)"
+    },
+    "source-469": {
+      "original": "[업데이트] 8/24(월) 정식 서버 클라이언트 패치 안내 (15:04)",
+      "english": "[Update] 8/24 (Mon) Production Server Client Patch Notice (15:04)"
+    },
+    "source-470": {
+      "original": "[업데이트] 8/25(화) 정식 서버 클라이언트 패치 안내 (14:35)",
+      "english": "[Update] 8/25 (Tue) Production Server Client Patch Notice (14:35)"
+    },
+    "source-471": {
+      "original": "[업데이트] 9/11(금) 정식 서버 클라이언트 패치 안내 (15:22)",
+      "english": "[Update] 9/11 (Fri) Production Server Client Patch Notice (15:22)"
+    },
+    "source-472": {
+      "original": "[업데이트] 9/17(목) 정식 서버 클라이언트 패치 안내 (16:36)",
+      "english": "[Update] 9/17 (Thu) Production Server Client Patch Notice (16:36)"
+    },
+    "source-473": {
+      "original": "[업데이트] 10/2(금) 정식 서버 클라이언트 패치 안내 (15:32)",
+      "english": "[Update] 10/2 (Fri) Production Server Client Patch Notice (15:32)"
+    },
+    "source-510": {
+      "original": "일랜시아 v5.02 패치 및 캐시아이템 추가 안내",
+      "english": "Elancia v5.02 Patch and Cash Item Additions Notice"
+    },
+    "source-511": {
+      "original": "일랜시아 v5.06 패치 및 캐시아이템 추가 안내",
+      "english": "Elancia v5.06 Patch and Cash Item Additions Notice"
+    },
+    "source-512": {
+      "original": "일랜시아 v5.09 패치 및 캐시아이템 추가 안내",
+      "english": "Elancia v5.09 Patch and Cash Item Additions Notice"
+    },
+    "source-513": {
+      "original": "일랜시아 v5.10 패치 안내",
+      "english": "Elancia v5.10 Patch Notice"
+    },
+    "source-514": {
+      "original": "일랜시아 v5.12 패치 및 이벤트 적용 안내",
+      "english": "Elancia v5.12 Patch and Event Implementation Notice"
+    },
+    "source-515": {
+      "original": "9월 20일 업데이트 안내",
+      "english": "September 20 Update Notice"
+    },
+    "source-516": {
+      "original": "일랜시아 v5.16 패치 및 이벤트 적용 안내",
+      "english": "Elancia v5.16 Patch and Event Implementation Notice"
+    },
+    "source-517": {
+      "original": "10월 25일 업데이트 안내",
+      "english": "October 25 Update Notice"
+    },
+    "source-518": {
+      "original": "일랜시아 v5.18 패치 및 캐시아이템 업데이트 안내",
+      "english": "Elancia v5.18 Patch and Cash Item Update Notice"
+    },
+    "source-519": {
+      "original": "일랜시아 v5.20 패치 및 이벤트 적용 안내",
+      "english": "Elancia v5.20 Patch and Event Implementation Notice"
+    },
+    "source-520": {
+      "original": "2008년 1월 17일 업데이트 안내",
+      "english": "January 17, 2008 Update Notice"
+    },
+    "source-521": {
+      "original": "일랜시아 v5.26 패치 및 캐시아이템 업데이트 안내 (연장)",
+      "english": "Elancia v5.26 Patch and Cash Item Update Notice (Extended)"
+    },
+    "source-522": {
+      "original": "2008년 1월 18일 업데이트 안내",
+      "english": "January 18, 2008 Update Notice"
+    },
+    "source-524": {
+      "original": "일랜시아 v5.28 패치 안내",
+      "english": "Elancia v5.28 Patch Notice"
+    },
+    "source-525": {
+      "original": "2008년 4월 10일 업데이트 안내",
+      "english": "April 10, 2008 Update Notice"
+    },
+    "source-526": {
+      "original": "일랜시아 v5.30 패치 및 캐시아이템 업데이트 안내",
+      "english": "Elancia v5.30 Patch and Cash Item Update Notice"
+    },
+    "source-527": {
+      "original": "2008년 4월 24일 업데이트 안내",
+      "english": "April 24, 2008 Update Notice"
+    },
+    "source-528": {
+      "original": "일랜시아 v5.31패치 및 캐시아이템 추가 안내",
+      "english": "Elancia v5.31 Patch and Cash Item Additions Notice"
+    },
+    "source-529": {
+      "original": "2008년 5월 29일 업데이트 안내",
+      "english": "May 29, 2008 Update Notice"
+    },
+    "source-530": {
+      "original": "일랜시아 v5.35 패치 및 캐시아이템 추가 안내",
+      "english": "Elancia v5.35 Patch and Cash Item Additions Notice"
+    },
+    "source-531": {
+      "original": "2008년 7월 17일 업데이트 안내",
+      "english": "July 17, 2008 Update Notice"
+    },
+    "source-533": {
+      "original": "일랜시아 v5.39 패치 및 캐시아이템 추가 안내",
+      "english": "Elancia v5.39 Patch and Cash Item Additions Notice"
+    },
+    "source-538": {
+      "original": "일랜시아 v5.44 테스트 서버 패치 안내",
+      "english": "Elancia v5.44 Test Server Patch Notice"
+    },
+    "source-539": {
+      "original": "일랜시아 v5.45 상용 서버 패치 안내",
+      "english": "Elancia v5.45 Production Server Patch Notice"
+    },
+    "source-549": {
+      "original": "일랜시아 Ver 5.57 상용서버 패치 안내",
+      "english": "Elancia Ver 5.57 Production Server Patch Notice"
+    },
+    "source-557": {
+      "original": "일랜시아 Ver 5.65 상용서버 패치 안내",
+      "english": "Elancia Ver 5.65 Production Server Patch Notice"
+    },
+    "source-558": {
+      "original": "3/8(목) Ver 5.65 상용서버 패치 안내 (완료)",
+      "english": "3/8 (Thu) Ver 5.65 Production Server Patch Notice (Completed)"
+    },
+    "source-561": {
+      "original": "일랜시아 Ver 5.67 상용서버 패치 안내",
+      "english": "Elancia Ver 5.67 Production Server Patch Notice"
+    },
+    "source-562": {
+      "original": "3/8(목) Ver 5.67 상용서버 패치 안내 (완료)",
+      "english": "3/8 (Thu) Ver 5.67 Production Server Patch Notice (Completed)"
+    },
+    "source-570": {
+      "original": "6/28 (목) 상용서버 Ver5.73 패치",
+      "english": "6/28 (Thu) Production Server Ver 5.73 Patch"
+    },
+    "source-573": {
+      "original": "일랜시아 Ver 5.80 상용서버 패치 안내",
+      "english": "Elancia Ver 5.80 Production Server Patch Notice"
+    },
+    "source-574": {
+      "original": "(완료)03/27(목) 일랜시아 Ver 5.80 상용서버 패치 안내",
+      "english": "(Completed) 03/27 (Thu) Elancia Ver 5.80 Production Server Patch Notice"
+    }
+  }
+}

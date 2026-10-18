@@ -50,6 +50,12 @@ Other border and state tokens provide related neutral steps, not additional acce
 
 ## Existing structure and type
 
+Titles metadata follows a compact two-column definition-list pattern with subtle horizontal dividers: Company, Region, Launched/Announced/Years, Website. Region combines the shared flag with a smaller muted lowercase country code and full country name. The Official Website link has a small external-link icon and one restrained floating URL/copy panel, shared across cards, positioned within the viewport without carousel clipping. Keep ordinary link navigation and keyboard/touch access. Active titles show starting years only, Taiwan uses Announced, and inactive services keep Years ranges.
+
+Downloads General Notes uses one integrated default-collapsed table with the shared title bar and seven highlighted full-width category rows. Preserve its existing Subject/Notes/Sources geometry and category filtering/fragment identities; do not add extra nested cards or regional toggle bars.
+
+Archived Versions citations show the original publisher and linked Internet Archive, with reviewed English titles initially; language switches update title and body together. Navigation feedback uses the existing restrained selection wash/border for three seconds, also clearing on click-away. Apply it to the destination section/table/row without a permanent :target fill or new color role.
+
 Titles is the hero section: page introduction, Titles, Table of Contents, Versions, Downloads, Hashes, Verification, Research and Sources. Preserve the current carousel, responsive behavior and anchor IDs.
 
 The Table of Contents container spans the same full width as the other section cards, sharing their left and right edges at every viewport size. Its bottom-to-Versions card gap matches the shared 10px gap between main section cards.
@@ -58,7 +64,7 @@ Keep the existing body type and central 12px Consolas-first table typography, in
 
 All six main collapsible sections, including Versions, start closed without a valid saved choice. Retain independent tab-session choices, browser refresh scroll restoration and intentional deep-link reveal. Individual tables still start collapsed.
 
-Use the shared 8px table gap between peer tables in Versions, Downloads, General Notes, Hashes and Research. Retain the separate General Notes subsection heading and 6px section Page top gap.
+Use the shared 8px table gap between peer tables in Versions, Downloads, Hashes and Research. General Notes uses its own integrated table title bar instead of a separate subsection heading. Retain the 6px section Page top gap.
 
 Finger scrolling on the outer Titles strip and overflowing table bodies is native browser panning, including inertia and vertical scrolling/pinch zoom. Titles retains its owner-approved native touch snapping. Do not capture touch pointers, consume their movement or apply JavaScript release-distance snapping to these surfaces. Desktop mouse/pen card dragging and horizontal wheel scrolling are free-positioned: preserve the exact released offset, without forced whole-card advancement, snapback or restored CSS magnetism. Arrow and keyboard controls still move deliberately between cards. Nested image galleries retain their separate infinite swipe implementation.
 
