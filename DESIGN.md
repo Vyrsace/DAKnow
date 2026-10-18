@@ -74,6 +74,8 @@ Versions and Downloads manual filter activation (flag, dropdown or nonempty sear
 
 ## Review before publication
 
+Desktop popup image viewers additionally support wheel navigation over the image area: down/right advances, up/left reverses, using the existing animated, infinitely wrapping gallery. Enable only above the 620px narrow layout with a fine, hovering primary pointer. Accumulate small deltas and rate-limit steps without queuing during transitions. Keep caption scrolling, modified-wheel browser zoom, touch/pen swipes, arrows, keyboard controls, dismissal and card synchronization unchanged. Dispose the popup wheel listener on close/rebuild; do not add wheel navigation to card images or the outer Titles reel.
+
 - Check all four pages, including headings, cards, controls, tables, badges, quotes, galleries and footer.
 - Inspect desktop and mobile views, expanded/collapsed tables, selected filters, hover/focus, dark image viewer and native-language text.
 - Check enabled small text at 4.5:1 and identifying control/focus boundaries at 3:1 against their actual backgrounds. Darken reference colors where necessary.

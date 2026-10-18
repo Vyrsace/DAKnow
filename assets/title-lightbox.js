@@ -62,6 +62,37 @@
   let sourceGallery = null;
   let slides = [];
   let controller = null;
+  let disposeWheel = () => {};
+
+  function enableWheel(surface, popup, galleryController, total) {
+    if (total < 2) return () => {};
+    const desktop = window.matchMedia('(min-width: 621px) and (hover: hover) and (pointer: fine)');
+    let accumulated = 0;
+    let lastInput = -Infinity;
+    let lastStep = -Infinity;
+    const wheel = event => {
+      if (!popup.open || !desktop.matches || event.ctrlKey || event.metaKey || event.altKey ||
+          surface.classList.contains('is-dragging')) return;
+      const raw = Math.abs(event.deltaY) >= Math.abs(event.deltaX) ? event.deltaY : event.deltaX;
+      if (!raw || !Number.isFinite(raw)) return;
+      event.preventDefault();
+      const scale = event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? surface.clientHeight : 1;
+      const delta = raw * scale;
+      if (event.timeStamp - lastInput > 160 || Math.sign(delta) !== Math.sign(accumulated)) accumulated = 0;
+      lastInput = event.timeStamp;
+      if (event.timeStamp - lastStep < 250 || surface.classList.contains('is-moving')) {
+        accumulated = 0;
+        return;
+      }
+      accumulated += delta;
+      if (Math.abs(accumulated) < 40) return;
+      galleryController.step(Math.sign(accumulated));
+      accumulated = 0;
+      lastStep = event.timeStamp;
+    };
+    surface.addEventListener('wheel', wheel, { passive: false });
+    return () => surface.removeEventListener('wheel', wheel);
+  }
 
   function updateCaption() {
     const slide = slides[Number(viewer.dataset.galleryIndex) || 0];
@@ -79,6 +110,7 @@
     slides = [...gallery.querySelector('.title-gallery-track').children]
       .filter(slide => slide.classList.contains('title-gallery-slide') && !slide.dataset.galleryClone);
     if (!slides.length) return;
+    disposeWheel();
     controller?.destroy();
     const copies = slides.map(slide => {
       const copy = slide.cloneNode(true);
@@ -123,6 +155,7 @@
     next.setAttribute('aria-label', `Next ${accessibleTitle} image`);
     previous.disabled = next.disabled = slides.length < 2;
     controller = window.DAKnowTitleGallery.create(viewer, Number(gallery.dataset.galleryIndex) || 0);
+    disposeWheel = enableWheel(viewer, dialog, controller, slides.length);
     dialog.toggleAttribute('data-pointer-focus', pointerInitiated);
     document.documentElement.classList.add('image-lightbox-open');
     dialog.showModal();
@@ -166,6 +199,8 @@
   });
   dialog.addEventListener('close', () => {
     window.DAKnowTitleGallery.get(sourceGallery)?.select(Number(viewer.dataset.galleryIndex) || 0);
+    disposeWheel();
+    disposeWheel = () => {};
     controller?.destroy();
     controller = null;
     sourceGallery = null;
