@@ -239,6 +239,7 @@ table td.dash-placeholder, table th.dash-placeholder, .download-size .dash-place
 @media print {
   .catalog-filters { display: none; }
   .table-toggle { display: none; }
+  .table-frame:not(.is-table-expanded) .table-wrap { overflow: visible; }
   .table-frame:not(.is-table-expanded) table > tbody:not([hidden]) { display: table-row-group; }
   .version-table, .downloads-table, .hashes-table, .research-table, .sources-table { min-width: 0; }
   #title-carousel { grid-auto-columns: auto; }
