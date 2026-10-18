@@ -88,6 +88,10 @@
     if (!wrapper || wrapper.scrollWidth <= wrapper.clientWidth + 1 || event.target.closest(interactive)) return;
     const bounds = wrapper.getBoundingClientRect();
     if (event.clientY >= bounds.bottom - Math.max(8, wrapper.offsetHeight - wrapper.clientHeight)) return;
+    if (event.pointerType === 'mouse') {
+      event.preventDefault();
+      wrapper.focus({ preventScroll: true });
+    }
     gesture = { wrapper, pointerId: event.pointerId, startX: event.clientX, startY: event.clientY,
       startLeft: wrapper.scrollLeft, dragging: false };
   });
