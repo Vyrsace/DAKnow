@@ -2,6 +2,7 @@
   'use strict';
 
   const frames = new Map();
+  const downloadGroups = new Map();
   let pending = false;
   let gesture = null;
   let touchPan = null;
@@ -59,6 +60,10 @@
     entry.button.title = entry.button.getAttribute('aria-label');
     entry.button.textContent = expanded ? '−' : '+';
     entry.wrapper.hidden = !expanded;
+    if (expanded && table.id === 'download-files-table' && ![...downloadGroups.keys()].some(group => !group.hidden && group.classList.contains('is-group-expanded'))) {
+      const first = [...downloadGroups.keys()].find(group => !group.hidden);
+      if (first) setGroupExpanded(first, true);
+    }
     if (!expanded) {
       entry.wrapper.scrollLeft = 0;
       if (touchPan?.wrapper === entry.wrapper) finishTouch();
@@ -71,6 +76,42 @@
     entry.wrapper.dispatchEvent(new Event('tabletoggle', { bubbles: true }));
     schedule();
   }
+
+  function setGroupExpanded(group, expanded) {
+    const entry = downloadGroups.get(group);
+    if (!entry) return;
+    group.classList.toggle('is-group-expanded', expanded);
+    entry.button.setAttribute('aria-expanded', String(expanded));
+    entry.button.setAttribute('aria-label', `${expanded ? 'Collapse' : 'Expand'} ${entry.label}`);
+    entry.button.title = entry.button.getAttribute('aria-label');
+    entry.button.textContent = expanded ? '−' : '+';
+    group.dispatchEvent(new Event('tabletoggle', { bubbles: true }));
+    schedule();
+  }
+
+  document.querySelectorAll('#download-files-table > tbody.download-region').forEach((group, index) => {
+    const heading = group.querySelector('.download-category-heading');
+    const label = [heading.querySelector('.table-group-label').textContent.trim(),
+      heading.querySelector('.region-label')?.dataset.country].filter(Boolean).join(' ');
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'table-toggle table-group-toggle';
+    const rows = [...group.querySelectorAll('.download-catalog-row')];
+    button.setAttribute('aria-controls', rows.map(row => {
+      if (!row.id) row.id = `download-${row.dataset.entryId}-${row.dataset.recordType.toLowerCase()}`;
+      return row.id;
+    }).join(' '));
+    heading.querySelector('th').append(button);
+    downloadGroups.set(group, { button, label });
+    button.addEventListener('click', () => setGroupExpanded(group, button.getAttribute('aria-expanded') !== 'true'));
+    heading.addEventListener('click', event => {
+      if (event.target.closest(interactive)) return;
+      setGroupExpanded(group, button.getAttribute('aria-expanded') !== 'true');
+      button.focus({ preventScroll: true });
+    });
+    setGroupExpanded(group, index === 0);
+    group.closest('table').classList.add('has-group-controls');
+  });
 
   document.querySelectorAll('.table-wrap > table').forEach((table, index) => {
     const wrapper = table.parentElement;
@@ -109,15 +150,19 @@
     try { identifier = decodeURIComponent(hash.slice(1)); }
     catch (_) { return; }
     const target = identifier ? document.getElementById(identifier) : null;
+    const group = target?.closest('tbody.download-region');
+    if (group) downloadGroups.forEach((_, other) => setGroupExpanded(other, other === group));
     const table = target?.closest('table') || target?.closest('.table-frame')?.querySelector('table')
-      || (target?.matches('.hash-region, .evidence-region, .download-region, .download-general-region, .version-section')
-        ? target.querySelector('.table-wrap > table') : null);
+      || (target && !target.matches('section, footer') ? target.querySelector('.table-wrap > table') : null);
     if (table) setExpanded(table, true);
   }
 
   document.addEventListener('catalogfilteractivate', event => {
     const section = event.target;
     if (!section.matches('#catalog, #downloads')) return;
+    if (section.id === 'downloads') downloadGroups.forEach((_, group) => {
+      if (!group.hidden) setGroupExpanded(group, true);
+    });
     frames.forEach(({ frame }, table) => {
       if (section.contains(table) && !frame.closest('[hidden]') && !frame.classList.contains('is-table-expanded')) setExpanded(table, true);
     });
@@ -209,7 +254,19 @@
   document.addEventListener('click', event => {
     if (event.defaultPrevented || event.button > 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
     const link = event.target.closest('a[href^="#"]');
-    if (link) revealTarget(link.hash);
+    if (!link) return;
+    if (link.closest('#contents')) {
+      frames.forEach((_, table) => setExpanded(table, false));
+      downloadGroups.forEach((_, group) => setGroupExpanded(group, false));
+      document.querySelectorAll('main > section > details.collapsible-card, main > footer > details.collapsible-card').forEach(card => { card.open = false; });
+      let target;
+      try { target = document.getElementById(decodeURIComponent(link.hash.slice(1))); }
+      catch (_) { return; }
+      const section = target?.closest('main > section, main > footer');
+      const card = section?.querySelector(':scope > details.collapsible-card');
+      if (card) card.open = true;
+    }
+    revealTarget(link.hash);
   }, true);
   window.addEventListener('pointerup', finish, true);
   window.addEventListener('pointercancel', finish, true);

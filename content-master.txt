@@ -153,6 +153,7 @@
 
     [TOC.Entry ID="downloads"]
         [TOC.Link]Downloads[/TOC.Link]
+        [TOC.ChildLink ID="download-files-heading"]Files[/TOC.ChildLink]
         [TOC.ChildLink ID="download-region-us"]United States[/TOC.ChildLink]
         [TOC.ChildLink ID="download-region-kr"]South Korea[/TOC.ChildLink]
         [TOC.ChildLink ID="download-region-kr-elancia"]South Korea - Elancia[/TOC.ChildLink]
@@ -160,22 +161,17 @@
         [TOC.ChildLink ID="download-region-my-orphelias"]Malaysia - Opherlias[/TOC.ChildLink]
         [TOC.ChildLink ID="download-region-my-temuair"]Malaysia - Temuair[/TOC.ChildLink]
         [TOC.ChildLink ID="download-region-jp"]Japan[/TOC.ChildLink]
-    [/TOC.Entry]
-
-    [TOC.Entry ID="hashes"]
-        [TOC.Link]Hashes[/TOC.Link]
-    [/TOC.Entry]
-
-    [TOC.Entry ID="verification"]
-        [TOC.Link]Verification[/TOC.Link]
-        [TOC.ChildLink ID="file-verification-methodology"]File Verification Methodology[/TOC.ChildLink]
-        [TOC.ChildLink ID="verification-notes"]Verification Notes[/TOC.ChildLink]
+        [TOC.ChildLink ID="download-general-notes-heading"]General Notes[/TOC.ChildLink]
     [/TOC.Entry]
 
     [TOC.Entry ID="research"]
         [TOC.Link]Research[/TOC.Link]
         [TOC.ChildLink ID="research-methodology"]Methodology[/TOC.ChildLink]
         [TOC.ChildLink ID="research-notes"]Research Notes[/TOC.ChildLink]
+    [/TOC.Entry]
+
+    [TOC.Entry ID="hashes"]
+        [TOC.Link]Hashes[/TOC.Link]
     [/TOC.Entry]
 
     [TOC.Entry ID="sources"]
@@ -4785,16 +4781,12 @@
     [/Table]
 [/Section]
 
-[Section ID="hashes"]
-    [Section.Title]Hashes[/Section.Title]
-[/Section]
-
-[Section ID="verification"]
-    [Section.Title]Verification[/Section.Title]
-[/Section]
-
 [Section ID="research"]
     [Section.Title]Research[/Section.Title]
+[/Section]
+
+[Section ID="hashes"]
+    [Section.Title]Hashes[/Section.Title]
 [/Section]
 
 [Section ID="sources"]

@@ -325,7 +325,7 @@ col.version { width:92px; }
 .card-subsection { scroll-margin-top: 24px; }
 .card-subsection + .card-subsection { margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--line); }
 .methodology { max-width: 100ch; }
-.methodology p { font-size: 13px; }
+.methodology p:not(table *) { font-size: 13px; }
 .verification-note-group + .verification-note-group { margin-top: 20px; }
 .verification-note-group h4 { font-size: 15px; line-height: 1.4; margin: 0 0 8px; }
 .source-list .evidence-intro { margin: 0 0 14px; color: var(--muted); font-size: 12px; }

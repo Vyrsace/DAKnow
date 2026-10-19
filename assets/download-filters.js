@@ -33,7 +33,7 @@
 
   const entriesByRow = new Map(rows.map(row => {
     const source = sourceEntries.get(row.dataset.entryId) || {};
-    const heading = row.closest('.download-region').querySelector('h3');
+    const heading = row.closest('.download-region').querySelector('.table-group-label, h3');
     const regionLabel = heading.querySelector('.region-label');
     const headingTitle = [...heading.childNodes].filter(node => node !== regionLabel)
       .map(node => node.textContent).join('').trim();
@@ -197,6 +197,8 @@
     groups.forEach(group => {
       group.hidden = ![...group.querySelectorAll('.download-catalog-row')].some(row => !row.hidden);
     });
+    const files = section.querySelector('.download-files');
+    if (files) files.hidden = groups.every(group => group.hidden);
     generalGroups.forEach(group => {
       const downloadGroup = groups.find(item => item.dataset.region === group.dataset.region);
       group.hidden = !downloadGroup || downloadGroup.hidden;

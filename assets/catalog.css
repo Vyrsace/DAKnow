@@ -3,6 +3,10 @@
 .catalog-name, .catalog-subtitle { display: block; }
 .catalog-subtitle { margin-top: 4px; color: var(--muted); font-size: .6em; font-weight: 600; line-height: 1.25; letter-spacing: -.02em; }
 .methodology { max-width: none; }
+.methodology-table { min-width: 0; width: 100%; table-layout: fixed; }
+.methodology-table :is(th, td) { padding: 5px 8px; }
+.methodology-notes p, .verification-note-text p { margin: 0; }
+.methodology-notes p + p, .verification-note-text p + p { margin-top: 8px; }
 main { --visible-titles: 5; --title-card-gap: 8px; --title-carousel-inset: 1px; --title-section-padding: 20px; }
 header { padding-bottom: 0; border-bottom: 0; }
 main > section { padding: 10px 0; border-bottom: 0; }
@@ -20,15 +24,15 @@ main > footer#sources { padding-top: 5px; }
 .contents h2 { padding: var(--contents-edge-padding) 20px 4px; border-bottom: 0; background: var(--section-surface); border-radius: 7px 7px 0 0; }
 .collapsible-card[open] > .card-summary { border-bottom-color: var(--card-border); }
 .card-subsection + .card-subsection { border-top-color: var(--card-border); }
-#verification-notes, #research-notes { border-top: 0; }
+#research-notes { margin-top: var(--table-gap); padding-top: var(--table-gap); border-top: 0; }
 .evidence-table, .evidence-table th, .evidence-table td { border: 1px solid var(--line); }
 .research-table, .sources-table { width: 100%; table-layout: fixed; }
 .research-table { min-width: var(--research-table-min-width); }
 .sources-table { min-width: var(--reference-table-min-width); }
 .research-table .research-subject-col { width: var(--research-subject-width); }
 .research-table .research-origin-col { width: var(--research-region-width); }
-.research-table .research-evidence-col { width: var(--catalog-notes-width); }
-.research-table .research-reference-col { width: auto; }
+.research-table .research-evidence-col { width: auto; }
+.research-table .research-reference-col { width: var(--research-sources-width); }
 .research-table th, .research-table td { border-color: var(--table-row-border); }
 .research-table thead th { border-color: var(--table-header-border); }
 .research-table :is(th, td).notes-cell { border-left-color: var(--line); }
@@ -107,7 +111,11 @@ th[aria-sort]:not([aria-sort="none"]) { background: var(--table-hover); }
 th[aria-sort]:not([aria-sort="none"]) .sort-indicator { color: var(--accent); font-weight: 700; }
 .version-section:not([hidden]) ~ .version-section:not([hidden]) { margin-top: var(--table-gap); }
 #catalog :is(.version-section, tbody)[hidden] { display: none !important; }
-.version-group-heading th, .research-kind-row th, .download-general-category th, .hash-group-heading th { padding: 5px 8px; text-align: left; font-weight: 700; background: var(--table-group-surface); }
+.version-group-heading th, .research-kind-row th, .research-category-heading th, .methodology-group-heading th, .download-category-heading th, .download-general-category th, .hash-group-heading th { padding: 5px 8px; text-align: left; font-weight: 700; background: var(--table-group-surface); }
+.download-category-heading th { cursor: pointer; }
+.download-category-heading:hover th { background: var(--table-hover); }
+.table-group-toggle { position: sticky; float: right; right: 8px; top: auto; transform: none; margin-block: -2px; }
+.has-group-controls .download-region:not(.is-group-expanded) > .download-catalog-row { display: none; }
 #other-titles-catalog tbody[data-version-group="Elancia"] .version-group-heading th { border-top: 1px solid var(--table-row-border); }
 .version-table, .downloads-table, .hashes-table { width: 100%; table-layout: fixed; }
 .hashes-table { min-width: var(--catalog-table-min-width); }
@@ -245,6 +253,8 @@ table td.dash-placeholder, table th.dash-placeholder, .download-size .dash-place
   .section-intro { line-height: 1.65; }
 }
 @media print {
+  .table-group-toggle { display: none; }
+  .has-group-controls .download-region:not(.is-group-expanded) > .download-catalog-row:not([hidden]) { display: table-row; }
   .section-table-nav { display: none; }
   .catalog-filters { display: none; }
   .table-toggle { display: none; }

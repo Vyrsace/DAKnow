@@ -7,16 +7,20 @@
   if (!section || !query || !counter) return;
 
   const normalize = text => text.replace(/\s+/g, ' ').trim().toLocaleLowerCase();
-  const groups = [...section.querySelectorAll('.evidence-region')].map(element => ({
-    element,
-    bodies: [...element.querySelectorAll('tbody')].map(element => ({
-      element,
-      rows: [...element.querySelectorAll('.research-row')].map(element => ({
-        element,
-        text: normalize([...element.cells].map(cell => cell.textContent).join(' '))
-      }))
-    }))
-  }));
+  const groups = [...section.querySelectorAll('tbody.evidence-region')].map(element => {
+    const bodies = [];
+    let body = { element: null, rows: [] };
+    bodies.push(body);
+    [...element.rows].forEach(row => {
+      if (row.matches('.research-kind-row')) {
+        body = { element: row, rows: [] };
+        bodies.push(body);
+      } else if (row.matches('.research-row')) {
+        body.rows.push({ element: row, text: normalize([...row.cells].map(cell => cell.textContent).join(' ')) });
+      }
+    });
+    return { element, bodies };
+  });
   const total = groups.reduce((count, group) => count + group.bodies.reduce((sum, body) => sum + body.rows.length, 0), 0);
 
   function refresh() {
@@ -31,7 +35,7 @@
           row.element.hidden = !visible;
           if (visible) bodyCount += 1;
         });
-        body.element.hidden = bodyCount === 0;
+        if (body.element) body.element.hidden = bodyCount === 0;
         groupCount += bodyCount;
       });
       // Hide the title, headers and wrapper together when a table has no matches.
