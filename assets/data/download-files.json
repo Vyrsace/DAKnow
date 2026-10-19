@@ -2517,7 +2517,7 @@
       "regionId": "my-orphelias",
       "subject": "4.20 attribution and Temuair comparison",
       "notes": [
-        "The Orphelias-labeled archive matches Temuair 4.20 in the main executable, game data and maps, and its documentation names Temuair. The archive adds Legend.cfg and Legends.prf and omits music/5.mus through music/9.mus. Its independently distinct Orphelias identity remains unconfirmed"
+        "The Opherlias-labeled archive matches Temuair 4.20 in the main executable, game data and maps, and its documentation names Temuair. The archive adds Legend.cfg and Legends.prf and omits music/5.mus through music/9.mus. Its independently distinct Opherlias identity remains unconfirmed"
       ],
       "appliesToRowKeys": [
         "c515775922af78cdc7fc25ec593cc6d8aa66a9a03e64ad5adcbea119946a4c83"

@@ -800,7 +800,7 @@
           "region": "Malaysia — Temuair",
           "notes": [
             "Version 4.20.",
-            "Byte-identical to the preserved Orphelias 4.20 executable."
+            "Byte-identical to the preserved Opherlias 4.20 executable."
           ],
           "paths": [
             "Downloads/MY - Legends of Temuair/4.20/Client/Extracted-Main/Legends.exe"
@@ -866,15 +866,15 @@
     },
     {
       "id": "my-orphelias",
-      "title": "Legends of Orphelias — Malaysia",
-      "region": "Malaysia — Orphelias",
+      "title": "Legends of Opherlias — Malaysia",
+      "region": "Malaysia — Opherlias",
       "entries": [
         {
           "filename": "Legends.exe",
           "version": "4.20",
           "bytes": 938069,
           "sha256": "fb5427ede7878e7422d34148ac7a92faef32214501c81491c5e94020886d819e",
-          "region": "Malaysia — Orphelias",
+          "region": "Malaysia — Opherlias",
           "notes": [
             "Version 4.20.",
             "Byte-identical to the preserved Temuair 4.20 executable."
