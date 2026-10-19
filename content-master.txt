@@ -146,7 +146,7 @@
     [/TOC.Entry]
 
     [TOC.Entry ID="catalog"]
-        [TOC.Link]Versions[/TOC.Link]
+        [TOC.Link]Version History[/TOC.Link]
         [TOC.ChildLink ID="version-table-heading"]DarkAges IV - DarkAges / Legends of Darkness[/TOC.ChildLink]
         [TOC.ChildLink ID="other-titles-heading"]Other Titles[/TOC.ChildLink]
     [/TOC.Entry]
@@ -184,7 +184,7 @@
 [/Section]
 
 [Section ID="catalog"]
-    [Section.Title]Versions[/Section.Title]
+    [Section.Title]Version History[/Section.Title]
 
     [Table ID="master-catalog"]
         [Table.Title]DarkAges IV - DarkAges / Legends of Darkness[/Table.Title]
