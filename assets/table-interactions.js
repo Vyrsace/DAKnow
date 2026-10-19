@@ -107,7 +107,6 @@
     heading.addEventListener('click', event => {
       if (event.target.closest(interactive)) return;
       setGroupExpanded(group, button.getAttribute('aria-expanded') !== 'true');
-      button.focus({ preventScroll: true });
     });
     setGroupExpanded(group, index === 0);
     group.closest('table').classList.add('has-group-controls');
@@ -140,7 +139,6 @@
     headingRow.addEventListener('click', event => {
       if (event.target.closest(interactive)) return;
       setExpanded(table, button.getAttribute('aria-expanded') !== 'true');
-      button.focus({ preventScroll: true });
     });
     setExpanded(table, false);
   });

@@ -8,6 +8,8 @@ Color reference: [Woset on Refero Styles](https://styles.refero.design/style/430
 
 This is the current visual contract for the catalog and its three policy pages. Color values live once in `assets/site.css`; components consume semantic variables. Later owner instructions take precedence.
 
+Table and Downloads category title bars toggle without transferring pointer focus to their +/- buttons. Pointer/touch activation shows no purple square around these controls; keyboard navigation and activation retain the shared visible focus outline.
+
 ## Palette by role
 
 | Role | Token | Value | Use |
