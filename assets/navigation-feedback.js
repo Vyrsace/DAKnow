@@ -16,6 +16,7 @@
   }
   function destination(target) {
     if (!target) return null;
+    if (target.matches('tbody.evidence-region')) return target.querySelector(':scope > .research-category-heading') || target;
     if (target.matches('.card-subsection')) return target;
     const row = target.closest('tr');
     if (row) return row;

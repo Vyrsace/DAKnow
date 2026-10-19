@@ -10,6 +10,8 @@ This is the current visual contract for the catalog and its three policy pages. 
 
 Table and Downloads category title bars toggle without transferring pointer focus to their +/- buttons. Pointer/touch activation shows no purple square around these controls; keyboard navigation and activation retain the shared visible focus outline.
 
+Methodology and File Hashes are static tables inside their collapsible sections. Their title bars retain the shared visual hierarchy but have no +/- button, toggle action, pointer cursor or interactive hover fill. Research quick links highlight only the destination category divider using the shared three-second feedback.
+
 ## Palette by role
 
 | Role | Token | Value | Use |

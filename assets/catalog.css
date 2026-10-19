@@ -41,8 +41,9 @@ main > footer#sources { padding-top: 5px; }
 .sources-table .source-usage-col { width: var(--catalog-notes-width); }
 .research-table-wrap { border: 1px solid var(--line); border-radius: 8px; }
 .table-heading-row { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 20px; margin: 0 0 10px; }
-.table-frame > .table-heading-row { position: relative; padding: 8px 46px 8px 10px; margin: 0; background: var(--table-title-surface); cursor: pointer; }
-.table-frame > .table-heading-row:hover { background: var(--table-hover); }
+.table-frame > .table-heading-row { position: relative; padding: 8px 10px; margin: 0; background: var(--table-title-surface); }
+.table-frame:not(.is-table-static) > .table-heading-row { padding-right: 46px; cursor: pointer; }
+.table-frame:not(.is-table-static) > .table-heading-row:hover { background: var(--table-hover); }
 .table-heading-row :is(h3, h4) { margin: 0; min-width: 0; }
 .table-heading-row h3 { font-size: 15px; }
 .section-table-nav { display: flex; justify-content: flex-end; margin: 0 0 6px; font-size: 12px; }

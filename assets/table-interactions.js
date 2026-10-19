@@ -54,11 +54,14 @@
   function setExpanded(table, expanded) {
     const entry = frames.get(table);
     if (!entry) return;
+    if (!entry.button) expanded = true;
     entry.frame.classList.toggle('is-table-expanded', expanded);
-    entry.button.setAttribute('aria-expanded', String(expanded));
-    entry.button.setAttribute('aria-label', `${expanded ? 'Collapse' : 'Expand'} ${entry.label}`);
-    entry.button.title = entry.button.getAttribute('aria-label');
-    entry.button.textContent = expanded ? '−' : '+';
+    if (entry.button) {
+      entry.button.setAttribute('aria-expanded', String(expanded));
+      entry.button.setAttribute('aria-label', `${expanded ? 'Collapse' : 'Expand'} ${entry.label}`);
+      entry.button.title = entry.button.getAttribute('aria-label');
+      entry.button.textContent = expanded ? '−' : '+';
+    }
     entry.wrapper.hidden = !expanded;
     if (expanded && table.id === 'download-files-table' && ![...downloadGroups.keys()].some(group => !group.hidden && group.classList.contains('is-group-expanded'))) {
       const first = [...downloadGroups.keys()].find(group => !group.hidden);
@@ -122,24 +125,28 @@
     }).filter(Boolean).join(' ') || `table ${index + 1}`;
     const frame = document.createElement('div');
     frame.className = 'table-frame';
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.className = 'table-toggle';
+    const staticTable = table.getAttribute('data-static-table') !== null;
+    const button = staticTable ? null : document.createElement('button');
+    frame.classList.toggle('is-table-static', staticTable);
     const headingRow = wrapper.previousElementSibling;
-    headingRow.append(button);
     const bodyIds = [...table.tBodies].map((body, bodyIndex) => {
       if (!body.id) body.id = `catalog-table-${index + 1}-body-${bodyIndex + 1}`;
       return body.id;
     });
-    button.setAttribute('aria-controls', bodyIds.join(' '));
+    if (button) {
+      button.type = 'button';
+      button.className = 'table-toggle';
+      headingRow.append(button);
+      button.setAttribute('aria-controls', bodyIds.join(' '));
+      button.addEventListener('click', () => setExpanded(table, button.getAttribute('aria-expanded') !== 'true'));
+      headingRow.addEventListener('click', event => {
+        if (event.target.closest(interactive)) return;
+        setExpanded(table, button.getAttribute('aria-expanded') !== 'true');
+      });
+    }
     wrapper.before(frame);
     frame.append(headingRow, wrapper);
     frames.set(table, { frame, wrapper, button, label });
-    button.addEventListener('click', () => setExpanded(table, button.getAttribute('aria-expanded') !== 'true'));
-    headingRow.addEventListener('click', event => {
-      if (event.target.closest(interactive)) return;
-      setExpanded(table, button.getAttribute('aria-expanded') !== 'true');
-    });
     setExpanded(table, false);
   });
 

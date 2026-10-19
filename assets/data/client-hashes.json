@@ -276,7 +276,7 @@
           "region": "United States",
           "notes": [
             "Version 7.05.",
-            "The full client and 7.04 → 7.05 patch contain this byte-identical executable."
+            "The client executable derived from an Installer vs a client executable resulting from a 7.04 → 7.05 patch are byte for byte identical."
           ],
           "paths": [
             "Downloads/US - DarkAges/7.05/Client/Extracted-Main/Darkages.exe",
