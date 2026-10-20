@@ -270,7 +270,8 @@
       const section = target?.closest('main > section, main > footer');
       const card = section?.querySelector(':scope > details.collapsible-card');
       if (card) card.open = true;
-      if (target?.id === 'catalog') revealTarget('#version-table-heading');
+      const defaultTable = { catalog: 'version-table-heading', downloads: 'download-files-heading', research: 'research-notes-heading' }[target?.id];
+      if (defaultTable) revealTarget(`#${defaultTable}`);
     }
     revealTarget(link.hash);
   }, true);
