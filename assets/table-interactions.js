@@ -270,6 +270,7 @@
       const section = target?.closest('main > section, main > footer');
       const card = section?.querySelector(':scope > details.collapsible-card');
       if (card) card.open = true;
+      if (target?.id === 'catalog') revealTarget('#version-table-heading');
     }
     revealTarget(link.hash);
   }, true);
